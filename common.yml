@@ -476,13 +476,11 @@ translations:
     - key: options.gender.male
       t: Man
     - key: options.gender.non_binary
-      t: Non-Binary
+      t: Non-Binary or gender non-conforming
     - key: options.gender.questioning
       t: Questioning
     - key: options.gender.not_listed
-      t: Not Listed 
-    - key: options.gender.prefer_not_to_say
-      t: Prefer not to say
+      t: Not Listed
 
     # Race & Ethnicity
 
@@ -508,8 +506,20 @@ translations:
       t: Native American, Pacific Islander, or Indigenous Australian
     - key: options.race_ethnicity.not_listed
       t: Not listed
-    - key: options.race_ethnicity.prefer_not_to_say
-      t: Prefer not to say
+
+    # Disability Status
+    - key: options.disability_status.visual_impairments
+      t: >
+        Visual impairments (such as: blindness, color blindness, etc.)
+    - key: options.disability_status.hearing_impairments
+      t: >
+        Hearing impairments (such as: deafness, tinnitus, etc.)
+    - key: options.disability_status.mobility_impairments
+      t: >
+        Mobility impairments (such as: arthritis, carpal tunnel, etc.)
+    - key: options.disability_status.cognitive_impairments
+      t: >
+        Cognitive impairments (such as: anxiety, dyslexia, etc.)
 
     # Form Factors
     - key: options.form_factors.desktop
@@ -651,12 +661,23 @@ translations:
       t: >
         We use this data to help track and improve the survey's representativeness. 
 
-    # skin tone/appearance
+    # race & ethnicity
     - key: user_info.race_ethnicity
       t: Race & Ethnicity
     - key: user_info.race_ethnicity.description
       t: >
         We use this data to help track and improve the survey's representativeness. 
+
+    # disability status
+    - key: user_info.disability_status
+      t: Disability Status
+    - key: user_info.disability_status.description
+      t: >
+        We use this data to help track and improve the survey's accessibility and representativeness. 
+
+    # disability status (other)
+    - key: user_info.disability_status.others
+      t: Other disabilities
 
     # other info
     - key: user_info.how_did_user_find_out_about_the_survey
@@ -665,12 +686,21 @@ translations:
       t: Your Email
     - key: user_info.country
       t: Your Country or Region
+
     - key: user_info.github_username
       t: Your GitHub Username
     - key: user_info.github_username.description
       t: >
         We might use GitHub usernames in the future to look at
         repos and cross-reference publicly available information. 
+      
+    - key: user_info.twitter_username
+      t: Your Twitter Username
+    - key: user_info.twitter_username.description
+      t: >
+        We might use Twitter usernames in the future to look at
+        Twitter activity and cross-reference publicly available information. 
+
     - key: user_info.industry_sector
       t: Industry Sector
     - key: user_info.industry_sector.description
