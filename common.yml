@@ -476,7 +476,7 @@ translations:
     - key: options.gender.male
       t: Man
     - key: options.gender.non_binary
-      t: Non-Binary or gender non-conforming
+      t: Non-Binary or Gender Non-Conforming
     - key: options.gender.questioning
       t: Questioning
     - key: options.gender.not_listed
@@ -677,7 +677,7 @@ translations:
 
     # disability status (other)
     - key: user_info.disability_status.others
-      t: Other disabilities
+      t: Other Disabilities
 
     # other info
     - key: user_info.how_did_user_find_out_about_the_survey
