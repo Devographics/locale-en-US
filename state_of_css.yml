@@ -182,6 +182,14 @@ translations:
       t: <code>aspect-ratio</code>
     - key: features.content_visibility
       t: <code>content-visibility</code>
+    - key: features.flexbox_gap
+      t: Gap property for flexbox
+    - key: features.break_rules
+      t: Break rules
+    - key: features.break_rules.description
+      t: <code>break-inside</code>, <code>break-before</code>, <code>break-after</code>
+    - key: features.at_container
+      t: <code>@container</code>
 
     # shapes & graphics
     - key: features.shapes
@@ -200,6 +208,18 @@ translations:
       t: CSS Filter Effects
     - key: features.backdrop_filter
       t: <code>backdrop-filter</code>
+
+    - key: features.intrinsic_sizing
+      t: Intrinsic Sizing
+    - key: features.intrinsic_sizing.description
+      t: <code>min-content</code>, <code>max-content</code>, <code>fit-content</code>
+    - key: features.repeating_linear_gradient
+      t: <code>repeating-linear-gradient()</code>
+    - key: features.conic_gradient
+      t: <code>conic-gradient()</code>
+    - key: features.color_function
+      t: <code>color()</code>
+
 
     # interactions
     - key: features.scroll_snap
@@ -259,6 +279,9 @@ translations:
     - key: features.color_gamut
       t: <code>color-gamut</code>
 
+    - key: features.prefers_reduced_data
+      t: <code>prefers-reduced-data</code>
+
     # other features
     - key: features.variables
       t: CSS Variables (Custom Properties)
@@ -274,6 +297,11 @@ translations:
       t: CSS Comparison Functions
     - key: features.comparison_functions.description
       t: <code>min()</code>, <code>max()</code>, and <code>clamp()</code>
+
+    - key: features.at_property
+      t: <code>@property</code>
+    - key: features.content_visibility
+      t: <code>content-visibility</code>
 
     ###########################################################################
     # Units & Selectors
