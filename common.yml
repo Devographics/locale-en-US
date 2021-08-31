@@ -593,37 +593,37 @@ translations:
     - key: options.industry_sector.manufacturing
       t: Manufacturing
 
-    - id: options.tool_evaluation.learning_curve_documentation
+    - key: options.tool_evaluation.learning_curve_documentation
       t: Learning curve & documentation
-    - id: options.tool_evaluation.learning_curve_documentation.description
+    - key: options.tool_evaluation.learning_curve_documentation.description
       t: Is the tool easy to learn and well-documented?
-    - id: options.tool_evaluation.momentum_popularity
+    - key: options.tool_evaluation.momentum_popularity
       t: Hype and momentum
-    - id: options.tool_evaluation.momentum_popularity.description
+    - key: options.tool_evaluation.momentum_popularity.description
       t: Is the tool currently generating a lot of buzz?
-    - id: options.tool_evaluation.user_base_size
+    - key: options.tool_evaluation.user_base_size
       t: User base size
-    - id: options.tool_evaluation.user_base_size.description
+    - key: options.tool_evaluation.user_base_size.description
       t: Is the tool a well-established option with a long track record?
-    - id: options.tool_evaluation.developer_experience_tooling
+    - key: options.tool_evaluation.developer_experience_tooling
       t: Developer experience
-    - id: options.tool_evaluation.developer_experience_tooling.description
+    - key: options.tool_evaluation.developer_experience_tooling.description
       t: Does the tool have good developer tools, a large plugin ecosystem, etc.?
-    - id: options.tool_evaluation.performance_user_experience
+    - key: options.tool_evaluation.performance_user_experience
       t: User experience
-    - id: options.tool_evaluation.performance_user_experience.description
+    - key: options.tool_evaluation.performance_user_experience.description
       t: Does the tool help you create smooth, performant user experiences?
-    - id: options.tool_evaluation.creator_team
+    - key: options.tool_evaluation.creator_team
       t: Creator & team
-    - id: options.tool_evaluation.creator_team.description
+    - key: options.tool_evaluation.creator_team.description
       t: Is the tool backed by a serious team with serious funding or experience?
-    - id: options.tool_evaluation.accessibility_features
+    - key: options.tool_evaluation.accessibility_features
       t: Accessibility features
-    - id: options.tool_evaluation.accessibility_features.description
+    - key: options.tool_evaluation.accessibility_features.description
       t: Does the tool do a good job of creating accessible experiences for all users?
-    - id: options.tool_evaluation.community_inclusivity
+    - key: options.tool_evaluation.community_inclusivity
       t: Community & Inclusivity
-    - id: options.tool_evaluation.community_inclusivity.description
+    - key: options.tool_evaluation.community_inclusivity.description
       t: Does the tool have a welcoming, vibrant community built around it?
 
     ###########################################################################

@@ -518,7 +518,7 @@ translations:
 
     - key: environments.tool_evaluation
       t: Library Evaluation
-    - key: environments.tool_selection_brackets.description
+    - key: environments.tool_evaluation.description
       t: When evaluating a new library, which factors do you prioritize?
 
     ###########################################################################
