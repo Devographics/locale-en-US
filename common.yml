@@ -593,6 +593,7 @@ translations:
     - key: options.industry_sector.manufacturing
       t: Manufacturing
 
+    # tool evaluation
     - key: options.tool_evaluation.learning_curve_documentation
       t: Learning curve & documentation
     - key: options.tool_evaluation.learning_curve_documentation.description
@@ -625,6 +626,26 @@ translations:
       t: Community & Inclusivity
     - key: options.tool_evaluation.community_inclusivity.description
       t: Does the tool have a welcoming, vibrant community built around it?
+
+    # accessibility features
+    - key: keyboard_navigation
+      t: Keyboard navigation
+    - key: compliant_contrast
+      t: WCAG-compliant contrast
+    - key: focus_indicators
+      t: Focus indicators
+    - key: skip_to_content_link
+      t: Skip-to-content link
+    - key: color_themes
+      t: Color themes (dark mode, high-contrast mode, etc.)
+    - key: prefers_reduced_motion
+      t: Prefers-reduced-motion
+    - key: alt_text
+      t: Alt texts
+    - key: semantic_markup
+      t: Semantic markup
+    - key: aria_roles
+      t: ARIA roles
 
     ###########################################################################
     # Tools

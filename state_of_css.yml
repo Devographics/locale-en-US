@@ -102,9 +102,9 @@ translations:
       t: Other CSS tools.
 
     - key: sections.environments.title
-      t: Environments
+      t: Environments & A11y
     - key: sections.environments.description
-      t: Which environments do you write CSS for?
+      t: Which environments and accessibility concerns do you consider when writing CSS?
 
     ###########################################################################
     # Options
@@ -219,6 +219,8 @@ translations:
       t: <code>conic-gradient()</code>
     - key: features.color_function
       t: <code>color()</code>
+    - key: features.color_contrast
+      t: <code>color-contrast()</code>
 
 
     # interactions
@@ -500,6 +502,11 @@ translations:
       t: Form Factors
     - key: environments.form_factors.description
       t: Which form factors do you test on?
+
+    - key: environments.accessibility_features
+      t: Accessibility Features
+    - key: environments.accessibility_features.description
+      t: Which accessibility features do you usually implement?
 
     - key: environments.css_for_print
       t: CSS for Print
