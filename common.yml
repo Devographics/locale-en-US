@@ -627,24 +627,26 @@ translations:
     - key: options.tool_evaluation.community_inclusivity.description
       t: Does the tool have a welcoming, vibrant community built around it?
 
+
+
     # accessibility features
-    - key: keyboard_navigation
+    - key: options.accessibility_features.keyboard_navigation
       t: Keyboard navigation
-    - key: compliant_contrast
+    - key: options.accessibility_features.compliant_contrast
       t: WCAG-compliant contrast
-    - key: focus_indicators
+    - key: options.accessibility_features.focus_indicators
       t: Focus indicators
-    - key: skip_to_content_link
+    - key: options.accessibility_features.skip_to_content_link
       t: Skip-to-content link
-    - key: color_themes
+    - key: options.accessibility_features.color_themes
       t: Color themes (dark mode, high-contrast mode, etc.)
-    - key: prefers_reduced_motion
+    - key: options.accessibility_features.prefers_reduced_motion
       t: Prefers-reduced-motion
-    - key: alt_text
+    - key: options.accessibility_features.alt_text
       t: Alt texts
-    - key: semantic_markup
+    - key: options.accessibility_features.semantic_markup
       t: Semantic markup
-    - key: aria_roles
+    - key: options.accessibility_features.aria_roles
       t: ARIA roles
 
     ###########################################################################

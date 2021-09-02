@@ -152,6 +152,40 @@ translations:
     - key: options.css_for_email.3.short
       t: Mainly
 
+    # CSS pain points
+    - key: options.css_pain_points.browser_interoperability
+      t: Browser Compatibility
+    - key: options.css_pain_points.browser_interoperability.description
+      t: Differences between Chrome, Safari, Firefox, etc.
+    - key: options.css_pain_points.animations
+      t: Animations
+    - key: options.css_pain_points.animations.description
+      t: Setting up animations and transitions. 
+    - key: options.css_pain_points.architecture
+      t: Architecture & Maintenance
+    - key: options.css_pain_points.architecture.description
+      t: File organization, dead code elimination, refactoring, etc.
+    - key: options.css_pain_points.layout_positioning
+      t: Layout & Positioning
+    - key: options.css_pain_points.layout_positioning.description
+      t: Setting up layouts and making sure elements go where you want them to. 
+    - key: options.css_pain_points.scoping_specificity
+      t: Scoping & Specificity
+    - key: options.css_pain_points.scoping_specificity.description
+      t: Dealing with the cascade, overriding styles, etc.
+    - key: options.css_pain_points.responsive_design
+      t: Responsive Design
+    - key: options.css_pain_points.responsive_design.description
+      t: Adapting layouts and designs for different form factors. 
+    - key: options.css_pain_points.form_elements_styling
+      t: Form Elements Styling
+    - key: options.css_pain_points.form_elements_styling.description
+      t: Customizing how form elements look and behave. 
+    - key: options.css_pain_points.performance_issues
+      t: Performance Issues 
+    - key: options.css_pain_points.performance_issues.description
+      t: Dealing with scrolling jank, making animations smoother, etc. 
+
     ###########################################################################
     # Features
     ###########################################################################
@@ -523,9 +557,9 @@ translations:
     - key: charts.axis_legends.css_for_email
       t: Frequency
 
-    - key: environments.tool_evaluation
+    - key: tools_others.tool_evaluation
       t: Library Evaluation
-    - key: environments.tool_evaluation.description
+    - key: tools_others.tool_evaluation.description
       t: When evaluating a new library, which factors do you prioritize?
 
     ###########################################################################
@@ -562,10 +596,28 @@ translations:
     - key: opinions.enjoy_writing_css.title
       t: Enjoyment
 
-    - key: opinions_other.currently_missing_from_css.others
+    # Browser interoperability question
+    - key: opinions.browser_interoperability_features
+      t: Browser Incompatibilities
+    - key: opinions.browser_interoperability_features.description
+      t: Are there any CSS features you refrain from using because of incompatibilities between browsers?
+
+    # Pain Points
+    - key: opinions.css_pain_points
+      t: CSS Pain Points
+    - key: opinions.css_pain_points.description
+      t: Which aspects of CSS do you struggle with the most?
+
+    - key: opinions.css_pain_points.others
+      t: Other CSS Pain Points
+
+    # Missing Features
+    - key: opinions_other.currently_missing_from_css
       t: What do you feel is currently missing from CSS?
-    - key: opinions_other.currently_missing_from_css.others.description
+    - key: opinions_other.currently_missing_from_css.description
       t: Features you'd like to see in CSS one day.
+    - key: opinions_other.currently_missing_from_css.others
+      t: Other Missing Features
     - key: opinions_other.currently_missing_from_css.others.note
       t: >
           These results were normalized based on the contents of a freeform field.
