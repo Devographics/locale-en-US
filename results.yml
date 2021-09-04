@@ -489,6 +489,10 @@ translations:
       t: Share by email
     - key: share.image
       t: Get image
+    - key: share.link
+      t: Link to section
+    - key: share.close
+      t: Close
 
     ###########################################################################
     # Views
