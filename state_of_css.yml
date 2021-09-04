@@ -49,6 +49,11 @@ translations:
     - key: sections.animations_transforms.description
       t: Animating and transforming elements.
 
+    - key: sections.accessibility.title
+      t: Accessibility
+    - key: sections.accessibility.description
+      t: Accessibility features and techniques. 
+
     - key: sections.media_queries.title
       t: Media Queries
     - key: sections.media_queries.description
@@ -102,7 +107,7 @@ translations:
       t: Other CSS tools.
 
     - key: sections.environments.title
-      t: Environments & A11y
+      t: Environments
     - key: sections.environments.description
       t: Which environments and accessibility concerns do you consider when writing CSS?
 
@@ -305,7 +310,7 @@ translations:
     - key: features.perspective
       t: <code>perspective</code>
 
-    # media queries
+    # media queries/accessibility
     - key: features.feature_support_queries
       t: Feature Support Queries (<code>@supports</code>)
     - key: features.prefers_reduced_motion
@@ -317,6 +322,10 @@ translations:
 
     - key: features.prefers_reduced_data
       t: <code>prefers-reduced-data</code>
+    - key: features.tabindex
+      t: <code>tabindex</code> attribute
+    - key: features.tabindex.description
+      t: <code>&lt;div tabindex="0"&gt;</code>
 
     # other features
     - key: features.variables
@@ -338,6 +347,8 @@ translations:
       t: <code>@property</code>
     - key: features.content_visibility
       t: <code>content-visibility</code>
+    - key: features.maker
+      t: <code>::marker</code> pseudo-element
 
     ###########################################################################
     # Units & Selectors
@@ -533,14 +544,16 @@ translations:
       t: Which browsers do you test in?
 
     - key: environments.form_factors
-      t: Form Factors
+      t: Testing Environments
     - key: environments.form_factors.description
-      t: Which form factors do you test on?
+      t: Which form factors or environments do you test on?
 
     - key: environments.accessibility_features
       t: Accessibility Features
     - key: environments.accessibility_features.description
       t: Which accessibility features do you usually implement?
+    - key: environments.accessibility_features.others
+      t: Other Accessibility Features
 
     - key: environments.css_for_print
       t: CSS for Print
@@ -608,7 +621,7 @@ translations:
     - key: opinions.css_pain_points.description
       t: Which aspects of CSS do you struggle with the most?
 
-    - key: opinions.css_pain_points.others
+    - key: opinions_other.css_pain_points.others
       t: Other CSS Pain Points
 
     # Missing Features

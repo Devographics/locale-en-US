@@ -68,6 +68,8 @@ translations:
       t: Translators
     - key: general.translation_help
       t: Translation Help
+    - key: general.newly_added
+      t: Newly added this year
 
     # footer
     - key: general.privacy_policy
@@ -524,6 +526,8 @@ translations:
     # Form Factors
     - key: options.form_factors.desktop
       t: Desktop
+    - key: options.form_factors.keyboard_only
+      t: Desktop with keyboard only
     - key: options.form_factors.smartphone
       t: Smartphone
     - key: options.form_factors.feature_phone
@@ -540,6 +544,10 @@ translations:
       t: Screen reader
     - key: options.form_factors.print
       t: Print
+    - key: options.form_factors.testing_tools
+      t: Testing Tools (Axe, Lighthouse, etc.)
+    - key: options.form_factors.vision_simulator
+      t: Altered Vision Simulator (color blindness, etc.)
 
     # Industry Sector
     - key: options.industry_sector.ecommerce
