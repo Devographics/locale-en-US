@@ -247,6 +247,9 @@ translations:
     - key: blocks.front_end_frameworks_tools_cardinality_by_user.description
       t: Which percentage of respondents use (defined as having answered “would use again”) one, two, three, etc. items in this section.
 
+    - key: blocks.cardinality.max
+      t: Most common answer
+
     # tools arrows
     - key: blocks.tools_arrows.title
       t: Changes Over Time
