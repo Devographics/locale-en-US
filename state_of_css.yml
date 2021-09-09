@@ -162,10 +162,10 @@ translations:
       t: Browser Compatibility
     - key: options.css_pain_points.browser_interoperability.description
       t: Differences between Chrome, Safari, Firefox, etc.
-    - key: options.css_pain_points.animations
-      t: Animations
-    - key: options.css_pain_points.animations.description
-      t: Setting up animations and transitions. 
+    - key: options.css_pain_points.interactions
+      t: Interactions
+    - key: options.css_pain_points.interactions.description
+      t: Responding to user input or other events (scroll, hover, etc.). 
     - key: options.css_pain_points.architecture
       t: Architecture & Maintenance
     - key: options.css_pain_points.architecture.description
@@ -228,7 +228,9 @@ translations:
     - key: features.break_rules.description
       t: <code>break-inside</code>, <code>break-before</code>, <code>break-after</code>
     - key: features.at_container
-      t: <code>@container</code>
+      t: Container Queries
+    - key: features.at_container.description
+      t: <code>@container</code> query
 
     # shapes & graphics
     - key: features.shapes
@@ -258,9 +260,9 @@ translations:
       t: <code>conic-gradient()</code>
     - key: features.color_function
       t: <code>color()</code>
-    - key: features.color_contrast
-      t: <code>color-contrast()</code>
 
+    - key: features.accent_color
+      t: <code>accent-color</code>
 
     # interactions
     - key: features.scroll_snap
@@ -273,6 +275,8 @@ translations:
       t: <code>touch-action</code>
     - key: features.pointer_events
       t: <code>pointer-events</code>
+    - key: features.scroll_timeline
+      t: <code>scroll-timeline</code>
 
     # typography
     - key: features.web_fonts
@@ -323,9 +327,20 @@ translations:
     - key: features.prefers_reduced_data
       t: <code>prefers-reduced-data</code>
     - key: features.tabindex
-      t: <code>tabindex</code> attribute
+      t: <code>tabindex</code> HTML attribute
     - key: features.tabindex.description
       t: <code>&lt;div tabindex="0"&gt;</code>
+
+    - key: features.color_contrast
+      t: <code>color-contrast()</code>
+
+    - key: features.color_scheme
+      t: <code>color-scheme</code>
+
+    - key: features.aria_attributes
+      t: ARIA HTML Attributes
+    - key: features.aria_attributes.description
+      t: <code>&lt;role&gt;</code>, <code>&lt;aria-label&gt;</code>, etc.
 
     # other features
     - key: features.variables
@@ -344,10 +359,12 @@ translations:
       t: <code>min()</code>, <code>max()</code>, and <code>clamp()</code>
 
     - key: features.at_property
+      t: Houdini Custom Properties
+    - key: features.at_property.description
       t: <code>@property</code>
     - key: features.content_visibility
       t: <code>content-visibility</code>
-    - key: features.maker
+    - key: features.marker
       t: <code>::marker</code> pseudo-element
 
     ###########################################################################
@@ -554,6 +571,8 @@ translations:
       t: Which accessibility features do you usually implement?
     - key: environments.accessibility_features.others
       t: Other Accessibility Features
+    - key: environments.accessibility_features.others
+      t: Other accessibility features you usually implement.
 
     - key: environments.css_for_print
       t: CSS for Print
@@ -613,13 +632,15 @@ translations:
     - key: opinions.browser_interoperability_features
       t: Browser Incompatibilities
     - key: opinions.browser_interoperability_features.description
-      t: Are there any CSS features you refrain from using because of incompatibilities between browsers?
+      t: >
+        Are there any CSS features you have difficulties using 
+        because of differences between browsers?
 
     # Pain Points
     - key: opinions.css_pain_points
       t: CSS Pain Points
     - key: opinions.css_pain_points.description
-      t: Which aspects of CSS do you struggle with the most?
+      t: For each choice, pick the aspect of CSS you struggle with the most.
 
     - key: opinions_other.css_pain_points.others
       t: Other CSS Pain Points

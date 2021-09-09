@@ -201,11 +201,11 @@ translations:
 
     # features
     - key: options.features.never_heard
-      t: 🤷 Never heard of it/Not sure what it is
+      t: <span aria-hidden="true">🤷</span> Never heard of it/Not sure what it is
     - key: options.features.heard
-      t: ✅ Know what it is, but haven't used it
+      t: <span aria-hidden="true">✅</span> Know what it is, but haven't used it
     - key: options.features.used
-      t: 👍 I've used it
+      t: <span aria-hidden="true">👍</span> I've used it
 
     # features (no emoji)
     - key: options.features.never_heard.label
@@ -237,15 +237,15 @@ translations:
 
     # tools experience
     - key: options.tools.never_heard
-      t: 🤷 Never heard of it/Not sure what it is
+      t: <span aria-hidden="true">🤷</span> Never heard of it/Not sure what it is
     - key: options.tools.interested
-      t: ✅ Heard of it > Would like to learn
+      t: <span aria-hidden="true">✅</span> Heard of it > Would like to learn
     - key: options.tools.not_interested
-      t: 🚫 Heard of it > Not interested
+      t: <span aria-hidden="true">🚫</span> Heard of it > Not interested
     - key: options.tools.would_use
-      t: 👍 Used it > Would use again
+      t: <span aria-hidden="true">👍</span> Used it > Would use again
     - key: options.tools.would_not_use
-      t: 👎 Used it > Would not use again
+      t: <span aria-hidden="true">👎</span> Used it > Would not use again
 
     # tools experience (no emoji)
     - key: options.tools.never_heard.legend
@@ -306,6 +306,24 @@ translations:
       t: Agree
     - key: options.opinions.4
       t: Agree Strongly
+
+    # age
+    - key: options.age.range_less_than_10
+      t: Under 10 years old
+    - key: options.age.range_10_18
+      t: 10-18 years old
+    - key: options.age.range_18_24
+      t: 18-24 years old
+    - key: options.age.range_25_34
+      t: 24-34 years old
+    - key: options.age.range_35_44
+      t: 35-44 years old
+    - key: options.age.range_45_54
+      t: 45-54 years old
+    - key: options.age.range_55_64
+      t: 55-64 years old
+    - key: options.age.range_more_than_65
+      t: 65 years or older
 
     # years of experience
     - key: options.years_of_experience.range_less_than_1
@@ -522,6 +540,9 @@ translations:
     - key: options.disability_status.cognitive_impairments
       t: >
         Cognitive impairments (such as: anxiety, dyslexia, etc.)
+    - key: options.disability_status.not_listed
+      t: >
+        Not Listed
 
     # Form Factors
     - key: options.form_factors.desktop
@@ -654,8 +675,8 @@ translations:
       t: Alt texts
     - key: options.accessibility_features.semantic_markup
       t: Semantic markup
-    - key: options.accessibility_features.aria_roles
-      t: ARIA roles
+    - key: options.accessibility_features.aria_attributes
+      t: ARIA HTML attributes
 
     ###########################################################################
     # Tools
@@ -675,6 +696,10 @@ translations:
     ###########################################################################
     # Demographics (About You/User Info)
     ###########################################################################
+
+    # age
+    - key: user_info.age
+      t: Age
 
     # years of experience
     - key: user_info.years_of_experience
@@ -763,7 +788,8 @@ translations:
     - key: user_info.twitter_username.description
       t: >
         We might use Twitter usernames in the future to look at
-        Twitter activity and cross-reference publicly available information. 
+        Twitter activity and cross-reference publicly available information
+         (such as the list of people you're following). 
 
     - key: user_info.industry_sector
       t: Industry Sector
