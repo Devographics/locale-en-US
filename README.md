@@ -1,7 +1,5 @@
 # locale-en-US
 
-## Getting Started
-
 This repo contains the English language files for the State of JS/CSS/etc. surveys, which serve as a base to translate all the other languages. You can view a list of [all the locales repos here](https://github.com/StateOfJS/?q=locale-&type=&language=&sort=).
 
 ## Getting Credit
@@ -64,3 +62,11 @@ These strings appear in both.
 ## Joining Translation Teams
 
 It's recommended you join the [translation team](https://github.com/orgs/StateOfJS/teams/translators/teams) for the language you want to translate.
+
+## Local Development
+
+There is currently no easy way to see your strings in context while developing locally. We are working on it. 
+
+## Getting Help
+
+Join [our Discord](https://discord.gg/zRDb35jfrt).
