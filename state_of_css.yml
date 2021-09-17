@@ -362,6 +362,8 @@ translations:
       t: Houdini Custom Properties
     - key: features.at_property.description
       t: <code>@property</code>
+    - key: features.at_layer
+      t: <code>@layer</code>
     - key: features.content_visibility
       t: <code>content-visibility</code>
     - key: features.marker
@@ -592,7 +594,7 @@ translations:
     - key: tools_others.tool_evaluation
       t: Library Evaluation
     - key: tools_others.tool_evaluation.description
-      t: When evaluating a new library, which factors do you prioritize?
+      t: For each matchup, pick the factor you prioritize when evaluating a new library.
 
     ###########################################################################
     # Opinions
@@ -640,7 +642,7 @@ translations:
     - key: opinions.css_pain_points
       t: CSS Pain Points
     - key: opinions.css_pain_points.description
-      t: For each choice, pick the aspect of CSS you struggle with the most.
+      t: For each matchup, pick the aspect of CSS you struggle with the most.
 
     - key: opinions_other.css_pain_points.others
       t: Other CSS Pain Points

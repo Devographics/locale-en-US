@@ -624,9 +624,9 @@ translations:
 
     # tool evaluation
     - key: options.tool_evaluation.learning_curve_documentation
-      t: Learning curve & documentation
+      t: Documentation
     - key: options.tool_evaluation.learning_curve_documentation.description
-      t: Is the tool easy to learn and well-documented?
+      t: Is the tool easy to learn and/or well-documented?
     - key: options.tool_evaluation.momentum_popularity
       t: Hype and momentum
     - key: options.tool_evaluation.momentum_popularity.description
@@ -891,3 +891,19 @@ translations:
       t: Other Podcasts
     - key: resources.podcasts.others.description
       t: Other answers (freeform field).
+
+    # people
+    - key: resources.people
+      t: People
+    - key: resources.people.description
+      t: People you read, follow, or just want to highlight.
+    # - key: resources.people.others
+    #   t: Other People
+    # - key: resources.people.others.description
+    #   t: Other answers (freeform field).
+    - key: resources.people.others
+      t: People
+    - key: resources.people.others.description
+      t: >
+        People you read, follow, or just want to highlight for their work 
+        (freeform field, comma-separated names).
