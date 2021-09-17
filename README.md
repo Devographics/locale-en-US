@@ -2,7 +2,7 @@
 
 ## Getting Started
 
-This repo contains the English language files for the State of JS/CSS/etc. surveys, which serve as a base to translate all the other languages. 
+This repo contains the English language files for the State of JS/CSS/etc. surveys, which serve as a base to translate all the other languages. You can view a list of [all the locales repos here](https://github.com/StateOfJS/?q=locale-&type=&language=&sort=).
 
 ## Getting Credit
 
