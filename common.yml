@@ -71,6 +71,14 @@ translations:
     - key: general.newly_added
       t: Newly added this year
 
+    # credits
+    - key: credits.thanks
+      t: Special Thanks
+    - key: credits.accessibility
+      t: Accessibility Consulting
+    - key: credits.survey_design
+      t: Survey Design
+
     # footer
     - key: general.privacy_policy
       t: Privacy Policy
@@ -133,6 +141,8 @@ translations:
     # forms
     - key: forms.select_option
       t: Select option
+    - key: forms.clear_field
+      t: Clear question
 
     # partners
     - key: partners.our_partners
@@ -646,7 +656,7 @@ translations:
     - key: options.tool_evaluation.creator_team
       t: Creator & team
     - key: options.tool_evaluation.creator_team.description
-      t: Is the tool backed by a serious team with serious funding or experience?
+      t: Is the tool backed by a well-known team with serious funding or experience?
     - key: options.tool_evaluation.accessibility_features
       t: Accessibility features
     - key: options.tool_evaluation.accessibility_features.description
