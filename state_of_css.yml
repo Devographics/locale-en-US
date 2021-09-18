@@ -369,6 +369,36 @@ translations:
     - key: features.marker
       t: <code>::marker</code> pseudo-element
 
+    # missing features
+    - key: features.nesting
+      t: Nesting
+    - key: features.nesting.description
+      t: Being able to nest styles in native CSS. 
+    - key: features.parent_selector
+      t: Parent Selector
+    - key: features.parent_selector.description
+      t: The ability to target a parent element based on its children.
+    - key: features.browser_support
+      t: Browser Support
+    - key: features.browser_support.description
+      t: Better browser support for existing features.
+    - key: features.mixins
+      t: Mixins
+    - key: features.mixins.description
+      t: Group and reuse definitions dynamically.  
+    - key: features.color_functions
+      t: Color Functions
+    - key: features.color_functions.description
+      t: Functions for manipulating color values. 
+    - key: features.container_queries
+      t: Container Queries
+    - key: features.container_queries.description
+      t: Being able to write styles based on the parent container's dimensions.
+    - key: features.scoping
+      t: Scoping
+    - key: features.scoping.description
+      t: The ability to be more specific about where your styles are applied. 
+
     ###########################################################################
     # Units & Selectors
     ###########################################################################
@@ -651,7 +681,7 @@ translations:
     - key: opinions_other.currently_missing_from_css
       t: What do you feel is currently missing from CSS?
     - key: opinions_other.currently_missing_from_css.description
-      t: Features you'd like to see in CSS one day.
+      t: For each matchup, pick the feature you'd most like to be able to use in CSS today.
     - key: opinions_other.currently_missing_from_css.others
       t: Other Missing Features
     - key: opinions_other.currently_missing_from_css.others.note
