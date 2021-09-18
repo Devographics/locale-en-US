@@ -398,6 +398,10 @@ translations:
       t: Scoping
     - key: features.scoping.description
       t: The ability to be more specific about where your styles are applied. 
+    - key: features.subgrid
+      t: Subgrid
+    - key: features.subgrid.description
+      t: Nesting deeper-level subgrids into a parent grid. 
 
     ###########################################################################
     # Units & Selectors
