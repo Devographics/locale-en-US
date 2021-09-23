@@ -203,6 +203,8 @@ translations:
       t: Homepage
     - key: tools.npm_link
       t: NPM
+    - key: tools.technology
+      t: Technology
 
     ###########################################################################
     # Blocks
@@ -514,6 +516,10 @@ translations:
       t: Percentage
     - key: table.count
       t: Count
+    - key: table.year
+      t: Year
+    - key: table.mean
+      t: Mean
 
     ###########################################################################
     # Awards
