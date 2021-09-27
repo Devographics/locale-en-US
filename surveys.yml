@@ -19,7 +19,14 @@ translations:
       t: Start Over
     - key: bracket.winner
       t: >
-        Winner: 
+      Winner: 
+    - key: bracket.round
+      t: Round
+    - key: bracket.empty_bracket
+      t: Pending result (complete the previous round first)
+    - key: bracket.result
+      t: Result
+
 
     ###########################################################################
     # Demographics (About You/User Info)
