@@ -10,6 +10,41 @@ translations:
       t: Global
 
     ###########################################################################
+    # FAQ
+    ###########################################################################
+
+    - key: general.faq
+      t: FAQ
+    - key: faq.create_account
+      t: Why do I need to create an account?
+    - key: faq.create_account.description
+      t: We ask you to create an account in order to avoid duplicate responses, save your data, and notify you when results are published.
+    - key: faq.questions_required
+      t: Is answering every question required?
+    - key: faq.questions_required.description
+      t: No, every question of the survey is optional and can freely be skipped. 
+    - key: faq.data_published
+      t: Will my data be made public?
+    - key: faq.data_published.description
+      t: Yes, all data will be released publicly, but only after being purged of any identifying information (emails, usernames, IDs, etc.).
+    - key: faq.survey_design
+      t: How are the surveys designed?
+    - key: faq.survey_design.description
+      t: Surveys are designed based on community feedback, as well as reviewed by experts. You can [learn more here](https://dev.to/sachagreif/how-the-state-of-js-css-surveys-are-run-4lnb). 
+    - key: faq.results_released
+      t: When will the results be released?
+    - key: faq.results_released.description
+      t: Results are generally released a few weeks after the survey closes.
+    - key: faq.survey_deadline
+      t: When will the survey close?
+    - key: faq.survey_deadline.description
+      t: This survey is scheduled to run until {date}
+    - key: faq.team
+      t: Who runs these surveys?
+    - key: faq.team.description
+      t: Surveys are primarily run by [me](http://sachagreif.com) in collaboration with contributors, translators, and volunteers. 
+
+    ###########################################################################
     # Form Controls
     ###########################################################################
 
@@ -26,6 +61,8 @@ translations:
       t: Pending result (complete the previous round first)
     - key: bracket.result
       t: Result
+    - key: bracket.cancel
+      t: Cancel
 
 
     ###########################################################################

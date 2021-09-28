@@ -636,35 +636,35 @@ translations:
     - key: options.tool_evaluation.learning_curve_documentation
       t: Documentation
     - key: options.tool_evaluation.learning_curve_documentation.description
-      t: Is the tool easy to learn and/or well-documented?
+      t: Is it easy to learn and/or well-documented?
     - key: options.tool_evaluation.momentum_popularity
-      t: Hype and momentum
+      t: Hype & Momentum
     - key: options.tool_evaluation.momentum_popularity.description
-      t: Is the tool currently generating a lot of buzz?
+      t: Is it currently generating a lot of buzz?
     - key: options.tool_evaluation.user_base_size
-      t: User base size
+      t: User Base Size
     - key: options.tool_evaluation.user_base_size.description
-      t: Is the tool a well-established option with a long track record?
+      t: Is it a well-established option with a long track record?
     - key: options.tool_evaluation.developer_experience_tooling
-      t: Developer experience
+      t: Developer Experience
     - key: options.tool_evaluation.developer_experience_tooling.description
-      t: Does the tool have good developer tools, a large plugin ecosystem, etc.?
+      t: Does it have good developer tools, a large plugin ecosystem, etc.?
     - key: options.tool_evaluation.performance_user_experience
-      t: User experience
+      t: User Experience
     - key: options.tool_evaluation.performance_user_experience.description
-      t: Does the tool help you create smooth, performant user experiences?
+      t: Does it help you create smooth, performant user experiences?
     - key: options.tool_evaluation.creator_team
-      t: Creator & team
+      t: Creator & Team
     - key: options.tool_evaluation.creator_team.description
-      t: Is the tool backed by a well-known team with serious funding or experience?
+      t: Is it backed by a well-known, well-funded, or experienced team?
     - key: options.tool_evaluation.accessibility_features
-      t: Accessibility features
+      t: Accessibility Features
     - key: options.tool_evaluation.accessibility_features.description
-      t: Does the tool do a good job of creating accessible experiences for all users?
+      t: Is it good at creating accessible experiences for all users?
     - key: options.tool_evaluation.community_inclusivity
       t: Community & Inclusivity
     - key: options.tool_evaluation.community_inclusivity.description
-      t: Does the tool have a welcoming, vibrant community built around it?
+      t: Does it have a welcoming, vibrant community built around it?
 
 
 
