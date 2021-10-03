@@ -32,6 +32,8 @@ translations:
     - key: general.survey_read_only_back
       t: >
           <a href="{link}">Go back</a> to the main survey page to start or resume a session.
+    - key: general.take_survey
+      t: Take the {name} {year} survey
 
     # surveys
     - key: general.open_surveys
@@ -688,6 +690,36 @@ translations:
     - key: options.accessibility_features.aria_attributes
       t: ARIA HTML attributes
 
+    # learning methods
+    - key: options.learning_methods.books
+      t: Books
+    - key: options.learning_methods.videos
+      t: Videos & screencasts
+    - key: options.learning_methods.school
+      t: School & higher education
+    - key: options.learning_methods.courses_free
+      t: Online courses (free)
+    - key: options.learning_methods.courses_paid
+      t: Online courses (paid)
+    - key: options.learning_methods.podcasts
+      t: Podcasts
+    - key: options.learning_methods.bootcamp
+      t: Coding bootcamp
+    - key: options.learning_methods.on_the_job
+      t: On-the-job training
+    - key: options.learning_methods.self_directed
+      t: Self-directed learning (Google, Stack Overflow, etc.)
+    - key: options.learning_methods.mentoring
+      t: Mentoring
+
+    # degree
+    - key: options.higher_education_degree.no
+      t: No
+    - key: options.higher_education_degree.yes_related
+      t: Yes, in a field related to my current profession
+    - key: options.higher_education_degree.yes_unrelated
+      t: Yes, but in a field unrelated to my current profession
+
     ###########################################################################
     # Tools
     ###########################################################################
@@ -810,6 +842,12 @@ translations:
     - key: user_info.industry_sector.others.description
       t: Other industry sector(s) you work in not mentioned above.
 
+    # degree
+    - key: user_info.higher_education_degree
+      t: Higher Education Degree
+    - key: user_info.higher_education_degree.description
+      t: Do you have a higher education degree?
+
     ###########################################################################
     # Other Tools
     ###########################################################################
@@ -872,6 +910,16 @@ translations:
     # Resources
     ###########################################################################
 
+    # learning method
+    - key: resources.learning_methods
+      t: First Learning Methods
+    - key: resources.learning_methods.description
+      t: When first starting out, how did you initially learn coding?
+    - key: resources.learning_methods.others
+      t: Other First Learning Methods
+    - key: resources.learning_methods.others.description
+      t: Other answers (freeform field).
+    
     # blogs & magazines
     - key: resources.blogs_news_magazines
       t: Blogs & Magazines

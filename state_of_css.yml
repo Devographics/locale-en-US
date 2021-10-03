@@ -157,6 +157,24 @@ translations:
     - key: options.css_for_email.3.short
       t: Mainly
 
+    # what do you use CSS for?
+    - key: options.what_do_you_use_css_for.marketing_sites
+      t: Marketing sites & landing pages
+    - key: options.what_do_you_use_css_for.design_systems
+      t: Design systems
+    - key: options.what_do_you_use_css_for.blogs
+      t: Blogs or other text-heavy sites
+    - key: options.what_do_you_use_css_for.web_apps
+      t: Web apps
+    - key: options.what_do_you_use_css_for.mobile_apps
+      t: Mobile apps
+    - key: options.what_do_you_use_css_for.css_art
+      t: CSS art & illustrations
+    - key: options.what_do_you_use_css_for.emails
+      t: Emails
+    - key: options.what_do_you_use_css_for.printed_documents
+      t: Printed documents
+
     # CSS pain points
     - key: options.css_pain_points.browser_interoperability
       t: Browser Compatibility
@@ -620,6 +638,13 @@ translations:
     - key: environments.css_for_email.description
       t: Do you write CSS for email clients?
 
+    - key: environments.what_do_you_use_css_for
+      t: What do you use CSS for?
+    - key: environments.what_do_you_use_css_for.description
+      t: What kind of project do you usually style with CSS?
+    - key: environments.what_do_you_use_css_for.others
+      t: Other kinds of projects
+
     - key: charts.axis_legends.css_for_print
       t: Frequency
     - key: charts.axis_legends.css_for_email
@@ -703,3 +728,10 @@ translations:
 
     - key: happiness.state_of_css
       t: How happy are you with the general state of CSS?
+
+    ###########################################################################
+    # Resources
+    ###########################################################################
+
+    - key: resources.learning_methods.description
+      t: When first starting out, how did you initially learn CSS?
