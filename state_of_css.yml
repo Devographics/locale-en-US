@@ -639,9 +639,9 @@ translations:
       t: Do you write CSS for email clients?
 
     - key: environments.what_do_you_use_css_for
-      t: What do you use CSS for?
+      t: What do you mainly use CSS for?
     - key: environments.what_do_you_use_css_for.description
-      t: What kind of project do you usually style with CSS?
+      t: What kind of project do you usually use CSS for?
     - key: environments.what_do_you_use_css_for.others
       t: Other kinds of projects
 
@@ -732,6 +732,8 @@ translations:
     ###########################################################################
     # Resources
     ###########################################################################
-
-    - key: resources.learning_methods.description
+    
+    - key: resources.first_steps
+      t: First Steps With CSS
+    - key: resources.first_steps.description
       t: When first starting out, how did you initially learn CSS?

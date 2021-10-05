@@ -80,6 +80,8 @@ translations:
       t: Accessibility Consulting
     - key: credits.survey_design
       t: Survey Design
+    - key: credits.logo_design
+      t: Logo Design
 
     # footer
     - key: general.privacy_policy
@@ -691,25 +693,25 @@ translations:
       t: ARIA HTML attributes
 
     # learning methods
-    - key: options.learning_methods.books
+    - key: options.first_steps.books
       t: Books
-    - key: options.learning_methods.videos
+    - key: options.first_steps.videos
       t: Videos & screencasts
-    - key: options.learning_methods.school
+    - key: options.first_steps.school
       t: School & higher education
-    - key: options.learning_methods.courses_free
+    - key: options.first_steps.courses_free
       t: Online courses (free)
-    - key: options.learning_methods.courses_paid
+    - key: options.first_steps.courses_paid
       t: Online courses (paid)
-    - key: options.learning_methods.podcasts
+    - key: options.first_steps.podcasts
       t: Podcasts
-    - key: options.learning_methods.bootcamp
+    - key: options.first_steps.bootcamp
       t: Coding bootcamp
-    - key: options.learning_methods.on_the_job
+    - key: options.first_steps.on_the_job
       t: On-the-job training
-    - key: options.learning_methods.self_directed
+    - key: options.first_steps.self_directed
       t: Self-directed learning (Google, Stack Overflow, etc.)
-    - key: options.learning_methods.mentoring
+    - key: options.first_steps.mentoring
       t: Mentoring
 
     # degree
@@ -911,13 +913,13 @@ translations:
     ###########################################################################
 
     # learning method
-    - key: resources.learning_methods
+    - key: resources.first_steps
       t: First Learning Methods
-    - key: resources.learning_methods.description
+    - key: resources.first_steps.description
       t: When first starting out, how did you initially learn coding?
-    - key: resources.learning_methods.others
+    - key: resources.first_steps.others
       t: Other First Learning Methods
-    - key: resources.learning_methods.others.description
+    - key: resources.first_steps.others.description
       t: Other answers (freeform field).
     
     # blogs & magazines
