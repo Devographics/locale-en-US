@@ -651,9 +651,9 @@ translations:
       t: Frequency
 
     - key: tools_others.tool_evaluation
-      t: Tool Evaluation
+      t: Library Evaluation
     - key: tools_others.tool_evaluation.description
-      t: For each matchup, pick the factor you prioritize when evaluating a new tool.
+      t: For each matchup, pick the factor you prioritize when evaluating a new library.
 
     ###########################################################################
     # Opinions
