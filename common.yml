@@ -737,7 +737,7 @@ translations:
     - key: tools.other_tools
       t: Other Options
     - key: tools.other_tools.description
-      t: Other options you use for the current section not mentioned in the list above
+      t: Other options you use for the current section not mentioned in the list above.
     - key: tools.happiness
       t: Overall Happiness
     - key: tools.happiness.description

@@ -358,7 +358,7 @@ translations:
     - key: features.aria_attributes
       t: ARIA HTML Attributes
     - key: features.aria_attributes.description
-      t: <code>&lt;role&gt;</code>, <code>&lt;aria-label&gt;</code>, etc.
+      t: <code>role</code>, <code>aria-label</code>, etc.
 
     # other features
     - key: features.variables
@@ -626,7 +626,7 @@ translations:
     - key: environments.accessibility_features.others
       t: Other Accessibility Features
     - key: environments.accessibility_features.others
-      t: Other accessibility features you usually implement.
+      t: Other accessibility features you usually implement
 
     - key: environments.css_for_print
       t: CSS for Print
