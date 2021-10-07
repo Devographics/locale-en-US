@@ -83,6 +83,10 @@ translations:
     - key: credits.logo_design
       t: Logo Design
 
+    # support
+    - key: general.support_from
+      t: With Support From
+
     # footer
     - key: general.privacy_policy
       t: Privacy Policy
