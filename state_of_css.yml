@@ -353,7 +353,7 @@ translations:
       t: <code>color-contrast()</code>
 
     - key: features.color_scheme
-    t: <code>color-scheme</code>
+      t: <code>color-scheme</code>
 
     - key: features.aria_attributes
       t: ARIA HTML Attributes
