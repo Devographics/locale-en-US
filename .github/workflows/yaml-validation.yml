@@ -25,3 +25,12 @@ jobs:
       - uses: actions/checkout@v2
       - name: YAML Lint
         uses: ibiqlik/action-yamllint@v3.0.4
+        with:
+          config_data: |
+            extends: default
+            rules:
+              line-length: disable
+              new-line-at-end-of-file: disable
+              trailing-spaces: disable
+              document-start: disable
+
