@@ -263,6 +263,8 @@ translations:
       t: |
           - Some lines skip years.
           - Technologies with only one year of data are not shown. 
+          - Velocity formula = (most recent opinion - oldest opinion) + (most recent usage) - (oldest usage)
+          - A positive velocity means the usage and/or positive opinions have increased over time.
 
     # tools quadrant
     - key: blocks.tools_quadrant.title
@@ -463,6 +465,32 @@ translations:
       t: Have not used
     - key: charts.tools_arrows.have_used
       t: Have used
+    - key: charts.tools_arrows.x_axis
+      t: X-axis range
+    - key: charts.tools_arrows.y_axis
+      t: Y-axis range
+    - key: charts.tools_arrows.legend
+      t: Legend 
+    - key: charts.tools_arrows.velocity
+      t: Velocity
+    - key: charts.tools_arrows.velocity_positive
+      t: Overall more positive opinions and/or usage over time
+    - key: charts.tools_arrows.velocity_negative
+      t: Overall more negative opinions and/or less usage over time
+    - key: charts.tools_arrows.opinions_positive
+      t: Mostly positive opinions
+    - key: charts.tools_arrows.opinions_negative
+      t: Mostly negative opinions
+    - key: charts.tools_arrows.low_usage
+      t: Low usage
+    - key: charts.tools_arrows.high_usage
+      t: High usage
+    - key: charts.tools_arrows.popularity_positive
+      t: Rising popularity
+    - key: charts.tools_arrows.negative
+      t: Falling popularity
+    
+
 
     ###########################################################################
     # Sharing
