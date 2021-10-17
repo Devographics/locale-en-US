@@ -690,9 +690,9 @@ translations:
       t: Enjoyment
 
     # Browser interoperability question
-    - key: opinions.browser_interoperability_features
+    - key: opinions_other.browser_interoperability_features.others
       t: Browser Incompatibilities
-    - key: opinions.browser_interoperability_features.description
+    - key: opinions_other.browser_interoperability_features.others.description
       t: >
         Are there any CSS features you have difficulties using 
         because of differences between browsers?
@@ -707,9 +707,9 @@ translations:
       t: Other CSS Pain Points
 
     # Missing Features
-    - key: opinions_other.currently_missing_from_css
+    - key: opinions.currently_missing_from_css
       t: What do you feel is currently missing from CSS?
-    - key: opinions_other.currently_missing_from_css.description
+    - key: opinions.currently_missing_from_css.description
       t: For each matchup, pick the feature you'd most like to be able to use in CSS today.
     - key: opinions_other.currently_missing_from_css.others
       t: Other Missing Features
