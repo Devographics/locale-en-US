@@ -19,6 +19,10 @@ translations:
       t: Why do I need to create an account?
     - key: faq.create_account.description
       t: We ask you to create an account in order to avoid duplicate responses, save your data, and notify you when results are published.
+    - key: faq.anonymous_survey
+      t: Can I take the survey anonymously?
+    - key: faq.anonymous_survey.description
+      t: Yes, you can use a fake (something@example.com) or non-identifying email to take the survey as long as you save it for future access. 
     - key: faq.questions_required
       t: Is answering every question required?
     - key: faq.questions_required.description
