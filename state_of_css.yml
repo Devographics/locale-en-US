@@ -690,9 +690,9 @@ translations:
       t: Enjoyment
 
     # Browser interoperability question
-    - key: opinions_other.browser_interoperability_features.others
+    - key: opinions_others.browser_interoperability_features.others
       t: Browser Incompatibilities
-    - key: opinions_other.browser_interoperability_features.others.description
+    - key: opinions_others.browser_interoperability_features.others.description
       t: >
         Are there any CSS features you have difficulties using 
         because of differences between browsers?
@@ -703,7 +703,7 @@ translations:
     - key: opinions.css_pain_points.description
       t: For each matchup, pick the aspect of CSS you struggle with the most.
 
-    - key: opinions_other.css_pain_points.others
+    - key: opinions_others.css_pain_points.others
       t: Other CSS Pain Points
 
     # Missing Features
@@ -711,9 +711,9 @@ translations:
       t: What do you feel is currently missing from CSS?
     - key: opinions.currently_missing_from_css.description
       t: For each matchup, pick the feature you'd most like to be able to use in CSS today.
-    - key: opinions_other.currently_missing_from_css.others
+    - key: opinions_others.currently_missing_from_css.others
       t: Other Missing Features
-    - key: opinions_other.currently_missing_from_css.others.note
+    - key: opinions_others.currently_missing_from_css.others.note
       t: >
           These results were normalized based on the contents of a freeform field.
           To view the raw, unprocessed responses check out [whatsmissingfromcss.com](http://whatsmissingfromcss.com/).
