@@ -723,7 +723,7 @@ translations:
       t: Mentoring
 
     # degree
-    - key: options.higher_education_degree.no
+    - key: options.higher_education_degree.no_degree
       t: No
     - key: options.higher_education_degree.yes_related
       t: Yes, in a field related to my current profession
