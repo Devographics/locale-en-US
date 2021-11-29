@@ -72,28 +72,3 @@ translations:
     ###########################################################################
     # Demographics (About You/User Info)
     ###########################################################################
-
-    - key: user_info.gender.description
-      t: >
-        Which of the following describe you, if any?
-
-
-        We use this data to help track and improve the survey's inclusivity
-        and representativeness. Like every other question, it is entirely optional. 
-
-    - key: user_info.race_ethnicity.description
-      t: >
-        Which of the following describe you, if any? Please check all that apply.
-        
-
-        We use this data to help track and improve the survey's inclusivity
-        and representativeness. Like every other question, it is entirely optional. 
-
-    - key: user_info.disability_status.description
-      t: >
-        Which of the following describe you, if any? Please check all that apply. 
-        Note that this can include temporary disabilities or injuries. 
-        
-
-        We use this data to help track and improve the survey's accessibility
-        and representativeness. Like every other question, it is entirely optional. 

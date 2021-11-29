@@ -209,6 +209,41 @@ translations:
     - key: options.css_pain_points.performance_issues.description
       t: Dealing with scrolling jank, making animations smoother, etc. 
 
+
+    # CSS missing features (same as features section)
+    - key: options.currently_missing_from_css.nesting
+      t: Nesting
+    - key: options.currently_missing_from_css.nesting.description
+      t: Being able to nest styles in native CSS. 
+    - key: options.currently_missing_from_css.parent_selector
+      t: Parent Selector
+    - key: options.currently_missing_from_css.parent_selector.description
+      t: The ability to target a parent element based on its children.
+    - key: options.currently_missing_from_css.browser_support
+      t: Browser Support
+    - key: options.currently_missing_from_css.browser_support.description
+      t: Better browser support for existing features.
+    - key: options.currently_missing_from_css.mixins
+      t: Mixins
+    - key: options.currently_missing_from_css.mixins.description
+      t: Group and reuse definitions dynamically.  
+    - key: options.currently_missing_from_css.color_functions
+      t: Color Functions
+    - key: options.currently_missing_from_css.color_functions.description
+      t: Functions for manipulating color values. 
+    - key: options.currently_missing_from_css.container_queries
+      t: Container Queries
+    - key: options.currently_missing_from_css.container_queries.description
+      t: Being able to write styles based on the parent container's dimensions.
+    - key: options.currently_missing_from_css.scoping
+      t: Scoping
+    - key: options.currently_missing_from_css.scoping.description
+      t: The ability to be more specific about where your styles are applied. 
+    - key: options.currently_missing_from_css.subgrid
+      t: Subgrid
+    - key: options.currently_missing_from_css.subgrid.description
+      t: Nesting deeper-level subgrids into a parent grid. 
+
     ###########################################################################
     # Features
     ###########################################################################
@@ -387,7 +422,7 @@ translations:
     - key: features.marker
       t: <code>::marker</code> pseudo-element
 
-    # missing features
+    # missing features (see also options)
     - key: features.nesting
       t: Nesting
     - key: features.nesting.description
@@ -722,6 +757,13 @@ translations:
       t: CSS in one word
     - key: opinions.sum_up_one_word_css.description
       t: How would you sum up your opinion of CSS in one word?
+
+    - key: happiness.pre_post_processors
+      t: How happy are you with the state of pre/post-processors?
+    - key: happiness.css_in_js
+      t: How happy are you with the state of CSS-in-JS libraries?
+    - key: happiness.css_frameworks
+      t: How happy are you with the state of CSS frameworks?
 
     - key: happiness.state_of_the_web
       t: How happy are you with the general state of web technologies?

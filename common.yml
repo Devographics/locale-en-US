@@ -347,6 +347,24 @@ translations:
     - key: options.age.range_more_than_65
       t: 65 years or older
 
+    # age (short versions)
+    - key: options.age.range_less_than_10.short
+      t: '<10'
+    - key: options.age.range_10_18.short
+      t: 10-18
+    - key: options.age.range_18_24.short
+      t: 18-24
+    - key: options.age.range_25_34.short
+      t: 24-34
+    - key: options.age.range_35_44.short
+      t: 35-44
+    - key: options.age.range_45_54.short
+      t: 45-54
+    - key: options.age.range_55_64.short
+      t: 55-64
+    - key: options.age.range_more_than_65.short
+      t: '>65'
+
     # years of experience
     - key: options.years_of_experience.range_less_than_1
       t: Less than one year
@@ -524,6 +542,19 @@ translations:
     - key: options.gender.not_listed
       t: Not Listed
 
+    # Gender (short)
+
+    - key: options.gender.female
+      t: Woman
+    - key: options.gender.male
+      t: Man
+    - key: options.gender.non_binary
+      t: Non-Binary or GNC
+    - key: options.gender.questioning
+      t: Questioning
+    - key: options.gender.not_listed
+      t: Not Listed
+
     # Race & Ethnicity
 
     - key: options.race_ethnicity.white_european
@@ -562,6 +593,23 @@ translations:
     - key: options.disability_status.cognitive_impairments
       t: >
         Cognitive impairments (such as: anxiety, dyslexia, etc.)
+    - key: options.disability_status.not_listed
+      t: >
+        Not Listed
+
+    # Disability Status (short)
+    - key: options.disability_status.visual_impairments
+      t: >
+        Visual impairments
+    - key: options.disability_status.hearing_impairments
+      t: >
+        Hearing impairments
+    - key: options.disability_status.mobility_impairments
+      t: >
+        Mobility impairments
+    - key: options.disability_status.cognitive_impairments
+      t: >
+        Cognitive impairments
     - key: options.disability_status.not_listed
       t: >
         Not Listed
@@ -730,6 +778,22 @@ translations:
     - key: options.higher_education_degree.yes_unrelated
       t: Yes, but in a field unrelated to my current profession
 
+    # degree (short versions)
+    - key: options.higher_education_degree.no_degree.short
+      t: No
+    - key: options.higher_education_degree.yes_related.short
+      t: Yes, in a related field
+    - key: options.higher_education_degree.yes_unrelated.short
+      t: Yes, in an unrelated field
+
+    # bracket
+    - key: options.bracket.round1
+      t: Round 1 wins
+    - key: options.bracket.round2
+      t: Round 2 wins
+    - key: options.bracket.round3
+      t: Round 3 wins
+
     ###########################################################################
     # Tools
     ###########################################################################
@@ -752,24 +816,26 @@ translations:
     # age
     - key: user_info.age
       t: Age
+    - key: user_info.age.description
+      t: How old are you, in years?
 
     # years of experience
     - key: user_info.years_of_experience
       t: Years of Experience
     - key: user_info.years_of_experience.description
-      t: How long you've been working or studying in this field.
+      t: How long have you been working or studying in this field?
 
     # company size
     - key: user_info.company_size
       t: Company Size
     - key: user_info.company_size.description
-      t: How big your company is.
+      t: How big is your company?
 
     # salary ranges
     - key: user_info.yearly_salary
       t: Yearly Salary
     - key: user_info.yearly_salary.description
-      t: In USD.
+      t: Your yearly salary in U.S. dollar. 
 
     # job title
     - key: user_info.job_title
@@ -800,21 +866,32 @@ translations:
       t: Gender
     - key: user_info.gender.description
       t: >
-        We use this data to help track and improve the survey's representativeness. 
-
+        Which of the following options describes you, if any? Please pick one.
+    - key: user_info.gender.note
+      t: >
+        While we know collecting and publishing diversity data can be a sensitive issue, 
+        we do think it's important to obtain this data to help measure and improve 
+        the survey's efforts in terms of inclusivity and representativeness. 
+        
     # race & ethnicity
     - key: user_info.race_ethnicity
       t: Race & Ethnicity
     - key: user_info.race_ethnicity.description
       t: >
-        We use this data to help track and improve the survey's representativeness. 
-
+        Which of the following options describe you, if any? Please check all that apply.
+    - key: user_info.race_ethnicity.note
+      t: >
+        While we know collecting and publishing diversity data can be a sensitive issue, 
+        we do think it's important to obtain this data to help measure and improve 
+        the survey's efforts in terms of inclusivity and representativeness. 
+        
     # disability status
     - key: user_info.disability_status
       t: Disability Status
     - key: user_info.disability_status.description
       t: >
-        We use this data to help track and improve the survey's accessibility and representativeness. 
+        Which of the following disabilities do you experience, if any? Please check all that apply.
+        Note that this can include temporary disabilities or injuries. 
 
     # disability status (other)
     - key: user_info.disability_status.others
@@ -827,6 +904,8 @@ translations:
       t: Your Email
     - key: user_info.country
       t: Your Country or Region
+    - key: user_info.country.description
+      t: Where do you currently reside?
 
     - key: user_info.github_username
       t: Your GitHub Username
