@@ -66,6 +66,15 @@ translations:
   - key: options.experience_ranking.awareness
     t: Awareness
 
+  - key: options.features_mode.grouped
+    t: Grouped
+  - key: options.features_mode.awareness_rank
+    t: By Awareness
+  - key: options.features_mode.usage_rank
+    t: By Usage
+  - key: options.features_mode.usage_ratio_rank
+    t: By Usage Ratio
+
   - key: options.features_simplified.know_it
     t: Know about it
   - key: options.features_simplified.used_it
