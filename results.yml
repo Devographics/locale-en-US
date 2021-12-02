@@ -29,18 +29,22 @@ translations:
 
   - key: tabs.all_respondents
     t: All Respondents
-
   - key: tabs.main_answers
     t: Main Answers
-
   - key: tabs.other_answers
     t: Other Answers
-
   - key: tabs.bracket_wins
     t: Wins
-
   - key: tabs.bracket_matchups
     t: Matchups
+  - key: tabs.chart
+    t: Chart
+  - key: tabs.data
+    t: Data
+  - key: tabs.share
+    t: Share
+  - key: tabs.debug
+    t: Debug
 
   ###########################################################################
   # Block
@@ -328,7 +332,7 @@ translations:
     t: Satisfaction vs Usage
   - key: blocks.tools_quadrant.description
     t: |
-      This chart shows each technology’s **satisfaction ratio** over its total **user count**.
+      This chart shows each technology’s **satisfaction ratio** (or **interest ratio**) over its total **user count**.
       It can be divided into four quadrants:
 
         - **ASSESS**: Low usage, high satisfaction. Technologies worth keeping an eye on.
@@ -338,14 +342,6 @@ translations:
         - **AVOID**: Low usage, low satisfaction. Technologies probably best avoided currently.
 
         - **ANALYZE**: High usage, low satisfaction. Reassess these technologies if you're currently using them.
-  - key: blocks.tools_quadrant.note
-    t: Note that TypeScript appears twice in the chart because it's included in both the JavaScript Flavors and Build Tools sections.
-
-  - key: blocks.tools_quadrant.interest.description
-    t: |
-      This chart shows each technology’s **interest ratio** over its total **user count** (as defined by respondents who are aware of a technology but *haven't* used it yet).
-
-      (Note that low user numbers can be due to either an unknown technology; or a technology with a lot of respondents already using it.)
 
   # category other tools
   - key: blocks.category_other_tools
@@ -649,6 +645,12 @@ translations:
     t: Year
   - key: table.mean
     t: Mean
+  - key: table.usage
+    aliasFor: options.features_simplified.know_it
+  - key: table.awareness
+    aliasFor: options.features_simplified.used_it
+  - key: table.usage_ratio
+    aliasFor: options.features_simplified.usage_ratio
 
   ###########################################################################
   # Awards

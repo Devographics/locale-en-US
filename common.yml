@@ -823,13 +823,13 @@ translations:
     - key: user_info.years_of_experience
       t: Years of Experience
     - key: user_info.years_of_experience.description
-      t: How long have you been working or studying in this field?
+      t: How long have you been working or studying in this field, in years?
 
     # company size
     - key: user_info.company_size
       t: Company Size
     - key: user_info.company_size.description
-      t: How big is your company?
+      t: How big is your company, in number of employees?
 
     # salary ranges
     - key: user_info.yearly_salary
