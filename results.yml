@@ -536,9 +536,13 @@ translations:
   - key: charts.axis_legends.users_count
     t: User Count
   - key: charts.axis_legends.interest_percentage
-    t: Interest Percentage
+    t: Interest %
   - key: charts.axis_legends.satisfaction_percentage
-    t: Satisfaction Percentage
+    t: Satisfaction %
+  - key: charts.axis_legends.usage_percentage
+    t: Usage %
+  - key: charts.axis_legends.awareness_percentage
+    t: Awareness %
   - key: charts.axis_legends.happiness
     t: Happiness
   - key: charts.axis_legends.knowledge_score
@@ -592,6 +596,23 @@ translations:
   - key: charts.tools_arrows.negative
     t: Falling popularity
 
+  - key: options.features_categories.layout
+    aliasFor: sections.layout.title
+  - key: options.features_categories.shapes_graphics
+    aliasFor: sections.shapes_graphics.title
+  - key: options.features_categories.interactions
+    aliasFor: sections.interactions.title
+  - key: options.features_categories.typography
+    aliasFor: sections.typography.title
+  - key: options.features_categories.animations_transforms
+    aliasFor: sections.animations_transforms.title
+  - key: options.features_categories.accessibility
+    aliasFor: sections.accessibility.title
+  - key: options.features_categories.media_queries
+    aliasFor: sections.media_queries.title
+  - key: options.features_categories.other_features
+    aliasFor: sections.other_features.title
+
   ###########################################################################
   # Sharing
   ###########################################################################
@@ -636,7 +657,7 @@ translations:
     t: Table
 
   ###########################################################################
-  # Table
+  # Tables
   ###########################################################################
   - key: table.label
     t: Label
@@ -655,11 +676,46 @@ translations:
   - key: table.mean
     t: Mean
   - key: table.usage
-    aliasFor: options.features_simplified.know_it
-  - key: table.awareness
     aliasFor: options.features_simplified.used_it
+  - key: table.awareness
+    aliasFor: options.features_simplified.know_it
   - key: table.usage_ratio
     aliasFor: options.features_simplified.usage_ratio
+
+  - key: table.usage_count
+    aliasFor: charts.axis_legends.users_count
+  - key: table.satisfaction_percentage
+    aliasFor: charts.axis_legends.satisfaction_percentage
+  - key: table.interest_percentage
+    aliasFor: charts.axis_legends.interest_percentage
+  - key: table.usage_percentage
+    aliasFor: charts.axis_legends.usage_percentage
+  - key: table.awareness_percentage
+    aliasFor: charts.axis_legends.awareness_percentage
+
+
+  - key: table.percentages_table
+    t: Percentages
+  - key: table.rankings_table
+    t: Rankings
+
+  - key: table.satisfaction_rank
+    t: Satisfaction Rank
+  - key: table.interest_rank
+    t: Interest Rank
+  - key: table.usage_rank
+    t: Usage Rank
+  - key: table.awareness_rank
+    t: Awareness Rank
+
+  - key: table.would_not_use_percentage
+    t: Would not use %
+  - key: table.not_interested_percentage
+    t: Not interested %
+  - key: table.would_use_percentage
+    t: Would use again %
+  - key: table.interested_percentage
+    t: Interested %
 
   ###########################################################################
   # Awards
