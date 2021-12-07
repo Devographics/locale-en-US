@@ -381,17 +381,17 @@ translations:
 
     # years of experience (short versions)
     - key: options.years_of_experience.range_less_than_1.short
-      t: '<1'
+      t: '<1 years'
     - key: options.years_of_experience.range_1_2.short
-      t: 1-2
+      t: 1-2 years
     - key: options.years_of_experience.range_2_5.short
-      t: 2-5
+      t: 2-5 years
     - key: options.years_of_experience.range_5_10.short
-      t: 5-10
+      t: 5-10 years
     - key: options.years_of_experience.range_10_20.short
-      t: 10-20
+      t: 10-20 years
     - key: options.years_of_experience.range_more_than_20.short
-      t: '>20'
+      t: '>20 years'
 
     # company size
     - key: options.company_size.range_1
@@ -447,19 +447,19 @@ translations:
 
     # salary (short versions)
     - key: options.yearly_salary.range_work_for_free.short
-      t: '0'
+      t: $0
     - key: options.yearly_salary.range_0_10.short
-      t: 0~10k
+      t: $0-$10k
     - key: options.yearly_salary.range_10_30.short
-      t: 10~30k
+      t: $10k-$30k
     - key: options.yearly_salary.range_30_50.short
-      t: 30~50k
+      t: $30k-$50k
     - key: options.yearly_salary.range_50_100.short
-      t: 50~100k
+      t: $50k-$100k
     - key: options.yearly_salary.range_100_200.short
-      t: 100~200k
+      t: $100k-$200k
     - key: options.yearly_salary.range_more_than_200.short
-      t: '>200k'
+      t: '>$200k'
 
     # job titles
     - key: options.job_title.cto
@@ -539,20 +539,24 @@ translations:
       t: Non-Binary or Gender Non-Conforming
     - key: options.gender.questioning
       t: Questioning
+    - key: options.gender.prefer_not_to_say
+      t: Prefer Not to Say
     - key: options.gender.not_listed
       t: Not Listed
 
     # Gender (short)
 
-    - key: options.gender.female
+    - key: options.gender.female.short
       t: Woman
-    - key: options.gender.male
+    - key: options.gender.male.short
       t: Man
-    - key: options.gender.non_binary
+    - key: options.gender.non_binary.short
       t: Non-Binary or GNC
-    - key: options.gender.questioning
+    - key: options.gender.questioning.short
       t: Questioning
-    - key: options.gender.not_listed
+    - key: options.gender.prefer_not_to_say.short
+      t: Prefer Not to Say
+    - key: options.gender.not_listed.short
       t: Not Listed
 
     # Race & Ethnicity
@@ -578,6 +582,31 @@ translations:
     - key: options.race_ethnicity.native_american_islander_australian
       t: Native American, Pacific Islander, or Indigenous Australian
     - key: options.race_ethnicity.not_listed
+      t: Not listed
+
+    # Race & Ethnicity (short)
+
+    - key: options.race_ethnicity.white_european.short
+      t: White
+    - key: options.race_ethnicity.south_asian.short
+      t: South Asian
+    - key: options.race_ethnicity.south_east_asian.short
+      t: SE Asian
+    - key: options.race_ethnicity.hispanic_latin.short
+      t: Hispanic/Latin
+    - key: options.race_ethnicity.east_asian.short
+      t: East Asian
+    - key: options.race_ethnicity.middle_eastern.short
+      t: Middle Eastern
+    - key: options.race_ethnicity.black_african.short
+      t: Black/African Descent
+    - key: options.race_ethnicity.multiracial.short
+      t: Multiracial
+    - key: options.race_ethnicity.biracial.short
+      t: Biracial
+    - key: options.race_ethnicity.native_american_islander_australian.short
+      t: Native American/Pacific Islander/Indigenous Australian
+    - key: options.race_ethnicity.not_listed.short
       t: Not listed
 
     # Disability Status
@@ -782,9 +811,9 @@ translations:
     - key: options.higher_education_degree.no_degree.short
       t: No
     - key: options.higher_education_degree.yes_related.short
-      t: Yes, in a related field
+      t: Yes, related field
     - key: options.higher_education_degree.yes_unrelated.short
-      t: Yes, in an unrelated field
+      t: Yes, unrelated field
 
     # bracket
     - key: options.bracket.round1
