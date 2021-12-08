@@ -53,6 +53,8 @@ translations:
     t: By Degree
   - key: tabs.by_salary
     t: By Salary
+  - key: tabs.by_gender
+    t: By Gender
 
   ###########################################################################
   # Block
@@ -196,12 +198,12 @@ translations:
   - key: user_info.gender_by_country
     t: Gender By Country
   - key: user_info.gender_by_country.description
-    t: Gender distribution by country with at least 100 respondents, sorted by "mean gender" (each key is assigned an integer value in ascending order) descending.
+    t: Gender distribution by country with at least 100 respondents, sorted by "mean gender" (each gender key being assigned an integer value in ascending order) descending.
 
   - key: user_info.years_of_experience_by_salary
     t: Years of Experience by Salary Range
   - key: user_info.years_of_experience_by_salary.description
-    t: Years of experience by salary range with at least 100 respondents in subgroup, sorted by mean salary ascending.
+    t: Years of experience by salary range.
 
   - key: user_info.yearly_salary_by_country
     t: Salary By Country
@@ -211,12 +213,17 @@ translations:
   - key: user_info.yearly_salary_by_degree
     t: Salary By Higher Education Degree
   - key: user_info.yearly_salary_by_degree.description
-    t: Yearly salary distribution by higher education degree with at least 100 respondents per subgroup, sorted by mean salary descending.
+    t: Yearly salary distribution by higher education degree, sorted by mean salary descending.
 
   - key: user_info.race_ethnicity_by_years_of_experience
     t: Race & Ethnicity by Years of Experience
   - key: user_info.race_ethnicity_by_years_of_experience.description
-    t: Race & ethnicity distribution by years of experience with at least 100 respondents per subgroup, sorted by mean experience ascending.
+    t: Race & ethnicity distribution by years of experience, sorted by mean experience ascending.
+
+  - key: user_info.higher_education_degree_by_gender
+    t: Higher Education Degree by Gender
+  - key: user_info.higher_education_degree_by_gender.description
+    t: Higher education degree distribution by gender.
 
   ###########################################################################
   # Locales
@@ -548,7 +555,7 @@ translations:
     t: All Respondents
   - key: charts.facet_responses
     t: '{count} responses'
-    
+
   - key: charts.axis_legends.years_of_experience
     t: Years of Experience
   - key: charts.axis_legends.yearly_salary
@@ -649,6 +656,10 @@ translations:
 
   - key: share.share
     t: Share
+  - key: share.options
+    t: Share Options
+  - key: share.preview
+    t: Social media preview
   - key: share.site.title
     t: Discover the {siteTitle} results
   - key: share.site.twitter_text
@@ -675,6 +686,8 @@ translations:
     t: Get image
   - key: share.link
     t: Link to section
+  - key: share.url
+    t: Get link
   - key: share.close
     t: Close
 

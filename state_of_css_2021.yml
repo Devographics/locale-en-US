@@ -189,87 +189,185 @@ translations:
     # Picks
     ###########################################################################
 
-    - key: picks.my_2020_pick
-      t: 'My 2020 Pick: '
+    - key: picks.my_pick
+      t: 'My 2021 Pick: '
     - key: picks.intro
       t: We asked members of the CSS community to share their “pick of the year”
 
-    - key: picks.shadeed9.bio
-      t: Author of debuggingcss.com
-    - key: picks.shadeed9.description
+    - key: picks.georgedoescode.name
+      t: The CSS Paint API
+    - key: picks.georgedoescode.bio
+      t: Developer, writer, and generative artist.
+    - key: picks.georgedoescode.description
       t: |
-            Container queries are a long-time awaited feature for us, 
-            and I’m thrilled that the Chrome team is working on support for it natively!
+            The Paint API allows us to create images programmatically, 
+            to use in our CSS. It unlocks a whole world of creativity, 
+            and I am very excited about it! 
 
-
-    - key: picks.argyleink.bio
-      t: CSS at Google
-    - key: picks.argyleink.description
+    - key: picks.cassidoo.name
+      t: Lynn Fisher
+    - key: picks.cassidoo.bio
+      t: Developer advocate, educator, and startup advisor.
+    - key: picks.cassidoo.description
       t: |
-            The humble CSS box is more dynamic every year, and for me 2020 was about logical sides, instead of physical sides. Free internationally contextual content flow, spacing and shorthands? pls & ty 
+            I'd love to pick Lynn Fisher. She's consistently surprised 
+            and delighted the CSS community with her creative projects and experiments, 
+            and I love how much folks can learn from her!
 
+    - key: picks.joshwcomeau.name
+      t: Amelia Wattenberger
+    - key: picks.joshwcomeau.bio
+      t: Software developer and creator of [CSS for JavaScript Developers](https://css-for-js.dev/).
+    - key: picks.joshwcomeau.description
+      t: |
+            Amelia is creating some of the most amazing 
+            interactive blog posts about CSS and JS. 
+            Check out this post about how percentages work in CSS!
 
+    - key: picks.kevinjpowell.name
+      t: Stephanie Eckles
+    - key: picks.kevinjpowell.bio
+      t: CSS Evangelist
+    - key: picks.kevinjpowell.description
+      t: |
+            I'm constantly blown away by Stephanie's continued initiatives 
+            to help share her knowledge of modern CSS techniques, 
+            as well as her contagious enthusiasm for CSS.
+             
+    - key: picks.mmatuzo.name
+      t: aspect-ratio
+    - key: picks.mmatuzo.bio
+      t: Front-end developer from Vienna, and creator of [htmhell.dev](https://htmhell.dev).
+    - key: picks.mmatuzo.description
+      t: |
+            All major browsers shipped support for aspect-ratio in 2021. 
+            At first I underestimated it, but there are so many 
+            situations where this property comes in handy.
+
+    - key: picks.lauragift_.name
+      t: Kevin Powell
+    - key: picks.lauragift_.bio
+      t: Frontend Developer and Content Creator
+    - key: picks.lauragift_.description
+      t: |
+            Kevin creates CSS content on Youtube and I really enjoy watching his videos a lot. 
+            He does a really good job teaching CSS concepts in a way that's easy and fun 
+            to understand.
+    
+    - key: picks.ericwbailey.name
+      t: Miriam Suzanne
+    - key: picks.ericwbailey.bio
+      t: Inclusive Design and \#a11y advocate.
+    - key: picks.ericwbailey.description
+      t: |
+            CSS is about to go from good to great. 
+            Miriam's work on Container Queries and Cascade Layers are going 
+            to revolutionize how CSS is written.
+
+    - key: picks.samuelkraft.name
+      t: Vanilla Extract
+    - key: picks.samuelkraft.bio
+      t: Frontend & design
+    - key: picks.samuelkraft.description
+      t: |
+            Lately I've loved working with Vanilla Extract, it's like CSS Modules but 
+            fully typed with a magical developer experience.
+
+    - key: picks.sachagreif.name
+      t: Open Props
     - key: picks.sachagreif.bio
-      t: Creator of this survey
+      t: State of JS and State of CSS creator
     - key: picks.sachagreif.description
       t: |
-            With this blog post, Amelia Wattenberger didn't just go the extra mile, she ran a whole marathon! The animations and quiz will ensure you finally understand the CSS cascade. 
+            It's really cool to see the feedback loop between new CSS features and new 
+            projects taking advantage of them! And I think Adam Argyle's Open Props 
+            is a great use of Custom Properties (CSS variables).
+
+    - key: picks.shadeed9.name
+      t: Container Queries
+    - key: picks.shadeed9.bio
+      t: Author of [Debugging CSS](https://debuggingcss.com/), Writing at [ishadeed.com](http://ishadeed.com)
+    - key: picks.shadeed9.description
+      t: |
+            CSS container queries again! We got the chance to play with them in a browser. 
+            Thanks to Miriam Suzanne for moving this forward! 
+            I can't wait to use them without a flag.
+
+    # - key: picks.georgedoescode.name
+    #   t: 
+    # - key: picks.georgedoescode.bio
+    #   t: 
+    # - key: picks.georgedoescode.description
+    #   t: |
+
+    # - key: picks.argyleink.bio
+    #   t: CSS at Google
+    # - key: picks.argyleink.description
+    #   t: |
+    #         The humble CSS box is more dynamic every year, and for me 2020 was about logical sides, instead of physical sides. Free internationally contextual content flow, spacing and shorthands? pls & ty 
+
+
+    # - key: picks.sachagreif.bio
+    #   t: Creator of this survey
+    # - key: picks.sachagreif.description
+    #   t: |
+    #         With this blog post, Amelia Wattenberger didn't just go the extra mile, she ran a whole marathon! The animations and quiz will ensure you finally understand the CSS cascade. 
     
-    - key: picks.christianoliff.bio
-      t: Front-end developer for Trimble MAPS
-    - key: picks.christianoliff.description
-      t: |
-          One thing I've really started using and appreciating this year though is Purge CSS- an awesome tool for removing unused CSS. It can greatly reduce the size of your CSS, and its fast and easy to use.
+    # - key: picks.christianoliff.bio
+    #   t: Front-end developer for Trimble MAPS
+    # - key: picks.christianoliff.description
+    #   t: |
+    #       One thing I've really started using and appreciating this year though is Purge CSS- an awesome tool for removing unused CSS. It can greatly reduce the size of your CSS, and its fast and easy to use.
     
-    - key: picks.kilianvalkhof.bio
-      t: Web developer and creator of Polypane
-    - key: picks.kilianvalkhof.description
-      t: |
-          `content-visibility` is making a huge difference in the performance of my web apps already, but at the same time I think it should be the job of browsers to optimize this, not devs.
+    # - key: picks.kilianvalkhof.bio
+    #   t: Web developer and creator of Polypane
+    # - key: picks.kilianvalkhof.description
+    #   t: |
+    #       `content-visibility` is making a huge difference in the performance of my web apps already, but at the same time I think it should be the job of browsers to optimize this, not devs.
 
-    - key: picks.walterstephanie.bio
-      t: User Centered Designer & CSS Lover
-    - key: picks.walterstephanie.description
-      t: |
-          A series of YouTube videos that explain all the new cool CSS features to build modern designs.
+    # - key: picks.walterstephanie.bio
+    #   t: User Centered Designer & CSS Lover
+    # - key: picks.walterstephanie.description
+    #   t: |
+    #       A series of YouTube videos that explain all the new cool CSS features to build modern designs.
 
-    - key: picks.piccalilli_.bio
-      t: Freelance designer & dev who runs piccalil.li
-    - key: picks.piccalilli_.description
-      t: |
-          This blog is an absolute gold mine of CSS knowledge. Michelle is a CSS legend and every post or tutorial they write is heaped with useful content.
+    # - key: picks.piccalilli_.bio
+    #   t: Freelance designer & dev who runs piccalil.li
+    # - key: picks.piccalilli_.description
+    #   t: |
+    #       This blog is an absolute gold mine of CSS knowledge. Michelle is a CSS legend and every post or tutorial they write is heaped with useful content.
 
-    - key: picks.sarasoueidan.bio
-      t: Independent UI/design engineer
-    - key: picks.sarasoueidan.description
-      t: |
-          My pick is a person, namely Rachel Andrew. She taught CSS Grid to a whole generation of developers.
+    # - key: picks.sarasoueidan.bio
+    #   t: Independent UI/design engineer
+    # - key: picks.sarasoueidan.description
+    #   t: |
+    #       My pick is a person, namely Rachel Andrew. She taught CSS Grid to a whole generation of developers.
 
-    - key: picks.5t3ph.bio
-      t: Software Engineer @ Microsoft
-    - key: picks.5t3ph.description
-      t: |
-          In this conference talk, Manuel Matuzovic provides thoughtfully 
-          crafted examples that are engaging, approachable, and actionable.
+    # - key: picks.5t3ph.bio
+    #   t: Software Engineer @ Microsoft
+    # - key: picks.5t3ph.description
+    #   t: |
+    #       In this conference talk, Manuel Matuzovic provides thoughtfully 
+    #       crafted examples that are engaging, approachable, and actionable.
 
-    - key: picks.hugogiraudel.bio
-      t: Non-binary accessibility & diversity advocate
-    - key: picks.hugogiraudel.description
-      t: |
-          Fela is an amazing piece of software. 
-          It’s pretty powerful, relatively easy to use and very performant
+    # - key: picks.hugogiraudel.bio
+    #   t: Non-binary accessibility & diversity advocate
+    # - key: picks.hugogiraudel.description
+    #   t: |
+    #       Fela is an amazing piece of software. 
+    #       It’s pretty powerful, relatively easy to use and very performant
 
-    - key: picks.foolip.bio
-      t: Software Engineer @ Google
-    - key: picks.foolip.description
-      t: |
-          Sergio has recently fixed lots of Flexbox in WebKit and even some in Chromium, 
-          notably bringing flex gap to WebKit, 
-          which means that soon it will be available on all modern browsers. 
+    # - key: picks.foolip.bio
+    #   t: Software Engineer @ Google
+    # - key: picks.foolip.description
+    #   t: |
+    #       Sergio has recently fixed lots of Flexbox in WebKit and even some in Chromium, 
+    #       notably bringing flex gap to WebKit, 
+    #       which means that soon it will be available on all modern browsers. 
     
-    - key: picks.jina.bio
-      t: Design systems advocate and practitioner
-    - key: picks.jina.description
-      t: |
-          The media query to reduce motion, which helps avoid 
-          triggering dizziness and discomfort.
+    # - key: picks.jina.bio
+    #   t: Design systems advocate and practitioner
+    # - key: picks.jina.description
+    #   t: |
+    #       The media query to reduce motion, which helps avoid 
+    #       triggering dizziness and discomfort.
