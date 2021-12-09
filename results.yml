@@ -47,7 +47,7 @@ translations:
     t: Debug
   - key: tabs.by_country
     t: By Country
-  - key: tabs.by_years_of_experience
+  - key: tabs.by_experience
     t: By Experience
   - key: tabs.by_degree
     t: By Degree
@@ -347,12 +347,10 @@ translations:
   - key: blocks.all_sections_tools_cardinality_by_user
     t: Technology Usage Cardinality
   - key: blocks.all_sections_tools_cardinality_by_user.description
-    t: For each section, which percentage of respondents use (defined as having answered “would use again”) one, two, three, etc. technologies.
-
-  - key: blocks.front_end_frameworks_tools_cardinality_by_user
-    t: Technology Usage Cardinality
-  - key: blocks.front_end_frameworks_tools_cardinality_by_user.description
-    t: Which percentage of respondents use (defined as having answered “would use again”) one, two, three, etc. items in this section.
+    t: >
+        For each section, which percentage of respondents **use** 
+        (defined as having answered “would use again”) one, two, three, etc. technologies.
+        The bottom-most bar represents the sum of all other bars.  
 
   - key: blocks.cardinality.max
     t: Most common answer
@@ -518,17 +516,29 @@ translations:
   - key: tool_evaluation.tool_evaluation_wins
     t: Library Evaluation Rankings
   - key: tool_evaluation.tool_evaluation_wins.description
-    t: Results from the new library evaluation factors bracket, ranked by overall wins.
+    t: Results from the library evaluation factors tournament bracket, ranked by overall wins.
+  - key: tool_evaluation.tool_evaluation_matchups
+    t: Library Evaluation Rankings (Matchups)
+  - key: tool_evaluation.tool_evaluation_matchups.description
+    t: Matchups from the library evaluation factors tournament bracket (left-hand item's chances of winning against top-side item).
 
   - key: css_pain_points.css_pain_points_wins
     t: CSS Pain Points
   - key: css_pain_points.css_pain_points_wins.description
     t: Results from the CSS pain points tournament bracket, ranked by overall wins.
+  - key: css_pain_points.css_pain_points_matchups
+    t: Features Missing From CSS (Matchups)
+  - key: css_pain_points.css_pain_points_matchups.description
+    t: Matchups from the CSS pain point tournament bracket (left-hand item's chances of winning against top-side item).
 
   - key: currently_missing_from_css.currently_missing_from_css_wins
     t: Features Missing From CSS
   - key: currently_missing_from_css.currently_missing_from_css_wins.description
     t: Results from the missing features tournament bracket, ranked by overall wins.
+  - key: currently_missing_from_css.currently_missing_from_css_matchups
+    t: Features Missing From CSS (Matchups)
+  - key: currently_missing_from_css.currently_missing_from_css_matchups.description
+    t: Matchups from the missing features tournament bracket (left-hand item's chances of winning against top-side item).
 
   ###########################################################################
   # Charts

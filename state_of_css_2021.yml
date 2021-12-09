@@ -7,29 +7,15 @@ translations:
     - key: sections.introduction.description
       t: |
 
-            <span class="first-letter">F</span>orget everything you know about CSS. Or at least, be ready to reconsider a lot of it. If like me you've been writing CSS for over a decade, CSS in 2020 looks nothing like what you were used to.
+            <span class="first-letter">D</span>o woodworkers have to learn a new, better way to saw a board every couple years? Do painters feel like frauds for still using oil paint? Or is it just us front-end developers who get to experience this constant state of change?
 
-            Instead of breakpoints, we can now leverage CSS Grid to make dynamic, responsive layouts that adapt to any viewport size with fewer lines of code. Instead of relying on global stylesheets, CSS-in-JS lets us colocate our styles with our components to build themeable design systems.
+            With container queries and more just around the corner, 2021 might have felt like the –relative– calm before the storm. But make no mistake, things are definitely happening below the surface, starting with this survey. We took the time (a bit too much time, some might say…) to upgrade a whole bunch of code and give ourselves a couple new power-ups. 
 
-            And most of all, Tailwind CSS has burst onto the scene and, through its use of utility-first CSS, forced us to reconsider the traditional dogma of semantic class names.
-
-            Whether all this change makes you want to write a hyped-up blog post or an angry Twitter rant, we are here to present the data, highlight the trends, and hopefully guide you through another eventful year of CSS!
-
-            ### Team
-
-            The State of CSS Survey is created and maintained by:
-
-            - [Sacha Greif](https://twitter.com/sachagreif): Design, writing, coding
-            - [Raphaël Benitte](https://twitter.com/benitteraphael): Data analysis, data visualizations
+            What this means in practice is that we can now cross-reference two datapoints, such as yearly salaries by country; or gender by country. You'll see some of these breakdowns included throughout the results, but we encourage you to explore the data further using [our API](https://api.stateofjs.com/)!
 
             ### Download Our Data
 
             You can [download the raw JSON data for this survey](https://www.kaggle.com/sachag/state-of-css). Let us know if you end up making your own data visualizations!
-
-            ### Other Links
-
-            - [State of CSS Homepage](https://stateofcss.com)
-            - [State of JS](https://stateofjs.com)
 
             ### Thanks
 
@@ -43,7 +29,7 @@ translations:
 
             And now, let's see what CSS has been up to this year!
 
-            <span class="conclusion__byline">– Sacha and Raphaël</span>
+            <span class="conclusion__byline">– Sacha Greif</span>
 
     ###########################################################################
     # Tshirt
@@ -84,45 +70,40 @@ translations:
 
     - key: sections.user_info.description
       t: |
-          This year's survey reached **11,492** people in **102** countries. For the first time this year,
-          we were able to translate the survey questions in multiple languages thanks to an awesome team of volunteers.
+          This year's survey reached **8,714** developers throughout the world, and in order
+          to help highlight different voices and surface deeper insights, we made a special
+          effort to provide new ways to break our data down. 
 
     - key: sections.features.description
       t: |
-          CSS has seen a surge of new features in recent years, so as you'd expect adoption is
-          lagging a bit behind as the community takes its time to absorb new properties.
-
-    - key: sections.units_selectors.description
-      t: |
-          We're willing to bet you'll find a few things you didn't know about in this section!
+          CSS's dynamism shows no sign of stopping, as developers make an effort to adopt the current
+          crop of new features while looking forward to even more innovation in the next few years. 
 
     - key: sections.technologies.description
       t: |
-          The CSS ecosystem is going through a renewal of sorts, as older mainstays like Bootstrap 
-          now have to accomodate newer entrants like Tailwind CSS. To say nothing of the whole CSS-in-JS
-          movement which, while it has yet to cross over to the CSS mainstream, is nonetheless quite dynamic. 
+          With nearly 50% of respondents happily using one or more CSS-in-JS library, it's safe to say that
+          the category has managed to carve out its niche. Maybe the two sides of the front-end world are 
+          not so far apart after all?
 
-    - key: sections.other_tools.description
+    - key: sections.tools_others.description
       t: |
-          No big surprises here, but it's worth highlighting the appearance of development-focused browsers
-          like Polypane and Sizzy, which go a step further than traditional devtools.
+          Picking a technology can often come down to a series of tough choices between 
+          competing priorities, and this year we tried to capture this process using a new bracket-style question format. 
 
     - key: sections.environments.description
       t: |
-          One of CSS's core strengths is its ability to adapt to different environment, yet for a variety
-          of reasons media like print and email remain unexplored by a majority of CSS developers. Might they
-          turn out to be the next frontier of CSS…?
+          Accessibility has long been an after-thought when it comes to web development, but many developers
+          are now realizing that it should in fact be the foundation on which everything else rests. 
 
     - key: sections.resources.description
       t: |
-          The “other answers” results in this section highlight the richness and diversity of the CSS community,
-          and feature many outstanding blogs and podcasts which we are looking forward to officially adding
-          to the survey next year!
+          Highlighting blogs, podcasts, and sites is fine, but this year we decided to go one step further
+          and actually feature the people who make up the CSS community themselves! 
 
     - key: sections.opinions.description
       t: |
-          These opinions paint a picture of a language getting more mature, but also more complex. And perhaps
-          –at least while we struggle to keep up with the pace of change– a little less enjoyable?
+          Whether it's pain points that hold you back today, or missing features that you hope to use
+          tomorrow, this was your chance to vent and share your gripes with CSS!
           
     ###########################################################################
     # Notes
@@ -300,11 +281,15 @@ translations:
     # - key: picks.georgedoescode.description
     #   t: |
 
-    # - key: picks.argyleink.bio
-    #   t: CSS at Google
-    # - key: picks.argyleink.description
-    #   t: |
-    #         The humble CSS box is more dynamic every year, and for me 2020 was about logical sides, instead of physical sides. Free internationally contextual content flow, spacing and shorthands? pls & ty 
+    - key: picks.argyleink.name
+      t: CSS Noise
+    - key: picks.argyleink.bio
+      t: CSS at Google
+    - key: picks.argyleink.description
+      t: |
+            CSS generated texture and randomness makes for unique and 
+            interesting paint jobs in your design. 
+            Noise tools have made the technique accessible.
 
 
     # - key: picks.sachagreif.bio
