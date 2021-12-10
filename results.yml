@@ -516,29 +516,32 @@ translations:
   - key: tool_evaluation.tool_evaluation_wins
     t: Library Evaluation Rankings
   - key: tool_evaluation.tool_evaluation_wins.description
-    t: Results from the library evaluation factors tournament bracket, ranked by overall wins.
+    t: Which factors do you prioritize when evaluating a new library? Results are ranked by number of tournament rounds won.
+
   - key: tool_evaluation.tool_evaluation_matchups
     t: Library Evaluation Rankings (Matchups)
   - key: tool_evaluation.tool_evaluation_matchups.description
-    t: Matchups from the library evaluation factors tournament bracket (left-hand item's chances of winning against top-side item).
+    t: Which factors do you prioritize when evaluating a new library? Percentage of rounds won by left-hand item against top-side item.
 
   - key: css_pain_points.css_pain_points_wins
     t: CSS Pain Points
   - key: css_pain_points.css_pain_points_wins.description
-    t: Results from the CSS pain points tournament bracket, ranked by overall wins.
+    t: Which aspect of CSS do you struggle with the most? Results are ranked by number of tournament rounds won.
+
   - key: css_pain_points.css_pain_points_matchups
     t: Features Missing From CSS (Matchups)
   - key: css_pain_points.css_pain_points_matchups.description
-    t: Matchups from the CSS pain point tournament bracket (left-hand item's chances of winning against top-side item).
+    t: Which aspect of CSS do you struggle with the most? Percentage of rounds won by left-hand item against top-side item.
 
   - key: currently_missing_from_css.currently_missing_from_css_wins
     t: Features Missing From CSS
   - key: currently_missing_from_css.currently_missing_from_css_wins.description
-    t: Results from the missing features tournament bracket, ranked by overall wins.
+    t: Which feature would you most like to be able to use in CSS today? Results are ranked by number of tournament rounds won.
+
   - key: currently_missing_from_css.currently_missing_from_css_matchups
     t: Features Missing From CSS (Matchups)
   - key: currently_missing_from_css.currently_missing_from_css_matchups.description
-    t: Matchups from the missing features tournament bracket (left-hand item's chances of winning against top-side item).
+    t: Which feature would you most like to be able to use in CSS today? Percentage of rounds won by left-hand item against top-side item.
 
   ###########################################################################
   # Charts
@@ -833,15 +836,14 @@ translations:
 
   - key: hints.units_switcher_hint
     t: >
-      You can use the segmented control at the top right of each block to switch 
-      between relative percentages and absolute counts to get a different view of the
-      same data.
+      You can use the segmented control at the bottom of each block to switch 
+      between different units to get an alternate view of the same data.
 
   - key: hints.export_hint
     t: >
-      The <span class="hint-export-button">Export</span> button at the top of each block
-      lets you get the raw JSON data for any chart, or a GraphQL
-      query you can run against our public API.
+      The <span class="hint-icon hint-export-button">Export</span> tab lets you view the raw 
+      data for any chart, view it as JSON, or get a GraphQL query you can 
+      run against our public API.
 
   - key: hints.completion_hint
     t: >
@@ -867,3 +869,18 @@ translations:
     t: >
       Another guaranteed scientific finding: buying our t-shirt will 
       increase your JavaScript knowledge by over 9000!
+
+  - key: hints.variants_hint
+    t: >
+      Some charts feature additional tabs that offer complementary breakdowns of the same data,
+      or related data. Make sure to check them out!
+
+  - key: hints.share_hint
+    t: >
+      The <span class="hint-icon hint-share-button">Share</span> tab makes it easy to share any chart, 
+      or even download it as an image. 
+
+  - key: hints.bracket_hint
+    t: >
+      <span class="hint-bracket"><span class="hint-text">The following chart provides the results of a tournament-style 8-player bracket in which
+      respondents were tasked with picking the winner of each match-up until a single winner remained.</span><span class="hint-diagram"/></span>
