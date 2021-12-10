@@ -11,21 +11,7 @@ translations:
 
             With container queries and more just around the corner, 2021 might have felt like the –relative– calm before the storm. But make no mistake, things are definitely happening below the surface, starting with this survey. We took the time (a bit too much time, some might say…) to upgrade a whole bunch of code and give ourselves a couple new power-ups. 
 
-            What this means in practice is that we can now cross-reference two datapoints, such as yearly salaries by country; or gender by country. You'll see some of these breakdowns included throughout the results, but we encourage you to explore the data further using [our API](https://api.stateofjs.com/)!
-
-            ### Download Our Data
-
-            You can [download the raw JSON data for this survey](https://www.kaggle.com/sachag/state-of-css). Let us know if you end up making your own data visualizations!
-
-            ### Thanks
-
-            Thanks to all the people who helped us design the survey, including [Chen Hui-Jing](http://chenhuijing.com/), [Philip Jägenstedt](https://blog.foolip.org/), [Adam Argyle](https://nerdy.dev/), [Ahmad Shadeed](https://www.ishadeed.com/), [Robert Flack](https://github.com/flackr), [Dominic Nguyen](https://www.chromatic.com/), [Fantasai](http://fantasai.inkedblade.net/), and [Kilian Valkhof](https://kilianvalkhof.com/).
-
-            Additional thanks to [Alexey Pyltsyn](https://github.com/lex111) for his help with translations.  
-
-            ### Credits & Stuff
-
-            The site is set in IBM Plex Mono. Questions? Feedback? [Get in touch!](mailto:hello@stateofjs.com)
+            What this means in practice is that we can now cross-reference two datapoints, such as yearly salaries by experience level; or gender by country. You'll see some of these breakdowns included throughout the results, but we encourage you to explore the data further using [our API](https://api.stateofjs.com/) or by [downloading our data](https://www.kaggle.com/sachag/state-of-css). Let us know if you end up making your own data visualizations!
 
             And now, let's see what CSS has been up to this year!
 
@@ -40,30 +26,35 @@ translations:
 
     - key: sections.tshirt.description
       t: |
-          ## Support the survey and look good in the process!
+          ## VHS + CSS = 👕
 
-          A quick announcement before the survey results. Introducing our very own 🎈🎉👕 State of CSS T-shirt 👕🎉🎈!
+          Between the bad video quality, the bulky cassettes, and having to rewind, there's not much to miss about the VHS era (ask your dad!). But one thing we *do* miss are the amazing 90s visuals that used to adorn blank VHS tapes. 
 
-          What makes this shirt truly special is that it's the only piece of clothing that also teaches you practical, real-world CSS techniques.
+          But now, thanks to the talented Christopher Kirk-Nielsen you can enjoy all this retro radness while also celebrating your love for CSS at the same time!
 
-          So whether you're going to a conference, a job interview, or just work, this shirt will demonstrate your CSS mastery like no other garment can!
-    
     - key: tshirt.about
       t: About the T-shirt
 
     - key: tshirt.description
       t: |
-          The shirt features the State of CSS logo along with snippets of the actual CSS code used to create each shape. Who knows, you might learn a thing or two!
-
-          We use a high-quality, super-soft tri-blend shirt with a slim fit. 
-          This shirt sizes small, so if you prefer a looser fit we recommend ordering one size up from what you usually wear (I'm wearing an M in the photos).
+          We use a high-quality, super-soft tri-blend shirt with a slim fit printed by our partners at [Cotton Bureau](https://cottonbureau.com/products/css-retro-vhs-t-shirt#/12563968/tee-men-standard-tee-vintage-black-tri-blend-s). 
 
     - key: tshirt.getit
       t: Get It
 
     - key: tshirt.price
-      t: USD $24 + shipping
+      t: USD $29 + shipping
 
+    - key: tshirt.designer.heading
+      t: About the Designer
+
+    - key: tshirt.designer.name
+      t: Christopher Kirk-Nielsen
+
+    - key: tshirt.designer.bio
+      t: |
+          Originally from France but now based in the United States, Chris is not just an amazing front-end developer, but also a talented illustrator who specializes in retro visuals. In fact, we encourage you to also check out his [other t-shirt designs](https://chriskirknielsen.com/designs)!
+          
     ###########################################################################
     # Sections Introductions
     ###########################################################################

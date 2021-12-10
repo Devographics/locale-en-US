@@ -449,7 +449,7 @@ translations:
       with the current overall state of this category?
 
   # newsletter
-  - key: blocks.newsletter
+  - key: blocks.newsletter.title
     t: Stay Tuned
   - key: blocks.newsletter.description
     t: |

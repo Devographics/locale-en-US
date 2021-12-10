@@ -334,7 +334,7 @@ translations:
     # typography
     - key: features.web_fonts
       t: Web fonts (@font-face)
-    - key: features.variables_fonts
+    - key: features.variable_fonts
       t: Variable fonts
     - key: features.line_breaking
       t: Line breaking properties

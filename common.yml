@@ -86,6 +86,10 @@ translations:
       t: Survey Design
     - key: credits.logo_design
       t: Logo Design
+    - key: credits.mobile_testing
+      t: Mobile Testing
+    - key: credits.data_visualizations
+      t: Data Visualizations
 
     # support
     - key: general.support_from
