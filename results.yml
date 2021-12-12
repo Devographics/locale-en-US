@@ -863,12 +863,12 @@ translations:
   - key: hints.sharing_hint
     t: >
       Sharing this survey on Twitter, Facebook, or by email is scientifically proven to 
-      improve your JavaScript performance by up to 15%.
+      improve your coding performance by up to 15%.
 
   - key: hints.tshirt_hint
     t: >
       Another guaranteed scientific finding: buying our t-shirt will 
-      increase your JavaScript knowledge by over 9000!
+      increase your programming skills by over 9000!
 
   - key: hints.variants_hint
     t: >
