@@ -1,52 +1,52 @@
-locale: en-US
+locale: hu-HU
 translations:
-    ###########################################################################
-    # Homepage
-    ###########################################################################
+  ###########################################################################
+  # Homepage
+  ###########################################################################
 
-    - key: homepage.hand_coded
-      t: Hand-coded in Japan.
-    - key: homepage.leave_issue
-      t: Leave an issue
-    - key: homepage.get_in_touch
-      t: Get in touch
+  - key: homepage.hand_coded
+    t: Kézzel kódolva, Japánban.
+  - key: homepage.leave_issue
+    t: Hagyj egy kérdést
+  - key: homepage.get_in_touch
+    t: Lépj kapcsolatba
 
-    - key: homepage.made_by
-      t: 'The State of CSS is Made by:'
+  - key: homepage.made_by
+    t: 'A State of CSS felmérést készítette:'
 
-    - key: homepage.previous_years
-      t: 'Previous Years:'
+  - key: homepage.previous_years
+    t: 'Korábbi évek:'
 
-    - key: homepage.intro
-      t: >
-          ## CSS is evolving faster than ever.
+  - key: homepage.intro
+    t: >
+      ## A CSS minden korábbinál gyorsabban fejlődik.
 
-          Flexbox, Grid, Multi-Column… To say nothing of whole new paradigms like CSS-in-JS.
+      Flexbox, Grid, Multi-Column… Az új paradigmákról, mint a CSS-in-JS nem is beszélve.
 
-          So after the success of our annual [State Of JavaScript](https://stateofjs.com) survey, we’ve decided to take on
-          the world of styles and selectors to help identify the latest trends… and try to bridge
-          the ever-growing “great front-end divide”!
+      Így, a [State Of JavaScript](https://stateofjs.com) felmérés sikerén felbuzdulva, úgy döntöttünk,
+      hogy a stílusok és kiválasztók világában is megpróbáljuk felkutatni a trendeket...  illetve megpróbáljuk áthidalni
+      az egyre növekvő  "Nagy front-end szakadékot”!
 
-    - key: homepage.take_survey
-      t: Take Survey
+  - key: homepage.take_survey
+    t: A felmérés kitöltése
 
-    - key: homepage.view_results
-      t: View 2019 Results
+  - key: homepage.view_results
+    t: 2019-es eredmények megtekintése
 
-    - key: share.help_spread
-      t: Help Spread the Word!
+  - key: share.help_spread
+    t: Vidd hírünket!
 
-    - key: newsletter.stay_tuned
-      t: Stay Tuned
-    - key: newsletter.leave_your_email
-      t: Leave us your email and we’ll let you know when the next survey takes place.
+  - key: newsletter.stay_tuned
+    t: Maradj kapcsolatban
+  - key: newsletter.leave_your_email
+    t: Add meg az email címed és értesítünk a következő felmérésről.
 
-    - key: author.sacha.bio
-      t: >
-          Creator of the [Nivo](http://nivo.rocks/) JavaScript data visualization library as well
-          as [Mozaik](http://mozaik.rocks/), a tool for building beautiful dashboards.
+  - key: author.sacha.bio
+    t: >
+      A [Sidebar](http://sidebar.io) napi hírlevél valamint a
+      [VulcanJS](http://vulcanjs.org) – egy React+GraphQL alapú nyílt forráskódú keretrendszer – készítője.
 
-    - key: author.raphael.bio
-      t: >
-          Creator of the [Sidebar](http://sidebar.io) daily newsletter and
-          [VulcanJS](http://vulcanjs.org), a React+GraphQL open-source framework.
+  - key: author.raphael.bio
+    t: >
+      A [Nivo](http://nivo.rocks/) JavaScript alapú adatvizualizációs, valamint
+      a [Mozaik](http://mozaik.rocks/) – a csodaszép dashboard szerkesztő – készítője.
