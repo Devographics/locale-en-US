@@ -283,7 +283,7 @@ translations:
   - key: features.mdn_link
     t: MDN
   - key: features.caniuse_link
-    t: CanIUse
+    t: Can I use
   - key: features.specification_link
     t: W3C Specification
 
@@ -529,7 +529,7 @@ translations:
     t: Which aspect of CSS do you struggle with the most? Results are ranked by number of tournament rounds won.
 
   - key: css_pain_points.css_pain_points_matchups
-    t: Features Missing From CSS (Matchups)
+    t: CSS Pain Points (Matchups)
   - key: css_pain_points.css_pain_points_matchups.description
     t: Which aspect of CSS do you struggle with the most? Percentage of rounds won by left-hand item against top-side item.
 
