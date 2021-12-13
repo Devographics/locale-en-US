@@ -29,18 +29,32 @@ translations:
 
   - key: tabs.all_respondents
     t: All Respondents
-
   - key: tabs.main_answers
     t: Main Answers
-
   - key: tabs.other_answers
     t: Other Answers
-
   - key: tabs.bracket_wins
     t: Wins
-
   - key: tabs.bracket_matchups
     t: Matchups
+  - key: tabs.chart
+    t: Chart
+  - key: tabs.data
+    t: Data
+  - key: tabs.share
+    t: Share
+  - key: tabs.debug
+    t: Debug
+  - key: tabs.by_country
+    t: By Country
+  - key: tabs.by_experience
+    t: By Experience
+  - key: tabs.by_degree
+    t: By Degree
+  - key: tabs.by_salary
+    t: By Salary
+  - key: tabs.by_gender
+    t: By Gender
 
   ###########################################################################
   # Block
@@ -61,6 +75,15 @@ translations:
     t: Usage
   - key: options.experience_ranking.awareness
     t: Awareness
+
+  - key: options.features_mode.grouped
+    t: Grouped
+  - key: options.features_mode.awareness_rank
+    t: By Awareness
+  - key: options.features_mode.usage_rank
+    t: By Usage
+  - key: options.features_mode.usage_ratio_rank
+    t: By Usage Ratio
 
   - key: options.features_simplified.know_it
     t: Know about it
@@ -172,10 +195,35 @@ translations:
   - key: user_info.source.note
     t: This data is a mix of self-reported answers, referrer data, and URL tracking data.
 
-  - key: user_info.gender_by_countries
-    t: By Country
-  - key: user_info.gender_by_countries.description
-    t: Gender distribution by country, sorted by number of respondents who identify as men.
+  - key: user_info.gender_by_country
+    t: Gender By Country
+  - key: user_info.gender_by_country.description
+    t: Gender distribution by country with at least 100 respondents, sorted by "mean gender" (each gender key being assigned an integer value in ascending order) descending.
+
+  - key: user_info.years_of_experience_by_salary
+    t: Years of Experience by Salary Range
+  - key: user_info.years_of_experience_by_salary.description
+    t: Years of experience by salary range.
+
+  - key: user_info.yearly_salary_by_country
+    t: Salary By Country
+  - key: user_info.yearly_salary_by_country.description
+    t: Yearly salary distribution by country with at least 100 respondents, sorted by mean salary descending.
+
+  - key: user_info.yearly_salary_by_degree
+    t: Salary By Higher Education Degree
+  - key: user_info.yearly_salary_by_degree.description
+    t: Yearly salary distribution by higher education degree, sorted by mean salary descending.
+
+  - key: user_info.race_ethnicity_by_years_of_experience
+    t: Race & Ethnicity by Years of Experience
+  - key: user_info.race_ethnicity_by_years_of_experience.description
+    t: Race & ethnicity distribution by years of experience, sorted by mean experience ascending.
+
+  - key: user_info.higher_education_degree_by_gender
+    t: Higher Education Degree by Gender
+  - key: user_info.higher_education_degree_by_gender.description
+    t: Higher education degree distribution by gender.
 
   ###########################################################################
   # Locales
@@ -299,12 +347,10 @@ translations:
   - key: blocks.all_sections_tools_cardinality_by_user
     t: Technology Usage Cardinality
   - key: blocks.all_sections_tools_cardinality_by_user.description
-    t: For each section, which percentage of respondents use (defined as having answered “would use again”) one, two, three, etc. technologies.
-
-  - key: blocks.front_end_frameworks_tools_cardinality_by_user
-    t: Technology Usage Cardinality
-  - key: blocks.front_end_frameworks_tools_cardinality_by_user.description
-    t: Which percentage of respondents use (defined as having answered “would use again”) one, two, three, etc. items in this section.
+    t: >
+        For each section, which percentage of respondents **use** 
+        (defined as having answered “would use again”) one, two, three, etc. technologies.
+        The bottom-most bar represents the sum of all other bars.  
 
   - key: blocks.cardinality.max
     t: Most common answer
@@ -328,7 +374,7 @@ translations:
     t: Satisfaction vs Usage
   - key: blocks.tools_quadrant.description
     t: |
-      This chart shows each technology’s **satisfaction ratio** over its total **user count**.
+      This chart shows each technology’s **satisfaction ratio** (or **interest ratio**) over its total **user count**.
       It can be divided into four quadrants:
 
         - **ASSESS**: Low usage, high satisfaction. Technologies worth keeping an eye on.
@@ -338,14 +384,6 @@ translations:
         - **AVOID**: Low usage, low satisfaction. Technologies probably best avoided currently.
 
         - **ANALYZE**: High usage, low satisfaction. Reassess these technologies if you're currently using them.
-  - key: blocks.tools_quadrant.note
-    t: Note that TypeScript appears twice in the chart because it's included in both the JavaScript Flavors and Build Tools sections.
-
-  - key: blocks.tools_quadrant.interest.description
-    t: |
-      This chart shows each technology’s **interest ratio** over its total **user count** (as defined by respondents who are aware of a technology but *haven't* used it yet).
-
-      (Note that low user numbers can be due to either an unknown technology; or a technology with a lot of respondents already using it.)
 
   # category other tools
   - key: blocks.category_other_tools
@@ -411,7 +449,7 @@ translations:
       with the current overall state of this category?
 
   # newsletter
-  - key: blocks.newsletter
+  - key: blocks.newsletter.title
     t: Stay Tuned
   - key: blocks.newsletter.description
     t: |
@@ -478,17 +516,32 @@ translations:
   - key: tool_evaluation.tool_evaluation_wins
     t: Library Evaluation Rankings
   - key: tool_evaluation.tool_evaluation_wins.description
-    t: Results from the new library evaluation factors bracket, ranked by overall wins.
+    t: Which factors do you prioritize when evaluating a new library? Results are ranked by number of tournament rounds won.
+
+  - key: tool_evaluation.tool_evaluation_matchups
+    t: Library Evaluation Rankings (Matchups)
+  - key: tool_evaluation.tool_evaluation_matchups.description
+    t: Which factors do you prioritize when evaluating a new library? Percentage of rounds won by left-hand item against top-side item.
 
   - key: css_pain_points.css_pain_points_wins
     t: CSS Pain Points
   - key: css_pain_points.css_pain_points_wins.description
-    t: Results from the CSS pain points tournament bracket, ranked by overall wins.
+    t: Which aspect of CSS do you struggle with the most? Results are ranked by number of tournament rounds won.
+
+  - key: css_pain_points.css_pain_points_matchups
+    t: Features Missing From CSS (Matchups)
+  - key: css_pain_points.css_pain_points_matchups.description
+    t: Which aspect of CSS do you struggle with the most? Percentage of rounds won by left-hand item against top-side item.
 
   - key: currently_missing_from_css.currently_missing_from_css_wins
     t: Features Missing From CSS
   - key: currently_missing_from_css.currently_missing_from_css_wins.description
-    t: Results from the missing features tournament bracket, ranked by overall wins.
+    t: Which feature would you most like to be able to use in CSS today? Results are ranked by number of tournament rounds won.
+
+  - key: currently_missing_from_css.currently_missing_from_css_matchups
+    t: Features Missing From CSS (Matchups)
+  - key: currently_missing_from_css.currently_missing_from_css_matchups.description
+    t: Which feature would you most like to be able to use in CSS today? Percentage of rounds won by left-hand item against top-side item.
 
   ###########################################################################
   # Charts
@@ -513,6 +566,8 @@ translations:
     t: Overall
   - key: charts.all_respondents
     t: All Respondents
+  - key: charts.facet_responses
+    t: '{count} responses'
 
   - key: charts.axis_legends.years_of_experience
     t: Years of Experience
@@ -531,9 +586,13 @@ translations:
   - key: charts.axis_legends.users_count
     t: User Count
   - key: charts.axis_legends.interest_percentage
-    t: Interest Percentage
+    t: Interest %
   - key: charts.axis_legends.satisfaction_percentage
-    t: Satisfaction Percentage
+    t: Satisfaction %
+  - key: charts.axis_legends.usage_percentage
+    t: Usage %
+  - key: charts.axis_legends.awareness_percentage
+    t: Awareness %
   - key: charts.axis_legends.happiness
     t: Happiness
   - key: charts.axis_legends.knowledge_score
@@ -587,12 +646,33 @@ translations:
   - key: charts.tools_arrows.negative
     t: Falling popularity
 
+  - key: options.features_categories.layout
+    aliasFor: sections.layout.title
+  - key: options.features_categories.shapes_graphics
+    aliasFor: sections.shapes_graphics.title
+  - key: options.features_categories.interactions
+    aliasFor: sections.interactions.title
+  - key: options.features_categories.typography
+    aliasFor: sections.typography.title
+  - key: options.features_categories.animations_transforms
+    aliasFor: sections.animations_transforms.title
+  - key: options.features_categories.accessibility
+    aliasFor: sections.accessibility.title
+  - key: options.features_categories.media_queries
+    aliasFor: sections.media_queries.title
+  - key: options.features_categories.other_features
+    aliasFor: sections.other_features.title
+
   ###########################################################################
   # Sharing
   ###########################################################################
 
   - key: share.share
     t: Share
+  - key: share.options
+    t: Share Options
+  - key: share.preview
+    t: Social media preview
   - key: share.site.title
     t: Discover the {siteTitle} results
   - key: share.site.twitter_text
@@ -619,6 +699,8 @@ translations:
     t: Get image
   - key: share.link
     t: Link to section
+  - key: share.url
+    t: Get link
   - key: share.close
     t: Close
 
@@ -631,7 +713,7 @@ translations:
     t: Table
 
   ###########################################################################
-  # Table
+  # Tables
   ###########################################################################
   - key: table.label
     t: Label
@@ -649,6 +731,47 @@ translations:
     t: Year
   - key: table.mean
     t: Mean
+  - key: table.usage
+    aliasFor: options.features_simplified.used_it
+  - key: table.awareness
+    aliasFor: options.features_simplified.know_it
+  - key: table.usage_ratio
+    aliasFor: options.features_simplified.usage_ratio
+
+  - key: table.usage_count
+    aliasFor: charts.axis_legends.users_count
+  - key: table.satisfaction_percentage
+    aliasFor: charts.axis_legends.satisfaction_percentage
+  - key: table.interest_percentage
+    aliasFor: charts.axis_legends.interest_percentage
+  - key: table.usage_percentage
+    aliasFor: charts.axis_legends.usage_percentage
+  - key: table.awareness_percentage
+    aliasFor: charts.axis_legends.awareness_percentage
+
+
+  - key: table.percentages_table
+    t: Percentages
+  - key: table.rankings_table
+    t: Rankings
+
+  - key: table.satisfaction_rank
+    t: Satisfaction Rank
+  - key: table.interest_rank
+    t: Interest Rank
+  - key: table.usage_rank
+    t: Usage Rank
+  - key: table.awareness_rank
+    t: Awareness Rank
+
+  - key: table.would_not_use_percentage
+    t: Would not use %
+  - key: table.not_interested_percentage
+    t: Not interested %
+  - key: table.would_use_percentage
+    t: Would use again %
+  - key: table.interested_percentage
+    t: Interested %
 
   ###########################################################################
   # Awards
@@ -713,15 +836,14 @@ translations:
 
   - key: hints.units_switcher_hint
     t: >
-      You can use the segmented control at the top right of each block to switch 
-      between relative percentages and absolute counts to get a different view of the
-      same data.
+      You can use the segmented control at the bottom of each block to switch 
+      between different units to get an alternate view of the same data.
 
   - key: hints.export_hint
     t: >
-      The <span class="hint-export-button">Export</span> button at the top of each block
-      lets you get the raw JSON data for any chart, or a GraphQL
-      query you can run against our public API.
+      The <span class="hint-icon hint-export-button">Export</span> tab lets you view the raw 
+      data for any chart, view it as JSON, or get a GraphQL query you can 
+      run against our public API.
 
   - key: hints.completion_hint
     t: >
@@ -741,9 +863,24 @@ translations:
   - key: hints.sharing_hint
     t: >
       Sharing this survey on Twitter, Facebook, or by email is scientifically proven to 
-      improve your JavaScript performance by up to 15%.
+      improve your coding performance by up to 15%.
 
   - key: hints.tshirt_hint
     t: >
       Another guaranteed scientific finding: buying our t-shirt will 
-      increase your JavaScript knowledge by over 9000!
+      increase your programming skills by over 9000!
+
+  - key: hints.variants_hint
+    t: >
+      Some charts feature additional tabs that offer complementary breakdowns of the same data,
+      or related data. Make sure to check them out!
+
+  - key: hints.share_hint
+    t: >
+      The <span class="hint-icon hint-share-button">Share</span> tab makes it easy to share any chart, 
+      or even download it as an image. 
+
+  - key: hints.bracket_hint
+    t: >
+      <span class="hint-bracket"><span class="hint-text">The following chart provides the results of a tournament-style 8-player bracket in which
+      respondents were tasked with picking the winner of each match-up until a single winner remained.</span><span class="hint-diagram"/></span>
