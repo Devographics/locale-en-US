@@ -28,9 +28,9 @@ translations:
 
     - key: sections.tshirt.description
       t: |
-          ## VHS + CSS = 👕
+          ## Support the Survey With the State of CSS T-Shirt
 
-          Between the bad video quality, the bulky cassettes, and having to rewind, there's not much to miss about the VHS era (ask your dad!). But one thing we *do* miss are the amazing 90s visuals that used to adorn blank VHS tapes. 
+          Between the bad video quality, the bulky cassettes, and having to rewind, there's not much to miss about the VHS era. But one thing we *do* miss are the amazing 90s visuals that used to adorn blank VHS tapes. 
 
           But now, thanks to the talented Christopher Kirk-Nielsen you can enjoy all this retro radness while also celebrating your love for CSS at the same time!
 
@@ -39,7 +39,7 @@ translations:
 
     - key: tshirt.description
       t: |
-          We use a high-quality, super-soft tri-blend shirt with a slim fit printed by our partners at [Cotton Bureau](https://cottonbureau.com/products/css-retro-vhs-t-shirt#/12563968/tee-men-standard-tee-vintage-black-tri-blend-s). 
+          We use a high-quality, super-soft tri-blend shirt with a slim fit printed by our partners at Cotton Bureau. 
 
     - key: tshirt.getit
       t: Get It
@@ -126,19 +126,19 @@ translations:
     ###########################################################################
 
     - key: award.feature_adoption_delta_award.comment
-      t: With a **{value}** progression in 2020, this was the year CSS Grid crossed over from new technology to established tool.
+      t: With a **{value}** progression in 2021, CSS comparison functions are becoming a key part of every CSS developer's toolkit. 
 
-    - key: award.tool_usage_delta_award.comment
-      t: No other tool comes even close to Tailwind CSS's dramatic **{value}** progression over the last year.
+    # - key: award.tool_usage_delta_award.comment
+    #   t: No other tool comes even close to Tailwind CSS's dramatic **{value}** progression over the last year.
 
     - key: award.tool_satisfaction_award.comment
-      t: PostCSS's **{value}** satisfaction ratio shows that you can't beat doing one thing really, really well.
+      t: PostCSS takes the top spot once again with a **{{value}}** satisfaction ratio.
 
     - key: award.tool_interest_award.comment
-      t: With a **{value}** ratio, CSS Modules have generated the most interest among CSS developers this year.
+      t: With a **{value}** ratio, CSS Modules again generated the most interest among CSS developers this year.
 
-    - key: award.most_write_ins_award.comment
-      t: Many questions also accepted write-in answers, and with **{value}** mentions PhpStorm was the most popular item overall.
+    # - key: award.most_write_ins_award.comment
+    #   t: Many questions also accepted write-in answers, and with **{value}** mentions PhpStorm was the most popular item overall.
 
       
     ###########################################################################
@@ -161,6 +161,9 @@ translations:
 
             All of this together means that 2022 is likely to be a year where the way you write CSS is going to fundamentally change. It's an incredibly exciting period, and we look forward to all the amazing implementations in the year to come.
 
+    - key: conclusion.bio
+      t: Web developer and creator of Polypane
+      
     ###########################################################################
     # Picks
     ###########################################################################
@@ -286,6 +289,13 @@ translations:
             interesting paint jobs in your design. 
             Noise tools have made the technique accessible.
 
+    - key: picks.walterstephanie.name
+      t: Miriam Suzanne 
+    - key: picks.walterstephanie.bio
+      t: UX Researcher and CSS lover 
+    - key: picks.walterstephanie.description
+      t: |
+            Miriam is an artist and an activist who creates software and art that celebrate the queer complexity of human experience. She's a CSS expert, and is doing an amazing job on the specifications for CSS Container Queries.
 
     # - key: picks.sachagreif.bio
     #   t: Creator of this survey
@@ -304,12 +314,6 @@ translations:
     # - key: picks.kilianvalkhof.description
     #   t: |
     #       `content-visibility` is making a huge difference in the performance of my web apps already, but at the same time I think it should be the job of browsers to optimize this, not devs.
-
-    # - key: picks.walterstephanie.bio
-    #   t: User Centered Designer & CSS Lover
-    # - key: picks.walterstephanie.description
-    #   t: |
-    #       A series of YouTube videos that explain all the new cool CSS features to build modern designs.
 
     # - key: picks.piccalilli_.bio
     #   t: Freelance designer & dev who runs piccalil.li
