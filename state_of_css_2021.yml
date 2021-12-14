@@ -308,12 +308,20 @@ translations:
     # - key: picks.christianoliff.description
     #   t: |
     #       One thing I've really started using and appreciating this year though is Purge CSS- an awesome tool for removing unused CSS. It can greatly reduce the size of your CSS, and its fast and easy to use.
-    
-    # - key: picks.kilianvalkhof.bio
-    #   t: Web developer and creator of Polypane
-    # - key: picks.kilianvalkhof.description
+
+    - key: picks.kilianvalkhof.name
+      t: prefers-reduced-data
+    - key: picks.kilianvalkhof.bio
+      t: Web developer and creator of Polypane
+    - key: picks.kilianvalkhof.description
+      t: |
+          We need more devs to ask browsers about this feature, and to realize how big a difference it can make. With 64% of respondents not knowing it though, we have work to do!
+
+    # - key: picks.piccalilli_.bio
+    #   t: Freelance designer & dev who runs piccalil.li
+    # - key: picks.piccalilli_.description
     #   t: |
-    #       `content-visibility` is making a huge difference in the performance of my web apps already, but at the same time I think it should be the job of browsers to optimize this, not devs.
+    #       This blog is an absolute gold mine of CSS knowledge. Michelle is a CSS legend and every post or tutorial they write is heaped with useful content.
 
     # - key: picks.piccalilli_.bio
     #   t: Freelance designer & dev who runs piccalil.li
@@ -355,3 +363,87 @@ translations:
     #   t: |
     #       The media query to reduce motion, which helps avoid 
     #       triggering dizziness and discomfort.
+
+
+###########################################################################
+# Sponsors
+###########################################################################
+
+    - key: partners.frontendmasters.description
+      t: Advance your skills with in-depth, modern front-end engineering courses.
+    - key: partners.polypane.description
+      t: The browser for ambitious devs. Build responsive, accessible and fast websites with ease.
+    - key: partners.google_chrome.description
+      t: Thanks to the Google Chrome team for supporting our work.
+
+###########################################################################
+# FAQ/About
+###########################################################################
+    
+    - key: about.content
+      t: >
+            The 2021 State of CSS survey ran from October 5 to November 2 2021, and collected 8714 responses. The survey is run by me, [Sacha Greif](https://sachagreif.com/), with help from a team of open-source contributors and consultants. 
+
+
+            This year's logo and t-shirt were designed and animated by [Christopher Kirk-Nielsen](http://chriskirknielsen.com/).
+
+            ### Survey Goals
+
+            This survey, along with the [State of JavaScript](https://stateofjs.com/) survey, was created to identify upcoming trends in the web development ecosystem in order to help developers make technological choices. 
+
+
+            As such, these surveys are focused on anticipating what's coming over the next few years rather than analyzing what's popular now, which is why the features or technologies that are currently most widespread are not always included. 
+
+            ### Survey Design
+
+            The survey was designed in part based on last year's survey, with an open feedback period where the survey outline was discussed [on GitHub](https://github.com/StateOfJS/StateOfCSS-2020/issues/8). 
+            
+            All survey questions were optional. 
+
+            ### Survey Audience
+
+            The survey was openly accessible online and respondents were not filtered or selected in any way. Respondents were primarily a mix of respondents from past surveys (alerted through a dedicated mailing list) and social media traffic. 
+
+            ### Representativeness & Inclusivity
+
+            While we believe it's important to give a voice to every community, the reality is that an open survey like this one will always struggle to properly represent everybody, especially when operating through systems that already carry their own inherent biases. 
+
+
+            In order to counter-balance this, we are implementing three distinct strategies:
+
+
+            - **Outreach**: this year, we reached out to 23 organizations representing BIPOC and LGBTQ developers in the hopes of partnering up. While very few of them replied, we will keep looking for ways to reach out beyond our current audience.
+            
+            - **Data Analysis**: through features like facets and variants, we're always trying to make it easier to surface the voices of any demographic segment, no matter how minoritized it might be in our data. 
+            
+            - **Barrier Lowering**: making the survey too long, inaccessible, slow to load, English-only, etc. can all contribute to imposing an "effort tax" that cuts off the parts of the community that can't afford to pay it. Fixing these issues can lower the barrier to entry and in the process make our audience more diverse. 
+
+            ### Project Funding
+
+            Funding from this project comes from a variety of sources:
+
+
+            - **T-shirt sales**. 
+            
+            - **Sponsored links**: the links to recommended resources at the bottom of each page are provided by our partner [Frontend Masters](https://frontendmasters.com/).
+            
+            - **Other Funding**: this year, the [Google Chrome](https://www.google.com/chrome/) team set aside a small budget to help hire an [accessibility consultant](https://fossheim.io/) to work on the survey.
+
+
+            Despite these funding sources, the surveys remains mostly a self-funded project overall and any contribution or sponsorship would be greatly appreciated. I would especially like to work closely with more browser vendors, since they play such a central role in the web ecosystem.  
+
+            ### Technical Overview
+
+            You can find a more in-depth technical overview of how the surveys are run [here](https://dev.to/sachagreif/how-the-state-of-js-css-surveys-are-run-4lnb).
+
+            - **Data collection**: custom [Vulcan.js](http://vulcanjs.org/) app.
+
+            - **Data storage/processing**: MongoDB & MongoDB Aggregations.
+            
+            - **Data API**: Node.js GraphQL API. 
+            
+            - **Results Site**: [Gatsby](https://www.gatsbyjs.com/) React app.
+            
+            - **Data Visualizations**: [Nivo](https://nivo.rocks/) React dataviz library. 
+            
+            - **Type**: [IBM Plex Mono](https://fonts.google.com/specimen/IBM+Plex+Mono) and [Bebas Neue](https://fonts.google.com/specimen/Bebas+Neue).
