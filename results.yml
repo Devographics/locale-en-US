@@ -125,6 +125,8 @@ translations:
     t: Blogs
   - key: options.first_steps.forums
     t: Forums
+  - key: options.first_steps.view_source
+    t: View Source
   
   # other disablities
   - key: options.disability_status_others.adhd
@@ -160,6 +162,9 @@ translations:
 
   - key: sections.conclusion.title
     t: Conclusion
+
+  - key: sections.about.title
+    t: About
 
   - key: sections.support.title
     t: Support Us
@@ -214,6 +219,11 @@ translations:
     t: Salary By Higher Education Degree
   - key: user_info.yearly_salary_by_degree.description
     t: Yearly salary distribution by higher education degree, sorted by mean salary descending.
+
+  - key: user_info.yearly_salary_by_experience
+    t: Salary By Experience
+  - key: user_info.yearly_salary_by_experience.description
+    t: Yearly salary distribution by experience, sorted by mean salary descending.
 
   - key: user_info.race_ethnicity_by_years_of_experience
     t: Race & Ethnicity by Years of Experience
