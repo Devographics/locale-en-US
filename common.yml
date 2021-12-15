@@ -832,6 +832,8 @@ translations:
       t: Round 2 wins
     - key: options.bracket.round3
       t: Round 3 wins
+    - key: options.bracket.combined
+      t: Combined
 
     ###########################################################################
     # Tools
