@@ -9,7 +9,7 @@ translations:
 
             <span class="first-letter">D</span>o woodworkers have to learn a new, better way to saw a board every couple years? Do painters feel like frauds for still using oil paint? Or is it just us front-end developers who get to experience this constant state of change?
 
-            With container queries and more just around the corner, things are definitely moving fast. And since we need to keep up with as well, we took the time to give these survey results a couple new power-ups of their own! 
+            With container queries and more just around the corner, things are definitely moving fast. And since we need to keep up as well, we took the time to give these survey results a couple new power-ups of their own! 
 
             What this means in practice is that we can now cross-reference two datapoints, such as yearly salaries by experience level; or gender by country. You'll see some of these breakdowns included throughout the results, but we encourage you to explore the data further using [our API](https://api.stateofjs.com/) or by [downloading our data](https://www.kaggle.com/sachag/state-of-css). Let us know if you end up making your own data visualizations!
 
