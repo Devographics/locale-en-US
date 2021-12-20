@@ -499,6 +499,31 @@ translations:
   - key: export.export_graphql
     t: Get GraphQL Query
 
+  - key: custom_data.heading
+    t: Custom Chart
+  - key: custom_data.custom_data
+    t: Custom Data
+  - key: custom_data.graphql_query
+    t: GraphQL Query
+  - key: custom_data.chart_title
+    t: Custom Chart
+  - key: custom_data.submit
+    t: Submit
+  - key: custom_data.edit_title
+    t: Edit Chart Title
+  - key: custom_data.customize
+    t: Customize Data
+  - key: custom_data.details
+    t: >
+
+        1. Copy the contents of the "GraphQL Query" textfield and paste them into the middle panel of the [GraphQL API explorer](https://graphiql.stateofjs.com/).
+
+        2. Modify the query by adding one or more **filters** using the left-hand explorer sidebar. Make sure to keep the overall structure of the data the same.
+
+        3. Click the Play ("Execute Query") button.
+
+        4. Copy the results (`{ data: … }` ) into the "Custom Data" textfield and click "Update".
+
   # Tools usage variations
   - key: blocks.tools_usage_variations
     t: Usage Variations
@@ -851,7 +876,7 @@ translations:
 
   - key: hints.export_hint
     t: >
-      The <span class="hint-icon hint-export-button">Export</span> tab lets you view the raw 
+      The <span class="hint-icon hint-export-button">Data</span> tab lets you view the raw 
       data for any chart, view it as JSON, or get a GraphQL query you can 
       run against our public API.
 
