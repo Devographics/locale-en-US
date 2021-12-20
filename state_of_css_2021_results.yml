@@ -147,7 +147,7 @@ translations:
 
     - key: sections.conclusion.description
       t: |
-            <span class="first-line">The way you write CSS is about to change forever.</span>
+            <span class="first-line">The way you write CSS is about to change forever</span>
             
             For many years now, many innovations in writing styles for the web have happened elsewhere: in preprocessors, JavaScript frameworks, or compilers. To be sure, CSS itself has also received some welcome improvements like [aspect-ratio](https://developer.mozilla.org/en-US/docs/Web/CSS/aspect-ratio) or [custom properties](https://developer.mozilla.org/en-US/docs/Web/CSS/--*). Yet we still reach for libraries and other helpers on a daily basis. 
 
@@ -229,7 +229,7 @@ translations:
       t: Frontend Developer and Content Creator
     - key: picks.lauragift_.description
       t: |
-            Kevin creates CSS content on Youtube and I really enjoy watching his videos a lot. 
+            Kevin creates CSS content on YouTube and I really enjoy watching his videos a lot. 
             He does a really good job teaching CSS concepts in a way that's easy and fun 
             to understand.
     
