@@ -520,9 +520,9 @@ translations:
 
         2. Modify the query by adding one or more **filters** using the left-hand explorer sidebar. Make sure to keep the overall structure of the data the same.
 
-        3. Click the Play ("Execute Query") button.
+        3. In the explorer window, click the Play ("Execute Query") button.
 
-        4. Copy the results (`{ data: … }` ) into the "Custom Data" textfield and click "Update".
+        4. Copy the results of the modified query (`{ data: … }` ) into the "Custom Data" textfield above and submit.
 
   # Tools usage variations
   - key: blocks.tools_usage_variations
