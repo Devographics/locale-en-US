@@ -297,12 +297,14 @@ translations:
       t: |
             Miriam is an artist and an activist who creates software and art that celebrate the queer complexity of human experience. She's a CSS expert, and is doing an amazing job on the specifications for CSS Container Queries.
 
-    # - key: picks.sachagreif.bio
-    #   t: Creator of this survey
-    # - key: picks.sachagreif.description
-    #   t: |
-    #         With this blog post, Amelia Wattenberger didn't just go the extra mile, she ran a whole marathon! The animations and quiz will ensure you finally understand the CSS cascade. 
-    
+    - key: picks.michebarks.name
+      t: “Building a Color Scheme” by Adam Argyle 
+    - key: picks.michebarks.bio
+      t: Senior Front End Developer
+    - key: picks.michebarks.description
+      t: |
+            I love this article because although custom properties have been around for a while now, it really takes them to a different level and showcases their power. I hope it makes some people think of them in a different way, as more than simple variables.
+
     # - key: picks.christianoliff.bio
     #   t: Front-end developer for Trimble MAPS
     # - key: picks.christianoliff.description

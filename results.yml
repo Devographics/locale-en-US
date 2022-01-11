@@ -384,7 +384,7 @@ translations:
     t: Satisfaction vs Usage
   - key: blocks.tools_quadrant.description
     t: |
-      This chart shows each technology’s **satisfaction ratio** (or **interest ratio**) over its total **user count**.
+      This chart shows each technology's **satisfaction ratio** (or **interest ratio**) over its total **user count**.
       It can be divided into four quadrants:
 
         - **ASSESS**: Low usage, high satisfaction. Technologies worth keeping an eye on.

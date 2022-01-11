@@ -1036,6 +1036,15 @@ translations:
     - key: tools_others.non_js_languages.others.description
       t: Other answers (freeform field).
 
+    - key: tools_others.javascript_flavors
+      t: JavaScript Flavors
+    - key: tools_others.javascript_flavors.description
+      t: Languages that compile to JavaScript
+    - key: tools_others.javascript_flavors.others
+      t: Other JavaScript Flavors
+    - key: tools_others.javascript_flavors.others.description
+      t: Other answers (freeform field).
+
     ###########################################################################
     # Resources
     ###########################################################################
