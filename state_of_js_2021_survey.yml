@@ -1,0 +1,24 @@
+locale: en-US
+namespace: js
+translations:
+    ###########################################################################
+    # General
+    ###########################################################################
+
+    - key: general.survey_intro_js2021
+      t: >
+          First the 2020 Olympics got pushed back to 2021, 
+          and now the 2021 State of JavaScript survey is happening now, in 2022!
+
+
+          It's true: between work, family, and and all the turmoil in the world, 
+          some things got disrupted a little.
+          
+
+          But while the year may be off-by-one, we hope the data provided by the 
+          survey itself will be just as informative and insightful as ever. 
+          And don't worry, there will be another survey towards the end of this year to set things straight again!
+          
+
+          – Sacha Greif
+          

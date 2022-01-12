@@ -306,20 +306,20 @@ translations:
       t: Reactive Programming
 
     # upcoming features
-    - key: features.static_typing
-      t: Static Typing
+    # - key: features.static_typing
+    #   t: Static Typing
 
-    - key: features.standard_library
-      t: Standard Library
+    # - key: features.standard_library
+    #   t: Standard Library
     
-    - key: features.pattern_matching
-      t: Pattern Matching
+    # - key: features.pattern_matching
+    #   t: Pattern Matching
 
-    - key: features.pipe_operator
-      t: Pipe Operator
+    # - key: features.pipe_operator
+    #   t: Pipe Operator
 
-    - key: features.immutable_data_structures
-      t: Immutable Data Structures
+    # - key: features.immutable_data_structures
+    #   t: Immutable Data Structures
 
     ###########################################################################
     # Tools

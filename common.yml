@@ -33,7 +33,7 @@ translations:
       t: >
           <a href="{link}">Go back</a> to the main survey page to start or resume a session.
     - key: general.take_survey
-      t: Take the {name} {year} survey
+      t: Take the {name} survey
 
     # surveys
     - key: general.open_surveys
@@ -76,6 +76,8 @@ translations:
       t: Translation Help
     - key: general.newly_added
       t: Newly added this year
+    - key: general.new
+      t: New
 
     # credits
     - key: credits.thanks
