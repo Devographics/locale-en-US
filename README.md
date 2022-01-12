@@ -2,15 +2,17 @@
 
 This repo contains the English language files for the State of JS/CSS/etc. surveys, which serve as a base to translate all the other languages. You can view a list of [all the locales repos here](https://github.com/StateOfJS/?q=locale-&type=&language=&sort=).
 
-## Getting Credit
+## How To Help
 
-Every translator will be credited on any site that makes use of the translations, starting with the survey-taking app. You can add your name here if it's not already there.
+#### 1. Becoming a Translator
 
-- https://github.com/StateOfJS/state-of-js-graphql-results-api/blob/master/src/i18n/locales.yml
+To start helping translate the survey, you should [join the Discord](https://discord.com/invite/zRDb35jfrt) and DM me (`SachaG`) your GitHub username, along with the locale code (`fr-FR`, `zh-Hant`, etc.) for the language you'd like to help with.
 
-## Translation API
+I will then give you maintainer rights over a repo containing all the translation `yaml` files, and from now on you can manage it yourself along with other members of the translation team.  
 
-You can get extra data such as the completion percentage for a locale or the untranslated strings via our API, available at: 
+#### 2. Finding Things to Translate
+
+You can either browse the survey-taking app, survey results site, etc. and find untranslated strings this way, or else use our API to get extra data such as the completion percentage for a locale or a list of all the untranslated strings: 
 
 - https://graphiql.stateofjs.com/
 
@@ -28,6 +30,16 @@ query GetLocaleData {
 }
 ```
 
+#### 3. Getting Credit
+
+Every translator will be credited on any site that makes use of the translations, starting with the survey-taking app. While this will eventually be automated via the GitHub API, for now you can add your name here:
+
+- https://github.com/StateOfJS/Monorepo/blob/main/api/src/data/locales.yml
+
+#### 4. Pushing Your Changes Live
+
+There is currently no automated hook to update the production apps when a translation is updated, so for now the best way is to DM me on Discord to let me know when you're finished. 
+
 ## Translation Files
 
 #### Surveys App
@@ -37,7 +49,6 @@ These strings are related to the app that you use to fill out the actual survey.
 - `surveys.yml`
 - `accounts.yml`
 - `state_of_js_2020_survey.yml`
-
 
 #### Results App
 
