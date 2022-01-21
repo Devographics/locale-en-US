@@ -19,3 +19,17 @@ translations:
           survey itself will be just as informative and insightful as ever. 
           And don't worry, there will be another survey towards the end of this year to set things straight again!
           
+    ###########################################################################
+    # Survey
+    ###########################################################################
+
+    - key: features.features_intro
+      t: >
+          Welcome to the survey! This first part is all about figuring out 
+          which **features** of the JavaScript language you know about. 
+          And if you know about something but haven't yet used it, that's fine too!
+
+    - key: tools.tools_intro
+      t: >
+          The next couple sections focus on the **libraries** and **frameworks** that make up 
+          the JavaScript ecosystem. Let us know what you're excited about!
