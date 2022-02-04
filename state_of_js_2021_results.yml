@@ -182,7 +182,7 @@ translations:
     - key: picks.lee_robinson.name
       t: SvelteKit
     - key: picks.lee_robinson.bio
-      t:  Director of Developer Relations at Vercel
+      t: Director of Developer Relations at Vercel
     - key: picks.lee_robinson.description
       t: |
           SvelteKit is a fresh take on building for the web and has an 
