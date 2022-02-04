@@ -7,15 +7,13 @@ translations:
     - key: sections.introduction.description
       t: |
 
-            <span class="first-letter">D</span>o woodworkers have to learn a new, better way to saw a board every couple years? Do painters feel like frauds for still using oil paint? Or is it just us front-end developers who get to experience this constant state of change?
+            <span class="first-letter">A</span> lot happened in 2021. So much in fact that the survey was pushed back all the way to 2022! 
 
-            With container queries and more just around the corner, things are definitely moving fast. And since we need to keep up as well, we took the time to give these survey results a couple new power-ups of their own! 
+            Between a slew of faster build tools and a new crop of back-end frameworks, the JavaScript world kept evolving. And we did our best to keep up, giving this survey a couple new power-ups ([read more about what's new](https://dev.to/sachagreif/whats-new-in-the-20212022-state-of-javascript-4jkf)) such as new question types, the ability to cross-reference two datapoints (such as yearly salaries by experience level), and even a way to customize the charts to surface your own insights!
 
-            What this means in practice is that we can now cross-reference two datapoints, such as yearly salaries by experience level; or gender by country. You'll see some of these breakdowns included throughout the results, but we encourage you to explore the data further using [our API](https://api.stateofjs.com/) or by [downloading our data](https://www.kaggle.com/sachag/state-of-css). Let us know if you end up making your own data visualizations!
-
-            And now, let's see what CSS has been up to this year!
-
-            *Note: We've had to push back the 2021 [State of JavaScript](http://stateofjs.com/) survey to January 2022 for lack of time. See you after the holidays!*
+            It wasn't all smooth sailing, though. We had to deal with a [data leak](https://dev.to/sachagreif/disclosing-a-state-of-javascriptstate-of-css-data-breach-2lg1) that thankfully didn't seem to have any bad consequences. And we're constantly making efforts to make the survey more inclusive, more accessibe, and more fair. 
+            
+            Still, even though the survey can ever only represents a tiny, tiny part of the JavaScript ecosystem, we hope you'll find the resulting data interesting!
 
             <span class="conclusion__byline">– Sacha Greif</span>
 
@@ -58,25 +56,22 @@ translations:
           Originally from France but now based in the United States, Chris is not just an amazing front-end developer, but also a talented illustrator who specializes in retro visuals. In fact, we encourage you to also check out his [other t-shirt designs](https://chriskirknielsen.com/designs)!
           
     ###########################################################################
-    # Sections Introductions
+    # Sections
     ###########################################################################
 
     - key: sections.user_info.description
       t: |
-          This year's survey reached **8,714** developers throughout the world, and in order
+          This year, **16,085** respondents took part in the survey. And in order
           to help highlight different voices and surface deeper insights, we made a special
           effort to provide new ways to break our data down. 
 
     - key: sections.features.description
       t: |
-          CSS's dynamism shows no sign of stopping, as developers make an effort to adopt the current
-          crop of new features while looking forward to even more innovation in the next few years. 
+          JavaScript may move fast, but it seems like JavaScript developers move even faster, as many relatively new features already show high adoption levels. 
 
     - key: sections.technologies.description
       t: |
-          With nearly 50% of respondents happily using one or more CSS-in-JS library, it's safe to say that
-          the category has managed to carve out its niche. Maybe the two sides of the front-end world are 
-          not so far apart after all?
+          This year's results point to a high degree of fragmentation in the JavaScript world. But while this can sometimes cause headaches, all that competition does make for a very dynamic ecosystem. 
 
     - key: sections.tools_others.description
       t: |
@@ -90,36 +85,25 @@ translations:
 
     - key: sections.resources.description
       t: |
-          Highlighting blogs, podcasts, and sites is fine, but this year we decided to go one step further
-          and actually feature the people who make up the CSS community themselves! 
+          Highlighting blogs, podcasts, and sites was a good start, but this year we decided to go one step further
+          and actually feature the people who make up the JavaScript community! 
 
     - key: sections.opinions.description
       t: |
           Whether it's pain points that hold you back today, or missing features that you hope to use
-          tomorrow, this was your chance to vent and share your gripes with CSS!
-          
+          tomorrow, this was your chance to vent and share your gripes with JavaScript!
+    
     ###########################################################################
     # Charts
     ###########################################################################
-
-    - key: options.features_categories.layout
-      aliasFor: sections.layout.title
-    - key: options.features_categories.shapes_graphics
-      aliasFor: sections.shapes_graphics.title
-    - key: options.features_categories.interactions
-      aliasFor: sections.interactions.title
-    - key: options.features_categories.typography
-      aliasFor: sections.typography.title
-    - key: options.features_categories.animations_transforms
-      aliasFor: sections.animations_transforms.title
-    - key: options.features_categories.accessibility
-      aliasFor: sections.accessibility.title
-    - key: options.features_categories.media_queries
-      aliasFor: sections.media_queries.title
+     
+    - key: options.features_categories.language
+      aliasFor: sections.language.title
+    - key: options.features_categories.browser_apis
+      aliasFor: sections.browser_apis.title
     - key: options.features_categories.other_features
       aliasFor: sections.other_features.title
-
-
+      
     ###########################################################################
     # Notes
     ###########################################################################
@@ -195,200 +179,149 @@ translations:
     - key: picks.intro
       t: We asked members of the CSS community to share their “pick of the year”
 
-    - key: picks.georgedoescode.name
-      t: The CSS Paint API
-    - key: picks.georgedoescode.bio
-      t: Developer, writer, and generative artist.
-    - key: picks.georgedoescode.description
+    - key: picks.lee_robinson.name
+      t: SvelteKit
+    - key: picks.lee_robinson.bio
+      t:  Director of Developer Relations at Vercel
+    - key: picks.lee_robinson.description
       t: |
-            The Paint API allows us to create images programmatically, 
-            to use in our CSS. It unlocks a whole world of creativity, 
-            and I am very excited about it! 
+          SvelteKit is a fresh take on building for the web and has an 
+          incredibly passionate, growing community of supporters. 
 
-    - key: picks.cassidoo.name
-      t: Lynn Fisher
-    - key: picks.cassidoo.bio
-      t: Developer advocate, educator, and startup advisor.
-    - key: picks.cassidoo.description
+    - key: picks.vadim_makeev.name
+      t: Server-Side Rendering
+    - key: picks.vadim_makeev.bio
+      t: DevRel, Podcaster & Web Standards Advocate
+    - key: picks.vadim_makeev.description
       t: |
-            I'd love to pick Lynn Fisher. She's consistently surprised 
-            and delighted the CSS community with her creative projects and experiments, 
-            and I love how much folks can learn from her!
+          The time has come to get our priorities straight. 
+          UX > DX, and it has always been like that. Performance FTW!
+            
+    - key: picks.ben_ilegbodu.name
+      t: Lee Robinson
+    - key: picks.ben_ilegbodu.bio
+      t: Ben Ilegbodu, Principal Frontend Engineer @ Stitch Fix
+    - key: picks.ben_ilegbodu.description
+      t: |
+          Lee has been great at shepherding and advocating for Next.js. 
+          He's helped me a ton with Next and continues to build excitement 
+          for where it's going
+            
+    - key: picks.shawn_wang.name
+      t: Supabase
+    - key: picks.shawn_wang.bio
+      t: Head of DX at Temporal
+    - key: picks.shawn_wang.description
+      t: |
+          Supabase is making Postgres accessible to more developers and showing 
+          everyone how a small focused team can out-ship peers 10x their size.
 
-    - key: picks.joshwcomeau.name
-      t: Amelia Wattenberger
-    - key: picks.joshwcomeau.bio
-      t: Software developer and creator of [CSS for JavaScript Developers](https://css-for-js.dev/).
-    - key: picks.joshwcomeau.description
+    - key: picks.sarah_drasner.name
+      t: Pawel Kozlowski
+    - key: picks.sarah_drasner.bio
+      t: 
+    - key: picks.sarah_drasner.description
       t: |
-            Amelia is creating some of the most amazing 
-            interactive blog posts about CSS and JS. 
-            Check out this post about how percentages work in CSS!
+          Pawel Kozlowski is the kind of developerwho can be open-minded to different 
+          approaches with humility and curiosity with the interest of improving things.
 
-    - key: picks.kevinjpowell.name
-      t: Stephanie Eckles
-    - key: picks.kevinjpowell.bio
-      t: CSS Evangelist
-    - key: picks.kevinjpowell.description
+    - key: picks.sara_vieira.name
+      t: Paul Henschel
+    - key: picks.sara_vieira.bio
+      t: International Agent of JS Bullshit
+    - key: picks.sara_vieira.description
       t: |
-            I'm constantly blown away by Stephanie's continued initiatives 
-            to help share her knowledge of modern CSS techniques, 
-            as well as her contagious enthusiasm for CSS.
-             
-    - key: picks.mmatuzo.name
-      t: aspect-ratio
-    - key: picks.mmatuzo.bio
-      t: Front-end developer from Vienna, and creator of [htmhell.dev](https://htmhell.dev).
-    - key: picks.mmatuzo.description
-      t: |
-            All major browsers shipped support for aspect-ratio in 2021. 
-            At first I underestimated it, but there are so many 
-            situations where this property comes in handy.
+          Paul's work on animations and ReactThreeFiber 
+          have made doing any kind of 3D work on the web way easier. 
 
-    - key: picks.lauragift_.name
-      t: Kevin Powell
-    - key: picks.lauragift_.bio
-      t: Frontend Developer and Content Creator
-    - key: picks.lauragift_.description
+    - key: picks.mark_erikson.name
+      t: Ryan Carniato
+    - key: picks.mark_erikson.bio
+      t: Redux Maintainer
+    - key: picks.mark_erikson.description
       t: |
-            Kevin creates CSS content on YouTube and I really enjoy watching his videos a lot. 
-            He does a really good job teaching CSS concepts in a way that's easy and fun 
-            to understand.
+          Ryan's reactive JS framework SolidJS hit 1.0, 
+          and he wrote numerous articles analyzing advanced 
+          JS framework implementation concepts.
     
-    - key: picks.ericwbailey.name
-      t: Miriam Suzanne
-    - key: picks.ericwbailey.bio
-      t: Inclusive Design and \#a11y advocate.
-    - key: picks.ericwbailey.description
+    - key: picks.miguel_angel_duran.name
+      t: Vite
+    - key: picks.miguel_angel_duran.bio
+      t: Front End Dev & Twitch Coding Streamer
+    - key: picks.miguel_angel_duran.description
       t: |
-            CSS is about to go from good to great. 
-            Miriam's work on Container Queries and Cascade Layers is going 
-            to revolutionize how CSS is written.
-
-    - key: picks.samuelkraft.name
-      t: Vanilla Extract
-    - key: picks.samuelkraft.bio
-      t: Frontend & design
-    - key: picks.samuelkraft.description
+          In addition to esbuild and swc, fantastic tools pushing forward the ecosystem, 
+          I'm enjoying Vite. It has a delightful DX, and it's rich in features. 
+      
+    - key: picks.alyssa_nicoll.name
+      t: BroccoDev's Twitch Stream
+    - key: picks.alyssa_nicoll.bio
+      t: Sr. Developer Advocate at Progress
+    - key: picks.alyssa_nicoll.description
       t: |
-            Lately I've loved working with Vanilla Extract, it's like CSS Modules but 
-            fully typed with a magical developer experience.
-
-    - key: picks.sachagreif.name
-      t: Open Props
-    - key: picks.sachagreif.bio
-      t: State of JS and State of CSS creator
-    - key: picks.sachagreif.description
+        Mike Brocchi recently started streaming to Twitch. He is a brilliant programmer, 
+        developer, and most importantly teacher. 
+        I always have a blast watching his streams and learning from him.
+      
+    - key: picks.michael_jackson.name
+      t: esbuild
+    - key: picks.michael_jackson.bio
+      t: Co-founder of Remix
+    - key: picks.michael_jackson.description
       t: |
-            It's really cool to see the feedback loop between new CSS features and new 
-            projects taking advantage of them! And I think Adam Argyle's Open Props 
-            is a great use of Custom Properties (CSS variables).
+        We have been building the Remix compiler on top of esbuild and it 
+        has definitely raised the bar as far as JS bundlers are concerned. 
+        It's incredibly fast and the plugin API allows us to do pretty much anything we want.
 
-    - key: picks.shadeed9.name
-      t: Container Queries
-    - key: picks.shadeed9.bio
-      t: Author of [Debugging CSS](https://debuggingcss.com/), Writing at [ishadeed.com](http://ishadeed.com)
-    - key: picks.shadeed9.description
+    - key: picks.david_khourshid.name
+      t: Remix
+    - key: picks.david_khourshid.bio
+      t: Pianist and founder of Stately
+    - key: picks.david_khourshid.description
       t: |
-            CSS container queries again! We got the chance to play with them in a browser. 
-            Thanks to Miriam Suzanne for moving this forward! 
-            I can't wait to use them without a flag.
-
-    # - key: picks.georgedoescode.name
-    #   t: 
-    # - key: picks.georgedoescode.bio
-    #   t: 
-    # - key: picks.georgedoescode.description
-    #   t: |
-
-    - key: picks.argyleink.name
-      t: CSS Noise
-    - key: picks.argyleink.bio
-      t: CSS at Google
-    - key: picks.argyleink.description
+          Remix is a full-stack web framework that feels old-school, but in a good way, 
+          by putting you on the path to create fast, complex, and accessible modern web apps.
+      
+    - key: picks.kent_c_dodds.name
+      t: Fly.io
+    - key: picks.kent_c_dodds.bio
+      t: Director of Developer Experience, Remix
+    - key: picks.kent_c_dodds.description
       t: |
-            CSS generated texture and randomness makes for unique and 
-            interesting paint jobs in your design. 
-            Noise tools have made the technique accessible.
+          Fly enabled me (a frontend engineer with a distain for DevOps) 
+          to confidently deploy a real-world, globally-distributed, production-grade 
+          app.
 
-    - key: picks.walterstephanie.name
-      t: Miriam Suzanne 
-    - key: picks.walterstephanie.bio
-      t: UX Researcher and CSS lover 
-    - key: picks.walterstephanie.description
-      t: |
-            Miriam is an artist and an activist who creates software and art that celebrate the queer complexity of human experience. She's a CSS expert, and is doing an amazing job on the specifications for CSS Container Queries.
+    - key: picks.tejas_kumar.name
+      t: Joe Haddad
+    - key: picks.tejas_kumar.bio
+      t: Web Developer, Conference Speaker, and Director of DevRel at Xata
+    - key: picks.tejas_kumar.description
+      t: |   
+          Joe works on Next.js at Vercel and is constantly looking to proudly 
+          demonstrate its power while actively listening 
+          to feedback from the community to support them better. 
 
-    - key: picks.michebarks.name
-      t: “Building a Color Scheme” by Adam Argyle 
-    - key: picks.michebarks.bio
-      t: Senior Front End Developer
-    - key: picks.michebarks.description
-      t: |
-            I love this article because although custom properties have been around for a while now, it really takes them to a different level and showcases their power. I hope it makes some people think of them in a different way, as more than simple variables.
-
-    # - key: picks.christianoliff.bio
-    #   t: Front-end developer for Trimble MAPS
-    # - key: picks.christianoliff.description
-    #   t: |
-    #       One thing I've really started using and appreciating this year though is Purge CSS- an awesome tool for removing unused CSS. It can greatly reduce the size of your CSS, and its fast and easy to use.
-
-    - key: picks.kilianvalkhof.name
-      t: prefers-reduced-data
-    - key: picks.kilianvalkhof.bio
-      t: Web developer and creator of Polypane
-    - key: picks.kilianvalkhof.description
-      t: |
-          We need more devs to ask browsers about this feature, and to realize how big a difference it can make. With 64% of respondents not knowing it though, we have work to do!
-
-    # - key: picks.piccalilli_.bio
-    #   t: Freelance designer & dev who runs piccalil.li
-    # - key: picks.piccalilli_.description
-    #   t: |
-    #       This blog is an absolute gold mine of CSS knowledge. Michelle is a CSS legend and every post or tutorial they write is heaped with useful content.
-
-    # - key: picks.piccalilli_.bio
-    #   t: Freelance designer & dev who runs piccalil.li
-    # - key: picks.piccalilli_.description
-    #   t: |
-    #       This blog is an absolute gold mine of CSS knowledge. Michelle is a CSS legend and every post or tutorial they write is heaped with useful content.
-
-    # - key: picks.sarasoueidan.bio
-    #   t: Independent UI/design engineer
-    # - key: picks.sarasoueidan.description
-    #   t: |
-    #       My pick is a person, namely Rachel Andrew. She taught CSS Grid to a whole generation of developers.
-
-    # - key: picks.5t3ph.bio
-    #   t: Software Engineer @ Microsoft
-    # - key: picks.5t3ph.description
-    #   t: |
-    #       In this conference talk, Manuel Matuzovic provides thoughtfully 
-    #       crafted examples that are engaging, approachable, and actionable.
-
-    # - key: picks.hugogiraudel.bio
-    #   t: Non-binary accessibility & diversity advocate
-    # - key: picks.hugogiraudel.description
-    #   t: |
-    #       Fela is an amazing piece of software. 
-    #       It’s pretty powerful, relatively easy to use and very performant
-
-    # - key: picks.foolip.bio
-    #   t: Software Engineer @ Google
-    # - key: picks.foolip.description
-    #   t: |
-    #       Sergio has recently fixed lots of Flexbox in WebKit and even some in Chromium, 
-    #       notably bringing flex gap to WebKit, 
-    #       which means that soon it will be available on all modern browsers. 
-    
-    # - key: picks.jina.bio
-    #   t: Design systems advocate and practitioner
-    # - key: picks.jina.description
-    #   t: |
-    #       The media query to reduce motion, which helps avoid 
-    #       triggering dizziness and discomfort.
-
-
+    - key: picks.xxxx.name
+      t:
+    - key: picks.xxxx.bio
+      t: 
+    - key: picks.xxxx.description
+      t: |   
+      
+    - key: picks.xxxx.name
+      t:
+    - key: picks.xxxx.bio
+      t: 
+    - key: picks.xxxx.description
+      t: |   
+      
+    - key: picks.xxxx.name
+      t:
+    - key: picks.xxxx.bio
+      t: 
+    - key: picks.xxxx.description
+      t: |   
 ###########################################################################
 # Sponsors
 ###########################################################################

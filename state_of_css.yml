@@ -771,6 +771,27 @@ translations:
     - key: happiness.state_of_css
       t: How happy are you with the general state of CSS?
 
+    # pain points/currently missing (results)
+    - key: css_pain_points.css_pain_points_wins
+      t: CSS Pain Points
+    - key: css_pain_points.css_pain_points_wins.description
+      t: Which aspect of CSS do you struggle with the most? Results are ranked by number of tournament rounds won.
+
+    - key: css_pain_points.css_pain_points_matchups
+      t: CSS Pain Points (Matchups)
+    - key: css_pain_points.css_pain_points_matchups.description
+      t: Which aspect of CSS do you struggle with the most? Percentage of rounds won by left-hand item against top-side item.
+
+    - key: currently_missing_from_css.currently_missing_from_css_wins
+      t: Features Missing From CSS
+    - key: currently_missing_from_css.currently_missing_from_css_wins.description
+      t: Which feature would you most like to be able to use in CSS today? Results are ranked by number of tournament rounds won.
+
+    - key: currently_missing_from_css.currently_missing_from_css_matchups
+      t: Features Missing From CSS (Matchups)
+    - key: currently_missing_from_css.currently_missing_from_css_matchups.description
+      t: Which feature would you most like to be able to use in CSS today? Percentage of rounds won by left-hand item against top-side item.
+
     ###########################################################################
     # Resources
     ###########################################################################

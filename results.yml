@@ -160,6 +160,9 @@ translations:
   - key: sections.technologies.title
     t: Technologies
 
+  - key: sections.libraries.title
+    t: Libraries
+
   - key: sections.conclusion.title
     t: Conclusion
 
@@ -418,6 +421,18 @@ translations:
 
       Bar thickness represents the number of respondents aware of a technology.
 
+  # tool tier list
+  - key: blocks.tools_tier_list
+    t: Library Tier List
+  - key: blocks.tools_tier_list.description
+    t: |
+      This chart ranks libraries based on their satisfaction ratio (percentage of users
+      who would use a library again). Note that libraries used by less than 10% of survey 
+      respondents are not included.
+  - key: blocks.tools_tier_list.bounds
+    t: >
+      {lowerBound}% - {upperBound}%
+
   # tools section streams
   - key: blocks.tools_section_streams
     t: Experience Over Time
@@ -558,26 +573,6 @@ translations:
   - key: tool_evaluation.tool_evaluation_matchups.description
     t: Which factors do you prioritize when evaluating a new library? Percentage of rounds won by left-hand item against top-side item.
 
-  - key: css_pain_points.css_pain_points_wins
-    t: CSS Pain Points
-  - key: css_pain_points.css_pain_points_wins.description
-    t: Which aspect of CSS do you struggle with the most? Results are ranked by number of tournament rounds won.
-
-  - key: css_pain_points.css_pain_points_matchups
-    t: CSS Pain Points (Matchups)
-  - key: css_pain_points.css_pain_points_matchups.description
-    t: Which aspect of CSS do you struggle with the most? Percentage of rounds won by left-hand item against top-side item.
-
-  - key: currently_missing_from_css.currently_missing_from_css_wins
-    t: Features Missing From CSS
-  - key: currently_missing_from_css.currently_missing_from_css_wins.description
-    t: Which feature would you most like to be able to use in CSS today? Results are ranked by number of tournament rounds won.
-
-  - key: currently_missing_from_css.currently_missing_from_css_matchups
-    t: Features Missing From CSS (Matchups)
-  - key: currently_missing_from_css.currently_missing_from_css_matchups.description
-    t: Which feature would you most like to be able to use in CSS today? Percentage of rounds won by left-hand item against top-side item.
-
   ###########################################################################
   # Charts
   ###########################################################################
@@ -680,23 +675,6 @@ translations:
     t: Rising popularity
   - key: charts.tools_arrows.negative
     t: Falling popularity
-
-  - key: options.features_categories.layout
-    aliasFor: sections.layout.title
-  - key: options.features_categories.shapes_graphics
-    aliasFor: sections.shapes_graphics.title
-  - key: options.features_categories.interactions
-    aliasFor: sections.interactions.title
-  - key: options.features_categories.typography
-    aliasFor: sections.typography.title
-  - key: options.features_categories.animations_transforms
-    aliasFor: sections.animations_transforms.title
-  - key: options.features_categories.accessibility
-    aliasFor: sections.accessibility.title
-  - key: options.features_categories.media_queries
-    aliasFor: sections.media_queries.title
-  - key: options.features_categories.other_features
-    aliasFor: sections.other_features.title
 
   ###########################################################################
   # Sharing

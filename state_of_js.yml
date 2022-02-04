@@ -129,7 +129,7 @@ translations:
     - key: options.js_pain_points.managing_dependencies
       t: Managing Dependencies
     - key: options.js_pain_points.managing_dependencies.description
-      t: Managing dependencies, package versions and bundle sizes
+      t: Managing dependencies, package versions and bundle sizes.
     - key: options.js_pain_points.architecture
       t: Code Architecture
     - key: options.js_pain_points.architecture.description
@@ -384,6 +384,19 @@ translations:
     - key: opinions_others.missing_from_js.others.description
       t: Features you'd like to see in JavaScript one day.
 
+    - key: happiness.front_end_frameworks
+      t: How happy are you with the state of front end frameworks?
+    - key: happiness.back_end_frameworks
+      t: How happy are you with the state of back end frameworks?
+    - key: happiness.testing
+      t: How happy are you with the state of testing tools?
+    - key: happiness.mobile_desktop
+      t: How happy are you with the state of mobile & desktop frameworks?
+    - key: happiness.build_tools
+      t: How happy are you with the state of build tools?
+    - key: happiness.monorepo_tools
+      t: How happy are you with the state of monorepo tools?
+
     - key: happiness.state_of_the_web
       t: How happy are you with the general state of web technologies?
 
@@ -406,6 +419,27 @@ translations:
       t: For each matchup, pick the feature you'd most like to be able to use in JavaScript today.
     - key: opinions_others.currently_missing_from_js.others
       t: Other Missing Features
+
+    # pain points/currently missing (results)
+    - key: js_pain_points.js_pain_points_wins
+      t: JavaScript Pain Points
+    - key: js_pain_points.js_pain_points_wins.description
+      t: Which aspect of JavaScript do you struggle with the most? Results are ranked by number of tournament rounds won.
+
+    - key: js_pain_points.js_pain_points_matchups
+      t: JavaScript Pain Points (Matchups)
+    - key: js_pain_points.js_pain_points_matchups.description
+      t: Which aspect of JavaScript do you struggle with the most? Percentage of rounds won by left-hand item against top-side item.
+
+    - key: currently_missing_from_js.currently_missing_from_js_wins
+      t: Features Missing From JavaScript
+    - key: currently_missing_from_js.currently_missing_from_js_wins.description
+      t: Which feature would you most like to be able to use in JavaScript today? Results are ranked by number of tournament rounds won.
+
+    - key: currently_missing_from_js.currently_missing_from_js_matchups
+      t: Features Missing From JavaScript (Matchups)
+    - key: currently_missing_from_js.currently_missing_from_js_matchups.description
+      t: Which feature would you most like to be able to use in JavaScript today? Percentage of rounds won by left-hand item against top-side item.
 
     ###########################################################################
     # Resources
