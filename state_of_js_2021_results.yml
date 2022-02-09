@@ -103,7 +103,21 @@ translations:
       aliasFor: sections.browser_apis.title
     - key: options.features_categories.other_features
       aliasFor: sections.other_features.title
-      
+
+    - key: blocks.tools_quadrant.description
+      t: |
+        This chart shows each technology's **satisfaction ratio** (or **interest ratio**) over its total **user count**.
+        It can be divided into four quadrants:
+
+          - **1**: Low usage, high satisfaction. Technologies worth keeping an eye on.
+
+          - **2**: High usage, high satisfaction. Safe technologies to adopt.
+
+          - **3**: Low usage, low satisfaction. Technologies that are harder to recommend currently.
+
+          - **4**: High usage, low satisfaction. Reassess these technologies if you're currently using them.
+
+
     ###########################################################################
     # Notes
     ###########################################################################
@@ -132,19 +146,19 @@ translations:
     ###########################################################################
 
     - key: award.feature_adoption_delta_award.comment
-      t: With a **{value}** progression in 2021, CSS comparison functions are becoming a key part of every CSS developer's toolkit. 
+      t: With a **{value}** progression in 2021, the nullish coalescing operator (??) has quickly become an integral part of JavaScript. 
 
-    # - key: award.tool_usage_delta_award.comment
-    #   t: No other tool comes even close to Tailwind CSS's dramatic **{value}** progression over the last year.
+    - key: award.tool_usage_delta_award.comment
+      t: esbuild is barely two years old, but with a **{value}** progression over the last year it's already gaining ground.
 
     - key: award.tool_satisfaction_award.comment
-      t: PostCSS takes the top spot once again with a **{value}** satisfaction ratio.
+      t: Vite takes the top spot with a sky-high **{value}** satisfaction ratio!
 
     - key: award.tool_interest_award.comment
-      t: With a **{value}** ratio, CSS Modules again generated the most interest among CSS developers this year.
+      t: With a **{value}** interest ratio, Vite once again wins the gold!
 
-    # - key: award.most_write_ins_award.comment
-    #   t: Many questions also accepted write-in answers, and with **{value}** mentions PhpStorm was the most popular item overall.
+    - key: award.most_write_ins_award.comment
+      t: Many questions also accepted write-in answers, and with **{value}** mentions Elm was the most popular item overall.
 
       
     ###########################################################################
@@ -302,20 +316,23 @@ translations:
           demonstrate its power while actively listening 
           to feedback from the community to support them better. 
 
-    - key: picks.xxxx.name
-      t:
-    - key: picks.xxxx.bio
-      t: 
-    - key: picks.xxxx.description
-      t: |   
+    - key: picks.wes_bos.name
+      t: TC39 Proposals
+    - key: picks.wes_bos.bio
+      t: JavaScript Teacher & Podcast Host
+    - key: picks.wes_bos.description
+      t: |
+          A Git repo full of all the things that have been proposed to be added to JavaScript. It's really fun to read through all the ideas people have for the language and see them go through the stages.
       
-    - key: picks.xxxx.name
-      t:
-    - key: picks.xxxx.bio
-      t: 
-    - key: picks.xxxx.description
+    - key: picks.scott_tolinkski.name
+      t: SvelteKit
+    - key: picks.scott_tolinkski.bio
+      t: Creator of Level-Up Tuts, co-host of Syntax
+    - key: picks.scott_tolinkski.description
       t: |   
-      
+          Svelte Kit provides the amazing developer experience of Svelte with all 
+          of the modern features of expected from a web platform. 
+
     - key: picks.xxxx.name
       t:
     - key: picks.xxxx.bio
