@@ -929,3 +929,77 @@ translations:
     t: >
       <span class="hint-bracket"><span class="hint-text">The following chart provides the results of a tournament-style 8-player bracket in which
       respondents were tasked with picking the winner of each match-up until a single winner remained.</span><span class="hint-diagram"/></span>
+
+  ###########################################################################
+  # Sponsor Chart
+  ###########################################################################
+
+  - key: sponsor.sponsor_button
+    t: Sponsor This Chart
+
+  - key: sponsor.sponsor_chart.title
+    t: Sponsor Chart "{title}"
+
+  - key: sponsor.sponsor_chart.description
+    t: >
+        Sponsor a chart for $10 or more, and get your Twitter avatar 
+        featured next to it!
+
+  - key: sponsor.chart_id
+    t: 'Chart ID: '
+
+  - key: sponsor.sponsor_this_chart
+    t: Sponsor This Chart (${baseAmount}+) 
+
+  - key: sponsor.how_it_works.title
+    t: How It Works
+
+  - key: sponsor.how_it_works.description
+    t: >
+      1. When you **click the "Sponsor This Chart" button**, you will be redirected to our partner [SendOwl](https://www.sendowl.com/)'s checkout page. 
+      
+      
+      2. You can then **adjust the amount** you'd like to sponsor the survey for, starting at USD10.  
+      
+      
+      3. Once you checkout, you will need to **enter your Twitter username**. 
+      
+      
+      4. You will see a **File Download** page, but you can safely ignore it. 
+      
+      
+      5. The site will rebuild in the background and your username and donation will **appear next to the chart after 10-15 minutes**. 
+
+
+  - key: sponsor.faq.title
+    t: F.A.Q.
+
+  - key: sponsor.faq.public.title
+    t: Will my donation be public?
+
+  - key: sponsor.faq.public.description
+    t: Yes, your **Twitter username** as well as the **amount you donated** will be displayed publicly next to the chart.
+
+  # - key: sponsor.faq.donation_public.title
+  #   t: Can I donate on somebody else's behalf?
+
+  # - key: sponsor.faq.donation_public.description
+  #   t: You can enter a Twitter username other than your own, but that person will have the right to remove the donation if they request it. 
+
+  - key: sponsor.faq.refund.title
+    t: What's your refund policy?
+
+  - key: sponsor.faq.refund.description
+    t: All donations are refundable within a 1-week period, minus transaction fees. 
+
+  - key: sponsor.faq.influence.title
+    t: Do donations influence the survey contents?
+
+  - key: sponsor.faq.influence.description
+    t: Donations take place once the survey is already published, and donors to not have any influence on the contents of the survey. 
+
+  - key: sponsor.faq.feedback.title
+    t: Where can I leave feedback/ask questions?
+
+  - key: sponsor.faq.feedback.description
+    t: You can do so [on GitHub](https://github.com/StateOfJS/Monorepo/issues/69) or [in our Discord](https://discord.gg/tuWRUWVyJs).
