@@ -934,6 +934,10 @@ translations:
   # Sponsor Chart
   ###########################################################################
 
+  - key: sponsor.sponsored_by
+    t: >
+        **{name}** donated **${amount}** to sponsor this chart
+
   - key: sponsor.sponsor_button
     t: Sponsor This Chart
 
@@ -942,8 +946,8 @@ translations:
 
   - key: sponsor.sponsor_chart.description
     t: >
-        Sponsor a chart for $10 or more, and get your Twitter avatar 
-        featured next to it!
+        Support this survey financially by donating $10 or more, and get your
+        Twitter avatar featured next to a chart!
 
   - key: sponsor.chart_id
     t: 'Chart ID: '
@@ -962,7 +966,7 @@ translations:
       2. You can then **adjust the amount** you'd like to sponsor the survey for, starting at USD10.  
       
       
-      3. Once you checkout, you will need to **enter your Twitter username**. 
+      3. Once you checkout, you will be able to **provide your Twitter username**. 
       
       
       4. You will see a **File Download** page, but you can safely ignore it. 
