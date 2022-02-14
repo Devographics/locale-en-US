@@ -934,6 +934,15 @@ translations:
   # Sponsor Chart
   ###########################################################################
 
+  - key: sections.sponsor_finish.title
+    t: Thanks
+
+  - key: sponsor.sponsor_finish
+    t: >
+      Thanks for supporting the survey. Your avatar should appear next to the chart you picked
+      within the next hour or so. If it doesn't, please [get in touch](mailto:chartsponsor@stateofjs.com).
+    
+
   - key: sponsor.sponsored_by
     t: >
         **{name}** donated **${amount}** to sponsor this chart
@@ -972,17 +981,23 @@ translations:
       4. You will see a **File Download** page, but you can safely ignore it. 
       
       
-      5. The site will rebuild in the background and your username and donation will **appear next to the chart after 10-15 minutes**. 
+      5. The site will rebuild in the background and your username and donation will **appear next to the chart within the next hour**. 
 
 
   - key: sponsor.faq.title
     t: F.A.Q.
 
+  - key: sponsor.faq.usage.title
+    t: What will my donation be used for?
+
+  - key: sponsor.faq.usage.description
+    t: Your donation will help cover [my](https://sachagreif.com/) living expenses, as well as hire more contributors (illustrators, accessibilty and diversity experts, etc.).
+
   - key: sponsor.faq.public.title
     t: Will my donation be public?
 
   - key: sponsor.faq.public.description
-    t: Yes, your **Twitter username** as well as the **amount you donated** will be displayed publicly next to the chart.
+    t: Yes. Your **Twitter username** as well as the **amount you donated** will be displayed publicly next to the chart.
 
   # - key: sponsor.faq.donation_public.title
   #   t: Can I donate on somebody else's behalf?

@@ -254,6 +254,42 @@ translations:
     - key: features.dynamic_import.description
       t: >
         Example: <code>await import('/modules/my-module.js')</code>
+    - key: features.promise_all_settled
+      t: Promise.allSettled()
+    - key: features.big_int
+      t: BigInt
+    - key: features.numeric_separators
+      t: Numeric Separators
+    - key: features.string_replace_all
+      t: String.prototype.replaceAll()
+    - key: features.string_match_all
+      t: String.prototype.matchAll()
+    - key: features.logical_assignment
+      t: Logical Assignment
+    - key: features.promise_any
+      t: Promise.any()
+    - key: features.array_at
+      t: Array.prototype.at()
+    - key: features.top_level_await
+      t: Top-Level Await
+    - key: features.intl
+      t: Intl
+    - key: features.custom_elements
+      t: Custom Elements
+    - key: features.shadow_dom
+      t: Shadow DOM
+    - key: features.page_visibility
+      t: Page Visibility API
+    - key: features.broadcast_channel
+      t: Broadcast Channel API
+    - key: features.geolocation
+      t: Geolocation API
+    - key: features.file_system_access
+      t: File System Access API
+    - key: features.web_share
+      t: Web Share API
+    - key: features.webxr
+      t: WebXR
 
     # data structures
     - key: features.maps
