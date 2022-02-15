@@ -991,7 +991,7 @@ translations:
     t: What will my donation be used for?
 
   - key: sponsor.faq.usage.description
-    t: Your donation will help cover [my](https://sachagreif.com/) living expenses, as well as hire more contributors (illustrators, accessibilty and diversity experts, etc.).
+    t: Your donation will help support survey maintainers, as well as help hire more contributors (illustrators, accessibilty and diversity experts, etc.).
 
   - key: sponsor.faq.public.title
     t: Will my donation be public?
