@@ -1,6 +1,13 @@
 locale: en-US
 translations:
     ###########################################################################
+    # General
+    ###########################################################################
+
+    - key: general.results.description
+      t: The 2021 edition of the annual survey about the latest trends in the JavaScript ecosystem.
+
+    ###########################################################################
     # Introduction
     ###########################################################################
 
@@ -232,10 +239,10 @@ translations:
     - key: picks.sarah_drasner.name
       t: Pawel Kozlowski
     - key: picks.sarah_drasner.bio
-      t: 
+      t: Director of Engineering & Web at Google
     - key: picks.sarah_drasner.description
       t: |
-          Pawel Kozlowski is the kind of developerwho can be open-minded to different 
+          Pawel Kozlowski is the kind of developer who can be open-minded to different 
           approaches with humility and curiosity with the interest of improving things.
 
     - key: picks.sara_vieira.name
