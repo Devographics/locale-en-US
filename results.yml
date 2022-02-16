@@ -553,6 +553,8 @@ translations:
     t: Custom Chart
   - key: custom_data.submit
     t: Submit
+  - key: custom_data.empty_contents
+    t: Please enter some data in the "Custom Data" field.
   - key: custom_data.edit_title
     t: Edit Chart Title
   - key: custom_data.customize
