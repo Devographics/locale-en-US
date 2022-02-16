@@ -239,7 +239,7 @@ translations:
     - key: picks.sarah_drasner.name
       t: Pawel Kozlowski
     - key: picks.sarah_drasner.bio
-      t: Director of Engineering & Web at Google
+      t: Director of Engineering, Core Developer Web at Google
     - key: picks.sarah_drasner.description
       t: |
           Pawel Kozlowski is the kind of developer who can be open-minded to different 
