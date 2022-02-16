@@ -197,7 +197,7 @@ translations:
     - key: picks.my_pick
       t: 'My 2021 Pick: '
     - key: picks.intro
-      t: We asked members of the CSS community to share their “pick of the year”
+      t: We asked members of the JavaScript community to share their “pick of the year”
 
     - key: picks.lee_robinson.name
       t: SvelteKit
