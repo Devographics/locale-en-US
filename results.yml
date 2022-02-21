@@ -200,6 +200,9 @@ translations:
   - key: sections.about.title
     t: About
 
+  - key: sections.how_to_help.title
+    t: How to Help
+
   - key: sections.support.title
     t: Support Us
   - key: sections.support.description
