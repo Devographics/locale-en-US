@@ -1414,3 +1414,10 @@ translations:
     key: resources.people.others.description
     t: >
       People you read, follow, or just want to highlight for their work (freeform field, comma-separated names).
+  - 
+    #other surveys
+    key: resources.other_surveys
+    t: Other Surveys
+  - 
+    key: resources.other_surveys.description
+    t: Which other developer surveys do you participate in?
