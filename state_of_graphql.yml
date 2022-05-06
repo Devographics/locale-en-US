@@ -1,0 +1,121 @@
+locale: en-US
+namespace: graphql
+translations:
+    ###########################################################################
+    # General
+    ###########################################################################
+
+    ###########################################################################
+    # Sections
+    ###########################################################################
+
+    ###########################################################################
+    # Options
+    ###########################################################################
+
+    ###########################################################################
+    # Features
+    ###########################################################################
+
+    # common features
+    - key: features.custom_directives
+      t: Custom Directives
+    - key: features.custom_scalars
+      t: Custom Scalars
+    - key: features.fragments
+      t: Fragments
+    - key: features.unions
+      t: Unions
+    - key: features.interfaces
+      t: Fragments
+
+    # directives
+    - key: features.at_skip
+      t: '@skip'
+    - key: features.at_include
+      t: '@include'
+    - key: features.at_deprecated
+      t: '@deprecated'
+    - key: features.at_specified_by
+      t: '@specifiedBy'
+    - key: features.at_defer
+      t: '@defer'
+    - key: features.at_stream
+      t: '@stream'
+
+    # security & performance
+    - key: features.persisted_queries
+      t: Persisted Queries
+    - key: features.query_depth_limit
+      t: Query Depth Limiting
+    - key: features.query_rate_limit
+      t: Query Rate Limiting
+    - key: features.disabling_introspection
+      t: Disabling Introspection
+
+    # other features
+    - key: features.graphql_subscriptions
+      t: GraphQL Subscriptions
+    - key: features.federation
+      t: Federation
+    - key: features.schema_stitching
+      t: Schema Stitching
+
+    ###########################################################################
+    # Usage
+    ###########################################################################
+
+    - key: usage.graphql_experience
+      t: GraphQL Experience
+    - key: usage.graphql_experience.description
+      t: How long have you been using GraphQL for?
+    - key: usage.usage_type
+      t: GraphQL Usage Type
+    - key: usage.usage_type.description
+      t: What kind of APIs do you use GraphQL for?
+    - key: usage.code_generation_frequency
+      t: Code Generation Frequency
+    - key: usage.code_generation_frequency.description
+      t: How often do you use code generation tools?
+    - key: usage.code_generation_type
+      t: Code Generation Type
+    - key: usage.code_generation_type.description
+      t: What kind of code generation approach do you tend to favor?
+    - key: usage.code_generation_target
+      t: Code Generation Target
+    - key: usage.code_generation_target.description
+      t: Which part(s) of your codebase do you generate programatically?
+    - key: usage.industry_sector
+      t: Industry Sector
+    - key: usage.industry_sector.description
+      t: Which industry sector are you using GraphQL in?
+    - key: usage.server_languages
+      t: Server Languages
+    - key: usage.server_languages.description
+      t: Which language(s) do you use to write your GraphQL back-ends?
+    - key: usage.pain_points
+      t: Main GraphQL Pain Points
+    - key: usage.currently_missing
+      t: Features Currently Missing From GraphQL
+    - key: usage.other_tools
+      t: Other GraphQL Tools
+    - key: happiness.state_of_graphql
+      t: How happy are you with the overall state of the GraphQL ecosystem?
+
+    ###########################################################################
+    # Opinions
+    ###########################################################################
+
+    - key: opinions.graphql_better_than_rest
+      t: GraphQL is superior to REST
+    - key: opinions.always_prefer_graphql_apis
+      t: I always prefer working with GraphQL APIs
+
+    ###########################################################################
+    # Resources
+    ###########################################################################
+    
+    - key: resources.first_steps
+      t: First Steps With GraphQL
+    - key: resources.first_steps.description
+      t: When first starting out, how did you initially learn GraphQL?
