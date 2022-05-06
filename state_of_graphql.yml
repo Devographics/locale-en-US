@@ -9,6 +9,44 @@ translations:
     # Sections
     ###########################################################################
 
+    - key: sections.language.title
+      t: Language
+    - key: sections.language.description
+      t: The vocabulary of GraphQL.
+    - key: sections.language.title
+      t: Directives
+    - key: sections.language.description
+      t: Augmenting your GraphQL fields. 
+    - key: sections.security_performance.title
+      t: Security & Performance
+    - key: sections.language.description
+      t: Making your API more robuts. 
+
+    - key: sections.graphql_servers.title
+      t: GraphQL Servers
+    - key: sections.graphql_servers.description
+      t: How you power your API.
+    - key: sections.graphql_clients.title
+      t: GraphQL Clients
+    - key: sections.graphql_clients.description
+      t: Querying your API. 
+    - key: sections.graphql_api_generators.title
+      t: GraphQL API Generators
+    - key: sections.graphql_api_generators.description
+      t: Tools and services that create your API for you. 
+    - key: sections.graphql_code_generators.title
+      t: GraphQL Code Generators
+    - key: sections.graphql_code_generators.description
+      t: Libraries that write part of your code for you. 
+    - key: sections.graphql_ides.title
+      t: GraphQL IDEs
+    - key: sections.graphql_ides.description
+      t: Apps and services that help you query your GraphQL API. 
+    - key: sections.usage.title
+      t: GraphQL Usage
+    - key: sections.usage.description
+      t: How you use GraphQL. 
+    
     ###########################################################################
     # Options
     ###########################################################################
