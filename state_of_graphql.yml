@@ -13,13 +13,13 @@ translations:
       t: Language
     - key: sections.language.description
       t: The vocabulary of GraphQL.
-    - key: sections.language.title
+    - key: sections.directives.title
       t: Directives
-    - key: sections.language.description
+    - key: sections.directives.description
       t: Augmenting your GraphQL fields. 
     - key: sections.security_performance.title
       t: Security & Performance
-    - key: sections.language.description
+    - key: sections.security_performance.description
       t: Making your API more robuts. 
 
     - key: sections.graphql_servers.title
@@ -31,11 +31,15 @@ translations:
     - key: sections.graphql_clients.description
       t: Querying your API. 
     - key: sections.graphql_api_generators.title
-      t: GraphQL API Generators
+      t: API Generators
     - key: sections.graphql_api_generators.description
       t: Tools and services that create your API for you. 
+    - key: sections.graphql_frameworks.title
+      t: GraphQL Frameworks
+    - key: sections.graphql_frameworks.description
+      t: Full-stack frameworks that make use of GraphQL. 
     - key: sections.graphql_code_generators.title
-      t: GraphQL Code Generators
+      t: Code Generators
     - key: sections.graphql_code_generators.description
       t: Libraries that write part of your code for you. 
     - key: sections.graphql_ides.title
@@ -43,13 +47,9 @@ translations:
     - key: sections.graphql_ides.description
       t: Apps and services that help you query your GraphQL API. 
     - key: sections.usage.title
-      t: GraphQL Usage
+      t: Usage
     - key: sections.usage.description
       t: How you use GraphQL. 
-    
-    ###########################################################################
-    # Options
-    ###########################################################################
 
     ###########################################################################
     # Features
@@ -84,12 +84,36 @@ translations:
     # security & performance
     - key: features.persisted_queries
       t: Persisted Queries
-    - key: features.query_depth_limit
-      t: Query Depth Limiting
+    - key: features.query_whitelisting
+      t: Query Whitelisting
+    - key: features.query_whitelisting.description
+      t: Only accept queries from a predefined list. 
+
+    - key: features.query_timeouts
+      t: Query Timeouts
     - key: features.query_rate_limit
       t: Query Rate Limiting
+    - key: features.query_depth_limit
+      t: Query Depth Limiting
+    - key: features.query_amount_limit
+      t: Query Amount Limiting
+    - key: features.query_amount_limiting.description
+      t: Put a ceiling on any pagination count passed as a query argument. 
+    - key: features.query_cost_analysis
+      t: Query Cost Analysis
+    - key: features.query_cost_analysis.description
+      t: Analyzing a set of factors before deciding whether to allow a query.
+
     - key: features.disabling_introspection
       t: Disabling Introspection
+    - key: features.ip_whitelisting
+      t: IP Whitelisting
+    - key: features.ip_whitelisting.description
+      t: Only allowing a predefined set of IP addresses to access an API. 
+    - key: features.require_authentication
+      t: Requiring Authentication
+    - key: features.require_authentication.description
+      t: Require authentication before any API access.
 
     # other features
     - key: features.graphql_subscriptions
@@ -107,10 +131,24 @@ translations:
       t: GraphQL Experience
     - key: usage.graphql_experience.description
       t: How long have you been using GraphQL for?
-    - key: usage.usage_type
-      t: GraphQL Usage Type
-    - key: usage.usage_type.description
+    - key: usage.api_type
+      t: API Types
+    - key: usage.api_type.description
       t: What kind of APIs do you use GraphQL for?
+    - key: usage.client_type
+      t: API Clients
+    - key: usage.client_type.description
+      t: What kind of clients connect to your APIs?
+    - key: usage.data_sources
+      t: Data Sources
+    - key: usage.data_sources.description
+      t: Which kind of data sources are consumed by your GraphQL APIs?
+
+    - key: usage.security_practices
+      t: Security Practices
+    - key: usage.security_practices.description
+      t: Which of these practices do you implement in your APIs?
+
     - key: usage.code_generation_frequency
       t: Code Generation Frequency
     - key: usage.code_generation_frequency.description
@@ -118,24 +156,41 @@ translations:
     - key: usage.code_generation_type
       t: Code Generation Type
     - key: usage.code_generation_type.description
-      t: What kind of code generation approach do you tend to favor?
+      t: If you use code generation, which approaches do you tend to prefer?
     - key: usage.code_generation_target
       t: Code Generation Target
     - key: usage.code_generation_target.description
       t: Which part(s) of your codebase do you generate programatically?
+
     - key: usage.industry_sector
-      t: Industry Sector
+      t: Industry Sectors
     - key: usage.industry_sector.description
-      t: Which industry sector are you using GraphQL in?
+      t: Which industry sector(s) are you using GraphQL in?
+    - key: usage.industry_sector.others
+      t: Other Industry Sectors
     - key: usage.server_languages
       t: Server Languages
     - key: usage.server_languages.description
       t: Which language(s) do you use to write your GraphQL back-ends?
+    - key: usage.server_languages
+      t: Other Server Languages
+    - key: usage.strong_points
+      t: GraphQL Strong Points
+    - key: usage.strong_points.description
+      t: What are the main reasons why you enjoy using GraphQL?
+    - key: usage.strong_points.others
+      t: Other GraphQL Strong Points
     - key: usage.pain_points
-      t: Main GraphQL Pain Points
+      t: GraphQL Pain Points
+    - key: usage.pain_points.description
+      t: What are your main pain points when using GraphQL?
+    - key: usage.pain_points.others
+      t: Other GraphQL Pain Points
     - key: usage.currently_missing
       t: Features Currently Missing From GraphQL
     - key: usage.other_tools
+      t: Other GraphQL Tools
+    - key: usage.other_tools.others
       t: Other GraphQL Tools
     - key: happiness.state_of_graphql
       t: How happy are you with the overall state of the GraphQL ecosystem?
@@ -144,16 +199,164 @@ translations:
     # Opinions
     ###########################################################################
 
-    - key: opinions.graphql_better_than_rest
-      t: GraphQL is superior to REST
-    - key: opinions.always_prefer_graphql_apis
-      t: I always prefer working with GraphQL APIs
+    # - key: opinions.graphql_better_than_rest
+    #   t: GraphQL is superior to REST
+    # - key: opinions.always_prefer_graphql_apis
+    #   t: I always prefer working with GraphQL APIs
 
     ###########################################################################
     # Resources
     ###########################################################################
     
-    - key: resources.first_steps
+    - key: resources.first_steps_graphql
       t: First Steps With GraphQL
-    - key: resources.first_steps.description
+    - key: resources.first_steps_graphql.description
       t: When first starting out, how did you initially learn GraphQL?
+
+    ###########################################################################
+    # Options
+    ###########################################################################
+
+    - key: options.graphql_experience.range_less_than_1
+      t: Less than one year
+    - key: options.graphql_experience.range_1_2
+      t: 1 to 2 years
+    - key: options.graphql_experience.range_3_5
+      t: 3 to 5 years
+    - key: options.graphql_experience.range_6_10
+      t: 6 to 10 years
+    - key: options.graphql_experience.range_more_than_10
+      t: More than 10 years
+
+    - key: options.api_type.public_apis
+      t: Publicly available APIs intended for third-party developers.
+    - key: options.api_type.private_apis
+      t: Private APIs for internal usage.
+      
+    - key: options.client_type.browsers
+      t: Browsers
+    - key: options.client_type.mobile_devices
+      t: Native Mobile Apps
+    - key: options.client_type.mobile_devices
+      t: Native Desktop Apps
+    - key: options.client_type.other_servers
+      t: Other Servers
+
+    - key: options.data_sources.static_files
+      t: Static files (YAML, Markdown, etc.)
+    - key: options.data_sources.databases
+      t: Databases
+    - key: options.data_sources.spreadsheets
+      t: Spreadsheets
+    - key: options.data_sources.cmses
+      t: CMSes
+    - key: options.data_sources.rest_apis
+      t: REST APIs
+    - key: options.data_sources.other_graphql_apis
+      t: Other GraphQL APIs
+
+    - key: options.code_generation_type.code_first
+      t: Code-first
+    - key: options.code_generation_type.schema_first
+      t: Schema-first
+    - key: options.code_generation_type.database_first
+      t: Database-first
+
+    - key: options.code_generation_target.graphql_schema
+      t: GraphQL schema
+    - key: options.code_generation_target.non_graphql_typings
+      t: Non-GraphQL (e.g. TypeScript) typings
+    - key: options.code_generation_target.server_resolvers
+      t: Server resolvers
+    - key: options.code_generation_target.fragments_or_queries
+      t: Client-side fragments and/or queries
+    - key: options.code_generation_target.client_code
+      t: Client-side query code (e.g. React hooks)
+
+    - key: options.strong_points.avoiding_overfetching
+      t: Avoiding Over-fetching
+    - key: options.strong_points.avoiding_overfetching.description
+      t: Keep API responses smaller by specifying exactly the data you need. 
+    - key: options.strong_points.introspection
+      t: Introspection & API Documentation
+    - key: options.strong_points.introspection.description
+      t: Create self-documenting APIs that improve the developer experience.
+    - key: options.strong_points.tooling_ecosystem
+      t: Tooling & Ecosystem
+    - key: options.strong_points.tooling_ecosystem.description
+      t: The different tools, services, and libraries that use GraphQL. 
+    - key: options.strong_points.type_checking
+      t: Type-checking
+    - key: options.strong_points.type_checking.description
+      t: Enforcing and validating types for every object in the API. 
+    - key: options.strong_points.api_aggregation
+      t: Combining Different APIs
+    - key: options.strong_points.api_aggregation.description
+      t: Being able to combine together different API schemas. 
+    - key: options.strong_points.aggregating_requests
+      t: Aggregating Requests
+    - key: options.strong_points.aggregating_requests.description
+      t: Only ever have to make a single request from the client.
+    - key: options.strong_points.community
+      t: Community
+    - key: options.strong_points.community.description
+      t: The people who are active in the GraphQL space. 
+    - key: options.strong_points.fragment_colocation
+      t: Fragment Colocation
+    - key: options.strong_points.fragment_colocation.description
+      t: Being able to colocate a component's data requirements next to it. 
+
+    - key: options.pain_points.performance
+      t: Performance
+    - key: options.pain_points.performance.description
+      t: Performance issues such as the n+1 problem. 
+    - key: options.pain_points.security
+      t: Security
+    - key: options.pain_points.security.description
+      t: Security issues such as infinitely nested queries. 
+    - key: options.pain_points.combining_schemas
+      t: Combining Different Schemas
+    - key: options.pain_points.combining_schemas.description
+      t: Being able to combine together different API schemas. 
+    - key: options.pain_points.api_versioning
+      t: API Versioning
+    - key: options.pain_points.api_versioning.description
+      t: Handling deprecated fields and other versioning concerns. 
+    - key: options.pain_points.file_upload
+      t: File Upload 
+    - key: options.pain_points.file_upload.description
+      t: Being able to upload files through your GraphQL API. 
+    - key: options.pain_points.testing
+      t: Testing
+    - key: options.pain_points.testing.description
+      t: Testing your GraphQL API. 
+    - key: options.pain_points.error_handling
+      t: Error Handling
+    - key: options.pain_points.error_handling.description
+      t: Returning errors and managing them on the client. 
+    - key: options.pain_points.client_side_caching
+      t: Client-side Caching
+    - key: options.pain_points.client_side_caching.description
+      t: Caching data on the client, updating the cache, optimistic UI, etc. 
+
+    # learning methods
+    - key: options.first_steps_graphql.books
+      t: Books
+    - key: options.first_steps_graphql.videos
+      t: Videos & screencasts
+    - key: options.first_steps_graphql.school
+      t: School & higher education
+    - key: options.first_steps_graphql.courses_free
+      t: Online courses (free)
+    - key: options.first_steps_graphql.courses_paid
+      t: Online courses (paid)
+    - key: options.first_steps_graphql.podcasts
+      t: Podcasts
+    - key: options.first_steps_graphql.bootcamp
+      t: Coding bootcamp
+    - key: options.first_steps_graphql.on_the_job
+      t: On-the-job training
+    - key: options.first_steps_graphql.self_directed
+      t: Self-directed learning (Google, Stack Overflow, etc.)
+    - key: options.first_steps_graphql.mentoring
+      t: Mentoring
