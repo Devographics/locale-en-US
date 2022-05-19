@@ -24,9 +24,9 @@ translations:
     # Sections
     ###########################################################################
 
-    - key: sections.language.title
+    - key: sections.graphql_language.title
       t: Language
-    - key: sections.language.description
+    - key: sections.graphql_language.description
       t: The vocabulary of GraphQL.
     - key: sections.directives.title
       t: Directives
