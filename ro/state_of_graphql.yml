@@ -7,6 +7,17 @@ translations:
     #General
     ###########################################################################
     ###########################################################################
+    #Survey
+    ###########################################################################
+    key: features.features_intro
+    t: >
+      Welcome to the survey! This first part is all about figuring out which **features** of GraphQL and its ecosystem you know about. And if you know about something but haven't yet used it, that's fine too!
+  - 
+    key: tools.tools_intro
+    t: >
+      The next couple sections focus on the **libraries** and **services** that make up the GraphQL ecosystem. Let us know what you're excited about!
+  - 
+    ###########################################################################
     #Sections
     ###########################################################################
     key: sections.language.title
@@ -86,7 +97,7 @@ translations:
     t: Unions
   - 
     key: features.interfaces
-    t: Fragments
+    t: Interfaces
   - 
     #directives
     key: features.at_skip
