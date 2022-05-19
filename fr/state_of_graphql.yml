@@ -43,28 +43,28 @@ translations:
     t: API Generators
   - 
     key: sections.graphql_api_generators.description
-    t: Tools and services that create your API for you.
+    t: ORMs, CMSes, and other tools that create an API for you.
   - 
-    key: sections.graphql_frameworks.title
-    t: GraphQL Frameworks
+    key: sections.web_frameworks.title
+    t: Web Frameworks
   - 
-    key: sections.graphql_frameworks.description
-    t: Full-stack frameworks that make use of GraphQL.
+    key: sections.web_frameworks.description
+    t: Web frameworks that you use in conjunction with GraphQL.
   - 
     key: sections.graphql_code_generators.title
-    t: Code Generators
+    t: Code & Schema Generators
   - 
     key: sections.graphql_code_generators.description
-    t: Libraries that write part of your code for you.
+    t: Generators, schema builders, and other libraries that write part of your code for you.
   - 
-    key: sections.graphql_ides.title
-    t: GraphQL IDEs
+    key: sections.schema_builders.title
+    t: Schema Builders
   - 
-    key: sections.graphql_ides.description
-    t: Apps and services that help you query your GraphQL API.
+    key: sections.schema_builders.description
+    t: Libraries and utilities that help you build all or part of your GraphQL schema.
   - 
     key: sections.usage.title
-    t: Usage
+    t: GraphQL Usage
   - 
     key: sections.usage.description
     t: How you use GraphQL.
@@ -111,10 +111,10 @@ translations:
     key: features.persisted_queries
     t: Persisted Queries
   - 
-    key: features.query_whitelisting
-    t: Query Whitelisting
+    key: features.query_allowlisting
+    t: Query Allow-listing
   - 
-    key: features.query_whitelisting.description
+    key: features.query_allowlisting.description
     t: Only accept queries from a predefined list.
   - 
     key: features.query_timeouts
@@ -141,10 +141,10 @@ translations:
     key: features.disabling_introspection
     t: Disabling Introspection
   - 
-    key: features.ip_whitelisting
-    t: IP Whitelisting
+    key: features.ip_allowlisting
+    t: IP Allow-listing
   - 
-    key: features.ip_whitelisting.description
+    key: features.ip_allowlisting.description
     t: Only allowing a predefined set of IP addresses to access an API.
   - 
     key: features.require_authentication
@@ -157,11 +157,80 @@ translations:
     key: features.graphql_subscriptions
     t: GraphQL Subscriptions
   - 
-    key: features.federation
-    t: Federation
+    key: features.live_queries
+    t: Live Queries
+  - 
+    key: features.apollo_federation
+    t: Apollo Federation
   - 
     key: features.schema_stitching
     t: Schema Stitching
+  - 
+    ###########################################################################
+    #Other Tools
+    ###########################################################################
+    key: other_tools.server_languages
+    t: Server Languages
+  - 
+    key: other_tools.server_languages.description
+    t: Which language(s) do you use to write your GraphQL back-ends?
+  - 
+    key: other_tools.server_languages.others
+    t: Other server languages
+  - 
+    key: other_tools.combining_schemas
+    t: Combining Schemas
+  - 
+    key: other_tools.combining_schemas.description
+    t: Which tools do you use to combine, aggregate, or merge GraphQL schemas from different APIs?
+  - 
+    key: other_tools.combining_schemas.others
+    t: Other tools for combining schemas
+  - 
+    key: other_tools.server_languages
+    t: Server Languages
+  - 
+    key: other_tools.server_languages.description
+    t: Which language(s) do you use to write your GraphQL back-ends?
+  - 
+    key: other_tools.server_languages
+    t: Other Server Languages
+  - 
+    key: other_tools.graphql_ides
+    t: GraphQL IDEs
+  - 
+    key: other_tools.graphql_ides.description
+    t: Apps and services that help you query your GraphQL API.
+  - 
+    key: other_tools.graphql_ides.others
+    t: Other GraphQL IDEs
+  - 
+    key: other_tools.web_frameworks
+    t: Web Frameworks
+  - 
+    key: other_tools.web_frameworks.description
+    t: Web frameworks that you use in conjunction with GraphQL.
+  - 
+    key: other_tools.web_frameworks.others
+    t: Other web frameworks
+  - 
+    key: other_tools.databases
+    t: Databases
+  - 
+    key: other_tools.databases.description
+    t: Which databases do you use in conjunction with GraphQL?
+  - 
+    key: other_tools.databases.others
+    t: Other databases
+  - 
+    key: other_tools.other_tools
+    t: Other GraphQL Tools
+  - 
+    key: other_tools.other_tools.description
+    t: Other tools, libraries, or services you use
+  - 
+    key: other_tools.other_tools.others
+    t: Other GraphQL tools not previously mentioned
   - 
     ###########################################################################
     #Usage
@@ -178,11 +247,17 @@ translations:
     key: usage.api_type.description
     t: What kind of APIs do you use GraphQL for?
   - 
+    key: usage.api_type.others
+    t: Other kind of APIs
+  - 
     key: usage.client_type
     t: API Clients
   - 
     key: usage.client_type.description
     t: What kind of clients connect to your APIs?
+  - 
+    key: usage.client_type.others
+    t: Other types of clients
   - 
     key: usage.data_sources
     t: Data Sources
@@ -190,17 +265,8 @@ translations:
     key: usage.data_sources.description
     t: Which kind of data sources are consumed by your GraphQL APIs?
   - 
-    key: usage.security_practices
-    t: Security Practices
-  - 
-    key: usage.security_practices.description
-    t: Which of these practices do you implement in your APIs?
-  - 
-    key: usage.code_generation_frequency
-    t: Code Generation Frequency
-  - 
-    key: usage.code_generation_frequency.description
-    t: How often do you use code generation tools?
+    key: usage.data_sources.others
+    t: Other data sources
   - 
     key: usage.code_generation_type
     t: Code Generation Type
@@ -208,11 +274,17 @@ translations:
     key: usage.code_generation_type.description
     t: If you use code generation, which approaches do you tend to prefer?
   - 
+    key: usage.code_generation_type.others
+    t: Other types of code generation
+  - 
     key: usage.code_generation_target
     t: Code Generation Target
   - 
     key: usage.code_generation_target.description
     t: Which part(s) of your codebase do you generate programatically?
+  - 
+    key: usage.code_generation_target.others
+    t: Other code generation targets
   - 
     key: usage.industry_sector
     t: Industry Sectors
@@ -222,15 +294,6 @@ translations:
   - 
     key: usage.industry_sector.others
     t: Other Industry Sectors
-  - 
-    key: usage.server_languages
-    t: Server Languages
-  - 
-    key: usage.server_languages.description
-    t: Which language(s) do you use to write your GraphQL back-ends?
-  - 
-    key: usage.server_languages
-    t: Other Server Languages
   - 
     key: usage.strong_points
     t: GraphQL Strong Points
@@ -249,15 +312,6 @@ translations:
   - 
     key: usage.pain_points.others
     t: Other GraphQL Pain Points
-  - 
-    key: usage.currently_missing
-    t: Features Currently Missing From GraphQL
-  - 
-    key: usage.other_tools
-    t: Other GraphQL Tools
-  - 
-    key: usage.other_tools.others
-    t: Other GraphQL Tools
   - 
     key: happiness.state_of_graphql
     t: How happy are you with the overall state of the GraphQL ecosystem?
@@ -297,10 +351,13 @@ translations:
     t: More than 10 years
   - 
     key: options.api_type.public_apis
-    t: Publicly available APIs intended for third-party developers.
+    t: Publicly-available APIs intended for third-party developers
+  - 
+    key: options.api_type.personal_apis
+    t: Exposed APIs intended for your own website and/or apps
   - 
     key: options.api_type.private_apis
-    t: Private APIs for internal usage.
+    t: Private, unexposed APIs for internal usage
   - 
     key: options.client_type.browsers
     t: Browsers
@@ -308,7 +365,7 @@ translations:
     key: options.client_type.mobile_devices
     t: Native Mobile Apps
   - 
-    key: options.client_type.mobile_devices
+    key: options.client_type.desktop_apps
     t: Native Desktop Apps
   - 
     key: options.client_type.other_servers
@@ -327,22 +384,25 @@ translations:
     t: CMSes
   - 
     key: options.data_sources.rest_apis
-    t: REST APIs
+    t: REST APIs (Swagger/OpenAPI, json-schema, oData, etc.)
   - 
     key: options.data_sources.other_graphql_apis
     t: Other GraphQL APIs
   - 
+    key: options.data_sources.other_api_protocols
+    t: Other API Protocols (gRPC, SOAP, Apache Thrift, etc.)
+  - 
     key: options.code_generation_type.code_first
-    t: Code-first
+    t: Code-first (JS, TS, JSON, etc.)
   - 
     key: options.code_generation_type.schema_first
-    t: Schema-first
+    t: Schema-first (GraphQL SDL-first)
   - 
     key: options.code_generation_type.database_first
     t: Database-first
   - 
     key: options.code_generation_target.graphql_schema
-    t: GraphQL schema
+    t: GraphQL schema (SDL)
   - 
     key: options.code_generation_target.non_graphql_typings
     t: Non-GraphQL (e.g. TypeScript) typings
@@ -354,7 +414,7 @@ translations:
     t: Client-side fragments and/or queries
   - 
     key: options.code_generation_target.client_code
-    t: Client-side query code (e.g. React hooks)
+    t: Other client-side code (e.g. React hooks)
   - 
     key: options.strong_points.avoiding_overfetching
     t: Avoiding Over-fetching
