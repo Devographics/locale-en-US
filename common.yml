@@ -343,37 +343,37 @@ translations:
 
     # age
     - key: options.age.range_less_than_10
-      t: Under 10 years old
+      t: 10 years old or under
     - key: options.age.range_10_18
-      t: 10-18 years old
+      t: 11-18 years old
     - key: options.age.range_18_24
-      t: 18-24 years old
+      t: 19-24 years old
     - key: options.age.range_25_34
-      t: 24-34 years old
+      t: 25-34 years old
     - key: options.age.range_35_44
-      t: 35-44 years old
+      t: 36-44 years old
     - key: options.age.range_45_54
-      t: 45-54 years old
+      t: 46-54 years old
     - key: options.age.range_55_64
-      t: 55-64 years old
+      t: 56-64 years old
     - key: options.age.range_more_than_65
       t: 65 years or older
 
     # age (short versions)
     - key: options.age.range_less_than_10.short
-      t: '<10'
+      t: '<=10'
     - key: options.age.range_10_18.short
-      t: 10-18
+      t: 11-18
     - key: options.age.range_18_24.short
-      t: 18-24
+      t: 19-24
     - key: options.age.range_25_34.short
-      t: 24-34
+      t: 25-34
     - key: options.age.range_35_44.short
-      t: 35-44
+      t: 36-44
     - key: options.age.range_45_54.short
-      t: 45-54
+      t: 46-54
     - key: options.age.range_55_64.short
-      t: 55-64
+      t: 56-64
     - key: options.age.range_more_than_65.short
       t: '>65'
 
@@ -383,11 +383,11 @@ translations:
     - key: options.years_of_experience.range_1_2
       t: 1 to 2 years
     - key: options.years_of_experience.range_2_5
-      t: 2 to 5 years
+      t: 3 to 5 years
     - key: options.years_of_experience.range_5_10
-      t: 5 to 10 years
+      t: 6 to 10 years
     - key: options.years_of_experience.range_10_20
-      t: 10 to 20 years
+      t: 11 to 20 years
     - key: options.years_of_experience.range_more_than_20
       t: More than 20 years
 
@@ -397,11 +397,11 @@ translations:
     - key: options.years_of_experience.range_1_2.short
       t: 1-2 years
     - key: options.years_of_experience.range_2_5.short
-      t: 2-5 years
+      t: 3-5 years
     - key: options.years_of_experience.range_5_10.short
-      t: 5-10 years
+      t: 6-10 years
     - key: options.years_of_experience.range_10_20.short
-      t: 10-20 years
+      t: 11-20 years
     - key: options.years_of_experience.range_more_than_20.short
       t: '>20 years'
 
@@ -409,17 +409,17 @@ translations:
     - key: options.company_size.range_1
       t: One employee
     - key: options.company_size.range_1_5
-      t: 1 to 5 employees
+      t: 2 to 5 employees
     - key: options.company_size.range_5_10
-      t: 5 to 10 employees
+      t: 6 to 10 employees
     - key: options.company_size.range_10_20
-      t: 10 to 20 employees
+      t: 11 to 20 employees
     - key: options.company_size.range_20_50
-      t: 20 to 50 employees
+      t: 21 to 50 employees
     - key: options.company_size.range_50_100
-      t: 50 to 100 employees
+      t: 51 to 100 employees
     - key: options.company_size.range_100_1000
-      t: 100 to 1000 employees
+      t: 101 to 1000 employees
     - key: options.company_size.range_more_than_1000
       t: More than 1000 employees
 
@@ -429,15 +429,15 @@ translations:
     - key: options.company_size.range_1_5.short
       t: 1-5
     - key: options.company_size.range_5_10.short
-      t: 5-10
+      t: 6-10
     - key: options.company_size.range_10_20.short
-      t: 10-20
+      t: 11-20
     - key: options.company_size.range_20_50.short
-      t: 20-50
+      t: 21-50
     - key: options.company_size.range_50_100.short
-      t: 50-100
+      t: 51-100
     - key: options.company_size.range_100_1000.short
-      t: 100-1000
+      t: 101-1000
     - key: options.company_size.range_more_than_1000.short
       t: '>1000'
 

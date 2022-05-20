@@ -20,6 +20,11 @@ translations:
           The next couple sections focus on the **libraries** and **services** that make up 
           the GraphQL ecosystem. Let us know what you're excited about!
 
+    - key: usage.bracket_intro
+      t: >
+          The next question uses a special **bracket** format! For each match-up, pick the item 
+          that you feel is most important to you (note that match-ups are randomized for every respondent). 
+
     ###########################################################################
     # Sections
     ###########################################################################
@@ -140,6 +145,14 @@ translations:
     - key: features.schema_stitching
       t: Schema Stitching
 
+    ###########################################################################
+    # Tools
+    ###########################################################################
+
+    - key: tools.no_client
+      t: No Client
+    - key: tools.no_client.description
+      t: No dedicated GraphQL client (raw HTTP requests with Fetch, Axios, etc.)
 
     ###########################################################################
     # Other Tools

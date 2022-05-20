@@ -10,6 +10,30 @@ translations:
       t: Global
 
     ###########################################################################
+    # Accounts
+    ###########################################################################
+
+    - key: accounts.create_account
+      t: Create an Account
+    - key: accounts.create_account.description
+      t: Having an account lets you **access your own data in the future** and be notified when survey results are published.
+    - key: accounts.create_account.note
+      t: If you **already have an account** we will send you a magic log-in link by email.
+    - key: accounts.create_account.action
+      t: Continue with Account
+    - key: accounts.your_email
+      t: Your Email
+
+    - key: accounts.continue_as_guest
+      t: Continue as Guest
+    - key: accounts.continue_as_guest.description
+      t: Taking the survey anonymously means you **won't be able to access your data again** after you close your browser tab.
+    - key: accounts.continue_as_guest.action
+      t: Continue as Guest
+
+   
+            
+    ###########################################################################
     # FAQ
     ###########################################################################
 
