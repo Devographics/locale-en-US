@@ -110,6 +110,12 @@ translations:
     key: accounts.logged_in_as
     t: Logged in as {email}
   - 
+    key: accounts.logged_in_as_guest
+    t: Logged in as Guest
+  - 
     key: accounts.questions
     t: >
       If you have any questions about how we use your data, or would like us to remove your data from our records, please <a href="mailto:hello@stateofjs.com">get in touch</a>.
+  - 
+    key: accounts.token_verified
+    t: Token verification successful, redirecting…
