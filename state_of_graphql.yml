@@ -5,6 +5,17 @@ translations:
     # General
     ###########################################################################
 
+    - key: general.survey_intro_graphql2022
+      t: >
+          When GraphQL was first introduced it offered a radically new way to build APIs, with more control, more granularity, and more flexibility. 
+
+
+          But that flexibility came at a price in the form of extra complexity, and a crop of frameworks, libraries, and services quickly appeared to help define better patterns and workflows. 
+
+
+          Now, for the first time ever we're surveying the GraphQL community to figure out which of these many tools are the most popular, and which features are actually being used. With your help, let's see what GraphQL has been up to in 2022!
+          
+
     ###########################################################################
     # Survey
     ###########################################################################
@@ -291,6 +302,24 @@ translations:
       t: First Steps With GraphQL
     - key: resources.first_steps_graphql.description
       t: When first starting out, how did you initially learn GraphQL?
+
+    # sites & courses
+    - key: resources.sites_courses
+      t: Sites & Courses
+    - key: resources.sites_courses.description
+      t: Which GraphQL-related sites/courses/etc. do you use to learn about GraphQL?
+
+    # podcasts
+    - key: resources.podcasts.others
+      t: Podcasts
+    - key: resources.podcasts.others.description
+      t: Which GraphQL-related podcasts do you listen to?
+
+    # people
+    - key: resources.people.others
+      t: People
+    - key: resources.people.others.description
+      t: People you read, follow, or just want to highlight for their work in the GraphQL ecosystem.
 
     ###########################################################################
     # Options

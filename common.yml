@@ -82,6 +82,10 @@ translations:
     # credits
     - key: credits.thanks
       t: Special Thanks
+    - key: credits.contributors
+      t: Contributors
+    - key: credits.contributors.description
+      t: Special thanks to the following people for helping us design the survey.
     - key: credits.accessibility
       t: Accessibility Consulting
     - key: credits.survey_design
@@ -133,9 +137,8 @@ translations:
       t: Back
     - key: general.thanks
       t: >
-          Thanks for filling out the survey!
+          Thanks for filling out the survey! Your data is saved.
 
-          Your data is saved. You can review or modify it until the survey closes.
 
           Also, you can help us get the word out by sharing this survey. Every bit counts, and it'll help make our data even
           more representative:
@@ -945,6 +948,9 @@ translations:
       t: How did you find out about this survey?
     - key: user_info.email
       t: Your Email
+    - key: user_info.email.description
+      t: > 
+          You have filled out the survey anonymously. If you'd like, you can optionally enter your email to be notified when the survey results are published. 
     - key: user_info.country
       t: Your Country or Region
     - key: user_info.country.description

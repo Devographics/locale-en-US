@@ -27,11 +27,14 @@ translations:
     - key: accounts.continue_as_guest
       t: Continue as Guest
     - key: accounts.continue_as_guest.description
-      t: Taking the survey anonymously means you **won't be able to access your data again** after you close your browser tab.
+      t: Taking the survey anonymously means you **won't be able to access your data again** after you end your session.
     - key: accounts.continue_as_guest.action
       t: Continue as Guest
 
-   
+    - key: accounts.magic_link.no_email
+      t: Please enter your email
+    - key: accounts.magic_link.success
+      t: Check your inbox! We sent you a magic link, just click it to confirm your account and log in.
             
     ###########################################################################
     # FAQ
