@@ -30,7 +30,7 @@ translations:
     t: Take Survey
   - 
     key: homepage.view_results
-    t: View 2019 Results
+    t: View Results
   - 
     key: share.help_spread
     t: Help Spread the Word!
