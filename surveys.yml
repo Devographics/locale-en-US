@@ -73,7 +73,7 @@ translations:
     - key: faq.team
       t: Who runs these surveys?
     - key: faq.team.description
-      t: Surveys are primarily run by [me](http://sachagreif.com) in collaboration with contributors, translators, and volunteers. 
+      t: Surveys are run by [Devographics](http://devographics.com) together with a collective of contributors, translators, and volunteers. 
 
     ###########################################################################
     # Form Controls
