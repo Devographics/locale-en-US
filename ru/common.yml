@@ -1104,6 +1104,10 @@ translations:
     key: options.bracket.combined
     t: Combined
   - 
+    #email_temporary (receive updates?)
+    key: options.email_temporary.yes
+    t: Yes, email me when the survey results are published
+  - 
     ###########################################################################
     #Tools
     ###########################################################################
@@ -1203,6 +1207,10 @@ translations:
     t: >
       While we know collecting and publishing diversity data can be a sensitive issue, we do think it's important to obtain this data to help measure and improve the survey's efforts in terms of inclusivity and representativeness.
   - 
+    key: user_info.race_ethnicity.not_allowed
+    t: >
+      In order to comply with local policies, the collection of race or ethnicity data has been disabled for your country or region.
+  - 
     #disability status
     key: user_info.disability_status
     t: Disability Status
@@ -1224,7 +1232,11 @@ translations:
   - 
     key: user_info.email.description
     t: >
-      You have filled out the survey anonymously. If you'd like, you can optionally enter your email to be notified when the survey results are published.
+      You have filled out the survey anonymously. If you'd like, you can optionally enter your email to be able to access your data later on, and be notified when the survey results are published.
+  - 
+    key: user_info.email.note
+    t: >
+      We do not store any personal data, so after you fill in your email address we will use it to generate a unique anonymized identifier and then delete the address itself from our records.
   - 
     key: user_info.country
     t: Your Country or Region
@@ -1264,6 +1276,14 @@ translations:
   - 
     key: user_info.higher_education_degree.description
     t: Do you have a higher education degree?
+  - 
+    #email_temporary (receive updates?)
+    key: user_info.email_temporary
+    t: Do you want to be notified when the survey results are released?
+  - 
+    key: user_info.email_temporary.note
+    t: >
+      We don't store any private data, so after your email address is sent to our mailing list provider it will be deleted from our own records.
   - 
     ###########################################################################
     #Other Tools
