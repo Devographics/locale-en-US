@@ -82,3 +82,6 @@ translations:
 
     - key: accounts.token_verified
       t: Token verification successful, redirecting…
+
+    - key: accounts.your_surveys
+      t: Your Surveys

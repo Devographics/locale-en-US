@@ -41,12 +41,29 @@ translations:
     - key: newsletter.leave_your_email
       t: Leave us your email and we’ll let you know when the next survey takes place.
 
-    - key: author.sacha.bio
-      t: >
-          Creator of the [Nivo](http://nivo.rocks/) JavaScript data visualization library as well
-          as [Mozaik](http://mozaik.rocks/), a tool for building beautiful dashboards.
+    - key: homepage.other_surveys
+      t: 'Other Surveys:'
 
-    - key: author.raphael.bio
-      t: >
-          Creator of the [Sidebar](http://sidebar.io) daily newsletter and
-          [VulcanJS](http://vulcanjs.org), a React+GraphQL open-source framework.
+    - key: homepage.survey_open_now
+      t: Currently Open
+
+    - key: homepage.current_survey
+      t: Current Survey
+
+    - key: homepage.past_surveys
+      t: Past Surveys
+
+    - key: homepage.view_questions
+      t: View Questions
+
+    # newsletter
+    - key: homepage.newsletter.email
+      t: Your Email
+    - key: homepage.newsletter.submit
+      t: Notify Me
+
+    # languages
+    - key: languages.available_languages
+      t: 'Available languages:'
+    - key: languages.help_us_translate
+      t: Help us translate the survey in your language.

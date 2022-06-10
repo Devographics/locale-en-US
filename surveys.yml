@@ -8,6 +8,12 @@ translations:
       t: No surveys to preview
     - key: general.global_nav
       t: Global
+    - key: general.survey_status_preview
+      t: Preview
+    - key: general.survey_status_open
+      t: Open
+    - key: general.survey_status_closed
+      t: Closed
 
     ###########################################################################
     # Accounts
@@ -97,5 +103,14 @@ translations:
 
 
     ###########################################################################
-    # Demographics (About You/User Info)
+    # Response
     ###########################################################################
+
+    - key: response.completion
+      t: '{completion}% completed'
+
+    - key: response.details
+      t: Started on {startedAt}, {completion}% completed.
+
+    - key: response.view_results
+      t: View Results

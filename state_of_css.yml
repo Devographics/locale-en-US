@@ -5,7 +5,7 @@ translations:
     # General
     ###########################################################################
 
-    - key: general.survey_intro_css2020
+    - key: general.state_of_css.intro
       t: >
           CSS is evolving faster than ever.
 
@@ -17,7 +17,7 @@ translations:
           we’ve decided to take on the world of styles and selectors. We're hoping you’ll help
           us identify the latest trends, and figure out what tools to learn and use next!
 
-    - key: general.results.description
+    - key: general.state_of_css.description
       t: The annual survey about the latest trends in CSS.
 
     ###########################################################################
