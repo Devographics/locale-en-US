@@ -238,6 +238,9 @@ translations:
     key: general.charts_nivo
     t: Charts built with <a href="{link}">Nivo</a>.
   - 
+    key: general.made_by_devographics
+    t: Made by <a href="{link}">Devographics</a>
+  - 
     ###########################################################################
     #Nav
     ###########################################################################
