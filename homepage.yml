@@ -37,7 +37,7 @@ translations:
       t: Help Spread the Word!
 
     - key: newsletter.stay_tuned
-      t: Stay Tuned
+      t: Don't Miss the Next Survey
     - key: newsletter.leave_your_email
       t: Leave us your email and we’ll let you know when the next survey takes place.
 
@@ -47,6 +47,12 @@ translations:
     - key: homepage.survey_open_now
       t: Currently Open
 
+    - key: homepage.survey_preview
+      t: Preview Survey
+
+    - key: homepage.most_recent_survey
+      t: Most Recent
+
     - key: homepage.current_survey
       t: Current Survey
 
@@ -55,6 +61,9 @@ translations:
 
     - key: homepage.view_questions
       t: View Questions
+
+    - key: homepage.preview_questions
+      t: Preview Questions
 
     # newsletter
     - key: homepage.newsletter.email

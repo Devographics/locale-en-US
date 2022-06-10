@@ -18,7 +18,8 @@ translations:
           want to learn next, which have the best satisfaction ratings, and much more.
 
     - key: general.state_of_js.description
-      t: The annual survey of the JavaScript ecosystem.
+      t: The annual developer survey of the JavaScript ecosystem
+      
     ###########################################################################
     # Sections
     ###########################################################################

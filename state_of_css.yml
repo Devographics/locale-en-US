@@ -18,7 +18,7 @@ translations:
           us identify the latest trends, and figure out what tools to learn and use next!
 
     - key: general.state_of_css.description
-      t: The annual survey about the latest trends in CSS.
+      t: The annual developer survey about the latest trends in CSS
 
     ###########################################################################
     # Sections

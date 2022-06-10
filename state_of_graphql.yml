@@ -16,7 +16,7 @@ translations:
           Now, for the first time ever we're surveying the GraphQL community to figure out which of these many tools are the most popular, and which features are actually being used. With your help, let's see what GraphQL has been up to in 2022!
           
     - key: general.state_of_graphql.description
-      t: The annual survey of the JavaScript ecosystem.
+      t: The annual developer survey of the GraphQL ecosystem
     ###########################################################################
     # Survey
     ###########################################################################
