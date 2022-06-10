@@ -6,13 +6,16 @@ translations:
     ###########################################################################
     #General
     ###########################################################################
-    key: general.survey_intro_js2019
+    key: general.state_of_js.intro
     t: >
       The JavaScript world could use a bit of classification.
 
       Since 2016, this survey has collected data from over 20,000 developers each year to identify current and upcoming trends.
 
-      Take the survey and help us find out which libraries developers want to learn next, which have the best satisfaction ratings, and much more.
+      Together, let's find out which libraries developers want to learn next, which have the best satisfaction ratings, and much more.
+  - 
+    key: general.state_of_js.description
+    t: The annual survey of the JavaScript ecosystem.
   - 
     ###########################################################################
     #Sections
