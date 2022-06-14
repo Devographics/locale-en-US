@@ -21,13 +21,13 @@ translations:
     # Survey
     ###########################################################################
 
-    - key: features.features_intro
+    - key: features.graphql_features_intro
       t: >
           Welcome to the survey! This first part is all about figuring out 
           which **features** of GraphQL and its ecosystem you know about. 
           And if you know about something but haven't yet used it, that's fine too!
 
-    - key: tools.tools_intro
+    - key: tools.graphql_tools_intro
       t: >
           The next couple sections focus on the **libraries** and **services** that make up 
           the GraphQL ecosystem. Let us know what you're excited about!
