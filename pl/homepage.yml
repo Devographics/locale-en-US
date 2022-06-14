@@ -77,4 +77,4 @@ translations:
     t: 'Available languages:'
   - 
     key: languages.help_us_translate
-    t: Help us translate the survey in your language.
+    t: Help us translate the survey in your language →
