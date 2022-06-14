@@ -100,6 +100,9 @@ translations:
     key: general.new
     t: New
   - 
+    key: general.devographics_banner
+    t: <a href="https://www.devographics.com/" target="_blank">Devographics</a> is the new name of the collective running the State of JavaScript, CSS, and GraphQL surveys.
+  - 
     #credits
     key: credits.thanks
     t: Special Thanks
