@@ -35,12 +35,6 @@ translations:
     key: share.help_spread
     t: Help Spread the Word!
   - 
-    key: newsletter.stay_tuned
-    t: Don't Miss the Next Survey
-  - 
-    key: newsletter.leave_your_email
-    t: Leave us your email and we’ll let you know when the next survey takes place.
-  - 
     key: homepage.other_surveys
     t: 'Other Surveys:'
   - 
@@ -66,6 +60,12 @@ translations:
     t: Preview Questions
   - 
     #newsletter
+    key: homepage.newsletter.stay_tuned
+    t: Don't Miss the Next Survey
+  - 
+    key: homepage.newsletter.leave_your_email
+    t: Leave us your email and we’ll let you know when the next survey takes place.
+  - 
     key: homepage.newsletter.email
     t: Your Email
   - 
@@ -78,3 +78,16 @@ translations:
   - 
     key: languages.help_us_translate
     t: Help us translate the survey in your language →
+  - 
+    #footer
+    key: homepage.made_by_devographics
+    aliasFor: general.made_by_devographics
+  - 
+    key: homepage.netlify_link
+    aliasFor: general.netlify_link
+  - 
+    key: homepage.leave_issue
+    aliasFor: general.leave_issue
+  - 
+    key: homepage.join_discord
+    aliasFor: general.join_discord
