@@ -51,7 +51,7 @@ translations:
     t: Security & Performance
   - 
     key: sections.security_performance.description
-    t: Making your API more robuts.
+    t: Making your API more robust.
   - 
     key: sections.graphql_servers.title
     t: GraphQL Servers
