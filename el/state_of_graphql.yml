@@ -167,6 +167,9 @@ translations:
     key: features.disabling_introspection
     t: Disabling Introspection
   - 
+    key: features.disabling_introspection.description
+    t: Disabling introspection in production.
+  - 
     key: features.ip_allowlisting
     t: IP Allow-listing
   - 
