@@ -448,13 +448,13 @@ translations:
     t: 25-34 years old
   - 
     key: options.age.range_35_44
-    t: 36-44 years old
+    t: 35-44 years old
   - 
     key: options.age.range_45_54
-    t: 46-54 years old
+    t: 45-54 years old
   - 
     key: options.age.range_55_64
-    t: 56-64 years old
+    t: 55-64 years old
   - 
     key: options.age.range_more_than_65
     t: 65 years or older
@@ -473,13 +473,13 @@ translations:
     t: 25-34
   - 
     key: options.age.range_35_44.short
-    t: 36-44
+    t: 35-44
   - 
     key: options.age.range_45_54.short
-    t: 46-54
+    t: 45-54
   - 
     key: options.age.range_55_64.short
-    t: 56-64
+    t: 55-64
   - 
     key: options.age.range_more_than_65.short
     t: '>65'
