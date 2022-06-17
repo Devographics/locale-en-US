@@ -1291,6 +1291,10 @@ translations:
     t: >
       We don't store any private data, so after your email address is sent to our mailing list provider it will be deleted from our own records.
   - 
+    #how can we improve the survey?
+    key: how_can_we_improve
+    t: How could we improve this survey?
+  - 
     ###########################################################################
     #Other Tools
     ###########################################################################
