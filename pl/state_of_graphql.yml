@@ -225,15 +225,6 @@ translations:
     key: other_tools.combining_schemas.others
     t: Other tools for combining schemas
   - 
-    key: other_tools.server_languages
-    t: Server Languages
-  - 
-    key: other_tools.server_languages.description
-    t: Which language(s) do you use to write your GraphQL back-ends?
-  - 
-    key: other_tools.server_languages
-    t: Other Server Languages
-  - 
     key: other_tools.graphql_ides
     t: GraphQL IDEs
   - 
