@@ -1292,7 +1292,7 @@ translations:
       We don't store any private data, so after your email address is sent to our mailing list provider it will be deleted from our own records.
   - 
     #how can we improve the survey?
-    key: how_can_we_improve
+    key: user_info.how_can_we_improve
     t: How could we improve this survey?
   - 
     ###########################################################################
@@ -1461,3 +1461,6 @@ translations:
   - 
     key: resources.other_surveys.description
     t: Which other developer surveys do you participate in?
+  - 
+    key: resources.other_surveys.others
+    t: Additional surveys not mentioned above
