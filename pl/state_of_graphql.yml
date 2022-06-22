@@ -361,6 +361,9 @@ translations:
     key: resources.first_steps_graphql.description
     t: When first starting out, how did you initially learn GraphQL?
   - 
+    key: resources.first_steps_graphql.others
+    t: Other initial learning methods
+  - 
     #sites & courses
     key: resources.sites_courses
     t: Sites & Courses
