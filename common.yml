@@ -1010,7 +1010,7 @@ translations:
         mailing list provider it will be deleted from our own records. 
       
     # how can we improve the survey?
-    - key: how_can_we_improve
+    - key: user_info.how_can_we_improve
       t: How could we improve this survey?
       
     ###########################################################################
