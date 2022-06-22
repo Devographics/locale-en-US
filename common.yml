@@ -1145,3 +1145,5 @@ translations:
       t: Other Surveys
     - key: resources.other_surveys.description
       t: Which other developer surveys do you participate in?
+    - key: resources.other_surveys.others
+      t: Additional surveys not mentioned above
