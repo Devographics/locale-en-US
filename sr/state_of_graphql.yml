@@ -89,10 +89,10 @@ translations:
     key: sections.schema_builders.description
     t: Libraries and utilities that help you build all or part of your GraphQL schema.
   - 
-    key: sections.usage.title
+    key: sections.usage_graphql.title
     t: GraphQL Usage
   - 
-    key: sections.usage.description
+    key: sections.usage_graphql.description
     t: How you use GraphQL.
   - 
     ###########################################################################
