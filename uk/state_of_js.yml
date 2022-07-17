@@ -585,8 +585,8 @@ translations:
     ###########################################################################
     #Resources
     ###########################################################################
-    key: resources.first_steps
+    key: resources.first_steps_js
     t: First Steps With JavaScript
   - 
-    key: resources.first_steps.description
+    key: resources.first_steps_js.description
     t: When first starting out, how did you initially learn JavaScript?
