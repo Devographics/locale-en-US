@@ -140,6 +140,12 @@ translations:
     key: sections.environments.description
     t: Which environments and accessibility concerns do you consider when writing CSS?
   - 
+    key: sections.usage.title
+    t: Usage
+  - 
+    key: sections.usage.description
+    t: How you use CSS.
+  - 
     ###########################################################################
     #Options
     ###########################################################################
@@ -867,6 +873,12 @@ translations:
     key: environments.form_factors.description
     t: Which form factors or environments do you test on?
   - 
+    key: environments.form_factors.others
+    t: Other Testing Environments
+  - 
+    key: environments.form_factors.others.description
+    t: Other form factors or environments you usually test on.
+  - 
     key: environments.accessibility_features
     t: Accessibility Features
   - 
@@ -876,7 +888,7 @@ translations:
     key: environments.accessibility_features.others
     t: Other Accessibility Features
   - 
-    key: environments.accessibility_features.others
+    key: environments.accessibility_features.others.description
     t: Other accessibility features you usually implement
   - 
     key: environments.css_for_print
@@ -979,10 +991,10 @@ translations:
     key: opinions_others.currently_missing_from_css.others
     t: Other Missing Features
   - 
-    key: opinions_others.currently_missing_from_css.others.note
-    t: >
-      These results were normalized based on the contents of a freeform field. To view the raw, unprocessed responses check out [whatsmissingfromcss.com](http://whatsmissingfromcss.com/).
-  - 
+    #- key: opinions_others.currently_missing_from_css.others.note
+    #t: >
+    #These results were normalized based on the contents of a freeform field.
+    #To view the raw, unprocessed responses check out [whatsmissingfromcss.com](http://whatsmissingfromcss.com/).
     key: opinions.sum_up_one_word_css
     t: CSS in one word
   - 
@@ -1032,8 +1044,8 @@ translations:
     ###########################################################################
     #Resources
     ###########################################################################
-    key: resources.first_steps
+    key: resources.first_steps_css
     t: First Steps With CSS
   - 
-    key: resources.first_steps.description
+    key: resources.first_steps_css.description
     t: When first starting out, how did you initially learn CSS?
