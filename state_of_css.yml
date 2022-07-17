@@ -126,9 +126,9 @@ translations:
     - key: sections.environments.description
       t: Which environments and accessibility concerns do you consider when writing CSS?
 
-    - key: sections.usage.title
-      t: Usage
-    - key: sections.usage.description
+    - key: sections.usage_css.title
+      t: CSS Usage
+    - key: sections.usage_css.description
       t: How you use CSS. 
 
     ###########################################################################
