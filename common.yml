@@ -1084,7 +1084,7 @@ translations:
     # Resources
     ###########################################################################
 
-    # learning method
+    # first steps
     - key: resources.first_steps
       t: First Learning Methods
     - key: resources.first_steps.description
