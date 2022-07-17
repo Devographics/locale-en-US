@@ -62,6 +62,24 @@ translations:
     key: sections.media_queries.description
     t: Ways of adapting your site to the user's device or preferences.
   - 
+    key: sections.selectors.title
+    t: Selectors
+  - 
+    key: sections.selectors.description
+    t: CSS selectors.
+  - 
+    key: sections.colors.title
+    t: Colors
+  - 
+    key: sections.colors.description
+    t: Color-related features.
+  - 
+    key: sections.javascript_apis.title
+    t: JavaScript APIs
+  - 
+    key: sections.javascript_apis.description
+    t: JavaScript APIs used to control or complement CSS.
+  - 
     key: sections.other_features.title
     t: Other Features
   - 
