@@ -294,6 +294,8 @@ translations:
     t: Czech
   - key: options.locale.pt-PT
     t: Portuguese
+  - key: options.locale.pt-BR
+    t: Portuguese (Brazil)
   - key: options.locale.it-IT
     t: Italian
   - key: options.locale.sv-SE
