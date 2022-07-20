@@ -207,58 +207,58 @@ translations:
     ###########################################################################
     #Other Tools
     ###########################################################################
-    key: other_tools.server_languages
+    key: tools_others.server_languages
     t: Server Languages
   - 
-    key: other_tools.server_languages.description
+    key: tools_others.server_languages.description
     t: Which language(s) do you use to write your GraphQL back-ends?
   - 
-    key: other_tools.server_languages.others
-    t: Other server languages
+    key: tools_others.server_languages.others
+    t: Other Server Languages
   - 
-    key: other_tools.combining_schemas
+    key: tools_others.combining_schemas
     t: Combining Schemas
   - 
-    key: other_tools.combining_schemas.description
+    key: tools_others.combining_schemas.description
     t: Which tools do you use to combine, aggregate, or merge GraphQL schemas from different APIs?
   - 
-    key: other_tools.combining_schemas.others
+    key: tools_others.combining_schemas.others
     t: Other tools for combining schemas
   - 
-    key: other_tools.graphql_ides
+    key: tools_others.graphql_ides
     t: GraphQL IDEs
   - 
-    key: other_tools.graphql_ides.description
+    key: tools_others.graphql_ides.description
     t: Apps and services that help you query your GraphQL API.
   - 
-    key: other_tools.graphql_ides.others
+    key: tools_others.graphql_ides.others
     t: Other GraphQL IDEs
   - 
-    key: other_tools.web_frameworks
+    key: tools_others.web_frameworks
     t: Web Frameworks
   - 
-    key: other_tools.web_frameworks.description
+    key: tools_others.web_frameworks.description
     t: Web frameworks that you use in conjunction with GraphQL.
   - 
-    key: other_tools.web_frameworks.others
-    t: Other web frameworks
+    key: tools_others.web_frameworks.others
+    t: Other Web Frameworks
   - 
-    key: other_tools.databases
+    key: tools_others.databases
     t: Databases
   - 
-    key: other_tools.databases.description
+    key: tools_others.databases.description
     t: Which databases do you use in conjunction with GraphQL?
   - 
-    key: other_tools.databases.others
-    t: Other databases
+    key: tools_others.databases.others
+    t: Other Databases
   - 
-    key: other_tools.other_tools
+    key: tools_others.other_tools
     t: Other GraphQL Tools
   - 
-    key: other_tools.other_tools.description
+    key: tools_others.other_tools.description
     t: Other tools, libraries, or services you use
   - 
-    key: other_tools.other_tools.others
+    key: tools_others.other_tools.others
     t: Other GraphQL tools not previously mentioned
   - 
     ###########################################################################
@@ -324,22 +324,22 @@ translations:
     key: usage.industry_sector.others
     t: Other Industry Sectors
   - 
-    key: usage.strong_points
+    key: usage.graphql_strong_points
     t: GraphQL Strong Points
   - 
-    key: usage.strong_points.description
+    key: usage.graphql_strong_points.description
     t: What are the main reasons why you enjoy using GraphQL?
   - 
-    key: usage.strong_points.others
+    key: usage.graphql_strong_points.others
     t: Other GraphQL Strong Points
   - 
-    key: usage.pain_points
+    key: usage.graphql_pain_points
     t: GraphQL Pain Points
   - 
-    key: usage.pain_points.description
+    key: usage.graphql_pain_points.description
     t: What are your main pain points when using GraphQL?
   - 
-    key: usage.pain_points.others
+    key: usage.graphql_pain_points.others
     t: Other GraphQL Pain Points
   - 
     key: happiness.state_of_graphql
@@ -469,100 +469,100 @@ translations:
     key: options.code_generation_target.client_code
     t: Other client-side code (e.g. React hooks)
   - 
-    key: options.strong_points.avoiding_overfetching
+    key: options.graphql_strong_points.avoiding_overfetching
     t: Avoiding Over-fetching
   - 
-    key: options.strong_points.avoiding_overfetching.description
+    key: options.graphql_strong_points.avoiding_overfetching.description
     t: Keep API responses smaller by specifying exactly the data you need.
   - 
-    key: options.strong_points.introspection
+    key: options.graphql_strong_points.introspection
     t: Introspection & API Documentation
   - 
-    key: options.strong_points.introspection.description
+    key: options.graphql_strong_points.introspection.description
     t: Create self-documenting APIs that improve the developer experience.
   - 
-    key: options.strong_points.tooling_ecosystem
+    key: options.graphql_strong_points.tooling_ecosystem
     t: Tooling & Ecosystem
   - 
-    key: options.strong_points.tooling_ecosystem.description
+    key: options.graphql_strong_points.tooling_ecosystem.description
     t: The different tools, services, and libraries that use GraphQL.
   - 
-    key: options.strong_points.type_checking
+    key: options.graphql_strong_points.type_checking
     t: Type-checking
   - 
-    key: options.strong_points.type_checking.description
+    key: options.graphql_strong_points.type_checking.description
     t: Enforcing and validating types for every object in the API.
   - 
-    key: options.strong_points.api_aggregation
+    key: options.graphql_strong_points.api_aggregation
     t: Combining Different APIs
   - 
-    key: options.strong_points.api_aggregation.description
+    key: options.graphql_strong_points.api_aggregation.description
     t: Being able to combine together different API schemas.
   - 
-    key: options.strong_points.aggregating_requests
+    key: options.graphql_strong_points.aggregating_requests
     t: Aggregating Requests
   - 
-    key: options.strong_points.aggregating_requests.description
+    key: options.graphql_strong_points.aggregating_requests.description
     t: Only ever have to make a single request from the client.
   - 
-    key: options.strong_points.community
+    key: options.graphql_strong_points.community
     t: Community
   - 
-    key: options.strong_points.community.description
+    key: options.graphql_strong_points.community.description
     t: The people who are active in the GraphQL space.
   - 
-    key: options.strong_points.fragment_colocation
+    key: options.graphql_strong_points.fragment_colocation
     t: Fragment Colocation
   - 
-    key: options.strong_points.fragment_colocation.description
+    key: options.graphql_strong_points.fragment_colocation.description
     t: Being able to colocate a component's data requirements next to it.
   - 
-    key: options.pain_points.performance
+    key: options.graphql_pain_points.performance
     t: Performance
   - 
-    key: options.pain_points.performance.description
+    key: options.graphql_pain_points.performance.description
     t: Performance issues such as the n+1 problem.
   - 
-    key: options.pain_points.security
+    key: options.graphql_pain_points.security
     t: Security
   - 
-    key: options.pain_points.security.description
+    key: options.graphql_pain_points.security.description
     t: Security issues such as infinitely nested queries.
   - 
-    key: options.pain_points.combining_schemas
+    key: options.graphql_pain_points.combining_schemas
     t: Combining Different Schemas
   - 
-    key: options.pain_points.combining_schemas.description
+    key: options.graphql_pain_points.combining_schemas.description
     t: Being able to combine together different API schemas.
   - 
-    key: options.pain_points.api_versioning
+    key: options.graphql_pain_points.api_versioning
     t: API Versioning
   - 
-    key: options.pain_points.api_versioning.description
+    key: options.graphql_pain_points.api_versioning.description
     t: Handling deprecated fields and other versioning concerns.
   - 
-    key: options.pain_points.file_upload
+    key: options.graphql_pain_points.file_upload
     t: File Upload
   - 
-    key: options.pain_points.file_upload.description
+    key: options.graphql_pain_points.file_upload.description
     t: Being able to upload files through your GraphQL API.
   - 
-    key: options.pain_points.testing
+    key: options.graphql_pain_points.testing
     t: Testing
   - 
-    key: options.pain_points.testing.description
+    key: options.graphql_pain_points.testing.description
     t: Testing your GraphQL API.
   - 
-    key: options.pain_points.error_handling
+    key: options.graphql_pain_points.error_handling
     t: Error Handling
   - 
-    key: options.pain_points.error_handling.description
+    key: options.graphql_pain_points.error_handling.description
     t: Returning errors and managing them on the client.
   - 
-    key: options.pain_points.client_side_caching
+    key: options.graphql_pain_points.client_side_caching
     t: Client-side Caching
   - 
-    key: options.pain_points.client_side_caching.description
+    key: options.graphql_pain_points.client_side_caching.description
     t: Caching data on the client, updating the cache, optimistic UI, etc.
   - 
     #learning methods
