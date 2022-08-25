@@ -14,7 +14,7 @@ I will then give you maintainer rights over a repo containing all the translatio
 
 You can either browse the survey-taking app, survey results site, etc. and find untranslated strings this way, or else use our API to get extra data such as the completion percentage for a locale or a list of all the untranslated strings: 
 
-- https://graphiql.stateofjs.com/
+- https://graphiql-internal.devographics.com/
 
 Here is a sample query: 
 
