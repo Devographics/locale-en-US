@@ -5,7 +5,7 @@ translations:
     ###########################################################################
 
     - key: general.results.description
-      t: The 2021 edition of the annual survey about the latest trends in the JavaScript ecosystem.
+      t: The 2022 edition of the annual survey about the latest trends in the GraphQL ecosystem.
 
     - key: general.livestream_announcement
       t: Make sure to tune in for our [special survey results livestream](https://dev.to/sachagreif/state-of-javascript-2021-livestream-24a5) on February 22! (English)
@@ -15,18 +15,18 @@ translations:
     ###########################################################################
 
     - key: sections.introduction.description
-      t: |
+      t: >
 
-            <span class="first-letter">A</span> lot happened in 2021. So much in fact that the survey was pushed back all the way to 2022! 
-
-
-            Between a slew of faster build tools and a new crop of back-end frameworks, the JavaScript world kept evolving. And we did our best to keep up, giving this survey a couple new power-ups ([read more about what's new](https://dev.to/sachagreif/whats-new-in-the-2021-state-of-javascript-survey-4eej)) such as new question types, the ability to cross-reference two datapoints (such as yearly salaries by experience level), and even a way to customize the charts to surface your own insights! Read more about [what's new this year](https://dev.to/sachagreif/whats-new-in-the-2021-state-of-javascript-survey-4eej) (English).
+            <span class="first-letter">S</span>ince being originally created at Facebook in September 2015, many developers have embraced GraphQL as a new and promising way to build APIs. 
 
 
-            It wasn't all smooth sailing, though. We had to deal with a [data leak](https://dev.to/sachagreif/disclosing-a-state-of-javascriptstate-of-css-data-breach-2lg1) that thankfully didn't seem to have any bad consequences. And we're constantly making efforts to make the survey more inclusive, more accessible, and more fair. 
+            Yet 7 years later, a lot of questions still remain: when do you need GraphQL exactly? Should you hand-code your GraphQL API or generate it from your database? And will it ever replace REST?
 
 
-            Still, even though the survey can ever only represents a tiny, tiny part of the JavaScript ecosystem, we hope you'll find the resulting data interesting!
+            To answer these questions and many more, we've created the first ever **State of GraphQL** community survey. Over 3,000 developers took part this year, and this is just the beginning.
+
+
+            We hope you enjoy browsing the data, and make sure to check out our [GraphQL API](https://graphiql.devographics.com/) as well!
 
 
             <span class="conclusion__byline">– Sacha Greif</span>
@@ -75,32 +75,27 @@ translations:
 
     - key: sections.user_info.description
       t: |
-          This year, **16,085** respondents took part in the survey. And in order
-          to help highlight different voices and surface deeper insights, we made a special
-          effort to provide new ways to break our data down. 
+          **3,094** respondents took part in this year's survey. 
 
     - key: sections.features.description
       t: |
-          JavaScript may move fast, but it seems like JavaScript developers move even faster, as many relatively new features already show high adoption levels. 
+          GraphQL may be a simple concept at its core, but there are many features and patterns to consider when you dig below the surface. 
 
-    - key: sections.technologies.description
+    - key: sections.libraries.description
       t: |
-          This year's results point to a high degree of fragmentation in the JavaScript world. But while this can sometimes cause headaches, all that competition does make for a very dynamic ecosystem. 
+          The GraphQL ecosystem is surprisingly deep, with many competing libraries helping you set up your API.  
 
     - key: sections.tools_others.description
       t: |
-          Picking a technology can often come down to a series of tough choices between 
-          competing priorities, and this year we tried to capture this process using a new bracket-style question format. 
+          Picking the right tools to use in combination with GraphQL can make all the difference. 
 
-    - key: sections.environments.description
+    - key: sections.usage.description
       t: |
-          Accessibility has long been an after-thought when it comes to web development, but many developers
-          are now realizing that it should in fact be the foundation on which everything else rests. 
+          We wanted to know not only how people use GraphQL, but also *why* they use it – as well as where GraphQL is still lacking…
 
     - key: sections.resources.description
       t: |
-          Highlighting blogs, podcasts, and sites was a good start, but this year we decided to go one step further
-          and actually feature the people who make up the JavaScript community! 
+          We're sure you'll discover at least one or two new people, podcasts, or blogs to follow!
 
     - key: sections.opinions.description
       t: |
@@ -111,10 +106,12 @@ translations:
     # Charts
     ###########################################################################
      
-    - key: options.features_categories.language
-      aliasFor: sections.language.title
-    - key: options.features_categories.browser_apis
-      aliasFor: sections.browser_apis.title
+    - key: options.features_categories.graphql_language
+      aliasFor: sections.graphql_language.title
+    - key: options.features_categories.directives
+      aliasFor: sections.directives.title
+    - key: options.features_categories.security_performance
+      aliasFor: sections.security_performance.title
     - key: options.features_categories.other_features
       aliasFor: sections.other_features.title
 
@@ -202,37 +199,40 @@ translations:
     ###########################################################################
 
     - key: picks.my_pick
-      t: 'My 2021 Pick: '
+      t: 'My 2022 Pick: '
     - key: picks.intro
-      t: We asked members of the JavaScript community to share their “pick of the year”
+      t: We asked members of the GraphQL community to share their “pick of the year”
 
-    - key: picks.lee_robinson.name
-      t: SvelteKit
-    - key: picks.lee_robinson.bio
-      t: Director of Developer Relations at Vercel
-    - key: picks.lee_robinson.description
+    - key: picks.jamie_barton.name
+      t: GraphQL Mesh
+    - key: picks.jamie_barton.bio
+      t: Full Stack Developer & Educator
+    - key: picks.jamie_barton.description
       t: |
-          SvelteKit is a fresh take on building for the web and has an 
-          incredibly passionate, growing community of supporters. 
+          More and more people are looking for solutions to bridge the 
+          gap between all of their services. Mesh lets you do that with GraphQL, 
+          and non-GraphQL services.
 
-    - key: picks.vadim_makeev.name
-      t: Server-Side Rendering
-    - key: picks.vadim_makeev.bio
-      t: DevRel, Podcaster & Web Standards Advocate
-    - key: picks.vadim_makeev.description
+
+    - key: picks.tanmai_gopal.name
+      t: Streaming over GraphQL Subscriptions
+    - key: picks.tanmai_gopal.bio
+      t: CEO & co-founder at Hasura
+    - key: picks.tanmai_gopal.description
       t: |
-          The time has come to get our priorities straight. 
-          UX > DX, and it has always been like that. Performance FTW!
+          Modern APIs need to handle an increasing volume of data, 
+          or fast-moving data that is a stream. 
+          Could we use GraphQL subscriptions as a streaming API?
+
             
-    - key: picks.ben_ilegbodu.name
-      t: Lee Robinson
-    - key: picks.ben_ilegbodu.bio
-      t: Ben Ilegbodu, Principal Frontend Engineer @ Stitch Fix
-    - key: picks.ben_ilegbodu.description
+    - key: picks.tim_suchanek.name
+      t: Benjie Gillam
+    - key: picks.tim_suchanek.bio
+      t:  Software Engineer and Entrepreneur
+    - key: picks.tim_suchanek.description
       t: |
-          Lee has been great at shepherding and advocating for Next.js. 
-          He's helped me a ton with Next and continues to build excitement 
-          for where it's going
+          Benjie is one of the main people pushing GraphQL forward. 
+          His engagement in the WG, TSC, and various foundation initiatives is second to none.
             
     - key: picks.shawn_wang.name
       t: Supabase

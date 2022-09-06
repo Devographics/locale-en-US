@@ -491,7 +491,7 @@ translations:
       t: Advanced
     - key: options.proficiency.4
       t: Expert
-      
+
     # Gender
 
     - key: options.gender.female
@@ -944,12 +944,6 @@ translations:
       t: Higher Education Degree
     - key: user_info.higher_education_degree.description
       t: Do you have a higher education degree?
-
-    # completion
-    - key: user_info.completion_stats
-      t: Survey Completion
-    - key: user_info.completion_stats.description
-      t: Which proportion of the survey did respondents fill out?
 
     # email_temporary (receive updates?)
     - key: user_info.email_temporary
