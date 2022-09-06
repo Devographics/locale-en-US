@@ -19,11 +19,15 @@ translations:
 
       <span class="first-letter">A</span> lot happened in 2021. So much in fact that the survey was pushed back all the way to 2022!
 
+
       Between a slew of faster build tools and a new crop of back-end frameworks, the JavaScript world kept evolving. And we did our best to keep up, giving this survey a couple new power-ups ([read more about what's new](https://dev.to/sachagreif/whats-new-in-the-2021-state-of-javascript-survey-4eej)) such as new question types, the ability to cross-reference two datapoints (such as yearly salaries by experience level), and even a way to customize the charts to surface your own insights! Read more about [what's new this year](https://dev.to/sachagreif/whats-new-in-the-2021-state-of-javascript-survey-4eej) (English).
+
 
       It wasn't all smooth sailing, though. We had to deal with a [data leak](https://dev.to/sachagreif/disclosing-a-state-of-javascriptstate-of-css-data-breach-2lg1) that thankfully didn't seem to have any bad consequences. And we're constantly making efforts to make the survey more inclusive, more accessible, and more fair.
 
+
       Still, even though the survey can ever only represents a tiny, tiny part of the JavaScript ecosystem, we hope you'll find the resulting data interesting!
+
 
       <span class="conclusion__byline">– Sacha Greif</span>
   - 
