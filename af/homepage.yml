@@ -60,16 +60,16 @@ translations:
     t: Preview Questions
   - 
     #newsletter
-    key: homepage.newsletter.stay_tuned
+    key: newsletter.stay_tuned
     t: Don't Miss the Next Survey
   - 
-    key: homepage.newsletter.leave_your_email
+    key: newsletter.leave_your_email
     t: Leave us your email and we’ll let you know when the next survey takes place.
   - 
-    key: homepage.newsletter.email
+    key: newsletter.email
     t: Your Email
   - 
-    key: homepage.newsletter.submit
+    key: newsletter.submit
     t: Notify Me
   - 
     #languages
