@@ -234,117 +234,24 @@ translations:
           Benjie is one of the main people pushing GraphQL forward. 
           His engagement in the WG, TSC, and various foundation initiatives is second to none.
             
-    - key: picks.shawn_wang.name
-      t: Supabase
-    - key: picks.shawn_wang.bio
-      t: Head of DX at Temporal
-    - key: picks.shawn_wang.description
+    - key: picks.uri_goldshtein.name
+      t: GraphQL Yoga 2.0
+    - key: picks.uri_goldshtein.bio
+      t: Founder of The Guild
+    - key: picks.uri_goldshtein.description
       t: |
-          Supabase is making Postgres accessible to more developers and showing 
-          everyone how a small focused team can out-ship peers 10x their size.
+          The revival of GraphQL Yoga 2.0.
+          A new, more performant server, with large community of 
+          plugins that runs on all JS platforms (Deno, CF Workers, etc..)
 
-    - key: picks.sarah_drasner.name
-      t: Pawel Kozlowski
-    - key: picks.sarah_drasner.bio
-      t: Director of Engineering, Core Developer Web at Google
-    - key: picks.sarah_drasner.description
+    - key: picks.benjie_gillam.name
+      t: SpecNews Podcast
+    - key: picks.benjie_gillam.bio
+      t: Community-funded OSS maintainer
+    - key: picks.benjie_gillam.description
       t: |
-          Pawel Kozlowski is the kind of developer who can be open-minded to different 
-          approaches with humility and curiosity with the interest of improving things.
-
-    - key: picks.sara_vieira.name
-      t: Paul Henschel
-    - key: picks.sara_vieira.bio
-      t: International Agent of JS Bullshit
-    - key: picks.sara_vieira.description
-      t: |
-          Paul's work on animations and ReactThreeFiber 
-          have made doing any kind of 3D work on the web way easier. 
-
-    - key: picks.mark_erikson.name
-      t: Ryan Carniato
-    - key: picks.mark_erikson.bio
-      t: Redux Maintainer
-    - key: picks.mark_erikson.description
-      t: |
-          Ryan's reactive JS framework SolidJS hit 1.0, 
-          and he wrote numerous articles analyzing advanced 
-          JS framework implementation concepts.
-    
-    - key: picks.miguel_angel_duran.name
-      t: Vite
-    - key: picks.miguel_angel_duran.bio
-      t: Front End Dev & Twitch Coding Streamer
-    - key: picks.miguel_angel_duran.description
-      t: |
-          In addition to esbuild and swc, fantastic tools pushing forward the ecosystem, 
-          I'm enjoying Vite. It has a delightful DX, and it's rich in features. 
-      
-    - key: picks.alyssa_nicoll.name
-      t: BroccoDev's Twitch Stream
-    - key: picks.alyssa_nicoll.bio
-      t: Sr. Developer Advocate at Progress
-    - key: picks.alyssa_nicoll.description
-      t: |
-        Mike Brocchi recently started streaming to Twitch. He is a brilliant programmer, 
-        developer, and most importantly teacher. 
-        I always have a blast watching his streams and learning from him.
-      
-    - key: picks.michael_jackson.name
-      t: esbuild
-    - key: picks.michael_jackson.bio
-      t: Co-founder of Remix
-    - key: picks.michael_jackson.description
-      t: |
-        We have been building the Remix compiler on top of esbuild and it 
-        has definitely raised the bar as far as JS bundlers are concerned. 
-        It's incredibly fast and the plugin API allows us to do pretty much anything we want.
-
-    - key: picks.david_khourshid.name
-      t: Remix
-    - key: picks.david_khourshid.bio
-      t: Pianist and founder of Stately
-    - key: picks.david_khourshid.description
-      t: |
-          Remix is a full-stack web framework that feels old-school, but in a good way, 
-          by putting you on the path to create fast, complex, and accessible modern web apps.
-      
-    - key: picks.kent_c_dodds.name
-      t: Fly.io
-    - key: picks.kent_c_dodds.bio
-      t: Director of Developer Experience, Remix
-    - key: picks.kent_c_dodds.description
-      t: |
-          Fly enabled me (a frontend engineer with a distain for DevOps) 
-          to confidently deploy a real-world, globally-distributed, production-grade 
-          app.
-
-    - key: picks.tejas_kumar.name
-      t: Joe Haddad
-    - key: picks.tejas_kumar.bio
-      t: Web Developer, Conference Speaker, and Director of DevRel at Xata
-    - key: picks.tejas_kumar.description
-      t: |   
-          Joe works on Next.js at Vercel and is constantly looking to proudly 
-          demonstrate its power while actively listening 
-          to feedback from the community to support them better. 
-
-    - key: picks.wes_bos.name
-      t: TC39 Proposals
-    - key: picks.wes_bos.bio
-      t: JavaScript Teacher & Podcast Host
-    - key: picks.wes_bos.description
-      t: |
-          A Git repo full of all the things that have been proposed to be added to JavaScript. It's really fun to read through all the ideas people have for the language and see them go through the stages.
-      
-    - key: picks.scott_tolinkski.name
-      t: SvelteKit
-    - key: picks.scott_tolinkski.bio
-      t: Creator of Level-Up Tuts, co-host of Syntax
-    - key: picks.scott_tolinkski.description
-      t: |   
-          Svelte Kit provides the amazing developer experience of Svelte with all 
-          of the modern features of expected from a web platform. 
+          Latest activities from the GraphQL Working Group summarised in just 5-10 minutes per month. 
+          Cutting edge GraphQL knowledge with minimal effort!
 
     - key: picks.xxxx.name
       t:

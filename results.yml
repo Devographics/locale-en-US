@@ -661,6 +661,16 @@ translations:
     t: Usage %
   - key: charts.axis_legends.awareness_percentage
     t: Awareness %
+
+  - key: chart_units.interest_percentage
+    aliasFor: charts.axis_legends.interest_percentage
+  - key: chart_units.satisfaction_percentage
+    aliasFor: charts.axis_legends.satisfaction_percentage
+  - key: chart_units.usage_percentage
+    aliasFor: charts.axis_legends.usage_percentage
+  - key: chart_units.awareness_percentage
+    aliasFor: charts.axis_legends.awareness_percentage
+    
   - key: charts.axis_legends.happiness
     t: Happiness
   - key: charts.axis_legends.knowledge_score
