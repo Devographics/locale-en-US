@@ -117,16 +117,16 @@ translations:
 
     - key: blocks.tools_quadrant.description
       t: |
-        This chart shows each technology's **satisfaction ratio** (or **interest ratio**) over its total **user count**.
+        This chart shows each technology's **retention ratio** over its total **user count**.
         It can be divided into four quadrants:
 
-          - **1**: Low usage, high satisfaction. Technologies worth keeping an eye on.
+          - **1**: Low usage, high retention. Technologies worth keeping an eye on.
 
-          - **2**: High usage, high satisfaction. Safe technologies to adopt.
+          - **2**: High usage, high retention. Safe technologies to adopt.
 
-          - **3**: Low usage, low satisfaction. Technologies that are harder to recommend currently.
+          - **3**: Low usage, low retention. Technologies that are harder to recommend currently.
 
-          - **4**: High usage, low satisfaction. Reassess these technologies if you're currently using them.
+          - **4**: High usage, low retention. Reassess these technologies if you're currently using them.
 
 
     ###########################################################################
@@ -263,12 +263,22 @@ translations:
 # Sponsors
 ###########################################################################
 
-    - key: partners.frontendmasters.description
-      t: Advance your skills with in-depth, modern front-end engineering courses.
-    - key: partners.polypane.description
-      t: The browser for ambitious devs. Build responsive, accessible and fast websites with ease.
-    - key: partners.google_chrome.description
-      t: Thanks to the Google Chrome team for supporting our work.
+    - key: sponsors.frontendmasters.description
+      t: >
+        Advance your skills with in-depth, modern front-end engineering courses.
+
+    - key: sponsors.nhost.description
+      t: >
+        Nhost is an open source Firebase alternative with GraphQL.
+
+    - key: sponsors.apollo.description
+      t: >
+        Apollo's supergraph empowers product and engineering teams to quickly create incredible experiences for their customers. 
+
+    - key: sponsors.the_guild.description
+      t: >
+        The Guild's advanced open source ecosystem covers everything you need for your API infrastructure.
+
 
 ###########################################################################
 # FAQ/About
@@ -276,29 +286,25 @@ translations:
     
     - key: about.content
       t: >
-            The 2021 State of JS survey ran from January 13 to February 2 **2022**, and collected 16,085 responses. The survey is run by me, [Sacha Greif](https://sachagreif.com/), with help from a team of open-source contributors and consultants. 
-
-            This year's logo and t-shirt were designed by [Christopher Kirk-Nielsen](http://chriskirknielsen.com/).
+            The 2022 State of GraphQL survey ran from June 15, 2022 to July 15, 2022, and collected 3,094 responses. The survey is primarily run by me, [Sacha Greif](https://sachagreif.com/), with help from a team of open-source contributors and consultants. 
 
             ### Survey Goals
 
-            This survey, along with the [State of CSS](https://stateofcss.com/) survey, was created to identify upcoming trends in the web development ecosystem in order to help developers make technological choices. 
+            This survey, along with the [State of CSS](https://stateofcss.com/) and [State of JS](https://stateofjs.com/) surveys, was created to identify upcoming trends in the web development ecosystem in order to help developers make technological choices. 
 
-            As such, these surveys are focused on anticipating what's coming over the next few years rather than analyzing what's popular now, which is why the features or technologies that are currently most widespread are not always included. 
 
-            They should also be taken as a **snapshot of a specific subset of developers**, and are not meant to speak for the entire ecosystem. 
+            Because of the relatively small sample size, this survey should be taken as a **snapshot of a subset of developers**, and is not meant to speak for the entire GraphQL ecosystem.
+
+
+            The survey is also **not affiliated with GraphQL or Facebook**.  
 
             ### Survey Design
 
-            The survey was designed in part based on last year's survey, with an open feedback period where the survey outline was discussed [on GitHub](https://github.com/StateOfJS/Monorepo/issues/56). 
-            
-            All survey questions were optional. 
+            The survey was designed collaboratively, with an open feedback period where the survey contents were discussed on GitHub ([1](https://github.com/Devographics/Monorepo/issues/86), [2](https://github.com/Devographics/Monorepo/issues/90)). All survey questions were optional. 
 
             ### Survey Audience
 
-            The survey was openly accessible online and respondents were not filtered or selected in any way. Respondents were primarily a mix of respondents from past surveys (alerted through a dedicated mailing list) and social media traffic. 
-
-            Note that frameworks, libraries, etc. were free to encourage their audience to participate in the survey and some of them did take advantage of this via banners, tweets, etc. A detailed breakdown of traffic sources is included in the "Sources" chart. 
+            The survey was openly accessible online and respondents were not filtered or selected in any way. Respondents were primarily inbound from social media traffic. 
 
             ### Representativeness & Inclusivity
 
@@ -314,25 +320,25 @@ translations:
             
             - **Barrier Lowering**: making the survey too long, inaccessible, slow to load, English-only, etc. can all contribute to imposing an "effort tax" that cuts off the parts of the community that can't afford to pay it. Fixing these issues can lower the barrier to entry and in the process make our audience more diverse. 
 
+
             ### Project Funding
 
             Funding from this project comes from a variety of sources:
 
 
-            - **T-shirt sales**. 
-
             - **Chart Sponsorships**: members of the community can donate to the survey in exchange for having their name featured in the report.  
 
-            - **Sponsored links**: the links to recommended resources at the bottom of each page are provided by our partner [Frontend Masters](https://frontendmasters.com/).
+            - **Sponsored Links**: the links to recommended resources at the bottom of each page are provided by our partner [Frontend Masters](https://frontendmasters.com/).
             
-            - **Other Funding**: this year, the [Google Chrome](https://www.google.com/chrome/) team set aside a small budget to help hire an [accessibility consultant](https://fossheim.io/) to work on the CSS and JS surveys.
+            - **Other Funding**: the companies listed in the "Our Partners" section on the [introduction page](/introduction) have also contributed financially or otherwise. 
 
 
-            Despite these funding sources, the surveys remains mostly a self-funded project overall and any contribution or sponsorship would be greatly appreciated. I would especially like to work closely with more browser vendors, since they play such a central role in the web ecosystem.  
+            Sponsors have no say over the survey contents or the way the results are presented, and sponsorships are only decided once all data has already been collected. 
 
             ### Technical Overview
 
             You can find a more in-depth technical overview of how the surveys are run [here](https://dev.to/sachagreif/how-the-state-of-js-css-surveys-are-run-4lnb).
+
 
             - **Data collection**: custom [Vulcan.js](http://vulcanjs.org/) app.
 

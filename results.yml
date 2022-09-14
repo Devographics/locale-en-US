@@ -21,10 +21,10 @@ translations:
   - key: general.completion_percentage
     t: "Completion percentage:"
 
-  - key: partners.thanks
+  - key: sponsors.thanks
     t: Thanks to our partners for supporting us!
 
-  - key: partners.learn_more
+  - key: sponsors.learn_more
     t: Learn more.
 
   - key: tabs.all_respondents
@@ -83,56 +83,56 @@ translations:
   - key: options.features_mode.usage_rank
     t: By Usage
   - key: options.features_mode.usage_ratio_rank
-    t: By Usage Ratio
+    t: By Ratio
 
   - key: options.features_simplified.know_it
     t: Know about it
   - key: options.features_simplified.used_it
     t: Have used it
   - key: options.features_simplified.usage_ratio
-    t: Usage ratio
+    t: Ratio
 
   - key: options.quadrant.assess
     t: ASSESS
   - key: options.quadrant.assess.long
     t: |
-      ASSESS: Low usage, high satisfaction. Technologies worth keeping an eye on.
+      ASSESS: Low usage, high retention. Technologies worth keeping an eye on.
   - key: options.quadrant.adopt
     t: ADOPT
   - key: options.quadrant.adopt.long
     t: |
-      ADOPT: High usage, high satisfaction. Safe technologies to adopt.
+      ADOPT: High usage, high retention. Safe technologies to adopt.
   - key: options.quadrant.avoid
     t: AVOID
   - key: options.quadrant.avoid.long
     t: |
-      AVOID: Low usage, low satisfaction. Technologies probably best avoided currently.
+      AVOID: Low usage, low retention. Technologies probably best avoided currently.
   - key: options.quadrant.analyze
     t: ANALYZE
   - key: options.quadrant.analyze.long
     t: |
-      ANALYZE: High usage, low satisfaction. Reassess these technologies if you're currently using them.
+      ANALYZE: High usage, low retention. Reassess these technologies if you're currently using them.
 
   - key: options.quadrant.1
     t: 1
   - key: options.quadrant.1.long
     t: |
-      1: Low usage, high satisfaction. Technologies worth keeping an eye on.
+      1: Low usage, high retention. Technologies worth keeping an eye on.
   - key: options.quadrant.2
     t: 2
   - key: options.quadrant.2.long
     t: |
-      2: High usage, high satisfaction. Safe technologies to adopt.
+      2: High usage, high retention. Safe technologies to adopt.
   - key: options.quadrant.3
     t: 3
   - key: options.quadrant.3.long
     t: |
-      3: Low usage, low satisfaction. Technologies that are harder to recommend.
+      3: Low usage, low retention. Technologies that are harder to recommend.
   - key: options.quadrant.4
     t: 4
   - key: options.quadrant.4.long
     t: |
-      4: High usage, low satisfaction. Reassess these technologies if you're currently using them.
+      4: High usage, low retention. Reassess these technologies if you're currently using them.
       
   - key: ranges.selector.years_of_experience
     t: Experience
@@ -426,13 +426,13 @@ translations:
       This chart shows each technology's **satisfaction ratio** (or **interest ratio**) over its total **user count**.
       It can be divided into four quadrants:
 
-        - **ASSESS**: Low usage, high satisfaction. Technologies worth keeping an eye on.
+        - **ASSESS**: Low usage, high retention. Technologies worth keeping an eye on.
 
-        - **ADOPT**: High usage, high satisfaction. Safe technologies to adopt.
+        - **ADOPT**: High usage, high retention. Safe technologies to adopt.
 
-        - **AVOID**: Low usage, low satisfaction. Technologies probably best avoided currently.
+        - **AVOID**: Low usage, low retention. Technologies probably best avoided currently.
 
-        - **ANALYZE**: High usage, low satisfaction. Reassess these technologies if you're currently using them.
+        - **ANALYZE**: High usage, low retention. Reassess these technologies if you're currently using them.
 
   # category other tools
   - key: blocks.category_other_tools
@@ -523,17 +523,13 @@ translations:
 
   # features_overview
   - key: blocks.features_overview
-    t: Usage Overview
+    t: Features Overview
   - key: blocks.features_overview.description
     t: |
-      This chart presents the various adoption rates for all features, grouped by category.
+      The size of the **outer circle** corresponds to the total number of users who know about a feature (*know about it* + *have used it* respondents), while
+      the **inner circle** represents those who have actually used it (*have used it* respondents).
 
-      The size of the <span class="text-teal-darker text-bold">outer circle</span>
-      corresponds to the total number of users who know about a feature, while
-      the <span class="text-teal text-bold">inner one</span> represents those who have actually used it.
-
-      Hover on each node to view detailed data along with an <span class="text-blackpink text-bold">overlay</span>
-      representing the total number of survey respondents.
+      Hover on each circle to see detailed stats, including the ratio between both values. 
 
   # export
   - key: export.export

@@ -104,6 +104,8 @@ translations:
       t: Code Refactoring
     - key: credits.data_processing
       t: Data Processing
+    - key: credits.back_end_development
+      t: Back-End Developement
 
     # support
     - key: general.support_from
@@ -174,9 +176,9 @@ translations:
       t: Clear question
 
     # partners
-    - key: partners.our_partners
+    - key: sponsors.our_partners
       t: Our Partners
-    - key: partners.become_partner
+    - key: sponsors.become_partner
       t: Become a partner
 
     # 404
@@ -194,6 +196,10 @@ translations:
       t: Charts built with <a href="{link}">Nivo</a>.
     - key: general.made_by_devographics
       t: Made by <a href="{link}">Devographics</a>
+    - key: general.view_code_example
+      t: View Code Example
+    - key: general.code_example
+      t: "**{featureName}** Code Example"
       
     ###########################################################################
     # Nav

@@ -393,11 +393,11 @@ translations:
 # Sponsors
 ###########################################################################
 
-    - key: partners.frontendmasters.description
+    - key: sponsors.frontendmasters.description
       t: Advance your skills with in-depth, modern front-end engineering courses.
-    - key: partners.polypane.description
+    - key: sponsors.polypane.description
       t: The browser for ambitious devs. Build responsive, accessible and fast websites with ease.
-    - key: partners.google_chrome.description
+    - key: sponsors.google_chrome.description
       t: Thanks to the Google Chrome team for supporting our work.
 
 ###########################################################################

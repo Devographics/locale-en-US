@@ -174,9 +174,9 @@ translations:
       t: Clear question
 
     # partners
-    - key: partners.our_partners
+    - key: sponsors.our_partners
       t: Our Partners
-    - key: partners.become_partner
+    - key: sponsors.become_partner
       t: Become a partner
 
     # 404
