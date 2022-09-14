@@ -179,20 +179,23 @@ translations:
     - key: sections.conclusion.description
       t: |
 
-            <span class="first-line">JavaScript is in a tremendously better state today compared to 2016.</span>
-            
-            Back when the first State of JS survey took place, only 21% of you used TypeScript compared to 69% today. Whereas we used to joke about a new front end framework releasing every day, **React** and **Vue** have now been dominant for 6 years running. And the percentage of people reporting that "JS is moving too fast" is down from 59% to 38%.
+            <span class="first-line">GraphQL is truly part of how we build modern applications today.</span>
 
-            This is not to say that the language has stood still. The **Optional Chaining** and **Nullish Coalescing** APIs have rocketed up to be the most used new APIs in our survey, despite only being 2 years old. And more good things are on the way from TC39: you reported that date management is a top missing feature, and the Temporal API recently reached [Stage 3](https://github.com/tc39/proposal-temporal).
+            More and more companies are creating products, services, tooling, RFCs and most of that work is being done as open-source, which is fantastic to see! It's crucial for a flourishing ecosystem to have healthy competition and collaboration!
 
-            The tooling ecosystem is also seeing its own rapid evolution, and it's fair to say that 2021 has been the year of **Vite**. Vite not only debuted at 98% satisfaction, but usage is already at 30% in its first year on our survey, even eclipsing esbuild. Vite isn't alone in trying to improve the state of JavaScript build tools - 8 of the 12 tools we track today are less than two years old! And while **pnpm**, **Turborepo**, and **Nx** took the top spots in our first year tracking monorepo tooling, only 25% report being happy with the state of that category, showing that a lot of work remains to be done. 
-            
-            Also notable: many new entrants like **Deno**, **Rome**, **Astro**, **Remix**, and more are now supported by venture-backed companies, perhaps charting a viable alternative to the fragile open-source funding environment.
+            As a result, the tide is changing on how we consume GraphQL on the client, with libraries such as urql and React Query being popular choices today alongside stalwarts like Apollo Client and Relay. It's also great to see GraphQL continue to grow and flourish in languages other than JavaScript – there are now stable and mature GraphQL servers and clients in almost all of the most popular programming languages!
 
-            As the [Third Age of JavaScript](https://www.swyx.io/js-third-age/) enters its third year, the opportunities for aspiring open sourcerors and entrepreneurs continue to unfold, and I'm excited to see what the next couple years bring!
+            GraphQL itself is changing as well, with much anticipated changes edging closer to being officially part of the specification. We'll soon see changes with stream, defer, input polymorphism, as well as improvements around subscriptions and live queries. 
+
+            Moreover, there's now dedicated companies focused on GraphQL security, caching, tracing errors, deploying to the edge, abstracting databases and backends into simple schemas, and so much more that make working with GraphQL even more approachable than it ever has been before.
+
+            We also recently witnessed a brand new GraphiQL release that boasts a powerful plugin ecosystem, fewer dependencies, and even dark mode! And the [GraphQL Foundation](https://graphql.org/foundation/) continues to grow with new members joining regularly to help sustain the efforts of all those involved in educating, building, and steering the future of GraphQL.
+
+            GraphQL has found its place in the ecosystem, and it has an exciting future ahead!
+
 
     - key: conclusion.bio
-      t: Head of DX at Temporal
+      t: Senior Developer Relations @ Grafbase
       
     ###########################################################################
     # Picks
