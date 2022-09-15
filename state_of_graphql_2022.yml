@@ -282,6 +282,18 @@ translations:
       t: >
         The Guild's advanced open source ecosystem covers everything you need for your API infrastructure.
 
+    - key: sponsors.hasura.description
+      t: >
+        Run Hasura locally or in the cloud, and connect it to your new or existing databases to instantly get a production-grade GraphQL API.
+
+    - key: sponsors.graphql_wtf.description
+      t: >
+        Learn something new with GraphQL, every week. Get new episodes directly to your inbox.
+
+    - key: sponsors.grafbase.description
+      t: >
+        Instant serverless GraphQL backends. Grafbase provides the best developer experience to deploy GraphQL APIs.
+
 
 ###########################################################################
 # FAQ/About
