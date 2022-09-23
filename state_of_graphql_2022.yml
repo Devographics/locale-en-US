@@ -163,7 +163,7 @@ translations:
       t: esbuild is barely two years old, but with a **{value}** progression over the last year it's already gaining ground.
 
     - key: award.tool_satisfaction_award.comment
-      t: Vite takes the top spot with a sky-high **{value}** satisfaction ratio!
+      t: Vite takes the top spot with a sky-high **{value}** retention ratio!
 
     - key: award.tool_interest_award.comment
       t: With a **{value}** interest ratio, Vite once again wins the gold!

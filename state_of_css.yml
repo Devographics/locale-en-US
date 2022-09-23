@@ -270,30 +270,19 @@ translations:
 
     # layout
 
-    - key: features.grid
-      t: CSS Grid
-    - key: features.subgrid
-      t: Subgrid
     - key: features.regions
       t: CSS Regions
-    - key: features.flexbox
-      t: Flexbox
     - key: features.multi_column
       t: CSS Multi-Column
     - key: features.writing_modes
       t: CSS Writing Modes
     - key: features.exclusions
       t: CSS Exclusions
-    - key: features.position_sticky
-      t: '<code>position: sticky</code>'
     - key: features.logical_properties
       t: Logical Properties
     - key: features.logical_properties.description
       t: <code>margin-block-start</code>, <code>padding-inline-end</code>, etc.
-    - key: features.aspect_ratio
-      t: <code>aspect-ratio</code>
-    - key: features.content_visibility
-      t: <code>content-visibility</code>
+
     - key: features.flexbox_gap
       t: Gap property for flexbox
     - key: features.break_rules
@@ -308,48 +297,16 @@ translations:
     # shapes & graphics
     - key: features.shapes
       t: CSS Shapes
-    - key: features.object_fit
-      t: <code>object-fit</code>
-    - key: features.clip_path
-      t: <code>clip-path</code>
     - key: features.masks
       t: CSS Masks
     - key: features.blend_modes
       t: Blend Modes
-    - key: features.blend_modes.description
-      t: The <code>mix-blend-mode</code> property
     - key: features.filter_effects
       t: CSS Filter Effects
-    - key: features.backdrop_filter
-      t: <code>backdrop-filter</code>
 
     - key: features.intrinsic_sizing
       t: Intrinsic Sizing
-    - key: features.intrinsic_sizing.description
-      t: <code>min-content</code>, <code>max-content</code>, <code>fit-content</code>
-    - key: features.repeating_linear_gradient
-      t: <code>repeating-linear-gradient()</code>
-    - key: features.conic_gradient
-      t: <code>conic-gradient()</code>
-    - key: features.color_function
-      t: <code>color()</code>
 
-    - key: features.accent_color
-      t: <code>accent-color</code>
-
-    # interactions
-    - key: features.scroll_snap
-      t: CSS Scroll Snap
-    - key: features.overscroll_behavior
-      t: <code>overscroll-behavior</code>
-    - key: features.overflow_anchor
-      t: <code>overflow-anchor</code>
-    - key: features.touch_action
-      t: <code>touch-action</code>
-    - key: features.pointer_events
-      t: <code>pointer-events</code>
-    - key: features.scroll_timeline
-      t: <code>scroll-timeline</code>
 
     # typography
     - key: features.web_fonts
@@ -360,20 +317,6 @@ translations:
       t: Line breaking properties
     - key: features.line_breaking.description
       t: <code>overflow-wrap</code>, <code>word-break</code>, <code>line-break</code>, <code>hyphens</code>
-    - key: features.font_variant
-      t: <code>font-variant-*</code>
-    - key: features.initial_letter
-      t: <code>initial-letter</code>
-    - key: features.font_variant_numeric
-      t: <code>font-variant-numeric</code>
-    - key: features.font_display
-      t: <code>font-display</code>
-    - key: features.line_clamp
-      t: <code>line-clamp</code>
-    - key: features.leading_trim
-      t: <code>leading-trim</code>
-    - key: features.direction
-      t: <code>direction</code>
     - key: features.direction.description
       t: Also includes <code>dir</code> HTML attribute.
 
@@ -384,31 +327,15 @@ translations:
       t: CSS Transforms
     - key: features.animations
       t: CSS Animations
-    - key: features.perspective
-      t: <code>perspective</code>
 
     # media queries/accessibility
     - key: features.feature_support_queries
       t: Feature Support Queries (<code>@supports</code>)
-    - key: features.prefers_reduced_motion
-      t: <code>prefers-reduced-motion</code>
-    - key: features.prefers_color_scheme
-      t: <code>prefers-color-scheme</code>
-    - key: features.color_gamut
-      t: <code>color-gamut</code>
 
-    - key: features.prefers_reduced_data
-      t: <code>prefers-reduced-data</code>
     - key: features.tabindex
       t: <code>tabindex</code> HTML attribute
     - key: features.tabindex.description
       t: <code>&lt;div tabindex="0"&gt;</code>
-
-    - key: features.color_contrast
-      t: <code>color-contrast()</code>
-
-    - key: features.color_scheme
-      t: <code>color-scheme</code>
 
     - key: features.aria_attributes
       t: ARIA HTML Attributes
@@ -420,12 +347,6 @@ translations:
       t: CSS Variables (Custom Properties)
     - key: features.containment
       t: CSS Containment
-    - key: features.will_change
-      t: <code>will-change</code>
-    - key: features.calc
-      t: <code>calc()</code>
-    - key: features.houdini
-      t: Houdini
     - key: features.comparison_functions
       t: CSS Comparison Functions
     - key: features.comparison_functions.description
@@ -433,14 +354,6 @@ translations:
 
     - key: features.at_property
       t: Houdini Custom Properties
-    - key: features.at_property.description
-      t: <code>@property</code>
-    - key: features.at_layer
-      t: <code>@layer</code>
-    - key: features.content_visibility
-      t: <code>content-visibility</code>
-    - key: features.marker
-      t: <code>::marker</code> pseudo-element
 
     # missing features (see also options)
     - key: features.nesting

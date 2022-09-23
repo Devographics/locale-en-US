@@ -198,8 +198,10 @@ translations:
       t: Made by <a href="{link}">Devographics</a>
     - key: general.view_code_example
       t: View Code Example
-    - key: general.code_example
+    - key: general.feature_code_example
       t: "**{featureName}** Code Example"
+    - key: general.code_example
+      t: Code Example
       
     ###########################################################################
     # Nav

@@ -154,7 +154,7 @@ translations:
     #   t: No other tool comes even close to Tailwind CSS's dramatic **{value}** progression over the last year.
 
     - key: award.tool_satisfaction_award.comment
-      t: PostCSS takes the top spot once again with a **{value}** satisfaction ratio.
+      t: PostCSS takes the top spot once again with a **{value}** retention ratio.
 
     - key: award.tool_interest_award.comment
       t: With a **{value}** ratio, CSS Modules again generated the most interest among CSS developers this year.

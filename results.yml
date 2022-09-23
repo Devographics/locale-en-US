@@ -68,7 +68,7 @@ translations:
   ###########################################################################
 
   - key: options.experience_ranking.satisfaction
-    t: Satisfaction
+    t: Retention
   - key: options.experience_ranking.interest
     t: Interest
   - key: options.experience_ranking.usage
@@ -420,10 +420,10 @@ translations:
 
   # tools quadrant
   - key: blocks.tools_quadrant
-    t: Satisfaction vs Usage
+    t: Retention vs Usage
   - key: blocks.tools_quadrant.description
     t: |
-      This chart shows each technology's **satisfaction ratio** (or **interest ratio**) over its total **user count**.
+      This chart shows each technology's **retention ratio** over its total **user count**.
       It can be divided into four quadrants:
 
         - **ASSESS**: Low usage, high retention. Technologies worth keeping an eye on.
@@ -462,7 +462,7 @@ translations:
     t: Library Tier List
   - key: blocks.tools_tier_list.description
     t: |
-      This chart ranks libraries based on their satisfaction ratio (percentage of users
+      This chart ranks libraries based on their retention ratio (percentage of users
       who would use a library again). Note that libraries used by less than 10% of survey 
       respondents are not included.
   - key: blocks.tools_tier_list.bounds
@@ -491,12 +491,12 @@ translations:
   - key: blocks.tools_experience_ranking
     t: Rankings
   - key: blocks.tools_experience_ranking.description
-    t: Satisfaction, interest, usage, and awareness ratio rankings.
+    t: Retention, interest, usage, and awareness ratio rankings.
   - key: blocks.tools_experience_ranking.note
     t: |
       Technologies with less than 10% awareness not included. Each ratio is defined as follows:
 
-      - Satisfaction: **would use again** / (**would use again** + **would not use again**)
+      - Retention: **would use again** / (**would use again** + **would not use again**)
       - Interest: **want to learn** / (**want to learn** + **not interested**)
       - Usage: (**would use again** + **would not use again**) / **total**
       - Awareness: (**total** - **never heard**) / **total**
@@ -652,7 +652,7 @@ translations:
   - key: charts.axis_legends.interest_percentage
     t: Interest %
   - key: charts.axis_legends.satisfaction_percentage
-    t: Satisfaction %
+    t: Retention %
   - key: charts.axis_legends.usage_percentage
     t: Usage %
   - key: charts.axis_legends.awareness_percentage
@@ -816,7 +816,7 @@ translations:
     t: Rankings
 
   - key: table.satisfaction_rank
-    t: Satisfaction Rank
+    t: Retention Rank
   - key: table.interest_rank
     t: Interest Rank
   - key: table.usage_rank
@@ -861,9 +861,9 @@ translations:
     t: Awarded to the technology with the largest year-over-year “would use again” progression.
 
   - key: award.tool_satisfaction_award.title
-    t: Highest Satisfaction
+    t: Highest Retention
   - key: award.tool_satisfaction_award.description
-    t: Awarded to the technology with the highest percentage of satisfied users.
+    t: Awarded to the technology with the highest percentage of returning users.
 
   - key: award.tool_interest_award.title
     t: Highest Interest
@@ -917,7 +917,7 @@ translations:
 
   - key: hints.rankings_modes_hint
     t: >
-      The Rankings chart can be toggled between satisfaction, interest, usage, and awareness
+      The Rankings chart can be toggled between retention, interest, usage, and awareness
       to give you a fuller picture of a category's rankings.
 
   - key: hints.sharing_hint

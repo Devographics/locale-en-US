@@ -102,7 +102,7 @@ translations:
 
     - key: sections.technologies.description
       t: |
-          The typical new JavaScript library shows high satisfaction but low usage, which can sometimes make
+          The typical new JavaScript library shows high retention but low usage, which can sometimes make
           selecting the right technology for your needs a bit tricky. This is where looking at
           the data can really help point you in the right direction. 
 
@@ -125,12 +125,12 @@ translations:
     - key: sections.back_end_frameworks.description
       t: |
           The back-end space is still very fragmented, but Express stands out as the one dominant
-          tool, while Next.js maintains its high satisfaction ratio. 
+          tool, while Next.js maintains its high retention ratio. 
 
     - key: sections.testing.description
       t: |
           The testing ecosystem keeps getting richer, with new entrants Testing Library and Playwright both
-          scoring high marks on the satisfaction index. 
+          scoring high marks on the retention index. 
 
     - key: sections.build_tools.description
       t: |
@@ -187,7 +187,7 @@ translations:
       t: TypeScript was already popular, and with a **{value}** growth in usage it looks like it's only going to get more ubiquitous going forward.
 
     - key: award.tool_satisfaction_award.comment
-      t: With a sky-high satisfaction rating of **{value}**, Testing Library is 2020's overall most beloved tool. 
+      t: With a sky-high retention rating of **{value}**, Testing Library is 2020's overall most beloved tool. 
 
     - key: award.tool_interest_award.comment
       t: GraphQL continues to be the one thing developers want to learn more about with an interest ratio of **{value}**, as soon as they can finally find the time. 

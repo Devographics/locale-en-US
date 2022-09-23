@@ -15,7 +15,7 @@ translations:
 
 
           Together, let's find out which libraries developers 
-          want to learn next, which have the best satisfaction ratings, and much more.
+          want to learn next, which have the best retention ratings, and much more.
 
     - key: general.state_of_js.description
       t: The annual developer survey of the JavaScript ecosystem
