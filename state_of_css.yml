@@ -92,6 +92,14 @@ translations:
     - key: sections.pre_post_processors_others.title
       t: Other Pre-/Post-processors
 
+    - key: tools_others.pre_post_processors
+      aliasFor: sections.pre_post_processors.title
+    - key: tools_others.pre_post_processors.description
+      aliasFor: sections.pre_post_processors.description
+
+    - key: tools_others.pre_post_processors.others
+      aliasFor: sections.pre_post_processors_others.title
+
     - key: sections.css_frameworks.title
       t: CSS Frameworks
     - key: sections.css_frameworks.description
@@ -559,7 +567,7 @@ translations:
       t: 50%/50%
     - key: options.css_js_balance.6
       t: All JS
-      
+
     ###########################################################################
     # Environments
     ###########################################################################
