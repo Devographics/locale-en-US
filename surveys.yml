@@ -102,6 +102,12 @@ translations:
       t: Cancel
 
 
+    - key: experience.leave_comment
+      t: Leave a Comment
+    - key: experience.tell_us_more
+      t: "Tell us more about your choice (optional):"
+
+
     ###########################################################################
     # Response
     ###########################################################################

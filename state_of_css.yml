@@ -263,7 +263,7 @@ translations:
       t: Subgrid
     - key: options.currently_missing_from_css.subgrid.description
       t: Nesting deeper-level subgrids into a parent grid. 
-
+      
     ###########################################################################
     # Features
     ###########################################################################
@@ -278,21 +278,9 @@ translations:
       t: CSS Writing Modes
     - key: features.exclusions
       t: CSS Exclusions
-    - key: features.logical_properties
-      t: Logical Properties
-    - key: features.logical_properties.description
-      t: <code>margin-block-start</code>, <code>padding-inline-end</code>, etc.
 
     - key: features.flexbox_gap
       t: Gap property for flexbox
-    - key: features.break_rules
-      t: Break rules
-    - key: features.break_rules.description
-      t: <code>break-inside</code>, <code>break-before</code>, <code>break-after</code>
-    - key: features.at_container
-      t: Container Queries
-    - key: features.at_container.description
-      t: <code>@container</code> query
 
     # shapes & graphics
     - key: features.shapes
@@ -310,13 +298,11 @@ translations:
 
     # typography
     - key: features.web_fonts
-      t: Web fonts (@font-face)
+      t: Web Fonts (@font-face)
     - key: features.variable_fonts
-      t: Variable fonts
+      t: Variable Fonts
     - key: features.line_breaking
-      t: Line breaking properties
-    - key: features.line_breaking.description
-      t: <code>overflow-wrap</code>, <code>word-break</code>, <code>line-break</code>, <code>hyphens</code>
+      t: Line-Breaking Properties
     - key: features.direction.description
       t: Also includes <code>dir</code> HTML attribute.
 
@@ -329,13 +315,8 @@ translations:
       t: CSS Animations
 
     # media queries/accessibility
-    - key: features.feature_support_queries
-      t: Feature Support Queries (<code>@supports</code>)
-
     - key: features.tabindex
       t: <code>tabindex</code> HTML attribute
-    - key: features.tabindex.description
-      t: <code>&lt;div tabindex="0"&gt;</code>
 
     - key: features.aria_attributes
       t: ARIA HTML Attributes
@@ -349,8 +330,6 @@ translations:
       t: CSS Containment
     - key: features.comparison_functions
       t: CSS Comparison Functions
-    - key: features.comparison_functions.description
-      t: <code>min()</code>, <code>max()</code>, and <code>clamp()</code>
 
     - key: features.at_property
       t: Houdini Custom Properties
@@ -666,8 +645,13 @@ translations:
       t: Browser Incompatibilities
     - key: opinions_others.browser_interoperability_features.others.description
       t: >
-        Are there any CSS features you have difficulties using 
-        because of differences between browsers?
+        Are there any existing CSS features that you have difficulties using (or avoid altogether)
+        because of lack of support, or differences between browsers?
+
+    - key: usage.interoperability_features_freeform.others
+      aliasFor: opinions_others.browser_interoperability_features.others
+    - key: usage.interoperability_features_freeform.others.description
+      aliasFor: opinions_others.browser_interoperability_features.others.description
 
     # Pain Points
     - key: opinions.css_pain_points
@@ -675,14 +659,30 @@ translations:
     - key: opinions.css_pain_points.description
       t: For each matchup, pick the aspect of CSS you struggle with the most.
 
+    - key: usage.other_pain_points_freeform.others
+      t: Any other pain points related to writing CSS?
+
     - key: opinions_others.css_pain_points.others
       t: Other CSS Pain Points
+
+    # Interop 2023
+    - key: usage.interop_features
+      t: Interop 2023 Roadmap
+    - key: usage.interop_features.description
+      t: Which of these features would you most like browser vendors to improve? (pick 3)
+    - key: usage.interop_features.note
+      t: >
+         [Interop 2023](https://github.com/web-platform-tests/interop/issues?q=is%3Aissue+is%3Aopen+label%3Afocus-area-proposal) is a coordinated effort across browser vendors to fix issues and incompatibilities. This survey's results will be taken into account as one of the data points that help the working group prioritize their areas of focus. 
 
     # Missing Features
     - key: opinions.currently_missing_from_css
       t: What do you feel is currently missing from CSS?
     - key: opinions.currently_missing_from_css.description
       t: For each matchup, pick the feature you'd most like to be able to use in CSS today.
+
+    - key: usage.missing_features_freeform.others
+      t: What features do you feel are currently missing from CSS altogether?
+
     - key: opinions_others.currently_missing_from_css.others
       t: Other Missing Features
     # - key: opinions_others.currently_missing_from_css.others.note
@@ -728,6 +728,15 @@ translations:
       t: Features Missing From CSS (Matchups)
     - key: currently_missing_from_css.currently_missing_from_css_matchups.description
       t: Which feature would you most like to be able to use in CSS today? Percentage of rounds won by left-hand item against top-side item.
+
+    - key: usage.css_js_balance
+      t: CSS vs JavaScript Balance
+    - key: usage.css_js_balance.description
+      t: How much time do you spend writing CSS (including HTML markup) vs writing JavaScript code?
+    - key: usage.css_js_balance.left_bound
+      t: CSS
+    - key: usage.css_js_balance.right_bound
+      t: JavaScript
 
     ###########################################################################
     # Resources

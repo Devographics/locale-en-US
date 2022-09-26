@@ -800,6 +800,22 @@ translations:
     - key: options.email_temporary.yes
       t: Yes, email me when the survey results are published
       
+    # slider
+    - key: options.slider.0
+      t: 100%/0%
+    - key: options.slider.1
+      t: "-"
+    - key: options.slider.2
+      t: "-"
+    - key: options.slider.3
+      t: 50%/50%
+    - key: options.slider.4
+      t: "-"
+    - key: options.slider.5
+      t: "-"
+    - key: options.slider.6
+      t: 0%/100%
+
     ###########################################################################
     # Tools
     ###########################################################################
