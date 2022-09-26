@@ -563,9 +563,9 @@ translations:
     # slider
     - key: options.css_js_balance.0
       t: All CSS
-    - key: options.css_js_balance.3
+    - key: options.css_js_balance.5
       t: 50%/50%
-    - key: options.css_js_balance.6
+    - key: options.css_js_balance.8
       t: All JS
 
     ###########################################################################
