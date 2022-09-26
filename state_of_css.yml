@@ -552,6 +552,14 @@ translations:
     - key: options.form_controls.required_optional
       t: :required and :optional
 
+    # slider
+    - key: options.css_js_balance.0
+      t: All CSS
+    - key: options.css_js_balance.3
+      t: 50%/50%
+    - key: options.css_js_balance.6
+      t: All JS
+      
     ###########################################################################
     # Environments
     ###########################################################################
