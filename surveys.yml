@@ -101,12 +101,12 @@ translations:
     - key: bracket.cancel
       t: Cancel
 
-
     - key: experience.leave_comment
-      t: Leave a Comment
+      t: Leave a Comment (optional)
     - key: experience.tell_us_more
-      t: "Tell us more about your choice (optional):"
-
+      t: "You picked “{response}”. Tell us more about your choice:"
+    - key: experience.tell_us_more_no_value
+      t: "You didn't pick any response. Tell us why:"
 
     ###########################################################################
     # Response

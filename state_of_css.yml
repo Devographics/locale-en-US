@@ -562,11 +562,11 @@ translations:
 
     # slider
     - key: options.css_js_balance.0
-      t: All CSS
-    - key: options.css_js_balance.5
+      t: Only CSS
+    - key: options.css_js_balance.4
       t: 50%/50%
     - key: options.css_js_balance.8
-      t: All JS
+      t: Only JS
 
     ###########################################################################
     # Environments
@@ -748,11 +748,7 @@ translations:
     - key: usage.css_js_balance
       t: CSS vs JavaScript Balance
     - key: usage.css_js_balance.description
-      t: How much time do you spend writing CSS (including HTML markup) vs writing JavaScript code?
-    - key: usage.css_js_balance.left_bound
-      t: CSS
-    - key: usage.css_js_balance.right_bound
-      t: JavaScript
+      t: How do you divide your time between writing CSS (including HTML markup) and JavaScript code?
 
     ###########################################################################
     # Resources
