@@ -288,7 +288,7 @@ translations:
       t: CSS Exclusions
 
     - key: features.flexbox_gap
-      t: Gap property for flexbox
+      t: "`gap` property for flexbox"
 
     # shapes & graphics
     - key: features.shapes
@@ -338,9 +338,6 @@ translations:
       t: CSS Containment
     - key: features.comparison_functions
       t: CSS Comparison Functions
-
-    - key: features.at_property
-      t: Houdini Custom Properties
 
     # missing features (see also options)
     - key: features.nesting
