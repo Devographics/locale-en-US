@@ -2,7 +2,15 @@ locale: en-US
 translations:
 
     - key: general.css2022.survey_intro
-      t: >
+      t: |
+          CSS keeps progressing at an unprecedented rate. Luckily this year we got help from someone at the forefront of all these changes: [Lea Verou](https://lea.verou.me/) took the lead on selecting this year's questions, with a special focus on highlighting new and upcoming CSS features. 
+
+          What's more, the survey results will also help browser vendors prioritize their roadmaps and work towards better compatibility between browsers. 
+
+          With all this out of the way, let's see how CSS evolved in 2022!
+
+    - key: general.css2022.results_intro
+      t: |
           CSS keeps progressing at an unprecedented rate. Not only are we seeing new features and properties, but even the language's foundations are being retooled and improved thanks to innovations like nesting and cascade layers. 
           
           Luckily this year we got help from someone at the forefront of all these changes: W3C working group member [Lea Verou](https://lea.verou.me/) has selected this year's survey questions, with a special focus on highlighting new and upcoming CSS features. 
