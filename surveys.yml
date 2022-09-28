@@ -120,3 +120,54 @@ translations:
 
     - key: response.view_results
       t: View Results
+
+    ###########################################################################
+    # Intros
+    ###########################################################################
+
+    - key: general.js2020.survey_intro
+      t: |
+          2020 has been a tough year for everyone, one that makes worrying about the
+          latest JavaScript frameworks seem pretty futile in comparison. 
+
+          Still, the world has to move on, and so does JavaScript. And once again, with your help
+          we'll try to build a comprehensive picture of the ecosystem to find out a little bit more
+          about where it's going. 
+
+    - key: general.css2021.survey_intro
+      t: |
+          Hey CSS, what have you been up to lately? Oh really, `@container`? Oh and 
+          intrinsic sizing? And `@property` too?! Wow, you've been busy!
+
+          Even though the pandemic kept on making everybody's lives harder throughout 2021, somehow
+          dedicated contributors around the world managed to keep CSS moving forward. 
+          And so once more it's time to survey the CSS ecosystem and figure out
+          where this is all going. And maybe learn about a few new things while you're at it!
+
+    - key: general.js2021.survey_intro
+      t: |
+          First the 2020 Olympics got pushed back to 2021, 
+          and now the 2021 State of JavaScript survey is happening now, in 2022!
+
+          It's true: between work, family, and and all the turmoil in the world, 
+          some things got disrupted a little.
+
+          But while the year may be off-by-one, we hope the data provided by the 
+          survey itself will be just as informative and insightful as ever. 
+          And don't worry, there will be another survey towards the end of this year to set things straight again!
+
+    - key: general.graphql2022.survey_intro
+      t: |
+          When GraphQL was first introduced it offered a radically new way to build APIs, with more control, more granularity, and more flexibility. 
+
+          But that flexibility came at a price in the form of extra complexity, and a crop of frameworks, libraries, and services quickly appeared to help define better patterns and workflows. 
+
+          Now, for the first time ever we're surveying the GraphQL community to figure out which of these many tools are the most popular, and which features are actually being used. With your help, let's see what GraphQL has been up to in 2022!
+         
+    - key: general.css2022.survey_intro
+      t: |
+          CSS keeps progressing at an unprecedented rate. Luckily this year we got help from someone at the forefront of all these changes: [Lea Verou](https://lea.verou.me/) took the lead on selecting this year's questions, with a special focus on highlighting new and upcoming CSS features. 
+
+          What's more, the survey results will also help browser vendors prioritize their roadmaps and work towards better compatibility between browsers. 
+
+          With all this out of the way, let's see how CSS evolved in 2022!

@@ -10,16 +10,6 @@ translations:
     - key: general.livestream_announcement
       t: Make sure to tune in for our [special survey results livestream](https://dev.to/sachagreif/state-of-javascript-2021-livestream-24a5) on February 22! (English)
 
-    - key: general.graphql2022.survey_intro
-      t: >
-          When GraphQL was first introduced it offered a radically new way to build APIs, with more control, more granularity, and more flexibility. 
-
-
-          But that flexibility came at a price in the form of extra complexity, and a crop of frameworks, libraries, and services quickly appeared to help define better patterns and workflows. 
-
-
-          Now, for the first time ever we're surveying the GraphQL community to figure out which of these many tools are the most popular, and which features are actually being used. With your help, let's see what GraphQL has been up to in 2022!
-          
     ###########################################################################
     # Introduction
     ###########################################################################
@@ -83,35 +73,30 @@ translations:
     # Sections
     ###########################################################################
 
-    - key: sections.user_info.description
+    - key: sections.user_info_graphql2022.description
       t: |
           **3,094** respondents took part in this year's survey. 
 
-    - key: sections.features.description
+    - key: sections.features_graphql2022.description
       t: |
           GraphQL may be a simple concept at its core, but there are many features and patterns to consider when you dig below the surface. 
 
-    - key: sections.libraries.description
+    - key: sections.libraries_graphql2022.description
       t: |
           The GraphQL ecosystem is surprisingly deep, with many competing libraries helping you set up your API.  
 
-    - key: sections.tools_others.description
+    - key: sections.tools_others_graphql2022.description
       t: |
           Picking the right tools to use in combination with GraphQL can make all the difference. 
 
-    - key: sections.usage.description
+    - key: sections.usage_graphql2022.description
       t: |
           We wanted to know not only how people use GraphQL, but also *why* they use it – as well as where GraphQL is still lacking…
 
-    - key: sections.resources.description
+    - key: sections.resources_graphql2022.description
       t: |
           We're sure you'll discover at least one or two new people, podcasts, or blogs to follow!
 
-    - key: sections.opinions.description
-      t: |
-          Whether it's pain points that hold you back today, or missing features that you hope to use
-          tomorrow, this was your chance to vent and share your gripes with JavaScript!
-    
     ###########################################################################
     # Charts
     ###########################################################################

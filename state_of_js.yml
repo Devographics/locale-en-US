@@ -103,6 +103,21 @@ translations:
       t: Other Tools
     - key: sections.other_tools.description
       t: For these tools & technologies, just check the ones that you use regularly.
+    
+    ###########################################################################
+    # Survey Help
+    ###########################################################################
+
+    - key: features.features_intro
+      t: >
+          Welcome to the survey! This first part is all about figuring out 
+          which **features** of the JavaScript language you know about. 
+          And if you know about something but haven't yet used it, that's fine too!
+
+    - key: tools.tools_intro
+      t: >
+          The next couple sections focus on the **libraries** and **frameworks** that make up 
+          the JavaScript ecosystem. Let us know what you're excited about!
 
     ###########################################################################
     # Options
