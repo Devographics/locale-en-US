@@ -189,7 +189,7 @@ translations:
     - key: faq.results_released_css2022
       t: When will the results be released?
     - key: faq.results_released_css2022.description
-      t: The survey results will be released in early November 2022. 
+      t: The survey will run until October 20th, 2022, and the survey results will be released in early November. 
 
     - key: faq.data_used_css2022
       t: How will this data be used?
