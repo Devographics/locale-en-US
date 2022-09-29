@@ -307,21 +307,21 @@ translations:
       t: Other initial learning methods
 
     # sites & courses
-    - key: resources.sites_courses
-      t: Sites & Courses
-    - key: resources.sites_courses.description
+    - key: resources.sites_courses_graphql
+      aliasFor: resources.sites_courses
+    - key: resources.sites_courses_graphql.description
       t: Which GraphQL-related sites/courses/etc. do you use to learn about GraphQL?
 
     # podcasts
-    - key: resources.podcasts.others
-      t: Podcasts
-    - key: resources.podcasts.others.description
+    - key: resources.podcasts_graphql.others
+      aliasFor: resources.podcasts
+    - key: resources.podcasts_graphql.others.description
       t: Which GraphQL-related podcasts do you listen to?
 
     # people
-    - key: resources.people.others
-      t: People
-    - key: resources.people.others.description
+    - key: resources.people_graphql.others
+      aliasFor: resources.people
+    - key: resources.people_graphql.others.description
       t: People you read, follow, or just want to highlight for their work in the GraphQL ecosystem.
 
     ###########################################################################

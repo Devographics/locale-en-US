@@ -6,16 +6,12 @@ translations:
     ###########################################################################
 
     - key: general.state_of_css.intro
-      t: >
+      t: |
           CSS is evolving faster than ever.
-
 
           Flexbox, Grid, Multi-Column… To say nothing of whole new paradigms like CSS-in-JS.
 
-
-          So after the success of our annual State Of JavaScript survey,
-          we’ve decided to take on the world of styles and selectors. We're hoping you’ll help
-          us identify the latest trends, and figure out what tools to learn and use next!
+          This is where the State of CSS survey comes in: we're taking on the world of styles and selectors to try and identify upcoming trends, and figure out what featurs and tools to learn next!
 
     - key: general.state_of_css.description
       t: The annual developer survey about the latest trends in CSS
@@ -755,3 +751,37 @@ translations:
       t: First Steps With CSS
     - key: resources.first_steps_css.description
       t: When first starting out, how did you initially learn CSS?
+
+    # sites & courses
+    - key: resources.sites_courses_css
+      aliasFor: resources.sites_courses
+    - key: resources.sites_courses_css.description
+      t: Which CSS-related sites/courses/etc. do you use to learn about CSS?
+
+    # podcasts
+    - key: resources.podcasts_css
+      aliasFor: resources.podcasts
+    - key: resources.podcasts_css.description
+      t: Which CSS-related podcasts do you listen to?
+
+    # people
+    - key: resources.people_css.others
+      aliasFor: resources.people.others
+    - key: resources.people_css.others.description
+      t: People you read, follow, or just want to highlight for their work in the CSS ecosystem.
+
+    ###########################################################################
+    # Survey Help
+    ###########################################################################
+
+    - key: features.features_intro_css
+      t: |
+          Welcome to the survey! This first part is all about figuring out 
+          which **features** of CSS you know about. 
+          
+          By the way, if you want to tell us more about any of your choices, just click that little "comment" icon!
+
+    - key: tools.tools_intro_css
+      t: |
+          The next couple sections focus on the **libraries** and **frameworks** that make up 
+          the CSS ecosystem. Let us know what you're excited about!
