@@ -335,6 +335,9 @@ translations:
     - key: features.comparison_functions
       t: CSS Comparison Functions
 
+    - key: features.css_nesting.description
+      t: Native CSS nesting, excluding pre- or post-processors.
+        
     # missing features (see also options)
     - key: features.nesting
       t: Nesting
