@@ -233,14 +233,13 @@ translations:
           His engagement in the WG, TSC, and various foundation initiatives is second to none.
             
     - key: picks.uri_goldshtein.name
-      t: GraphQL Yoga 2.0
+      t: Pothos GraphQL
     - key: picks.uri_goldshtein.bio
       t: Founder of The Guild
     - key: picks.uri_goldshtein.description
       t: |
-          The revival of GraphQL Yoga 2.0.
-          A new, more performant server, with large community of 
-          plugins that runs on all JS platforms (Deno, CF Workers, etc..)
+          Code-first, TS schema builder. Easy to use yet powerful, plugin based and very well maintained. 
+          If you go code first, this is the one to choose.
 
     - key: picks.benjie_gillam.name
       t: SpecNews Podcast
@@ -275,7 +274,7 @@ translations:
 
     - key: sponsors.the_guild.description
       t: >
-        The Guild's advanced open source ecosystem covers everything you need for your API infrastructure.
+        The Guild's open-source tools and ecosystem provides everything you need for evolving your APIs.
 
     - key: sponsors.hasura.description
       t: >

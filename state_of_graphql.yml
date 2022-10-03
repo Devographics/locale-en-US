@@ -54,9 +54,9 @@ translations:
       t: GraphQL Clients
     - key: sections.graphql_clients.description
       t: Querying your API. 
-    - key: sections.graphql_api_generators.title
+    - key: sections.api_generators.title
       t: API Generators
-    - key: sections.graphql_api_generators.description
+    - key: sections.api_generators.description
       t: ORMs, CMSes, and other tools that create an API for you. 
     - key: sections.web_frameworks.title
       t: Web Frameworks
@@ -279,7 +279,7 @@ translations:
       t: How happy are you with the overall state of GraphQL servers?
     - key: happiness.graphql_clients
       t: How happy are you with the overall state of GraphQL clients?
-    - key: happiness.graphql_api_generators
+    - key: happiness.api_generators
       t: How happy are you with the overall state of API generators?
     - key: happiness.schema_builders
       t: How happy are you with the overall state of schema builders?
