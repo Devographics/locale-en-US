@@ -110,6 +110,8 @@ translations:
 
     - key: experience.leave_comment
       t: Leave a Comment (optional)
+    - key: experience.leave_comment_short
+      t: Leave a Comment
     - key: experience.tell_us_more
       t: "You picked “{response}”. Tell us more about your choice:"
     - key: experience.tell_us_more_no_value
