@@ -73,4 +73,4 @@ translations:
     - key: homepage.join_discord
       aliasFor: general.join_discord
     - key: homepage.astro_link
-      t: Powered by [Astro](https://astro.build/)
+      t: Powered by <a href="{link}">Astro</a>
