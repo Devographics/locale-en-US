@@ -135,6 +135,11 @@ translations:
     - key: sections.usage_css.description
       t: How you use CSS. 
 
+    - key: sections.resources_css.title
+      t: Resources
+    - key: sections.resources_css.description
+      t: What CSS resources do you consult?
+
     ###########################################################################
     # Options
     ###########################################################################

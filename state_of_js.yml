@@ -104,6 +104,11 @@ translations:
     - key: sections.other_tools.description
       t: For these tools & technologies, just check the ones that you use regularly.
     
+    - key: sections.resources_js.title
+      t: Resources
+    - key: sections.resources_js.description
+      t: What JavaScript resources do you consult?
+      
     ###########################################################################
     # Survey Help
     ###########################################################################

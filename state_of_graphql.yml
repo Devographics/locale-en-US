@@ -80,6 +80,11 @@ translations:
     - key: sections.tools_others.description
       t: Other GraphQL tools.
 
+    - key: sections.resources_graphql.title
+      t: Resources
+    - key: sections.resources_graphql.description
+      t: What GraphQL resources do you consult?
+
     ###########################################################################
     # Features
     ###########################################################################
