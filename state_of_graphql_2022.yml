@@ -260,6 +260,10 @@ translations:
 # Sponsors
 ###########################################################################
 
+    - key: sponsors.nijibox.description
+      t: >
+        One-stop support for UX design, creativity, and development.
+
     - key: sponsors.frontendmasters.description
       t: >
         Advance your skills with in-depth, modern front-end engineering courses.

@@ -11,7 +11,7 @@ translations:
 
           Flexbox, Grid, Multi-Column… To say nothing of whole new paradigms like CSS-in-JS.
 
-          This is where the State of CSS survey comes in: we're taking on the world of styles and selectors to try and identify upcoming trends, and figure out what featurs and tools to learn next!
+          This is where the State of CSS survey comes in: we're taking on the world of styles and selectors to try and identify upcoming trends, and figure out what features and tools to learn next!
 
     - key: general.state_of_css.description
       t: The annual developer survey about the latest trends in CSS
