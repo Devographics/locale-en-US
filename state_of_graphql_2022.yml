@@ -226,7 +226,7 @@ translations:
     - key: picks.tim_suchanek.name
       t: Benjie Gillam
     - key: picks.tim_suchanek.bio
-      t:  Software Engineer and Entrepreneur
+      t: Software Engineer and Entrepreneur
     - key: picks.tim_suchanek.description
       t: |
           Benjie is one of the main people pushing GraphQL forward. 
