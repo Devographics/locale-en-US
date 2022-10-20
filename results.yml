@@ -235,7 +235,7 @@ translations:
   - key: user_info.source.description
     t: How did respondents find out about the survey?
   - key: user_info.source.note
-    t: This data is a mix of self-reported answers, referrer data, and URL tracking data.
+    t: Respondent source is computed based on referrer data, URL tracking data, and self-reported answers.
 
   - key: user_info.gender_by_country
     t: Gender By Country

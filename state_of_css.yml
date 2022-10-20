@@ -307,13 +307,13 @@ translations:
 
     # typography
     - key: features.web_fonts
-      t: Web Fonts (@font-face)
+      t: Web Fonts (`@font-face`)
     - key: features.variable_fonts
       t: Variable Fonts
     - key: features.line_breaking
       t: Line-Breaking Properties
     - key: features.direction.description
-      t: Also includes <code>dir</code> HTML attribute.
+      t: Also includes `dir` HTML attribute.
 
     # animations & transforms
     - key: features.transitions
@@ -325,12 +325,12 @@ translations:
 
     # media queries/accessibility
     - key: features.tabindex
-      t: <code>tabindex</code> HTML attribute
+      t: "`tabindex` HTML attribute"
 
     - key: features.aria_attributes
       t: ARIA HTML Attributes
     - key: features.aria_attributes.description
-      t: <code>role</code>, <code>aria-label</code>, etc.
+      t: "`role`, `aria-label`, etc."
 
     # other features
     - key: features.variables
@@ -665,8 +665,14 @@ translations:
         Are there any existing CSS features that you have difficulties using (or avoid altogether)
         because of lack of support, or differences between browsers?
 
+
+    - key: usage.interoperability_features_freeform
+      aliasFor: opinions_others.browser_interoperability_features.others
     - key: usage.interoperability_features_freeform.others
       aliasFor: opinions_others.browser_interoperability_features.others
+
+    - key: usage.interoperability_features_freeform.description
+      aliasFor: opinions_others.browser_interoperability_features.others.description
     - key: usage.interoperability_features_freeform.others.description
       aliasFor: opinions_others.browser_interoperability_features.others.description
 
@@ -676,20 +682,13 @@ translations:
     - key: opinions.css_pain_points.description
       t: For each matchup, pick the aspect of CSS you struggle with the most.
 
-    - key: usage.other_pain_points_freeform.others
+    - key: usage.other_pain_points_freeform
       t: Any other pain points related to writing CSS?
+    - key: usage.other_pain_points_freeform.others
+      aliasFor: usage.other_pain_points_freeform
 
     - key: opinions_others.css_pain_points.others
       t: Other CSS Pain Points
-
-    # Interop 2023
-    - key: usage.interop_features
-      t: Interop 2023 Roadmap
-    - key: usage.interop_features.description
-      t: Which of these features would you most like browser vendors to improve? (pick 3)
-    - key: usage.interop_features.note
-      t: >
-         [Interop 2023](https://github.com/web-platform-tests/interop/issues?q=is%3Aissue+is%3Aopen+label%3Afocus-area-proposal) is a coordinated effort across browser vendors to fix issues and incompatibilities. This survey's results will be taken into account as one of the data points that help the working group prioritize their areas of focus. 
 
     # Missing Features
     - key: opinions.currently_missing_from_css
@@ -697,8 +696,10 @@ translations:
     - key: opinions.currently_missing_from_css.description
       t: For each matchup, pick the feature you'd most like to be able to use in CSS today.
 
-    - key: usage.missing_features_freeform.others
+    - key: usage.missing_features_freeform
       t: What features do you feel are currently missing from CSS altogether?
+    - key: usage.missing_features_freeform.others
+      aliasFor: usage.missing_features_freeform
 
     - key: opinions_others.currently_missing_from_css.others
       t: Other Missing Features
