@@ -195,31 +195,31 @@ translations:
     - key: picks.intro
       t: We asked members of the CSS community to share their “pick of the year”
 
-    - key: picks.georgedoescode.name
+    - key: picks.george_francis.name
       t: The CSS Paint API
-    - key: picks.georgedoescode.bio
+    - key: picks.george_francis.bio
       t: Developer, writer, and generative artist.
-    - key: picks.georgedoescode.description
+    - key: picks.george_francis.description
       t: |
             The Paint API allows us to create images programmatically, 
             to use in our CSS. It unlocks a whole world of creativity, 
             and I am very excited about it! 
 
-    - key: picks.cassidoo.name
+    - key: picks.cassidy_williams.name
       t: Lynn Fisher
-    - key: picks.cassidoo.bio
+    - key: picks.cassidy_williams.bio
       t: Developer advocate, educator, and startup advisor.
-    - key: picks.cassidoo.description
+    - key: picks.cassidy_williams.description
       t: |
             I'd love to pick Lynn Fisher. She's consistently surprised 
             and delighted the CSS community with her creative projects and experiments, 
             and I love how much folks can learn from her!
 
-    - key: picks.joshwcomeau.name
+    - key: picks.josh_comeau.name
       t: Amelia Wattenberger
-    - key: picks.joshwcomeau.bio
+    - key: picks.josh_comeau.bio
       t: Software developer and creator of [CSS for JavaScript Developers](https://css-for-js.dev/).
-    - key: picks.joshwcomeau.description
+    - key: picks.josh_comeau.description
       t: |
             Amelia is creating some of the most amazing 
             interactive blog posts about CSS and JS. 
@@ -235,60 +235,60 @@ translations:
             to help share her knowledge of modern CSS techniques, 
             as well as her contagious enthusiasm for CSS.
              
-    - key: picks.mmatuzo.name
+    - key: picks.manuel_matuzovic.name
       t: aspect-ratio
-    - key: picks.mmatuzo.bio
+    - key: picks.manuel_matuzovic.bio
       t: Front-end developer from Vienna, and creator of [htmhell.dev](https://htmhell.dev).
-    - key: picks.mmatuzo.description
+    - key: picks.manuel_matuzovic.description
       t: |
             All major browsers shipped support for aspect-ratio in 2021. 
             At first I underestimated it, but there are so many 
             situations where this property comes in handy.
 
-    - key: picks.lauragift_.name
+    - key: picks.gift_egwuenu.name
       t: Kevin Powell
-    - key: picks.lauragift_.bio
+    - key: picks.gift_egwuenu.bio
       t: Frontend Developer and Content Creator
-    - key: picks.lauragift_.description
+    - key: picks.gift_egwuenu.description
       t: |
             Kevin creates CSS content on YouTube and I really enjoy watching his videos a lot. 
             He does a really good job teaching CSS concepts in a way that's easy and fun 
             to understand.
     
-    - key: picks.ericwbailey.name
+    - key: picks.eric_w_bailey.name
       t: Miriam Suzanne
-    - key: picks.ericwbailey.bio
+    - key: picks.eric_w_bailey.bio
       t: Inclusive Design and \#a11y advocate.
-    - key: picks.ericwbailey.description
+    - key: picks.eric_w_bailey.description
       t: |
             CSS is about to go from good to great. 
             Miriam's work on Container Queries and Cascade Layers is going 
             to revolutionize how CSS is written.
 
-    - key: picks.samuelkraft.name
+    - key: picks.samuel_kraft.name
       t: Vanilla Extract
-    - key: picks.samuelkraft.bio
+    - key: picks.samuel_kraft.bio
       t: Frontend & design
-    - key: picks.samuelkraft.description
+    - key: picks.samuel_kraft.description
       t: |
             Lately I've loved working with Vanilla Extract, it's like CSS Modules but 
             fully typed with a magical developer experience.
 
-    - key: picks.sachagreif.name
+    - key: picks.sacha_greif.name
       t: Open Props
-    - key: picks.sachagreif.bio
+    - key: picks.sacha_greif.bio
       t: State of JS and State of CSS creator
-    - key: picks.sachagreif.description
+    - key: picks.sacha_greif.description
       t: |
             It's really cool to see the feedback loop between new CSS features and new 
             projects taking advantage of them! And I think Adam Argyle's Open Props 
             is a great use of Custom Properties (CSS variables).
 
-    - key: picks.shadeed9.name
+    - key: picks.ahmad_shadeed.name
       t: Container Queries
-    - key: picks.shadeed9.bio
+    - key: picks.ahmad_shadeed.bio
       t: Author of [Debugging CSS](https://debuggingcss.com/), Writing at [ishadeed.com](http://ishadeed.com)
-    - key: picks.shadeed9.description
+    - key: picks.ahmad_shadeed.description
       t: |
             CSS container queries again! We got the chance to play with them in a browser. 
             Thanks to Miriam Suzanne for moving this forward! 
@@ -301,29 +301,29 @@ translations:
     # - key: picks.georgedoescode.description
     #   t: |
 
-    - key: picks.argyleink.name
+    - key: picks.adam_argyle.name
       t: CSS Noise
-    - key: picks.argyleink.bio
+    - key: picks.adam_argyle.bio
       t: CSS at Google
-    - key: picks.argyleink.description
+    - key: picks.adam_argyle.description
       t: |
             CSS generated texture and randomness makes for unique and 
             interesting paint jobs in your design. 
             Noise tools have made the technique accessible.
 
-    - key: picks.walterstephanie.name
+    - key: picks.stephanie_walter.name
       t: Miriam Suzanne 
-    - key: picks.walterstephanie.bio
+    - key: picks.stephanie_walter.bio
       t: UX Researcher and CSS lover 
-    - key: picks.walterstephanie.description
+    - key: picks.stephanie_walter.description
       t: |
             Miriam is an artist and an activist who creates software and art that celebrate the queer complexity of human experience. She's a CSS expert, and is doing an amazing job on the specifications for CSS Container Queries.
 
-    - key: picks.michebarks.name
+    - key: picks.michelle_barker.name
       t: “Building a Color Scheme” by Adam Argyle 
-    - key: picks.michebarks.bio
+    - key: picks.michelle_barker.bio
       t: Senior Front End Developer
-    - key: picks.michebarks.description
+    - key: picks.michelle_barker.description
       t: |
             I love this article because although custom properties have been around for a while now, it really takes them to a different level and showcases their power. I hope it makes some people think of them in a different way, as more than simple variables.
 
@@ -333,11 +333,11 @@ translations:
     #   t: |
     #       One thing I've really started using and appreciating this year though is Purge CSS- an awesome tool for removing unused CSS. It can greatly reduce the size of your CSS, and its fast and easy to use.
 
-    - key: picks.kilianvalkhof.name
+    - key: picks.kilian_valkhof.name
       t: prefers-reduced-data
-    - key: picks.kilianvalkhof.bio
+    - key: picks.kilian_valkhof.bio
       t: Web developer and creator of Polypane
-    - key: picks.kilianvalkhof.description
+    - key: picks.kilian_valkhof.description
       t: |
           We need more devs to ask browsers about this feature, and to realize how big a difference it can make. With 64% of respondents not knowing it though, we have work to do!
 

@@ -185,6 +185,8 @@ translations:
     # Survey-Specific FAQs
     ###########################################################################
 
+    # CSS 2022
+    
     - key: faq.learn_more_css2022
       t: Where can I learn more?
     - key: faq.learn_more_css2022.description
@@ -203,4 +205,27 @@ translations:
     - key: faq.data_used_css2022
       t: How will this data be used?
     - key: faq.data_used_css2022.description
+      t: All data collected will be released publicly. It will then become a resources both for developers, who consult it to inform their technological choices, and browser vendors, who use it to prioritize focus areas and inform their roadmaps.
+
+
+    # JS 2022
+
+    - key: faq.learn_more_js2022
+      t: Where can I learn more?
+    - key: faq.learn_more_css2022.description
+      t: You can learn more about [last year's survey here](https://2021.stateofjs.com/en-US/about/). 
+
+    # - key: faq.survey_design_js2022
+    #   t: How was this survey designed?
+    # - key: faq.survey_design_css2022.description
+    #   t: This year, thanks to a grant from Google's [UI Fund](https://web.dev/ui-fund/), [Lea Verou](https://lea.verou.me/) was able to take the lead and managed the [open survey design process](https://github.com/orgs/Devographics/projects/1/views/1) on GitHub. 
+
+    - key: faq.results_released_js2022
+      t: When will the results be released?
+    - key: faq.results_released_js2022.description
+      t: The survey will run until the end of November 2022, and the survey results will be released in early December. 
+
+    - key: faq.data_used_js2022
+      t: How will this data be used?
+    - key: faq.data_used_js2022.description
       t: All data collected will be released publicly. It will then become a resources both for developers, who consult it to inform their technological choices, and browser vendors, who use it to prioritize focus areas and inform their roadmaps.

@@ -1108,3 +1108,11 @@ translations:
       t: Which other developer surveys do you participate in?
     - key: resources.other_surveys.others
       t: Additional surveys not mentioned above
+
+    # video creators
+    - key: resources.video_creators
+      t: Video Creators
+    - key: resources.video_creators.description
+      t: Creators you follow on video-centric platforms such as YouTube, Twitch, TikTok, etc. 
+    - key: resources.video_creators.others
+      t: Other Video Creators

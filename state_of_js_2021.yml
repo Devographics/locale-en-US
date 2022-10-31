@@ -337,11 +337,11 @@ translations:
       t: |
           A Git repo full of all the things that have been proposed to be added to JavaScript. It's really fun to read through all the ideas people have for the language and see them go through the stages.
       
-    - key: picks.scott_tolinkski.name
+    - key: picks.scott_tolinski.name
       t: SvelteKit
-    - key: picks.scott_tolinkski.bio
+    - key: picks.scott_tolinski.bio
       t: Creator of Level-Up Tuts, co-host of Syntax
-    - key: picks.scott_tolinkski.description
+    - key: picks.scott_tolinski.description
       t: |   
           Svelte Kit provides the amazing developer experience of Svelte with all 
           of the modern features of expected from a web platform. 
