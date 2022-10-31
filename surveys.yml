@@ -186,7 +186,7 @@ translations:
     ###########################################################################
 
     # CSS 2022
-    
+
     - key: faq.learn_more_css2022
       t: Where can I learn more?
     - key: faq.learn_more_css2022.description
@@ -212,7 +212,7 @@ translations:
 
     - key: faq.learn_more_js2022
       t: Where can I learn more?
-    - key: faq.learn_more_css2022.description
+    - key: faq.learn_more_js2022.description
       t: You can learn more about [last year's survey here](https://2021.stateofjs.com/en-US/about/). 
 
     # - key: faq.survey_design_js2022
