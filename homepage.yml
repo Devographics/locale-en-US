@@ -20,6 +20,9 @@ translations:
     - key: homepage.view_results
       t: View Results
 
+    - key: homepage.results_coming_soon
+      t: Results Coming Soon…
+
     - key: share.help_spread
       t: Help Spread the Word!
 
@@ -62,6 +65,10 @@ translations:
       t: 'Available languages:'
     - key: languages.help_us_translate
       t: Help us translate the survey in your language →
+
+    # partners
+    - key: homepage.with_support_from
+      aliasFor: sponsors.with_support_from
 
     # footer
     - key: homepage.made_by_devographics

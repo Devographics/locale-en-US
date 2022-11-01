@@ -269,7 +269,7 @@ translations:
     - key: options.js_app_patterns.server_side_rendering
       t: Server-Side Rendering (SSR)
     - key: options.js_app_patterns.server_side_rendering.description
-      t: Dynamically rendering HTML content on the server
+      t: Dynamically rendering HTML content on the server before rehydrating it on the client
     - key: options.js_app_patterns.partial_hydration
       t: Partial Hydration
     - key: options.js_app_patterns.partial_hydration.description
@@ -287,9 +287,9 @@ translations:
     - key: options.js_app_patterns.progressive_enhancement.description
       t: Making sure an app is functional even without JavaScript
     - key: options.js_app_patterns.incremental_static_generation
-      t:
+      t: Incremental Static Generation
     - key: options.js_app_patterns.incremental_static_generation.description
-      t: Being able to dynamically augment or modify a static site even after the initial build
+      t: Being able to dynamically augment or modify a static site even after the initial build (Next.js ISR, Gatsby DSG)
     - key: options.js_app_patterns.streaming_ssr
       t: Streaming SSR
     - key: options.js_app_patterns.streaming_ssr.description
@@ -298,6 +298,10 @@ translations:
       t: Resumability
     - key: options.js_app_patterns.resumability.description
       t: Serializing application state on the server in order to resume execution on the client
+    - key: options.js_app_patterns.edge_rendering
+      t: Edge Rendering
+    - key: options.js_app_patterns.edge_rendering.description
+      t: Altering rendered HTML at the edge before sending it on to the client 
 
     ###########################################################################
     # Features
