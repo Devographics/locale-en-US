@@ -788,6 +788,22 @@ translations:
     - key: options.higher_education_degree.yes_unrelated.short
       t: Yes, unrelated field
 
+    # employment_status
+    - key: options.employment_status.full_time
+      t: Full-time
+    - key: options.employment_status.student
+      t: Student
+    - key: options.employment_status.self_employed
+      t: Self-employed
+    - key: options.employment_status.contractor
+      t: Contractor
+    - key: options.employment_status.part_time
+      t: Part-time
+    - key: options.employment_status.between_jobs
+      t: Between jobs
+    - key: options.employment_status.retired
+      t: Retired
+
     # bracket
     - key: options.bracket.round1
       t: Round 1 wins
@@ -802,6 +818,13 @@ translations:
     - key: options.email_temporary.yes
       t: Yes, email me when the survey results are published
       
+    # usage type
+    - key: options.usage_type.professionally
+      t: Professionally
+    - key: options.usage_type.student
+      t: As a student
+    - key: options.usage_type.hobby
+      t: As a hobby
 
     ###########################################################################
     # Tools
@@ -956,6 +979,12 @@ translations:
     - key: user_info.higher_education_degree.description
       t: Do you have a higher education degree?
 
+    # employment status
+    - key: user_info.employment_status
+      t: Employment Status
+    - key: user_info.employment_status.description
+      t: What's your employment status?
+
     # completion
     - key: user_info.completion_stats
       t: Survey Completion
@@ -1040,6 +1069,10 @@ translations:
       t: Other JavaScript Flavors
     - key: tools_others.javascript_flavors.others.description
       t: Other answers (freeform field).
+
+    ###########################################################################
+    # Usage
+    ###########################################################################
 
     ###########################################################################
     # Resources

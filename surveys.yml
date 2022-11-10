@@ -181,6 +181,15 @@ translations:
 
           With all this out of the way, let's see how CSS evolved in 2022!
 
+    - key: general.js2022.survey_intro
+      t: |
+          For the first time in a while, it feels like the statu quo of the JavaScript ecosystem is being questioned. 
+
+          Faster bundling with Vite, island architecture with Astro, resumability with Qwik… New entrants are challenging the old guard, and the result is a lot more excitement, but also
+          a lot more uncertainty. 
+
+          So once more, let's try and figure out together where JavaScript is going, in 2022 and beyond. 
+
     ###########################################################################
     # Survey-Specific FAQs
     ###########################################################################
