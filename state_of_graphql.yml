@@ -267,12 +267,12 @@ translations:
     - key: usage.code_generation_target.others
       t: Other code generation targets
 
-    - key: usage.industry_sector
-      t: Industry Sectors
-    - key: usage.industry_sector.description
+    - key: usage.industry_sector_graphql
+      aliasFor: usage.industry_sector
+    - key: usage.industry_sector_graphql.description
       t: Which industry sector(s) are you using GraphQL in?
-    - key: usage.industry_sector.others
-      t: Other Industry Sectors
+    - key: usage.industry_sector_graphql.others
+      aliasFor: usage.industry_sector.others
 
     - key: usage.graphql_strong_points
       t: GraphQL Strong Points

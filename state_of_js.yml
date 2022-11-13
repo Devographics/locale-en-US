@@ -265,7 +265,7 @@ translations:
     - key: options.currently_missing_from_js.observable
       t: Observable
     - key: options.currently_missing_from_js.observable.description
-      t: A new `Observable`` type used to model push-based data sources.
+      t: A new `Observable` type used to model push-based data sources.
     # - key: options.currently_missing_from_js.xxx
     #   t: 
     # - key: options.currently_missing_from_js.xxx.description
@@ -566,6 +566,13 @@ translations:
     - key: opinions.pick_of_the_year.description
       t: The name of a feature, library, website, person, etc. you want to highlight this year.
     
+    - key: usage.industry_sector_js
+      aliasFor: usage.industry_sector
+    - key: usage.industry_sector_js.description
+      t: Which industry sector(s) are you using JavaScript in?
+    - key: usage.industry_sector_js.others
+      aliasFor: usage.industry_sector.others
+      
     ###########################################################################
     # Opinions
     ###########################################################################

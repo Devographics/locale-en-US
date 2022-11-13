@@ -57,10 +57,10 @@ translations:
     - key: general.preview_survey
       t: Preview Survey »
     - key: general.finish_survey
-      t: Finish Survey »
+      t: Finish Survey
     - key: general.next_section
       t: Next section
-    - key: general.prev_section
+    - key: general.previous_section
       t: Previous section
     - key: general.survey_closed
       t: This survey is now closed.
