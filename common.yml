@@ -973,6 +973,15 @@ translations:
     - key: user_info.industry_sector.others.description
       t: Other industry sector(s) you work in not mentioned above.
 
+    - key: usage.industry_sector
+      aliasFor: user_info.industry_sector
+    - key: usage.industry_sector.description
+      aliasFor: user_info.industry_sector.description
+    - key: usage.industry_sector.others
+      aliasFor: user_info.industry_sector.others
+    - key: usage.industry_sector.others.description
+      aliasFor: user_info.industry_sector.description
+
     # degree
     - key: user_info.higher_education_degree
       t: Higher Education Degree

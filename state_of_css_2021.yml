@@ -225,11 +225,11 @@ translations:
             interactive blog posts about CSS and JS. 
             Check out this post about how percentages work in CSS!
 
-    - key: picks.kevinjpowell.name
+    - key: picks.kevin_j_powell.name
       t: Stephanie Eckles
-    - key: picks.kevinjpowell.bio
+    - key: picks.kevin_j_powell.bio
       t: CSS Evangelist
-    - key: picks.kevinjpowell.description
+    - key: picks.kevin_j_powell.description
       t: |
             I'm constantly blown away by Stephanie's continued initiatives 
             to help share her knowledge of modern CSS techniques, 

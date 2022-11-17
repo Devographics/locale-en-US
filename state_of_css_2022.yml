@@ -10,3 +10,210 @@ translations:
           What's more, the survey results will also help browser vendors prioritize their roadmaps and work towards better compatibility between browsers. 
 
           With all this out of the way, let's see how CSS evolved in 2022!
+
+    ###########################################################################
+    # Picks
+    ###########################################################################
+
+    - key: picks.my_pick
+      t: 'My 2022 Pick: '
+    - key: picks.intro
+      t: We asked members of the CSS community to share their “pick of the year”
+
+    - key: picks.david_east.name
+      t: CSS Subgrid
+    - key: picks.david_east.bio
+      t: Advocate for building on the web
+    - key: picks.david_east.description
+      t: |
+            CSS Subgrid allows child elements to inherit their parents grid properties. 
+            Soon, it will be much easier to lay elements out to the same grid 
+            lines across the entire page.
+
+    - key: picks.bramus_van_damme.name
+      t: The `:has()` Selector
+    - key: picks.bramus_van_damme.bio
+      t: Chrome Developer Relations Engineer at Google
+    - key: picks.bramus_van_damme.description
+      t: |
+            You might know this one as the so-called “parent selector” but that name does it 
+            no justice as it only covers a small part of what it can do. 
+            This selector has essentially changed the way I write my CSS.
+
+    - key: picks.kevin_j_powell.name
+      t: Jhey Tompkins
+    - key: picks.kevin_j_powell.bio
+      t: CSS Evangelist
+    - key: picks.kevin_j_powell.description
+      t: |
+            Jhey is always pushing the limits of what we can do with CSS with 
+            fun and impressive demos and Codepens. With all the new features landing in CSS recently, 
+            Jhey is at the forefront of explaining how they work.
+
+    - key: picks.samuel_kraft.name
+      t: The `:has()` Selector
+    - key: picks.samuel_kraft.bio
+      t: Design Engineer
+    - key: picks.samuel_kraft.description
+      t: |
+            The new :has() selector is super powerful and unlocks new styling possibilities. 
+            This great article from Jen Simmons breaks it down with explanations and practical examples.
+             
+    - key: picks.josh_comeau.name
+      t: Modern CSS
+    - key: picks.josh_comeau.bio
+      t: Software developer and educator
+    - key: picks.josh_comeau.description
+      t: |
+            CSS has changed so much over the past few years. 
+            Stephanie shows us how to leverage modern CSS features 
+            to solve old problems in new ways.
+
+    - key: picks.adam_argyle.name
+      t: The `:has()` Selector
+    - key: picks.adam_argyle.bio
+      t: UI/CSS DevRel at Google
+    - key: picks.adam_argyle.description
+      t: |
+            CSS just because even stronger at orchestrating UI interaction across components. 
+            We've barely scratched the surface of the impact of `:has()` on our styles.
+
+    - key: picks.eric_w_bailey.name
+      t: “Style with Stateful, Semantic Selectors” by Ben Myers
+    - key: picks.eric_w_bailey.bio
+      t: Accessibility advocate and CSS nerd
+    - key: picks.eric_w_bailey.description
+      t: |
+            Ben demonstrates how utilizing ARIA 
+            attribute selectors can simply and powerfully tie appearance to state.
+
+    - key: picks.michelle_barker.name
+      t: Interop 2022
+    - key: picks.michelle_barker.bio
+      t: Writer and creator of front-end blog CSS { In Real Life }
+    - key: picks.michelle_barker.description
+      t: |
+            Interop is a collaboration between all of the major browser vendors, 
+            agreeing 15 key areas of focus for implementation — 
+            including game-changing new CSS features like container queries, 
+            cascade layers and color functions. 
+
+    - key: picks.gift_egwuenu.name
+      t: Learn CSS
+    - key: picks.gift_egwuenu.bio
+      t: Developer Advocate at Cloudflare
+    - key: picks.gift_egwuenu.description
+      t: |
+            My recommended resource for anyone looking to learn CSS from the ground up, 
+            I also use it as a reference everytime I need to look up any CSS property. 
+
+    - key: picks.ahmad_shadeed.name
+      t: Container Queries
+    - key: picks.ahmad_shadeed.bio
+      t: Author of [Debugging CSS](https://debuggingcss.com/), Writing at [ishadeed.com](http://ishadeed.com)
+    - key: picks.ahmad_shadeed.description
+      t: |
+            If I would pick one highlight for 2022, it's container queries! 
+            They are finally here in stable browser near you
+
+    # - key: picks.georgedoescode.name
+    #   t: 
+    # - key: picks.georgedoescode.bio
+    #   t: 
+    # - key: picks.georgedoescode.description
+    #   t: |
+
+    - key: picks.jen_simmons.name
+      t: The `:has()` Selector
+    - key: picks.jen_simmons.bio
+      t: Web technologies evangelist at Apple
+    - key: picks.jen_simmons.description
+      t: |
+            For two decades, “parent selector” was a top requested feature for CSS. 
+            Then in 2022, in a total surprise, the :has() pseudo-class arrived to solve this and far more.
+
+    - key: picks.sara_soueidan.name
+      t: The `:has()` Selector
+    - key: picks.sara_soueidan.bio
+      t: Independent inclusive design engineer
+    - key: picks.sara_soueidan.description
+      t: |
+            We've been wishing and waiting for CSS container queries for so long. 
+            But then `:has()` arrived shortly after, 
+            and it felt like it was "everything we never knew we always wanted". 
+
+    - key: picks.adam_wathan.name
+      t: Empty CSS Variables
+    - key: picks.adam_wathan.bio
+      t: Creator of Tailwind CSS
+    - key: picks.adam_wathan.description
+      t: |
+            Not many people know this but `--my-var: ;` is totally valid CSS, 
+            and it's way more useful than you think. 
+            We use it in Tailwind CSS all the time to make it 
+            possible to decompose a single CSS property into multiple classes.
+
+    # - key: picks.christianoliff.bio
+    #   t: Front-end developer for Trimble MAPS
+    # - key: picks.christianoliff.description
+    #   t: |
+    #       One thing I've really started using and appreciating this year though is Purge CSS- an awesome tool for removing unused CSS. It can greatly reduce the size of your CSS, and its fast and easy to use.
+
+    - key: picks.kilian_valkhof.name
+      t: Interop 2022
+    - key: picks.kilian_valkhof.bio
+      t: Web developer and creator of Polypane
+    - key: picks.kilian_valkhof.description
+      t: |
+          Started in 2021 as Compat 2021, browser engine makers 
+          have started coordinating which features they prioritize. 
+          Not only is this closing the various feature gaps that exist 
+          between between browsers, it's also increasing the speed with which new 
+          features like @layer lands across browsers.
+
+    # - key: picks.piccalilli_.bio
+    #   t: Freelance designer & dev who runs piccalil.li
+    # - key: picks.piccalilli_.description
+    #   t: |
+    #       This blog is an absolute gold mine of CSS knowledge. Michelle is a CSS legend and every post or tutorial they write is heaped with useful content.
+
+    # - key: picks.piccalilli_.bio
+    #   t: Freelance designer & dev who runs piccalil.li
+    # - key: picks.piccalilli_.description
+    #   t: |
+    #       This blog is an absolute gold mine of CSS knowledge. Michelle is a CSS legend and every post or tutorial they write is heaped with useful content.
+
+    # - key: picks.sarasoueidan.bio
+    #   t: Independent UI/design engineer
+    # - key: picks.sarasoueidan.description
+    #   t: |
+    #       My pick is a person, namely Rachel Andrew. She taught CSS Grid to a whole generation of developers.
+
+    # - key: picks.5t3ph.bio
+    #   t: Software Engineer @ Microsoft
+    # - key: picks.5t3ph.description
+    #   t: |
+    #       In this conference talk, Manuel Matuzovic provides thoughtfully 
+    #       crafted examples that are engaging, approachable, and actionable.
+
+    # - key: picks.hugogiraudel.bio
+    #   t: Non-binary accessibility & diversity advocate
+    # - key: picks.hugogiraudel.description
+    #   t: |
+    #       Fela is an amazing piece of software. 
+    #       It’s pretty powerful, relatively easy to use and very performant
+
+    # - key: picks.foolip.bio
+    #   t: Software Engineer @ Google
+    # - key: picks.foolip.description
+    #   t: |
+    #       Sergio has recently fixed lots of Flexbox in WebKit and even some in Chromium, 
+    #       notably bringing flex gap to WebKit, 
+    #       which means that soon it will be available on all modern browsers. 
+    
+    # - key: picks.jina.bio
+    #   t: Design systems advocate and practitioner
+    # - key: picks.jina.description
+    #   t: |
+    #       The media query to reduce motion, which helps avoid 
+    #       triggering dizziness and discomfort.
