@@ -508,7 +508,7 @@ translations:
     - key: tools_others.graphics_animation
       t: Graphics & Animations
     - key: tools_others.graphics_animation.description
-      t: Libraries dedicated to graphcis and animation. 
+      t: Libraries dedicated to graphics and animation. 
     - key: tools_others.graphics_animation.others
       t: Other Graphics & Animations Libraries
 
