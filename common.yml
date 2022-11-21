@@ -174,6 +174,8 @@ translations:
       t: Select option
     - key: forms.clear_field
       t: Clear question
+    - key: forms.more_options
+      t: Show more
 
     # partners & sponsors
     - key: sponsors.with_support_from
