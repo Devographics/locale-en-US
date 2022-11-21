@@ -10,7 +10,29 @@ translations:
           What's more, the survey results will also help browser vendors prioritize their roadmaps and work towards better compatibility between browsers. 
 
           With all this out of the way, let's see how CSS evolved in 2022!
+      
+    ###########################################################################
+    # Conclusion
+    ###########################################################################
 
+    - key: conclusion.css2022
+      t: |
+          <span class="first-line">Last year, [Kilian predicted](https://2021.stateofcss.com/en-US/conclusion/) that the way we write CSS was about to change forever,</span> and this year's results validate his prediction.
+
+          [Interop 2022](https://wpt.fyi/interop-2022) has brought browsers together working towards the same goals, and several features went from "this will never happen" to "this is now happening". Parent selectors (`:has()`) and container queries (`@container`) are two big ones in that category. For years it was hammered into developers that these could not  happen due to performance implications, yet it turned out that both were possible. 
+
+          Subgrid on the other hand was always on the roadmap, it was just a very big chunk of work. It is now supported by both Firefox and Safari, and being actively implemented in Chrome, so we will probably see much higher usage next year.
+
+          I predict that the stars of 2023 will be native Nesting, and color manipulation.
+          Nesting is currently [the primary reason](https://twitter.com/leaverou/status/806936438797307904) people still use preprocessors, so being able to rely on it natively will be incredibly freeing. 
+
+          Working with color in CSS is also about to get a lot more exciting. There is a swath of features being implemented across the board as we speak. By the end of 2023, we will probably be able to rely on wide gamut colors and device independent colors (`color()`, `lab()`, `lch()`, `oklab()`, `oklch()`), and we'd be able to manipulate them in a basic way through `color-mix()`. 
+
+          All of this together means that 2023 is likely to be a very exciting year for CSS. I look forward to all the amazing implementations to come, whether my predictions turn out to be correct or not. What a fantastic time to be writing CSS!
+
+    - key: conclusion.css2022.bio
+      t: W3C Technical Architecture Group Member, MIT CSAIL
+      
     ###########################################################################
     # Picks
     ###########################################################################
@@ -217,3 +239,67 @@ translations:
     #   t: |
     #       The media query to reduce motion, which helps avoid 
     #       triggering dizziness and discomfort.
+
+
+###########################################################################
+# FAQ/About
+###########################################################################
+    
+    - key: about.content
+      t: >
+            The 2022 State of CSS survey ran from October 1 to November 1 2022, and collected 14,310 responses. The survey is run by me, [Sacha Greif](https://sachagreif.com/), with help from a team of open-source contributors and consultants. 
+
+            This year's logo and t-shirt were reused from last year, when they were designed and animated by [Christopher Kirk-Nielsen](http://chriskirknielsen.com/).
+
+            ### Survey Goals
+
+            This survey, along with the [State of JavaScript](https://stateofjs.com/) survey, was created to identify upcoming trends in the web development ecosystem in order to help developers make technological choices. 
+
+            As such, these surveys are focused on anticipating what's coming over the next few years rather than analyzing what's popular now, which is why the features or technologies that are currently most widespread are not always included. 
+
+            Aditionally, survey data is also used by browser vendors to prioritize features and inform initiatives such as [Interop 2022](https://wpt.fyi/interop-2022).
+
+            ### Survey Design
+
+            This year, survey design was lead by [Lea Verou](https://lea.verou.me/) thanks to a funding grant from the Google Chrome team, and managed publicly [on GitHub](https://github.com/orgs/Devographics/projects/1). All survey questions were optional. 
+
+            ### Survey Audience
+
+            The survey was openly accessible online and respondents were not filtered or selected in any way. Respondents were primarily a mix of respondents from past surveys (alerted through a dedicated mailing list) and social media traffic. 
+
+            ### Project Funding
+
+            Funding from this project comes from a variety of sources:
+
+            - **T-shirt sales**. 
+            
+            - **Sponsored Links**: the links to recommended resources at the bottom of each page are provided by our partner [Frontend Masters](https://frontendmasters.com/).
+            
+            - **Sponsored Charts**: starting last year, anybody can now also choose to directly sponsor a chart for $10 or more, and get their Twitter avatar displayed next to it.
+            
+            - **Google**: this year, the [Google Chrome](https://www.google.com/chrome/) team set aside a budget to hire Lea to help design the survey, as well as funded me directly to help support my work. 
+
+            - **Nijibox**: Japan-based [Nijibox](https://nijibox.jp/) has also graciously accepted to sponsor my efforts to help make these yearly surveys more sustainable. 
+
+            ### Technical Overview
+
+            You can find a more in-depth technical overview of how the surveys are run [here](https://dev.to/sachagreif/how-the-state-of-js-css-surveys-are-run-4lnb). Our code is [open-source](https://github.com/Devographics/Monorepo/). 
+
+            - **Data collection**: [Next.js](https://nextjs.org/) app running on [Vercel](https://vercel.com/).
+
+            - **Data storage/processing**: MongoDB & MongoDB Aggregations running on [MongoDB Atlas](https://cloud.mongodb.com/).
+            
+            - **Data API**: Node.js GraphQL API running on [Render](https://render.com/). 
+            
+            - **Results Site**: [Gatsby](https://www.gatsbyjs.com/) React app running on [Netlify](https://netlify.com/).
+            
+            - **Data Visualizations**: [Nivo](https://nivo.rocks/) React dataviz library. 
+            
+            - **Type**: [IBM Plex Mono](https://fonts.google.com/specimen/IBM+Plex+Mono) and [Bebas Neue](https://fonts.google.com/specimen/Bebas+Neue).
+
+            ### Feedback
+
+            - [Report a technical issue](https://github.com/Devographics/Monorepo/issues)
+            - [Make a suggestion for next year](https://github.com/Devographics/surveys/issues/66)
+            - [Other non-technical issues](https://github.com/Devographics/surveys/issues)
+            - [Join our Discord](https://discord.gg/tuWRUWVyJs)

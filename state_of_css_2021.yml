@@ -167,7 +167,7 @@ translations:
     # Conclusion
     ###########################################################################
 
-    - key: sections.conclusion.description
+    - key: conclusion.css2021
       t: |
             <span class="first-line">The way you write CSS is about to change forever</span>
             
@@ -183,7 +183,7 @@ translations:
 
             All of this together means that 2022 is likely to be a year where the way you write CSS is going to fundamentally change. It's an incredibly exciting period, and we look forward to all the amazing implementations in the year to come.
 
-    - key: conclusion.bio
+    - key: conclusion.css2021.bio
       t: Web developer and creator of Polypane
       
     ###########################################################################

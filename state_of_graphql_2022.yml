@@ -171,7 +171,7 @@ translations:
     # Conclusion
     ###########################################################################
 
-    - key: sections.conclusion.description
+    - key: conclusion.graphql2022
       t: |
 
             <span class="first-line">GraphQL is truly part of how we build modern applications today.</span>
@@ -189,7 +189,7 @@ translations:
             GraphQL has found its place in the ecosystem, and it has an exciting future ahead!
 
 
-    - key: conclusion.bio
+    - key: conclusion.graphql2022.bio
       t: Senior Developer Relations @ Grafbase
       
     ###########################################################################

@@ -232,7 +232,7 @@ translations:
     - key: faq.results_released_js2022
       t: When will the results be released?
     - key: faq.results_released_js2022.description
-      t: The survey will run until the end of November 2022, and the survey results will be released in early December. 
+      t: The survey will run until December 15, 2022, and the survey results will be released shortly afterwards. 
 
     - key: faq.data_used_js2022
       t: How will this data be used?
