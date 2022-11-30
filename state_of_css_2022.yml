@@ -17,15 +17,15 @@
 
       - key: introduction.css2022
         t: |
-            <span class="first-letter">W</span>e thought CSS had already evolved into a pretty formidable language thanks to advancements like Flexbox, Grid, and CSS Variables. But it turns out CSS was just getting warmed up. 
+            <span class="first-letter">W</span>e thought CSS had already evolved into a pretty formidable language thanks to advancements like Flexbox, Grid, and CSS Variables. But it turns out this wasn't even its final form. 
             
             Parent selector, native nesting, container queries, cascade layers… The list of absolutely game-changing features coming imminently is pretty shocking when you think about it. 
             
-            Thankfully, we have the best guide you could ask for to help us navigate these waters: [Lea Verou](http://lea.verou.me/) has taken the lead on this year's survey design, and the result is a set of questions that encompasses all the key innovations you should be aware of. 
-
-            So let us guide you through a a pretty revolutionary moment in CSS's history. I wouldn't be surprised if we end up looking back at 2022 as the year CSS finally revealed its final form. 
+            Thankfully, we have the best guide you could ask for to help us navigate these waters: [Lea Verou](http://lea.verou.me/) has taken the lead on this year's survey design, and the result is a survey that will hopefully encompass all the key innovations you should be aware of. 
 
             <span class="conclusion__byline">– Sacha Greif</span>
+
+            P.S. Also new this year: we gave respondents the ability to **leave comments** on any feature or library mentioned in the survey! Make sure to look up these comments in each chart's sidebar. 
             
       ###########################################################################
       # Tshirt
