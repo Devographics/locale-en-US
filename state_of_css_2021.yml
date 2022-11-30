@@ -4,7 +4,7 @@ translations:
     # Introduction
     ###########################################################################
 
-    - key: sections.introduction.description
+    - key: introduction.css2021
       t: |
 
             <span class="first-letter">D</span>o woodworkers have to learn a new, better way to saw a board every couple years? Do painters feel like frauds for still using oil paint? Or is it just us front-end developers who get to experience this constant state of change?

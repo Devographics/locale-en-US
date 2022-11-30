@@ -12,7 +12,7 @@ translations:
     # Introduction
     ###########################################################################
 
-    - key: sections.introduction.description
+    - key: introduction.js2020
       t: |
 
             <span class="first-letter">A</span>s crappy as 2020 was, JavaScript as a whole still managed to somehow move forward. As the language itself keeps improving

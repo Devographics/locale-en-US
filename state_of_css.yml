@@ -564,8 +564,20 @@ translations:
     # slider
     - key: options.css_js_balance.0
       t: 100% CSS
+    - key: options.css_js_balance.1
+      t: "|"
+    - key: options.css_js_balance.2
+      t: "|"
+    - key: options.css_js_balance.3
+      t: "|"
     - key: options.css_js_balance.4
-      t: 50%–50%
+      t: ">50% CSS"
+    - key: options.css_js_balance.5
+      t: "|"
+    - key: options.css_js_balance.6
+      t: "|"
+    - key: options.css_js_balance.7
+      t: "|"
     - key: options.css_js_balance.8
       t: 100% JS
 
@@ -683,6 +695,8 @@ translations:
       t: For each matchup, pick the aspect of CSS you struggle with the most.
 
     - key: usage.other_pain_points_freeform
+      t: Pain Points
+    - key: usage.other_pain_points_freeform.description
       t: Any other pain points related to writing CSS?
     - key: usage.other_pain_points_freeform.others
       aliasFor: usage.other_pain_points_freeform
@@ -697,6 +711,8 @@ translations:
       t: For each matchup, pick the feature you'd most like to be able to use in CSS today.
 
     - key: usage.missing_features_freeform
+      t: Missing Features
+    - key: usage.missing_features_freeform.description
       t: What features do you feel are currently missing from CSS altogether?
     - key: usage.missing_features_freeform.others
       aliasFor: usage.missing_features_freeform
@@ -794,3 +810,4 @@ translations:
       t: |
           The next couple sections focus on the **libraries** and **frameworks** that make up 
           the CSS ecosystem. Let us know what you're excited about!
+    

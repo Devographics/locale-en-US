@@ -4,7 +4,7 @@ translations:
     # Introduction
     ###########################################################################
 
-    - key: sections.introduction.description
+    - key: introduction.css2020
       t: |
 
             <span class="first-letter">F</span>orget everything you know about CSS. Or at least, be ready to reconsider a lot of it. If like me you've been writing CSS for over a decade, CSS in 2020 looks nothing like what you were used to.

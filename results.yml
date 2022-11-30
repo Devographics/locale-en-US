@@ -57,13 +57,6 @@ translations:
     t: By Gender
 
   ###########################################################################
-  # Block
-  ###########################################################################
-
-  - key: block.data_from
-    t: foo
-
-  ###########################################################################
   # Options
   ###########################################################################
 
@@ -174,6 +167,18 @@ translations:
     t: Diabetes
   - key: options.disability_status_others.carpal_tunnel
     t: Carpal Tunnel
+  - key: options.disability_status_others.migraine
+    t: Migraine
+  - key: options.disability_status_others.speech_impairment
+    t: Speech Impairment
+  - key: options.disability_status_others.ocd
+    t: OCD
+  - key: options.disability_status_others.chronic_pain
+    t: Chronic Pain
+  - key: options.disability_status_others.chronic_fatigue
+    t: Chronic Fatigue
+  - key: options.disability_status_others.crohn
+    t: Crohn's
     
   ###########################################################################
   # Sections
@@ -489,9 +494,27 @@ translations:
 
   # tools experience ranking
   - key: blocks.tools_experience_ranking
+    t: Rankings Over Time
+  - key: blocks.tools_experience_ranking.percentages
+    t: Percentages
+  - key: blocks.tools_experience_ranking.rankings
     t: Rankings
   - key: blocks.tools_experience_ranking.description
     t: Retention, interest, usage, and awareness ratio rankings.
+  - key: blocks.tools_experience_ranking.note
+    t: |
+      Technologies with less than 10% awareness not included. Each ratio is defined as follows:
+
+      - Retention: **would use again** / (**would use again** + **would not use again**)
+      - Interest: **want to learn** / (**want to learn** + **not interested**)
+      - Usage: (**would use again** + **would not use again**) / **total**
+      - Awareness: (**total** - **never heard**) / **total**
+
+  # tools experience linechart
+  - key: blocks.tools_experience_linechart
+    t: Experience Over Time
+  - key: blocks.tools_experience_linechart.description
+    t: Retention, interest, usage, and awareness ratio over time.
   - key: blocks.tools_experience_ranking.note
     t: |
       Technologies with less than 10% awareness not included. Each ratio is defined as follows:
@@ -540,7 +563,7 @@ translations:
     t: Sorry, CSV export is not available for this dataset.
   - key: export.graphql
     t: >
-      You can copy paste this query into our <a target="_blank" rel="nofollow" href="http://graphiql.stateofjs.com/">public GraphQL API</a>.
+      You can copy paste this query into our <a target="_blank" rel="nofollow" href="https://graphiql.devographics.com/">public GraphQL API</a>.
   - key: export.export_json
     t: Get JSON Data
   - key: export.export_graphql
@@ -606,6 +629,10 @@ translations:
     t: Library Evaluation Rankings (Matchups)
   - key: tool_evaluation.tool_evaluation_matchups.description
     t: Which factors do you prioritize when evaluating a new library? Percentage of rounds won by left-hand item against top-side item.
+
+  # other
+  - key: blocks.freeform
+    t: (freeform question)
 
   ###########################################################################
   # Charts
@@ -722,6 +749,23 @@ translations:
 
   - key: charts.no_answer
     t: No Answer
+
+  ###########################################################################
+  # Comments
+  ###########################################################################
+
+  - key: comments.comments
+    t: Comments
+  - key: comments.comments_for
+    t: Comments for “{name}”
+  - key: comments.description
+    t: |
+      These comments were submitted as part of the survey 
+      through an optional freeform text field next to the main question. 
+  - key: comments.report_abuse
+    t: Report this comment
+  - key: comments.share
+    t: Share Comment
 
   ###########################################################################
   # Sharing
@@ -885,6 +929,11 @@ translations:
   - key: award.most_write_ins_award.description
     t: Awarded to the item with the most write-in answers
 
+  - key: award.most_commented_featured_award.title
+    t: Most Commented
+  - key: award.most_commented_featured_award.description
+    t: Awarded to the feature with the most comments.
+
   ###########################################################################
   # Hints
   ###########################################################################
@@ -944,6 +993,10 @@ translations:
     t: >
       <span class="hint-bracket"><span class="hint-text">The following chart provides the results of a tournament-style 8-player bracket in which
       respondents were tasked with picking the winner of each match-up until a single winner remained.</span><span class="hint-diagram"/></span>
+
+  - key: hints.comments_hint
+    t: >
+      The <span class="hint-icon hint-comment-button">Comment</span> tab lets you view comments left by survey respondents as they were filling out the survey. 
 
   ###########################################################################
   # Sponsor Chart
@@ -1037,3 +1090,45 @@ translations:
 
   - key: sponsor.faq.feedback.description
     t: You can do so [on GitHub](https://github.com/StateOfJS/Monorepo/issues/69) or [in our Discord](https://discord.gg/tuWRUWVyJs).
+
+
+  ###########################################################################
+  # Data Explorer
+  ###########################################################################
+
+  - key: sections.data_explorer.title
+    t: Data Explorer
+  - key: sections.data_explorer.description
+    t: Dynamically explore and cross-reference survey data.
+
+  - key: explorer.sections.demographics
+    t: Demographics
+  - key: explorer.sections.features
+    t: Features
+  - key: explorer.sections.tools
+    t: Libraries
+
+  - key: explorer.units_count
+    t: Count
+  - key: explorer.all_fields
+    t: All fields
+  - key: explorer.select_item
+    t: Select item
+  - key: explorer.units_percent_of_row
+    t: "% of Row"
+  - key: explorer.total_respondents
+    t: "Total Respondents: {count}"
+
+  - key: explorer.details
+    t: |
+      ### Chart Scale
+
+      One dot represents 10 respondents.
+
+      ### Extra & Missing Respondents
+
+      If 50% of question respondents are right-handed, and there are 1000 CSS Grid users, 
+      you'd expect to find 500 right-handed CSS Grid users.
+
+      Any deviation above or below that expected total is highlighted with either green 
+      dots (for extra respondents) or empty red dots (for missing respondents).

@@ -14,7 +14,7 @@ translations:
     # Introduction
     ###########################################################################
 
-    - key: sections.introduction.description
+    - key: introduction.js2021
       t: |
 
             <span class="first-letter">A</span> lot happened in 2021. So much in fact that the survey was pushed back all the way to 2022! 

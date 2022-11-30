@@ -14,7 +14,7 @@ translations:
     # Introduction
     ###########################################################################
 
-    - key: sections.introduction.description
+    - key: introduction.graphql2022
       t: >
 
             <span class="first-letter">S</span>ince being originally created at Facebook in September 2015, many developers have embraced GraphQL as a new and promising way to build APIs. 
