@@ -55,11 +55,19 @@ translations:
     - key: options.platform_api_awareness.option1
       t: I have never heard / I am not sure what it is 
     - key: options.platform_api_awareness.option2
-      t: I know what it is, but have never used it in the RN
+      t: I know what it is, but have never used it in React Native app
     - key: options.platform_api_awareness.option3
-      t: I wanted to use it, but RN doesn't support it
+      t: I wanted to use it, but React Native doesn't support it
     - key: options.platform_api_awareness.option4
-      t: I have used in RN using an off-the-shelf API/library
+      t: I have used in React Native using an off-the-shelf API/library
     - key: options.platform_api_awareness.option5
-      t: I used in RN writing my own module
+      t: I used in React Native by writing my own module
+
+    # slider
+    - key: options.slider.0
+      t: 100% TS
+    - key: options.slider.4
+      t: 50%-50%
+    - key: options.slider.8
+      t: 100% JS
     
