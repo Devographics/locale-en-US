@@ -966,8 +966,8 @@ translations:
 
   - key: hints.rankings_modes_hint
     t: >
-      The Rankings chart can be toggled between retention, interest, usage, and awareness
-      to give you a fuller picture of a category's rankings.
+      The Experience Over Time chart can be toggled between retention, interest, usage, and awareness
+      to give you a fuller picture of a category.
 
   - key: hints.sharing_hint
     t: >
@@ -1099,7 +1099,9 @@ translations:
   - key: sections.data_explorer.title
     t: Data Explorer
   - key: sections.data_explorer.description
-    t: Dynamically explore and cross-reference survey data.
+    t: |
+      Dynamically explore the survey's audience by picking two questions, and seeing how
+      respondents are distributed between them. 
 
   - key: explorer.sections.demographics
     t: Demographics
@@ -1108,6 +1110,14 @@ translations:
   - key: explorer.sections.tools
     t: Libraries
 
+
+  - key: explorer.main_heading
+    t: “{xAxisLabel}” vs “{yAxisLabel}”
+  - key: explorer.main_legend
+    t: |
+      **{totalCount}** respondents, **1** dot = **{respondentsPerDot}** respondents, **{dotsPerLine}** dots per line
+  - key: explorer.edit
+    t: Edit Parameters…
   - key: explorer.units_count
     t: Count
   - key: explorer.all_fields
@@ -1119,12 +1129,8 @@ translations:
   - key: explorer.total_respondents
     t: "Total Respondents: {count}"
 
-  - key: explorer.details
+  - key: explorer.extra_missing_respondents
     t: |
-      ### Chart Scale
-
-      One dot represents 10 respondents.
-
       ### Extra & Missing Respondents
 
       If 50% of question respondents are right-handed, and there are 1000 CSS Grid users, 

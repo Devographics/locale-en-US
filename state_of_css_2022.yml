@@ -121,7 +121,7 @@
 
       - key: conclusion.css2022
         t: |
-            <span class="first-line">Last year, [Kilian predicted](https://2021.stateofcss.com/en-US/conclusion/) that the way we write CSS was about to change forever, and this year's results validate his prediction.</span>
+            <span class="first-line">[Last year](https://2021.stateofcss.com/en-US/conclusion/), Kilian predicted that the way we write CSS was about to change forever, and this year's results validate his prediction.</span>
 
             [Interop 2022](https://wpt.fyi/interop-2022) has brought browsers together working towards the same goals, and several features went from "this will never happen" to "this is now happening". Parent selectors (`:has()`) and container queries (`@container`) are two big ones in that category. For years it was hammered into developers that these could not  happen due to performance implications, yet it turned out that both were possible. 
 
