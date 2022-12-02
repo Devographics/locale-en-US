@@ -1,5 +1,25 @@
 locale: en-US
 translations:
+    - key: options.platform_api_awareness.option1
+      t: <span aria-hidden="true">a</span> Never heard of it / Not sure what it is
+    - key: options.platform_api_awareness.option2
+      t: <span aria-hidden="true">b</span> Wiem co to jest, ale nigdy nie używałem w RN
+    - key: options.platform_api_awareness.option3
+      t: <span aria-hidden="true">c</span> Chciałem tego użyć, ale RN tego nie wspiera
+    - key: options.platform_api_awareness.option4
+      t: <span aria-hidden="true">d</span> Używałem w RN wykorzystując gotowe API/bibliotekę
+    - key: options.platform_api_awareness.option5
+      t: <span aria-hidden="true">e</span> Używałem w RN pisząc własny moduł
+
+    - key: resources.first_steps.others
+      t: Other First Learning Methods
+    - key: resources.first_steps.others.description
+      t: Other answers (freeform field).
+    - id: developer_background.developer_background_before_other.others
+      name: Other mleko
+    - id: developer_background.developer_background_before_other.others.description
+      name: Other mleko
+    
     ###########################################################################
     # General
     ###########################################################################
