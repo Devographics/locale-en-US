@@ -1136,5 +1136,5 @@ translations:
       If 50% of question respondents are right-handed, and there are 1000 CSS Grid users, 
       you'd expect to find 500 right-handed CSS Grid users.
 
-      Any deviation above or below that expected total is highlighted with either green 
-      dots (for extra respondents) or empty red dots (for missing respondents).
+      Any deviation above or below that expected total is highlighted with either colored 
+      dots (for extra respondents) or empty dots (for missing respondents).
