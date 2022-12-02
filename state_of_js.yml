@@ -1,6 +1,11 @@
 locale: en-US
 namespace: js
 translations:
+    - key: sections.platform_apis.title
+      t: Platform APIs
+    - key: sections.platform_apis.description
+      t: The features provided by the operation system.
+
     ###########################################################################
     # General
     ###########################################################################
@@ -23,7 +28,8 @@ translations:
     ###########################################################################
     # Sections
     ###########################################################################
-
+    # - key: features.service_workers
+    #   t: Service Workers
     - key: sections.syntax.title
       t: Syntax
     - key: sections.syntax.description
