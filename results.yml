@@ -1113,6 +1113,13 @@ translations:
 
   - key: explorer.main_heading
     t: “{xAxisLabel}” vs “{yAxisLabel}”
+
+  - key: explorer.x_axis_details
+    t: |
+      Out of all respondents who completed question “{yAxisLabel}”, **{totalCount}** survey respondents picked “{xQuestionLabel}” for “{xAxisLabel}”
+  - key: explorer.y_axis_details
+    t: |
+      **{totalCount}** survey respondents picked “{yQuestionLabel}”
   - key: explorer.main_legend
     t: |
       **{totalCount}** respondents, **1** dot = **{respondentsPerDot}** respondents, **{dotsPerLine}** dots per line
@@ -1128,6 +1135,31 @@ translations:
     t: "% of Row"
   - key: explorer.total_respondents
     t: "Total Respondents: {count}"
+  - key: explorer.axis_total
+    t: "{totalCount} respondents"
+  - key: explorer.axis_percent
+    t: "{percentCount}% of respondents"
+
+  - key: explorer.extra_respondents
+    t: Extra Respondents
+  - key: explorer.missing_respondents
+    t: Missing Respondents
+  - key: explorer.details.1
+    t: |
+      **{bucketTotal}** “{xFieldLabel}” respondents selected “{xAnswerLabel}”.
+  - key: explorer.details.2
+    t: |
+        **{facetPercentageQuestion}%** of “{yFieldLabel}” respondents selected “{yAnswerLabel}”. 
+  - key: explorer.details.3
+    t: |
+        Applying that percentage to the previous **{bucketTotal}** respondents figure 
+        gives us an expected baseline of **{normalizedCount}** respondents in this intersection. 
+  - key: explorer.details.4_extra
+    t: |
+        The actual count is **{bucketCount}**, and those extra **{normalizedCountDelta}** respondents are *highlighted*. 
+  - key: explorer.details.4_missing
+    t: |
+        The actual count is **{bucketCount}**, and those missing **{normalizedCountDelta}** respondents appear as empty dots. 
 
   - key: explorer.extra_missing_respondents
     t: |
