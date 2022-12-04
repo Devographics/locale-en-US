@@ -1103,16 +1103,44 @@ translations:
       Dynamically explore the survey's audience by picking two questions, and seeing how
       respondents are distributed between them. 
 
-  - key: explorer.sections.demographics
-    t: Demographics
-  - key: explorer.sections.features
-    t: Features
-  - key: explorer.sections.tools
-    t: Libraries
+  - key: hints.data_explorer
+    t: |
+      This is a preview version of our new Data Explorer. If you find any issues or data inconsistencies please [let us know]({issueLink}).
 
+  # heading
 
   - key: explorer.main_heading
     t: “{xAxisLabel}” vs “{yAxisLabel}”
+
+  - key: explorer.total_respondents
+    t: |
+      (**{totalCount}** total respondents)
+
+  - key: explorer.count_per_dot
+    t: |
+      {respondentsPerDot} Respondents
+  - key: explorer.percentage_per_dot
+    t: |
+      {percentsPerDot}%
+  - key: explorer.extra_respondents
+    t: Extra Respondents
+  - key: explorer.missing_respondents
+    t: Missing Respondents
+
+  - key: explorer.units_count
+    t: Count
+  - key: explorer.units_percentage
+    t: "% of Row"
+
+  - key: explorer.edit
+    t: Edit Parameters…
+
+  # axis
+
+  - key: explorer.axis_total
+    t: "{totalCount} respondents"
+  - key: explorer.axis_percent
+    t: "{percentCount}% of respondents"
 
   - key: explorer.x_axis_details
     t: |
@@ -1120,46 +1148,67 @@ translations:
   - key: explorer.y_axis_details
     t: |
       **{totalCount}** survey respondents picked “{yQuestionLabel}”
-  - key: explorer.main_legend
+  - key: explorer.main_legend_count
     t: |
       **{totalCount}** respondents, **1** dot = **{respondentsPerDot}** respondents, **{dotsPerLine}** dots per line
-  - key: explorer.edit
-    t: Edit Parameters…
-  - key: explorer.units_count
-    t: Count
+
+  # controls
+  - key: explorer.dots_per_line
+    t: Dots per line
+  - key: explorer.respondents_per_dot
+    t: Respondents per dot
+  - key: explorer.show_cell_counts
+    t: Show cell counts
+
+  - key: explorer.sections.demographics
+    t: Demographics
+  - key: explorer.sections.features
+    t: Features
+  - key: explorer.sections.tools
+    t: Libraries
+
   - key: explorer.all_fields
     t: All fields
   - key: explorer.select_item
     t: Select item
-  - key: explorer.units_percent_of_row
-    t: "% of Row"
-  - key: explorer.total_respondents
-    t: "Total Respondents: {count}"
-  - key: explorer.axis_total
-    t: "{totalCount} respondents"
-  - key: explorer.axis_percent
-    t: "{percentCount}% of respondents"
 
-  - key: explorer.extra_respondents
-    t: Extra Respondents
-  - key: explorer.missing_respondents
-    t: Missing Respondents
-  - key: explorer.details.1
+  # details views
+
+  - key: explorer.count_details.1
     t: |
       **{bucketTotal}** “{xFieldLabel}” respondents selected “{xAnswerLabel}”.
-  - key: explorer.details.2
+  - key: explorer.count_details.2
     t: |
         **{facetPercentageQuestion}%** of “{yFieldLabel}” respondents selected “{yAnswerLabel}”. 
-  - key: explorer.details.3
+  - key: explorer.count_details.3
     t: |
         Applying that percentage to the previous **{bucketTotal}** respondents figure 
         gives us an expected baseline of **{normalizedCount}** respondents in this intersection. 
-  - key: explorer.details.4_extra
+  - key: explorer.count_details.4_extra
     t: |
         The actual count is **{bucketCount}**, and those extra **{normalizedCountDelta}** respondents are *highlighted*. 
-  - key: explorer.details.4_missing
+  - key: explorer.count_details.4_missing
     t: |
         The actual count is **{bucketCount}**, and those missing **{normalizedCountDelta}** respondents appear as empty dots. 
+
+
+  - key: explorer.percentage_details.1
+    t: |
+      **{bucketPercentage}%** of **{bucketTotal}** “{xFieldLabel}” respondents selected “{xAnswerLabel}”.
+  - key: explorer.percentage_details.2
+    t: |
+        **{facetPercentageQuestion}%** of “{yFieldLabel}” respondents selected “{yAnswerLabel}”. 
+  - key: explorer.percentage_details.3
+    t: |
+        Applying that percentage to the previous **{bucketTotal}** respondents figure 
+        gives us an expected baseline of **{normalizedPercentage}%** of respondents in this intersection. 
+  - key: explorer.percentage_details.4_extra
+    t: |
+        The actual percentage is **{bucketPercentage}%**, and those extra **{normalizedPercentageDelta}%** respondents are *highlighted*. 
+  - key: explorer.percentage_details.4_missing
+    t: |
+        The actual count is **{bucketPercentage}%**, and those missing **{normalizedPercentageDelta}%** respondents appear as empty dots. 
+
 
   - key: explorer.extra_missing_respondents
     t: |
