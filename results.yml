@@ -1127,6 +1127,17 @@ translations:
   - key: explorer.missing_respondents
     t: Missing Respondents
 
+  - key: explorer.count_per_dot.tooltip
+    t: |
+      1 dot represents {respondentsPerDot} respondents
+  - key: explorer.percentage_per_dot.tooltip
+    t: |
+      1 dot represents {percentsPerDot}% of respondents
+  - key: explorer.extra_respondents.tooltip
+    t: Highlighted dots indicate higher-than-expected results.
+  - key: explorer.missing_respondents.tooltip
+    t: Empty dots indicate lower-than-expected results. 
+
   - key: explorer.units_count
     t: Count
   - key: explorer.units_percentage
@@ -1134,6 +1145,35 @@ translations:
 
   - key: explorer.edit
     t: Edit Parameters…
+
+  - key: explorer.get_data
+    t: Get Data…
+
+  # loading
+
+  - key: explorer.loading.1
+    t: Querying API…
+  - key: explorer.loading.2
+    t: Waiting for a response…
+  - key: explorer.loading.3
+    t: Still working…
+  - key: explorer.loading.4
+    t: Hang on just a little bit longer…
+  - key: explorer.loading.5
+    t: Sorry, this is taking a while. You can try waiting a little longer, or [report an issue]({issueLink}).
+  - key: explorer.timeout
+    t: Timeout
+  - key: explorer.timeout.description
+    t: The API didn't respond in time. Please try again later, or [report an issue]({issueLink}).
+
+  # share
+
+  - key: explorer.share
+    t: Share…
+  - key: explorer.share.title
+    t: Share “{xAxisLabel}” vs “{yAxisLabel}”
+  - key: explorer.share.tweet
+    t: “{xAxisLabel}” vs “{yAxisLabel}” from the {surveyName} {year} survey
 
   # axis
 
