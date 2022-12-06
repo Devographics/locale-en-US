@@ -141,7 +141,13 @@ translations:
     t: Forums
   - key: options.first_steps.view_source
     t: View Source
-  
+  - key: options.first_steps.copy_paste
+    t: Copy/paste
+  - key: options.first_steps.trial_and_error
+    t: Trial & Error
+  - key: options.first_steps.documentation
+    t: Documentation
+
   # other disablities
   - key: options.disability_status_others.adhd
     t: ADHD
