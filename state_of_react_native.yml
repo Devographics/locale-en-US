@@ -1,0 +1,73 @@
+locale: en-US
+namespace: js
+translations:
+
+    - key: sections.about_you.title
+      t: About you
+    - key: sections.about_you.description
+      t: // TODO General information about you.
+
+    - key: sections.developer_background.title
+      t: Developer background
+    - key: sections.developer_background.description
+      t: // TODO Developer background description.
+
+    - key: sections.platform_apis.title
+      t: Platform APIs
+    - key: sections.platform_apis.description
+      t: The features provided by the operation system.
+
+    - key: sections.react_native_app_aspects.title
+      t: React Native app aspects
+    - key: sections.react_native_app_aspects.description
+      t: // TODO React Native app aspects (JS level) description.
+
+    - key: sections.react_native_specific_features.title
+      t: React Native features
+    - key: sections.react_native_specific_features.description
+      t: // TODO React Native specific features description.
+
+    - key: sections.tools.title
+      t: Tools
+    - key: sections.tools.description
+      t: // TODO Tools description.
+
+    - key: sections.other_tools.title
+      t: Other Tools
+    - key: sections.other_tools.description
+      t: // TODO Other Tools.
+
+    - key: sections.resources.title
+      t: Resources
+    - key: sections.resources.description
+      t: // TODO Resources.
+
+    - key: sections.opinions.title
+      t: Opinions
+    - key: sections.opinions.description
+      t: How do you feel about the state of React Native?
+
+    - key: options.yes_or_no.yes
+      t: Yes
+    - key: options.yes_or_no.no
+      t: No
+
+    - key: options.platform_api_awareness.option1
+      t: I have never heard / I am not sure what it is 
+    - key: options.platform_api_awareness.option2
+      t: I know what it is, but have never used it in React Native app
+    - key: options.platform_api_awareness.option3
+      t: I wanted to use it, but React Native doesn't support it
+    - key: options.platform_api_awareness.option4
+      t: I have used in React Native using an off-the-shelf API/library
+    - key: options.platform_api_awareness.option5
+      t: I used in React Native by writing my own module
+
+    # slider
+    - key: options.slider.0
+      t: 100% TS
+    - key: options.slider.4
+      t: 50%-50%
+    - key: options.slider.8
+      t: 100% JS
+    
