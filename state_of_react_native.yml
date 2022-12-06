@@ -18,9 +18,9 @@ translations:
       t: The features provided by the operation system.
 
     - key: sections.react_native_app_aspects.title
-      t: React Native app aspects
+      t: App aspects
     - key: sections.react_native_app_aspects.description
-      t: // TODO React Native app aspects (JS level) description.
+      t: Below we would like to ask about solutions to well-defined problems (aspects) in React Native app development.
 
     - key: sections.react_native_specific_features.title
       t: React Native features
