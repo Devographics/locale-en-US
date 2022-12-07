@@ -7,6 +7,9 @@
       - key: general.results.description
         t: The 2022 edition of the annual survey about the latest trends in the CSS ecosystem.
 
+      - key: general.css2022.js2022_banner
+        t: The State of JS 2022 survey is currently open, you can [go take it right now](https://survey.devographics.com/survey/state-of-js/2022?source=css2022)!
+
       - key: general.css2022.results_intro
         t: |
             CSS keeps progressing at an unprecedented rate. Not only are we seeing new features and properties, but even the language's foundations are being retooled and improved thanks to innovations like nesting and cascade layers. 

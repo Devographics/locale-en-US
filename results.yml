@@ -1218,38 +1218,63 @@ translations:
 
   - key: explorer.count_details.1
     t: |
-      **{bucketTotal}** “{xFieldLabel}” respondents selected “{xAnswerLabel}”.
+      **{xAxisTotal}** “{xAxisLabel}” respondents selected “{xAnswerLabel}”.
+  
   - key: explorer.count_details.2
     t: |
-        **{facetPercentageQuestion}%** of “{yFieldLabel}” respondents selected “{yAnswerLabel}”. 
+        **{yAxisPercentage}%** of “{yAxisLabel}” respondents selected “{yAnswerLabel}”. 
+  
   - key: explorer.count_details.3
     t: |
-        Applying that percentage to the previous **{bucketTotal}** respondents figure 
+        Applying that percentage to the previous **{xAxisTotal}** respondents figure 
         gives us an expected baseline of **{normalizedCount}** respondents in this intersection. 
+  
   - key: explorer.count_details.4_extra
     t: |
         The actual count is **{bucketCount}**, and those extra **{normalizedCountDelta}** respondents are *highlighted*. 
+ 
   - key: explorer.count_details.4_missing
     t: |
         The actual count is **{bucketCount}**, and those missing **{normalizedCountDelta}** respondents appear as empty dots. 
 
+  - key: explorer.percentage_details.1_extra
+    t: |
+      Overall, **{xAxisPercentage}%** of “{xAxisLabel}” respondents selected “{xAnswerLabel}”, but
+      within “{yAxisLabel}” respondents who selected “{yAnswerLabel}” that percentage climbs to  **{bucketPercentage}%**.
+  
+  - key: explorer.percentage_details.1_missing
+    t: |
+      Overall, **{xAxisPercentage}%** of “{xAxisLabel}” respondents selected “{xAnswerLabel}”, but
+      within “{yAxisLabel}” respondents who selected “{yAnswerLabel}” that percentage climbs to  **{bucketPercentage}%**.
 
-  - key: explorer.percentage_details.1
+  - key: explorer.percentage_details.2_extra
     t: |
-      **{bucketPercentage}%** of **{bucketTotal}** “{xFieldLabel}” respondents selected “{xAnswerLabel}”.
-  - key: explorer.percentage_details.2
+        Those extra **{normalizedPercentageDelta}%** respondents are *highlighted*. 
+  
+  - key: explorer.percentage_details.2_missing
     t: |
-        **{facetPercentageQuestion}%** of “{yFieldLabel}” respondents selected “{yAnswerLabel}”. 
-  - key: explorer.percentage_details.3
-    t: |
-        Applying that percentage to the previous **{bucketTotal}** respondents figure 
-        gives us an expected baseline of **{normalizedPercentage}%** of respondents in this intersection. 
-  - key: explorer.percentage_details.4_extra
-    t: |
-        The actual percentage is **{bucketPercentage}%**, and those extra **{normalizedPercentageDelta}%** respondents are *highlighted*. 
-  - key: explorer.percentage_details.4_missing
-    t: |
-        The actual count is **{bucketPercentage}%**, and those missing **{normalizedPercentageDelta}%** respondents appear as empty dots. 
+        Those missing **{normalizedPercentageDelta}%** respondents appear as empty dots. 
+
+  # - key: explorer.percentage_details.1
+  #   t: |
+  #     **{xAxisPercentage}%** of **{xAxisTotal}** “{xAxisLabel}” respondents selected “{xAnswerLabel}”.
+  
+  # - key: explorer.percentage_details.2
+  #   t: |
+  #       **{yAxisPercentage}%** of “{yAxisLabel}” respondents selected “{yAnswerLabel}”. 
+  
+  # - key: explorer.percentage_details.3
+  #   t: |
+  #       Applying that percentage to the previous **{xAxisTotal}** respondents figure 
+  #       gives us an expected baseline of **{normalizedPercentage}%** of respondents in this intersection. 
+  
+  # - key: explorer.percentage_details.4_extra
+  #   t: |
+  #       The actual percentage is **{bucketPercentage}%**, and those extra **{normalizedPercentageDelta}%** respondents are *highlighted*. 
+  
+  # - key: explorer.percentage_details.4_missing
+  #   t: |
+  #       The actual count is **{bucketPercentage}%**, and those missing **{normalizedPercentageDelta}%** respondents appear as empty dots. 
 
 
   - key: explorer.extra_missing_respondents
