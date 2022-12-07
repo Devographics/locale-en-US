@@ -1256,8 +1256,12 @@ translations:
     t: |
       ### Extra & Missing Respondents
 
-      If 50% of question respondents are right-handed, and there are 1000 CSS Grid users, 
-      you'd expect to find 500 right-handed CSS Grid users.
+      The chart above aims to identify areas showing higher-than-expected 
+      or lower-than-expected values compared to a calculated baseline. 
+      
+      For example, assuming there are 1000 CSS Grid users, and that 50% of survey respondents work in a large company, 
+      you'd expect to find 500 CSS Grid users working in large companies. 
 
-      Any deviation above or below that expected total is highlighted with either colored 
-      dots (for extra respondents) or empty dots (for missing respondents).
+      Any deviation above or below that expected total could potentially indicate an interesting
+      correlation between both variables, and is highlighted on the chart with either colored 
+      dots (for extra respondents above the baseline) or empty dots (for missing respondents).
