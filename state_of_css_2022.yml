@@ -345,6 +345,20 @@
       #       triggering dizziness and discomfort.
 
 
+
+###########################################################################
+# Sponsors
+###########################################################################
+
+      - key: sponsors.frontendmasters.description
+        t: Advance your skills with in-depth, modern front-end engineering courses.
+      - key: sponsors.nijibox.description
+        t: The browser for ambitious devs. Build responsive, accessible and fast websites with ease.
+      - key: sponsors.renderatl.description
+        t: The largest tech conference with a dedicated Design & CSS track.
+      - key: sponsors.google_chrome.description
+        t: Thanks to the Google Chrome team for supporting our work.
+
   ###########################################################################
   # FAQ/About
   ###########################################################################
