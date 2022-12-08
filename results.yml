@@ -518,7 +518,7 @@ translations:
 
   # tools experience linechart
   - key: blocks.tools_experience_linechart
-    t: Experience Over Time
+    t: Ratios Over Time
   - key: blocks.tools_experience_linechart.description
     t: Retention, interest, usage, and awareness ratio over time.
   - key: blocks.tools_experience_linechart.note
