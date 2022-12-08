@@ -2,50 +2,48 @@ locale: en-US
 namespace: js
 translations:
 
-    - key: sections.about_you.title
-      t: About you
-    - key: sections.about_you.description
-      t: // TODO General information about you.
-
-    - key: sections.developer_background.title
-      t: Developer background
-    - key: sections.developer_background.description
-      t: // TODO Developer background description.
-
     - key: sections.platform_apis.title
       t: Platform APIs
     - key: sections.platform_apis.description
-      t: The features provided by the operation system.
+      t: The features provided by the operating system.
+
+    - key: platform_apis.platform_apis_intro
+      t: Welcome to the survey! TODO
 
     - key: sections.react_native_app_aspects.title
       t: App aspects
     - key: sections.react_native_app_aspects.description
-      t: Below we would like to ask about solutions to well-defined problems (aspects) in React Native app development.
+      t: Solutions to well-defined problems in React Native app development.
 
     - key: sections.react_native_specific_features.title
-      t: React Native features
+      t: Features
     - key: sections.react_native_specific_features.description
-      t: // TODO React Native specific features description.
+      t: The features specific to React Native development.
 
     - key: sections.tools.title
       t: Tools
     - key: sections.tools.description
-      t: // TODO Tools description.
-
-    - key: sections.other_tools.title
-      t: Other Tools
-    - key: sections.other_tools.description
-      t: // TODO Other Tools.
+      t: The tools you use to develop React Native apps. 
 
     - key: sections.resources.title
       t: Resources
     - key: sections.resources.description
-      t: // TODO Resources.
+      t: What resources do you use to learn about React Native?
 
     - key: sections.opinions.title
       t: Opinions
     - key: sections.opinions.description
       t: How do you feel about the state of React Native?
+
+    - key: sections.about_you.title
+      t: About you
+    - key: sections.about_you.description
+      t: Let's get to know you a little better.
+
+    - key: sections.developer_background.title
+      t: Background
+    - key: sections.developer_background.description
+      t: What's your background as a developer?
 
     - key: options.yes_or_no.yes
       t: Yes
@@ -65,9 +63,9 @@ translations:
 
     # slider
     - key: options.slider.0
-      t: 100% TS
+      t: 100% JS
     - key: options.slider.4
       t: 50%-50%
     - key: options.slider.8
-      t: 100% JS
+      t: 100% TS
     
