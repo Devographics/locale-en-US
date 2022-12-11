@@ -1,15 +1,86 @@
 locale: en-US
 translations:
+#########################################################################
+#########################################################################
+#########################################################################
+####### STATE OF REACT NATIVE, IM SORRY FOR ADDING THIS TO COMMON #######
+#########################################################################
+#########################################################################
+#########################################################################
+    - key: sections.platform_apis.title
+      t: Platform APIs
+    - key: sections.platform_apis.description
+      t: The features provided by the operation system.
+
+    - key: platform_apis.platform_apis_intro
+      t: Welcome to the survey! TODO
+
+    - key: sections.react_native_app_aspects.title
+      t: App aspects
+    - key: sections.react_native_app_aspects.description
+      t: Solutions to well-defined problems in React Native app development.
+
+    - key: sections.react_native_specific_features.title
+      t: Features
+    - key: sections.react_native_specific_features.description
+      t: The features specific to React Native development.
+
+    - key: sections.tools.title
+      t: Tools
+    - key: sections.tools.description
+      t: The tools you use to develop React Native apps. 
+
+    - key: sections.resources.title
+      t: Resources
+    - key: sections.resources.description
+      t: What resources do you use to learn about React Native?
+
+    - key: sections.opinions.title
+      t: Opinions
+    - key: sections.opinions.description
+      t: How do you feel about the state of React Native?
+
+    - key: sections.about_you.title
+      t: About you
+    - key: sections.about_you.description
+      t: Let's get to know you a little better.
+
+    - key: sections.developer_background.title
+      t: Background
+    - key: sections.developer_background.description
+      t: What's your background as a developer?
+
+    - key: options.yes_or_no.yes
+      t: Yes
+    - key: options.yes_or_no.no
+      t: No
+
     - key: options.platform_api_awareness.option1
-      t: <span aria-hidden="true">a</span> Never heard of it / Not sure what it is
+      t: I have never heard / I am not sure what it is 
     - key: options.platform_api_awareness.option2
-      t: <span aria-hidden="true">b</span> Wiem co to jest, ale nigdy nie używałem w RN
+      t: I know what it is, but have never used it in React Native app
     - key: options.platform_api_awareness.option3
-      t: <span aria-hidden="true">c</span> Chciałem tego użyć, ale RN tego nie wspiera
+      t: I wanted to use it, but React Native doesn't support it
     - key: options.platform_api_awareness.option4
-      t: <span aria-hidden="true">d</span> Używałem w RN wykorzystując gotowe API/bibliotekę
+      t: I have used in React Native using an off-the-shelf API/library
     - key: options.platform_api_awareness.option5
-      t: <span aria-hidden="true">e</span> Używałem w RN pisząc własny moduł
+      t: I used in React Native by writing my own module
+
+    # slider
+    - key: options.slider.0
+      t: 100% JS
+    - key: options.slider.4
+      t: 50%-50%
+    - key: options.slider.8
+      t: 100% TS
+    
+#########################################################################
+#########################################################################
+#########################################################################
+#########################################################################
+#########################################################################
+#########################################################################
+
 
     - key: resources.first_steps.others
       t: Other First Learning Methods
