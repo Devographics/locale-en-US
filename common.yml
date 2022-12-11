@@ -20,6 +20,11 @@ translations:
     - key: sections.state_management.description
       t: What state management solutions do you regularly use in your React Native apps?
 
+    - key: sections.data_fetching.title
+      t: Data fetching
+    - key: sections.data_fetching.description
+      t: What data fetching solutions do you regularly use in your React Native apps?
+
     - key: sections.react_native_app_aspects.title
       t: App aspects
     - key: sections.react_native_app_aspects.description
