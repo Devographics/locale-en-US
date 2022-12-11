@@ -30,8 +30,18 @@ translations:
     - key: sections.styling.description
       t: What styling techniques do you regularly use in your React Native apps?
 
+    - key: sections.navigation.title
+      t: Navigation
+    - key: sections.navigation.description
+      t: What navigation solutions do you regularly use in your React Native apps?
+
+    - key: sections.animations.title
+      t: Graphics and animations
+    - key: sections.animations.description
+      t: What graphics and animations solutions do you use in your React Native apps?
+
     - key: sections.react_native_app_aspects.title
-      t: App aspects
+      t: Other app aspects
     - key: sections.react_native_app_aspects.description
       t: Solutions to well-defined problems in React Native app development.
 
