@@ -359,77 +359,77 @@ translations:
     # Sponsors
     ###########################################################################
 
-        - key: sponsors.frontendmasters.description
-            t: Advance your skills with in-depth, modern front-end engineering courses.
-        - key: sponsors.nijibox.description
-            t: The browser for ambitious devs. Build responsive, accessible and fast websites with ease.
-        - key: sponsors.renderatl.description
-            t: The largest tech conference with a dedicated Design & CSS track.
-        - key: sponsors.google_chrome.description
-            t: Thanks to the Google Chrome team for supporting our work.
+    - key: sponsors.frontendmasters.description
+      t: Advance your skills with in-depth, modern front-end engineering courses.
+    - key: sponsors.nijibox.description
+      t: The browser for ambitious devs. Build responsive, accessible and fast websites with ease.
+    - key: sponsors.renderatl.description
+      t: The largest tech conference with a dedicated Design & CSS track.
+    - key: sponsors.google_chrome.description
+      t: Thanks to the Google Chrome team for supporting our work.
 
     ###########################################################################
     # FAQ/About
     ###########################################################################
         
-        - key: about.content
-            t: >
-                The 2022 State of CSS survey ran from October 1 to November 1 2022, and collected 14,310 responses. The survey is run by me, [Sacha Greif](https://sachagreif.com/), with help from a team of open-source contributors and consultants. 
+    - key: about.content
+      t: >
+          The 2022 State of CSS survey ran from October 1 to November 1 2022, and collected 14,310 responses. The survey is run by me, [Sacha Greif](https://sachagreif.com/), with help from a team of open-source contributors and consultants. 
 
-                This year's logo and t-shirt were reused from last year, when they were designed and animated by [Christopher Kirk-Nielsen](http://chriskirknielsen.com/).
+          This year's logo and t-shirt were reused from last year, when they were designed and animated by [Christopher Kirk-Nielsen](http://chriskirknielsen.com/).
 
-                ### Survey Goals
+          ### Survey Goals
 
-                This survey, along with the [State of JavaScript](https://stateofjs.com/) survey, was created to identify upcoming trends in the web development ecosystem in order to help developers make technological choices. 
+          This survey, along with the [State of JavaScript](https://stateofjs.com/) survey, was created to identify upcoming trends in the web development ecosystem in order to help developers make technological choices. 
 
-                As such, these surveys are focused on anticipating what's coming over the next few years rather than analyzing what's popular now, which is why the features or technologies that are currently most widespread are not always included. 
+          As such, these surveys are focused on anticipating what's coming over the next few years rather than analyzing what's popular now, which is why the features or technologies that are currently most widespread are not always included. 
 
-                Additionally, survey data is also used by browser vendors to prioritize features and inform initiatives such as [Interop 2022](https://wpt.fyi/interop-2022).
+          Additionally, survey data is also used by browser vendors to prioritize features and inform initiatives such as [Interop 2022](https://wpt.fyi/interop-2022).
 
-                ### Survey Design
+          ### Survey Design
 
-                This year, survey design was lead by [Lea Verou](https://lea.verou.me/) thanks to a funding grant from the Google Chrome team, and managed publicly [on GitHub](https://github.com/orgs/Devographics/projects/1). All survey questions were optional. 
+          This year, survey design was lead by [Lea Verou](https://lea.verou.me/) thanks to a funding grant from the Google Chrome team, and managed publicly [on GitHub](https://github.com/orgs/Devographics/projects/1). All survey questions were optional. 
 
-                Additionally, going forward we will also coordinate survey design, review, and feedback through a [Working Group mailing list](https://www.devographics.com/working-group/).
+          Additionally, going forward we will also coordinate survey design, review, and feedback through a [Working Group mailing list](https://www.devographics.com/working-group/).
 
-                ### Survey Audience
+          ### Survey Audience
 
-                The survey was openly accessible online and respondents were not filtered or selected in any way. Respondents were primarily a mix of respondents from past surveys (alerted through a dedicated mailing list) and social media traffic. 
+          The survey was openly accessible online and respondents were not filtered or selected in any way. Respondents were primarily a mix of respondents from past surveys (alerted through a dedicated mailing list) and social media traffic. 
 
-                ### Project Funding
+          ### Project Funding
 
-                Funding from this project comes from a variety of sources:
+          Funding from this project comes from a variety of sources:
 
-                - **T-shirt sales**. 
-                
-                - **Sponsored Links**: the links to recommended resources at the bottom of each page are provided by our partner [Frontend Masters](https://frontendmasters.com/).
-                
-                - **Sponsored Charts**: starting last year, anybody can now also choose to directly sponsor a chart for $10 or more, and get their Twitter avatar displayed next to it.
-                
-                - **Google**: this year, the [Google Chrome](https://www.google.com/chrome/) team set aside a budget to hire Lea to help design the survey, as well as funded me directly to help support my work. 
+          - **T-shirt sales**. 
+          
+          - **Sponsored Links**: the links to recommended resources at the bottom of each page are provided by our partner [Frontend Masters](https://frontendmasters.com/).
+          
+          - **Sponsored Charts**: starting last year, anybody can now also choose to directly sponsor a chart for $10 or more, and get their Twitter avatar displayed next to it.
+          
+          - **Google**: this year, the [Google Chrome](https://www.google.com/chrome/) team set aside a budget to hire Lea to help design the survey, as well as funded me directly to help support my work. 
 
-                - **Nijibox**: Japan-based [Nijibox](https://nijibox.jp/) has also graciously accepted to sponsor my efforts to help make these yearly surveys more sustainable. 
+          - **Nijibox**: Japan-based [Nijibox](https://nijibox.jp/) has also graciously accepted to sponsor my efforts to help make these yearly surveys more sustainable. 
 
-                ### Technical Overview
+          ### Technical Overview
 
-                You can find a more in-depth technical overview of how the surveys are run [here](https://dev.to/sachagreif/how-the-state-of-js-css-surveys-are-run-4lnb). Our code is [open-source](https://github.com/Devographics/Monorepo/). 
+          You can find a more in-depth technical overview of how the surveys are run [here](https://dev.to/sachagreif/how-the-state-of-js-css-surveys-are-run-4lnb). Our code is [open-source](https://github.com/Devographics/Monorepo/). 
 
-                - **Data collection**: [Next.js](https://nextjs.org/) app running on [Vercel](https://vercel.com/).
+          - **Data collection**: [Next.js](https://nextjs.org/) app running on [Vercel](https://vercel.com/).
 
-                - **Data storage/processing**: MongoDB & MongoDB Aggregations running on [MongoDB Atlas](https://cloud.mongodb.com/).
-                
-                - **Data API**: Node.js GraphQL API running on [Render](https://render.com/). 
-                
-                - **Results Site**: [Gatsby](https://www.gatsbyjs.com/) React app running on [Netlify](https://netlify.com/).
-                
-                - **Data Visualizations**: [Nivo](https://nivo.rocks/) React dataviz library. 
-                
-                - **Type**: [IBM Plex Mono](https://fonts.google.com/specimen/IBM+Plex+Mono) and [Bebas Neue](https://fonts.google.com/specimen/Bebas+Neue).
+          - **Data storage/processing**: MongoDB & MongoDB Aggregations running on [MongoDB Atlas](https://cloud.mongodb.com/).
+          
+          - **Data API**: Node.js GraphQL API running on [Render](https://render.com/). 
+          
+          - **Results Site**: [Gatsby](https://www.gatsbyjs.com/) React app running on [Netlify](https://netlify.com/).
+          
+          - **Data Visualizations**: [Nivo](https://nivo.rocks/) React dataviz library. 
+          
+          - **Type**: [IBM Plex Mono](https://fonts.google.com/specimen/IBM+Plex+Mono) and [Bebas Neue](https://fonts.google.com/specimen/Bebas+Neue).
 
-                ### Feedback
+          ### Feedback
 
-                - [Report a technical issue](https://github.com/Devographics/Monorepo/issues)
-                - [Make a suggestion for next year](https://github.com/Devographics/surveys/issues/66)
-                - [Other non-technical issues](https://github.com/Devographics/surveys/issues)
-                - [Join our Discord](https://discord.gg/tuWRUWVyJs)
-                - [Join the Devographics Working Group](https://www.devographics.com/working-group/) to participate in the design and review of future surveys.
+          - [Report a technical issue](https://github.com/Devographics/Monorepo/issues)
+          - [Make a suggestion for next year](https://github.com/Devographics/surveys/issues/66)
+          - [Other non-technical issues](https://github.com/Devographics/surveys/issues)
+          - [Join our Discord](https://discord.gg/tuWRUWVyJs)
+          - [Join the Devographics Working Group](https://www.devographics.com/working-group/) to participate in the design and review of future surveys.
