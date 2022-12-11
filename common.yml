@@ -25,6 +25,11 @@ translations:
     - key: sections.data_fetching.description
       t: What data fetching solutions do you regularly use in your React Native apps?
 
+    - key: sections.styling.title
+      t: Styling
+    - key: sections.styling.description
+      t: What styling techniques do you regularly use in your React Native apps?
+
     - key: sections.react_native_app_aspects.title
       t: App aspects
     - key: sections.react_native_app_aspects.description
