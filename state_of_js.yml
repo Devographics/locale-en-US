@@ -100,10 +100,10 @@ translations:
     - key: sections.build_tools.description
       t: Compiling & bundling code
 
-    - key: sections.monorepo_tools.title
-      t: Monorepo Tools
-    - key: sections.monorepo_tools.description
-      t: Tools used to manage JavaScript monorepos.
+    # - key: sections.monorepo_tools.title
+    #   t: Monorepo Tools
+    # - key: sections.monorepo_tools.description
+    #   t: Tools used to manage JavaScript monorepos.
       
     - key: sections.tools_others.title
       t: Other Tools

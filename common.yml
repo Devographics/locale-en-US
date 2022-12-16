@@ -60,6 +60,11 @@ translations:
     - key: sections.tools.description
       t: The tools you use to develop React Native apps. 
 
+    - key: sections.monorepo_tools.title
+      t: Monorepo tools
+    - key: sections.monorepo_tools.description
+      t: What monorepo tools have you used?
+
     - key: sections.resources.title
       t: Resources
     - key: sections.resources.description
