@@ -64,29 +64,33 @@ translations:
     - key: faq.anonymous_survey.description
       t: Yes, you can use a fake (something@example.com) or non-identifying email to take the survey as long as you save it for future access. 
     - key: faq.questions_required
-      t: Is answering every question required?
+      t: Is answering every question mandatory?
     - key: faq.questions_required.description
       t: No, every question of the survey is optional and can freely be skipped. 
     - key: faq.data_published
       t: Will my data be made public?
     - key: faq.data_published.description
-      t: Yes, all data will be released publicly, but only after being purged of any identifying information (emails, usernames, IDs, etc.).
+      t: The data will be made public in a form of readable charts and graphs. We will not publish any identifiable information.
     - key: faq.survey_design
-      t: How are the surveys designed?
+      t: How was this survey designed?
     - key: faq.survey_design.description
-      t: Surveys are designed based on community feedback, as well as reviewed by experts. You can [learn more here](https://dev.to/sachagreif/how-the-state-of-js-css-surveys-are-run-4lnb). 
+      t: The survey was designed based on our expertise and the community feedback gathered on [this GitHub discussion](https://github.com/software-mansion/state-of-react-native/discussions/1). 
     - key: faq.results_released
-      t: When will the results be released?
+      t: When will the results be made available?
     - key: faq.results_released.description
-      t: Results are generally released a few weeks after the survey closes.
+      t: The results are going to be released a few weeks after the survey closes.
     - key: faq.survey_deadline
       t: When will the survey close?
     - key: faq.survey_deadline.description
       t: This survey is scheduled to run until {date}
     - key: faq.team
-      t: Who runs these surveys?
+      t: Who runs this survey?
     - key: faq.team.description
-      t: Surveys are run by [Devographics](http://devographics.com) together with a collective of contributors, translators, and volunteers. 
+      t: This survey is run by [Software Mansion](http://swmansion.com). We are a software development company based in Poland, with a strong focus on React Native app development and multimedia streaming.
+    - key: faq.swm_devographics
+      t: This survey looks very familiar!
+    - key: faq.swm_devographics.description
+      t: It's because it's using the same infrastructure as [State of JavaScript](https://stateofjs.com) and [State of CSS](https://stateofcss.com) surveys made by [Devographics](https://devographics.com).
 
     ###########################################################################
     # Form Controls
