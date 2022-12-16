@@ -50,6 +50,11 @@ translations:
     - key: sections.react_native_specific_features.description
       t: The features specific to React Native development.
 
+    - key: sections.deployment.title
+      t: Deployment
+    - key: sections.deployment.description
+      t: How do you build and submit your app for the App Store or Google Play?
+
     - key: sections.tools.title
       t: Tools
     - key: sections.tools.description
