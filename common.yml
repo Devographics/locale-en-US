@@ -30,6 +30,11 @@ translations:
     - key: sections.styling.description
       t: What styling techniques do you regularly use in your React Native apps?
 
+    - key: sections.component_libraries.title
+      t: UI Component libraries
+    - key: sections.component_libraries.description
+      t: What UI component libraries do you regularly use in your React Native apps?
+
     - key: sections.navigation.title
       t: Navigation
     - key: sections.navigation.description
@@ -43,12 +48,12 @@ translations:
     - key: sections.react_native_app_aspects.title
       t: Other app aspects
     - key: sections.react_native_app_aspects.description
-      t: Solutions to well-defined problems in React Native app development.
+      t: What solutions to other well-defined problems do you regularly use in your React Native apps?
 
     - key: sections.react_native_specific_features.title
-      t: Features
+      t: React Native Features
     - key: sections.react_native_specific_features.description
-      t: The features specific to React Native development.
+      t: What is your knowledge of the features specific to React Native development?
 
     - key: sections.deployment.title
       t: Deployment
@@ -79,9 +84,11 @@ translations:
       t: About you
     - key: sections.about_you.description
       t: Let's get to know you a little better.
+    - key: about_you.about_you_gender.note
+      t: While we know collecting and publishing diversity data can be a sensitive issue, we do think it's important to obtain this data to help measure and improve the survey's efforts in terms of inclusivity and representativeness.
 
     - key: sections.developer_background.title
-      t: Background
+      t: Developer background
     - key: sections.developer_background.description
       t: What's your background as a developer?
 
@@ -108,6 +115,7 @@ translations:
       t: 50%-50%
     - key: options.slider.8
       t: 100% TS
+
     
 #########################################################################
 #########################################################################
@@ -1029,9 +1037,7 @@ translations:
         Which of the following options describes you, if any? Please pick one.
     - key: user_info.gender.note
       t: >
-        While we know collecting and publishing diversity data can be a sensitive issue, 
-        we do think it's important to obtain this data to help measure and improve 
-        the survey's efforts in terms of inclusivity and representativeness. 
+        While we know collecting and publishing diversity data can be a sensitive issue, we do think it's important to obtain this data to help measure and improve the survey's efforts in terms of inclusivity and representativeness.
         
     # race & ethnicity
     - key: user_info.race_ethnicity
