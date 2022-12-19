@@ -70,6 +70,11 @@ translations:
     - key: sections.monorepo_tools.description
       t: What monorepo tools have you used?
 
+    - key: sections.react_native_alternatives.title
+      t: React Native alternatives
+    - key: sections.react_native_alternatives.description
+      t: What other cross-platform app development solutions are you familiar with?
+
     - key: sections.resources.title
       t: Resources
     - key: sections.resources.description
