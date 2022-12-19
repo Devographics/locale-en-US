@@ -31,9 +31,9 @@ translations:
       t: What styling techniques do you regularly use in your React Native apps?
 
     - key: sections.component_libraries.title
-      t: UI Component libraries
+      t: UI components libraries
     - key: sections.component_libraries.description
-      t: What UI component libraries do you regularly use in your React Native apps?
+      t: What UI components libraries do you regularly use in your React Native apps?
 
     - key: sections.navigation.title
       t: Navigation
@@ -51,7 +51,7 @@ translations:
       t: What solutions to other well-defined problems do you regularly use in your React Native apps?
 
     - key: sections.react_native_specific_features.title
-      t: React Native Features
+      t: React Native features
     - key: sections.react_native_specific_features.description
       t: What is your knowledge of the features specific to React Native development?
 
