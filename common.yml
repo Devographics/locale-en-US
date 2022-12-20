@@ -115,11 +115,11 @@ translations:
 
     # slider
     - key: options.slider.0
-      t: 100% JS
+      t: 100% JavaScript
     - key: options.slider.4
       t: 50%-50%
     - key: options.slider.8
-      t: 100% TS
+      t: 100% TypeScript
 
     
 #########################################################################
