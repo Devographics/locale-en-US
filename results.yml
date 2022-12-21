@@ -1290,3 +1290,40 @@ translations:
       Any deviation above or below that expected total could potentially indicate an interesting
       correlation between both variables, and is highlighted on the chart with either colored 
       dots (for extra respondents above the baseline) or empty dots (for missing respondents).
+
+
+  ###########################################################################
+  # Filters
+  ###########################################################################
+
+
+  - key: filters.compare_data
+    t: Compare Data
+  - key: filters.compare_chart
+    t: Compare “{chartName}”
+  - key: filters.description
+    t: |
+      Using a combination of demographics filters, you can define up to four **custom data series** to dynamically
+      load and compare them with the default data for this question. 
+
+  - key: filters.series.heading
+    t: Series {index}
+  - key: filters.series.add
+    t: Add Series…
+  - key: filters.series.delete
+    t: Delete Series
+
+  - key: filters.condition.add
+    t: Add Filter
+  - key: filters.condition.delete
+    t: Delete Filter
+  - key: filters.condition.and
+    t: and
+
+  - key: filters.legend.default
+    t: Default
+
+  - key: filters.cancel
+    t: Cancel
+  - key: filters.submit
+    t: Update Chart
