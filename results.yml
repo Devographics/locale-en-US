@@ -1312,6 +1312,9 @@ translations:
     t: Add Series…
   - key: filters.series.delete
     t: Delete Series
+  - key: filters.series.year
+    t: |
+      {year} data
 
   - key: filters.condition.add
     t: Add Filter
