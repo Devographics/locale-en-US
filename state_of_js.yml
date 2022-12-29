@@ -114,9 +114,9 @@ translations:
     - key: sections.resources_js.description
       t: What JavaScript resources do you consult?
       
-    - key: sections.usage.title
+    - key: sections.usage_js.title
       t: Usage
-    - key: sections.usage.description
+    - key: sections.usage_js.description
       t: How you use JavaScript
 
     ###########################################################################

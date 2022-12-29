@@ -184,7 +184,9 @@ translations:
   - key: options.disability_status_others.chronic_fatigue
     t: Chronic Fatigue
   - key: options.disability_status_others.crohn
-    t: Crohn's
+    t: Crohn's Disease
+  - key: options.disability_status_others.depression
+    t: Depression
     
   ###########################################################################
   # Sections
