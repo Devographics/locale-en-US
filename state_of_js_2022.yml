@@ -17,17 +17,19 @@ translations:
     - key: introduction.js2022
       t: |
 
-            <span class="first-letter">A</span> lot happened in 2021. So much in fact that the survey was pushed back all the way to 2022! 
+            <span class="first-letter">T</span>he JavaScript tide might be turning. 
 
+            After years of relative stability, many are now beginning to question the status quo. New front-end frameworks like Solid and Qwik are whispering that React might not have all the answers after all. And on the server, Astro, Remix and Next.js (among others) are making us reconsider how much JavaScript code we really need to ship to the client. 
 
-            Between a slew of faster build tools and a new crop of back-end frameworks, the JavaScript world kept evolving. And we did our best to keep up, giving this survey a couple new power-ups ([read more about what's new](https://dev.to/sachagreif/whats-new-in-the-2021-state-of-javascript-survey-4eej)) such as new question types, the ability to cross-reference two datapoints (such as yearly salaries by experience level), and even a way to customize the charts to surface your own insights! Read more about [what's new this year](https://dev.to/sachagreif/whats-new-in-the-2021-state-of-javascript-survey-4eej) (English).
+            This all suggests that today's best practices might soon have an expiration date attached. Which makes it all the more awesome that we got a massive **39,472** responses to this year's survey. We'll need all the data we can get if we want to figure out where JavaScript is going!
+            
+            Data isn't worth much without the tools to analyze it though, and that's why we've developed two new ways to interact with our dataset: the **Data Explorer** lets you cross-reference two variables and highlight any outlying results; while **Chart Filters** let you filter specific charts by salary, country, gender, and many other demographic variables. 
 
+            We've also replaced our catch-all "back-end" category with a more specific Rendering Frameworks page. And added a very exciting new "Video Creators" list to the Resources section. 
 
-            It wasn't all smooth sailing, though. We had to deal with a [data leak](https://dev.to/sachagreif/disclosing-a-state-of-javascriptstate-of-css-data-breach-2lg1) that thankfully didn't seem to have any bad consequences. And we're constantly making efforts to make the survey more inclusive, more accessible, and more fair. 
+            Oh and I almost forgot! Features and Libraries questions also now have a **Comments** icon that lets you see what people actually think of the items mentioned in the survey!
 
-
-            Still, even though the survey can ever only represents a tiny, tiny part of the JavaScript ecosystem, we hope you'll find the resulting data interesting!
-
+            With all this out of the way, let's discover what JavaScript has been up to in 2022!
 
             <span class="conclusion__byline">– Sacha Greif</span>
 
@@ -414,13 +416,18 @@ translations:
         like a spreadsheet, WYSIWYG, or video calling app, I'd use XState. 
         It's the only library I can rely on to build complex systems.
 
-    - key: picks.xxxx.name
-      t:
-    - key: picks.xxxx.bio
-      t: 
-    - key: picks.xxxx.description
+    # https://beta.reactjs.org/
+    - key: picks.kathryn_grayson_nanz.name
+      t: React Beta Docs
+    - key: picks.kathryn_grayson_nanz.bio
+      t: Developer Advocate at Progress
+    - key: picks.kathryn_grayson_nanz.description
       t: |   
-      
+        The new React docs are incredibly well-written, accessible for beginners, 
+        and beautifully designed. 
+        Documentation is one of the hardest things to do well, 
+        so this fantastic example is my pick of the year! 
+
     
     - key: picks.xxxx.name
       t:

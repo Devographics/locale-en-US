@@ -933,10 +933,16 @@ translations:
   - key: award.most_write_ins_award.description
     t: Awarded to the item with the most write-in answers
 
-  - key: award.most_commented_featured_award.title
-    t: Most Commented
-  - key: award.most_commented_featured_award.description
-    t: Awarded to the feature with the most comments.
+  - key: award.most_commented_feature_award.title
+    t: Most Commented Feature
+  - key: award.most_commented_feature_award.description
+    t: Awarded to the feature which received the most comments.
+
+
+  - key: award.most_commented_tool_award.title
+    t: Most Commented Library
+  - key: award.most_commented_tool_award.description
+    t: Awarded to the library which received the most comments.
 
   ###########################################################################
   # Hints

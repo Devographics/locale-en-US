@@ -571,7 +571,7 @@ translations:
     - key: options.css_js_balance.3
       t: "|"
     - key: options.css_js_balance.4
-      t: ">50% CSS"
+      t: "50/50"
     - key: options.css_js_balance.5
       t: "|"
     - key: options.css_js_balance.6

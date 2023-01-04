@@ -233,6 +233,38 @@ translations:
     - key: options.top_js_pain_points.date_management.description
       aliasFor: options.js_pain_points.date_management.description
 
+
+    - key: options.top_js_pain_points.build_tools
+      t: Build Tools
+    - key: options.top_js_pain_points.typing
+      t: Typing
+    - key: options.top_js_pain_points.typescript
+      t: TypeScript
+    - key: options.top_js_pain_points.esm_cjs
+      t: ESM vs CJS
+    - key: options.top_js_pain_points.testing
+      t: Testing
+    - key: options.top_js_pain_points.performance
+      t: Performance
+    - key: options.top_js_pain_points.too_many_choices
+      t: Too Many Choices
+    - key: options.top_js_pain_points.react
+      t: React
+    - key: options.top_js_pain_points.bundlers
+      t: Bundlers
+    - key: options.top_js_pain_points.complexity
+      t: Complexity
+    - key: options.top_js_pain_points.standard_library
+      t: Standard Library
+    - key: options.top_js_pain_points.tooling
+      t: Tooling
+    - key: options.top_js_pain_points.dependencies
+      t: Dependencies
+    - key: options.top_js_pain_points.security
+      t: Security
+    - key: options.top_js_pain_points.slow
+      t: Slowness
+
     # JS missing features
     - key: options.currently_missing_from_js.static_typing
       t: Static Typing
@@ -304,6 +336,27 @@ translations:
     - key: options.top_currently_missing_from_js.observable.description
       aliasFor: options.currently_missing_from_js.observable.description
 
+    - key: options.top_currently_missing_from_js.static_typing
+      t: Static Typing
+    - key: options.top_currently_missing_from_js.standard_library
+      t: Standard Library
+    - key: options.top_currently_missing_from_js.operator_overloading
+      t: Operator Overloading
+    - key: options.top_currently_missing_from_js.immutable
+      t: Immutable Data Structures
+    - key: options.top_currently_missing_from_js.deep_clone
+      t: Deep Clone
+    - key: options.top_currently_missing_from_js.enums
+      t: Enums
+    - key: options.top_currently_missing_from_js.decorators
+      t: Decorators
+    - key: options.top_currently_missing_from_js.multithreading
+      t: Multithreading
+    - key: options.top_currently_missing_from_js.pipe_operator
+      t: Pipe Operator
+    - key: options.top_currently_missing_from_js.native_observables
+      t: Native Observables
+
     # What do you use JS for?
     - key: options.what_do_you_use_js_for.frontend_development
       t: Frontend Development
@@ -325,6 +378,9 @@ translations:
       t: Data Visualization
     - key: options.what_do_you_use_js_for.graphics_animation
       t: Graphics & Animation
+
+    - key: options.what_do_you_use_js_for.scripting
+      t: Scripting
 
     # JS App Patterns
   
@@ -376,6 +432,26 @@ translations:
       t: Edge Rendering
     - key: options.js_app_patterns.edge_rendering.description
       t: Altering rendered HTML at the edge before sending it on to the client
+
+    # slider
+    - key: options.js_ts_balance.0
+      t: 100% JS
+    - key: options.js_ts_balance.1
+      t: "|"
+    - key: options.js_ts_balance.2
+      t: "|"
+    - key: options.js_ts_balance.3
+      t: "|"
+    - key: options.js_ts_balance.4
+      t: "50/50"
+    - key: options.js_ts_balance.5
+      t: "|"
+    - key: options.js_ts_balance.6
+      t: "|"
+    - key: options.js_ts_balance.7
+      t: "|"
+    - key: options.js_ts_balance.8
+      t: 100% TS
 
     ###########################################################################
     # Features
@@ -434,14 +510,6 @@ translations:
 
     # - key: features.immutable_data_structures
     #   t: Immutable Data Structures
-
-    # slider
-    - key: options.js_ts_balance.0
-      t: 100% JS
-    - key: options.js_ts_balance.4
-      t: 50%–50%
-    - key: options.js_ts_balance.8
-      t: 100% TS
 
     ###########################################################################
     # Tools
@@ -633,6 +701,8 @@ translations:
       t: Pick the top 3 aspects of JavaScript you struggle with the most.
     - key: opinions_others.top_js_pain_points.others
       aliasFor: opinions_others.js_pain_points.others
+    - key: opinions.top_js_pain_points.others
+      aliasFor: opinions_others.js_pain_points.others
 
     # Missing Features
     - key: opinions.currently_missing_from_js
@@ -647,6 +717,8 @@ translations:
     - key: opinions.top_currently_missing_from_js.description
       t: Pick the top 3 features you'd most like to be able to use in JavaScript today.
     - key: opinions_others.top_currently_missing_from_js.others
+      aliasFor: opinions_others.currently_missing_from_js.others
+    - key: opinions.top_currently_missing_from_js.others
       aliasFor: opinions_others.currently_missing_from_js.others
 
     # pain points/currently missing (results)

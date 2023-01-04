@@ -774,6 +774,19 @@ translations:
     - key: options.first_steps.mentoring
       t: Mentoring
 
+    - key: options.first_steps.documentation
+      t: Documentation
+    - key: options.first_steps.blogs
+      t: Blogs
+    - key: options.first_steps.view_source
+      t: View Source
+    - key: options.first_steps.documentation
+      t: Documentation
+    - key: options.first_steps.trial_and_error
+      t: Trial & Error
+    - key: options.first_steps.forums
+      t: Forums
+
     # degree
     - key: options.higher_education_degree.no_degree
       t: No
@@ -827,6 +840,28 @@ translations:
       t: As a student
     - key: options.usage_type.hobby
       t: As a hobby
+
+    # source
+    - key: options.source.angular_community
+      t: Angular Community
+    - key: options.source.work
+      t: Work
+    - key: options.source.word_of_mouth
+      t: Word of Mouth
+    # - key: options.source.
+    #   t: 
+    # - key: options.source.
+    #   t: 
+    # - key: options.source.
+    #   t: 
+    # - key: options.source.
+    #   t: 
+    # - key: options.source.
+    #   t: 
+    # - key: options.source.
+    #   t: 
+    # - key: options.source.
+    #   t: 
 
     ###########################################################################
     # Tools
