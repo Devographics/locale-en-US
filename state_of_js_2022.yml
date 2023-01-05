@@ -17,17 +17,19 @@ translations:
     - key: introduction.js2022
       t: |
 
-            <span class="first-letter">T</span>he JavaScript tide might be turning. 
-
-            After years of relative stability, many are now beginning to question the status quo. New front-end frameworks like Solid and Qwik are whispering that React might not have all the answers after all. And on the server, Astro, Remix and Next.js (among others) are making us reconsider how much JavaScript code we really need to ship to the client. 
-
-            This all suggests that today's best practices might soon have an expiration date attached. Which makes it all the more awesome that we got a massive **39,472** responses to this year's survey. We'll need all the data we can get if we want to figure out where JavaScript is going!
+            <span class="first-letter">A</span>fter years of relative stability, many are now beginning to question the status quo. 
             
-            Data isn't worth much without the tools to analyze it though, and that's why we've developed two new ways to interact with our dataset: the **Data Explorer** lets you cross-reference two variables and highlight any outlying results; while **Chart Filters** let you filter specific charts by salary, country, gender, and many other demographic variables. 
+            New front-end frameworks like Solid and Qwik are suggesting that React might not have all the answers after all, and on the server Astro, Remix and Next.js (among others) are making us reconsider how much code we really need to ship to the client. 
 
-            We've also replaced our catch-all "back-end" category with a more specific Rendering Frameworks page. And added a very exciting new "Video Creators" list to the Resources section. 
+            We'll need all the data we can get if we want to make sense of all this, and in fact this year's survey received a massive **39,472** responses, almost double last year's amount! 
 
-            Oh and I almost forgot! Features and Libraries questions also now have a **Comments** icon that lets you see what people actually think of the items mentioned in the survey!
+            Because of this newly expanded audience you might notice some unexpected results, such as some features going down year-over-year in terms of awareness or usage. 
+            
+            But having more data can potentially mean new insights, and that's why we've developed two new ways to interact with our dataset: the **Data Explorer** lets you cross-reference two variables and highlight any outlying results; while **Chart Filters** let you filter specific charts by salary, country, gender, and many other demographic variables. 
+
+            We've also replaced our catch-all "back-end" category with a more specific **Rendering Frameworks** page and added a new **Video Creators** list to the Resources section. 
+
+            Finally, Features and Libraries questions also now have a **Comments** popup that lets you see what people actually think of the items mentioned in the survey!
 
             With all this out of the way, let's discover what JavaScript has been up to in 2022!
 
@@ -184,20 +186,22 @@ translations:
     - key: conclusion.js2022
       t: |
 
-            <span class="first-line">JavaScript is in a tremendously better state today compared to 2016.</span>
+            <span class="first-line">JavaScript is more vibrant than ever.</span> 
             
-            Back when the first State of JS survey took place, only 21% of you used TypeScript compared to 69% today. Whereas we used to joke about a new front end framework releasing every day, **React** and **Vue** have now been dominant for 6 years running. And the percentage of people reporting that "JS is moving too fast" is down from 59% to 38%.
+            Svelte is [leaning into the compiler](https://www.youtube.com/watch?v=AdNJ3fydeao) while Solid is exploring [new approaches to reactivity](https://www.youtube.com/watch?v=2iK9zzhSKo4) and Qwik is [shifting our mental model of resumability](https://www.youtube.com/watch?v=Zddw6qy5pf0). 
 
-            This is not to say that the language has stood still. The **Optional Chaining** and **Nullish Coalescing** APIs have rocketed up to be the most used new APIs in our survey, despite only being 2 years old. And more good things are on the way from TC39: you reported that date management is a top missing feature, and the Temporal API recently reached [Stage 3](https://github.com/tc39/proposal-temporal).
+            Libraries like [Partytown](https://partytown.builder.io/) and [Stately](https://stately.ai/) or projects like [gaze-detection](https://github.com/charliegerard/gaze-detection) have captured new concepts; while multi-platform solutions like Tauri, Ionic and Flutter open the door to seeing applications realized across even more platforms.
 
-            The tooling ecosystem is also seeing its own rapid evolution, and it's fair to say that 2021 has been the year of **Vite**. Vite not only debuted at 98% retention, but usage is already at 30% in its first year on our survey, even eclipsing esbuild. Vite isn't alone in trying to improve the state of JavaScript build tools - 8 of the 12 tools we track today are less than two years old! And while **pnpm**, **Turborepo**, and **Nx** took the top spots in our first year tracking monorepo tooling, only 25% report being happy with the state of that category, showing that a lot of work remains to be done. 
-            
-            Also notable: many new entrants like **Deno**, **Rome**, **Astro**, **Remix**, and more are now supported by venture-backed companies, perhaps charting a viable alternative to the fragile open-source funding environment.
+            Meanwhile, Vite is dominating the Awards section for the second year in a row. Evan You has truly done an amazing job building something so compelling and useful for all of us. 
 
-            As the [Third Age of JavaScript](https://www.swyx.io/js-third-age/) enters its third year, the opportunities for aspiring open sourcerors and entrepreneurs continue to unfold, and I'm excited to see what the next couple years bring!
+            And around the world, there are amazing projects like Segun Adebayo's [Chakra UI](https://chakra-ui.com/) or Liyas Thomas's [Hoppscotch](https://hoppscotch.io/); and folks like [SheCodeAfrica](https://shecodeafrica.org/) founder Ada Nduka Oyom who are supporting other people’s growth and learning.
+
+            Yet even when things may seem to slow down it can often be a positive sign. When frameworks hit massive adoption, we often see a drop in satisfaction from the users, but this decline is actually a function of the tool being battle-tested and used in production. It’s a sign of maturity and clear-eyed appreciation for what the framework can offer, and many of our tools have now reached this stage of their lifespan.
+
+            JavaScript today has the flexibility to speed up productivity with frameworks, stay close to the web platform, work in both backend and frontend, and extend across browser and native solutions, and I can't wait to see where it goes from here!
 
     - key: conclusion.js2022.bio
-      t: Head of DX at Temporal
+      t: Director of Engineering and Web Infrastructure, Google
       
     ###########################################################################
     # Picks
@@ -429,6 +433,29 @@ translations:
         so this fantastic example is my pick of the year! 
 
     
+    - key: picks.ryan_carniato.name
+      t: Astro
+    - key: picks.ryan_carniato.bio
+      t: Creator of Solid
+    - key: picks.ryan_carniato.description
+      t: |   
+        While Astro has been popularizing the "Islands" architecture for the past couple of years, 2022 saw it reach 1.0 and bring on-demand server rendering. It's never been easier to create great sites while shipping less JavaScript.
+
+    - key: picks.theo_browne.name
+      t: tRPC
+    - key: picks.theo_browne.bio
+      t: Youtube Ranter & CEO @Ping.gg
+    - key: picks.theo_browne.description
+      t: | 
+        2022 was a big year for fullstack type-safety, and tRPC deserves most of the credit. tRPC is one of those rare libraries that makes everything you used before feel… awful, honestly. Never felt more productive as a full stack engineer.
+
+    - key: picks.xxxx.name
+      t:
+    - key: picks.xxxx.bio
+      t: 
+    - key: picks.xxxx.description
+      t: |   
+
     - key: picks.xxxx.name
       t:
     - key: picks.xxxx.bio
@@ -452,22 +479,22 @@ translations:
 ###########################################################################
     
     - key: about.content
-      t: >
-            The 2021 State of JS survey ran from January 13 to February 2 **2022**, and collected 16,085 responses. The survey is run by me, [Sacha Greif](https://sachagreif.com/), with help from a team of open-source contributors and consultants. 
+      t: |
+            The 2022 State of JS survey ran from November 21 to December 22 2022, and collected 39,472 responses. The survey is run by [Sacha Greif](https://sachagreif.com/) and [Eric Burel](https://www.lbke.fr/), with help from a team of open-source contributors and consultants. 
 
             This year's logo and t-shirt were designed by [Christopher Kirk-Nielsen](http://chriskirknielsen.com/).
 
             ### Survey Goals
 
-            This survey, along with the [State of CSS](https://stateofcss.com/) survey, was created to identify upcoming trends in the web development ecosystem in order to help developers make technological choices. 
+            This survey was created to identify upcoming trends in the web development ecosystem in order to help developers make technological choices. 
 
-            As such, these surveys are focused on anticipating what's coming over the next few years rather than analyzing what's popular now, which is why the features or technologies that are currently most widespread are not always included. 
+            As such, the survey is focused on anticipating what's coming over the next few years rather than analyzing what's popular now, which is why the features or technologies that are currently most widespread are not always included. 
 
-            They should also be taken as a **snapshot of a specific subset of developers**, and are not meant to speak for the entire ecosystem. 
+            It should also be taken as a **snapshot of a specific subset of developers**, and is not meant to speak for the entire ecosystem. 
 
             ### Survey Design
 
-            The survey was designed in part based on last year's survey, with an open feedback period where the survey outline was discussed [on GitHub](https://github.com/StateOfJS/Monorepo/issues/56). 
+            The survey was designed in part based on last year's survey, with an open feedback period where the survey outline was discussed [on GitHub](https://github.com/Devographics/surveys/issues?q=is%3Aissue+is%3Aopen+label%3A%22State+of+JS+2022%22). 
             
             All survey questions were optional. 
 
@@ -481,9 +508,7 @@ translations:
 
             While we believe it's important to give a voice to every community, the reality is that an open survey like this one will always struggle to properly represent everybody, especially when operating through systems that already carry their own inherent biases. 
 
-
             In order to counter-balance this, we are implementing three distinct strategies:
-
 
             - **Outreach**: we always try to reach out to different organizations (such as BIPOC- or LGBTQ-focused organizations, or online teaching platforms) to try and diversify our own audience. 
             
@@ -495,21 +520,19 @@ translations:
 
             Funding from this project comes from a variety of sources:
 
-
             - **T-shirt sales**. 
 
             - **Chart Sponsorships**: members of the community can donate to the survey in exchange for having their name featured in the report.  
 
-            - **Sponsored links**: the links to recommended resources at the bottom of each page are provided by our partner [Frontend Masters](https://frontendmasters.com/).
+            - **Sponsored links**: the links to recommended resources at the bottom of each page are provided by our partners [Frontend Masters](https://frontendmasters.com/) and [RenderATL](https://www.renderatl.com/).
             
-            - **Other Funding**: this year, the [Google Chrome](https://www.google.com/chrome/) team set aside a small budget to help hire an [accessibility consultant](https://fossheim.io/) to work on the CSS and JS surveys.
+            - **Other Funding**: this year, [Google](https://www.google.com/) and [Nijibox](https://nijibox.jp/) funded my work on the survey directly.
 
-
-            Despite these funding sources, the surveys remains mostly a self-funded project overall and any contribution or sponsorship would be greatly appreciated. I would especially like to work closely with more browser vendors, since they play such a central role in the web ecosystem.  
+            Any contribution or sponsorship is greatly appreciated. I would especially like to work closely with more browser vendors, since they play such a central role in the web ecosystem.  
 
             ### Technical Overview
 
-            You can find a more in-depth technical overview of how the surveys are run [here](https://dev.to/sachagreif/how-the-state-of-js-css-surveys-are-run-4lnb).
+            You can find a more in-depth technical overview of how the surveys are run [here](https://dev.to/sachagreif/how-devographics-surveys-are-run-2022-edition-3oo4).
 
             - **Data collection**: custom [Vulcan.js](http://vulcanjs.org/) app.
 

@@ -680,6 +680,8 @@ translations:
       t: How happy are you with the state of build tools?
     - key: happiness.monorepo_tools
       t: How happy are you with the state of monorepo tools?
+    - key: happiness.rendering_frameworks
+      t: How happy are you with the state of rendering frameworks?
 
     - key: happiness.state_of_the_web
       t: How happy are you with the general state of web technologies?
