@@ -178,7 +178,12 @@ translations:
     - key: award.most_write_ins_award.comment
       t: Many questions also accepted write-in answers, and with **{value}** mentions Elm was the most popular item overall.
 
-      
+    - key: award.most_commented_feature_award.comment
+      t: With **{value}** comments, no other feature even came close to generating as much feedback as Private Fields.
+
+    - key: award.most_commented_tool_award.comment
+      t: With **{value}** comments, React showed that it's still the most-discussed library around. 
+
     ###########################################################################
     # Conclusion
     ###########################################################################

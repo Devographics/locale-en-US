@@ -1271,12 +1271,12 @@ translations:
   - key: explorer.percentage_details.1_extra
     t: |
       Overall, **{xAxisPercentage}%** of “{xAxisLabel}” respondents selected “{xAnswerLabel}”, but
-      within “{yAxisLabel}” respondents who selected “{yAnswerLabel}” that percentage climbs to  **{bucketPercentage}%**.
+      within **“{yAxisLabel}” respondents who selected “{yAnswerLabel}”** that percentage climbs to  **{bucketPercentage}%**.
   
   - key: explorer.percentage_details.1_missing
     t: |
       Overall, **{xAxisPercentage}%** of “{xAxisLabel}” respondents selected “{xAnswerLabel}”, but
-      within “{yAxisLabel}” respondents who selected “{yAnswerLabel}” that percentage climbs to  **{bucketPercentage}%**.
+      within **“{yAxisLabel}” respondents who selected “{yAnswerLabel}”** that percentage drops to  **{bucketPercentage}%**.
 
   - key: explorer.percentage_details.2_extra
     t: |
