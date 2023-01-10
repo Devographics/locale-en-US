@@ -502,7 +502,8 @@ translations:
     - key: sponsors.google_chrome.description
       t: Thanks to the Google Chrome team for supporting our work.
     - key: sponsors.renderatl.description
-      t: The largest tech conference with a dedicated web & mobile software engineering track.
+      t: |
+        The tech conference focused on Front-End Engineering.
 
 ###########################################################################
 # FAQ/About
