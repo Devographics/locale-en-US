@@ -404,6 +404,26 @@ translations:
     t: Homepage
   - key: blocks.entity.github_link
     t: GitHub
+  - key: blocks.entity.twitter_link
+    t: Twitter
+  - key: blocks.entity.mastodon_link
+    t: Mastodon
+  - key: blocks.entity.blog_link
+    t: Blog
+  - key: blocks.entity.rss_link
+    t: RSS
+  - key: blocks.entity.twitch_link
+    t: Twitch
+  - key: blocks.entity.npm_link
+    t: npm
+
+  # people
+  - key: blocks.people.name
+    t: Name
+  - key: blocks.people.social_links
+    t: Links
+  - key: blocks.people.responses
+    t: Responses
 
   # cardinality
   - key: blocks.all_sections_tools_cardinality_by_user
@@ -753,6 +773,9 @@ translations:
 
   - key: charts.no_answer
     t: No Answer
+
+  - key: charts.tick.links
+    t: Links
 
   ###########################################################################
   # Comments
