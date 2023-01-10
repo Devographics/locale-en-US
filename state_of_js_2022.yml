@@ -502,8 +502,7 @@ translations:
     - key: sponsors.google_chrome.description
       t: Thanks to the Google Chrome team for supporting our work.
     - key: sponsors.renderatl.description
-      t: |
-        The tech conference focused on Front-End Engineering.
+      t: This is a tech conference focused on Front-End Engineering.
 
 ###########################################################################
 # FAQ/About
