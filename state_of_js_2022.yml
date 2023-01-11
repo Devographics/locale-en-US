@@ -464,7 +464,7 @@ translations:
     - key: picks.ben_holmes.name
       t: Zod
     - key: picks.ben_holmes.bio
-      t: 
+      t: Open source maintainer at Astro
     - key: picks.ben_holmes.description
       t: | 
         Runtime safety came to define 2022 with tRPC's rise to stardom. 
