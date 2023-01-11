@@ -164,10 +164,11 @@ translations:
     ###########################################################################
 
     - key: award.feature_adoption_delta_award.comment
-      t: With a **{value}** progression in 2021, the nullish coalescing operator (??) has quickly become an integral part of JavaScript. 
+      t: With a **{value}** progression in 2022, **top-level await** has quickly become an integral part of JavaScript. 
 
     - key: award.tool_usage_delta_award.comment
-      t: esbuild is barely two years old, but with a **{value}** progression over the last year it's already gaining ground.
+      t: |
+        **Vite** is barely two years old, but with a **{value}** progression over the last year it's already gaining ground.
 
     - key: award.tool_satisfaction_award.comment
       t: Vite takes the top spot with a sky-high **{value}** retention ratio!
@@ -176,7 +177,7 @@ translations:
       t: With a **{value}** interest ratio, Vite once again wins the gold!
 
     - key: award.most_write_ins_award.comment
-      t: Many questions also accepted write-in answers, and with **{value}** mentions Elm was the most popular item overall.
+      t: Many questions also accepted write-in answers, and with **{value}** mentions **Astro** was the most popular item overall.
 
     - key: award.most_commented_feature_award.comment
       t: With **{value}** comments, no other feature even came close to generating as much feedback as Private Fields.
