@@ -479,12 +479,13 @@ translations:
         My JavaScript pick of the year is TanStack, or anything else that 
         Tanner and Dominik make.
     
-    - key: picks.xxxx.name
-      t:
-    - key: picks.xxxx.bio
-      t: 
-    - key: picks.xxxx.description
+    - key: picks.shaundai_person.name
+      t: Sarah Drasner
+    - key: picks.shaundai_person.bio
+      t: Senior Software Engineer, Netflix
+    - key: picks.shaundai_person.description
       t: | 
+        Sarah continues to give back to the community through blog posts, public speaking, and most recently - her book "Engineering Management for the Rest of Us". 
 
     - key: picks.xxxx.name
       t:
