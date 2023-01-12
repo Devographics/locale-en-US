@@ -416,6 +416,8 @@ translations:
     t: Twitch
   - key: blocks.entity.npm_link
     t: npm
+  - key: blocks.entity.youtube_link
+    t: YouTube
 
   # people
   - key: blocks.people.name
