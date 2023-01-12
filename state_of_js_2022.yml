@@ -203,8 +203,6 @@ translations:
 
             Finally, I couldn’t be happier to see Vite’s absolute resounding presence in the award section for the second year in a row. Build and serve tech is truly making massive strides and we all benefit from this hard work. Bravo!
 
-            *Full Disclosure: Sarah works at Google, which develops Angular and Flutter among other JavaScript-related projects, and is also a sponsor of this survey.*
-            
     - key: conclusion.js2022.bio
       t: Director of Engineering and Web Infrastructure, Google
       
