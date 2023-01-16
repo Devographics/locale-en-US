@@ -1348,6 +1348,9 @@ translations:
   - key: filters.series.year
     t: |
       {year} data
+  - key: filters.series.show_default
+    t: |
+      Show default series
 
   - key: filters.condition.add
     t: Add Filter
