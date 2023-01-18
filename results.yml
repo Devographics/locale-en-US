@@ -674,6 +674,8 @@ translations:
     t: "% of question respondents"
   - key: chart_units.percentage_survey
     t: "% of survey respondents"
+  - key: chart_units.percentage_bucket
+    t: "% of bucket"
 
   - key: charts.average
     t: Average
@@ -732,6 +734,8 @@ translations:
     t: "% of survey respondents"
   - key: charts.axis_legends.users_percentage_question
     t: "% of question respondents"
+  - key: charts.axis_legends.users_percentage
+    t: "% of bucket respondents"
 
   - key: charts.ranges_multiple_diverging_lines.baseline
     t: baseline
@@ -1334,10 +1338,19 @@ translations:
     t: Compare Data
   - key: filters.compare_chart
     t: Compare “{chartName}”
-  - key: filters.description
+  - key: filters.filters.description
     t: |
       Using a combination of demographics filters, you can define up to four **custom data series** to dynamically
       load and compare them with the default data for this question. 
+  - key: filters.facets.description
+    t: |
+      Pick a variable to break down each bar into "facets".
+  - key: filters.filters_mode
+    t: Filters
+  - key: filters.facets_mode
+    t: Facets
+  - key: filters.facet
+    t: "Facet:"
 
   - key: filters.series.heading
     t: Series {index}
@@ -1351,6 +1364,8 @@ translations:
   - key: filters.series.show_default
     t: |
       Show default series
+  - key: filters.series.no_data
+    t: No data
 
   - key: filters.condition.add
     t: Add Filter
@@ -1366,3 +1381,15 @@ translations:
     t: Cancel
   - key: filters.submit
     t: Update Chart
+
+  - key: filters.presets.title
+    t: "Presets:"
+  - key: filters.presets.previous_years
+    t: Previous Years
+  - key: filters.presets.gender
+    t: Gender
+  - key: filters.presets.top_countries
+    t: Top Countries
+
+  - key: filters.facet.select
+    t: Select a facet…
