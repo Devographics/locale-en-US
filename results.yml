@@ -676,6 +676,8 @@ translations:
     t: "% of survey respondents"
   - key: chart_units.percentage_bucket
     t: "% of bucket"
+  - key: chart_units.average
+    t: Average
 
   - key: charts.average
     t: Average
@@ -704,6 +706,8 @@ translations:
     t: Percentage of Users
   - key: charts.axis_legends.users_count
     t: User Count
+  - key: charts.axis_legends.users_average
+    t: Average
   - key: charts.axis_legends.interest_percentage
     t: Interest %
   - key: charts.axis_legends.satisfaction_percentage
