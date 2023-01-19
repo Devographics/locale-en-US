@@ -8,66 +8,421 @@
 locale: en-US
 namespace: js
 translations:
+  - key: platform_apis.platform_apis_intro
+    t: Welcome to the survey! TODO
 
-    - key: platform_apis.platform_apis_intro
-      t: Welcome to the survey! TODO
+  # - key: sections.react_native_app_aspects.title
+  #   t: App aspects
+  # - key: sections.react_native_app_aspects.description
+  #   t: Solutions to well-defined problems in React Native app development.
 
-    # - key: sections.react_native_app_aspects.title
-    #   t: App aspects
-    # - key: sections.react_native_app_aspects.description
-    #   t: Solutions to well-defined problems in React Native app development.
+  # - key: sections.react_native_specific_features.title
+  #   t: Features
+  # - key: sections.react_native_specific_features.description
+  #   t: The features specific to React Native development.
 
-    # - key: sections.react_native_specific_features.title
-    #   t: Features
-    # - key: sections.react_native_specific_features.description
-    #   t: The features specific to React Native development.
+  # - key: sections.tools.title
+  #   t: Tools
+  # - key: sections.tools.description
+  #   t: The tools you use to develop React Native apps.
 
-    # - key: sections.tools.title
-    #   t: Tools
-    # - key: sections.tools.description
-    #   t: The tools you use to develop React Native apps. 
+  # - key: sections.resources.title
+  #   t: Resources
+  # - key: sections.resources.description
+  #   t: What resources do you use to learn about React Native?
 
-    # - key: sections.resources.title
-    #   t: Resources
-    # - key: sections.resources.description
-    #   t: What resources do you use to learn about React Native?
+  # - key: sections.opinions.title
+  #   t: Opinions
+  # - key: sections.opinions.description
+  #   t: How do you feel about the state of React Native?
 
-    # - key: sections.opinions.title
-    #   t: Opinions
-    # - key: sections.opinions.description
-    #   t: How do you feel about the state of React Native?
+  # - key: sections.about_you.title
+  #   t: About you
+  # - key: sections.about_you.description
+  #   t: Let's get to know you a little better.
 
-    # - key: sections.about_you.title
-    #   t: About you
-    # - key: sections.about_you.description
-    #   t: Let's get to know you a little better.
+  # - key: sections.developer_background.title
+  #   t: Background
+  # - key: sections.developer_background.description
+  #   t: What's your background as a developer?
 
-    # - key: sections.developer_background.title
-    #   t: Background
-    # - key: sections.developer_background.description
-    #   t: What's your background as a developer?
+  # - key: options.yes_or_no.yes
+  #   t: Yes
+  # - key: options.yes_or_no.no
+  #   t: No
 
-    # - key: options.yes_or_no.yes
-    #   t: Yes
-    # - key: options.yes_or_no.no
-    #   t: No
+  # - key: options.platform_api_awareness.option1
+  #   t: I have never heard / I am not sure what it is
+  # - key: options.platform_api_awareness.option2
+  #   t: I know what it is, but have never used it in React Native app
+  # - key: options.platform_api_awareness.option3
+  #   t: I wanted to use it, but React Native doesn't support it
+  # - key: options.platform_api_awareness.option4
+  #   t: I have used in React Native using an off-the-shelf API/library
+  # - key: options.platform_api_awareness.option5
+  #   t: I used in React Native by writing my own module
 
-    # - key: options.platform_api_awareness.option1
-    #   t: I have never heard / I am not sure what it is 
-    # - key: options.platform_api_awareness.option2
-    #   t: I know what it is, but have never used it in React Native app
-    # - key: options.platform_api_awareness.option3
-    #   t: I wanted to use it, but React Native doesn't support it
-    # - key: options.platform_api_awareness.option4
-    #   t: I have used in React Native using an off-the-shelf API/library
-    # - key: options.platform_api_awareness.option5
-    #   t: I used in React Native by writing my own module
+  # # slider
+  # - key: options.slider.0
+  #   t: 100% JS
+  # - key: options.slider.4
+  #   t: 50%-50%
+  # - key: options.slider.8
+  #   t: 100% TS
 
-    # # slider
-    # - key: options.slider.0
-    #   t: 100% JS
-    # - key: options.slider.4
-    #   t: 50%-50%
-    # - key: options.slider.8
-    #   t: 100% TS
-    
+  - key: introduction.rn2022
+    t: |
+      <span class="first-letter">W</span>e thought CSS had already evolved into a pretty formidable language thanks to advancements like Flexbox, Grid, and CSS Variables. But it turns out this wasn't even its final form. 
+
+      Parent selector, native nesting, container queries, cascade layers… The list of absolutely game-changing features coming imminently is pretty shocking when you think about it. 
+
+      Thankfully, we have the best guide you could ask for to help us navigate these waters: [Lea Verou](http://lea.verou.me/) has taken the lead on this year's survey design, and the result is a survey that will hopefully encompass all the key innovations you should be aware of. 
+
+      <span class="conclusion__byline">– Sacha Greif</span>
+
+      P.S. Also new this year: we gave respondents the ability to **leave comments** on any feature or library mentioned in the survey! Make sure to look up these comments in each chart's sidebar.
+
+  - key: conclusion.js2021
+    t: |
+
+      <span class="first-line">JavaScript is in a tremendously better state today compared to 2016.</span>
+
+      Back when the first State of JS survey took place, only 21% of you used TypeScript compared to 69% today. Whereas we used to joke about a new front end framework releasing every day, **React** and **Vue** have now been dominant for 6 years running. And the percentage of people reporting that "JS is moving too fast" is down from 59% to 38%.
+
+      This is not to say that the language has stood still. The **Optional Chaining** and **Nullish Coalescing** APIs have rocketed up to be the most used new APIs in our survey, despite only being 2 years old. And more good things are on the way from TC39: you reported that date management is a top missing feature, and the Temporal API recently reached [Stage 3](https://github.com/tc39/proposal-temporal).
+
+      The tooling ecosystem is also seeing its own rapid evolution, and it's fair to say that 2021 has been the year of **Vite**. Vite not only debuted at 98% retention, but usage is already at 30% in its first year on our survey, even eclipsing esbuild. Vite isn't alone in trying to improve the state of JavaScript build tools - 8 of the 12 tools we track today are less than two years old! And while **pnpm**, **Turborepo**, and **Nx** took the top spots in our first year tracking monorepo tooling, only 25% report being happy with the state of that category, showing that a lot of work remains to be done. 
+
+      Also notable: many new entrants like **Deno**, **Rome**, **Astro**, **Remix**, and more are now supported by venture-backed companies, perhaps charting a viable alternative to the fragile open-source funding environment.
+
+      As the [Third Age of JavaScript](https://www.swyx.io/js-third-age/) enters its third year, the opportunities for aspiring open sourcerors and entrepreneurs continue to unfold, and I'm excited to see what the next couple years bring!
+
+  - key: about.content
+    t: >
+      The 2021 State of JS survey ran from January 13 to February 2 **2022**, and collected 16,085 responses. The survey is run by me, [Sacha Greif](https://sachagreif.com/), with help from a team of open-source contributors and consultants. 
+
+      This year's logo and t-shirt were designed by [Christopher Kirk-Nielsen](http://chriskirknielsen.com/).
+
+      ### Survey Goals
+
+      This survey, along with the [State of CSS](https://stateofcss.com/) survey, was created to identify upcoming trends in the web development ecosystem in order to help developers make technological choices. 
+
+      As such, these surveys are focused on anticipating what's coming over the next few years rather than analyzing what's popular now, which is why the features or technologies that are currently most widespread are not always included. 
+
+      They should also be taken as a **snapshot of a specific subset of developers**, and are not meant to speak for the entire ecosystem. 
+
+      ### Survey Design
+
+      The survey was designed in part based on last year's survey, with an open feedback period where the survey outline was discussed [on GitHub](https://github.com/StateOfJS/Monorepo/issues/56). 
+
+      All survey questions were optional. 
+
+      ### Survey Audience
+
+      The survey was openly accessible online and respondents were not filtered or selected in any way. Respondents were primarily a mix of respondents from past surveys (alerted through a dedicated mailing list) and social media traffic. 
+
+      Note that frameworks, libraries, etc. were free to encourage their audience to participate in the survey and some of them did take advantage of this via banners, tweets, etc. A detailed breakdown of traffic sources is included in the "Sources" chart. 
+
+      ### Representativeness & Inclusivity
+
+      While we believe it's important to give a voice to every community, the reality is that an open survey like this one will always struggle to properly represent everybody, especially when operating through systems that already carry their own inherent biases. 
+
+
+      In order to counter-balance this, we are implementing three distinct strategies:
+
+
+      - **Outreach**: we always try to reach out to different organizations (such as BIPOC- or LGBTQ-focused organizations, or online teaching platforms) to try and diversify our own audience. 
+
+      - **Data Analysis**: through features like facets and variants, we're always trying to make it easier to surface the voices of any demographic segment, no matter how minoritized it might be in our data. 
+
+      - **Barrier Lowering**: making the survey too long, inaccessible, slow to load, English-only, etc. can all contribute to imposing an "effort tax" that cuts off the parts of the community that can't afford to pay it. Fixing these issues can lower the barrier to entry and in the process make our audience more diverse. 
+
+      ### Project Funding
+
+      Funding from this project comes from a variety of sources:
+
+
+      - **T-shirt sales**. 
+
+      - **Chart Sponsorships**: members of the community can donate to the survey in exchange for having their name featured in the report.  
+
+      - **Sponsored links**: the links to recommended resources at the bottom of each page are provided by our partner [Frontend Masters](https://frontendmasters.com/).
+
+      - **Other Funding**: this year, the [Google Chrome](https://www.google.com/chrome/) team set aside a small budget to help hire an [accessibility consultant](https://fossheim.io/) to work on the CSS and JS surveys.
+
+
+      Despite these funding sources, the surveys remains mostly a self-funded project overall and any contribution or sponsorship would be greatly appreciated. I would especially like to work closely with more browser vendors, since they play such a central role in the web ecosystem.  
+
+      ### Technical Overview
+
+      You can find a more in-depth technical overview of how the surveys are run [here](https://dev.to/sachagreif/how-the-state-of-js-css-surveys-are-run-4lnb).
+
+      - **Data collection**: custom [Vulcan.js](http://vulcanjs.org/) app.
+
+      - **Data storage/processing**: MongoDB & MongoDB Aggregations.
+
+      - **Data API**: Node.js GraphQL API. 
+
+      - **Results Site**: [Gatsby](https://www.gatsbyjs.com/) React app.
+
+      - **Data Visualizations**: [Nivo](https://nivo.rocks/) React dataviz library. 
+
+      - **Type**: [IBM Plex Mono](https://fonts.google.com/specimen/IBM+Plex+Mono) and [Bebas Neue](https://fonts.google.com/specimen/Bebas+Neue).
+
+  - key: options.about_you_age.about_you_age_18_or_youger
+    t: 18 years old or under
+  - key: options.about_you_age.about_you_age_19_24
+    t: 19-24 years old
+  - key: options.about_you_age.about_you_age_25_34
+    t: 25-34 years old
+  - key: options.about_you_age.about_you_age_35_44
+    t: 35-44 years old
+  - key: options.about_you_age.about_you_age_45_54
+    t: 45-54 years old
+  - key: options.about_you_age.about_you_age_55_64
+    t: 55-64 years old
+  - key: options.about_you_age.about_you_age_65_or_older
+    t: 65 or more years old
+
+  - key: options.about_you_age.about_you_age_18_or_youger.short
+    t: <= 10
+  - key: options.about_you_age.about_you_age_19_24.short
+    t: 11-18
+  - key: options.about_you_age.about_you_age_25_34.short
+    t: 19-24
+  - key: options.about_you_age.about_you_age_35_44.short
+    t: 25-34
+  - key: options.about_you_age.about_you_age_45_54.short
+    t: 35-44
+  - key: options.about_you_age.about_you_age_55_64.short
+    t: 55-64
+  - key: options.about_you_age.about_you_age_65_or_older.short
+    t: ">65"
+
+  - key: options.about_you_company_size.about_you_company_size_1_employee
+    t: 1 employee
+  - key: options.about_you_company_size.about_you_company_size_2_to_5
+    t: 2-5 employees
+  - key: options.about_you_company_size.about_you_company_size_6_to_10
+    t: 6-10 employees
+  - key: options.about_you_company_size.about_you_company_size_11_to_20
+    t: 11-20 employees
+  - key: options.about_you_company_size.about_you_company_size_21_to_50
+    t: 21-50 employees
+  - key: options.about_you_company_size.about_you_company_size_51_to_100
+    t: 51-100 employees
+  - key: options.about_you_company_size.about_you_company_size_101_to_500
+    t: 101-500 employees
+  - key: options.about_you_company_size.about_you_company_size_501_to_1000
+    t: 501-1000 employees
+  - key: options.about_you_company_size.about_you_company_size_1000_or_more
+    t: 1000 or more employees
+
+  - key: options.about_you_company_size.about_you_company_size_1_employee.short
+    t: 1
+  - key: options.about_you_company_size.about_you_company_size_2_to_5.short
+    t: 2-5
+  - key: options.about_you_company_size.about_you_company_size_6_to_10.short
+    t: 6-10
+  - key: options.about_you_company_size.about_you_company_size_11_to_20.short
+    t: 11-20
+  - key: options.about_you_company_size.about_you_company_size_21_to_50.short
+    t: 21-50
+  - key: options.about_you_company_size.about_you_company_size_51_to_100.short
+    t: 51-100
+  - key: options.about_you_company_size.about_you_company_size_101_to_500.short
+    t: 101-500
+  - key: options.about_you_company_size.about_you_company_size_501_to_1000.short
+    t: 501-1000
+  - key: options.about_you_company_size.about_you_company_size_1000_or_more.short
+    t: 1000+
+
+  - key: options.about_you_education_degree.about_you_education_degree_no
+    t: no degree
+  - key: options.about_you_education_degree.about_you_education_degree_yes_related
+    t: yes, related
+  - key: options.about_you_education_degree.about_you_education_degree_yes_unrelated
+    t: yes, unrelated
+
+  - key: options.about_you_education_degree.about_you_education_degree_no.short
+    t: no
+  - key: options.about_you_education_degree.about_you_education_degree_yes_related.short
+    t: related
+  - key: options.about_you_education_degree.about_you_education_degree_yes_unrelated.short
+    t: unrelated
+
+  - key: options.about_you_experience_in_rn.about_you_experience_in_rn_1_year_or_less
+    t: 1 year or less
+  - key: options.about_you_experience_in_rn.about_you_experience_in_rn_2_to_3_years
+    t: 2-3 years
+  - key: options.about_you_experience_in_rn.about_you_experience_in_rn_4_to_5_years
+    t: 4-5 years
+  - key: options.about_you_experience_in_rn.about_you_experience_in_rn_6_years_or_more
+    t: 6 or more years
+
+  - key: options.about_you_experience_in_rn.about_you_experience_in_rn_1_year_or_less.short
+    t: <= 1
+  - key: options.about_you_experience_in_rn.about_you_experience_in_rn_2_to_3_years.short
+    t: 2-3 years
+  - key: options.about_you_experience_in_rn.about_you_experience_in_rn_4_to_5_years.short
+    t: 4-5 years
+  - key: options.about_you_experience_in_rn.about_you_experience_in_rn_6_years_or_more.short
+    t: 6 or more years
+
+  - key: options.about_you_experience.about_you_experience_1_year_or_less
+    t: 1 year or less
+  - key: options.about_you_experience.about_you_experience_2_to_3_years
+    t: 2-3 years
+  - key: options.about_you_experience.about_you_experience_4_to_5_years
+    t: 4-5 years
+  - key: options.about_you_experience.about_you_experience_6_to_10_years
+    t: 6-10 years
+  - key: options.about_you_experience.about_you_experience_11_to_20_years
+    t: 11-20 years
+  - key: options.about_you_experience.about_you_experience_20_years_or_more
+    t: 20 or more years
+
+  - key: options.about_you_experience.about_you_experience_1_year_or_less.short
+    t: <= 1
+  - key: options.about_you_experience.about_you_experience_2_to_3_years.short
+    t: 2-3
+  - key: options.about_you_experience.about_you_experience_4_to_5_years.short
+    t: 4-5
+  - key: options.about_you_experience.about_you_experience_6_to_10_years.short
+    t: 6-10
+  - key: options.about_you_experience.about_you_experience_11_to_20_years.short
+    t: 11-20
+  - key: options.about_you_experience.about_you_experience_20_years_or_more.short
+    t: 20+
+
+  - key: options.about_you_gender.about_you_gender_female
+    t: female
+  - key: options.about_you_gender.about_you_gender_male
+    t: male
+  - key: options.about_you_gender.about_you_gender_non_binary
+    t: non-binary
+  - key: options.about_you_gender.about_you_gender_not_listed
+    t: not listed
+
+  - key: options.about_you_gender.about_you_gender_female.short
+    t: F
+  - key: options.about_you_gender.about_you_gender_male.short
+    t: M
+  - key: options.about_you_gender.about_you_gender_non_binary.short
+    t: NB
+  - key: options.about_you_gender.about_you_gender_not_listed.short
+    t: NL
+
+  - key: options.about_you_salary.about_you_salary_free
+    t: free
+  - key: options.about_you_salary.about_you_salary_0_to_10k
+    t: 0-10k
+  - key: options.about_you_salary.about_you_salary_10k_to_30k
+    t: 10-30k
+  - key: options.about_you_salary.about_you_salary_30k_to_50k
+    t: 30-50k
+  - key: options.about_you_salary.about_you_salary_50k_to_100k
+    t: 50-100k
+  - key: options.about_you_salary.about_you_salary_100k_to_200k
+    t: 100-200k
+  - key: options.about_you_salary.about_you_salary_200k_or_more
+    t: 200+k
+
+  - key: options.about_you_salary.about_you_salary_free.short
+    t: free
+  - key: options.about_you_salary.about_you_salary_0_to_10k.short
+    t: 0-10k
+  - key: options.about_you_salary.about_you_salary_10k_to_30k.short
+    t: 10-30k
+  - key: options.about_you_salary.about_you_salary_30k_to_50k.short
+    t: 30-50k
+  - key: options.about_you_salary.about_you_salary_50k_to_100k.short
+    t: 50-100k
+  - key: options.about_you_salary.about_you_salary_100k_to_200k.short
+    t: 100-200k
+  - key: options.about_you_salary.about_you_salary_200k_or_more.short
+    t: 200+k
+
+  - key: options.tools.developer_background_before.answer.a
+    t: React developer
+  - key: options.tools.developer_background_before.answer.b
+    t: iOS developer
+  - key: options.tools.developer_background_before.answer.c
+    t: Android developer
+  - key: options.tools.developer_background_before.answer.d
+    t: Frontend developer (other than React e.g. Vue, Angular, SolidJS, Svelte, etc.)
+  - key: options.tools.developer_background_before.answer.e
+    t: Backend developer (PHP, Node.js, JVM, Python, etc.)
+  - key: options.tools.developer_background_before.answer.f
+    t: Desktop developer (e.g. macOS, Windows, Linux)
+  - key: options.tools.developer_background_before.answer.g
+    t: QA engineer
+  - key: options.tools.developer_background_before.answer.h
+    t: DevOps
+  - key: options.tools.developer_background_before.answer.i
+    t: Embedded developer
+  - key: options.tools.developer_background_before.answer.j
+    t: Non-technical role
+  - key: options.tools.developer_background_before.answer.k
+    t: Started with React Native
+  - key: options.tools.developer_background_before_other
+    t: Other background
+
+  - key: options.tools_package_managers.tools_package_managers_npm
+    t: npm
+  - key: options.tools_package_managers.tools_package_managers_yarn
+    t: yarn
+  - key: options.tools_package_managers.tools_package_managers_yarn_berry
+    t: yarn berry (yarn v2+)
+  - key: options.tools_package_managers.tools_package_managers_pnpm
+    t: pnpm
+
+  - key: options.tools_starter_templates.tools_starter_templates_expo
+    t: create-expo-app
+  - key: options.tools_starter_templates.tools_starter_templates_react_native_cli
+    t: react-native init
+  - key: options.tools_starter_templates.tools_starter_templates_ignite_cli
+    t: ignite-cli
+  - key: options.tools_starter_templates.tools_starter_templates_create_t3_turbo
+    t: create-t3-turbo
+
+  - key: options.react_native_features_brownfield.react_native_features_brownfield_green
+    t: I mainly work on standalone React Native apps (greenfield)
+  - key: options.react_native_features_brownfield.react_native_features_brownfield_green.short
+    t: Standalone apps (greenfield)
+  - key: options.react_native_features_brownfield.react_native_features_brownfield_brown
+    t: I mainly work on integrated React Native apps (brownfield)
+  - key: options.react_native_features_brownfield.react_native_features_brownfield_brown.short
+    t: Integrated apps (brownfield)
+  - key: options.react_native_features_brownfield.react_native_features_brownfield_both
+    t: I work on both standalone and brownfield apps
+  - key: options.react_native_features_brownfield.react_native_features_brownfield_both.short
+    t: Both
+
+  - key: options.developer_background_contribution_to_lib.yes
+    t: Yes
+  - key: options.developer_background_contribution_to_lib.no
+    t: No
+  - key: options.developer_background_contribution_to_rn.yes
+    t: Yes
+  - key: options.developer_background_contribution_to_rn.no
+    t: No
+
+  - key: options.tools_js_ts.0
+    t: '0'
+  - key: options.tools_js_ts.1
+    t: '1'
+  - key: options.tools_js_ts.2
+    t: '2'
+  - key: options.tools_js_ts.3
+    t: '3'
+  - key: options.tools_js_ts.4
+    t: '4'
+  - key: options.tools_js_ts.5
+    t: '5'
+  - key: options.tools_js_ts.6
+    t: '6'
+  - key: options.tools_js_ts.7
+    t: '7'
+  - key: options.tools_js_ts.8
+    t: '8'
