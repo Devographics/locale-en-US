@@ -34,7 +34,7 @@ query GetLocaleData {
 
 Every translator will be credited on any site that makes use of the translations, starting with the survey-taking app. While this will eventually be automated via the GitHub API, for now you can add your name here:
 
-- https://github.com/StateOfJS/Monorepo/blob/main/api/src/data/locales.yml
+- https://github.com/devographics/monorepo/blob/main/api-internal/src/data/locales.yml
 
 #### 4. Pushing Your Changes Live
 

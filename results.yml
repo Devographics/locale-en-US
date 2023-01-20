@@ -335,6 +335,22 @@ translations:
     t: Korean
   - key: options.locale.ro-RO
     t: Romanian
+  - key: options.locale.am-ET
+    t: Amharic
+  - key: options.locale.ar-EG
+    t: Arabic
+  - key: options.locale.el-GR
+    t: Greek
+  - key: options.locale.gl-ES
+    t: Galician
+  - key: options.locale.hr-HR
+    t: Croatian
+  - key: options.locale.hu-HU
+    t: Hungarian
+  - key: options.locale.sk-SK
+    t: Slovak
+  - key: options.locale.vi-VN
+    t: Vietnamese
 
   ###########################################################################
   # Features
