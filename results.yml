@@ -1367,7 +1367,7 @@ translations:
       Pick a variable to break down each bar into "facets".
   - key: filters.filters_mode
     t: Filters
-  - key: filters.facets_mode
+  - key: filters.facet_mode
     t: Facets
   - key: filters.facet
     t: "Facet:"
@@ -1393,6 +1393,14 @@ translations:
     t: Delete Filter
   - key: filters.condition.and
     t: and
+  - key: filters.operators.eq
+    t: is
+  - key: filters.operators.in
+    t: is one of
+  - key: filters.operators.nin
+    t: is not one of
+  - key: filters.value.delete
+    t: Delete Value
 
   - key: filters.legend.default
     t: Default
