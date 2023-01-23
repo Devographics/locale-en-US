@@ -1412,12 +1412,22 @@ translations:
 
   - key: filters.presets.title
     t: "Presets:"
+  - key: filters.presets.save
+    t: Save current filters as preset…
+  - key: filters.presets.delete
+    t: Delete Preset
+  - key: filters.presets.enter_name
+    t: |
+      Enter a name for your new preset:
   - key: filters.presets.previous_years
     t: Previous Years
   - key: filters.presets.gender
     t: Gender
   - key: filters.presets.top_countries
     t: Top Countries
+  - key: filters.presets.salary_top_bottom
+    t: |
+      Salary, <$50k vs >$50k
 
   - key: filters.facet.select
     t: Select a facet…
