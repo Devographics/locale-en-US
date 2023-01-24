@@ -1356,6 +1356,8 @@ translations:
 
   - key: filters.compare_data
     t: Compare Data
+  - key: filters.docs
+    t: Documentation
   - key: filters.compare_chart
     t: Compare “{chartName}”
   - key: filters.filters.description
@@ -1399,6 +1401,8 @@ translations:
     t: is one of
   - key: filters.operators.nin
     t: is not one of
+  - key: filters.value.add
+    t: Add Value
   - key: filters.value.delete
     t: Delete Value
 
