@@ -82,9 +82,8 @@ translations:
 
       P.S. Also new this year: we gave respondents the ability to **leave comments** on any feature or library mentioned in the survey! Make sure to look up these comments in each chart's sidebar.
 
-  - key: conclusion.js2021
+  - key: conclusion.rn2022
     t: |
-
       <span class="first-line">JavaScript is in a tremendously better state today compared to 2016.</span>
 
       Back when the first State of JS survey took place, only 21% of you used TypeScript compared to 69% today. Whereas we used to joke about a new front end framework releasing every day, **React** and **Vue** have now been dominant for 6 years running. And the percentage of people reporting that "JS is moving too fast" is down from 59% to 38%.
@@ -96,6 +95,9 @@ translations:
       Also notable: many new entrants like **Deno**, **Rome**, **Astro**, **Remix**, and more are now supported by venture-backed companies, perhaps charting a viable alternative to the fragile open-source funding environment.
 
       As the [Third Age of JavaScript](https://www.swyx.io/js-third-age/) enters its third year, the opportunities for aspiring open sourcerors and entrepreneurs continue to unfold, and I'm excited to see what the next couple years bring!
+
+  - key: conclusion.rn2022.bio
+    t: W3C Technical Architecture Group Member, MIT CSAIL
 
   - key: about.content
     t: >
@@ -409,20 +411,32 @@ translations:
     t: No
 
   - key: options.tools_js_ts.0
-    t: '0'
+    t: "0"
   - key: options.tools_js_ts.1
-    t: '1'
+    t: "1"
   - key: options.tools_js_ts.2
-    t: '2'
+    t: "2"
   - key: options.tools_js_ts.3
-    t: '3'
+    t: "3"
   - key: options.tools_js_ts.4
-    t: '4'
+    t: "4"
   - key: options.tools_js_ts.5
-    t: '5'
+    t: "5"
   - key: options.tools_js_ts.6
-    t: '6'
+    t: "6"
   - key: options.tools_js_ts.7
-    t: '7'
+    t: "7"
   - key: options.tools_js_ts.8
-    t: '8'
+    t: "8"
+
+  # newsletter
+  - key: blocks.newsletter.title
+    t: Stay Tuned
+  - key: blocks.newsletter.description
+    t: |
+      If you'd like to know when we release additional results or announce next year's edition,
+      just leave us your email below:
+  - key: blocks.newsletter.email
+    t: Your Email
+  - key: blocks.newsletter.submit
+    t: Notify Me
