@@ -462,6 +462,10 @@ translations:
       t: Would use again
     - key: options.tools.would_not_use.short
       t: Would not use
+    - key: options.tools.yes
+      t: Yes
+    - key: options.tools.no
+      t: No
 
     # happiness
     - key: options.happiness.0
@@ -499,41 +503,7 @@ translations:
     - key: options.opinions.4
       t: Agree Strongly
 
-    # age
-    - key: options.age.range_less_than_10
-      t: 10 years old or under
-    - key: options.age.range_10_18
-      t: 11-18 years old
-    - key: options.age.range_18_24
-      t: 19-24 years old
-    - key: options.age.range_25_34
-      t: 25-34 years old
-    - key: options.age.range_35_44
-      t: 35-44 years old
-    - key: options.age.range_45_54
-      t: 45-54 years old
-    - key: options.age.range_55_64
-      t: 55-64 years old
-    - key: options.age.range_more_than_65
-      t: 65 years or older
-
-    # age (short versions)
-    - key: options.age.range_less_than_10.short
-      t: '<=10'
-    - key: options.age.range_10_18.short
-      t: 11-18
-    - key: options.age.range_18_24.short
-      t: 19-24
-    - key: options.age.range_25_34.short
-      t: 25-34
-    - key: options.age.range_35_44.short
-      t: 35-44
-    - key: options.age.range_45_54.short
-      t: 45-54
-    - key: options.age.range_55_64.short
-      t: 55-64
-    - key: options.age.range_more_than_65.short
-      t: '>65'
+    
 
     # years of experience
     - key: options.years_of_experience.range_less_than_1
