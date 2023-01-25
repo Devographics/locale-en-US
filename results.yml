@@ -459,14 +459,15 @@ translations:
 
   # tool positive/negative split ("marimekko" chart)
   - key: blocks.tools_experience_marimekko
-    t: Positive/Negative Split
+    t: Sentiment Split
   - key: blocks.tools_experience_marimekko.description
     t: |
       This chart splits positive (“want to learn”, “would use again”) vs
       negative (“not interested”, “would not use again”) experiences on
       both sides of a central axis.
-
+      
       Bar thickness represents the number of respondents aware of a technology.
+      Click on the individual label to see more details.
 
   # tool tier list
   - key: blocks.tools_tier_list
@@ -500,7 +501,7 @@ translations:
 
   # tools experience ranking
   - key: blocks.tools_experience_ranking
-    t: Rankings Over Time
+    t: Ranking
   - key: blocks.tools_experience_ranking.percentages
     t: Percentages
   - key: blocks.tools_experience_ranking.rankings
