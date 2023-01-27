@@ -410,24 +410,47 @@ translations:
   - key: options.developer_background_contribution_to_rn.no
     t: No
 
+  - key: options.about_you_locale.en-US
+    t: "English"
+  - key: options.about_you_locale.fr-FR
+    t: "French"
+  - key: options.about_you_locale.pt-BR
+    t: "Portuguese"
+  - key: options.about_you_locale.es-ES
+    t: "Spanish"
+  - key: options.about_you_locale.pl-PL
+    t: "Polish"
+  - key: options.about_you_locale.tr-TR
+    t: "Turkish"
+  - key: options.about_you_locale.de-DE
+    t: "German"
+  - key: options.about_you_locale.ru-RU
+    t: "Russian"
+  - key: options.about_you_locale.ja
+    t: "Japanese"
+  - key: options.about_you_locale.uk-UA
+    t: "Ukrainian"
+  - key: options.about_you_locale.zh-CN
+    t: "Chinese"
+
   - key: options.tools_js_ts.0
-    t: "0"
+    t: "100% JS"
   - key: options.tools_js_ts.1
-    t: "1"
+    t: "|"
   - key: options.tools_js_ts.2
-    t: "2"
+    t: "|"
   - key: options.tools_js_ts.3
-    t: "3"
+    t: "|"
   - key: options.tools_js_ts.4
-    t: "4"
+    t: "50%/50%"
   - key: options.tools_js_ts.5
-    t: "5"
+    t: "|"
   - key: options.tools_js_ts.6
-    t: "6"
+    t: "|"
   - key: options.tools_js_ts.7
-    t: "7"
+    t: "|"
   - key: options.tools_js_ts.8
-    t: "8"
+    t: "100% TS"
 
   # newsletter
   - key: blocks.newsletter.title
