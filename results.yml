@@ -1367,8 +1367,10 @@ translations:
   - key: filters.facets.description
     t: |
       Pick a variable to break down each bar into "facets".
-  - key: filters.filters_mode
-    t: Filters
+  - key: filters.grid_mode
+    t: Side-by-Side
+  - key: filters.combined_mode
+    t: Combined
   - key: filters.facet_mode
     t: Facets
   - key: filters.facet
@@ -1429,9 +1431,15 @@ translations:
     t: Gender
   - key: filters.presets.top_countries
     t: Top Countries
-  - key: filters.presets.salary_top_bottom
+  - key: filters.presets.salary_low_high
     t: |
-      Salary, <$50k vs >$50k
+      Low vs High Salary
+  - key: filters.presets.experience_low_high
+    t: |
+      Low vs High Experience
+  - key: filters.presets.company_size_low_high
+    t: |
+      Small vs Large Company
 
   - key: filters.facet.select
     t: Select a facet…
