@@ -463,3 +463,57 @@ translations:
     t: Your Email
   - key: blocks.newsletter.submit
     t: Notify Me
+
+  # comments
+  - key: picks.intro
+    t: We asked members of the React Native community to share their opinions about the results
+
+
+  - key: picks.william_candillon.bio
+    t: Maker of the “Can it be done in React Native?” YouTube series
+  - key: picks.william_candillon.description
+    t: |
+          When animations are delightful, users tend to be more lenient with everything else. 
+          Call me biased, but Reanimated and Skia are my favorite libraries, and I suspect that deeper integration 
+          between these two will be a common thread in 2023.
+
+  - key: picks.lorenzo_sciandra.bio
+    t: Senior Software Engineer at Microsoft, react-native core maintainer and releaser
+  - key: picks.lorenzo_sciandra.description
+    t: |
+          Examining these data points, I find that they reflect well one key aspect of my vision for react-native: ubiquity. 
+          By reducing the barriers to entry for native platform development, developers of various backgrounds and skill levels are able to 
+          bring their ideas to fruition for customers across many industries. Additionally, there is a growing trend towards targeting 
+          mobile and web platforms. At Microsoft, we are working to extend this trend to include desktop platforms through 
+          our efforts with react-native-windows and react-native-macos. 
+          It is our hope that in the near future, we will see an increase in the targeting of desktop platforms as well.
+
+  - key: picks.colin_gray.bio
+    t: Maker of the “Can it be done in React Native?” YouTube series
+  - key: picks.colin_gray.description
+    t: |
+          We have seen many client-state libraries increasing in popularity in the last year: Zustand, Jotai, and Legend State all make 
+          a strong showing in the Interest category, but are still relatively low in Usage. The pattern I am seeing here is that devs 
+          want less boilerplate with their state management. A common criticism leveled at the ever-popular Redux library 
+          (Usage is second only to the built-in hooks) is that diffs are large compared to the size of the change. redux-toolkit helps 
+          a lot, but newer libraries go even further, often consolidating state and actions into one primitive, while still relying on 
+          either familiar selectors (Zustand) or Proxy-based automatic observers (Legend State, Mobx, Valtio) to prevent unnecessary 
+          re-renders. Meanwhile Recoil is still trying to find its legs, even after all these years. Jotai has a similar design to 
+          Recoil but is fairing much better in retention, and slightly better in interest. I expected Legend State to do better in terms 
+          of interest – but it’s a relative new-comer in this group. On the server-state side of things, TanStack Query and Apollo are 
+          neck and neck in usage, but Apollo is falling in retention. This surprises me. I expected both to do well in retention. 
+          Once you’ve learned useQuery (each library provides similar versions of this hook), you’re off to the races. 
+          Apollo, though, has a steeper learning curve (compare the caching capabilities for an example). If I had to guess at why 
+          TanStack Query is edging out Apollo in retention and interest, that would be my guess. This is consistent with the 
+          relative popularity of the client-state libraries – simpler is indeed usually better!
+
+  - key: picks.kacper_kapusciak.bio
+    t: One of the devs at Software Mansion making State of React Native happen
+  - key: picks.kacper_kapusciak.description
+    t: |
+          Besides well-known headaches with upgrades and debugging, the developers highlighted a huge reliance on community libraries, 
+          many of which got abandoned over the years. Let’s be honest - creating (and maintaining) a library requiring expertise in 3+ 
+          languages and having knowledge of both iOS and Android APIs isn’t easy. Also, due to never-ending changes in the platform 
+          native modules need constant upkeep. New architecture won’t make it any easier as it is making bridge-based packages obsolete. 
+          Seeing so many responses and passionate feedback it’s clear that people want React Native to succeed. In the near future, 
+          I would love to see Expo Modules API helping greatly in the development of native modules.
