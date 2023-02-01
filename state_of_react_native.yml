@@ -72,32 +72,26 @@ translations:
 
   - key: introduction.rn2022
     t: |
-      <span class="first-letter">W</span>e thought CSS had already evolved into a pretty formidable language thanks to advancements like Flexbox, Grid, and CSS Variables. But it turns out this wasn't even its final form. 
+      <span class="first-letter">O</span>nce in a while a React Native developer is challenged with making a project-wide decision about what solution to use in the project. A few months ago, I found myself in this situation, trying to decide on the best styling technique for my React Native app. I did an extensive research, gathering information about all available options, reading opinions and articles, but I still wasn't sure what to choose. I realised I was missing a single, centralized comparison of all these options, similar to what's available in the State of JS, but tailored specifically for the React Native ecosystem.
 
-      Parent selector, native nesting, container queries, cascade layers… The list of absolutely game-changing features coming imminently is pretty shocking when you think about it. 
+      This led to the creation of State of React Native. I consulted the idea with [Sacha Greif](https://sachagreif.com) from the [Devographics team](https://www.devographics.com) (creator of State of JS), assembled a team of talented colleagues, and after many work hours and gathering almost 2500 responses from the community, we are proud to present the results of the first State of React Native survey.
 
-      Thankfully, we have the best guide you could ask for to help us navigate these waters: [Lea Verou](http://lea.verou.me/) has taken the lead on this year's survey design, and the result is a survey that will hopefully encompass all the key innovations you should be aware of. 
-
-      <span class="conclusion__byline">– Sacha Greif</span>
-
-      P.S. Also new this year: we gave respondents the ability to **leave comments** on any feature or library mentioned in the survey! Make sure to look up these comments in each chart's sidebar.
+      I hope that this first edition sets the tone for an annual tradition and that the results provide you with a comprehensive overview of the current state of React Native, helping you make informed decisions for your current and future React Native projects. - Bartłomiej Bukowski
 
   - key: conclusion.rn2022
     t: |
-      <span class="first-line">JavaScript is in a tremendously better state today compared to 2016.</span>
+      The React Native ecosystem is thriving and becoming better with each new version released. The community is very active and innovative solutions to various challenges faced by programmers are emerging.
 
-      Back when the first State of JS survey took place, only 21% of you used TypeScript compared to 69% today. Whereas we used to joke about a new front end framework releasing every day, **React** and **Vue** have now been dominant for 6 years running. And the percentage of people reporting that "JS is moving too fast" is down from 59% to 38%.
+      This survey showcases the diversity and versatility of the React Native ecosystem by covering various aspects of app development and solutions. My own styling problem was solved by the wonderful [NativeWind](https://www.nativewind.dev) library, which provides great control over styles and a great developer experience. This is just one example of how React Native is benefiting from the web React and JavaScript ecosystems to increase its quality and popularity.
 
-      This is not to say that the language has stood still. The **Optional Chaining** and **Nullish Coalescing** APIs have rocketed up to be the most used new APIs in our survey, despite only being 2 years old. And more good things are on the way from TC39: you reported that date management is a top missing feature, and the Temporal API recently reached [Stage 3](https://github.com/tc39/proposal-temporal).
+      Despite this, there are still some challenges that need to be addressed in the React Native framework. However, the core team members and open source contributors are working tirelessly to fix these issues, making the future of React Native even brighter.
 
-      The tooling ecosystem is also seeing its own rapid evolution, and it's fair to say that 2021 has been the year of **Vite**. Vite not only debuted at 98% retention, but usage is already at 30% in its first year on our survey, even eclipsing esbuild. Vite isn't alone in trying to improve the state of JavaScript build tools - 8 of the 12 tools we track today are less than two years old! And while **pnpm**, **Turborepo**, and **Nx** took the top spots in our first year tracking monorepo tooling, only 25% report being happy with the state of that category, showing that a lot of work remains to be done. 
+      In 2023, we can expect to see even more performant React Native apps that are indistinguishable from apps written using native technologies.
 
-      Also notable: many new entrants like **Deno**, **Rome**, **Astro**, **Remix**, and more are now supported by venture-backed companies, perhaps charting a viable alternative to the fragile open-source funding environment.
-
-      As the [Third Age of JavaScript](https://www.swyx.io/js-third-age/) enters its third year, the opportunities for aspiring open sourcerors and entrepreneurs continue to unfold, and I'm excited to see what the next couple years bring!
+      P.S. if you're still hungry for more React and JavaScript stats I highly recommend checking out the yearly State of JS survey and Rising Stars ranking from Best Of JS.
 
   - key: conclusion.rn2022.bio
-    t: W3C Technical Architecture Group Member, MIT CSAIL
+    t: Software Engineer at Software Mansion
 
   - key: about.content
     t: >
@@ -517,3 +511,29 @@ translations:
           native modules need constant upkeep. New architecture won’t make it any easier as it is making bridge-based packages obsolete. 
           Seeing so many responses and passionate feedback it’s clear that people want React Native to succeed. In the near future, 
           I would love to see Expo Modules API helping greatly in the development of native modules.
+
+  - key: picks.navigation_evan_bacon.bio
+    t: Software Engineer at Expo, Author of Config Plugins and Expo Router
+  - key: picks.navigation_evan_bacon.description
+    t: |
+          In 2022, building performant navigation in React Native has felt stable and reliable thanks to the availability of various solutions. Among them, [React Navigation](https://reactnavigation.org/) emerged as the dominant player, being used in over half of all React Native projects. 
+          As React Native apps in the browser become more widespread, there is a growing need for better navigation, leading to the development of cross-framework solutions like [Moti](https://github.com/nandorojo/moti) and universal React Native solutions like the [File-based, Expo Router](https://expo.github.io/router). It would seem URL-based routing is becoming a staple in the community, with React Navigation serving as the underlying catalyst for high-quality user experience.
+          In 2023, I predict that React Native frameworks will become more similar to web-only frameworks, leveraging opinionated navigation systems as the foundation that additional functionality like data fetching is built around. Potentially leading to increased adoption of native app development from the web community.
+          Additionally, there are more baseline advancements in native navigation to look forward to, such as with Software Mansion's React Native Screens package and its [native shared element transitions proposal](https://github.com/software-mansion/react-native-screens/pull/1591).
+          Overall, navigation in React Native is an exciting space that may eventually surpass the general capabilities of vanilla native navigation by combining the power of native primitives with the intuitive routing paradigms of the web.
+
+  - key: picks.tools_evan_bacon.bio
+    t: Software Engineer at Expo, Author of Config Plugins and Expo Router
+  - key: picks.tools_evan_bacon.description
+    t: |
+          2022 was the most thrilling year for React Native developer tools to date. The Metro bundler team at Meta increased 
+          in size and [outlined exciting plans](https://github.com/react-native-community/discussions-and-proposals/discussions/546#discussioncomment-4166119) 
+          to enhance performance, speed, and reliability in React Native. Expo collaborated closely with the Metro team to 
+          significantly improve the possibilities of bundling in React Native, resulting in 
+          [Metro for web](https://docs.expo.dev/guides/customizing-metro/#web-support) and the first file-based routing solution for native apps, 
+          [Expo Router](https://github.com/expo/router). The Microsoft team open sourced RNX Kit, which includes a suite of tools that they use 
+          to improve the stability and correctness of their extensive React Native app collection. Established tools like 
+          [Ignite CLI](https://github.com/infinitered/ignite) and `npx react-native` continue to improve in both reliability and developer experience. 
+          Expo CLI underwent a ground-up rewrite to [the versioned `npx expo`](https://blog.expo.dev/the-new-expo-cli-f4250d8e3421) to provide better 
+          CI compatibility, project longevity, and establish Prebuild as the long-term alternative to Ejecting. 
+          The momentum of React Native dev tools is stronger than ever, and 2023 is expected to be even more exciting.
