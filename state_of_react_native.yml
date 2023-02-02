@@ -537,3 +537,12 @@ translations:
           Expo CLI underwent a ground-up rewrite to [the versioned `npx expo`](https://blog.expo.dev/the-new-expo-cli-f4250d8e3421) to provide better 
           CI compatibility, project longevity, and establish Prebuild as the long-term alternative to Ejecting. 
           The momentum of React Native dev tools is stronger than ever, and 2023 is expected to be even more exciting.
+
+  - key: picks.brent_vatne.bio
+    t: Brent Vatne, Engineering Manager at Expo
+  - key: picks.brent_vatne.description
+    t: |
+          It's never been easier to ship an app to stores. EAS Build and Submit have made it into a single command with eas build --auto-submit, 
+          and with Apple Silicon workers, mobile CI/CD is faster than ever. Fastlane continues to be a great solution for developers that want to roll 
+          their own CI/CD processes on a service of their choice. I expect everything to continue the trend of getting faster, easier to use, and more 
+          flexible in 2023.
