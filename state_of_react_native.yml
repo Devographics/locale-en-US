@@ -464,7 +464,7 @@ translations:
 
 
   - key: picks.william_candillon.bio
-    t: Maker of the “Can it be done in React Native?” YouTube series
+    t: William Candillon, Maker of the “Can it be done in React Native?” YouTube series
   - key: picks.william_candillon.description
     t: |
           When animations are delightful, users tend to be more lenient with everything else. 
@@ -472,7 +472,7 @@ translations:
           between these two will be a common thread in 2023.
 
   - key: picks.lorenzo_sciandra.bio
-    t: Senior Software Engineer at Microsoft, react-native core maintainer and releaser
+    t: Lorenzo Sciandra, Senior Software Engineer at Microsoft, react-native core maintainer and releaser
   - key: picks.lorenzo_sciandra.description
     t: |
           Examining these data points, I find that they reflect well one key aspect of my vision for react-native: ubiquity. 
@@ -483,7 +483,7 @@ translations:
           It is our hope that in the near future, we will see an increase in the targeting of desktop platforms as well.
 
   - key: picks.colin_gray.bio
-    t: Maker of the “Can it be done in React Native?” YouTube series
+    t: Colin Gray, Principal Engineer at Shopify
   - key: picks.colin_gray.description
     t: |
           We have seen many client-state libraries increasing in popularity in the last year: Zustand, Jotai, and Legend State all make 
@@ -502,7 +502,7 @@ translations:
           relative popularity of the client-state libraries – simpler is indeed usually better!
 
   - key: picks.kacper_kapusciak.bio
-    t: One of the devs at Software Mansion making State of React Native happen
+    t: Kacper Kapuściak, one of the devs at Software Mansion making State of React Native happen
   - key: picks.kacper_kapusciak.description
     t: |
           Besides well-known headaches with upgrades and debugging, the developers highlighted a huge reliance on community libraries, 
@@ -513,7 +513,7 @@ translations:
           I would love to see Expo Modules API helping greatly in the development of native modules.
 
   - key: picks.navigation_evan_bacon.bio
-    t: Software Engineer at Expo, Author of Config Plugins and Expo Router
+    t: Evan Bacon, Software Engineer at Expo, Author of Config Plugins and Expo Router
   - key: picks.navigation_evan_bacon.description
     t: |
           In 2022, building performant navigation in React Native has felt stable and reliable thanks to the availability of various solutions. Among them, [React Navigation](https://reactnavigation.org/) emerged as the dominant player, being used in over half of all React Native projects. 
@@ -523,7 +523,7 @@ translations:
           Overall, navigation in React Native is an exciting space that may eventually surpass the general capabilities of vanilla native navigation by combining the power of native primitives with the intuitive routing paradigms of the web.
 
   - key: picks.tools_evan_bacon.bio
-    t: Software Engineer at Expo, Author of Config Plugins and Expo Router
+    t: Evan Bacon, Software Engineer at Expo, Author of Config Plugins and Expo Router
   - key: picks.tools_evan_bacon.description
     t: |
           2022 was the most thrilling year for React Native developer tools to date. The Metro bundler team at Meta increased 
