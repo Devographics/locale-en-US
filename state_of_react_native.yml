@@ -516,12 +516,24 @@ translations:
     t: Evan Bacon, Software Engineer at Expo, Author of Config Plugins and Expo Router
   - key: picks.navigation_evan_bacon.description
     t: |
-          In 2022, building performant navigation in React Native has felt stable and reliable thanks to the availability of various solutions. Among them, [React Navigation](https://reactnavigation.org/) emerged as the dominant player, being used in over half of all React Native projects. 
-          As React Native apps in the browser become more widespread, there is a growing need for better navigation, leading to the development of cross-framework solutions like [Moti](https://github.com/nandorojo/moti) and universal React Native solutions like the [File-based, Expo Router](https://expo.github.io/router). It would seem URL-based routing is becoming a staple in the community, with React Navigation serving as the underlying catalyst for high-quality user experience.
-          In 2023, I predict that React Native frameworks will become more similar to web-only frameworks, leveraging opinionated navigation systems as the foundation that additional functionality like data fetching is built around. Potentially leading to increased adoption of native app development from the web community.
-          Additionally, there are more baseline advancements in native navigation to look forward to, such as with Software Mansion's React Native Screens package and its [native shared element transitions proposal](https://github.com/software-mansion/react-native-screens/pull/1591).
-          Overall, navigation in React Native is an exciting space that may eventually surpass the general capabilities of vanilla native navigation by combining the power of native primitives with the intuitive routing paradigms of the web.
+          In 2022, building performant navigation in React Native has felt stable and reliable thanks to the availability of various solutions. 
+          Among them, [React Navigation](https://reactnavigation.org/) emerged as the dominant player, being used in over half of all React Native projects. 
 
+          As React Native apps in the browser become more widespread, there is a growing need for better navigation, leading to the development of 
+          cross-framework solutions like [Moti](https://github.com/nandorojo/moti) and universal React Native solutions like the 
+          [File-based, Expo Router](https://expo.github.io/router). It would seem URL-based routing is becoming a staple in the community, with 
+          React Navigation serving as the underlying catalyst for high-quality user experience.
+
+          In 2023, I predict that React Native frameworks will become more similar to web-only frameworks, leveraging opinionated navigation systems 
+          as the foundation that additional functionality like data fetching is built around. Potentially leading to increased adoption of native 
+          app development from the web community.
+
+          Additionally, there are more baseline advancements in native navigation to look forward to, such as with Software Mansion's React Native 
+          Screens package and its [native shared element transitions proposal](https://github.com/software-mansion/react-native-screens/pull/1591).
+
+          Overall, navigation in React Native is an exciting space that may eventually surpass the general capabilities of vanilla native 
+          navigation by combining the power of native primitives with the intuitive routing paradigms of the web.
+  
   - key: picks.tools_evan_bacon.bio
     t: Evan Bacon, Software Engineer at Expo, Author of Config Plugins and Expo Router
   - key: picks.tools_evan_bacon.description
@@ -546,3 +558,15 @@ translations:
           and with Apple Silicon workers, mobile CI/CD is faster than ever. Fastlane continues to be a great solution for developers that want to roll 
           their own CI/CD processes on a service of their choice. I expect everything to continue the trend of getting faster, easier to use, and more 
           flexible in 2023.
+
+  - key: picks.satyajit_sahoo.bio
+    t: Satyajit Sahoo, React Native expert at Callstack, Lead Maintainer of React Navigation
+  - key: picks.satyajit_sahoo.description
+    t: |
+          We've always been trying to make navigation better and more flexible. In the past few years, we completely rewrote React Navigation 
+          from scratch, used native navigation by default when it made sense and focused a lot on type-safety. I'm happy to see that our hard work 
+          paid off and  a lot of people have positive experience with React Navigation. There's a lot more to come in 2023 and I hope that we can
+          address some of the pain points and make React Navigation even better. One of the things I'm excited about is the 
+          [revamped static API](https://github.com/react-navigation/react-navigation/pull/11144) that aims to make it easier to configure TypeScript 
+          and deep linking. I also hope to see more of the community to keep building tools around React Navigation such as 
+          [solito](https://solito.dev/), [expo-router](https://expo.github.io/router/), and custom navigators that integrate with other libraries.
