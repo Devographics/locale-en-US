@@ -545,8 +545,8 @@ translations:
           [Metro for web](https://docs.expo.dev/guides/customizing-metro/#web-support) and the first file-based routing solution for native apps, 
           [Expo Router](https://github.com/expo/router). The Microsoft team open sourced RNX Kit, which includes a suite of tools that they use 
           to improve the stability and correctness of their extensive React Native app collection. Established tools like 
-          [Ignite CLI](https://github.com/infinitered/ignite) and `npx react-native` continue to improve in both reliability and developer experience. 
-          Expo CLI underwent a ground-up rewrite to [the versioned `npx expo`](https://blog.expo.dev/the-new-expo-cli-f4250d8e3421) to provide better 
+          [Ignite CLI](https://github.com/infinitered/ignite) and npx react-native continue to improve in both reliability and developer experience. 
+          Expo CLI underwent a ground-up rewrite to [the versioned npx expo](https://blog.expo.dev/the-new-expo-cli-f4250d8e3421) to provide better 
           CI compatibility, project longevity, and establish Prebuild as the long-term alternative to Ejecting. 
           The momentum of React Native dev tools is stronger than ever, and 2023 is expected to be even more exciting.
 
