@@ -1415,6 +1415,8 @@ translations:
     t: Cancel
   - key: filters.submit
     t: Update Chart
+  - key: filters.copy_link
+    t: Copy link to current filters
 
   - key: filters.presets.title
     t: "Presets:"
