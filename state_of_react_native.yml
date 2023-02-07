@@ -70,15 +70,32 @@ translations:
   # - key: options.slider.8
   #   t: 100% TS
 
-  - key: introduction.rn2022
+  - key: introduction.rn2022.bartlomiej_bukowski.bio
+    t: Software Engineer at Software Mansion
+
+  - key: introduction.rn2022.bartlomiej_bukowski
     t: |
-      <span class="first-letter">O</span>nce in a while a React Native developer is challenged with making a project-wide decision about what solution to use in the project. A few months ago, I found myself in this situation, trying to decide on the best styling technique for my React Native app. I did an extensive research, gathering information about all available options, reading opinions and articles, but I still wasn't sure what to choose. I realised I was missing a single, centralized comparison of all these options, similar to what's available in the State of JS, but tailored specifically for the React Native ecosystem.
+      Once in a while a React Native developer is challenged with making a project-wide decision about what solution to use in the project. A few months ago, I found myself in this situation, trying to decide on the best styling technique for my React Native app. I did an extensive research, gathering information about all available options, reading opinions and articles, but I still wasn't sure what to choose. I realised I was missing a single, centralized comparison of all these options, similar to what's available in the State of JS, but tailored specifically for the React Native ecosystem.
 
       This led to the creation of State of React Native. I consulted the idea with [Sacha Greif](https://sachagreif.com) from the [Devographics team](https://www.devographics.com) (creator of State of JS), assembled a team of talented colleagues, and after many work hours and gathering almost 2500 responses from the community, we are proud to present the results of the first State of React Native survey.
 
       I hope that this first edition sets the tone for an annual tradition and that the results provide you with a comprehensive overview of the current state of React Native, helping you make informed decisions for your current and future React Native projects. - Bartłomiej Bukowski
+  
+  - key: introduction.rn2022.sebastien_lorber.bio
+    t: This Week In React founder and Docusaurus maintainer
 
-  - key: conclusion.rn2022
+  - key: introduction.rn2022.sebastien_lorber
+    t: |
+      The State of React-Native is an awesome initiative! Thanks to everyone who took the survey, and to Software Mansion for putting it together!
+
+      For this very first year, the sentiment breakdown (“would use again” vs “would not use again”) is a quite interesting tool to help you make better technical decisions.
+      
+      Making this an annual tradition is even better: next year we will be able to see how this sentiment evolves over time.
+      
+  - key: conclusion.rn2022.bartlomiej_bukowski.bio
+    t: Software Engineer at Software Mansion
+    
+  - key: conclusion.rn2022.bartlomiej_bukowski
     t: |
       The React Native ecosystem is thriving and becoming better with each new version released. The community is very active and innovative solutions to various challenges faced by programmers are emerging.
 
@@ -89,10 +106,25 @@ translations:
       In 2023, we can expect to see even more performant React Native apps that are indistinguishable from apps written using native technologies.
 
       P.S. if you're still hungry for more React and JavaScript stats I highly recommend checking out the yearly State of JS survey and Rising Stars ranking from Best Of JS.
-
-  - key: conclusion.rn2022.bio
+  
+  - key: conclusion.rn2022.sebastien_lorber.bio
     t: Software Engineer at Software Mansion
 
+  - key: conclusion.rn2022.sebastien_lorber
+    t: |
+      If there is one thing that can be said about the React-Native community, it is its ability to overcome one obstacle after another. Sometimes it’s not as fast as we’d hoped, but nevertheless, we keep moving in the right direction.
+      
+      This year, our ecosystem strengthened in many ways, in particular:
+      - The core of React-Native improved, and the transition to the new architecture finally started
+      - Expo kept its awesome developer experience and became closer to a vanilla React-Native app, making it much easier to adopt for any kind of app
+      - Cross-platform development continued to drive innovations spanning animations, styling, bundling, and routing
+      
+      Over time, we continue to push the boundaries of what is possible with React-Native. We are JavaScript developers, but we do not reject the native side. Instead, we embrace it. Just yesterday, an iOS developer friend of mine told me how impressed he was with what was possible today.
+      
+      In 2023, I’m excited to see our community being empowered to leverage even more of the native side using modern languages like Swift and Kotlin. There are also many innovations to come with React 18 that we are not yet taking advantage of.
+      
+      I’ll be glad to keep you up to date on the latest React-Native innovation for another year through my newsletter [This Week In React](https://thisweekinreact.com/?utm_source=state_of_rn)
+      
   - key: about.content
     t: >
       The 2021 State of JS survey ran from January 13 to February 2 **2022**, and collected 16,085 responses. The survey is run by me, [Sacha Greif](https://sachagreif.com/), with help from a team of open-source contributors and consultants. 
@@ -446,6 +478,39 @@ translations:
   - key: options.tools_js_ts.8
     t: "100% TS"
 
+  - key: options.opinions_changing_too_fast.0
+    t: "Disagree Strongly"
+  - key: options.opinions_changing_too_fast.1
+    t: "Disagree"
+  - key: options.opinions_changing_too_fast.2
+    t: "Neutral"
+  - key: options.opinions_changing_too_fast.3
+    t: "Agree"
+  - key: options.opinions_changing_too_fast.4
+    t: "Agree Strongly"
+
+  - key: options.opinions_complex.0
+    t: "Disagree Strongly"
+  - key: options.opinions_complex.1
+    t: "Disagree"
+  - key: options.opinions_complex.2
+    t: "Neutral"
+  - key: options.opinions_complex.3
+    t: "Agree"
+  - key: options.opinions_complex.4
+    t: "Agree Strongly"
+    
+  - key: options.opinions_right_direction.0
+    t: "Disagree Strongly"
+  - key: options.opinions_right_direction.1
+    t: "Disagree"
+  - key: options.opinions_right_direction.2
+    t: "Neutral"
+  - key: options.opinions_right_direction.3
+    t: "Agree"
+  - key: options.opinions_right_direction.4
+    t: "Agree Strongly"
+
   # newsletter
   - key: blocks.newsletter.title
     t: Stay Tuned
@@ -464,7 +529,7 @@ translations:
 
 
   - key: picks.william_candillon.bio
-    t: William Candillon, Maker of the “Can it be done in React Native?” YouTube series
+    t: Maker of the “Can it be done in React Native?” YouTube series
   - key: picks.william_candillon.description
     t: |
           When animations are delightful, users tend to be more lenient with everything else. 
@@ -472,18 +537,20 @@ translations:
           between these two will be a common thread in 2023.
 
   - key: picks.lorenzo_sciandra.bio
-    t: Lorenzo Sciandra, Senior Software Engineer at Microsoft, react-native core maintainer and releaser
+    t: Senior Software Engineer at Microsoft, react-native core maintainer and releaser
   - key: picks.lorenzo_sciandra.description
     t: |
           Examining these data points, I find that they reflect well one key aspect of my vision for react-native: ubiquity. 
           By reducing the barriers to entry for native platform development, developers of various backgrounds and skill levels are able to 
-          bring their ideas to fruition for customers across many industries. Additionally, there is a growing trend towards targeting 
+          bring their ideas to fruition for customers across many industries. 
+          
+          Additionally, there is a growing trend towards targeting 
           mobile and web platforms. At Microsoft, we are working to extend this trend to include desktop platforms through 
           our efforts with react-native-windows and react-native-macos. 
           It is our hope that in the near future, we will see an increase in the targeting of desktop platforms as well.
 
   - key: picks.colin_gray.bio
-    t: Colin Gray, Principal Engineer at Shopify
+    t: Principal Engineer at Shopify
   - key: picks.colin_gray.description
     t: |
           We have seen many client-state libraries increasing in popularity in the last year: Zustand, Jotai, and Legend State all make 
@@ -492,28 +559,33 @@ translations:
           (Usage is second only to the built-in hooks) is that diffs are large compared to the size of the change. redux-toolkit helps 
           a lot, but newer libraries go even further, often consolidating state and actions into one primitive, while still relying on 
           either familiar selectors (Zustand) or Proxy-based automatic observers (Legend State, Mobx, Valtio) to prevent unnecessary 
-          re-renders. Meanwhile Recoil is still trying to find its legs, even after all these years. Jotai has a similar design to 
+          re-renders. 
+          
+          Meanwhile Recoil is still trying to find its legs, even after all these years. Jotai has a similar design to 
           Recoil but is fairing much better in retention, and slightly better in interest. I expected Legend State to do better in terms 
           of interest – but it’s a relative new-comer in this group. On the server-state side of things, TanStack Query and Apollo are 
           neck and neck in usage, but Apollo is falling in retention. This surprises me. I expected both to do well in retention. 
+          
           Once you’ve learned useQuery (each library provides similar versions of this hook), you’re off to the races. 
           Apollo, though, has a steeper learning curve (compare the caching capabilities for an example). If I had to guess at why 
           TanStack Query is edging out Apollo in retention and interest, that would be my guess. This is consistent with the 
           relative popularity of the client-state libraries – simpler is indeed usually better!
 
   - key: picks.kacper_kapusciak.bio
-    t: Kacper Kapuściak, one of the devs at Software Mansion making State of React Native happen
+    t: One of the devs at Software Mansion making State of React Native happen
   - key: picks.kacper_kapusciak.description
     t: |
           Besides well-known headaches with upgrades and debugging, the developers highlighted a huge reliance on community libraries, 
           many of which got abandoned over the years. Let’s be honest - creating (and maintaining) a library requiring expertise in 3+ 
-          languages and having knowledge of both iOS and Android APIs isn’t easy. Also, due to never-ending changes in the platform 
+          languages and having knowledge of both iOS and Android APIs isn’t easy. 
+          
+          Also, due to never-ending changes in the platform 
           native modules need constant upkeep. New architecture won’t make it any easier as it is making bridge-based packages obsolete. 
           Seeing so many responses and passionate feedback it’s clear that people want React Native to succeed. In the near future, 
           I would love to see Expo Modules API helping greatly in the development of native modules.
 
   - key: picks.navigation_evan_bacon.bio
-    t: Evan Bacon, Software Engineer at Expo, Author of Config Plugins and Expo Router
+    t: Software Engineer at Expo, Author of Config Plugins and Expo Router
   - key: picks.navigation_evan_bacon.description
     t: |
           In 2022, building performant navigation in React Native has felt stable and reliable thanks to the availability of various solutions. 
@@ -535,15 +607,16 @@ translations:
           navigation by combining the power of native primitives with the intuitive routing paradigms of the web.
   
   - key: picks.tools_evan_bacon.bio
-    t: Evan Bacon, Software Engineer at Expo, Author of Config Plugins and Expo Router
+    t: Software Engineer at Expo, Author of Config Plugins and Expo Router
   - key: picks.tools_evan_bacon.description
     t: |
           2022 was the most thrilling year for React Native developer tools to date. The Metro bundler team at Meta increased 
           in size and [outlined exciting plans](https://github.com/react-native-community/discussions-and-proposals/discussions/546#discussioncomment-4166119) 
           to enhance performance, speed, and reliability in React Native. Expo collaborated closely with the Metro team to 
-          significantly improve the possibilities of bundling in React Native, resulting in 
-          [Metro for web](https://docs.expo.dev/guides/customizing-metro/#web-support) and the first file-based routing solution for native apps, 
-          [Expo Router](https://github.com/expo/router). The Microsoft team open sourced RNX Kit, which includes a suite of tools that they use 
+          significantly improve the possibilities of bundling in React Native, resulting in [Metro for web](https://docs.expo.dev/guides/customizing-metro/#web-support) and the first 
+          file-based routing solution for native apps, [Expo Router](https://github.com/expo/router). 
+          
+          The Microsoft team open sourced RNX Kit, which includes a suite of tools that they use 
           to improve the stability and correctness of their extensive React Native app collection. Established tools like 
           [Ignite CLI](https://github.com/infinitered/ignite) and npx react-native continue to improve in both reliability and developer experience. 
           Expo CLI underwent a ground-up rewrite to [the versioned npx expo](https://blog.expo.dev/the-new-expo-cli-f4250d8e3421) to provide better 
@@ -551,7 +624,7 @@ translations:
           The momentum of React Native dev tools is stronger than ever, and 2023 is expected to be even more exciting.
 
   - key: picks.brent_vatne.bio
-    t: Brent Vatne, Engineering Manager at Expo
+    t: Engineering Manager at Expo
   - key: picks.brent_vatne.description
     t: |
           It's never been easier to ship an app to stores. EAS Build and Submit have made it into a single command with eas build --auto-submit, 
@@ -560,13 +633,44 @@ translations:
           flexible in 2023.
 
   - key: picks.satyajit_sahoo.bio
-    t: Satyajit Sahoo, React Native expert at Callstack, Lead Maintainer of React Navigation
+    t: React Native expert at Callstack, Lead Maintainer of React Navigation
   - key: picks.satyajit_sahoo.description
     t: |
           We've always been trying to make navigation better and more flexible. In the past few years, we completely rewrote React Navigation 
           from scratch, used native navigation by default when it made sense and focused a lot on type-safety. I'm happy to see that our hard work 
           paid off and  a lot of people have positive experience with React Navigation. There's a lot more to come in 2023 and I hope that we can
-          address some of the pain points and make React Navigation even better. One of the things I'm excited about is the 
+          address some of the pain points and make React Navigation even better. 
+          
+          One of the things I'm excited about is the 
           [revamped static API](https://github.com/react-navigation/react-navigation/pull/11144) that aims to make it easier to configure TypeScript 
           and deep linking. I also hope to see more of the community to keep building tools around React Navigation such as 
           [solito](https://solito.dev/), [expo-router](https://expo.github.io/router/), and custom navigators that integrate with other libraries.
+
+  - key: picks.data_fetching_sebastien_lorber.bio
+    t: This Week In React founder and Docusaurus maintainer
+  - key: picks.data_fetching_sebastien_lorber.description
+    t: |
+          This year, [tRPC](https://trpc.io/) and [zod](https://github.com/colinhacks/zod) have seen a lot of traction on the web 
+          platform. In 2023, it wouldn't be surprising to see its usage to grow significantly in React-Native projects and 
+          compete with React-Query or SWR. 
+          
+          The [create-t3-turbo](https://github.com/t3-oss/create-t3-turbo) boilerplate is a good illustration of its usage in a 
+          cross-platform stack.
+
+  - key: picks.styling_sebastien_lorber.bio
+    t: This Week In React founder and Docusaurus maintainer
+  - key: picks.styling_sebastien_lorber.description
+    t: |
+          React-Native developers are clearly attracted to cross-platform styling solutions. Tailwind is already successful on 
+          the web, so there's no reason it shouldn't become more popular on mobile. The StyleSheet API remains boring in a 
+          good way and a safe choice for most projects.
+
+  - key: picks.react_native_alternatives_sebastien_lorber.bio
+    t: This Week In React founder and Docusaurus maintainer
+  - key: picks.react_native_alternatives_sebastien_lorber.description
+    t: |
+          It's great to see that React-Native developers appreciate SwiftUI and Jetpack compose. Our beloved platform is not 
+          competing against the native side but rather extending it in a quite flexible way. 
+
+          Although we do not particularly appreciate Flutter as a framework, we still benefit from low-level innovations happening 
+          in its ecosystem thanks to [React-Native-Skia](https://github.com/Shopify/react-native-skia). 
