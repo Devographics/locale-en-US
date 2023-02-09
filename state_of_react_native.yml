@@ -77,9 +77,9 @@ translations:
     t: |
       Once in a while a React Native developer is challenged with making a project-wide decision about what solution to use in the project. A few months ago, I found myself in this situation, trying to decide on the best styling technique for my React Native app. I did an extensive research, gathering information about all available options, reading opinions and articles, but I still wasn't sure what to choose. I realised I was missing a single, centralized comparison of all these options, similar to what's available in the State of JS, but tailored specifically for the React Native ecosystem.
 
-      This led to the creation of State of React Native. I consulted the idea with [Sacha Greif](https://sachagreif.com) from the [Devographics team](https://www.devographics.com) (creator of State of JS), assembled a team of talented colleagues, and after many work hours and gathering almost 2500 responses from the community, we are proud to present the results of the first State of React Native survey.
+      This led to the creation of State of React Native. I consulted the idea with [Sacha Greif](https://sachagreif.com) from the [Devographics team](https://www.devographics.com) (creator of State of JS), assembled a team of talented colleagues, and after many work hours and gathering almost 2000 responses from the community, we are proud to present the results of the first State of React Native survey.
 
-      I hope that this first edition sets the tone for an annual tradition and that the results provide you with a comprehensive overview of the current state of React Native, helping you make informed decisions for your current and future React Native projects. - Bartłomiej Bukowski
+      I hope that this first edition sets the tone for an annual tradition and that the results provide you with a comprehensive overview of the current state of React Native, helping you make informed decisions for your current and future React Native projects.
   
   - key: introduction.rn2022.sebastien_lorber.bio
     t: This Week In React founder and Docusaurus maintainer
@@ -112,7 +112,7 @@ translations:
 
   - key: conclusion.rn2022.sebastien_lorber
     t: |
-      If there is one thing that can be said about the React-Native community, it is its ability to overcome one obstacle after another. Sometimes it’s not as fast as we’d hoped, but nevertheless, we keep moving in the right direction.
+      If there is one thing that can be said about the React-Native community, it is its ability to overcome one obstacle after another. Sometimes it's not as fast as we'd hoped, but nevertheless, we keep moving in the right direction.
       
       This year, our ecosystem strengthened in many ways, in particular:
       - The core of React-Native improved, and the transition to the new architecture finally started
@@ -121,70 +121,40 @@ translations:
       
       Over time, we continue to push the boundaries of what is possible with React-Native. We are JavaScript developers, but we do not reject the native side. Instead, we embrace it. Just yesterday, an iOS developer friend of mine told me how impressed he was with what was possible today.
       
-      In 2023, I’m excited to see our community being empowered to leverage even more of the native side using modern languages like Swift and Kotlin. There are also many innovations to come with React 18 that we are not yet taking advantage of.
+      In 2023, I'm excited to see our community being empowered to leverage even more of the native side using modern languages like Swift and Kotlin. There are also many innovations to come with React 18 that we are not yet taking advantage of.
       
-      I’ll be glad to keep you up to date on the latest React-Native innovation for another year through my newsletter [This Week In React](https://thisweekinreact.com/?utm_source=state_of_rn)
+      I'll be glad to keep you up to date on the latest React-Native innovation for another year through my newsletter [This Week In React](https://thisweekinreact.com/?utm_source=state_of_rn)
       
   - key: about.content
     t: >
-      The 2021 State of JS survey ran from January 13 to February 2 **2022**, and collected 16,085 responses. The survey is run by me, [Sacha Greif](https://sachagreif.com/), with help from a team of open-source contributors and consultants. 
+      The State of React Native survey was a grassroots initiative from developers at [Software Mansion](https://swmansion.com/). The survey started on 22nd December 2022 and run till 20th January 2023 gathering 1886 responses in total.
 
-      This year's logo and t-shirt were designed by [Christopher Kirk-Nielsen](http://chriskirknielsen.com/).
+      ### Goal
+      
+      The goal of the State of React Native survey was to create a resource to compare different aspects of React Native development for you to help you make better technical decisions. The survey can be used as a source for finding alternatives in different categories of app development.
+      <br/>
+      Keep in mind that this type of results always have to be treated with a pinch of salt as it's impossible to capture for the state of the entire ecosystem.
+      <br/>
+      We're thrived to see the upcoming trends in the following editions as with it's first edition we only have a single data point.
 
-      ### Survey Goals
+      ### Design
 
-      This survey, along with the [State of CSS](https://stateofcss.com/) survey, was created to identify upcoming trends in the web development ecosystem in order to help developers make technological choices. 
+      The survey was modeled and built on the foundations of [Devographics'](https://www.devographics.com/) [State of JavaScript](https://stateofjs.com/) and [State of CSS](https://stateofcss.com/) survey.
+      <br/>
+      About a dozen of experienced React Native developers from Software Mansion and a couple more outside of walls of the company have shaped the questions. We've asked the community to contribute in [a GitHub discussion](https://github.com/software-mansion/state-of-react-native/discussions/1) which most of it was included in the final survey.
+      <br/>
+      The logo and the design of the interface was created by [Daniel Wodziczka](https://dribbble.com/wodziczka), one of our amazing UI/UX Designers at Software Mansion.
+      <br/>
+      All survey questions were optional.
 
-      As such, these surveys are focused on anticipating what's coming over the next few years rather than analyzing what's popular now, which is why the features or technologies that are currently most widespread are not always included. 
+      ### Audience
 
-      They should also be taken as a **snapshot of a specific subset of developers**, and are not meant to speak for the entire ecosystem. 
-
-      ### Survey Design
-
-      The survey was designed in part based on last year's survey, with an open feedback period where the survey outline was discussed [on GitHub](https://github.com/StateOfJS/Monorepo/issues/56). 
-
-      All survey questions were optional. 
-
-      ### Survey Audience
-
-      The survey was openly accessible online and respondents were not filtered or selected in any way. Respondents were primarily a mix of respondents from past surveys (alerted through a dedicated mailing list) and social media traffic. 
-
-      Note that frameworks, libraries, etc. were free to encourage their audience to participate in the survey and some of them did take advantage of this via banners, tweets, etc. A detailed breakdown of traffic sources is included in the "Sources" chart. 
-
-      ### Representativeness & Inclusivity
-
-      While we believe it's important to give a voice to every community, the reality is that an open survey like this one will always struggle to properly represent everybody, especially when operating through systems that already carry their own inherent biases. 
-
-
-      In order to counter-balance this, we are implementing three distinct strategies:
-
-
-      - **Outreach**: we always try to reach out to different organizations (such as BIPOC- or LGBTQ-focused organizations, or online teaching platforms) to try and diversify our own audience. 
-
-      - **Data Analysis**: through features like facets and variants, we're always trying to make it easier to surface the voices of any demographic segment, no matter how minoritized it might be in our data. 
-
-      - **Barrier Lowering**: making the survey too long, inaccessible, slow to load, English-only, etc. can all contribute to imposing an "effort tax" that cuts off the parts of the community that can't afford to pay it. Fixing these issues can lower the barrier to entry and in the process make our audience more diverse. 
-
-      ### Project Funding
-
-      Funding from this project comes from a variety of sources:
-
-
-      - **T-shirt sales**. 
-
-      - **Chart Sponsorships**: members of the community can donate to the survey in exchange for having their name featured in the report.  
-
-      - **Sponsored links**: the links to recommended resources at the bottom of each page are provided by our partner [Frontend Masters](https://frontendmasters.com/).
-
-      - **Other Funding**: this year, the [Google Chrome](https://www.google.com/chrome/) team set aside a small budget to help hire an [accessibility consultant](https://fossheim.io/) to work on the CSS and JS surveys.
-
-
-      Despite these funding sources, the surveys remains mostly a self-funded project overall and any contribution or sponsorship would be greatly appreciated. I would especially like to work closely with more browser vendors, since they play such a central role in the web ecosystem.  
+      The survey was open for everyone to participate and the responders weren't filtered or selected in any way. We were thrilled to see the survey trending organically on Twitter, Slack and Discord communities. The survey was promoted through social media accounts and the [This Week in React](https://ThisWeekInReact.com) newsletter. 
 
       ### Technical Overview
 
-      You can find a more in-depth technical overview of how the surveys are run [here](https://dev.to/sachagreif/how-the-state-of-js-css-surveys-are-run-4lnb).
-
+      To bootstrap this survey, we've asked for permission to use the battle-tested technological stack created by [Devographics](https://www.devographics.com/) which includes:
+    
       - **Data collection**: custom [Vulcan.js](http://vulcanjs.org/) app.
 
       - **Data storage/processing**: MongoDB & MongoDB Aggregations.
@@ -193,9 +163,15 @@ translations:
 
       - **Results Site**: [Gatsby](https://www.gatsbyjs.com/) React app.
 
-      - **Data Visualizations**: [Nivo](https://nivo.rocks/) React dataviz library. 
+      - **Data Visualizations**: [Nivo](https://nivo.rocks/) React dataviz library.
 
-      - **Type**: [IBM Plex Mono](https://fonts.google.com/specimen/IBM+Plex+Mono) and [Bebas Neue](https://fonts.google.com/specimen/Bebas+Neue).
+
+      ### Lessons learned
+
+      We've gathered considerable amount of feedback to iterate and next year, we would like to focus on the brevity of the survey. With the data gathered, we're free to get rid of some of the freeform fields and make the overall survey shorter.
+      <br/>
+      Next point would be to make results more representative by reaching more diverse communities all over the world.
+
 
   - key: options.about_you_age.about_you_age_18_or_youger
     t: 18 years old or under
