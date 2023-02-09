@@ -592,7 +592,7 @@ translations:
           Among them, [React Navigation](https://reactnavigation.org/) emerged as the dominant player, being used in over half of all React Native projects. 
 
           As React Native apps in the browser become more widespread, there is a growing need for better navigation, leading to the development of 
-          cross-framework solutions like [Moti](https://github.com/nandorojo/moti) and universal React Native solutions like the 
+          cross-framework solutions like [Solito](https://github.com/nandorojo/solito) and universal React Native solutions like the 
           [File-based, Expo Router](https://expo.github.io/router). It would seem URL-based routing is becoming a staple in the community, with 
           React Navigation serving as the underlying catalyst for high-quality user experience.
 
