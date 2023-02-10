@@ -529,23 +529,23 @@ translations:
     t: Principal Engineer at Shopify
   - key: picks.colin_gray.description
     t: |
-          We have seen many client-state libraries increasing in popularity in the last year: Zustand, Jotai, and Legend State all make 
+          We have seen many client-state libraries increasing in popularity in the last year: [Zustand](https://docs.pmnd.rs/zustand/getting-started/introduction), [Jotai](https://jotai.org/), and [Legend State](https://legendapp.com/open-source/state/) all make 
           a strong showing in the Interest category, but are still relatively low in Usage. The pattern I am seeing here is that devs 
-          want less boilerplate with their state management. A common criticism leveled at the ever-popular Redux library 
-          (Usage is second only to the built-in hooks) is that diffs are large compared to the size of the change. redux-toolkit helps 
+          want less boilerplate with their state management. A common criticism leveled at the ever-popular [Redux](https://redux.js.org/) library 
+          (Usage is second only to the built-in hooks) is that diffs are large compared to the size of the change. [Redux Toolkit](https://redux-toolkit.js.org/) helps 
           a lot, but newer libraries go even further, often consolidating state and actions into one primitive, while still relying on 
-          either familiar selectors (Zustand) or Proxy-based automatic observers (Legend State, Mobx, Valtio) to prevent unnecessary 
+          either familiar selectors (Zustand) or Proxy-based automatic observers (Legend State, [Mobx](https://mobx.js.org/README.html), [Valtio](https://valtio.pmnd.rs/)) to prevent unnecessary 
           re-renders. 
           
           Meanwhile Recoil is still trying to find its legs, even after all these years. Jotai has a similar design to 
           Recoil but is fairing much better in retention, and slightly better in interest. I expected Legend State to do better in terms 
-          of interest – but it’s a relative new-comer in this group. On the server-state side of things, TanStack Query and Apollo are 
+          of interest - but it's a relative new-comer in this group. On the server-state side of things, [TanStack Query](https://tanstack.com/query/) and [Apollo](https://www.apollographql.com/) are 
           neck and neck in usage, but Apollo is falling in retention. This surprises me. I expected both to do well in retention. 
           
-          Once you’ve learned useQuery (each library provides similar versions of this hook), you’re off to the races. 
+          Once you've learned useQuery (each library provides similar versions of this hook), you're off to the races. 
           Apollo, though, has a steeper learning curve (compare the caching capabilities for an example). If I had to guess at why 
           TanStack Query is edging out Apollo in retention and interest, that would be my guess. This is consistent with the 
-          relative popularity of the client-state libraries – simpler is indeed usually better!
+          relative popularity of the client-state libraries - simpler is indeed usually better!
 
   - key: picks.kacper_kapusciak.bio
     t: One of the devs at Software Mansion making State of React Native happen
