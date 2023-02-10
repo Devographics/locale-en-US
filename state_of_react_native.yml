@@ -1,83 +1,21 @@
 #########################################################################
 
-# THIS DOESN'T LOAD FOR SOME REASON
-# I've added these locales to common.yml instead
+# These translations only concern `results` and not `surveyform`!
+# I've added the survey locales to common.yml instead for them to load in `surveyform`
 
 #########################################################################
 
 locale: en-US
 namespace: js
 translations:
-  - key: platform_apis.platform_apis_intro
-    t: Welcome to the survey! TODO
-
-  # - key: sections.react_native_app_aspects.title
-  #   t: App aspects
-  # - key: sections.react_native_app_aspects.description
-  #   t: Solutions to well-defined problems in React Native app development.
-
-  # - key: sections.react_native_specific_features.title
-  #   t: Features
-  # - key: sections.react_native_specific_features.description
-  #   t: The features specific to React Native development.
-
-  # - key: sections.tools.title
-  #   t: Tools
-  # - key: sections.tools.description
-  #   t: The tools you use to develop React Native apps.
-
-  # - key: sections.resources.title
-  #   t: Resources
-  # - key: sections.resources.description
-  #   t: What resources do you use to learn about React Native?
-
-  # - key: sections.opinions.title
-  #   t: Opinions
-  # - key: sections.opinions.description
-  #   t: How do you feel about the state of React Native?
-
-  # - key: sections.about_you.title
-  #   t: About you
-  # - key: sections.about_you.description
-  #   t: Let's get to know you a little better.
-
-  # - key: sections.developer_background.title
-  #   t: Background
-  # - key: sections.developer_background.description
-  #   t: What's your background as a developer?
-
-  # - key: options.yes_or_no.yes
-  #   t: Yes
-  # - key: options.yes_or_no.no
-  #   t: No
-
-  # - key: options.platform_api_awareness.option1
-  #   t: I have never heard / I am not sure what it is
-  # - key: options.platform_api_awareness.option2
-  #   t: I know what it is, but have never used it in React Native app
-  # - key: options.platform_api_awareness.option3
-  #   t: I wanted to use it, but React Native doesn't support it
-  # - key: options.platform_api_awareness.option4
-  #   t: I have used in React Native using an off-the-shelf API/library
-  # - key: options.platform_api_awareness.option5
-  #   t: I used in React Native by writing my own module
-
-  # # slider
-  # - key: options.slider.0
-  #   t: 100% JS
-  # - key: options.slider.4
-  #   t: 50%-50%
-  # - key: options.slider.8
-  #   t: 100% TS
-
   - key: introduction.rn2022.bartlomiej_bukowski.bio
     t: Software Engineer at Software Mansion
 
   - key: introduction.rn2022.bartlomiej_bukowski
     t: |
-      Once in a while a React Native developer is challenged with making a project-wide decision about what solution to use in the project. A few months ago, I found myself in this situation, trying to decide on the best styling technique for my React Native app. I did an extensive research, gathering information about all available options, reading opinions and articles, but I still wasn't sure what to choose. I realised I was missing a single, centralized comparison of all these options, similar to what's available in the State of JS, but tailored specifically for the React Native ecosystem.
+      Once in a while a React Native developer is challenged with making a project-wide decision about what solution to use in the project. A few months ago, I found myself in this situation, trying to decide on the best styling technique for my React Native app. I did an extensive research, gathering information about all available options, reading opinions and articles, but I still wasn't sure what to choose. I realised I was missing a single, centralized comparison of all these options, similar to what's available in the [State of JS](https://stateofjs.com/en-us/), but tailored specifically for the React Native ecosystem.
 
-      This led to the creation of State of React Native. I consulted the idea with [Sacha Greif](https://sachagreif.com) from the [Devographics team](https://www.devographics.com) (creator of State of JS), assembled a team of talented colleagues, and after many work hours and gathering almost 2000 responses from the community, we are proud to present the results of the first State of React Native survey.
+      This led to the creation of [State of React Native](https://stateofreactnative.com/). I consulted the idea with [Sacha Greif](https://sachagreif.com) from the [Devographics team](https://www.devographics.com) (creator of State of JS), assembled a team of talented colleagues, and after many work hours and gathering almost 2000 responses from the community, we are proud to present the results of the first State of React Native survey.
 
       I hope that this first edition sets the tone for an annual tradition and that the results provide you with a comprehensive overview of the current state of React Native, helping you make informed decisions for your current and future React Native projects.
   
@@ -149,7 +87,7 @@ translations:
 
       ### Audience
 
-      The survey was open for everyone to participate and the responders weren't filtered or selected in any way. We were thrilled to see the survey trending organically on Twitter, Slack and Discord communities. The survey was promoted through social media accounts and the [This Week in React](https://ThisWeekInReact.com) newsletter. 
+      The survey was open for everyone to participate and the responders weren't filtered or selected in any way. We were thrilled to see the survey trending organically on Twitter, Slack and Discord communities. The survey was promoted through social media accounts and the [This Week in React](https://thisweekinreact.com/?utm_source=state_of_rn) newsletter. 
 
       ### Technical Overview
 
@@ -522,14 +460,14 @@ translations:
           
           Additionally, there is a growing trend towards targeting 
           mobile and web platforms. At Microsoft, we are working to extend this trend to include desktop platforms through 
-          our efforts with react-native-windows and react-native-macos. 
+          our efforts with [react-native-windows](https://github.com/microsoft/react-native-windows) and [react-native-macos](https://github.com/microsoft/react-native-macos). 
           It is our hope that in the near future, we will see an increase in the targeting of desktop platforms as well.
 
   - key: picks.colin_gray.bio
     t: Principal Engineer at Shopify
   - key: picks.colin_gray.description
     t: |
-          We have seen many client-state libraries increasing in popularity in the last year: [Zustand](https://docs.pmnd.rs/zustand/getting-started/introduction), [Jotai](https://jotai.org/), and [Legend State](https://legendapp.com/open-source/state/) all make 
+          We have seen many client-state libraries increasing in popularity in the last year: [Zustand](https://docs.pmnd.rs/zustand/), [Jotai](https://jotai.org/), and [Legend State](https://legendapp.com/open-source/state/) all make 
           a strong showing in the Interest category, but are still relatively low in Usage. The pattern I am seeing here is that devs 
           want less boilerplate with their state management. A common criticism leveled at the ever-popular [Redux](https://redux.js.org/) library 
           (Usage is second only to the built-in hooks) is that diffs are large compared to the size of the change. [Redux Toolkit](https://redux-toolkit.js.org/) helps 
@@ -575,8 +513,7 @@ translations:
           as the foundation that additional functionality like data fetching is built around. Potentially leading to increased adoption of native 
           app development from the web community.
 
-          Additionally, there are more baseline advancements in native navigation to look forward to, such as with Software Mansion's [React Native 
-          Screens](https://github.com/software-mansion/react-native-screens) package and its [native shared element transitions proposal](https://github.com/software-mansion/react-native-screens/pull/1591).
+          Additionally, there are more baseline advancements in native navigation to look forward to, such as with Software Mansion's [React Native Screens](https://github.com/software-mansion/react-native-screens) package and its [native shared element transitions proposal](https://github.com/software-mansion/react-native-screens/pull/1591).
 
           Overall, navigation in React Native is an exciting space that may eventually surpass the general capabilities of vanilla native 
           navigation by combining the power of native primitives with the intuitive routing paradigms of the web.
@@ -605,7 +542,7 @@ translations:
           It's never been easier to ship an app to stores. [EAS Build](https://docs.expo.dev/build/introduction/) and [Submit](https://docs.expo.dev/submit/introduction/) have made it into a single command with eas build --auto-submit, 
           and with Apple Silicon workers, mobile CI/CD is faster than ever.
           
-          Fastlane continues to be a great solution for developers that want to roll 
+          [Fastlane](https://fastlane.tools/) continues to be a great solution for developers that want to roll 
           their own CI/CD processes on a service of their choice. I expect everything to continue the trend of getting faster, easier to use, and more 
           flexible in 2023.
 
