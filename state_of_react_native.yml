@@ -8,6 +8,9 @@
 locale: en-US
 namespace: js
 translations:
+  - key: general.results.description
+    t: A survey about everything React Native
+
   - key: introduction.rn2022.bartlomiej_bukowski.bio
     t: Software Engineer at Software Mansion
 
