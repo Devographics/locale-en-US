@@ -523,6 +523,8 @@ translations:
     t: Retention, interest, usage, and awareness ratio over time.
   - key: blocks.tools_experience_linechart.note
     aliasFor: blocks.tools_experience_ranking.note
+  - key: blocks.animations_other
+    t: Other graphics and animations solutions
 
   # happiness
   - key: blocks.happiness

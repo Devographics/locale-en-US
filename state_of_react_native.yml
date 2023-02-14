@@ -49,7 +49,7 @@ translations:
       P.S. if you're still hungry for more React and JavaScript stats I highly recommend checking out the yearly [State of JS](https://stateofjs.com/en-us/) survey and [Rising Stars](https://risingstars.js.org/2022/en) ranking from [Best Of JS](https://bestofjs.org/).
   
   - key: conclusion.rn2022.sebastien_lorber.bio
-    t: Software Engineer at Software Mansion
+    t: This Week In React founder and Docusaurus maintainer
 
   - key: conclusion.rn2022.sebastien_lorber
     t: |
