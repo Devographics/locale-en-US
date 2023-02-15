@@ -130,19 +130,19 @@ translations:
     t: 65 or more years old
 
   - key: options.about_you_age.about_you_age_18_or_youger.short
-    t: <= 10
+    t: <= 18
   - key: options.about_you_age.about_you_age_19_24.short
-    t: 11-18
-  - key: options.about_you_age.about_you_age_25_34.short
     t: 19-24
-  - key: options.about_you_age.about_you_age_35_44.short
+  - key: options.about_you_age.about_you_age_25_34.short
     t: 25-34
-  - key: options.about_you_age.about_you_age_45_54.short
+  - key: options.about_you_age.about_you_age_35_44.short
     t: 35-44
+  - key: options.about_you_age.about_you_age_45_54.short
+    t: 45-54
   - key: options.about_you_age.about_you_age_55_64.short
     t: 55-64
   - key: options.about_you_age.about_you_age_65_or_older.short
-    t: ">65"
+    t: "> 65"
 
   - key: options.about_you_company_size.about_you_company_size_1_employee
     t: 1 employee
