@@ -1271,13 +1271,8 @@ translations:
     t: Respondents per dot
   - key: explorer.show_cell_counts
     t: Show cell counts
-
-  - key: explorer.sections.demographics
-    t: Demographics
-  - key: explorer.sections.features
-    t: Features
-  - key: explorer.sections.tools
-    t: Libraries
+  - key: explorer.show_no_answer
+    t: Show “No Answer” cells
 
   - key: explorer.all_fields
     t: All fields
@@ -1301,11 +1296,11 @@ translations:
 
   - key: explorer.count_details.4_extra
     t: |
-      The actual count is **{bucketCount}**, and those extra **{normalizedCountDelta}** respondents are *highlighted*.
+      The actual count is **{cellCount}**, and those extra **{normalizedCountDelta}** respondents are *highlighted*.
 
   - key: explorer.count_details.4_missing
     t: |
-      The actual count is **{bucketCount}**, and those missing **{normalizedCountDelta}** respondents appear as empty dots.
+      The actual count is **{cellCount}**, and those missing **{normalizedCountDelta}** respondents appear as empty dots.
 
   - key: explorer.percentage_details.1_extra
     t: |

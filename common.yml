@@ -583,7 +583,7 @@ translations:
   - key: options.race_ethnicity.biracial.short
     t: Biracial
   - key: options.race_ethnicity.native_american_islander_australian.short
-    t: Native American/Pacific Islander/Indigenous Australian
+    t: Nat. American/Pac. Islander/Ind. Australian
   - key: options.race_ethnicity.not_listed.short
     t: Not listed
 
