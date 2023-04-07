@@ -126,7 +126,7 @@ translations:
   - key: options.quadrant.4.long
     t: |
       4: High usage, low retention. Reassess these technologies if you're currently using them.
-      
+
   - key: ranges.selector.years_of_experience
     t: Experience
   - key: ranges.selector.yearly_salary
@@ -187,7 +187,7 @@ translations:
     t: Crohn's Disease
   - key: options.disability_status_others.depression
     t: Depression
-    
+
   ###########################################################################
   # Sections
   ###########################################################################
@@ -448,9 +448,9 @@ translations:
     t: Technology Usage Cardinality
   - key: blocks.all_sections_tools_cardinality_by_user.description
     t: >
-        For each section, which percentage of respondents **use** 
-        (defined as having answered “would use again”) one, two, three, etc. technologies.
-        The bottom-most bar represents the sum of all other bars.  
+      For each section, which percentage of respondents **use** 
+      (defined as having answered “would use again”) one, two, three, etc. technologies.
+      The bottom-most bar represents the sum of all other bars.
 
   - key: blocks.cardinality.max
     t: Most common answer
@@ -592,7 +592,7 @@ translations:
       The size of the **outer circle** corresponds to the total number of users who know about a feature (*know about it* + *have used it* respondents), while
       the **inner circle** represents those who have actually used it (*have used it* respondents).
 
-      Hover on each circle to see detailed stats, including the ratio between both values. 
+      Hover on each circle to see detailed stats, including the ratio between both values.
 
   # export
   - key: export.export
@@ -628,13 +628,13 @@ translations:
   - key: custom_data.details
     t: >
 
-        1. Copy the contents of the "GraphQL Query" textfield and paste them into the middle panel of the [GraphQL API explorer](https://graphiql.stateofjs.com/).
+      1. Copy the contents of the "GraphQL Query" textfield and paste them into the middle panel of the [GraphQL API explorer](https://graphiql.stateofjs.com/).
 
-        2. Modify the query by adding one or more **filters** using the left-hand explorer sidebar. Make sure to keep the overall structure of the data the same.
+      2. Modify the query by adding one or more **filters** using the left-hand explorer sidebar. Make sure to keep the overall structure of the data the same.
 
-        3. In the explorer window, click the Play ("Execute Query") button.
+      3. In the explorer window, click the Play ("Execute Query") button.
 
-        4. Copy the results of the modified query (`{ data: … }` ) into the "Custom Data" textfield above and submit.
+      4. Copy the results of the modified query (`{ data: … }` ) into the "Custom Data" textfield above and submit.
 
   # Tools usage variations
   - key: blocks.tools_usage_variations
@@ -688,10 +688,16 @@ translations:
     t: Count
   - key: chart_units.percentage_question
     t: "% of question respondents"
+  - key: chart_units.percentageQuestion
+    aliasFor: chart_units.percentage_question
   - key: chart_units.percentage_survey
     t: "% of survey respondents"
+  - key: chart_units.percentageSurvey
+    aliasFor: chart_units.percentage_survey
   - key: chart_units.percentage_bucket
     t: "% of bucket"
+  - key: chart_units.percentageBucket
+    aliasFor: chart_units.percentage_bucket
   - key: chart_units.average
     t: Average
 
@@ -704,7 +710,7 @@ translations:
   - key: charts.all_respondents
     t: All Respondents
   - key: charts.facet_responses
-    t: '{count} responses'
+    t: "{count} responses"
 
   - key: charts.axis_legends.years_of_experience
     t: Years of Experience
@@ -741,7 +747,7 @@ translations:
     aliasFor: charts.axis_legends.usage_percentage
   - key: chart_units.awareness_percentage
     aliasFor: charts.axis_legends.awareness_percentage
-    
+
   - key: charts.axis_legends.happiness
     t: Happiness
   - key: charts.axis_legends.knowledge_score
@@ -752,10 +758,16 @@ translations:
     t: Age
   - key: charts.axis_legends.users_percentage_survey
     t: "% of survey respondents"
+  - key: charts.axis_legends.users_percentageSurvey
+    aliasFor: charts.axis_legends.users_percentage_survey
   - key: charts.axis_legends.users_percentage_question
     t: "% of question respondents"
+  - key: charts.axis_legends.users_percentageQuestion
+    aliasFor: charts.axis_legends.users_percentage_question
   - key: charts.axis_legends.users_percentage_bucket
     t: "% of bucket respondents"
+  - key: charts.axis_legends.users_percentageBucket
+    aliasFor: charts.axis_legends.users_percentage_bucket
 
   - key: charts.ranges_multiple_diverging_lines.baseline
     t: baseline
@@ -814,7 +826,7 @@ translations:
   - key: comments.description
     t: |
       These comments were submitted as part of the survey 
-      through an optional freeform text field next to the main question. 
+      through an optional freeform text field next to the main question.
   - key: comments.report_abuse
     t: Report this comment
   - key: comments.share
@@ -878,10 +890,16 @@ translations:
     t: Item
   - key: table.percentage_survey
     t: "% of survey respondents"
+  - key: table.percentageSurvey
+    aliasFor: table.percentage_survey
   - key: table.percentage_question
     t: "% of question respondents"
+  - key: table.percentageQuestion
+    aliasFor: table.percentage_question
   - key: table.percentage_facet
     t: "% of facet respondents"
+  - key: table.percentageFacet
+    aliasFor: table.percentage_facet
   - key: table.count
     t: Count
   - key: table.year
@@ -905,7 +923,6 @@ translations:
     aliasFor: charts.axis_legends.usage_percentage
   - key: table.awareness_percentage
     aliasFor: charts.axis_legends.awareness_percentage
-
 
   - key: table.percentages_table
     t: Percentages
@@ -987,7 +1004,6 @@ translations:
   - key: award.most_commented_feature_award.description
     t: Awarded to the feature which received the most comments.
 
-
   - key: award.most_commented_tool_award.title
     t: Most Commented Library
   - key: award.most_commented_tool_award.description
@@ -1046,7 +1062,7 @@ translations:
   - key: hints.share_hint
     t: >
       The <span class="hint-icon hint-share-button">Share</span> tab makes it easy to share any chart, 
-      or even download it as an image. 
+      or even download it as an image.
 
   - key: hints.bracket_hint
     t: >
@@ -1055,7 +1071,7 @@ translations:
 
   - key: hints.comments_hint
     t: >
-      The <span class="hint-icon hint-comment-button">Comment</span> tab lets you view comments left by survey respondents as they were filling out the survey. 
+      The <span class="hint-icon hint-comment-button">Comment</span> tab lets you view comments left by survey respondents as they were filling out the survey.
 
   ###########################################################################
   # Sponsor Chart
@@ -1068,11 +1084,10 @@ translations:
     t: >
       Thanks for supporting the survey. Your avatar should appear next to the chart you picked
       within the next hour or so. If it doesn't, please [get in touch](mailto:chartsponsor@stateofjs.com).
-    
 
   - key: sponsor.sponsored_by
     t: >
-        **{name}** donated **${amount}** to sponsor this chart
+      **{name}** donated **${amount}** to sponsor this chart
 
   - key: sponsor.sponsor_button
     t: Sponsor This Chart
@@ -1082,14 +1097,14 @@ translations:
 
   - key: sponsor.sponsor_chart.description
     t: >
-        Support this survey financially by donating $10 or more, and get your
-        Twitter avatar featured next to a chart!
+      Support this survey financially by donating $10 or more, and get your
+      Twitter avatar featured next to a chart!
 
   - key: sponsor.chart_id
-    t: 'Chart ID: '
+    t: "Chart ID: "
 
   - key: sponsor.sponsor_this_chart
-    t: Sponsor This Chart (${baseAmount}+) 
+    t: Sponsor This Chart (${baseAmount}+)
 
   - key: sponsor.how_it_works.title
     t: How It Works
@@ -1097,19 +1112,18 @@ translations:
   - key: sponsor.how_it_works.description
     t: >
       1. When you **click the "Sponsor This Chart" button**, you will be redirected to our partner [SendOwl](https://www.sendowl.com/)'s checkout page. 
-      
-      
-      2. You can then **adjust the amount** you'd like to sponsor the survey for, starting at USD10.  
-      
-      
-      3. Once you checkout, you will be able to **provide your Twitter username**. 
-      
-      
-      4. You will see a **File Download** page, but you can safely ignore it. 
-      
-      
-      5. The site will rebuild in the background and your username and donation will **appear next to the chart within the next hour**. 
 
+
+      2. You can then **adjust the amount** you'd like to sponsor the survey for, starting at USD10.  
+
+
+      3. Once you checkout, you will be able to **provide your Twitter username**. 
+
+
+      4. You will see a **File Download** page, but you can safely ignore it. 
+
+
+      5. The site will rebuild in the background and your username and donation will **appear next to the chart within the next hour**.
 
   - key: sponsor.faq.title
     t: F.A.Q.
@@ -1130,26 +1144,25 @@ translations:
   #   t: Can I donate on somebody else's behalf?
 
   # - key: sponsor.faq.donation_public.description
-  #   t: You can enter a Twitter username other than your own, but that person will have the right to remove the donation if they request it. 
+  #   t: You can enter a Twitter username other than your own, but that person will have the right to remove the donation if they request it.
 
   - key: sponsor.faq.refund.title
     t: What's your refund policy?
 
   - key: sponsor.faq.refund.description
-    t: All donations are refundable within a 1-week period, minus transaction fees. 
+    t: All donations are refundable within a 1-week period, minus transaction fees.
 
   - key: sponsor.faq.influence.title
     t: Do donations influence the survey contents?
 
   - key: sponsor.faq.influence.description
-    t: Donations take place once the survey is already published, and donors to not have any influence on the contents of the survey. 
+    t: Donations take place once the survey is already published, and donors to not have any influence on the contents of the survey.
 
   - key: sponsor.faq.feedback.title
     t: Where can I leave feedback/ask questions?
 
   - key: sponsor.faq.feedback.description
     t: You can do so [on GitHub](https://github.com/StateOfJS/Monorepo/issues/69) or [in our Discord](https://discord.gg/tuWRUWVyJs).
-
 
   ###########################################################################
   # Data Explorer
@@ -1160,7 +1173,7 @@ translations:
   - key: sections.data_explorer.description
     t: |
       Dynamically explore the survey's audience by picking two questions, and seeing how
-      respondents are distributed between them. 
+      respondents are distributed between them.
 
   - key: hints.data_explorer
     t: |
@@ -1195,7 +1208,7 @@ translations:
   - key: explorer.extra_respondents.tooltip
     t: Highlighted dots indicate higher-than-expected results.
   - key: explorer.missing_respondents.tooltip
-    t: Empty dots indicate lower-than-expected results. 
+    t: Empty dots indicate lower-than-expected results.
 
   - key: explorer.units_count
     t: Count
@@ -1258,13 +1271,8 @@ translations:
     t: Respondents per dot
   - key: explorer.show_cell_counts
     t: Show cell counts
-
-  - key: explorer.sections.demographics
-    t: Demographics
-  - key: explorer.sections.features
-    t: Features
-  - key: explorer.sections.tools
-    t: Libraries
+  - key: explorer.show_no_answer
+    t: Show “No Answer” cells
 
   - key: explorer.all_fields
     t: All fields
@@ -1276,29 +1284,29 @@ translations:
   - key: explorer.count_details.1
     t: |
       **{xAxisTotal}** “{xAxisLabel}” respondents selected “{xAnswerLabel}”.
-  
+
   - key: explorer.count_details.2
     t: |
-        **{yAxisPercentage}%** of “{yAxisLabel}” respondents selected “{yAnswerLabel}”. 
-  
+      **{yAxisPercentage}%** of “{yAxisLabel}” respondents selected “{yAnswerLabel}”.
+
   - key: explorer.count_details.3
     t: |
-        Applying that percentage to the previous **{xAxisTotal}** respondents figure 
-        gives us an expected baseline of **{normalizedCount}** respondents in this intersection. 
-  
+      Applying that percentage to the previous **{xAxisTotal}** respondents figure 
+      gives us an expected baseline of **{normalizedCount}** respondents in this intersection.
+
   - key: explorer.count_details.4_extra
     t: |
-        The actual count is **{bucketCount}**, and those extra **{normalizedCountDelta}** respondents are *highlighted*. 
- 
+      The actual count is **{cellCount}**, and those extra **{normalizedCountDelta}** respondents are *highlighted*.
+
   - key: explorer.count_details.4_missing
     t: |
-        The actual count is **{bucketCount}**, and those missing **{normalizedCountDelta}** respondents appear as empty dots. 
+      The actual count is **{cellCount}**, and those missing **{normalizedCountDelta}** respondents appear as empty dots.
 
   - key: explorer.percentage_details.1_extra
     t: |
       Overall, **{xAxisPercentage}%** of “{xAxisLabel}” respondents selected “{xAnswerLabel}”, but
       within **“{yAxisLabel}” respondents who selected “{yAnswerLabel}”** that percentage climbs to  **{bucketPercentage}%**.
-  
+
   - key: explorer.percentage_details.1_missing
     t: |
       Overall, **{xAxisPercentage}%** of “{xAxisLabel}” respondents selected “{xAnswerLabel}”, but
@@ -1306,33 +1314,32 @@ translations:
 
   - key: explorer.percentage_details.2_extra
     t: |
-        Those extra **{normalizedPercentageDelta}%** respondents are *highlighted*. 
-  
+      Those extra **{normalizedPercentageDelta}%** respondents are *highlighted*.
+
   - key: explorer.percentage_details.2_missing
     t: |
-        Those missing **{normalizedPercentageDelta}%** respondents appear as empty dots. 
+      Those missing **{normalizedPercentageDelta}%** respondents appear as empty dots.
 
   # - key: explorer.percentage_details.1
   #   t: |
   #     **{xAxisPercentage}%** of **{xAxisTotal}** “{xAxisLabel}” respondents selected “{xAnswerLabel}”.
-  
+
   # - key: explorer.percentage_details.2
   #   t: |
-  #       **{yAxisPercentage}%** of “{yAxisLabel}” respondents selected “{yAnswerLabel}”. 
-  
+  #       **{yAxisPercentage}%** of “{yAxisLabel}” respondents selected “{yAnswerLabel}”.
+
   # - key: explorer.percentage_details.3
   #   t: |
-  #       Applying that percentage to the previous **{xAxisTotal}** respondents figure 
-  #       gives us an expected baseline of **{normalizedPercentage}%** of respondents in this intersection. 
-  
+  #       Applying that percentage to the previous **{xAxisTotal}** respondents figure
+  #       gives us an expected baseline of **{normalizedPercentage}%** of respondents in this intersection.
+
   # - key: explorer.percentage_details.4_extra
   #   t: |
-  #       The actual percentage is **{bucketPercentage}%**, and those extra **{normalizedPercentageDelta}%** respondents are *highlighted*. 
-  
+  #       The actual percentage is **{bucketPercentage}%**, and those extra **{normalizedPercentageDelta}%** respondents are *highlighted*.
+
   # - key: explorer.percentage_details.4_missing
   #   t: |
-  #       The actual count is **{bucketPercentage}%**, and those missing **{normalizedPercentageDelta}%** respondents appear as empty dots. 
-
+  #       The actual count is **{bucketPercentage}%**, and those missing **{normalizedPercentageDelta}%** respondents appear as empty dots.
 
   - key: explorer.extra_missing_respondents
     t: |
@@ -1340,7 +1347,7 @@ translations:
 
       The chart above aims to identify areas showing higher-than-expected 
       or lower-than-expected values compared to a calculated baseline. 
-      
+
       For example, assuming there are 1000 CSS Grid users, and that 50% of survey respondents work in a large company, 
       you'd expect to find 500 CSS Grid users working in large companies. 
 
@@ -1348,11 +1355,9 @@ translations:
       correlation between both variables, and is highlighted on the chart with either colored 
       dots (for extra respondents above the baseline) or empty dots (for missing respondents).
 
-
   ###########################################################################
   # Filters
   ###########################################################################
-
 
   - key: filters.compare_data
     t: Compare Data
@@ -1363,7 +1368,7 @@ translations:
   - key: filters.filters.description
     t: |
       Using a combination of demographics filters, you can define up to four **custom data series** to dynamically
-      load and compare them with the default data for this question. 
+      load and compare them with the default data for this question.
   - key: filters.facets.description
     t: |
       Pick a variable to break down each bar into "facets".
