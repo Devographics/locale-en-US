@@ -897,6 +897,9 @@ translations:
 
   # TECHNOLOGY
 
+  - key: sections.technology.title
+    t: Technology
+
   # programming_languages
   - key: technology.programming_languages
     t: Programming languages
