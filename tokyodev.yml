@@ -372,15 +372,15 @@ translations:
   - key: user_info.professional_qualifications.description.td2022
     t: 88% of respondents with some sort of professional qualification held a degree in computer science or a related subject.
 
-  - key: options.user_info.bachelors_degree_related
+  - key: options.professional_qualifications.bachelors_degree_related
     t: Bachelor's degree in computer science or a related field
-  - key: options.user_info.masters_degree_related
+  - key: options.professional_qualifications.masters_degree_related
     t: Master's degree in computer science or a related field
-  - key: options.user_info.phd_related
+  - key: options.professional_qualifications.phd_related
     t: PhD in computer science or a related field
-  - key: options.user_info.coding_bootcamp
+  - key: options.professional_qualifications.coding_bootcamp
     t: Coding bootcamp
-  - key: options.user_info.professional_qualification
+  - key: options.professional_qualifications.professional_qualification
     t: Professional qualification (ex. AWS Devops Professional, Salesforce Certified Platform Developer etc)
 
   # language_proficiency_english
@@ -408,15 +408,15 @@ translations:
   - key: user_info.language_proficiency_japanese.description.td2022
     t: Only 28% of respondents spoke Japanese at a fluent level or above.
 
-  - key: options.language_proficiency_english.none
+  - key: options.language_proficiency_japanese.none
     t: None
-  - key: options.language_proficiency_english.basic
+  - key: options.language_proficiency_japanese.basic
     t: Basic
-  - key: options.language_proficiency_english.conversational
+  - key: options.language_proficiency_japanese.conversational
     t: Conversational
-  - key: options.language_proficiency_english.fluent
+  - key: options.language_proficiency_japanese.fluent
     t: Fluent
-  - key: options.language_proficiency_english.native_bilingual
+  - key: options.language_proficiency_japanese.native_bilingual
     t: Native / bilingual
 
   # searching_for_job
@@ -465,6 +465,9 @@ translations:
 
   # EMPLOYER INFO
 
+  - key: sections.employer_info.title
+    t: Employer
+
   # current_employer
   - key: employer_info.current_employer
     t: Employer type
@@ -473,15 +476,15 @@ translations:
   - key: employer_info.current_employer.description.td2022
     t: 63% of respondents worked at a company headquartered in Japan.
 
-  - key: options.employer_info.japanese_company
+  - key: options.current_employer.japanese_company
     t: A company headquartered in Japan
-  - key: options.employer_info.japanese_subsidiary
+  - key: options.current_employer.japanese_subsidiary
     t: A Japanese subsidiary of an international company
-  - key: options.employer_info.international_company
+  - key: options.current_employer.international_company
     t: An international company without a corporate entity in Japan
-  - key: options.employer_info.sole_proprietorship
+  - key: options.current_employer.sole_proprietorship
     t: A sole proprietorship
-  - key: options.employer_info.university
+  - key: options.current_employer.university
     t: A university
 
   # industry_sector
@@ -580,6 +583,9 @@ translations:
     t: 10,000 or more employees
 
   # JOB INFO
+
+  - key: sections.job_info.title
+    t: Job
 
   # current_job_description
   - key: job_info.current_job_description
@@ -842,6 +848,9 @@ translations:
 
   # VACATIONS
 
+  - key: sections.vacations.title
+    t: Vacations
+
   # paid_leave
   - key: vacations.paid_leave
     t: Paid leave policy
@@ -940,6 +949,9 @@ translations:
     t: Visual Studio Code was respondents' preferred IDE.
 
   # SATISFACTION
+
+  - key: sections.satisfaction.title
+    t: Satisfaction
 
   # management_satisfaction
   - key: satisfaction.management_satisfaction
