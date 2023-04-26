@@ -439,6 +439,7 @@ translations:
   - key: user_info.searching_for_job.description.td2022
     t: >
       Respondents who were actively looking for a new job had a median salary of ¥6.5 million, whereas for those who weren’t looking, it was ¥9.5 million. Part of the difference could be explained by those actively looking having a median of 5 years of professional experience, whereas those who weren’t had 7 years.
+
   - key: options.searching_for_job.yes
     t: Yes, I'm actively looking for a new job.
   - key: options.searching_for_job.no_but_would_consider
@@ -451,6 +452,9 @@ translations:
     t: Employment status
   - key: user_info.employment_status.question
     t: Which of the following best describes your employment status?
+  - key: user_info.employment_status.description.td2022
+    t: >
+      Only 0.5% of respondents were unemployed, down from 2% in 2021.
 
   - key: options.employment_status.permanent_employee
     t: Permanent employee (Seishain)
@@ -486,7 +490,8 @@ translations:
   - key: employer_info.current_employer.question
     t: Which of the following best describes your current employer?
   - key: employer_info.current_employer.description.td2022
-    t: 63% of respondents worked at a company headquartered in Japan.
+    t: >
+      63% of respondents worked at a company headquartered in Japan.
 
   - key: options.current_employer.japanese_company
     t: A company headquartered in Japan
@@ -505,7 +510,8 @@ translations:
   - key: employer_info.industry_sector.question
     t: What industry or business domain is your current employer in?
   - key: employer_info.industry_sector.description.td2022
-    t: SaaS, Finance, and E-Commerce were the most common industries.
+    t: >
+      SaaS, Finance, and E-Commerce were the most common industries.
 
   - key: options.industry_sector.ai
     t: Artificial Intelligence (AI)
@@ -556,7 +562,8 @@ translations:
   - key: employer_info.remote_work_policy.question
     t: What best describes your employer's remote work policy?
   - key: employer_info.remote_work_policy.description.td2022
-    t: 70% of respondents either worked at a company that worked fully remotely, or who gave employees the option of working completely remotely. Only 4% of respondents were required to exclusively work from an office.
+    t: >
+      70% of respondents either worked at a company that worked fully remotely, or who gave employees the option of working completely remotely. Only 4% of respondents were required to exclusively work from an office.
 
   - key: options.remote_work_policy.no_remote_work
     t: No remote work. All employees must attend the office.
@@ -573,7 +580,8 @@ translations:
   - key: employer_info.company_size.question
     t: How many employees does your employer have (worldwide)?
   - key: employer_info.company_size.description.td2022
-    t: 39% of respondents worked at employers with 20 to 499 employees.
+    t: ?
+      39% of respondents worked at employers with 20 to 499 employees.
 
   - key: options.company_size.range_1
     t: Just me - I am a freelancer, sole proprietor, etc.
@@ -605,7 +613,8 @@ translations:
   - key: job_info.current_job_description.question
     t: Which of the following describes your current job? Please select all that apply.
   - key: job_info.current_job_description.question.td2022
-    t: 74% of respondents had a role with a back-end, front-end, or full-stack component to it.
+    t: >
+      74% of respondents had a role with a back-end, front-end, or full-stack component to it.
 
   - key: options.current_job_description.academic_researcher
     t: Academic researcher
@@ -666,7 +675,8 @@ translations:
   - key: job_info.coworker_nationalities_engineers.question
     t: What are the nationalities of the other people you work with? [Engineers]
   - key: job_info.coworker_nationalities_engineers.description.td2022
-    t: Engineering teams tended to be highly international, whereas it wasn’t uncommon for non-engineers to be mostly Japanese.
+    t: >
+      Engineering teams tended to be highly international, whereas it wasn’t uncommon for non-engineers to be mostly Japanese.
 
   - key: options.coworker_nationalities_engineers.all_or_mostly_japanese
     t: All or mostly Japanese
@@ -679,7 +689,7 @@ translations:
   - key: job_info.coworker_nationalities_non_engineers
     t: Nationality of colleagues (Others)
   - key: job_info.coworker_nationalities_non_engineers.question
-    t: "What are the nationalities of the other people you work with? [Others]"
+    t: What are the nationalities of the other people you work with? [Others]
 
   - key: options.coworker_nationalities_non_engineers.all_or_mostly_japanese
     t: All or mostly Japanese
@@ -692,9 +702,7 @@ translations:
   - key: job_info.languages_used_colleagues_japanese
     t: Language usage (Japanese)
   - key: job_info.languages_used_colleagues_japanese.question
-    t: "What languages do you use with your colleagues? [Japanese]"
-  - key: job_info.languages_used_colleagues_japanese.description.td2022
-    t: "What languages do you use with your colleagues? [Japanese]"
+    t: What languages do you use with your colleagues? [Japanese]
 
   - key: options.languages_used_colleagues_japanese.never
     t: Never
@@ -709,9 +717,7 @@ translations:
   - key: job_info.languages_used_colleagues_english
     t: Language usage (English)
   - key: job_info.languages_used_colleagues_english.question
-    t: "What languages do you use with your colleagues? [English]"
-  - key: job_info.languages_used_colleagues_english.description.td2022
-    t: "What languages do you use with your colleagues? [English]"
+    t: What languages do you use with your colleagues? [English]
 
   - key: options.languages_used_colleagues_english.never
     t: Never
@@ -728,7 +734,8 @@ translations:
   - key: job_info.years_employed.question
     t: How many years have you been employed by your current employer?
   - key: job_info.years_employed.description.td2022
-    t: The median number of years at the current employer was 2.
+    t: >
+      The median number of years at the current employer was 2.
 
   # work_hours_per_week
   - key: job_info.work_hours_per_week
@@ -736,7 +743,8 @@ translations:
   - key: job_info.work_hours_per_week.question
     t: In a typical week, how many hours do you work?
   - key: job_info.work_hours_per_week.description.td2022
-    t: 55% of respondents worked 40 hours in a typical week, and only 26% of respondents reported working over 40 hours.
+    t: >
+      55% of respondents worked 40 hours in a typical week, and only 26% of respondents reported working over 40 hours.
 
   # work_days_per_week
   - key: job_info.work_days_per_week
@@ -744,7 +752,8 @@ translations:
   - key: job_info.work_days_per_week.question
     t: In a typical week, how many days do you work?
   - key: job_info.work_days_per_week.description.td2022
-    t: 97% of permanent employees worked a five-day work week.
+    t: >
+      97% of permanent employees worked a five-day work week.
 
   - key: options.work_days_per_week.1
     t: 1
@@ -767,7 +776,8 @@ translations:
   - key: job_info.how_did_you_find_your_current_job.question
     t: How did you find your current job?
   - key: job_info.how_did_you_find_your_current_job.description.td2022
-    t: 34% of respondents found their job via a recruiter (internal or external).
+    t: >
+      34% of respondents found their job via a recruiter (internal or external).
 
   - key: options.how_did_you_find_your_current_job.company_website
     t: Company website
