@@ -9,6 +9,9 @@ translations:
     t: Where do respondents live?
   - key: user_info.japan_province.question
     t: Where do you currently reside?
+  - key: user_info.japan_province.description.td2022
+    t: >
+      85% of respondents lived in the Greater Tokyo Area (Tokyo, Saitama, Chiba, and Kanagawa).
 
   - key: options.japan_province.outside_of_japan
     t: Outside of Japan
@@ -110,8 +113,11 @@ translations:
   # residency_status
   - key: user_info.residency_status
     t: Residency status
-  - key: user_info.residency_status
+  - key: user_info.residency_status.question
     t: What is your residency status in Japan?
+  - key: user_info.residency_status.description.td2022
+    t: >
+      59% of respondents had a residency status tied to their employer (engineer, highly skilled foreign professional, or investor / business manager).
 
   - key: options.residency_status.japanese_citizen
     t: Japanese citizen
@@ -140,6 +146,9 @@ translations:
     t: Gender
   - key: user_info.gender.question
     t: Which of the following describe you, if any?
+  - key: user_info.gender.description.td2022
+    t: >
+      The overwhelming majority of respondents described themselves as male. While we had respondents who identify as neither male or female, we didn’t get enough responses to further segment their data while maintaining the anonymity of the individuals.
 
   - key: options.gender.man
     t: Man
@@ -153,18 +162,20 @@ translations:
   # age
   - key: user_info.age
     t: Age
-  - key: user_info.age.description.2022
-    t: 79% of respondents were between 25 and 39 years of age.
   - key: user_info.age.question
     t: What is your age?
+  - key: user_info.age.description.td2022
+    t: >
+      79% of respondents were between 25 and 39 years of age.
 
   # years_of_experience
   - key: user_info.years_of_experience
     t: Professional software development experience
-  - key: user_info.years_of_experience.description.2022
-    t: The median respondent had 7 years of professional software development experience, up one year from 2021’s survey.
   - key: user_info.years_of_experience.question
     t: How many years of professional experience do you have in software development?
+  - key: user_info.years_of_experience.description.2022
+    t: >
+      The median respondent had 7 years of professional software development experience, up one year from 2021’s survey.
 
   - key: options.years_of_experience.0
     t: Under a year
@@ -267,7 +278,8 @@ translations:
   - key: user_info.years_in_japan.question
     t: How many years have you lived in Japan?
   - key: user_info.years_in_japan.description.td2022
-    t: Respondents lived in Japan for a median of 5 years.
+    t: >
+      Respondents lived in Japan for a median of 5 years.
 
   - key: options.years_in_japan.0
     t: Under a year
@@ -860,13 +872,13 @@ translations:
     t: >
       50% of respondents reported they received the legal minimum for leave: 10 days after 6 months, increasing by 1 day per year of service, to a maximum of 20 days.
 
-  - key: options.vacations.no_paid_leave
+  - key: options.paid_leave.no_paid_leave
     t: No paid leave
-  - key: options.vacations.minimum_required
+  - key: options.paid_leave.minimum_required
     t: The minimum required by Japanese law (10 days after 6 months, increasing by 1 day per year of service)
-  - key: options.vacations.twenty_days_per_year
+  - key: options.paid_leave.twenty_days_per_year
     t: 20 days per year immediately after joining
-  - key: options.vacations.unlimited_leave
+  - key: options.paid_leave.unlimited_leave
     t: Unlimited leave
 
   # additional_vacations
