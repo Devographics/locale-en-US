@@ -580,7 +580,7 @@ translations:
   - key: employer_info.company_size.question
     t: How many employees does your employer have (worldwide)?
   - key: employer_info.company_size.description.td2022
-    t: ?
+    t: >
       39% of respondents worked at employers with 20 to 499 employees.
 
   - key: options.company_size.range_1
