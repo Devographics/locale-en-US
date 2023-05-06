@@ -1,240 +1,261 @@
 locale: en-US
 translations:
-    ###########################################################################
-    # General
-    ###########################################################################
+  ###########################################################################
+  # General
+  ###########################################################################
 
-    - key: general.no_preview_surveys
-      t: No surveys to preview
-    - key: general.global_nav
-      t: Global
-    - key: general.survey_status_preview
-      t: Preview
-    - key: general.survey_status_open
-      t: Open
-    - key: general.survey_status_closed
-      t: Closed
+  - key: general.no_preview_surveys
+    t: No surveys to preview
+  - key: general.global_nav
+    t: Global
+  - key: general.survey_status_preview
+    t: Preview
+  - key: general.survey_status_open
+    t: Open
+  - key: general.survey_status_closed
+    t: Closed
 
-    ###########################################################################
-    # Errors
-    ###########################################################################
+  ###########################################################################
+  # Errors
+  ###########################################################################
 
-    - key: error.duplicate_response
-      t: Sorry, you already have a session in progress for this survey. 
+  - key: error.duplicate_response
+    t: Sorry, you already have a session in progress for this survey.
 
-    ###########################################################################
-    # Accounts
-    ###########################################################################
+  ###########################################################################
+  # Accounts
+  ###########################################################################
 
-    - key: accounts.create_account
-      t: Create an Account
-    - key: accounts.create_account.description
-      t: Having an account lets you **access your own data in the future** and be notified when survey results are published.
-    - key: accounts.create_account.note
-      t: If you **already have an account** we will send you a magic log-in link by email.
-    - key: accounts.create_account.action
-      t: Continue with Account
-    - key: accounts.your_email
-      t: Your Email
+  - key: accounts.create_account
+    t: Create an Account
+  - key: accounts.create_account.description
+    t: Having an account lets you **access your own data in the future** and be notified when survey results are published.
+  - key: accounts.create_account.note
+    t: If you **already have an account** we will send you a magic log-in link by email.
+  - key: accounts.create_account.action
+    t: Continue with Account
+  - key: accounts.your_email
+    t: Your Email
 
-    - key: accounts.continue_as_guest
-      t: Continue as Guest
-    - key: accounts.continue_as_guest.description
-      t: Taking the survey anonymously means you **won't be able to access your data again** after you end your session.
-    - key: accounts.continue_as_guest.action
-      t: Continue as Guest
+  - key: accounts.continue_as_guest
+    t: Continue as Guest
+  - key: accounts.continue_as_guest.description
+    t: Taking the survey anonymously means you **won't be able to access your data again** after you end your session.
+  - key: accounts.continue_as_guest.action
+    t: Continue as Guest
 
-    - key: accounts.magic_link.no_email
-      t: Please enter your email
-    - key: accounts.magic_link.success
-      t: Check your inbox! We sent you a magic link, just click it to confirm your account and log in.
-            
-    ###########################################################################
-    # FAQ
-    ###########################################################################
+  - key: accounts.magic_link.no_email
+    t: Please enter your email
+  - key: accounts.magic_link.success
+    t: Check your inbox! We sent you a magic link, just click it to confirm your account and log in.
 
-    - key: general.faq
-      t: FAQ
-    - key: faq.create_account
-      t: Why do I need to create an account?
-    - key: faq.create_account.description
-      t: We ask you to create an account in order to avoid duplicate responses, save your data, and notify you when results are published.
-    - key: faq.anonymous_survey
-      t: Can I take the survey anonymously?
-    - key: faq.anonymous_survey.description
-      t: Yes, you can use a fake (something@example.com) or non-identifying email to take the survey as long as you save it for future access. 
-    - key: faq.questions_required
-      t: Is answering every question required?
-    - key: faq.questions_required.description
-      t: No, every question of the survey is optional and can freely be skipped. 
-    - key: faq.data_published
-      t: Will my data be made public?
-    - key: faq.data_published.description
-      t: Yes, all data will be released publicly, but only after being purged of any identifying information (emails, usernames, IDs, etc.).
-    - key: faq.survey_design
-      t: How are the surveys designed?
-    - key: faq.survey_design.description
-      t: Surveys are designed based on community feedback, as well as reviewed by experts. You can [learn more here](https://dev.to/sachagreif/how-the-state-of-js-css-surveys-are-run-4lnb). 
-    - key: faq.results_released
-      t: When will the results be released?
-    - key: faq.results_released.description
-      t: Results are generally released a few weeks after the survey closes.
-    - key: faq.survey_deadline
-      t: When will the survey close?
-    - key: faq.survey_deadline.description
-      t: This survey is scheduled to run until {date}
-    - key: faq.team
-      t: Who runs these surveys?
-    - key: faq.team.description
-      t: Surveys are run by [Devographics](http://devographics.com) together with a collective of contributors, translators, and volunteers. 
+  ###########################################################################
+  # FAQ
+  ###########################################################################
 
-    ###########################################################################
-    # Form Controls
-    ###########################################################################
+  - key: general.faq
+    t: FAQ
+  - key: faq.create_account
+    t: Why do I need to create an account?
+  - key: faq.create_account.description
+    t: We ask you to create an account in order to avoid duplicate responses, save your data, and notify you when results are published.
+  - key: faq.anonymous_survey
+    t: Can I take the survey anonymously?
+  - key: faq.anonymous_survey.description
+    t: Yes, you can use a fake (something@example.com) or non-identifying email to take the survey as long as you save it for future access.
+  - key: faq.questions_required
+    t: Is answering every question required?
+  - key: faq.questions_required.description
+    t: No, every question of the survey is optional and can freely be skipped.
+  - key: faq.data_published
+    t: Will my data be made public?
+  - key: faq.data_published.description
+    t: Yes, all data will be released publicly, but only after being purged of any identifying information (emails, usernames, IDs, etc.).
+  - key: faq.survey_design
+    t: How are the surveys designed?
+  - key: faq.survey_design.description
+    t: Surveys are designed based on community feedback, as well as reviewed by experts. You can [learn more here](https://dev.to/sachagreif/how-the-state-of-js-css-surveys-are-run-4lnb).
+  - key: faq.results_released
+    t: When will the results be released?
+  - key: faq.results_released.description
+    t: Results are generally released a few weeks after the survey closes.
+  - key: faq.survey_deadline
+    t: When will the survey close?
+  - key: faq.survey_deadline.description
+    t: This survey is scheduled to run until {date}
+  - key: faq.team
+    t: Who runs these surveys?
+  - key: faq.team.description
+    t: Surveys are run by [Devographics](http://devographics.com) together with a collective of contributors, translators, and volunteers.
 
-    - key: bracket.vs
-      t: VS
-    - key: bracket.start_over
-      t: Start Over
-    - key: bracket.winner
-      t: >
-      Winner: 
-    - key: bracket.round
-      t: Round
-    - key: bracket.empty_bracket
-      t: Pending result (complete the previous round first)
-    - key: bracket.result
-      t: Result
-    - key: bracket.cancel
-      t: Cancel
+  ###########################################################################
+  # Form Controls
+  ###########################################################################
 
-    - key: experience.leave_comment
-      t: Leave a Comment (optional)
-    - key: experience.leave_comment_short
-      t: Leave a Comment
-    - key: experience.tell_us_more
-      t: "You picked “{response}”. Tell us more about your choice:"
-    - key: experience.tell_us_more_no_value
-      t: "You didn't pick any response. Tell us why:"
+  - key: bracket.vs
+    t: VS
+  - key: bracket.start_over
+    t: Start Over
+  - key: bracket.winner
+    t: >
+    Winner:
+  - key: bracket.round
+    t: Round
+  - key: bracket.empty_bracket
+    t: Pending result (complete the previous round first)
+  - key: bracket.result
+    t: Result
+  - key: bracket.cancel
+    t: Cancel
 
-    ###########################################################################
-    # Response
-    ###########################################################################
+  - key: experience.leave_comment
+    t: Leave a Comment (optional)
+  - key: experience.leave_comment_short
+    t: Leave a Comment
+  - key: experience.tell_us_more
+    t: "You picked “{response}”. Tell us more about your choice:"
+  - key: experience.tell_us_more_no_value
+    t: "You didn't pick any response. Tell us why:"
 
-    - key: response.completion
-      t: '{completion}% completed'
+  ###########################################################################
+  # Response
+  ###########################################################################
 
-    - key: response.details
-      t: Started on {startedAt}, {completion}% completed.
+  - key: response.completion
+    t: "{completion}% completed"
 
-    - key: response.view_results
-      t: View Results
+  - key: response.details
+    t: Started on {startedAt}, {completion}% completed.
 
-    ###########################################################################
-    # Survey-Specific Intros
-    ###########################################################################
+  - key: response.view_results
+    t: View Results
 
-    - key: general.js2020.survey_intro
-      t: |
-          2020 has been a tough year for everyone, one that makes worrying about the
-          latest JavaScript frameworks seem pretty futile in comparison. 
+  ###########################################################################
+  # Survey-Specific Intros
+  ###########################################################################
 
-          Still, the world has to move on, and so does JavaScript. And once again, with your help
-          we'll try to build a comprehensive picture of the ecosystem to find out a little bit more
-          about where it's going. 
+  - key: general.js2020.survey_intro
+    t: |
+      2020 has been a tough year for everyone, one that makes worrying about the
+      latest JavaScript frameworks seem pretty futile in comparison. 
 
-    - key: general.css2021.survey_intro
-      t: |
-          Hey CSS, what have you been up to lately? Oh really, `@container`? Oh and 
-          intrinsic sizing? And `@property` too?! Wow, you've been busy!
+      Still, the world has to move on, and so does JavaScript. And once again, with your help
+      we'll try to build a comprehensive picture of the ecosystem to find out a little bit more
+      about where it's going.
 
-          Even though the pandemic kept on making everybody's lives harder throughout 2021, somehow
-          dedicated contributors around the world managed to keep CSS moving forward. 
-          And so once more it's time to survey the CSS ecosystem and figure out
-          where this is all going. And maybe learn about a few new things while you're at it!
+  - key: general.css2021.survey_intro
+    t: |
+      Hey CSS, what have you been up to lately? Oh really, `@container`? Oh and 
+      intrinsic sizing? And `@property` too?! Wow, you've been busy!
 
-    - key: general.js2021.survey_intro
-      t: |
-          First the 2020 Olympics got pushed back to 2021, 
-          and now the 2021 State of JavaScript survey is happening now, in 2022!
+      Even though the pandemic kept on making everybody's lives harder throughout 2021, somehow
+      dedicated contributors around the world managed to keep CSS moving forward. 
+      And so once more it's time to survey the CSS ecosystem and figure out
+      where this is all going. And maybe learn about a few new things while you're at it!
 
-          It's true: between work, family, and and all the turmoil in the world, 
-          some things got disrupted a little.
+  - key: general.js2021.survey_intro
+    t: |
+      First the 2020 Olympics got pushed back to 2021, 
+      and now the 2021 State of JavaScript survey is happening now, in 2022!
 
-          But while the year may be off-by-one, we hope the data provided by the 
-          survey itself will be just as informative and insightful as ever. 
-          And don't worry, there will be another survey towards the end of this year to set things straight again!
+      It's true: between work, family, and and all the turmoil in the world, 
+      some things got disrupted a little.
 
-    - key: general.graphql2022.survey_intro
-      t: |
-          When GraphQL was first introduced it offered a radically new way to build APIs, with more control, more granularity, and more flexibility. 
+      But while the year may be off-by-one, we hope the data provided by the 
+      survey itself will be just as informative and insightful as ever. 
+      And don't worry, there will be another survey towards the end of this year to set things straight again!
 
-          But that flexibility came at a price in the form of extra complexity, and a crop of frameworks, libraries, and services quickly appeared to help define better patterns and workflows. 
+  - key: general.graphql2022.survey_intro
+    t: |
+      When GraphQL was first introduced it offered a radically new way to build APIs, with more control, more granularity, and more flexibility. 
 
-          Now, for the first time ever we're surveying the GraphQL community to figure out which of these many tools are the most popular, and which features are actually being used. With your help, let's see what GraphQL has been up to in 2022!
-         
-    - key: general.css2022.survey_intro
-      t: |
-          CSS keeps progressing at an unprecedented rate. Luckily this year we got help from someone at the forefront of all these changes: [Lea Verou](https://lea.verou.me/) took the lead on selecting this year's questions, with a special focus on highlighting new and upcoming CSS features. 
+      But that flexibility came at a price in the form of extra complexity, and a crop of frameworks, libraries, and services quickly appeared to help define better patterns and workflows. 
 
-          What's more, the survey results will also help browser vendors prioritize their roadmaps and work towards better compatibility between browsers. 
+      Now, for the first time ever we're surveying the GraphQL community to figure out which of these many tools are the most popular, and which features are actually being used. With your help, let's see what GraphQL has been up to in 2022!
 
-          With all this out of the way, let's see how CSS evolved in 2022!
+  - key: general.css2022.survey_intro
+    t: |
+      CSS keeps progressing at an unprecedented rate. Luckily this year we got help from someone at the forefront of all these changes: [Lea Verou](https://lea.verou.me/) took the lead on selecting this year's questions, with a special focus on highlighting new and upcoming CSS features. 
 
-    - key: general.js2022.survey_intro
-      t: |
-          For the first time in a while, it feels like the status quo of the JavaScript ecosystem is being questioned. 
+      What's more, the survey results will also help browser vendors prioritize their roadmaps and work towards better compatibility between browsers. 
 
-          Faster bundling with Vite, island architecture with Astro, resumability with Qwik… New entrants are challenging the old guard, and the result is a lot more excitement, but also
-          a lot more uncertainty. 
+      With all this out of the way, let's see how CSS evolved in 2022!
 
-          So once more, let's try and figure out together where JavaScript is going, in 2022 and beyond. 
+  - key: general.js2022.survey_intro
+    t: |
+      For the first time in a while, it feels like the status quo of the JavaScript ecosystem is being questioned. 
 
-    ###########################################################################
-    # Survey-Specific FAQs
-    ###########################################################################
+      Faster bundling with Vite, island architecture with Astro, resumability with Qwik… New entrants are challenging the old guard, and the result is a lot more excitement, but also
+      a lot more uncertainty. 
 
-    # CSS 2022
+      So once more, let's try and figure out together where JavaScript is going, in 2022 and beyond.
 
-    - key: faq.learn_more_css2022
-      t: Where can I learn more?
-    - key: faq.learn_more_css2022.description
-      t: You can learn more about [last year's survey here](https://2021.stateofcss.com/en-US/about/). 
+  ###########################################################################
+  # Survey-Specific FAQs
+  ###########################################################################
 
-    - key: faq.survey_design_css2022
-      t: How was this survey designed?
-    - key: faq.survey_design_css2022.description
-      t: This year, thanks to a grant from Google's [UI Fund](https://web.dev/ui-fund/), [Lea Verou](https://lea.verou.me/) was able to take the lead and managed the [open survey design process](https://github.com/orgs/Devographics/projects/1/views/1) on GitHub. 
+  # CSS 2022
 
-    - key: faq.results_released_css2022
-      t: When will the results be released?
-    - key: faq.results_released_css2022.description
-      t: The survey will run until the end of October 2022, and the survey results will be released in early November. 
+  - key: faq.learn_more_css2022
+    t: Where can I learn more?
+  - key: faq.learn_more_css2022.description
+    t: You can learn more about [last year's survey here](https://2021.stateofcss.com/en-US/about/).
 
-    - key: faq.data_used_css2022
-      t: How will this data be used?
-    - key: faq.data_used_css2022.description
-      t: All data collected will be released publicly. It will then become a resources both for developers, who consult it to inform their technological choices, and browser vendors, who use it to prioritize focus areas and inform their roadmaps.
+  - key: faq.survey_design_css2022
+    t: How was this survey designed?
+  - key: faq.survey_design_css2022.description
+    t: This year, thanks to a grant from Google's [UI Fund](https://web.dev/ui-fund/), [Lea Verou](https://lea.verou.me/) was able to take the lead and managed the [open survey design process](https://github.com/orgs/Devographics/projects/1/views/1) on GitHub.
 
+  - key: faq.results_released_css2022
+    t: When will the results be released?
+  - key: faq.results_released_css2022.description
+    t: The survey will run until the end of October 2022, and the survey results will be released in early November.
 
-    # JS 2022
+  - key: faq.data_used_css2022
+    t: How will this data be used?
+  - key: faq.data_used_css2022.description
+    t: All data collected will be released publicly. It will then become a resources both for developers, who consult it to inform their technological choices, and browser vendors, who use it to prioritize focus areas and inform their roadmaps.
 
-    - key: faq.learn_more_js2022
-      t: Where can I learn more?
-    - key: faq.learn_more_js2022.description
-      t: You can learn more about [last year's survey here](https://2021.stateofjs.com/en-US/about/). 
+  # CSS 2023 (TODO)
 
-    # - key: faq.survey_design_js2022
-    #   t: How was this survey designed?
-    # - key: faq.survey_design_css2022.description
-    #   t: This year, thanks to a grant from Google's [UI Fund](https://web.dev/ui-fund/), [Lea Verou](https://lea.verou.me/) was able to take the lead and managed the [open survey design process](https://github.com/orgs/Devographics/projects/1/views/1) on GitHub. 
+  - key: faq.learn_more_css2023
+    t: Where can I learn more?
+  - key: faq.learn_more_css2023.description
+    t: You can learn more about [last year's survey here](https://2021.stateofcss.com/en-US/about/).
 
-    - key: faq.results_released_js2022
-      t: When will the results be released?
-    - key: faq.results_released_js2022.description
-      t: The survey will run until December 15, 2022, and the survey results will be released shortly afterwards. 
+  - key: faq.survey_design_css2023
+    t: How was this survey designed?
+  - key: faq.survey_design_css2023.description
+    t: This year, thanks to a grant from Google's [UI Fund](https://web.dev/ui-fund/), [Lea Verou](https://lea.verou.me/) was able to take the lead and managed the [open survey design process](https://github.com/orgs/Devographics/projects/1/views/1) on GitHub.
 
-    - key: faq.data_used_js2022
-      t: How will this data be used?
-    - key: faq.data_used_js2022.description
-      t: All data collected will be released publicly. It will then become a resources both for developers, who consult it to inform their technological choices, and browser vendors, who use it to prioritize focus areas and inform their roadmaps.
+  - key: faq.results_released_css2023
+    t: When will the results be released?
+  - key: faq.results_released_css2023.description
+    t: The survey will run until the end of October 2022, and the survey results will be released in early November.
+
+  - key: faq.data_used_css2023
+    t: How will this data be used?
+  - key: faq.data_used_css2023.description
+    t: All data collected will be released publicly. It will then become a resources both for developers, who consult it to inform their technological choices, and browser vendors, who use it to prioritize focus areas and inform their roadmaps.
+
+  # JS 2022
+
+  - key: faq.learn_more_js2022
+    t: Where can I learn more?
+  - key: faq.learn_more_js2022.description
+    t: You can learn more about [last year's survey here](https://2021.stateofjs.com/en-US/about/).
+
+  # - key: faq.survey_design_js2022
+  #   t: How was this survey designed?
+  # - key: faq.survey_design_css2022.description
+  #   t: This year, thanks to a grant from Google's [UI Fund](https://web.dev/ui-fund/), [Lea Verou](https://lea.verou.me/) was able to take the lead and managed the [open survey design process](https://github.com/orgs/Devographics/projects/1/views/1) on GitHub.
+
+  - key: faq.results_released_js2022
+    t: When will the results be released?
+  - key: faq.results_released_js2022.description
+    t: The survey will run until December 15, 2022, and the survey results will be released shortly afterwards.
+
+  - key: faq.data_used_js2022
+    t: How will this data be used?
+  - key: faq.data_used_js2022.description
+    t: All data collected will be released publicly. It will then become a resources both for developers, who consult it to inform their technological choices, and browser vendors, who use it to prioritize focus areas and inform their roadmaps.

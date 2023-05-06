@@ -345,38 +345,38 @@ translations:
     t: Individual Transform Properties
 
   # missing features (see also options)
-  - key: features.nesting
-    t: Nesting
-  - key: features.nesting.description
-    t: Being able to nest styles in native CSS.
-  - key: features.parent_selector
-    t: Parent Selector
-  - key: features.parent_selector.description
-    t: The ability to target a parent element based on its children.
-  - key: features.browser_support
-    t: Browser Support
-  - key: features.browser_support.description
-    t: Better browser support for existing features.
-  - key: features.mixins
-    t: Mixins
-  - key: features.mixins.description
-    t: Group and reuse definitions dynamically.
-  - key: features.color_functions
-    t: Color Functions
-  - key: features.color_functions.description
-    t: Functions for manipulating color values.
-  - key: features.container_queries
-    t: Container Queries
-  - key: features.container_queries.description
-    t: Being able to write styles based on the parent container's dimensions.
-  - key: features.scoping
-    t: Scoping
-  - key: features.scoping.description
-    t: The ability to be more specific about where your styles are applied.
-  - key: features.subgrid
-    t: Subgrid
-  - key: features.subgrid.description
-    t: Nesting deeper-level subgrids into a parent grid.
+  # - key: features.nesting
+  #   t: Nesting
+  # - key: features.nesting.description
+  #   t: Being able to nest styles in native CSS.
+  # - key: features.parent_selector
+  #   t: Parent Selector
+  # - key: features.parent_selector.description
+  #   t: The ability to target a parent element based on its children.
+  # - key: features.browser_support
+  #   t: Browser Support
+  # - key: features.browser_support.description
+  #   t: Better browser support for existing features.
+  # - key: features.mixins
+  #   t: Mixins
+  # - key: features.mixins.description
+  #   t: Group and reuse definitions dynamically.
+  # - key: features.color_functions
+  #   t: Color Functions
+  # - key: features.color_functions.description
+  #   t: Functions for manipulating color values.
+  # - key: features.container_queries
+  #   t: Container Queries
+  # - key: features.container_queries.description
+  #   t: Being able to write styles based on the parent container's dimensions.
+  # - key: features.scoping
+  #   t: Scoping
+  # - key: features.scoping.description
+  #   t: The ability to be more specific about where your styles are applied.
+  # - key: features.subgrid
+  #   t: Subgrid
+  # - key: features.subgrid.description
+  #   t: Nesting deeper-level subgrids into a parent grid.
 
   ###########################################################################
   # Units & Selectors
@@ -600,6 +600,15 @@ translations:
   - key: environments.form_factors.others.description
     t: Other form factors or environments you usually test on.
 
+  - key: usage.form_factors
+    aliasFor: environments.form_factors
+  - key: usage.form_factors.description
+    aliasFor: environments.form_factors.description
+  - key: usage.form_factors.others
+    aliasFor: environments.form_factors.others
+  - key: usage.form_factors.others.description
+    aliasFor: environments.form_factors.others.description
+
   - key: environments.accessibility_features
     t: Accessibility Features
   - key: environments.accessibility_features.description
@@ -625,6 +634,13 @@ translations:
     t: What kind of project do you usually use CSS for?
   - key: environments.what_do_you_use_css_for.others
     t: Other kinds of projects
+
+  - key: usage.what_do_you_use_css_for
+    aliasFor: environments.what_do_you_use_css_for
+  - key: usage.what_do_you_use_css_for.description
+    aliasFor: environments.what_do_you_use_css_for.description
+  - key: usage.what_do_you_use_css_for.others
+    aliasFor: environments.what_do_you_use_css_for.others
 
   - key: charts.axis_legends.css_for_print
     t: Frequency
