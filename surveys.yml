@@ -113,7 +113,7 @@ translations:
   - key: experience.leave_comment_short
     t: Leave a Comment
   - key: experience.tell_us_more
-    t: "You picked “{response}”. Tell us more about your choice:"
+    t: "You answered “{response}”. Tell us more about your choice:"
   - key: experience.tell_us_more_no_value
     t: "You didn't pick any response. Tell us why:"
 
@@ -129,6 +129,54 @@ translations:
 
   - key: response.view_results
     t: View Results
+
+  ###########################################################################
+  # Reading List
+  ###########################################################################
+
+  - key: readinglist.add_to_list
+    t: Add to Your Reading List
+
+  - key: readinglist.title
+    t: Reading List
+
+  - key: readinglist.description
+    t: >
+      Save items here using the "+" button, and you'll get a list of links to learn more about them at the end of the survey.
+
+  - key: readinglist.results
+    t: >
+      Here are some resources to learn more about the items in your reading list:
+
+  - key: readinglist.homepage_link
+    t: Homepage
+
+  - key: readinglist.receive_copy
+    t: >
+      Enter your email to get a copy of your reading list straight in your inbox:
+  - key: readinglist.send_by_email
+    t: Send
+  - key: readinglist.email_sent
+    t: Thanks! Your reading list is on its way to your inbox.
+
+  ###########################################################################
+  # Score & Knowledge Ranks
+  ###########################################################################
+
+  - key: knowledge_rank.your_rank
+    t: "Your Rank:"
+  - key: knowledge_rank.rank1
+    t: Novice
+  - key: knowledge_rank.rank2
+    t: Apprentice
+  - key: knowledge_rank.rank3
+    t: Intermediate
+  - key: knowledge_rank.rank4
+    t: Expert
+  - key: knowledge_rank.rank5
+    t: Scholar
+  - key: knowledge_rank.rank6
+    t: Elite
 
   ###########################################################################
   # Survey-Specific Intros

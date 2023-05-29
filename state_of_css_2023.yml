@@ -352,6 +352,44 @@ translations:
   #       triggering dizziness and discomfort.
 
   ###########################################################################
+  # Quiz
+  ###########################################################################
+
+  - key: quiz.quiz_dave_shea
+    t: "Question 01"
+  - key: quiz.quiz_dave_shea.question
+    t: >
+      In May 2003, Dave Shea launched a site that showcased CSS's flexibility and adaptability. What was that site's name?
+  - key: options.quiz_dave_shea.css_playground
+    t: CSS Playground
+  - key: options.quiz_dave_shea.style_jungle
+    t: Style Jungle
+  - key: options.quiz_dave_shea.css_zen_garden
+    t: CSS Zen Garden
+  - key: quiz.quiz_dave_shea.answer
+    t: >
+      [CSS Zen Garden](https://www.csszengarden.com/) made a big impression by demonstrating what was possible when you kept markup and styling separate.
+  - key: quiz.quiz_dave_shea.description
+    aliasFor: quiz.quiz_dave_shea.question
+
+  - key: quiz.quiz_css_spec
+    t: "Question 02"
+  - key: quiz.quiz_css_spec.question
+    t: >
+      Which of these organizations maintains the CSS specification?
+  - key: options.quiz_css_spec.w3c
+    t: W3C
+  - key: options.quiz_css_spec.w3schools
+    t: W3Schools
+  - key: options.quiz_css_spec.mdn
+    t: MDN
+  - key: quiz.quiz_css_spec.answer
+    t: >
+      The W3C's [CSS Working Group](https://www.w3.org/groups/wg/css) maintains the CSS spec, which is then implemented by browser vendors.
+  - key: quiz.quiz_css_spec.description
+    aliasFor: quiz.quiz_css_spec.question
+
+  ###########################################################################
   # Sponsors
   ###########################################################################
 

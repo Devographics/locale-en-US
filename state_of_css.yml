@@ -90,10 +90,16 @@ translations:
 
   - key: tools_others.pre_post_processors
     aliasFor: sections.pre_post_processors.title
+  - key: other_tools.pre_post_processors
+    aliasFor: sections.pre_post_processors.title
   - key: tools_others.pre_post_processors.description
+    aliasFor: sections.pre_post_processors.description
+  - key: other_tools.pre_post_processors.description
     aliasFor: sections.pre_post_processors.description
 
   - key: tools_others.pre_post_processors.others
+    aliasFor: sections.pre_post_processors_others.title
+  - key: other_tools.pre_post_processors.others
     aliasFor: sections.pre_post_processors_others.title
 
   - key: sections.css_frameworks.title
@@ -272,6 +278,51 @@ translations:
   - key: options.currently_missing_from_css.subgrid.description
     t: Nesting deeper-level subgrids into a parent grid.
 
+  - key: options.currently_missing_from_css.native_visually_hidden
+    t: Visually Hidden Content
+  - key: options.currently_missing_from_css.native_visually_hidden.description
+    t: Native support for visually hidden content.
+
+  - key: options.currently_missing_from_css.generated_content_alt_text
+    t: Generated Content Alt Text
+  - key: options.currently_missing_from_css.generated_content_alt_text.description
+    t: Add alt text to generated (`::before`, `::after`) content.
+
+  - key: options.currently_missing_from_css.animate_to_auto
+    t: Animate to `auto`
+  - key: options.currently_missing_from_css.animate_to_auto.description
+    t: Animate an element's dimension to `auto`.
+
+  - key: options.currently_missing_from_css.anchored_positioning
+    t: Anchored Positioning
+  - key: options.currently_missing_from_css.anchored_positioning.description
+    t: Positioning elements relative to the edges of any arbitrary other element.
+
+  - key: options.currently_missing_from_css.wrapping_detection
+    t: Wrapping Detection
+  - key: options.currently_missing_from_css.wrapping_detection.description
+    t: Detecting when a flex or grid item has wrapped to another line.
+
+  - key: options.currently_missing_from_css.more_pseudo_elements
+    t: More 2 Pseudo-Elements
+  - key: options.currently_missing_from_css.more_pseudo_elements.description
+    t: Having more than two pseudo-elements per element.
+
+  - key: options.currently_missing_from_css.svg_in_css
+    t: SVG-in-CSS
+  - key: options.currently_missing_from_css.svg_in_css.description
+    t: Support for SVG syntax inside CSS code (such as `background`).
+
+  - key: options.currently_missing_from_css.grid_lines_styling
+    t: Grid-lines Styling
+  - key: options.currently_missing_from_css.grid_lines_styling.description
+    t: The ability to style the invisible lines that divide a grid.
+
+  - key: options.currently_missing_from_css.media_queries_variables
+    t: Media Queries Variables
+  - key: options.currently_missing_from_css.media_queries_variables.description
+    t: Being able to use variables inside media queries.
+
   ###########################################################################
   # Features
   ###########################################################################
@@ -341,42 +392,39 @@ translations:
   - key: features.css_nesting.description
     t: Native CSS nesting, excluding pre- or post-processors.
 
-  - key: features.individual_transform_properties
-    t: Individual Transform Properties
-
   # missing features (see also options)
-  # - key: features.nesting
-  #   t: Nesting
-  # - key: features.nesting.description
-  #   t: Being able to nest styles in native CSS.
-  # - key: features.parent_selector
-  #   t: Parent Selector
-  # - key: features.parent_selector.description
-  #   t: The ability to target a parent element based on its children.
-  # - key: features.browser_support
-  #   t: Browser Support
-  # - key: features.browser_support.description
-  #   t: Better browser support for existing features.
-  # - key: features.mixins
-  #   t: Mixins
-  # - key: features.mixins.description
-  #   t: Group and reuse definitions dynamically.
-  # - key: features.color_functions
-  #   t: Color Functions
-  # - key: features.color_functions.description
-  #   t: Functions for manipulating color values.
-  # - key: features.container_queries
-  #   t: Container Queries
-  # - key: features.container_queries.description
-  #   t: Being able to write styles based on the parent container's dimensions.
-  # - key: features.scoping
-  #   t: Scoping
-  # - key: features.scoping.description
-  #   t: The ability to be more specific about where your styles are applied.
-  # - key: features.subgrid
-  #   t: Subgrid
-  # - key: features.subgrid.description
-  #   t: Nesting deeper-level subgrids into a parent grid.
+  - key: features.nesting
+    t: Nesting
+  - key: features.nesting.description
+    t: Being able to nest styles in native CSS.
+  - key: features.parent_selector
+    t: Parent Selector
+  - key: features.parent_selector.description
+    t: The ability to target a parent element based on its children.
+  - key: features.browser_support
+    t: Browser Support
+  - key: features.browser_support.description
+    t: Better browser support for existing features.
+  - key: features.mixins
+    t: Mixins
+  - key: features.mixins.description
+    t: Group and reuse definitions dynamically.
+  - key: features.color_functions
+    t: Color Functions
+  - key: features.color_functions.description
+    t: Functions for manipulating color values.
+  - key: features.container_queries
+    t: Container Queries
+  - key: features.container_queries.description
+    t: Being able to write styles based on the parent container's dimensions.
+  - key: features.scoping
+    t: Scoping
+  - key: features.scoping.description
+    t: The ability to be more specific about where your styles are applied.
+  - key: features.subgrid
+    t: Subgrid
+  - key: features.subgrid.description
+    t: Nesting deeper-level subgrids into a parent grid.
 
   ###########################################################################
   # Units & Selectors
@@ -565,20 +613,8 @@ translations:
   # slider
   - key: options.css_js_balance.0
     t: 100% CSS
-  - key: options.css_js_balance.1
-    t: "|"
-  - key: options.css_js_balance.2
-    t: "|"
-  - key: options.css_js_balance.3
-    t: "|"
   - key: options.css_js_balance.4
-    t: "50/50"
-  - key: options.css_js_balance.5
-    t: "|"
-  - key: options.css_js_balance.6
-    t: "|"
-  - key: options.css_js_balance.7
-    t: "|"
+    t: 50%–50%
   - key: options.css_js_balance.8
     t: 100% JS
 
@@ -599,15 +635,6 @@ translations:
     t: Other Testing Environments
   - key: environments.form_factors.others.description
     t: Other form factors or environments you usually test on.
-
-  - key: usage.form_factors
-    aliasFor: environments.form_factors
-  - key: usage.form_factors.description
-    aliasFor: environments.form_factors.description
-  - key: usage.form_factors.others
-    aliasFor: environments.form_factors.others
-  - key: usage.form_factors.others.description
-    aliasFor: environments.form_factors.others.description
 
   - key: environments.accessibility_features
     t: Accessibility Features
@@ -634,13 +661,6 @@ translations:
     t: What kind of project do you usually use CSS for?
   - key: environments.what_do_you_use_css_for.others
     t: Other kinds of projects
-
-  - key: usage.what_do_you_use_css_for
-    aliasFor: environments.what_do_you_use_css_for
-  - key: usage.what_do_you_use_css_for.description
-    aliasFor: environments.what_do_you_use_css_for.description
-  - key: usage.what_do_you_use_css_for.others
-    aliasFor: environments.what_do_you_use_css_for.others
 
   - key: charts.axis_legends.css_for_print
     t: Frequency
@@ -711,8 +731,6 @@ translations:
     t: For each matchup, pick the aspect of CSS you struggle with the most.
 
   - key: usage.other_pain_points_freeform
-    t: Pain Points
-  - key: usage.other_pain_points_freeform.description
     t: Any other pain points related to writing CSS?
   - key: usage.other_pain_points_freeform.others
     aliasFor: usage.other_pain_points_freeform
@@ -727,8 +745,6 @@ translations:
     t: For each matchup, pick the feature you'd most like to be able to use in CSS today.
 
   - key: usage.missing_features_freeform
-    t: Missing Features
-  - key: usage.missing_features_freeform.description
     t: What features do you feel are currently missing from CSS altogether?
   - key: usage.missing_features_freeform.others
     aliasFor: usage.missing_features_freeform

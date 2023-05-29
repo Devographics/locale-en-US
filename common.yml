@@ -146,16 +146,32 @@ translations:
 
       Also, you can help us get the word out by sharing this survey. Every bit counts, and it'll help make our data even
       more representative:
+
+  - key: general.thanks1
+    t: >
+      Thanks for filling out the survey! Your data is saved.
+  - key: general.thanks2
+    t: >
+      Help us get the word out by sharing this survey! Every bit counts, and it'll help make our data even
+      more representative.
   - key: thanks.learn_more_about
     t: "Some of the features you might want to learn more about:"
   - key: thanks.knowledge_score
     t: Knowledge Score
-  - key: thanks.score_explanation
+  - key: thanks.features_score
+    t: Features Score
+  - key: thanks.quiz_score
+    t: Quiz Score
+  - key: thanks.score_explanation_old
     t: >
       You’ve heard or used <span class="score-number score-number-known">{known}</span> out of
       <span class="score-number score-number-total">{total}</span> features mentioned in the survey, which
       puts you in the top <span class="score-number score-number-ranking">{knowledgeRankingFromTop}%</span>
       of all respondents.
+  - key: thanks.score_explanation
+    t: >
+      You’ve heard or used <span class="score-number score-number-known">{known}</span> out of
+      <span class="score-number score-number-total">{total}</span> features mentioned in the survey.
   - key: thanks.share_on_twitter
     t: Share on Twitter
   - key: thanks.share_score_message
@@ -175,7 +191,9 @@ translations:
   - key: forms.clear_field
     t: Clear question
   - key: forms.more_options
-    t: Show more
+    t: Show more…
+  - key: forms.less_options
+    t: Show less
 
   # partners & sponsors
   - key: sponsors.with_support_from
@@ -233,12 +251,12 @@ translations:
   - key: sections.resources.title
     t: Resources
   - key: sections.resources.description
-    t: What {topic} resources do you consult?
+    t: What resources do you consult?
 
   - key: sections.opinions.title
     t: Opinions
   - key: sections.opinions.description
-    t: How do you feel about the state of {topic}?
+    t: How do you feel about the state of things?
 
   - key: sections.other_tools.title
     t: Other Tools
@@ -254,6 +272,10 @@ translations:
   ###########################################################################
   # Options
   ###########################################################################
+
+  # other answer
+  - key: options.other
+    t: Other…
 
   # features
   - key: options.features.never_heard
@@ -862,7 +884,7 @@ translations:
     t: Combined
 
   # email_temporary (receive updates?)
-  - key: options.email_temporary.yes
+  - key: options.receive_notifications.yes
     t: Yes, email me when the survey results are published
 
   # usage type
@@ -1133,9 +1155,9 @@ translations:
     t: Which proportion of the survey did respondents fill out?
 
   # email_temporary (receive updates?)
-  - key: user_info.email_temporary
+  - key: user_info.receive_notifications
     t: Do you want to be notified when the survey results are released?
-  - key: user_info.email_temporary.note
+  - key: user_info.receive_notifications.note
     t: >
       We don't store any private data, so after your email address is sent to our 
       mailing list provider it will be deleted from our own records.
