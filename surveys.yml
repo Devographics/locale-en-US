@@ -15,6 +15,9 @@ translations:
   - key: general.survey_status_closed
     t: Closed
 
+  - key: general.pick_up_to
+    t: Pick up to {limit} items.
+
   ###########################################################################
   # Errors
   ###########################################################################

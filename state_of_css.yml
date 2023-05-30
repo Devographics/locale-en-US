@@ -231,83 +231,88 @@ translations:
     t: Dealing with scrolling jank, making animations smoother, etc.
 
   # CSS missing features (same as features section)
-  - key: options.currently_missing_from_css.nesting
+  - key: options.css_missing_features.nesting
     t: Nesting
-  - key: options.currently_missing_from_css.nesting.description
+  - key: options.css_missing_features.nesting.description
     t: Being able to nest styles in native CSS.
-  - key: options.currently_missing_from_css.parent_selector
+  - key: options.css_missing_features.parent_selector
     t: Parent Selector
-  - key: options.currently_missing_from_css.parent_selector.description
+  - key: options.css_missing_features.parent_selector.description
     t: The ability to target a parent element based on its children.
-  - key: options.currently_missing_from_css.browser_support
+  - key: options.css_missing_features.browser_support
     t: Browser Support
-  - key: options.currently_missing_from_css.browser_support.description
+  - key: options.css_missing_features.browser_support.description
     t: Better browser support for existing features.
-  - key: options.currently_missing_from_css.mixins
+  - key: options.css_missing_features.mixins
     t: Mixins
-  - key: options.currently_missing_from_css.mixins.description
+  - key: options.css_missing_features.mixins.description
     t: Group and reuse definitions dynamically.
-  - key: options.currently_missing_from_css.color_functions
+  - key: options.css_missing_features.color_functions
     t: Color Functions
-  - key: options.currently_missing_from_css.color_functions.description
+  - key: options.css_missing_features.color_functions.description
     t: Functions for manipulating color values.
-  - key: options.currently_missing_from_css.container_queries
+  - key: options.css_missing_features.container_queries
     t: Container Queries
-  - key: options.currently_missing_from_css.container_queries.description
+  - key: options.css_missing_features.container_queries.description
     t: Being able to write styles based on the parent container's dimensions.
-  - key: options.currently_missing_from_css.scoping
+  - key: options.css_missing_features.scoping
     t: Scoping
-  - key: options.currently_missing_from_css.scoping.description
+  - key: options.css_missing_features.scoping.description
     t: The ability to be more specific about where your styles are applied.
-  - key: options.currently_missing_from_css.subgrid
+  - key: options.css_missing_features.subgrid
     t: Subgrid
-  - key: options.currently_missing_from_css.subgrid.description
+  - key: options.css_missing_features.subgrid.description
     t: Nesting deeper-level subgrids into a parent grid.
 
-  - key: options.currently_missing_from_css.native_visually_hidden
+  - key: options.css_missing_features.native_visually_hidden
     t: Visually Hidden Content
-  - key: options.currently_missing_from_css.native_visually_hidden.description
+  - key: options.css_missing_features.native_visually_hidden.description
     t: Native support for visually hidden content.
 
-  - key: options.currently_missing_from_css.generated_content_alt_text
+  - key: options.css_missing_features.generated_content_alt_text
     t: Generated Content Alt Text
-  - key: options.currently_missing_from_css.generated_content_alt_text.description
+  - key: options.css_missing_features.generated_content_alt_text.description
     t: Add alt text to generated (`::before`, `::after`) content.
 
-  - key: options.currently_missing_from_css.animate_to_auto
+  - key: options.css_missing_features.animate_to_auto
     t: Animate to `auto`
-  - key: options.currently_missing_from_css.animate_to_auto.description
+  - key: options.css_missing_features.animate_to_auto.description
     t: Animate an element's dimension to `auto`.
 
-  - key: options.currently_missing_from_css.anchored_positioning
+  - key: options.css_missing_features.anchored_positioning
     t: Anchored Positioning
-  - key: options.currently_missing_from_css.anchored_positioning.description
+  - key: options.css_missing_features.anchored_positioning.description
     t: Positioning elements relative to the edges of any arbitrary other element.
 
-  - key: options.currently_missing_from_css.wrapping_detection
+  - key: options.css_missing_features.wrapping_detection
     t: Wrapping Detection
-  - key: options.currently_missing_from_css.wrapping_detection.description
+  - key: options.css_missing_features.wrapping_detection.description
     t: Detecting when a flex or grid item has wrapped to another line.
 
-  - key: options.currently_missing_from_css.more_pseudo_elements
-    t: More 2 Pseudo-Elements
-  - key: options.currently_missing_from_css.more_pseudo_elements.description
+  - key: options.css_missing_features.more_pseudo_elements
+    t: More Pseudo-Elements
+  - key: options.css_missing_features.more_pseudo_elements.description
     t: Having more than two pseudo-elements per element.
 
-  - key: options.currently_missing_from_css.svg_in_css
+  - key: options.css_missing_features.svg_in_css
     t: SVG-in-CSS
-  - key: options.currently_missing_from_css.svg_in_css.description
+  - key: options.css_missing_features.svg_in_css.description
     t: Support for SVG syntax inside CSS code (such as `background`).
 
-  - key: options.currently_missing_from_css.grid_lines_styling
+  - key: options.css_missing_features.grid_lines_styling
     t: Grid-lines Styling
-  - key: options.currently_missing_from_css.grid_lines_styling.description
+  - key: options.css_missing_features.grid_lines_styling.description
     t: The ability to style the invisible lines that divide a grid.
 
-  - key: options.currently_missing_from_css.media_queries_variables
+  - key: options.css_missing_features.media_queries_variables
     t: Media Queries Variables
-  - key: options.currently_missing_from_css.media_queries_variables.description
+  - key: options.css_missing_features.media_queries_variables.description
     t: Being able to use variables inside media queries.
+
+  - key: options.css_missing_features.masonry_layout
+    t: Masonry Layout
+  - key: options.css_missing_features.masonry_layout.description
+    t: Native support for Pinterest-style free-flowing grid layouts.
 
   ###########################################################################
   # Features
@@ -676,6 +681,15 @@ translations:
   - key: environments.form_factors.others.description
     t: Other form factors or environments you usually test on.
 
+  - key: usage.form_factors
+    aliasFor: environments.form_factors
+  - key: usage.form_factors.description
+    aliasFor: environments.form_factors.description
+  - key: usage.form_factors.others
+    aliasFor: environments.form_factors.others
+  - key: usage.form_factors.others.description
+    aliasFor: environments.form_factors.others.description
+
   - key: environments.accessibility_features
     t: Accessibility Features
   - key: environments.accessibility_features.description
@@ -701,6 +715,13 @@ translations:
     t: What kind of project do you usually use CSS for?
   - key: environments.what_do_you_use_css_for.others
     t: Other kinds of projects
+
+  - key: usage.what_do_you_use_css_for
+    aliasFor: environments.what_do_you_use_css_for
+  - key: usage.what_do_you_use_css_for.description
+    aliasFor: environments.what_do_you_use_css_for.description
+  - key: usage.what_do_you_use_css_for.others
+    aliasFor: environments.what_do_you_use_css_for.others
 
   - key: charts.axis_legends.css_for_print
     t: Frequency
@@ -754,6 +775,11 @@ translations:
       Are there any existing CSS features that you have difficulties using (or avoid altogether)
       because of lack of support, or differences between browsers?
 
+  - key: usage.css_interoperability_features
+    aliasFor: opinions_others.browser_interoperability_features.others
+  - key: usage.css_interoperability_features.description
+    aliasFor: opinions_others.browser_interoperability_features.others.description
+
   - key: usage.interoperability_features_freeform
     aliasFor: opinions_others.browser_interoperability_features.others
   - key: usage.interoperability_features_freeform.others
@@ -778,10 +804,15 @@ translations:
   - key: opinions_others.css_pain_points.others
     t: Other CSS Pain Points
 
+  - key: usage.css_pain_points
+    aliasFor: opinions_others.css_pain_points.others
+  - key: usage.css_pain_points.description
+    aliasFor: usage.other_pain_points_freeform
+
   # Missing Features
-  - key: opinions.currently_missing_from_css
+  - key: opinions.css_missing_features
     t: What do you feel is currently missing from CSS?
-  - key: opinions.currently_missing_from_css.description
+  - key: opinions.css_missing_features.description
     t: For each matchup, pick the feature you'd most like to be able to use in CSS today.
 
   - key: usage.missing_features_freeform
@@ -789,9 +820,14 @@ translations:
   - key: usage.missing_features_freeform.others
     aliasFor: usage.missing_features_freeform
 
-  - key: opinions_others.currently_missing_from_css.others
+  - key: usage.css_missing_features
+    t: Missing Features
+  - key: usage.css_missing_features.description
+    aliasFor: usage.missing_features_freeform
+
+  - key: opinions_others.css_missing_features.others
     t: Other Missing Features
-  # - key: opinions_others.currently_missing_from_css.others.note
+  # - key: opinions_others.css_missing_features.others.note
   #   t: >
   #       These results were normalized based on the contents of a freeform field.
   #       To view the raw, unprocessed responses check out [whatsmissingfromcss.com](http://whatsmissingfromcss.com/).
@@ -825,14 +861,14 @@ translations:
   - key: css_pain_points.css_pain_points_matchups.description
     t: Which aspect of CSS do you struggle with the most? Percentage of rounds won by left-hand item against top-side item.
 
-  - key: currently_missing_from_css.currently_missing_from_css_wins
+  - key: css_missing_features.css_missing_features_wins
     t: Features Missing From CSS
-  - key: currently_missing_from_css.currently_missing_from_css_wins.description
+  - key: css_missing_features.css_missing_features_wins.description
     t: Which feature would you most like to be able to use in CSS today? Results are ranked by number of tournament rounds won.
 
-  - key: currently_missing_from_css.currently_missing_from_css_matchups
+  - key: css_missing_features.css_missing_features_matchups
     t: Features Missing From CSS (Matchups)
-  - key: currently_missing_from_css.currently_missing_from_css_matchups.description
+  - key: css_missing_features.css_missing_features_matchups.description
     t: Which feature would you most like to be able to use in CSS today? Percentage of rounds won by left-hand item against top-side item.
 
   - key: usage.css_js_balance
