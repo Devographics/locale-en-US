@@ -195,6 +195,8 @@ translations:
     t: Emails
   - key: options.what_do_you_use_css_for.printed_documents
     t: Printed documents
+  - key: options.what_do_you_use_css_for.desktop_apps
+    t: Desktop Apps
 
   # CSS pain points
   - key: options.css_pain_points.browser_interoperability
@@ -332,6 +334,13 @@ translations:
   - key: features.flexbox_gap
     t: "`gap` property for flexbox"
 
+  - key: features.viewport_percentage_length_units
+    t: Viewport-Percentage Length Units
+  - key: features.at_container
+    t: "`@container` Queries"
+  - key: features.at_container.description
+    t: Including size and style queries
+
   # shapes & graphics
   - key: features.shapes
     t: CSS Shapes
@@ -344,6 +353,8 @@ translations:
 
   - key: features.intrinsic_sizing
     t: Intrinsic Sizing
+  - key: linear_easing_function
+    t: "`linear()` Easing Function"
 
   # typography
   - key: features.web_fonts
@@ -377,11 +388,32 @@ translations:
     t: CSS Variables (Custom Properties)
   - key: features.containment
     t: CSS Containment
-  - key: features.comparison_functions
-    t: CSS Comparison Functions
 
   - key: features.css_nesting.description
     t: Native CSS nesting, excluding pre- or post-processors.
+
+  - key: features.trigonometric_functions
+    t: Trigonometric Functions
+  - key: features.exponential_functions
+    t: Exponential Functions
+  - key: features.sign_related_functions
+    t: Sign-Related Functions
+  - key: features.stepped_value_functions
+    t: Stepped Value Functions
+  - key: features.css_nesting
+    t: CSS Nesting
+  - key: features.shadow_dom_css
+    t: Shadow DOM Features
+  - key: features.individual_transform_properties
+    t: Individual Transform Properties
+  - key: features.comparison_functions
+    t: CSS Comparison Functions
+  - key: features.math_functions
+    t: CSS Math Functions
+  - key: features.viewport_units
+    t: Viewport Units (`vh`, `vw`)
+  - key: features.cascade_layers
+    t: Cascade Layers
 
   # missing features (see also options)
   - key: features.nesting
