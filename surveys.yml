@@ -87,9 +87,9 @@ translations:
   - key: faq.survey_deadline.description
     t: This survey is scheduled to run until {date}
   - key: faq.team
-    t: Who runs these surveys?
+    t: Who runs this survey?
   - key: faq.team.description
-    t: Surveys are run by [Devographics](http://devographics.com) together with a collective of contributors, translators, and volunteers.
+    t: This survey is run by [Devographics](http://devographics.com) together with a collective of contributors, translators, and volunteers.
 
   ###########################################################################
   # Form Controls
@@ -146,6 +146,12 @@ translations:
   - key: readinglist.description
     t: >
       Save items here using the "+" button, and you'll get a list of links to learn more about them at the end of the survey.
+
+  - key: readinglist.empty
+    t: >
+      You don't have any items in your reading list. 
+      Try going back to the survey and adding features or libraries you'd like
+      to learn more about using the "+" button.
 
   - key: readinglist.results
     t: >
@@ -245,6 +251,29 @@ translations:
   # Survey-Specific FAQs
   ###########################################################################
 
+  # CSS
+
+  - key: faq.data_used_css
+    t: How will this data be used?
+  - key: faq.data_used_css.description
+    t: >
+      All data collected will be released openly for any developer or company to consult. 
+      Browser vendors also [use this data](https://web.dev/interop-2023/) to prioritize focus areas and inform their roadmaps.
+
+  - key: faq.who_should_take_survey_css
+    t: Who should take this survey?
+  - key: faq.who_should_take_survey_css.description
+    t: >
+      This is an open survey for anybody who writes CSS, whether regularly 
+      or occasionally, as part of their job, as a student, or just for fun!
+
+  - key: faq.survey_goals_css
+    t: What is the survey's goal?
+  - key: faq.survey_goals_css.description
+    t: >
+      The survey's goal is to track the evolution of upcoming features and libraries, 
+      and help developers decide which new technologies to focus on.
+
   # CSS 2022
 
   - key: faq.learn_more_css2022
@@ -272,22 +301,19 @@ translations:
   - key: faq.learn_more_css2023
     t: Where can I learn more?
   - key: faq.learn_more_css2023.description
-    t: You can learn more about [last year's survey here](https://2021.stateofcss.com/en-US/about/).
+    t: You can learn more about [last year's survey here](https://2022.stateofcss.com/en-US/about/).
 
   - key: faq.survey_design_css2023
     t: How was this survey designed?
   - key: faq.survey_design_css2023.description
-    t: This year, thanks to a grant from Google's [UI Fund](https://web.dev/ui-fund/), [Lea Verou](https://lea.verou.me/) was able to take the lead and managed the [open survey design process](https://github.com/orgs/Devographics/projects/1/views/1) on GitHub.
+    t: >
+      This year, thanks to a grant from Google's [UI Fund](https://web.dev/ui-fund/), 
+      [Chen Hui Jing](https://chenhuijing.com/) was able to help manage the survey's [open design process](https://github.com/Devographics/surveys/issues/84).
 
   - key: faq.results_released_css2023
     t: When will the results be released?
   - key: faq.results_released_css2023.description
-    t: The survey will run until the end of October 2022, and the survey results will be released in early November.
-
-  - key: faq.data_used_css2023
-    t: How will this data be used?
-  - key: faq.data_used_css2023.description
-    t: All data collected will be released publicly. It will then become a resources both for developers, who consult it to inform their technological choices, and browser vendors, who use it to prioritize focus areas and inform their roadmaps.
+    t: The survey will run until the end of June 2023, and the survey results will be released shortly after.
 
   # JS 2022
 
