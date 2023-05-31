@@ -335,7 +335,7 @@ translations:
     t: "`gap` property for flexbox"
 
   - key: features.viewport_percentage_length_units
-    t: Viewport-Percentage Length Units
+    t: Small, Large, and Dynamic Viewport Units
   - key: features.at_container
     t: "`@container` Queries"
   - key: features.at_container.description
@@ -346,15 +346,15 @@ translations:
     t: CSS Shapes
   - key: features.masks
     t: CSS Masks
-  - key: features.blend_modes
-    t: Blend Modes
   - key: features.filter_effects
     t: CSS Filter Effects
 
   - key: features.intrinsic_sizing
     t: Intrinsic Sizing
-  - key: linear_easing_function
+  - key: features.linear_easing_function
     t: "`linear()` Easing Function"
+  - key: features.blend_modes
+    t: Blend Modes
 
   # typography
   - key: features.web_fonts
@@ -821,6 +821,13 @@ translations:
     aliasFor: opinions_others.browser_interoperability_features.others.description
   - key: usage.interoperability_features_freeform.others.description
     aliasFor: opinions_others.browser_interoperability_features.others.description
+
+  - key: options.css_interoperability_features.math_functions
+    aliasFor: features.math_functions
+  - key: options.css_interoperability_features.css_nesting
+    aliasFor: features.css_nesting
+  - key: options.css_interoperability_features.at_container
+    aliasFor: features.at_container
 
   # Pain Points
   - key: opinions.css_pain_points

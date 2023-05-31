@@ -247,6 +247,16 @@ translations:
 
       So once more, let's try and figure out together where JavaScript is going, in 2022 and beyond.
 
+  - key: general.css2023.survey_intro
+    t: |
+      Between `:has()`, `@container`, subgrid, and more, last year saw an abundance of new features make their way to our browsers, and we can't wait to see just how fast the community is adopting these enhancements. 
+
+      To help you keep up, we're introducing a new feature of our own: the **Reading List**. As you take the survey, you'll be able to bookmark any feature you want and learn more about it after you submit your answers. 
+
+      This year [Chen Hui Jing](https://chenhuijing.com/) took the lead of the survey design process, building on the work done by [Lea Verou](https://lea.verou.me/) last year. And as usual, your feedback here will play a key role in helping browser vendors prioritize their roadmaps and work towards better compatibility between browsers. 
+
+      With all this out of the way, let's see how CSS evolved in 2023!
+
   ###########################################################################
   # Survey-Specific FAQs
   ###########################################################################
