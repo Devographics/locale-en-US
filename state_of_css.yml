@@ -355,6 +355,10 @@ translations:
     t: "`linear()` Easing Function"
   - key: features.blend_modes
     t: Blend Modes
+  - key: features.intrinsic_sizing
+    t: Intrinsinc Sizing Keywords
+  - key: features.gradient_color_spaces
+    t: Interpolation Color Spaces
 
   # typography
   - key: features.web_fonts
@@ -446,8 +450,6 @@ translations:
     t: The ability to be more specific about where your styles are applied.
   - key: features.subgrid
     t: Subgrid
-  - key: features.subgrid.description
-    t: Nesting deeper-level subgrids into a parent grid.
 
   ###########################################################################
   # Units & Selectors
@@ -650,9 +652,9 @@ translations:
   - key: other_tools.pre_post_processors
     aliasFor: sections.pre_post_processors.title
   - key: tools_others.pre_post_processors.description
-    aliasFor: sections.pre_post_processors.description
+    t: Which pre- or post-processors do you regularly use?
   - key: other_tools.pre_post_processors.description
-    aliasFor: sections.pre_post_processors.description
+    aliasFor: tools_others.pre_post_processors.description
 
   - key: tools_others.pre_post_processors.others
     aliasFor: sections.pre_post_processors_others.title
