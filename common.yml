@@ -269,6 +269,12 @@ translations:
   - key: sections.usage.title
     t: Usage
 
+  - key: sections.finish.title
+    t: Finish Survey
+
+  - key: sections.finish.description
+    t: Finish the survey
+
   ###########################################################################
   # Options
   ###########################################################################
