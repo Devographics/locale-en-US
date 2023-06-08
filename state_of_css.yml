@@ -197,6 +197,8 @@ translations:
     t: Printed documents
   - key: options.what_do_you_use_css_for.desktop_apps
     t: Desktop Apps
+  - key: options.what_do_you_use_css_for.desktop_apps
+    t: Desktop Apps
 
   # CSS pain points
   - key: options.css_pain_points.browser_interoperability
@@ -448,8 +450,6 @@ translations:
     t: Scoping
   - key: features.scoping.description
     t: The ability to be more specific about where your styles are applied.
-  - key: features.subgrid
-    t: Subgrid
 
   ###########################################################################
   # Units & Selectors
@@ -916,6 +916,13 @@ translations:
     t: CSS vs JavaScript Balance
   - key: usage.css_js_balance.description
     t: How do you divide your time between writing CSS (including HTML markup) and JavaScript code?
+
+  - key: usage.css_usage_type
+    t: CSS Usage
+  - key: usage.css_usage_type.description
+    t: In what context do you primarily use CSS?
+  - key: usage.css_usage_type.others
+    t: Other CSS Usages
 
   ###########################################################################
   # Resources

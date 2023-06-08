@@ -14,6 +14,8 @@ translations:
     t: Open
   - key: general.survey_status_closed
     t: Closed
+  - key: general.survey_status_hidden
+    t: Hidden
 
   - key: general.pick_up_to
     t: Pick up to {limit} items.
@@ -130,15 +132,15 @@ translations:
   - key: response.details
     t: Started on {startedAt}, {completion}% completed.
 
-  - key: response.view_results
-    t: View Results
-
   ###########################################################################
   # Reading List
   ###########################################################################
 
   - key: readinglist.add_to_list
     t: Add to Your Reading List
+
+  - key: readinglist.added_to_list
+    t: Added “{label}” to your reading list.
 
   - key: readinglist.title
     t: Reading List
@@ -255,7 +257,7 @@ translations:
 
       This year [Chen Hui Jing](https://chenhuijing.com/) took the lead of the survey design process, building on the work done by [Lea Verou](https://lea.verou.me/) last year. And as usual, your feedback here will play a key role in helping browser vendors prioritize their roadmaps and work towards better compatibility between browsers. 
 
-      With all this out of the way, let's see how CSS evolved in 2023!
+      With all this out of the way, let's see how CSS has evolved so far in 2023!
 
   ###########################################################################
   # Survey-Specific FAQs

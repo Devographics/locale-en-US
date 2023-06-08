@@ -18,7 +18,7 @@ translations:
       - Save your session as you go
 
       - Notify you when results are live
-  - key: general.survey_closed
+  - key: general.survey_closed_detailed
     t: >
       Sorry, the survey is now closed! You can still review your data but you won't be able to modify it.
   - key: general.survey_read_only
@@ -52,8 +52,16 @@ translations:
     t: Start Survey »
   - key: general.continue_survey
     t: Continue Survey »
+  - key: general.completion
+    t: "{completion}% completed"
+  - key: general.started_on
+    t: Started on {createdAt}
+  - key: general.last_modified_on
+    t: Last modified on {updatedAt}
   - key: general.review_survey
     t: Review Survey »
+  - key: general.review_answers
+    t: Review Answers »
   - key: general.preview_survey
     t: Preview Survey »
   - key: general.finish_survey
@@ -64,6 +72,8 @@ translations:
     t: Previous section
   - key: general.survey_closed
     t: This survey is now closed.
+  - key: general.survey_closed_on
+    t: This survey closed on {endedAt}.
   - key: general.survey_results
     t: View Survey Results »
   - key: general.surveys_available_languages
@@ -162,13 +172,13 @@ translations:
     t: Features Score
   - key: thanks.quiz_score
     t: Quiz Score
-  - key: thanks.score_explanation_old
+  - key: thanks.score_explanation
     t: >
       You’ve heard or used <span class="score-number score-number-known">{known}</span> out of
       <span class="score-number score-number-total">{total}</span> features mentioned in the survey, which
       puts you in the top <span class="score-number score-number-ranking">{knowledgeRankingFromTop}%</span>
       of all respondents.
-  - key: thanks.score_explanation
+  - key: thanks.score_explanation_no_ranking
     t: >
       You’ve heard or used <span class="score-number score-number-known">{known}</span> out of
       <span class="score-number score-number-total">{total}</span> features mentioned in the survey.
