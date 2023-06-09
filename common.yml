@@ -466,6 +466,8 @@ translations:
     t: ">20 years"
 
   # company size
+  - key: options.company_size.na
+    t: Not Applicable
   - key: options.company_size.range_1
     t: One employee
   - key: options.company_size.range_1_5
@@ -502,8 +504,8 @@ translations:
     t: "1000+ employees"
 
   # salary
-  - key: options.yearly_salary.range_work_for_free
-    t: I work for free
+  - key: options.yearly_salary.na
+    t: Not Applicable
   - key: options.yearly_salary.range_0_10
     t: $0k-$10k
   - key: options.yearly_salary.range_10_30
@@ -823,6 +825,8 @@ translations:
     t: ARIA HTML attributes
 
   # learning methods
+  - key: options.first_steps.na
+    t: None
   - key: options.first_steps.books
     t: Books
   - key: options.first_steps.videos
@@ -1209,6 +1213,8 @@ translations:
     t: Other Blogs & Magazines
   - key: resources.blogs_news_magazines.others.description
     t: Other answers (freeform field).
+  - key: options.blogs_news_magazines.na
+    t: None
 
   # sites & courses
   - key: resources.sites_courses
@@ -1219,6 +1225,8 @@ translations:
     t: Other Sites & Courses
   - key: resources.sites_courses.others.description
     t: Other answers (freeform field).
+  - key: options.sites_courses.na
+    t: None
 
   # podcasts
   - key: resources.podcasts
@@ -1229,6 +1237,8 @@ translations:
     t: Other Podcasts
   - key: resources.podcasts.others.description
     t: Other answers (freeform field).
+  - key: options.podcasts.na
+    t: None
 
   # people
   - key: resources.people
@@ -1245,6 +1255,8 @@ translations:
     t: >
       People you read, follow, or just want to highlight for their work 
       (freeform field, comma-separated names).
+  - key: options.people.na
+    t: None
 
   # other surveys
   - key: resources.other_surveys
@@ -1253,6 +1265,8 @@ translations:
     t: Which other developer surveys do you participate in?
   - key: resources.other_surveys.others
     t: Additional surveys not mentioned above
+  - key: options.other_surveys.na
+    t: None
 
   # video creators
   - key: resources.video_creators
@@ -1261,3 +1275,5 @@ translations:
     t: Creators you follow on video-centric platforms such as YouTube, Twitch, TikTok, etc.
   - key: resources.video_creators.others
     t: Other Video Creators
+  - key: options.video_creators.na
+    t: None

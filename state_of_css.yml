@@ -252,9 +252,9 @@ translations:
   - key: options.css_missing_features.mixins.description
     t: Group and reuse definitions dynamically.
   - key: options.css_missing_features.color_functions
-    t: Color Functions
+    aliasFor: features.color_functions
   - key: options.css_missing_features.color_functions.description
-    t: Functions for manipulating color values.
+    aliasFor: features.color_functions.description
   - key: options.css_missing_features.container_queries
     t: Container Queries
   - key: options.css_missing_features.container_queries.description
@@ -441,7 +441,7 @@ translations:
   - key: features.color_functions
     t: Color Functions
   - key: features.color_functions.description
-    t: Functions for manipulating color values.
+    t: Functions for manipulating color values (`color()`, `color-mix()`, `contrast-color()`…).
   - key: features.container_queries
     t: Container Queries
   - key: features.container_queries.description
@@ -655,11 +655,12 @@ translations:
     t: Which pre- or post-processors do you regularly use?
   - key: other_tools.pre_post_processors.description
     aliasFor: tools_others.pre_post_processors.description
-
   - key: tools_others.pre_post_processors.others
     aliasFor: sections.pre_post_processors_others.title
   - key: other_tools.pre_post_processors.others
     aliasFor: sections.pre_post_processors_others.title
+  - key: options.pre_post_processors.na
+    t: None
 
   - key: tools_others.utilities
     t: Utilities
@@ -669,6 +670,8 @@ translations:
     t: Other Utilities
   - key: tools_others.utilities.others.description
     t: Other utilities (freeform field).
+  - key: options.utilities.na
+    t: None
 
   - key: other_tools.utilities
     aliasFor: tools_others.utilities
@@ -831,6 +834,16 @@ translations:
   - key: options.css_interoperability_features.at_container
     aliasFor: features.at_container
 
+  - key: options.css_interoperability_features.color_functions
+    aliasFor: features.color_functions
+  - key: options.css_interoperability_features.color_functions.description
+    aliasFor: features.color_functions.description
+  - key: options.css_interoperability_features.cascade_layers
+    aliasFor: features.cascade_layers
+
+  - key: options.css_interoperability_features.na
+    t: None
+
   # Pain Points
   - key: opinions.css_pain_points
     t: CSS Pain Points
@@ -850,6 +863,9 @@ translations:
   - key: usage.css_pain_points.description
     aliasFor: usage.other_pain_points_freeform
 
+  - key: options.css_pain_points.na
+    t: None
+
   # Missing Features
   - key: opinions.css_missing_features
     t: What do you feel is currently missing from CSS?
@@ -868,6 +884,10 @@ translations:
 
   - key: opinions_others.css_missing_features.others
     t: Other Missing Features
+
+  - key: options.css_missing_features.na
+    t: None
+
   # - key: opinions_others.css_missing_features.others.note
   #   t: >
   #       These results were normalized based on the contents of a freeform field.
@@ -931,7 +951,7 @@ translations:
   - key: resources.first_steps_css
     t: First Steps With CSS
   - key: resources.first_steps_css.description
-    t: When first starting out, how did you initially learn CSS?
+    t: When first starting out, which resources did you use to initially learn CSS?
 
   # sites & courses
   - key: resources.sites_courses_css
