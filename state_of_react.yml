@@ -59,37 +59,107 @@ translations:
   - key: sections.mobile_development.description
     t: Libraries and utilities for mobile development
 
+  - key: sections.other_tools.title
+    t: Other Tools
+  - key: sections.other_tools.description
+    t: Other React utilities and libraries
+
+  # tools
+
+  - key: tools.state_management_others
+    t: Other State Management Libraries
+  - key: tools.state_management_happiness
+    t: Happiness
+  - key: tools.state_management_happiness.description
+    t: How happy are you with the available state management libraries?
+
+  - key: tools.data_loading_others
+    t: Other Data Loading Libraries
+  - key: tools.data_loading_happiness
+    t: Happiness
+  - key: tools.data_loading_happiness.description
+    t: How happy are you with the state of data loading libraries?
+
+  - key: tools.ui_libraries_others
+    t: Other UI Libraries
+  - key: tools.ui_libraries_happiness
+    t: Happiness
+  - key: tools.ui_libraries_happiness.description
+    t: How happy are you with the state of UI libraries?
+
+  - key: tools.meta_frameworks_others
+    t: Other Meta-Frameworks
+  - key: tools.meta_frameworks_happiness
+    t: Happiness
+  - key: tools.meta_frameworks_happiness.description
+    t: How happy are you with the current state of meta-frameworks?
+
+  - key: tools.testing_others
+    t: Other Testing Libraries
+  - key: tools.testing_happiness
+    t: Happiness
+  - key: tools.testing_happiness.description
+    t: How happy are you with the current state of testing libraries?
+
+  - key: tools.mobile_development_others
+    t: Other Mobile Development Tools
+  - key: tools.mobile_development_happiness
+    t: Happiness
+  - key: tools.mobile_development_happiness.description
+    t: How happy are you with the current state of mobile development?
+
   # other tools
-  - key: tools_others.forms
-    t: Forms & Validation
-  - key: tools_others.forms.description
+  - key: other_tools.forms.description
     t: Libraries for generating and validating forms.
-  - key: tools_others.auth
+  - key: options.forms.na
+    t: None
+
+  - key: other_tools.build_tools
+    t: Build Tools
+  - key: other_tools.build_tools.description
+    t: Build tools and bundlers.
+
+  - key: other_tools.animation
+    t: Animation
+  - key: other_tools.animation.description
+    t: Libraries to help manage animations and transitions.
+
+  - key: other_tools.auth
     t: Authentication
-  - key: tools_others.data_visualization
+  - key: other_tools.auth.description
+    t: Libraries and services for managing authentication and accounts.
+
+  - key: other_tools.data_visualization
     t: Data Visualization
-  - key: tools_others.css_tools
+  - key: other_tools.data_visualization.description
+    t: Data visualization and graphics libraries.
+
+  - key: other_tools.css_tools
     t: CSS Tools & Libraries
-  - key: tools_others.css_tools.description
+  - key: other_tools.css_tools.description
     t: CSS libraries, frameworks, and utilities you use to style your React app.
-  - key: tools_others.other_frontend_frameworks
+
+  - key: other_tools.other_frontend_frameworks
     t: Other Front-end Frameworks
-  - key: tools_others.other_frontend_frameworks.description
+  - key: other_tools.other_frontend_frameworks.description
     t: >
       Other front-end frameworks you either had a positive experience with, 
       or are interested in learning.
-  - key: tools_others.hosting
+
+  - key: other_tools.hosting
     t: Hosting Services
-  - key: tools_others.hosting.description
+  - key: other_tools.hosting.description
     t: Services you use to host your React apps.
-  - key: tools_others.backend_language
+
+  - key: other_tools.backend_language
     t: Back-end Languages
-  - key: tools_others.backend_language.description
+  - key: other_tools.backend_language.description
     t: Which language(s) are your back-end apps written in?
-  - key: tools_others.other_services
+
+  - key: other_tools.other_services
     t: Other Services
-  - key: tools_others.other_services.description
-    t: Other services you use to power your React apps.
+  - key: other_tools.other_services.description
+    t: Other services you use with your React apps.
 
   # CSS
   - key: options.css_tools.plain_css

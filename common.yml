@@ -35,6 +35,9 @@ translations:
   - key: general.take_survey
     t: Take the {name} survey
 
+  - key: options.na
+    t: None
+
   # surveys
   - key: general.open_surveys
     t: Open Surveys
