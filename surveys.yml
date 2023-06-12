@@ -32,7 +32,7 @@ translations:
   ###########################################################################
 
   - key: accounts.create_account
-    t: Create an Account
+    t: Continue with Account
   - key: accounts.create_account.description
     t: Having an account lets you **access your own data in the future** and be notified when survey results are published.
   - key: accounts.create_account.note

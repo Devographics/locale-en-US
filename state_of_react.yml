@@ -1,0 +1,253 @@
+locale: en-US
+translations:
+  - key: features.features_intro_react
+    t: |
+      Welcome to the survey! This first part is all about figuring out 
+      which of the official React APIs you know about and use. 
+
+      By the way, if you want to tell us more about any of your choices, just click that little "comment" icon!
+
+  - key: tools.tools_intro_react
+    t: |
+      The next couple sections focus on the **libraries** and **frameworks** that make up 
+      the React ecosystem. Let us know what you're excited about!
+
+  # sections
+  - key: sections.components.title
+    t: Components
+  - key: sections.components.description
+    t: Special components provided by React
+  - key: sections.hooks.title
+    t: Hooks
+  - key: sections.hooks.description
+    t: React's built-in hooks
+  - key: sections.other_apis.title
+    t: Other APIs
+  - key: sections.other_apis.description
+    t: Other APIs and features
+  - key: sections.component_apis.title
+    t: Component APIs
+  - key: sections.component_apis.description
+    t: APIs for manipulating components
+  - key: sections.legacy_apis.title
+    t: Legacy APIs
+  - key: sections.legacy_apis.description
+    t: Deprecated & legacy APIs
+
+  - key: sections.state_management.title
+    t: State Management
+  - key: sections.state_management.description
+    t: Libraries for managing application state
+  - key: sections.data_loading.title
+    t: Data Loading
+  - key: sections.data_loading.description
+    t: Utilities for loading and managing data
+  - key: sections.ui_libraries.title
+    t: UI Libraries
+  - key: sections.ui_libraries.description
+    t: Component libraries and other UI toolkits.
+  - key: sections.meta_frameworks.title
+    t: Meta Frameworks
+  - key: sections.meta_frameworks.description
+    t: Frameworks that help render and serve your React app
+  - key: sections.testing.title
+    t: Testing
+  - key: sections.testing.description
+    t: Testing utilities and libraries
+  - key: sections.mobile_development.title
+    t: Mobile Development
+  - key: sections.mobile_development.description
+    t: Libraries and utilities for mobile development
+
+  # other tools
+  - key: tools_others.forms
+    t: Forms & Validation
+  - key: tools_others.forms.description
+    t: Libraries for generating and validating forms.
+  - key: tools_others.auth
+    t: Authentication
+  - key: tools_others.data_visualization
+    t: Data Visualization
+  - key: tools_others.css_tools
+    t: CSS Tools & Libraries
+  - key: tools_others.css_tools.description
+    t: CSS libraries, frameworks, and utilities you use to style your React app.
+  - key: tools_others.other_frontend_frameworks
+    t: Other Front-end Frameworks
+  - key: tools_others.other_frontend_frameworks.description
+    t: >
+      Other front-end frameworks you either had a positive experience with, 
+      or are interested in learning.
+  - key: tools_others.hosting
+    t: Hosting Services
+  - key: tools_others.hosting.description
+    t: Services you use to host your React apps.
+  - key: tools_others.backend_language
+    t: Back-end Languages
+  - key: tools_others.backend_language.description
+    t: Which language(s) are your back-end apps written in?
+  - key: tools_others.other_services
+    t: Other Services
+  - key: tools_others.other_services.description
+    t: Other services you use to power your React apps.
+
+  # CSS
+  - key: options.css_tools.plain_css
+    t: CSS (plain, “vanilla” CSS)
+
+  # react pain points
+
+  - key: options.react_pain_points.rerenders
+    t: Managing component re-renders
+  - key: options.react_pain_points.testing
+    t: Testing
+  - key: options.react_pain_points.data_loading
+    t: Data loading and async operations
+  - key: options.react_pain_points.state_management
+    t: State management (`useState`, Redux, Context, etc.)
+  - key: options.react_pain_points.bundle_sizes
+    t: Keeping client bundle sizes down
+  - key: options.react_pain_points.server_rendering
+    t: Server-Side Rendering & Server Components
+  - key: options.react_pain_points.css_styling
+    t: CSS & Styling
+  - key: options.react_pain_points.attribute_names
+    t: “Wrong” attribute names such as `className`, `htmlFor`, etc.
+  - key: options.react_pain_points.synthetic_events
+    t: Synthetic events
+  - key: options.react_pain_points.ref_management
+    t: Ref management
+  - key: options.react_pain_points.memoization
+    t: Memoization
+  - key: options.react_pain_points.animations
+    t: Animations & Transitions
+  - key: options.react_pain_points.forms
+    t: Forms
+  - key: options.react_pain_points.typescript
+    t: Lack of official native TypeScript support
+
+  # JS App Patterns
+
+  - key: usage.js_app_patterns
+    t: Application Patterns
+  - key: usage.js_app_patterns.description
+    t: Which of the following architecture and rendering patterns have you used **in the last year**?
+
+  - key: options.js_app_patterns.single_page_app
+    t: Single Page Application (SPA)
+  - key: options.js_app_patterns.single_page_app.description
+    t: Apps that run entirely in the browser
+  - key: options.js_app_patterns.multiple_page_app
+    t: Multi-Page Application (MPA)
+  - key: options.js_app_patterns.multiple_page_app.description
+    t: Apps that run entirely on the server, with minimal client-side dynamic behavior
+  - key: options.js_app_patterns.static_site_generation
+    t: Static Site Generation (SSG)
+  - key: options.js_app_patterns.static_site_generation.description
+    t: Pre-rendered static content, with or without a client-side dynamic element
+  - key: options.js_app_patterns.server_side_rendering
+    t: Server-Side Rendering (SSR)
+  - key: options.js_app_patterns.server_side_rendering.description
+    t: Dynamically rendering HTML content on the server before rehydrating it on the client
+  - key: options.js_app_patterns.partial_hydration
+    t: Partial Hydration
+  - key: options.js_app_patterns.partial_hydration.description
+    t: Only hydrating some of your components on the client (e.g. React Server Components)
+  - key: options.js_app_patterns.progressive_rehydration
+    t: Progressive Hydration
+  - key: options.js_app_patterns.progressive_rehydration.description
+    t: Controlling the order of component hydration on the client
+  - key: options.js_app_patterns.islands_architecture
+    t: Islands Architecture
+  - key: options.js_app_patterns.islands_architecture.description
+    t: Isolated islands of dynamic behavior with multiple entry points in an otherwise static site (Astro, Eleventy)
+  - key: options.js_app_patterns.progressive_enhancement
+    t: Progressive Enhancement
+  - key: options.js_app_patterns.progressive_enhancement.description
+    t: Making sure an app is functional even without JavaScript
+  - key: options.js_app_patterns.incremental_static_generation
+    t: Incremental Static Generation
+  - key: options.js_app_patterns.incremental_static_generation.description
+    t: Being able to dynamically augment or modify a static site even after the initial build (Next.js ISR, Gatsby DSG)
+  - key: options.js_app_patterns.streaming_ssr
+    t: Streaming SSR
+  - key: options.js_app_patterns.streaming_ssr.description
+    t: Breaking down server-rendered content in smaller streamed chunks
+  - key: options.js_app_patterns.resumability
+    t: Resumability
+  - key: options.js_app_patterns.resumability.description
+    t: Serializing framework state on the server so the client can resume execution with no duplicated code execution.
+  - key: options.js_app_patterns.edge_rendering
+    t: Edge Rendering
+  - key: options.js_app_patterns.edge_rendering.description
+    t: Altering rendered HTML at the edge before sending it on to the client
+
+  - key: options.js_app_patterns.micro_frontend
+    t: Micro Frontend
+  - key: options.js_app_patterns.domain_driven_design
+    t: Domain-Driven Design
+  - key: options.js_app_patterns.serverless
+    t: Serverless
+  - key: options.js_app_patterns.pespa
+    t: PESPA
+
+  - key: usage.what_do_you_use_react_for
+    t: What Do You Use React For?
+
+  - key: usage.react_pain_points
+    t: React Pain Points
+
+  - key: usage.state_of_react
+    t: How happy are you with the current state of React?
+
+  # new features
+  - key: usage.new_features
+    t: New Features
+  - key: usage.new_features.description
+    t: Which of these recent and upcoming new features are you most excited about?
+
+  - key: options.new_features.asset_loading
+    t: Asset Loading
+  - key: options.new_features.asset_loading.description
+    t: Fully integrate Suspense with the loading lifecycle of stylesheets, fonts, and images
+  - key: options.new_features.cache.description
+    t: An API to assist with caching data.
+  - key: options.new_features_react_forget.description
+    t: An automatic reactivity compiler for React
+  - key: options.new_features.new_docs
+    t: New Documentation
+  - key: options.new_features.new_docs
+    t: React's updated documentation site.
+  - key: options.new_features.offscreen_rendering
+    t: Offscreen Rendering
+  - key: options.new_features_offscreen_rendering.description
+    t: Rendering screens in the background without additional performance overhead.
+  - key: options.new_features.use_hook
+    t: >
+      `use` Hook
+  - key: options.new_features.use_hook.description
+    t: >
+      `use` unwraps the value of a promise, but it can be used inside normal components and Hooks, including on the client.
+
+  - key: options.new_features.transition_tracing
+    t: Transition Tracing
+  - key: options.new_features.transition_tracing.description
+    t: Detect when React Transitions become slower and investigate why they may be slow.
+
+  # what do you use React for?
+  - key: options.what_do_you_use_react_for.static_sites
+    t: Static sites
+  - key: options.what_do_you_use_react_for.design_systems
+    t: Design systems
+  - key: options.what_do_you_use_react_for.web_apps
+    t: Web apps
+  - key: options.what_do_you_use_react_for.mobile_apps
+    t: Mobile apps
+  - key: options.what_do_you_use_react_for.desktop_apps
+    t: Desktop apps
+
+  # resources
+  - key: resources.first_steps_react
+    t: First Steps
+  - key: resources.first_steps_react.description
+    t: Which resources did you use to initially learn React?

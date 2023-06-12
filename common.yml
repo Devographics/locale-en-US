@@ -272,6 +272,10 @@ translations:
     t: Other Tools
   - key: sections.other_tools.description
     t: For these tools & technologies, just check the ones that you use regularly.
+  - key: section.tools_others.title
+    aliasFor: section.other_tools.title
+  - key: section.tools_others.description
+    aliasFor: section.other_tools.description
 
   - key: sections.report.title
     t: Trend Report
