@@ -64,6 +64,11 @@ translations:
   - key: sections.other_tools.description
     t: Other React utilities and libraries
 
+  - key: sections.usage_react.title
+    t: Usage
+  - key: sections.usage_react.description
+    t: How you use React on a daily basis
+
   # tools
 
   - key: tools.state_management_others
@@ -195,6 +200,28 @@ translations:
     t: Forms
   - key: options.react_pain_points.typescript
     t: Lack of official native TypeScript support
+
+  # usage type
+  - key: usage.react_usage_type
+    t: React Usage
+  - key: usage.react_usage_type.description
+    t: In what context do you primarily use React?
+
+  # react version
+
+  - key: usage.react_version
+    t: React Version
+  - key: usage.react_version.description
+    t: Which version of React do you use the most on a daily basis?
+
+  - key: react_version.options.react_16x
+    t: 16.x
+  - key: react_version.options.react_17x
+    t: 17.x
+  - key: react_version.options.react_18x
+    t: 18.x
+  - key: react_version.options.not_sure
+    t: Not sure
 
   # JS App Patterns
 
