@@ -166,6 +166,21 @@ translations:
   - key: other_tools.other_services.description
     t: Other services you use with your React apps.
 
+  - key: other_tools.validation
+    t: Schema & Validation Libraries
+  - key: other_tools.validation.description
+    t: Libraries for validating data against a schema.
+
+  - key: other_tools.ai_tools
+    t: AI Tools
+  - key: other_tools.ai_tools.description
+    t: AI tools & services you use to help you write React code.
+
+  - key: other_tools.other_tools
+    t: Other Tools
+  - key: other_tools.other_tools.description
+    t: Other tools you use to develop React apps.
+
   # CSS
   - key: options.css_tools.plain_css
     t: CSS (plain, “vanilla” CSS)

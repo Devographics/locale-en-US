@@ -10,6 +10,8 @@ translations:
     t: Argentina
   - key: options.country.AUS
     t: Australia
+  - key: options.country.AUT
+    t: Austria
   - key: options.country.BGD
     t: Bangladesh
   - key: options.country.BEL
@@ -18,6 +20,8 @@ translations:
     t: Brazil
   - key: options.country.CAN
     t: Canada
+  - key: options.country.CHE
+    t: Switzerland
   - key: options.country.CHL
     t: Chile
   - key: options.country.CHN
