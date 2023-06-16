@@ -234,11 +234,11 @@ translations:
   - key: usage.react_version.description
     t: Which version of React do you use the most on a daily basis?
 
-  - key: react_version.options.react_16x
+  - key: react_version.options.react_v16x
     t: 16.x
-  - key: react_version.options.react_17x
+  - key: react_version.options.react_v17x
     t: 17.x
-  - key: react_version.options.react_18x
+  - key: react_version.options.react_v18x
     t: 18.x
   - key: react_version.options.not_sure
     t: Not sure
