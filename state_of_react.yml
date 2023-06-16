@@ -176,6 +176,11 @@ translations:
   - key: other_tools.ai_tools.description
     t: AI tools & services you use to help you write React code.
 
+  - key: other_tools.renderers
+    t: React Renderers
+  - key: other_tools.renderers.description
+    t: Libraries that let you render React to different platforms or environments.
+
   - key: other_tools.other_tools
     t: Other Tools
   - key: other_tools.other_tools.description

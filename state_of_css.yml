@@ -904,9 +904,13 @@ translations:
     t: How happy are you with the state of CSS frameworks?
 
   - key: happiness.state_of_the_web
+    t: State of Web Technologies
+  - key: happiness.state_of_the_web.description
     t: How happy are you with the general state of web technologies?
 
   - key: happiness.state_of_css
+    t: State of CSS
+  - key: happiness.state_of_css.description
     t: How happy are you with the general state of CSS?
 
   # pain points/currently missing (results)
