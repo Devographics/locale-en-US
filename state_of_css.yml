@@ -91,7 +91,7 @@ translations:
   - key: sections.css_frameworks.title
     t: CSS Frameworks
   - key: sections.css_frameworks.description
-    t: Libraries that give you pre-made components and styles.
+    t: Frameworks and libraries that give you pre-made components or styles.
 
   - key: sections.css_frameworks_others.title
     t: Other CSS Frameworks
@@ -315,6 +315,11 @@ translations:
     t: Masonry Layout
   - key: options.css_missing_features.masonry_layout.description
     t: Native support for Pinterest-style free-flowing grid layouts.
+
+  - key: options.css_missing_features.css_toggles
+    t: CSS Toggle
+  - key: options.css_missing_features.css_toggles.description
+    t: A way to associate a "toggleable value" with an element
 
   ###########################################################################
   # Features
