@@ -316,9 +316,9 @@ translations:
   - key: options.css_missing_features.masonry_layout.description
     t: Native support for Pinterest-style free-flowing grid layouts.
 
-  - key: options.css_missing_features.css_toggles
+  - key: options.css_missing_features.css_toggle
     t: CSS Toggle
-  - key: options.css_missing_features.css_toggles.description
+  - key: options.css_missing_features.css_toggle.description
     t: A way to associate a "toggleable value" with an element
 
   ###########################################################################
@@ -959,6 +959,11 @@ translations:
     t: First Steps With CSS
   - key: resources.first_steps_css.description
     t: When first starting out, which resources did you use to initially learn CSS?
+
+  - key: resources.learning_methods_css
+    t: CSS Learning Methods
+  - key: resources.learning_methods_css.description
+    t: Which resources have you used to learn CSS?
 
   # sites & courses
   - key: resources.sites_courses_css

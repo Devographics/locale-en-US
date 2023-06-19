@@ -315,7 +315,7 @@ translations:
   - key: faq.how_long_will_survey_take_css2023.description
     t: >
       Depending on how many questions you answer (all questions can be skipped), 
-      filling out the survey should take between 10 and 20 minutes.
+      filling out the survey should take around 10-15 minutes.
 
   - key: faq.learn_more_css2023
     t: Where can I learn more?

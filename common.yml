@@ -721,6 +721,8 @@ translations:
     t: Consulting & Services
   - key: options.industry_sector.travel
     t: Travel
+  - key: options.industry_sector.tourism
+    t: Tourism
   - key: options.industry_sector.insurance
     t: Insurance
   - key: options.industry_sector.logistics
@@ -867,6 +869,42 @@ translations:
     t: Trial & Error
   - key: options.first_steps.forums
     t: Forums
+
+  # learning methods
+  - key: options.learning_methods.na
+    aliasFor: options.first_steps.na
+  - key: options.learning_methods.books
+    aliasFor: options.first_steps.books
+  - key: options.learning_methods.videos
+    aliasFor: options.first_steps.videos
+  - key: options.learning_methods.school
+    aliasFor: options.first_steps.school
+  - key: options.learning_methods.courses_free
+    aliasFor: options.first_steps.courses_free
+  - key: options.learning_methods.courses_paid
+    aliasFor: options.first_steps.courses_paid
+  - key: options.learning_methods.podcasts
+    aliasFor: options.first_steps.podcasts
+  - key: options.learning_methods.bootcamp
+    aliasFor: options.first_steps.bootcamp
+  - key: options.learning_methods.on_the_job
+    aliasFor: options.first_steps.on_the_job
+  - key: options.learning_methods.self_directed
+    aliasFor: options.first_steps.self_directed
+  - key: options.learning_methods.mentoring
+    aliasFor: options.first_steps.mentoring
+  - key: options.learning_methods.documentation
+    aliasFor: options.first_steps.documentation
+  - key: options.learning_methods.blogs
+    aliasFor: options.first_steps.blogs
+  - key: options.learning_methods.view_source
+    aliasFor: options.first_steps.view_source
+  - key: options.learning_methods.documentation
+    aliasFor: options.first_steps.documentation
+  - key: options.learning_methods.trial_and_error
+    aliasFor: options.first_steps.trial_and_error
+  - key: options.learning_methods.forums
+    aliasFor: options.first_steps.forums
 
   # degree
   - key: options.higher_education_degree.no_degree
