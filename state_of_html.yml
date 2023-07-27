@@ -1,0 +1,9 @@
+locale: en-US
+translations:
+  ###########################################################################
+  # General
+  ###########################################################################
+
+  - key: general.state_of_html.intro
+    t: |
+      HTML is evolving faster than ever.
