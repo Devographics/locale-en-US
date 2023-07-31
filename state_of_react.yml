@@ -1,5 +1,20 @@
 locale: en-US
 translations:
+  ###########################################################################
+  # General
+  ###########################################################################
+
+  - key: general.state_of_react.intro
+    t: |
+      React has been around for a while now, and it's clear that it has become one of the dominant front-end frameworks. 
+
+      Yet even so, React is still evolving at a fast pace, and the community is doing its best to keep up.  
+
+      With the State of React developer survey, we are hoping to make sense of that evolution, and help developers find their way in the vast React ecosystem.
+
+  - key: general.state_of_react.description
+    t: The annual developer survey about the React ecosystem
+
   - key: features.features_intro_react
     t: |
       Welcome to the survey! This first part is all about figuring out 
