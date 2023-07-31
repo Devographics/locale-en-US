@@ -5,16 +5,16 @@ translations:
   # General
   ###########################################################################
 
-  - key: general.state_of_css.intro
+  - key: general.state_of_html.intro
     t: |
-      CSS is evolving faster than ever.
+      While web developers tend to focus on JavaScript and CSS, none of what we do would be even possible without HTML acting as a foundation for all of it. 
 
-      Flexbox, Grid, Multi-Column… To say nothing of whole new paradigms like CSS-in-JS.
+      And while it has long seemed like HTML wasn't evolving, things may be changing. New elements like `<selectmenu>` and `<breadcrumb>` are on the horizon, not to mention cool new features like popovers and declarative Shadow DOM.
 
-      This is where the State of CSS survey comes in: we're taking on the world of styles and selectors to try and identify upcoming trends, and figure out what features and tools to learn next!
+      So with this survey, our goal is to fill in the gaps between the [State of JS](http://stateofjs.com/) and [State of CSS](https://stateofcss.com/) surveys, and help track the evolution of the web platform as a whole!
 
-  - key: general.state_of_css.description
-    t: The annual developer survey about the latest trends in CSS
+  - key: general.state_of_html.description
+    t: The annual developer survey about the web platform
 
   ###########################################################################
   # Sections
