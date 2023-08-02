@@ -699,10 +699,15 @@ translations:
   - key: chart_units.percentageBucket
     aliasFor: chart_units.percentage_bucket
   - key: chart_units.average
-    t: Average
+    t: Average {axis}
+  - key: chart_units.averageByFacet
+    aliasFor: chart_units.average
+
+  - key: chart_units.percentilesByFacet
+    t: "{axis} Percentiles"
 
   - key: charts.average
-    t: Average
+    t: Average {axis}
   - key: charts.mean
     t: Mean
   - key: charts.overall
@@ -729,7 +734,7 @@ translations:
   - key: charts.axis_legends.users_count
     t: User Count
   - key: charts.axis_legends.users_average
-    t: Average
+    t: Average {axis}
   - key: charts.axis_legends.interest_percentage
     t: Interest %
   - key: charts.axis_legends.satisfaction_percentage
@@ -768,6 +773,11 @@ translations:
     t: "% of bucket respondents"
   - key: charts.axis_legends.users_percentageBucket
     aliasFor: charts.axis_legends.users_percentage_bucket
+
+  - key: charts.axis_legends.users_averageByFacet
+    aliasFor: chart_units.average
+  - key: charts.axis_legends.users_percentilesByFacet
+    aliasFor: chart_units.percentilesByFacet
 
   - key: charts.ranges_multiple_diverging_lines.baseline
     t: baseline
@@ -810,6 +820,8 @@ translations:
     t: Falling popularity
 
   - key: charts.no_answer
+    t: No Answer
+  - key: charts.no_answer.short
     t: No Answer
 
   - key: charts.tick.links
