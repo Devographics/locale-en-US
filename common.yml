@@ -1328,3 +1328,40 @@ translations:
     t: Other Video Creators
   - key: options.video_creators.na
     t: None
+
+  ###########################################################################
+  # Follow-Up Questions
+  ###########################################################################
+
+  - key: followups.button
+    t: Tell us more…
+
+  - key: followups.description
+    t: |
+      Optionally, you can tell us more about why you picked this answer:
+
+  - key: followups.placeholder
+    t: Other reason…
+
+  - key: followups.want_to_learn_more
+    t: I want to learn more
+  - key: followups.not_interested
+    t: I'm not interested
+  - key: followups.insufficient_browser_support
+    t: Insufficient browser support
+  - key: followups.not_needed
+    t: I haven't needed it
+  - key: followups.hard_to_use
+    t: It was hard to use
+  - key: followups.positive_experience
+    t: I had a positive experience
+  - key: followups.not_powerful
+    t: It wasn't powerful enough
+  # - key: followups.
+  #   t:
+  # - key: followups.
+  #   t:
+  # - key: followups.
+  #   t:
+  # - key: followups.
+  #   t:
