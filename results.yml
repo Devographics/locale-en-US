@@ -676,6 +676,17 @@ translations:
   - key: blocks.freeform
     t: (freeform question)
 
+  # Reading List
+  - key: features.reading_list
+    t: Reading List
+  - key: features.reading_list.description
+    t: How many times were items added to respondents' reading list?
+  - key: features.reading_list.note
+    t: >
+      The “Reading List” feature lets respondents save items they want to learn more
+      about while taking the survey; and get a recap of useful resources about them at
+      the end of the survey.
+
   ###########################################################################
   # Charts
   ###########################################################################
