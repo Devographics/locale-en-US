@@ -52,7 +52,7 @@ translations:
   - key: tabs.by_degree
     t: By Degree
   - key: tabs.by_salary
-    t: By Salary
+    t: By Income
   - key: tabs.by_gender
     t: By Gender
 
@@ -130,7 +130,7 @@ translations:
   - key: ranges.selector.years_of_experience
     t: Experience
   - key: ranges.selector.yearly_salary
-    t: Salary
+    t: Income
   - key: ranges.selector.company_size
     t: Company Size
 
@@ -722,7 +722,7 @@ translations:
   - key: charts.axis_legends.yearly_salary
     t: Salary Range (USD)
   - key: charts.axis_legends.company_size
-    t: Number of Employees
+    t: Organization Size
   - key: charts.axis_legends.backend_proficiency
     t: Back-end Proficiency
   - key: charts.axis_legends.css_proficiency
@@ -826,6 +826,11 @@ translations:
 
   - key: charts.tick.links
     t: Links
+
+  - key: charts.facets_clarification
+    t: >
+      Note that the percentages shown above are influenced by how many respondents
+      overall belong to each group.
 
   ###########################################################################
   # Comments

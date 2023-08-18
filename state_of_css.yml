@@ -198,6 +198,19 @@ translations:
   - key: options.what_do_you_use_css_for.desktop_apps
     t: Desktop apps
 
+  - key: options.what_do_you_use_css_for.e_commerce
+    t: E-commerce
+  - key: options.what_do_you_use_css_for.websites
+    t: Websites
+  - key: options.what_do_you_use_css_for.games
+    t: Games
+  - key: options.what_do_you_use_css_for.portfolio
+    t: Portfolio
+  - key: options.what_do_you_use_css_for.extensions
+    t: Browser Extensions
+  - key: options.what_do_you_use_css_for.desktop
+    t: Desktop
+
   # CSS pain points
   - key: options.css_pain_points.browser_interoperability
     t: Browser Compatibility
@@ -662,6 +675,8 @@ translations:
     aliasFor: sections.pre_post_processors_others.title
   - key: other_tools.pre_post_processors.others
     aliasFor: sections.pre_post_processors_others.title
+  - key: other_tools.pre_post_processors_freeform
+    aliasFor: sections.pre_post_processors_others.title
   - key: options.pre_post_processors.na
     t: None
 
@@ -684,6 +699,8 @@ translations:
     aliasFor: tools_others.utilities.others
   - key: other_tools.utilities.others.description
     aliasFor: tools_others.utilities.others.description
+  - key: other_tools.utilities_freeform
+    aliasFor: tools_others.utilities.others
 
   - key: tools_others.browsers
     t: Browsers

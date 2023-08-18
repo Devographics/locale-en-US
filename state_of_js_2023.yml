@@ -26,7 +26,7 @@ translations:
 
       Because of this newly expanded audience you might notice some unexpected results, such as some features going down year-over-year in terms of awareness or usage. 
 
-      But having more data can potentially mean new insights, and that's why we've developed two new ways to interact with our dataset: the **Data Explorer** lets you cross-reference two variables and highlight any outlying results; while **Chart Filters** let you filter specific charts by salary, country, gender, and many other demographic variables. 
+      But having more data can potentially mean new insights, and that's why we've developed two new ways to interact with our dataset: the **Data Explorer** lets you cross-reference two variables and highlight any outlying results; while **Chart Filters** let you filter specific charts by income, country, gender, and many other demographic variables. 
 
       We've also replaced our catch-all "back-end" category with a more specific **Rendering Frameworks** page and added a new **Video Creators** list to the Resources section. 
 

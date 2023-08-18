@@ -299,6 +299,8 @@ translations:
   # other answer
   - key: options.other
     t: Other…
+  - key: options.other.placeholder
+    t: Other items not mentioned above, comma-separated
 
   # features
   - key: options.features.never_heard
@@ -476,21 +478,21 @@ translations:
   - key: options.company_size.na
     t: Not Applicable
   - key: options.company_size.range_1
-    t: One employee
+    t: Just me
   - key: options.company_size.range_1_5
-    t: 2 to 5 employees
+    t: 2 to 5 people
   - key: options.company_size.range_5_10
-    t: 6 to 10 employees
+    t: 6 to 10 people
   - key: options.company_size.range_10_20
-    t: 11 to 20 employees
+    t: 11 to 20 people
   - key: options.company_size.range_20_50
-    t: 21 to 50 employees
+    t: 21 to 50 people
   - key: options.company_size.range_50_100
-    t: 51 to 100 employees
+    t: 51 to 100 people
   - key: options.company_size.range_100_1000
-    t: 101 to 1000 employees
+    t: 101 to 1000 people
   - key: options.company_size.range_more_than_1000
-    t: More than 1000 employees
+    t: More than 1000 people
 
   # company size (short versions)
   - key: options.company_size.na.short
@@ -641,6 +643,8 @@ translations:
     t: Not listed
 
   # Disability Status
+  - key: options.disability_status.na
+    t: None
   - key: options.disability_status.visual_impairments
     t: >
       Visual impairments (such as: blindness, color blindness, etc.)
@@ -784,6 +788,8 @@ translations:
     t: Blockchain
   - key: options.industry_sector.design
     t: Design
+  - key: options.industry_sector.unemployed
+    t: Unemployed
 
   # tool evaluation
   - key: options.tool_evaluation.learning_curve_documentation
@@ -875,6 +881,10 @@ translations:
     t: Trial & Error
   - key: options.first_steps.forums
     t: Forums
+  - key: options.first_steps.newsletters
+    t: Newsletters
+  - key: options.first_steps.events
+    t: Events
 
   # learning methods
   - key: options.learning_methods.na
@@ -911,6 +921,10 @@ translations:
     aliasFor: options.first_steps.trial_and_error
   - key: options.learning_methods.forums
     aliasFor: options.first_steps.forums
+  - key: options.learning_methods.newsletters
+    aliasFor: options.first_steps.newsletters
+  - key: options.learning_methods.events
+    aliasFor: options.first_steps.events
 
   # degree
   - key: options.higher_education_degree.no_degree
@@ -1031,17 +1045,17 @@ translations:
 
   # source
   - key: options.source.angular_community
-    aliasFor: Angular Community
+    t: Angular Community
   - key: options.source.work
-    aliasFor: Work
+    t: Workplace
   - key: options.source.word_of_mouth
     t: Word of Mouth
-  # - key: options.source.
-  #   t:
-  # - key: options.source.
-  #   t:
-  # - key: options.source.
-  #   t:
+  - key: options.source.podcast
+    t: Podcasts
+  - key: options.source.other_online_sources
+    t: Other Online Sources
+  - key: options.source.blog
+    t: Blogs
   # - key: options.source.
   #   t:
   # - key: options.source.
@@ -1086,13 +1100,13 @@ translations:
   - key: user_info.company_size
     t: Company Size
   - key: user_info.company_size.description
-    t: How big is your company, in number of employees?
+    t: How many people work at your organization, including yourself?
 
   # salary ranges
   - key: user_info.yearly_salary
-    t: Yearly Salary
+    t: Yearly Income
   - key: user_info.yearly_salary.description
-    t: Your yearly salary in U.S. dollar.
+    t: Your yearly income in U.S. dollar.
 
   # job title
   - key: user_info.job_title
@@ -1145,6 +1159,10 @@ translations:
     t: >
       In order to comply with local policies, the collection of race or ethnicity data has
         been disabled for your country or region.
+  - key: user_info.race_ethnicity.others
+    t: Other Races or Ethnicities
+  - key: user_info.race_ethnicity_freeform
+    aliasFor: user_info.race_ethnicity.others
 
   # disability status
   - key: user_info.disability_status
@@ -1157,10 +1175,12 @@ translations:
   # disability status (other)
   - key: user_info.disability_status.others
     t: Other Disabilities
+  - key: user_info.disability_status_freeform
+    aliasFor: user_info.disability_status.others
 
   # other info
   - key: user_info.how_did_user_find_out_about_the_survey
-    t: How did you find out about this survey?
+    t: How did you hear about this survey?
   - key: user_info.email
     t: Your Email
   - key: user_info.email.description
