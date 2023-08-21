@@ -96,6 +96,29 @@ translations:
   - key: options.features_categories.selectors
     aliasFor: sections.selectors.title
 
+  - key: user_info.country_low_vs_high_income.description.css2023
+    t: >
+      Splitting respondents between low-income and high-income brackets gives
+      us two very different lists of countries.
+
+  - key: user_info.higher_education_degree_by_gender.description.css2023
+    t: >
+      Women representation was higher than expected among respondents 
+      with a higher-education diploma in areas unrelated to CSS, potentially 
+      indicating a lot of career changes.
+
+  - key: user_info.source_by_gender.description.css2023
+    t: >
+      Although the low total counts make it hard to draw any conclusions,
+      the proportion of women was highest among respondents 
+      who came across the survey from their workplace or through word-of-mouth, 
+      especially compared to social networks such as Twitter or YouTube.
+
+  - key: user_info.source_by_race_ethnicity.description.css2023
+    t: >
+      Again keeping in mind the low sample size, when considering race and ethnicity,
+      YouTube stands out as one of the most diverse source of traffic to the survey.
+
   ###########################################################################
   # Awards
   ###########################################################################
@@ -139,7 +162,7 @@ translations:
 
       It was also interesting that so many developers felt that animating to auto and masonry layout were missing CSS features. It's true it's always been tricky for browsers to determine element dimensions (especially height) when they're not explicitly declared. 
 
-      But as [Lea Verou](https://lea.verou.me/) mentioned last year, with initiatives such as[Interop](https://wpt.fyi/interop-2023) bringing browsers together, features thought previously impossible can now potentially become reality!
+      But as [Lea Verou](https://lea.verou.me/) mentioned last year, with initiatives such as [Interop](https://wpt.fyi/interop-2023) bringing browsers together, features thought previously impossible can now potentially become reality!
 
   - key: conclusion.css2023.bio
     t: Developer Experience Engineer @ Interledger Foundation

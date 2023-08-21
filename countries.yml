@@ -16,6 +16,8 @@ translations:
     t: Bangladesh
   - key: options.country.BEL
     t: Belgium
+  - key: options.country.BLR
+    t: Belarus
   - key: options.country.BRA
     t: Brazil
   - key: options.country.CAN
@@ -34,6 +36,8 @@ translations:
     t: Côte d'Ivoire
   - key: options.country.CZE
     t: Czechia
+  - key: options.country.DNK
+    t: Denmark
   - key: options.country.EGY
     t: Egypt
   - key: options.country.ETH
@@ -56,6 +60,8 @@ translations:
     t: Iraq
   - key: options.country.ITA
     t: Italy
+  - key: options.country.ISR
+    t: Israel
   - key: options.country.JPN
     t: Japan
   - key: options.country.KEN
@@ -72,6 +78,8 @@ translations:
     t: Netherlands
   - key: options.country.NGA
     t: Nigeria
+  - key: options.country.NZL
+    t: New Zealand
   - key: options.country.POL
     t: Poland
   - key: options.country.PAK

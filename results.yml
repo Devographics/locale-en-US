@@ -55,6 +55,10 @@ translations:
     t: By Income
   - key: tabs.by_gender
     t: By Gender
+  - key: tabs.by_race_ethnicity
+    t: By Race & Ethnicity
+  - key: tabs.low_vs_high_income
+    t: Low vs High Income
 
   ###########################################################################
   # Options
@@ -250,6 +254,12 @@ translations:
   - key: user_info.source.note
     t: Respondent source is computed based on referrer data, URL tracking data, and self-reported answers.
 
+  - key: user_info.source_by_gender
+    t: Source by Gender
+
+  - key: user_info.source_by_race_ethnicity
+    t: Source by Race & Ethnicity
+
   - key: user_info.gender_by_country
     t: Gender By Country
   - key: user_info.gender_by_country.description
@@ -259,6 +269,11 @@ translations:
     t: Years of Experience by Salary Range
   - key: user_info.years_of_experience_by_salary.description
     t: Years of experience by salary range.
+
+  - key: user_info.average_income_by_years_of_experience
+    t: Average Income by Years of Experience
+  - key: user_info.average_income_by_years_of_experience.description
+    t: Average income by years of experience.
 
   - key: user_info.yearly_salary_by_country
     t: Salary By Country
@@ -680,7 +695,7 @@ translations:
   - key: features.reading_list
     t: Reading List
   - key: features.reading_list.description
-    t: How many times were items added to respondents' reading list?
+    t: How many respondents added each item to their reading list?
   - key: features.reading_list.note
     t: >
       The “Reading List” feature lets respondents save items they want to learn more
@@ -838,10 +853,17 @@ translations:
   - key: charts.tick.links
     t: Links
 
+  - key: charts.resources
+    t: Useful Links
+
   - key: charts.facets_clarification
     t: >
       Note that the percentages shown above are influenced by how many respondents
       overall belong to each group.
+
+  - key: charts.average_clarification
+    t: >
+      Note that averages are calculated by taking the midpoint value of each range as an approximate representative value.
 
   ###########################################################################
   # Comments
@@ -1389,10 +1411,12 @@ translations:
 
   - key: filters.compare_data
     t: Compare Data
+  - key: filters.customize_chart
+    t: Customize Chart
   - key: filters.docs
     t: Documentation
   - key: filters.compare_chart
-    t: Compare “{chartName}”
+    t: Customize “{chartName}”
   - key: filters.filters.description
     t: |
       Using a combination of demographics filters, you can define up to four **custom data series** to dynamically
@@ -1450,6 +1474,8 @@ translations:
     t: Update Chart
   - key: filters.copy_link
     t: Copy link to current filters
+  - key: filters.get_code
+    t: Get filters code
 
   - key: filters.presets.title
     t: "Presets:"

@@ -617,6 +617,19 @@ translations:
   - key: options.race_ethnicity.not_listed
     t: Not listed
 
+  - key: options.race_ethnicity.european
+    t: European
+  - key: options.race_ethnicity.indian
+    t: Indian
+  - key: options.race_ethnicity.human
+    t: Human
+  - key: options.race_ethnicity.slav
+    t: Slav
+  - key: options.race_ethnicity.north_african
+    t: North African
+  - key: options.race_ethnicity.jewish
+    t: Jewish
+
   # Race & Ethnicity (short)
 
   - key: options.race_ethnicity.white_european.short
