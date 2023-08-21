@@ -59,6 +59,8 @@ translations:
     t: By Race & Ethnicity
   - key: tabs.low_vs_high_income
     t: Low vs High Income
+  - key: tabs.usa_vs_the_world
+    t: U.S. vs World
 
   ###########################################################################
   # Options
@@ -274,6 +276,11 @@ translations:
     t: Average Income by Years of Experience
   - key: user_info.average_income_by_years_of_experience.description
     t: Average income by years of experience.
+
+  - key: user_info.average_income_by_company_size
+    t: Average Income by Company Size
+  - key: user_info.average_income_by_company_size.description
+    t: Average income by company size.
 
   - key: user_info.yearly_salary_by_country
     t: Salary By Country

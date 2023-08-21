@@ -119,6 +119,16 @@ translations:
       Again keeping in mind the low sample size, when considering race and ethnicity,
       YouTube stands out as one of the most diverse source of traffic to the survey.
 
+  - key: user_info.average_income_by_company_size.description.css2023
+    t: >
+      We find the highest-paid respondents working for large companies, although
+      it's notable that solo workers show a slight income advantage over small companies.
+
+  - key: user_info.yearly_salary_usa_vs_the_world.description.css2023
+    t: >
+      When comparing U.S. incomes against the rest of the world, it becomes clear that U.S.
+      developers are the ones populating the higher income brackets.
+
   ###########################################################################
   # Awards
   ###########################################################################
