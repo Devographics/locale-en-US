@@ -297,6 +297,10 @@ translations:
   - key: user_info.yearly_salary_by_experience.description
     t: Yearly salary distribution by experience, sorted by mean salary descending.
 
+  - key: user_info.yearly_salary_usa_vs_the_world
+    t: >
+      Yearly Income: U.S vs World
+
   - key: user_info.race_ethnicity_by_years_of_experience
     t: Race & Ethnicity by Years of Experience
   - key: user_info.race_ethnicity_by_years_of_experience.description
@@ -615,6 +619,25 @@ translations:
       the **inner circle** represents those who have actually used it (*have used it* respondents).
 
       Hover on each circle to see detailed stats, including the ratio between both values.
+
+  # features_experience_linechart
+  - key: blocks.features_experience_linechart
+    t: Ratios Over Time
+  - key: blocks.features_experience_linechart.description
+    t: Usage and awareness ratios over time for the highest-rating features.
+  - key: blocks.features_experience_linechart.note
+    t: |
+      Each ratio is defined as follows:
+
+      - Usage: (**have used it**) / **total**
+      - Awareness: (**have used it** + **know about it **) / **total**
+
+  - key: blocks.features_experience_ranking
+    t: Rankings Over Time
+  - key: blocks.features_experience_ranking.description
+    t: Usage and awareness rankings over time.
+  - key: blocks.features_experience_ranking.note
+    aliasFor: blocks.features_experience_linechart.note
 
   # export
   - key: export.export
@@ -1003,6 +1026,9 @@ translations:
     t: Would use again %
   - key: table.interested_percentage
     t: Interested %
+
+  - key: table.not_available
+    t: No datatable available.
 
   ###########################################################################
   # Awards

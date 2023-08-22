@@ -127,7 +127,7 @@ translations:
   - key: user_info.yearly_salary_usa_vs_the_world.description.css2023
     t: >
       When comparing U.S. incomes against the rest of the world, it becomes clear that U.S.
-      developers are the ones populating the higher income brackets.
+      developers are over-represented in the higher income brackets.
 
   ###########################################################################
   # Awards

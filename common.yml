@@ -900,6 +900,10 @@ translations:
     t: Events
 
   # learning methods
+
+  - key: resources.learning_methods
+    t: Learning Methods
+
   - key: options.learning_methods.na
     aliasFor: options.first_steps.na
   - key: options.learning_methods.books
@@ -986,6 +990,10 @@ translations:
     t: Yes, email me when the survey results are published
 
   # usage type
+
+  - key: usage.usage_type
+    t: Usage Type
+
   - key: options.usage_type.professionally
     t: Professionally
   - key: options.usage_type.student

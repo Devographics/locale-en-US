@@ -922,18 +922,26 @@ translations:
     t: How happy are you with the state of pre/post-processors?
   - key: happiness.css_in_js
     t: How happy are you with the state of CSS-in-JS libraries?
+  - key: css_in_js.css_in_js_happiness
+    aliasFor: happiness.css_in_js
   - key: happiness.css_frameworks
     t: How happy are you with the state of CSS frameworks?
+  - key: css_frameworks.css_frameworks_happiness
+    aliasFor: happiness.css_frameworks
 
   - key: happiness.state_of_the_web
     t: State of Web Technologies
   - key: happiness.state_of_the_web.description
     t: How happy are you with the general state of web technologies?
+  - key: usage.state_of_the_web_happiness
+    aliasFor: happiness.state_of_the_web
 
   - key: happiness.state_of_css
     t: State of CSS
   - key: happiness.state_of_css.description
     t: How happy are you with the general state of CSS?
+  - key: usage.state_of_css_happiness
+    aliasFor: happiness.state_of_css
 
   # pain points/currently missing (results)
   - key: css_pain_points.css_pain_points_wins
