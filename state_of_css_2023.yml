@@ -76,6 +76,40 @@ translations:
       Originally from France but now based in the United States, Chris is not just an amazing front-end developer, but also a talented illustrator who specializes in retro visuals. In fact, we encourage you to also check out his [other t-shirt designs](https://chriskirknielsen.com/designs)!
 
   ###########################################################################
+  # Sections Introductions
+  ###########################################################################
+
+  - key: sections.user_info.description.css2023
+    t: |
+      This year's survey reached **9,190** developers throughout the world.
+
+  - key: sections.features.description.css2023
+    t: |
+      CSS has been on a roll lately, and many of the new features introduced are
+      slowly but surely being adopted by the developer community.
+
+  - key: sections.css_frameworks.description.css2023
+    t: |
+      Once again, Tailwind CSS stands apart as the one major UI framework that developers are happy to keep using; while Open Props is generating a small but passionate following.
+
+  - key: sections.css_in_js.description.css2023
+    t: |
+      After some initial growth, it seems like the CSS-in-JS sector has plateaued, and
+      the fact that native CSS itself is adopting many of its main advantages is probably a big contributing factor.
+
+  - key: sections.other_tools.description.css2023
+    t: |
+      30 years after the invention of the browser, we're still seeing innovation in that space with new entrants like Brave and Arc; or specialized tools like Polypane gaining marketshare.
+
+  - key: sections.usage.description.css2023
+    t: |
+      No matter how you use CSS, the data shows that making sure your code works across all browsers is still a concern, especially for newer features such as `:has()`.
+
+  - key: sections.resources.description.css2023
+    t: |
+      Between blogs, YouTube channels, and podcasts, the CSS community is more vibrant than ever.
+
+  ###########################################################################
   # Charts
   ###########################################################################
 
@@ -186,101 +220,101 @@ translations:
   - key: picks.intro
     t: We asked members of the CSS community to share their “pick of the year”
 
-  - key: picks.david_east.name
-    t: CSS Subgrid
-  - key: picks.david_east.bio
-    t: Advocate for building on the web
-  - key: picks.david_east.description
-    t: |
-      CSS Subgrid allows child elements to inherit their parents grid properties. 
-      Soon, it will be much easier to lay elements out to the same grid 
-      lines across the entire page.
+  # - key: picks.david_east.name
+  #   t: CSS Subgrid
+  # - key: picks.david_east.bio
+  #   t: Advocate for building on the web
+  # - key: picks.david_east.description
+  #   t: |
+  #     CSS Subgrid allows child elements to inherit their parents grid properties.
+  #     Soon, it will be much easier to lay elements out to the same grid
+  #     lines across the entire page.
 
-  - key: picks.bramus_van_damme.name
-    t: The `:has()` Selector
-  - key: picks.bramus_van_damme.bio
-    t: Chrome Developer Relations Engineer at Google
-  - key: picks.bramus_van_damme.description
-    t: |
-      You might know this one as the so-called “parent selector” but that name does it 
-      no justice as it only covers a small part of what it can do. 
-      This selector has essentially changed the way I write my CSS.
+  # - key: picks.bramus_van_damme.name
+  #   t: The `:has()` Selector
+  # - key: picks.bramus_van_damme.bio
+  #   t: Chrome Developer Relations Engineer at Google
+  # - key: picks.bramus_van_damme.description
+  #   t: |
+  #     You might know this one as the so-called “parent selector” but that name does it
+  #     no justice as it only covers a small part of what it can do.
+  #     This selector has essentially changed the way I write my CSS.
 
-  - key: picks.kevin_j_powell.name
-    t: Jhey Tompkins
-  - key: picks.kevin_j_powell.bio
-    t: CSS Evangelist
-  - key: picks.kevin_j_powell.description
-    t: |
-      Jhey is always pushing the limits of what we can do with CSS with 
-      fun and impressive demos and Codepens. With all the new features landing in CSS recently, 
-      Jhey is at the forefront of explaining how they work.
+  # - key: picks.kevin_j_powell.name
+  #   t: Jhey Tompkins
+  # - key: picks.kevin_j_powell.bio
+  #   t: CSS Evangelist
+  # - key: picks.kevin_j_powell.description
+  #   t: |
+  #     Jhey is always pushing the limits of what we can do with CSS with
+  #     fun and impressive demos and Codepens. With all the new features landing in CSS recently,
+  #     Jhey is at the forefront of explaining how they work.
 
-  - key: picks.samuel_kraft.name
-    t: The `:has()` Selector
-  - key: picks.samuel_kraft.bio
-    t: Design Engineer
-  - key: picks.samuel_kraft.description
-    t: |
-      The new :has() selector is super powerful and unlocks new styling possibilities. 
-      This great article from Jen Simmons breaks it down with explanations and practical examples.
+  # - key: picks.samuel_kraft.name
+  #   t: The `:has()` Selector
+  # - key: picks.samuel_kraft.bio
+  #   t: Design Engineer
+  # - key: picks.samuel_kraft.description
+  #   t: |
+  #     The new :has() selector is super powerful and unlocks new styling possibilities.
+  #     This great article from Jen Simmons breaks it down with explanations and practical examples.
 
   - key: picks.josh_comeau.name
-    t: Modern CSS
+    t: CSS Podcast
   - key: picks.josh_comeau.bio
-    t: Software developer and educator
+    t: Instructor, CSS for JavaScript Developers
   - key: picks.josh_comeau.description
     t: |
-      CSS has changed so much over the past few years. 
-      Stephanie shows us how to leverage modern CSS features 
-      to solve old problems in new ways.
+      This podcast is a delightful tour of a bunch of 
+      important and modern CSS features. 
+      It's hosted by Una Kravets and Adam Argyle, two absolutely wonderful people.
 
   - key: picks.adam_argyle.name
-    t: The `:has()` Selector
+    t: Zag.js
   - key: picks.adam_argyle.bio
-    t: UI/CSS DevRel at Google
+    t: Google Chrome Developer Relations
   - key: picks.adam_argyle.description
     t: |
-      CSS just because even stronger at orchestrating UI interaction across components. 
-      We've barely scratched the surface of the impact of `:has()` on our styles.
+      The talented folks at ChakraUI are building some next-gen components and ideas, 
+      can't wait to see what else they come up with.
 
-  - key: picks.eric_w_bailey.name
-    t: “Style with Stateful, Semantic Selectors” by Ben Myers
-  - key: picks.eric_w_bailey.bio
-    t: Accessibility advocate and CSS nerd
-  - key: picks.eric_w_bailey.description
-    t: |
-      Ben demonstrates how utilizing ARIA 
-      attribute selectors can simply and powerfully tie appearance to state.
+  # - key: picks.eric_w_bailey.name
+  #   t: “Style with Stateful, Semantic Selectors” by Ben Myers
+  # - key: picks.eric_w_bailey.bio
+  #   t: Accessibility advocate and CSS nerd
+  # - key: picks.eric_w_bailey.description
+  #   t: |
+  #     Ben demonstrates how utilizing ARIA
+  #     attribute selectors can simply and powerfully tie appearance to state.
 
-  - key: picks.michelle_barker.name
-    t: Interop 2022
-  - key: picks.michelle_barker.bio
-    t: Writer and creator of front-end blog CSS { In Real Life }
-  - key: picks.michelle_barker.description
-    t: |
-      Interop is a collaboration between all of the major browser vendors, 
-      agreeing 15 key areas of focus for implementation — 
-      including game-changing new CSS features like container queries, 
-      cascade layers and color functions.
+  # - key: picks.michelle_barker.name
+  #   t: Interop 2022
+  # - key: picks.michelle_barker.bio
+  #   t: Writer and creator of front-end blog CSS { In Real Life }
+  # - key: picks.michelle_barker.description
+  #   t: |
+  #     Interop is a collaboration between all of the major browser vendors,
+  #     agreeing 15 key areas of focus for implementation —
+  #     including game-changing new CSS features like container queries,
+  #     cascade layers and color functions.
 
-  - key: picks.gift_egwuenu.name
-    t: Learn CSS
-  - key: picks.gift_egwuenu.bio
-    t: Developer Advocate at Cloudflare
-  - key: picks.gift_egwuenu.description
-    t: |
-      My recommended resource for anyone looking to learn CSS from the ground up, 
-      I also use it as a reference everytime I need to look up any CSS property.
+  # - key: picks.gift_egwuenu.name
+  #   t: Learn CSS
+  # - key: picks.gift_egwuenu.bio
+  #   t: Developer Advocate at Cloudflare
+  # - key: picks.gift_egwuenu.description
+  #   t: |
+  #     My recommended resource for anyone looking to learn CSS from the ground up,
+  #     I also use it as a reference everytime I need to look up any CSS property.
 
   - key: picks.ahmad_shadeed.name
-    t: Container Queries
+    t: Scroll-Driven Animations
   - key: picks.ahmad_shadeed.bio
-    t: Author of [Debugging CSS](https://debuggingcss.com/), Writing at [ishadeed.com](http://ishadeed.com)
+    t: Design Engineer and Writer at [ishadeed.com](https://ishadeed.com/)
   - key: picks.ahmad_shadeed.description
     t: |
-      If I would pick one highlight for 2022, it's container queries! 
-      They are finally here in stable browser near you
+      If I went back 2 years, I'd never have imagined CSS 
+      having scroll-driven animations. Yet, here we are!
 
   # - key: picks.georgedoescode.name
   #   t:
@@ -289,35 +323,36 @@ translations:
   # - key: picks.georgedoescode.description
   #   t: |
 
-  - key: picks.jen_simmons.name
-    t: The `:has()` Selector
-  - key: picks.jen_simmons.bio
-    t: Web technologies evangelist at Apple
-  - key: picks.jen_simmons.description
-    t: |
-      For two decades, “parent selector” was a top requested feature for CSS. 
-      Then in 2022, in a total surprise, the :has() pseudo-class arrived to solve this and far more.
+  # - key: picks.jen_simmons.name
+  #   t: The `:has()` Selector
+  # - key: picks.jen_simmons.bio
+  #   t: Web technologies evangelist at Apple
+  # - key: picks.jen_simmons.description
+  #   t: |
+  #     For two decades, “parent selector” was a top requested feature for CSS.
+  #     Then in 2022, in a total surprise, the :has() pseudo-class arrived to solve this and far more.
 
   - key: picks.sara_soueidan.name
-    t: The `:has()` Selector
+    t: |
+      `color-contrast()`
   - key: picks.sara_soueidan.bio
-    t: Independent inclusive design engineer
+    t: Inclusive design engineer and educator
   - key: picks.sara_soueidan.description
     t: |
-      We've been wishing and waiting for CSS container queries for so long. 
-      But then `:has()` arrived shortly after, 
-      and it felt like it was "everything we never knew we always wanted".
+      My vote goes to color-contrast() because I think it deserves more spotlight. 
+      It’s one of the few features that makes it _easier_ for us (developers) 
+      to design for our users. Cross-browser support can’t come soon enough.
 
-  - key: picks.adam_wathan.name
-    t: Empty CSS Variables
-  - key: picks.adam_wathan.bio
-    t: Creator of Tailwind CSS
-  - key: picks.adam_wathan.description
-    t: |
-      Not many people know this but `--my-var: ;` is totally valid CSS, 
-      and it's way more useful than you think. 
-      We use it in Tailwind CSS all the time to make it 
-      possible to decompose a single CSS property into multiple classes.
+  # - key: picks.adam_wathan.name
+  #   t: Empty CSS Variables
+  # - key: picks.adam_wathan.bio
+  #   t: Creator of Tailwind CSS
+  # - key: picks.adam_wathan.description
+  #   t: |
+  #     Not many people know this but `--my-var: ;` is totally valid CSS,
+  #     and it's way more useful than you think.
+  #     We use it in Tailwind CSS all the time to make it
+  #     possible to decompose a single CSS property into multiple classes.
 
   # - key: picks.christianoliff.bio
   #   t: Front-end developer for Trimble MAPS
@@ -326,16 +361,24 @@ translations:
   #       One thing I've really started using and appreciating this year though is Purge CSS- an awesome tool for removing unused CSS. It can greatly reduce the size of your CSS, and its fast and easy to use.
 
   - key: picks.kilian_valkhof.name
-    t: Interop 2022
+    t: Devtoolstips
   - key: picks.kilian_valkhof.bio
-    t: Web developer and creator of Polypane
+    t: Creator of Polypane, the browser for developers.
   - key: picks.kilian_valkhof.description
     t: |
-      Started in 2021 as Compat 2021, browser engine makers 
-      have started coordinating which features they prioritize. 
-      Not only is this closing the various feature gaps that exist 
-      between between browsers, it's also increasing the speed with which new 
-      features like @layer lands across browsers.
+      The devtools in all browsers are super powerful. These bite-sized tips 
+      help you get the most out of them regardless of which browser you use.
+
+  - key: picks.ahmad_awais.name
+    t: |
+      `text-wrap: balance`
+  - key: picks.ahmad_awais.bio
+    t: VP DevRel & Google Developers Advisory Board founding member
+  - key: picks.ahmad_awais.description
+    t: |
+      Headlines should dazzle and read like a breeze, even if screens play hard to predict. 
+      I've battled those annoying solo words at line's end (hello, widow words!), 
+      but guess what? Enter text-wrap: balance – one-liner-fix wizardry that's pure magic!
 
   # - key: picks.piccalilli_.bio
   #   t: Freelance designer & dev who runs piccalil.li
@@ -441,9 +484,9 @@ translations:
 
   - key: about.content
     t: >
-      The 2022 State of CSS survey ran from October 1 to November 1 2022, and collected 14,310 responses. The survey is run by me, [Sacha Greif](https://sachagreif.com/), with help from a team of open-source contributors and consultants. 
+      The 2023 State of CSS survey ran from June 15 to July 15 2023, and collected 9,108 responses. The survey is run by [Devographics](https://www.devographics.com/), with help from a team of open-source contributors and consultants. 
 
-      This year's logo and t-shirt were reused from last year, when they were designed and animated by [Christopher Kirk-Nielsen](http://chriskirknielsen.com/).
+      The State of CSS logo and t-shirt were designed and animated by [Christopher Kirk-Nielsen](http://chriskirknielsen.com/).
 
       ### Survey Goals
 
@@ -451,13 +494,11 @@ translations:
 
       As such, these surveys are focused on anticipating what's coming over the next few years rather than analyzing what's popular now, which is why the features or technologies that are currently most widespread are not always included. 
 
-      Additionally, survey data is also used by browser vendors to prioritize features and inform initiatives such as [Interop 2022](https://wpt.fyi/interop-2022).
+      Additionally, survey data is also used by browser vendors to prioritize features and inform initiatives such as [Interop 2023](https://web.dev/interop-2023/).
 
       ### Survey Design
 
-      This year, survey design was lead by [Lea Verou](https://lea.verou.me/) thanks to a funding grant from the Google Chrome team, and managed publicly [on GitHub](https://github.com/orgs/Devographics/projects/1). All survey questions were optional. 
-
-      Additionally, going forward we will also coordinate survey design, review, and feedback through a [Working Group mailing list](https://www.devographics.com/working-group/).
+      This year, survey design was lead by [Chen Hui Jing](https://chenhuijing.com/) thanks to a funding grant from the Google Chrome team. All survey questions were optional. 
 
       ### Survey Audience
 
@@ -479,24 +520,11 @@ translations:
 
       ### Technical Overview
 
-      You can find a more in-depth technical overview of how the surveys are run [here](https://dev.to/sachagreif/how-the-state-of-js-css-surveys-are-run-4lnb). Our code is [open-source](https://github.com/Devographics/Monorepo/). 
-
-      - **Data collection**: [Next.js](https://nextjs.org/) app running on [Vercel](https://vercel.com/).
-
-      - **Data storage/processing**: MongoDB & MongoDB Aggregations running on [MongoDB Atlas](https://cloud.mongodb.com/).
-
-      - **Data API**: Node.js GraphQL API running on [Render](https://render.com/). 
-
-      - **Results Site**: [Gatsby](https://www.gatsbyjs.com/) React app running on [Netlify](https://netlify.com/).
-
-      - **Data Visualizations**: [Nivo](https://nivo.rocks/) React dataviz library. 
-
-      - **Type**: [IBM Plex Mono](https://fonts.google.com/specimen/IBM+Plex+Mono) and [Bebas Neue](https://fonts.google.com/specimen/Bebas+Neue).
+      You can find a more in-depth technical overview of how the surveys are run [here](https://dev.to/sachagreif/how-the-devographics-surveys-are-run-2023-edition-1p6a). Our code is [open-source](https://github.com/Devographics/Monorepo/). 
 
       ### Feedback
 
       - [Report a technical issue](https://github.com/Devographics/Monorepo/issues)
-      - [Make a suggestion for next year](https://github.com/Devographics/surveys/issues/66)
+      - [Make a suggestion for next year](https://github.com/Devographics/surveys/issues/193)
       - [Other non-technical issues](https://github.com/Devographics/surveys/issues)
       - [Join our Discord](https://discord.gg/tuWRUWVyJs)
-      - [Join the Devographics Working Group](https://www.devographics.com/working-group/) to participate in the design and review of future surveys.
