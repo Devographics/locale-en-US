@@ -216,7 +216,7 @@ translations:
   ###########################################################################
 
   - key: picks.my_pick
-    t: "My 2022 Pick: "
+    t: "My 2023 Pick: "
   - key: picks.intro
     t: We asked members of the CSS community to share their “pick of the year”
 
@@ -240,15 +240,13 @@ translations:
   #     no justice as it only covers a small part of what it can do.
   #     This selector has essentially changed the way I write my CSS.
 
-  # - key: picks.kevin_j_powell.name
-  #   t: Jhey Tompkins
-  # - key: picks.kevin_j_powell.bio
-  #   t: CSS Evangelist
-  # - key: picks.kevin_j_powell.description
-  #   t: |
-  #     Jhey is always pushing the limits of what we can do with CSS with
-  #     fun and impressive demos and Codepens. With all the new features landing in CSS recently,
-  #     Jhey is at the forefront of explaining how they work.
+  - key: picks.kevin_j_powell.name
+    t: Ahmad Shadeed
+  - key: picks.kevin_j_powell.bio
+    t: CSS Evangelist
+  - key: picks.kevin_j_powell.description
+    t: |
+      Ahmad's blog is a source of knowledge and inspiration, with in-depth explorations of topics, including great visuals and use cases.
 
   # - key: picks.samuel_kraft.name
   #   t: The `:has()` Selector
@@ -298,6 +296,15 @@ translations:
   #     including game-changing new CSS features like container queries,
   #     cascade layers and color functions.
 
+  - key: picks.jhey_tompkins.name
+    t: |
+      The `:has()` Selector
+  - key: picks.jhey_tompkins.bio
+    t: CEO of Fancy CSS
+  - key: picks.jhey_tompkins.description
+    t: |
+      `:has()` is the magic that you can use to combine other APIs like container queries, anchor positioning, etc. together. I'm excited to see how the community finds new and innovative ways to use it.
+
   # - key: picks.gift_egwuenu.name
   #   t: Learn CSS
   # - key: picks.gift_egwuenu.bio
@@ -343,16 +350,13 @@ translations:
       It’s one of the few features that makes it _easier_ for us (developers) 
       to design for our users. Cross-browser support can’t come soon enough.
 
-  # - key: picks.adam_wathan.name
-  #   t: Empty CSS Variables
-  # - key: picks.adam_wathan.bio
-  #   t: Creator of Tailwind CSS
-  # - key: picks.adam_wathan.description
-  #   t: |
-  #     Not many people know this but `--my-var: ;` is totally valid CSS,
-  #     and it's way more useful than you think.
-  #     We use it in Tailwind CSS all the time to make it
-  #     possible to decompose a single CSS property into multiple classes.
+  - key: picks.adam_wathan.name
+    t: Lightning CSS
+  - key: picks.adam_wathan.bio
+    t: Creator of Tailwind CSS
+  - key: picks.adam_wathan.description
+    t: |
+      An extremely fast, all-in-one CSS processing tool that handles things like vendor prefixes, minification, and modern feature transpilation, all while being an amazing platform for other developers to build CSS tools on top of.
 
   # - key: picks.christianoliff.bio
   #   t: Front-end developer for Trimble MAPS
@@ -471,8 +475,10 @@ translations:
 
   - key: sponsors.frontendmasters.description
     t: Advance your skills with in-depth, modern front-end engineering courses.
-  - key: sponsors.nijibox.description
+  - key: sponsors.polypane.description
     t: The browser for ambitious devs. Build responsive, accessible and fast websites with ease.
+  - key: sponsors.nijibox.description
+    t: UX and Product Development consulting in the heart of Tokyo.
   - key: sponsors.renderatl.description
     t: The largest tech conference with a dedicated Design & CSS track.
   - key: sponsors.google_chrome.description
@@ -486,15 +492,20 @@ translations:
     t: >
       The 2023 State of CSS survey ran from June 15 to July 15 2023, and collected 9,108 responses. The survey is run by [Devographics](https://www.devographics.com/), with help from a team of open-source contributors and consultants. 
 
+
       The State of CSS logo and t-shirt were designed and animated by [Christopher Kirk-Nielsen](http://chriskirknielsen.com/).
+
 
       ### Survey Goals
 
       This survey, along with the [State of JavaScript](https://stateofjs.com/) survey, was created to identify upcoming trends in the web development ecosystem in order to help developers make technological choices. 
 
+
       As such, these surveys are focused on anticipating what's coming over the next few years rather than analyzing what's popular now, which is why the features or technologies that are currently most widespread are not always included. 
 
+
       Additionally, survey data is also used by browser vendors to prioritize features and inform initiatives such as [Interop 2023](https://web.dev/interop-2023/).
+
 
       ### Survey Design
 
@@ -518,13 +529,18 @@ translations:
 
       - **Nijibox**: Japan-based [Nijibox](https://nijibox.jp/) has also graciously accepted to sponsor my efforts to help make these yearly surveys more sustainable. 
 
+
       ### Technical Overview
 
       You can find a more in-depth technical overview of how the surveys are run [here](https://dev.to/sachagreif/how-the-devographics-surveys-are-run-2023-edition-1p6a). Our code is [open-source](https://github.com/Devographics/Monorepo/). 
 
       ### Feedback
 
+
       - [Report a technical issue](https://github.com/Devographics/Monorepo/issues)
+
       - [Make a suggestion for next year](https://github.com/Devographics/surveys/issues/193)
+
       - [Other non-technical issues](https://github.com/Devographics/surveys/issues)
+
       - [Join our Discord](https://discord.gg/tuWRUWVyJs)

@@ -1245,6 +1245,8 @@ translations:
     aliasFor: user_info.industry_sector.description
   - key: usage.industry_sector.others
     aliasFor: user_info.industry_sector.others
+  - key: usage.industry_sector_freeform
+    aliasFor: user_info.industry_sector.others
   - key: usage.industry_sector.others.description
     aliasFor: user_info.industry_sector.description
 

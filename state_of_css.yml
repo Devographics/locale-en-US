@@ -744,6 +744,8 @@ translations:
     aliasFor: environments.form_factors.description
   - key: usage.form_factors.others
     aliasFor: environments.form_factors.others
+  - key: usage.form_factors_freeform
+    aliasFor: environments.form_factors.others
   - key: usage.form_factors.others.description
     aliasFor: environments.form_factors.others.description
 
@@ -778,6 +780,8 @@ translations:
   - key: usage.what_do_you_use_css_for.description
     aliasFor: environments.what_do_you_use_css_for.description
   - key: usage.what_do_you_use_css_for.others
+    aliasFor: environments.what_do_you_use_css_for.others
+  - key: usage.what_do_you_use_css_for_freeform
     aliasFor: environments.what_do_you_use_css_for.others
 
   - key: charts.axis_legends.css_for_print
@@ -837,6 +841,8 @@ translations:
   - key: usage.css_interoperability_features.description
     aliasFor: opinions_others.browser_interoperability_features.others.description
 
+  - key: usage.css_interoperability_features_freeform
+    aliasFor: opinions_others.browser_interoperability_features.others
   - key: usage.interoperability_features_freeform
     aliasFor: opinions_others.browser_interoperability_features.others
   - key: usage.interoperability_features_freeform.others
@@ -882,6 +888,8 @@ translations:
     aliasFor: opinions_others.css_pain_points.others
   - key: usage.css_pain_points.description
     aliasFor: usage.other_pain_points_freeform
+  - key: usage.css_pain_points_freeform
+    aliasFor: usage.other_pain_points_freeform
 
   - key: options.css_pain_points.na
     t: None
@@ -895,6 +903,8 @@ translations:
   - key: usage.missing_features_freeform
     t: What features do you feel are currently missing from CSS altogether?
   - key: usage.missing_features_freeform.others
+    aliasFor: usage.missing_features_freeform
+  - key: usage.missing_features_freeform
     aliasFor: usage.missing_features_freeform
 
   - key: usage.css_missing_features
@@ -935,6 +945,8 @@ translations:
     t: How happy are you with the general state of web technologies?
   - key: usage.state_of_the_web_happiness
     aliasFor: happiness.state_of_the_web
+  - key: usage.state_of_the_web_happiness.description
+    aliasFor: happiness.state_of_the_web.description
 
   - key: happiness.state_of_css
     t: State of CSS
@@ -942,6 +954,8 @@ translations:
     t: How happy are you with the general state of CSS?
   - key: usage.state_of_css_happiness
     aliasFor: happiness.state_of_css
+  - key: usage.state_of_css_happiness.description
+    aliasFor: happiness.state_of_css.description
 
   # pain points/currently missing (results)
   - key: css_pain_points.css_pain_points_wins
