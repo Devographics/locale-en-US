@@ -303,6 +303,14 @@ translations:
 
       With all this out of the way, let's see how CSS has evolved so far in 2023!
 
+  - key: general.html2023.survey_intro
+    t: |
+      While web developers tend to focus on JavaScript and CSS, none of what we do would be even possible without HTML acting as a foundation for all of it.
+
+      And while it has long seemed like HTML wasn't evolving, things may be changing. New elements like `<selectmenu>` and `<breadcrumb>` are on the horizon, not to mention cool new features like popovers and declarative Shadow DOM.
+
+      So with this survey, our goal is to fill in the gaps between the State of JS and State of CSS surveys, and help track the evolution of the web platform as a whole!
+
   ###########################################################################
   # Survey-Specific FAQs
   ###########################################################################

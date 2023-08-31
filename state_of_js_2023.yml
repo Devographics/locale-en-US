@@ -144,10 +144,6 @@ translations:
     t: |
       If you're interested in learning more, we [wrote a blog post](https://dev.to/sachagreif/is-our-survey-biased-against-women-49oj) that addresses the survey's gender dynamics.
 
-  - key: blocks.css_missing_features.note
-    t: |
-      You can explore the full dataset of answers to this question in [this side project](https://whatsmissingfromcss.com/).
-
   - key: blocks.source.note
     t: >
 

@@ -310,6 +310,16 @@ translations:
   - key: options.features.used
     t: <span aria-hidden="true">👍</span> I've used it
 
+  # features v2
+  - key: options.features.interested
+    t: <span aria-hidden="true">✅</span> Heard of it > Would like to learn
+  - key: options.features.not_interested
+    t: <span aria-hidden="true">🚫</span> Heard of it > Not interested
+  - key: options.features.used_positive
+    t: <span aria-hidden="true">👍</span> Used it > Had an overall positive experience
+  - key: options.features.used_negative
+    t: <span aria-hidden="true">👎</span> Used it > Had an overall negative experience
+
   # features (no emoji)
   - key: options.features.never_heard.label
     t: Never heard of it/Not sure what it is
@@ -1400,6 +1410,16 @@ translations:
     t: I had a positive experience
   - key: followups.not_powerful
     t: It wasn't powerful enough
+
+  - key: followups.interested
+    t: Interested
+  - key: followups.not_interested
+    t: Not interested
+  - key: followups.positive_experience
+    t: Positive experience
+  - key: followups.negative_experience
+    t: Negative experience
+
   # - key: followups.
   #   t:
   # - key: followups.
