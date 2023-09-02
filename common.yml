@@ -36,7 +36,7 @@ translations:
     t: Take the {name} survey
 
   - key: options.na
-    t: None
+    t: 🚫 None
 
   # surveys
   - key: general.open_surveys
@@ -320,6 +320,14 @@ translations:
   - key: options.features.used_negative
     t: <span aria-hidden="true">👎</span> Used it > Had an overall negative experience
 
+  # features (short)
+  - key: options.features.never_heard.short
+    t: <span aria-hidden="true">🤷</span> Never heard of it
+  - key: options.features.heard.short
+    t: <span aria-hidden="true">✅</span> Know what it is
+  - key: options.features.used.short
+    t: <span aria-hidden="true">👍</span> I've used it
+
   # features (no emoji)
   - key: options.features.never_heard.label
     t: Never heard of it/Not sure what it is
@@ -486,7 +494,7 @@ translations:
 
   # company size
   - key: options.company_size.na
-    t: Not Applicable
+    t: 🚫 Not Applicable
   - key: options.company_size.range_1
     t: Just me
   - key: options.company_size.range_1_5
@@ -526,7 +534,7 @@ translations:
 
   # salary
   - key: options.yearly_salary.na
-    t: Not Applicable
+    t: 🚫 Not Applicable
   - key: options.yearly_salary.range_work_for_free
     t: I work for free
   - key: options.yearly_salary.range_0_10
@@ -667,7 +675,7 @@ translations:
 
   # Disability Status
   - key: options.disability_status.na
-    t: None
+    t: 🚫 None
   - key: options.disability_status.visual_impairments
     t: >
       Visual impairments (such as: blindness, color blindness, etc.)
@@ -870,7 +878,7 @@ translations:
 
   # learning methods
   - key: options.first_steps.na
-    t: None
+    t: 🚫 None
   - key: options.first_steps.books
     t: Books
   - key: options.first_steps.videos
@@ -1318,7 +1326,7 @@ translations:
   - key: resources.blogs_news_magazines.others.description
     t: Other answers (freeform field).
   - key: options.blogs_news_magazines.na
-    t: None
+    t: 🚫 None
 
   # sites & courses
   - key: resources.sites_courses
@@ -1330,7 +1338,7 @@ translations:
   - key: resources.sites_courses.others.description
     t: Other answers (freeform field).
   - key: options.sites_courses.na
-    t: None
+    t: 🚫 None
 
   # podcasts
   - key: resources.podcasts
@@ -1342,7 +1350,7 @@ translations:
   - key: resources.podcasts.others.description
     t: Other answers (freeform field).
   - key: options.podcasts.na
-    t: None
+    t: 🚫 None
 
   # people
   - key: resources.people
@@ -1360,7 +1368,7 @@ translations:
       People you read, follow, or just want to highlight for their work 
       (freeform field, comma-separated names).
   - key: options.people.na
-    t: None
+    t: 🚫 None
 
   # other surveys
   - key: resources.other_surveys
@@ -1370,7 +1378,7 @@ translations:
   - key: resources.other_surveys.others
     t: Additional surveys not mentioned above
   - key: options.other_surveys.na
-    t: None
+    t: 🚫 None
 
   # video creators
   - key: resources.video_creators
@@ -1380,7 +1388,7 @@ translations:
   - key: resources.video_creators.others
     t: Other Video Creators
   - key: options.video_creators.na
-    t: None
+    t: 🚫 None
 
   ###########################################################################
   # Follow-Up Questions

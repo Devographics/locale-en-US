@@ -30,6 +30,11 @@ translations:
   - key: sections.interactivity.description
     t: APIs that enable richer user interactions.
 
+  - key: sections.content.title
+    t: Content
+  - key: sections.content.description
+    t: Features and APIs that help manage and present content.
+
   - key: sections.web_components.title
     t: Web Components
   - key: sections.web_components.description
@@ -66,20 +71,221 @@ translations:
     t: How you use HTML.
 
   ###########################################################################
-  # Options
-  ###########################################################################
-
-  # CSS for print
-  - key: options.css_for_print.0
-    t: I (almost) never write print styles
-  - key: options.css_for_print.0.short
-    t: Never
-
-  ###########################################################################
   # Features
   ###########################################################################
 
-  # layout
+  # forms
+
+  - key: features.forms_elements
+    t: Form Elements
+  - key: features.forms_elements.question
+    t: Which of the following form elements have you used?
+
+  - key: features.forms_validation_features
+    t: Form Validation
+  - key: features.forms_validation_features.question
+    t: Which of the following form validation features have you used?
+
+  - key: features.forms_pain_points
+    t: Form Pain Points
+  - key: features.forms_pain_points.question
+    t: What are your pain points around HTML forms?
+
+  # interactivity
+
+  - key: features.dom_methods
+    t: DOM Methods
+  - key: features.dom_methods.question
+    t: Which of the following DOM methods have you used?
+
+  - key: features.interactivity_pain_points
+    t: Interactivity Pain Points
+  - key: features.interactivity_pain_points.question
+    t: What are your pain points around interactivity & HTML?
+
+  - key: features.interactivity_techniques
+    t: Interactivity Methods
+  - key: features.interactivity_techniques.question
+    t: Which of these methods do you use to add interactivity to websites?
+
+  # content
+
+  - key: features.machine_readable_features
+    t: Machine-Readable Data
+  - key: features.machine_readable_features.question
+    t: Which of the following have you used to include machine-readable data in HTML?
+
+  - key: features.multiple_languages_support
+    t: Multiple-Language Support
+  - key: features.multiple_languages_support.question
+    t: How often do you work on projects that require supporting more than one language?
+  - key: options.multiple_languages_support.never ❔
+    t: Never
+  - key: options.multiple_languages_support.infrequently ❔
+    t: Infrequently (less than once a year)
+  - key: options.multiple_languages_support.frequently ❔
+    t: Frequently (more than once a year)
+  - key: options.multiple_languages_support.all_the_time ❔
+    t: All the time
+
+  - key: features.i18n_features
+    t: Internationalization Features
+  - key: features.i18n_features.question
+    t: Which of the following internationalization features have you used?
+
+  - key: features.content_pain_points
+    t: Content Pain Points
+  - key: features.content_pain_points.question
+    t: What are your pain points around managing content in HTML?
+
+  # External Content
+
+  - key: features.script_link_attributes
+    t: |
+      `<script>` or `<link>` Attributes
+  - key: features.script_link_attributes.question
+    t: |
+      Which of the following `<script>` or `<link>` attributes have you used?
+
+  - key: features.rel_attribute
+    t: |
+      `rel` Values
+  - key: features.rel_attribute.question
+    t: |
+      Which values have you used for the `rel` attribute of `<link>` ?
+
+  - key: features.external_content_pain_points
+    t: External Content Pain Points
+  - key: features.external_content_pain_points.question
+    t: What are your biggest pain points around using external content in HTML?
+
+  # Web Components
+
+  - key: features.web_components_libraries
+    t: Web Components Libraries
+  - key: features.web_components_libraries.question
+    t: Have you used any Web Components libraries?
+
+  - key: features.web_components_features.question
+    t: Web Component Features
+  - key: features.web_components_features.question
+    t: Which of the following web component features have you used?
+
+  - key: features.using_web_components_pain_points
+    t: Using Web Components Pain Points
+  - key: features.using_web_components_pain_points.question
+    t: What are your biggest pain points around using third-party web components?
+
+  - key: features.making_web_components_pain_points.question
+    t: Making Web Components Pain Points
+  - key: features.making_web_components_pain_points.question
+    t: What are your biggest pain points around making web components?
+
+  # Accessibility
+
+  - key: features.accessibility_features
+    t: Accessibility Features
+  - key: features.accessibility_features.question
+    t: Which of these accessibility features have you used?
+
+  - key: features.accessibility_techniques.question
+    t: Accessibility Techniques
+  - key: features.accessibility_techniques.question
+    t: Which of these accessibility techniques have you used?
+
+  - key: features.accessibility_tools
+    t: Accessibility Tools
+  - key: features.accessibility_tools.question
+    t: Which of these accessibility tools have you used?
+
+  - key: features.accessibility_pain_points
+    t: Accessibility Pain Points
+  - key: features.accessibility_pain_points.question
+    t: What are your biggest pain points around accessibility?
+
+  # PWAs
+
+  - key: features.pwa_features
+    t: PWA Features
+  - key: features.pwa_features.question
+    t: Have you ever used any of the following PWA technologies/APIs?
+
+  - key: features.pwa_app_manifest_fields
+    t: App Manifest Fields
+  - key: features.pwa_app_manifest_fields.question
+    t: |
+      Which of these app manifest fields (`<link rel="manifest"> )`) have you used, if any?
+
+  - key: features.progressive_web_apps_pain_points
+    t: PWA Pain Points
+  - key: features.progressive_web_apps_pain_points.question
+    t: What are your biggest pain points around progressive web apps?
+
+  # Other Tools
+
+  - key: other_tools.site_generators
+    t: Site Generators
+  - key: other_tools.site_generators.question
+    t: Which of these static or dynamic site generators have you used?
+
+  # Usage
+
+  - key: usage.what_do_you_use_html_for
+    t: HTML Usage
+  - key: usage.what_do_you_use_html_for.question
+    t: What do you use HTML for?
+  - key: options.what_do_you_use_html_for.blogs
+    aliasFor: options.what_do_you_use_css_for.blogs
+  - key: options.what_do_you_use_html_for.design_systems
+    aliasFor: options.what_do_you_use_css_for.design_systems
+  - key: options.what_do_you_use_html_for.desktop_apps
+    aliasFor: options.what_do_you_use_css_for.desktop_apps
+  - key: options.what_do_you_use_html_for.emails
+    aliasFor: options.what_do_you_use_css_for.emails
+  - key: options.what_do_you_use_html_for.marketing_sites
+    aliasFor: options.what_do_you_use_css_for.marketing_sites
+  - key: options.what_do_you_use_html_for.mobile_apps
+    aliasFor: options.what_do_you_use_css_for.mobile_apps
+  - key: options.what_do_you_use_html_for.printed_documents
+    aliasFor: options.what_do_you_use_css_for.printed_documents
+  - key: options.what_do_you_use_html_for.web_apps
+    aliasFor: options.what_do_you_use_css_for.web_apps
+
+  - key: usage.tools_for_other_developers
+    t: Coding for Other Developers
+  - key: usage.tools_for_other_developers.question
+    t: Are the libraries, packages, components, etc. that you create used by other developers?
+  - key: na
+    t: 🚫 No
+  - key: options.tools_for_other_developers.yes_internally
+    t: Yes, by less than a hundred developers.
+  - key: options.tools_for_other_developers.yes_publicly_hundreds_users
+    t: Yes, by hundreds of developers.
+  - key: options.tools_for_other_developers.yes_publicly_thousands_users
+    t: Yes, by thousands of developers.
+  - key: options.tools_for_other_developers.yes_publicly_millions_users
+    t: Yes, by millions of developers or more.
+
+  # - key:
+  #   t:
+  # - key:
+  #   t:
+  # - key:
+  #   t:
+
+  - key: other_tools.ai_tools
+    t: AI Tools
+  - key: other_tools.ai_tools.question
+    t: Which of these AI tools have you used?
+
+  # usage
+
+  - key: usage.html_pain_points_freeform
+    t: Other Pain Points
+  - key: usage.html_pain_points_freeform.question
+    t: Any other pain points around using HTML and related technologies?
+
+  # other features
 
   - key: features.foo_attribute
     t: "`{id}` attribute"
