@@ -107,6 +107,16 @@ translations:
     t: Interactivity Methods
   - key: features.interactivity_techniques.question
     t: Which of these methods do you use to add interactivity to websites?
+  - key: na
+    t: 🚫 None
+  - key: options.interactivity_techniques.js_dom_libraries
+    t: JavaScript DOM libraries (jQuery, etc.)
+  - key: options.interactivity_techniques.js_framework
+    t: JavaScript frameworks (React, Vue, etc.)
+  - key: options.interactivity_techniques.vanilla_js
+    t: “Vanilla” JavaScript (no frameworks or libraries)
+  - key: options.interactivity_techniques.web_components
+    t: Web Components
 
   # content
 
@@ -119,13 +129,13 @@ translations:
     t: Multiple-Language Support
   - key: features.multiple_languages_support.question
     t: How often do you work on projects that require supporting more than one language?
-  - key: options.multiple_languages_support.never ❔
+  - key: options.multiple_languages_support.never
     t: Never
-  - key: options.multiple_languages_support.infrequently ❔
+  - key: options.multiple_languages_support.infrequently
     t: Infrequently (less than once a year)
-  - key: options.multiple_languages_support.frequently ❔
+  - key: options.multiple_languages_support.frequently
     t: Frequently (more than once a year)
-  - key: options.multiple_languages_support.all_the_time ❔
+  - key: options.multiple_languages_support.all_the_time
     t: All the time
 
   - key: features.i18n_features

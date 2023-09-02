@@ -311,14 +311,20 @@ translations:
     t: <span aria-hidden="true">👍</span> I've used it
 
   # features v2
-  - key: options.features.interested
-    t: <span aria-hidden="true">✅</span> Heard of it > Would like to learn
-  - key: options.features.not_interested
-    t: <span aria-hidden="true">🚫</span> Heard of it > Not interested
-  - key: options.features.used_positive
-    t: <span aria-hidden="true">👍</span> Used it > Had an overall positive experience
-  - key: options.features.used_negative
-    t: <span aria-hidden="true">👎</span> Used it > Had an overall negative experience
+  - key: options.features2.never_heard
+    t: <span class="option-chip option-main option-main-never_heard">Never heard of it/Not sure what it is</option>
+  - key: options.features2.interested
+    t: |
+      <span class="option-chip option-main option-main-heard">Heard of it</span> » <span class="option-chip option-positive">Would like to learn</span>
+  - key: options.features2.not_interested
+    t: |
+      <span class="option-chip option-main option-main-heard">Heard of it</span> » <span class="option-chip option-negative">Not interested</span>
+  - key: options.features2.used_positive
+    t: |
+      <span class="option-chip option-main option-main-used">Used it</span> » <span class="option-chip option-positive">Had an overall positive experience</span>
+  - key: options.features2.used_negative
+    t: |
+      <span class="option-chip option-main option-main-used">Used it</span> » <span class="option-chip option-negative">Had an overall negative experience</span>
 
   # features (short)
   - key: options.features.never_heard.short
@@ -336,13 +342,13 @@ translations:
   - key: options.features.used.label
     t: I've used it
 
-  # features (short versions)
-  - key: options.features.never_heard.short
+  # features (no emoji, short versions)
+  - key: options.features.never_heard.label.short
     t: Never heard of it
-  - key: options.features.heard.short
-    t: Know about it
-  - key: options.features.used.short
-    t: Have used it
+  - key: options.features.heard.label.short
+    t: Know what it is
+  - key: options.features.used.label.short
+    t: I've used it
 
   # patterns
   - key: options.patterns.use_never
