@@ -248,75 +248,75 @@ translations:
   - key: features.accessibility_strategies.question
     t: What other techniques are part of your regular accessibility strategy?
 
-  - k: options.accessibility_techniques.tabindex
+  - key: options.accessibility_techniques.tabindex
     t: |
       Improving focus order with `tabindex`
-  - k: options.accessibility_techniques.tabindex.description
+  - key: options.accessibility_techniques.tabindex.description
     t: |
       Roving `tabindex`, `tabindex="0"` to enable focus, etc.
-  - k: options.accessibility_techniques.keyboard_navigation
+  - key: options.accessibility_techniques.keyboard_navigation
     t: Intuitive keyboard navigation
-  - k: options.accessibility_techniques.keyboard_navigation.description
+  - key: options.accessibility_techniques.keyboard_navigation.description
     t: Other than tab order.
-  - k: options.accessibility_techniques.aria_attributes
+  - key: options.accessibility_techniques.aria_attributes
     t: ARIA attributes
-  - k: options.accessibility_techniques.aria_attributes.description
+  - key: options.accessibility_techniques.aria_attributes.description
     t: |
       `role` and `aria-*` attributes
-  - k: options.accessibility_techniques.descriptive_alt_text
+  - key: options.accessibility_techniques.descriptive_alt_text
     t: |
       Descriptive `alt` text
-  - k: options.accessibility_techniques.descriptive_alt_text
+  - key: options.accessibility_techniques.descriptive_alt_text
     t: Providing alt text that describes the purpose or content of an image.
-  - k: options.accessibility_techniques.skip_to_content
+  - key: options.accessibility_techniques.skip_to_content
     t: Skip-to-content link
-  - k: options.accessibility_techniques.skip_to_content.description
+  - key: options.accessibility_techniques.skip_to_content.description
     t: Letting users skip straight to the main content of a page.
-  - k: options.accessibility_techniques.fieldset_and_legend
+  - key: options.accessibility_techniques.fieldset_and_legend
     t: |
       `<fieldset>` and `<legend>`
-  - k: options.accessibility_techniques.fieldset_and_legend.description
+  - key: options.accessibility_techniques.fieldset_and_legend.description
     t: |
       Using `<fieldset>` and `<legend>`  to group related form elements.
-  - k: options.accessibility_techniques.headings_hierarchy
+  - key: options.accessibility_techniques.headings_hierarchy
     t: Information Hierarchy
-  - k: options.accessibility_techniques.headings_hierarchy
+  - key: options.accessibility_techniques.headings_hierarchy
     t: |
       Using headings (`<h1>` - `<h6>`) that correctly represent a page's information hierarchy.
-  - k: options.accessibility_techniques.meaningful_link_text
+  - key: options.accessibility_techniques.meaningful_link_text
     t: Meaningful Link Text
-  - k: options.accessibility_techniques.meaningful_link_text.description
+  - key: options.accessibility_techniques.meaningful_link_text.description
     t: Ensuring that link text makes sense out of context
-  - k: options.accessibility_techniques.form_control_label
+  - key: options.accessibility_techniques.form_control_label
     t: Form Control Labels
-  - k: options.accessibility_techniques.form_control_label.description
+  - key: options.accessibility_techniques.form_control_label.description
     t: |
       Ensuring every form control has a label (or `aria-label`, etc.).
-  - k: options.accessibility_techniques.visible_focus
+  - key: options.accessibility_techniques.visible_focus
     t: Visible Focus Ring
-  - k: options.accessibility_techniques.visible_focus.description
+  - key: options.accessibility_techniques.visible_focus.description
     t: Ensuring focus ring outline is clearly visible when needed.
-  - k: options.accessibility_techniques.pointer_alternative
+  - key: options.accessibility_techniques.pointer_alternative
     t: Not Relying on Pointer Only
-  - k: options.accessibility_techniques.pointer_alternative.description
+  - key: options.accessibility_techniques.pointer_alternative.description
     t: Ensuring pointer interactions (e.g. hover) have a keyboard alternative.
-  - k: options.accessibility_techniques.color_contrast
+  - key: options.accessibility_techniques.color_contrast
     t: Sufficient Contrast
-  - k: options.accessibility_techniques.color_contrast.description
+  - key: options.accessibility_techniques.color_contrast.description
     t: Using contrast checkers to ensure sufficient color contrast.
-  - k: options.accessibility_techniques.color_alternative
+  - key: options.accessibility_techniques.color_alternative
     t: Not Relying on Color Only
-  - k: options.accessibility_techniques.color_alternative.description
+  - key: options.accessibility_techniques.color_alternative.description
     t: Ensuring that no information is conveyed by color alone.
-  - k: options.accessibility_techniques.prefers_reduced_motion
+  - key: options.accessibility_techniques.prefers_reduced_motion
     t: |
       `prefers-reduced-motion` media query
-  - k: options.accessibility_techniques.prefers_reduced_motion.description
+  - key: options.accessibility_techniques.prefers_reduced_motion.description
     t: Providing alternative CSS for users who prefer reduced motion.
-  - k: options.accessibility_techniques.prefers_contrast
+  - key: options.accessibility_techniques.prefers_contrast
     t: |
       `prefers-contrast` media query
-  - k: options.accessibility_techniques.prefers_contrast.description
+  - key: options.accessibility_techniques.prefers_contrast.description
     t: Providing alternative CSS for users who prefer increased contrast.
 
   # PWAs
