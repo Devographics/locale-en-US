@@ -406,47 +406,47 @@ translations:
   # - key: usage.html_missing_elements.description
   #   t:
 
-  - k: options.html_missing_elements.accordion
+  - key: options.html_missing_elements.accordion
     t: Accordion
-  - k: options.html_missing_elements.alert
+  - key: options.html_missing_elements.alert
     t: Alert
-  - k: options.html_missing_elements.calendar
+  - key: options.html_missing_elements.calendar
     t: Calendar
-  - k: options.html_missing_elements.carousel
+  - key: options.html_missing_elements.carousel
     t: Carousel
-  - k: options.html_missing_elements.combobox_autocomplete
+  - key: options.html_missing_elements.combobox_autocomplete
     t: Combobox/Autocomplete
-  - k: options.html_missing_elements.command_palette
+  - key: options.html_missing_elements.command_palette
     t: Command Palette
-  - k: options.html_missing_elements.context_menu
+  - key: options.html_missing_elements.context_menu
     t: Context Menu/Right-Click Menu
-  - k: options.html_missing_elements.datatable
+  - key: options.html_missing_elements.datatable
     t: Datatable
-  - k: options.html_missing_elements.dropdown_menu
+  - key: options.html_missing_elements.dropdown_menu
     t: Dropdown Menu
-  - k: options.html_missing_elements.progress_bar
+  - key: options.html_missing_elements.progress_bar
     t: Progress Bar
-  - k: options.html_missing_elements.skeleton_loading_placeholder
+  - key: options.html_missing_elements.skeleton_loading_placeholder
     t: Skeleton UI/Loading Placeholder
-  - k: options.html_missing_elements.switch
+  - key: options.html_missing_elements.switch
     t: Switch/Toggle
-  - k: options.html_missing_elements.tabs
+  - key: options.html_missing_elements.tabs
     t: Tabs
-  - k: options.html_missing_elements.toast_message
+  - key: options.html_missing_elements.toast_message
     t: Toast Message
-  - k: options.html_missing_elements.tooltip
+  - key: options.html_missing_elements.tooltip
     t: Tooltip
-  - k: options.html_missing_elements.offcanvas
+  - key: options.html_missing_elements.offcanvas
     t: Off-Canvas Area
-  - k: options.html_missing_elements.spinner
+  - key: options.html_missing_elements.spinner
     t: Loading Spinner
-  - k: options.html_missing_elements.segmented_button
+  - key: options.html_missing_elements.segmented_button
     t: Segmented Button
-  - k: options.html_missing_elements.scroll_area
+  - key: options.html_missing_elements.scroll_area
     t: Scroll Area
-  - k: options.html_missing_elements.icon
+  - key: options.html_missing_elements.icon
     t: Icon
-  - k: options.html_missing_elements.star_rating
+  - key: options.html_missing_elements.star_rating
     t: Star Rating
 
   - key: usage.html_pain_points_freeform
