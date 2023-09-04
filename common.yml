@@ -330,9 +330,9 @@ translations:
   - key: options.features.never_heard.short
     t: <span aria-hidden="true">🤷</span> Never heard of it
   - key: options.features.heard.short
-    t: <span aria-hidden="true">✅</span> Know what it is
+    t: <span aria-hidden="true">👀</span> Know what it is
   - key: options.features.used.short
-    t: <span aria-hidden="true">👍</span> I've used it
+    t: <span aria-hidden="true">🤓</span> I've used it
 
   # features (no emoji)
   - key: options.features.never_heard.label
