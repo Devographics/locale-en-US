@@ -315,7 +315,7 @@ translations:
     t: <span class="option-chip option-main option-main-never_heard">Never heard of it/Not sure what it is</option>
   - key: options.features2.interested
     t: |
-      <span class="option-chip option-main option-main-heard">Heard of it</span> » <span class="option-chip option-positive">Want to learn</span>
+      <span class="option-chip option-main option-main-heard">Heard of it</span> » <span class="option-chip option-positive">Interested</span>
   - key: options.features2.not_interested
     t: |
       <span class="option-chip option-main option-main-heard">Heard of it</span> » <span class="option-chip option-negative">Not interested</span>
