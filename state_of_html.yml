@@ -76,14 +76,14 @@ translations:
 
   # forms
 
-  - key: features.forms_elements
-    t: Form Elements
-  - key: features.forms_elements.question
-    t: Which of the following form elements have you used?
+  - key: features.form_input_types
+    t: Input Types
+  - key: features.form_input_types.question
+    t: Which input types have you used?
 
-  - key: features.forms_validation_features
+  - key: features.form_validation_features
     t: Form Validation
-  - key: features.forms_validation_features.question
+  - key: features.form_validation_features.question
     t: Which of the following form validation features have you used?
 
   - key: features.forms_pain_points
