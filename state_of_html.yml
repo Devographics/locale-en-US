@@ -106,15 +106,17 @@ translations:
   - key: features.interactivity_techniques
     t: Interactivity Methods
   - key: features.interactivity_techniques.question
-    t: Which of these methods do you use to add interactivity to websites?
+    t: Which of these methods do you use to add interactivity or dynamic elements to websites?
   - key: na
     t: 🚫 None
+  - key: options.interactivity_techniques.css
+    t: CSS (animations, toggles, etc.)
   - key: options.interactivity_techniques.js_dom_libraries
     t: JavaScript DOM libraries (jQuery, etc.)
   - key: options.interactivity_techniques.js_framework
     t: JavaScript frameworks (React, Vue, etc.)
   - key: options.interactivity_techniques.vanilla_js
-    t: “Vanilla” JavaScript (no frameworks or libraries)
+    t: Plain JavaScript (no frameworks or libraries)
   - key: options.interactivity_techniques.web_components
     t: Web Components
 
@@ -168,6 +170,9 @@ translations:
     t: External Content Pain Points
   - key: features.external_content_pain_points.question
     t: What are your biggest pain points around using external content in HTML?
+  - key: features.external_content_pain_points.description
+    t: |
+      External content includes `<iframe>`, graphics and multimedia, etc.
 
   # Web Components
 
@@ -177,7 +182,7 @@ translations:
     t: Have you used any Web Components libraries?
 
   - key: features.web_components_features.question
-    t: Web Component Features
+    t: Other Web Component Features
   - key: features.web_components_features.question
     t: Which of the following web component features have you used?
 
@@ -186,7 +191,7 @@ translations:
   - key: features.using_web_components_pain_points.question
     t: What are your biggest pain points around using third-party web components?
 
-  - key: features.making_web_components_pain_points.question
+  - key: features.making_web_components_pain_points
     t: Making Web Components Pain Points
   - key: features.making_web_components_pain_points.question
     t: What are your biggest pain points around making web components?
@@ -211,7 +216,108 @@ translations:
   - key: features.accessibility_pain_points
     t: Accessibility Pain Points
   - key: features.accessibility_pain_points.question
-    t: What are your biggest pain points around accessibility?
+    t: What are your biggest pain points around web accessibility?
+
+  - key: features.accessibility_disabilities
+    t: User Disabilities
+  - key: features.accessibility_disabilities.question
+    t: What kind of user disabilities do you account for when designing websites?
+
+  - key: options.accessibility_disabilities.hearing_impairments
+    aliasFor: options.user_info.hearing_impairments
+  - key: options.accessibility_disabilities.mobility_impairments
+    aliasFor: options.user_info.mobility_impairments
+  - key: options.accessibility_disabilities.learning_disabilities
+    t: Learning disabilities (e.g. dyslexia, dyscalculia)
+  - key: options.accessibility_disabilities.cognitive_impairments
+    aliasFor: options.user_info.cognitive_impairments
+  - key: options.accessibility_disabilities.vestibular_disorders
+    t: Vestibular disorders (e.g. epilepsy)
+  - key: options.accessibility_disabilities.low_vision
+    t: Low vision (including blindness)
+  - key: options.accessibility_disabilities.atypical_vision
+    t: Atypical color vision (”color blindness”)
+
+  - key: features.accessibility_techniques
+    t: Other Accessibility Techniques
+  - key: features.accessibility_strategies.question
+    t: What other techniques are part of your regular accessibility strategy?
+
+  - key: features.accessibility_techniques
+    t: Other Accessibility Techniques
+  - key: features.accessibility_strategies.question
+    t: What other techniques are part of your regular accessibility strategy?
+
+  - k: options.accessibility_techniques.tabindex
+    t: |
+      Improving focus order with `tabindex`
+  - k: options.accessibility_techniques.tabindex.description
+    t: |
+      Roving `tabindex`, `tabindex="0"` to enable focus, etc.
+  - k: options.accessibility_techniques.keyboard_navigation
+    t: Intuitive keyboard navigation
+  - k: options.accessibility_techniques.keyboard_navigation.description
+    t: Other than tab order.
+  - k: options.accessibility_techniques.aria_attributes
+    t: ARIA attributes
+  - k: options.accessibility_techniques.aria_attributes.description
+    t: |
+      `role` and `aria-*` attributes
+  - k: options.accessibility_techniques.descriptive_alt_text
+    t: |
+      Descriptive `alt` text
+  - k: options.accessibility_techniques.descriptive_alt_text
+    t: Providing alt text that describes the purpose or content of an image.
+  - k: options.accessibility_techniques.skip_to_content
+    t: Skip-to-content link
+  - k: options.accessibility_techniques.skip_to_content.description
+    t: Letting users skip straight to the main content of a page.
+  - k: options.accessibility_techniques.fieldset_and_legend
+    t: |
+      `<fieldset>` and `<legend>`
+  - k: options.accessibility_techniques.fieldset_and_legend.description
+    t: |
+      Using `<fieldset>` and `<legend>`  to group related form elements.
+  - k: options.accessibility_techniques.headings_hierarchy
+    t: Information Hierarchy
+  - k: options.accessibility_techniques.headings_hierarchy
+    t: |
+      Using headings (`<h1>` - `<h6>`) that correctly represent a page's information hierarchy.
+  - k: options.accessibility_techniques.meaningful_link_text
+    t: Meaningful Link Text
+  - k: options.accessibility_techniques.meaningful_link_text.description
+    t: Ensuring that link text makes sense out of context
+  - k: options.accessibility_techniques.form_control_label
+    t: Form Control Labels
+  - k: options.accessibility_techniques.form_control_label.description
+    t: |
+      Ensuring every form control has a label (or `aria-label`, etc.).
+  - k: options.accessibility_techniques.visible_focus
+    t: Visible Focus Ring
+  - k: options.accessibility_techniques.visible_focus.description
+    t: Ensuring focus ring outline is clearly visible when needed.
+  - k: options.accessibility_techniques.pointer_alternative
+    t: Not Relying on Pointer Only
+  - k: options.accessibility_techniques.pointer_alternative.description
+    t: Ensuring pointer interactions (e.g. hover) have a keyboard alternative.
+  - k: options.accessibility_techniques.color_contrast
+    t: Sufficient Contrast
+  - k: options.accessibility_techniques.color_contrast.description
+    t: Using contrast checkers to ensure sufficient color contrast.
+  - k: options.accessibility_techniques.color_alternative
+    t: Not Relying on Color Only
+  - k: options.accessibility_techniques.color_alternative.description
+    t: Ensuring that no information is conveyed by color alone.
+  - k: options.accessibility_techniques.prefers_reduced_motion
+    t: |
+      `prefers-reduced-motion` media query
+  - k: options.accessibility_techniques.prefers_reduced_motion.description
+    t: Providing alternative CSS for users who prefer reduced motion.
+  - k: options.accessibility_techniques.prefers_contrast
+    t: |
+      `prefers-contrast` media query
+  - k: options.accessibility_techniques.prefers_contrast.description
+    t: Providing alternative CSS for users who prefer increased contrast.
 
   # PWAs
 
@@ -224,7 +330,7 @@ translations:
     t: App Manifest Fields
   - key: features.pwa_app_manifest_fields.question
     t: |
-      Which of these app manifest fields (`<link rel="manifest"> )`) have you used, if any?
+      Which of these app manifest fields (`<link rel="manifest">`) have you used, if any?
 
   - key: features.progressive_web_apps_pain_points
     t: PWA Pain Points
@@ -236,9 +342,26 @@ translations:
   - key: other_tools.site_generators
     t: Site Generators
   - key: other_tools.site_generators.question
-    t: Which of these static or dynamic site generators have you used?
+    t: Which of these static or dynamic site generators do you regularly use?
+
+  - key: other_tools.ai_tools
+    t: AI Tools
+  - key: other_tools.ai_tools.question
+    t: Which of these AI tools do you regularly use?
+
+  - key: other_tools.machine_readable_features
+    aliasFor: features.machine_readable_features
+  - key: other_tools.machine_readable_features.question
+    aliasFor: features.machine_readable_features.question
 
   # Usage
+
+  - key: usage.html_existing_features
+    t: Unusable HTML Features
+  - key: usage.html_existing_features
+    t: Which existing HTML features are you unable to use?
+  - key: usage.html_existing_features.description
+    t: Which existing HTML features (elements, attributes, attribute values, etc.) do you find yourself recreating with custom components (due to e.g. browser incompatibilities, limited styling, different functionality, etc.)?
 
   - key: usage.what_do_you_use_html_for
     t: HTML Usage
@@ -276,19 +399,55 @@ translations:
   - key: options.tools_for_other_developers.yes_publicly_millions_users
     t: Yes, by millions of developers or more.
 
-  # - key:
-  #   t:
-  # - key:
-  #   t:
-  # - key:
+  - key: usage.html_missing_elements
+    t: Missing Elements
+  - key: usage.html_missing_elements.question
+    t: If you could add 5 elements to HTML, which would you add?
+  # - key: usage.html_missing_elements.description
   #   t:
 
-  - key: other_tools.ai_tools
-    t: AI Tools
-  - key: other_tools.ai_tools.question
-    t: Which of these AI tools have you used?
-
-  # usage
+  - k: options.html_missing_elements.accordion
+    t: Accordion
+  - k: options.html_missing_elements.alert
+    t: Alert
+  - k: options.html_missing_elements.calendar
+    t: Calendar
+  - k: options.html_missing_elements.carousel
+    t: Carousel
+  - k: options.html_missing_elements.combobox_autocomplete
+    t: Combobox/Autocomplete
+  - k: options.html_missing_elements.command_palette
+    t: Command Palette
+  - k: options.html_missing_elements.context_menu
+    t: Context Menu/Right-Click Menu
+  - k: options.html_missing_elements.datatable
+    t: Datatable
+  - k: options.html_missing_elements.dropdown_menu
+    t: Dropdown Menu
+  - k: options.html_missing_elements.progress_bar
+    t: Progress Bar
+  - k: options.html_missing_elements.skeleton_loading_placeholder
+    t: Skeleton UI/Loading Placeholder
+  - k: options.html_missing_elements.switch
+    t: Switch/Toggle
+  - k: options.html_missing_elements.tabs
+    t: Tabs
+  - k: options.html_missing_elements.toast_message
+    t: Toast Message
+  - k: options.html_missing_elements.tooltip
+    t: Tooltip
+  - k: options.html_missing_elements.offcanvas
+    t: Off-Canvas Area
+  - k: options.html_missing_elements.spinner
+    t: Loading Spinner
+  - k: options.html_missing_elements.segmented_button
+    t: Segmented Button
+  - k: options.html_missing_elements.scroll_area
+    t: Scroll Area
+  - k: options.html_missing_elements.icon
+    t: Icon
+  - k: options.html_missing_elements.star_rating
+    t: Star Rating
 
   - key: usage.html_pain_points_freeform
     t: Other Pain Points

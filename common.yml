@@ -1425,13 +1425,13 @@ translations:
   - key: followups.not_powerful
     t: It wasn't powerful enough
 
-  - key: followups.interested
+  - key: followups.sentiment_interested
     t: Interested
-  - key: followups.not_interested
+  - key: followups.sentiment_not_interested
     t: Not interested
-  - key: followups.positive_experience
+  - key: followups.sentiment_positive_experience
     t: Positive experience
-  - key: followups.negative_experience
+  - key: followups.sentiment_negative_experience
     t: Negative experience
 
   # - key: followups.
