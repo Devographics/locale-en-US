@@ -57,6 +57,13 @@ translations:
       You can email us at [hello@stateofjs.com](mailto:hello@stateofjs.com) if you'd like us to delete all or part of your data.
 
   ###########################################################################
+  # Other UI Strings
+  ###########################################################################
+
+  - key: textlist.placeholder
+    t: Item {index}…
+
+  ###########################################################################
   # Errors & Messages
   ###########################################################################
 

@@ -224,13 +224,13 @@ translations:
     t: What kind of user disabilities do you account for when designing websites?
 
   - key: options.accessibility_disabilities.hearing_impairments
-    aliasFor: options.user_info.hearing_impairments
+    aliasFor: options.disability_status.hearing_impairments
   - key: options.accessibility_disabilities.mobility_impairments
-    aliasFor: options.user_info.mobility_impairments
+    aliasFor: options.disability_status.mobility_impairments
   - key: options.accessibility_disabilities.learning_disabilities
     t: Learning disabilities (e.g. dyslexia, dyscalculia)
   - key: options.accessibility_disabilities.cognitive_impairments
-    aliasFor: options.user_info.cognitive_impairments
+    aliasFor: options.disability_status.cognitive_impairments
   - key: options.accessibility_disabilities.vestibular_disorders
     t: Vestibular disorders (e.g. epilepsy)
   - key: options.accessibility_disabilities.low_vision
