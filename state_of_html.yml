@@ -7,7 +7,7 @@ translations:
 
   - key: general.state_of_html.intro
     t: |
-      While web developers tend to focus on JavaScript and CSS, none of what we do would be even possible without HTML acting as a foundation for all of it. 
+      While web developers tend to focus on JavaScript and CSS, none of what we do would be even possible without HTML acting as a foundation for all of it.
 
       And while it has long seemed like HTML wasn't evolving, things may be changing. New elements like `<selectmenu>` and `<breadcrumb>` are on the horizon, not to mention cool new features like popovers and declarative Shadow DOM.
 
@@ -33,17 +33,17 @@ translations:
   - key: sections.content.title
     t: Content
   - key: sections.content.description
-    t: Features and APIs that help manage and present content.
+    t: Embedding, multimedia, data, and other content-related features.
 
   - key: sections.web_components.title
     t: Web Components
   - key: sections.web_components.description
     t: Making & using web components.
 
-  - key: sections.external_content.title
-    t: External Content
-  - key: sections.external_content.description
-    t: Embedding external resources, and other multimedia APIs.
+  # - key: sections.external_content.title
+  #   t: External Content
+  # - key: sections.external_content.description
+  #   t: Embedding external resources, and other multimedia APIs.
 
   - key: sections.accessibility.title
     t: Accessibility
@@ -624,7 +624,7 @@ translations:
 
   - key: features.features_intro_css
     t: |
-      Welcome to the survey! This first part is all about figuring out 
-      which **features** of CSS you know about. 
+      Welcome to the survey! This first part is all about figuring out
+      which **features** of CSS you know about.
 
       By the way, if you want to tell us more about any of your choices, just click that little "comment" icon!
