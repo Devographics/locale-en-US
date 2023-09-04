@@ -315,24 +315,24 @@ translations:
     t: <span class="option-chip option-main option-main-never_heard">Never heard of it/Not sure what it is</option>
   - key: options.features2.interested
     t: |
-      <span class="option-chip option-main option-main-heard">Heard of it</span> » <span class="option-chip option-positive">Would like to learn</span>
+      <span class="option-chip option-main option-main-heard">Heard of it</span> » <span class="option-chip option-positive">Want to learn</span>
   - key: options.features2.not_interested
     t: |
       <span class="option-chip option-main option-main-heard">Heard of it</span> » <span class="option-chip option-negative">Not interested</span>
   - key: options.features2.used_positive
     t: |
-      <span class="option-chip option-main option-main-used">Used it</span> » <span class="option-chip option-positive">Had an overall positive experience</span>
+      <span class="option-chip option-main option-main-used">Used it</span> » <span class="option-chip option-positive">Positive experience</span>
   - key: options.features2.used_negative
     t: |
-      <span class="option-chip option-main option-main-used">Used it</span> » <span class="option-chip option-negative">Had an overall negative experience</span>
+      <span class="option-chip option-main option-main-used">Used it</span> » <span class="option-chip option-negative">Negative experience</span>
 
   # features (short)
   - key: options.features.never_heard.short
     t: <span aria-hidden="true">🤷</span> Never heard of it
   - key: options.features.heard.short
-    t: <span aria-hidden="true">👀</span> Know what it is
+    t: <span aria-hidden="true">👀</span> Heard of it
   - key: options.features.used.short
-    t: <span aria-hidden="true">🤓</span> I've used it
+    t: <span aria-hidden="true">🤓</span> Used it
 
   # features (no emoji)
   - key: options.features.never_heard.label
