@@ -26,7 +26,7 @@ translations:
       You are currently viewing this survey in read-only mode.
   - key: general.survey_preview
     t: >
-      This survey is in preview mode. Its questions are subject to change, and all 
+      This survey is in preview mode. Its questions are subject to change, and all
       inputted data will be deleted when the actual survey starts.
 
   - key: general.survey_read_only_back
@@ -1185,8 +1185,8 @@ translations:
       Which of the following options describes you, if any? Please pick one.
   - key: user_info.gender.note
     t: >
-      While we know collecting and publishing diversity data can be a sensitive issue, 
-      we do think it's important to obtain this data to help measure and improve 
+      While we know collecting and publishing diversity data can be a sensitive issue,
+      we do think it's important to obtain this data to help measure and improve
       the survey's efforts in terms of inclusivity and representativeness.
 
   # race & ethnicity
@@ -1197,8 +1197,8 @@ translations:
       Which of the following options describe you, if any? Please check all that apply.
   - key: user_info.race_ethnicity.note
     t: >
-      While we know collecting and publishing diversity data can be a sensitive issue, 
-      we do think it's important to obtain this data to help measure and improve 
+      While we know collecting and publishing diversity data can be a sensitive issue,
+      we do think it's important to obtain this data to help measure and improve
       the survey's efforts in terms of inclusivity and representativeness.
   - key: user_info.race_ethnicity.not_allowed
     t: >
@@ -1297,7 +1297,7 @@ translations:
     t: Do you want to be notified when the survey results are released?
   - key: user_info.receive_notifications.note
     t: >
-      We don't store any private data, so after your email address is sent to our 
+      We don't store any private data, so after your email address is sent to our
       mailing list provider it will be deleted from our own records.
 
   # how can we improve the survey?
@@ -1371,7 +1371,7 @@ translations:
     t: People
   - key: resources.people.others.description
     t: >
-      People you read, follow, or just want to highlight for their work 
+      People you read, follow, or just want to highlight for their work
       (freeform field, comma-separated names).
   - key: options.people.na
     t: 🚫 None
