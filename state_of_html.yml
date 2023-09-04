@@ -208,10 +208,15 @@ translations:
   - key: features.accessibility_techniques.question
     t: Which of these accessibility techniques have you used?
 
+  - key: features.accessibility_screenreaders
+    t: Screen readers
+  - key: features.accessibility_screenreaders.question
+    t: Which screen readers do you test in?
+
   - key: features.accessibility_tools
     t: Accessibility Tools
   - key: features.accessibility_tools.question
-    t: Which of these accessibility tools have you used?
+    t: What tools do you use for accessibility testing?
 
   - key: features.accessibility_pain_points
     t: Accessibility Pain Points
