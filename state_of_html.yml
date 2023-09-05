@@ -391,7 +391,9 @@ translations:
   - key: usage.html_existing_features.question
     t: Which existing HTML features are you unable to use?
   - key: usage.html_existing_features.description
-    t: Existing HTML features (elements, attributes, attribute values, etc.) that you find yourself recreating using custom components, along with the reason why (browser incompatibilities, limited styling or functionality, etc.).
+    t: Existing HTML features (elements, attributes, attribute values, etc.) that you find yourself recreating using custom components.
+
+    Please include feature name along with a short reason (e.g. browser incompatibilities, limited styling, functionality, etc.).
 
   - key: usage.what_do_you_use_html_for
     t: HTML Usage
