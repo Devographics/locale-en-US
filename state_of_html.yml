@@ -61,9 +61,9 @@ translations:
     t: Other HTML elements & browser APIs.
 
   - key: sections.other_tools.title
-    t: Other Tools
+    t: Other Tools & Features
   - key: sections.other_tools.description
-    t: Other tools you use as part of your work.
+    t: Other tools or features you use as part of your work.
 
   - key: sections.usage.title
     t: Usage
@@ -238,6 +238,11 @@ translations:
   - key: options.accessibility_disabilities.atypical_vision
     t: Atypical color vision (”color blindness”)
 
+  - key: features.accessibility_screenreaders
+    t: Screen Readers
+  - key: features.accessibility_screenreaders.question
+    t: Which screen readers do you use for accessibility testing?
+
   - key: features.accessibility_techniques
     t: Other Accessibility Techniques
   - key: features.accessibility_strategies.question
@@ -266,7 +271,7 @@ translations:
   - key: options.accessibility_techniques.descriptive_alt_text
     t: |
       Descriptive `alt` text
-  - key: options.accessibility_techniques.descriptive_alt_text
+  - key: options.accessibility_techniques.descriptive_alt_text.description
     t: Providing alt text that describes the purpose or content of an image.
   - key: options.accessibility_techniques.skip_to_content
     t: Skip-to-content link
@@ -280,7 +285,7 @@ translations:
       Using `<fieldset>` and `<legend>`  to group related form elements.
   - key: options.accessibility_techniques.headings_hierarchy
     t: Information Hierarchy
-  - key: options.accessibility_techniques.headings_hierarchy
+  - key: options.accessibility_techniques.headings_hierarchy.question
     t: |
       Using headings (`<h1>` - `<h6>`) that correctly represent a page's information hierarchy.
   - key: options.accessibility_techniques.meaningful_link_text
@@ -300,9 +305,9 @@ translations:
     t: Not Relying on Pointer Only
   - key: options.accessibility_techniques.pointer_alternative.description
     t: Ensuring pointer interactions (e.g. hover) have a keyboard alternative.
-  - key: options.accessibility_techniques.color_contrast
+  - key: options.accessibility_techniques.good_color_contrast
     t: Sufficient Contrast
-  - key: options.accessibility_techniques.color_contrast.description
+  - key: options.accessibility_techniques.good_color_contrast.description
     t: Using contrast checkers to ensure sufficient color contrast.
   - key: options.accessibility_techniques.color_alternative
     t: Not Relying on Color Only
@@ -354,6 +359,13 @@ translations:
   - key: other_tools.machine_readable_features.question
     aliasFor: features.machine_readable_features.question
 
+  - key: other_tools.blast_from_the_past
+    t: Blast from the Past!
+  - key: other_tools.blast_from_the_past.question
+    t: Have you ever used any of the following old-school elements?
+  - key: other_tools.blast_from_the_past.description
+    t: Blast from the past!
+
   # Usage
 
   - key: usage.html_existing_features
@@ -387,17 +399,17 @@ translations:
   - key: usage.tools_for_other_developers
     t: Coding for Other Developers
   - key: usage.tools_for_other_developers.question
-    t: Are the libraries, packages, components, etc. that you create used by other developers?
-  - key: na
-    t: 🚫 No
-  - key: options.tools_for_other_developers.yes_internally
-    t: Yes, by less than a hundred developers.
-  - key: options.tools_for_other_developers.yes_publicly_hundreds_users
-    t: Yes, by hundreds of developers.
-  - key: options.tools_for_other_developers.yes_publicly_thousands_users
-    t: Yes, by thousands of developers.
-  - key: options.tools_for_other_developers.yes_publicly_millions_users
-    t: Yes, by millions of developers or more.
+    t: Other than yourself, how many developers use the libraries, packages, components, etc. that you create?
+  - key: options.tools_for_other_developers.na
+    t: 🚫 None
+  - key: options.tools_for_other_developers.less_than_100
+    t: Less than a hundred developers.
+  - key: options.tools_for_other_developers.more_than_100
+    t: Hundreds of developers.
+  - key: options.tools_for_other_developers.more_than_1000
+    t: Thousands of developers.
+  - key: options.tools_for_other_developers.more_than_1000000
+    t: Millions of developers or more.
 
   - key: usage.html_missing_elements
     t: Missing Elements
@@ -453,6 +465,17 @@ translations:
     t: Other Pain Points
   - key: usage.html_pain_points_freeform.question
     t: Any other pain points around using HTML and related technologies?
+
+  - key: usage.html_css_js_balance
+    t: HTML/CSS vs JavaScript/TypeScript Balance
+  - key: usage.html_css_js_balance.question
+    t: How do you divide your time between writing HTML/CSS and JavaScript (or TypeScript) code?
+  - key: options.html_css_js_balance.0
+    t: 100% HTML/CSS
+  - key: options.html_css_js_balance.4
+    t: 50%–50%
+  - key: options.html_css_js_balance.8
+    t: 100% JS
 
   # other features
 
