@@ -40,10 +40,10 @@ translations:
   - key: sections.web_components.description
     t: Making & using web components.
 
-  # - key: sections.external_content.title
-  #   t: External Content
-  # - key: sections.external_content.description
-  #   t: Embedding external resources, and other multimedia APIs.
+  - key: sections.external_content.title
+    t: External Content
+  - key: sections.external_content.description
+    t: Embedding external resources, and other multimedia APIs.
 
   - key: sections.accessibility.title
     t: Accessibility
