@@ -76,6 +76,11 @@ translations:
 
   # forms
 
+  - key: features.form_controls
+    t: Form Controls
+  - key: features.form_controls.question
+    t: Which form controls have you used?
+
   - key: features.form_input_types
     t: Input Types
   - key: features.form_input_types.question
@@ -340,7 +345,7 @@ translations:
   - key: features.progressive_web_apps_pain_points
     t: PWA Pain Points
   - key: features.progressive_web_apps_pain_points.question
-    t: What are your biggest pain points around progressive web apps?
+    t: What are your biggest pain points around making web apps that feel native?
 
   # Other Tools
 
