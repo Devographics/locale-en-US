@@ -115,7 +115,7 @@ translations:
   - key: na
     t: 🚫 None
   - key: options.interactivity_techniques.css
-    t: CSS (animations, toggles, etc.)
+    t: CSS for interactivity (animations, toggles, etc.)
   - key: options.interactivity_techniques.js_dom_libraries
     t: JavaScript DOM libraries (jQuery, etc.)
   - key: options.interactivity_techniques.js_framework
@@ -239,7 +239,7 @@ translations:
   - key: features.accessibility_disabilities
     t: User Disabilities
   - key: features.accessibility_disabilities.question
-    t: What kind of user disabilities do you account for when designing websites?
+    t: What kind of user disabilities do you account for when making websites?
 
   - key: options.accessibility_disabilities.hearing_impairments
     aliasFor: options.disability_status.hearing_impairments
@@ -391,7 +391,7 @@ translations:
   - key: usage.html_existing_features.question
     t: Which existing HTML features are you unable to use?
   - key: usage.html_existing_features.description
-    t: Existing HTML features (elements, attributes, attribute values, etc.) that you find yourself recreating using custom components (due to browser incompatibilities, limited styling or functionality, etc.).
+    t: Existing HTML features (elements, attributes, attribute values, etc.) that you find yourself recreating using custom components, along with the reason why (browser incompatibilities, limited styling or functionality, etc.).
 
   - key: usage.what_do_you_use_html_for
     t: HTML Usage
