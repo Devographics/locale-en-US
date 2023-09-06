@@ -396,7 +396,8 @@ translations:
   - key: usage.html_existing_features.description
     t: |
       Existing HTML features that you find yourself recreating using custom components.
-
+  - key: usage.html_existing_features.placeholder
+    t: |
       Example: *"`<foo type="bar">` (browser incompatibilities, styling limitations, doesn't do X)"*
 
   - key: usage.what_do_you_use_html_for
