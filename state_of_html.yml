@@ -114,7 +114,7 @@ translations:
     t: Which of these methods do you use to add interactivity or dynamic elements to websites?
   - key: na
     t: 🚫 None
-  - key: options.interactivity_techniques.css
+  - key: options.interactivity_techniques.css_for_interactivity
     t: CSS for interactivity (animations, toggles, etc.)
   - key: options.interactivity_techniques.js_dom_libraries
     t: JavaScript DOM libraries (jQuery, etc.)
@@ -219,7 +219,7 @@ translations:
   - key: features.accessibility_techniques.question
     t: Accessibility Techniques
   - key: features.accessibility_techniques.question
-    t: Which of these accessibility techniques have you used?
+    t: Which of these techniques are part of your regular accessibility strategy?
 
   - key: features.accessibility_screenreaders
     t: Screen readers
@@ -370,7 +370,7 @@ translations:
   - key: other_tools.ai_tools
     t: AI Tools
   - key: other_tools.ai_tools.question
-    t: Which of these AI tools do you regularly use?
+    t: Which of these AI tools do you regularly use to help you write code?
 
   - key: other_tools.machine_readable_features
     aliasFor: features.machine_readable_features
@@ -563,8 +563,8 @@ translations:
   - key: features.imperative_slot
     t: Imperative slot assignment
 
-  - key: features.focusgroup
-    t: "`focusgroup` attribute"
+  # - key: features.focusgroup
+  #   t: "`focusgroup` attribute"
 
   - key: features.form_validation
     t: Form validation
@@ -654,21 +654,12 @@ translations:
     t: HTTP client hints
 
   ###########################################################################
-  # Resources
-  ###########################################################################
-
-  - key: resources.first_steps_css
-    t: First Steps With CSS
-  - key: resources.first_steps_css.description
-    t: When first starting out, which resources did you use to initially learn CSS?
-
-  ###########################################################################
   # Survey Help
   ###########################################################################
 
-  - key: features.features_intro_css
+  - key: features.features_intro_html
     t: |
-      Welcome to the survey! This first part is all about figuring out
-      which **features** of CSS you know about.
+      Welcome to the survey! These first couple sections are all about figuring out
+      which **features** of HTML you know about.
 
-      By the way, if you want to tell us more about any of your choices, just click that little "comment" icon!
+      By the way, if you want to learn more about any item in the survey, you can add it to your reading list by clicking its little "+" icon!

@@ -693,7 +693,7 @@ translations:
       Mobility impairments (such as: arthritis, carpal tunnel, etc.)
   - key: options.disability_status.cognitive_impairments
     t: >
-      Cognitive impairments (such as: anxiety, dyslexia, etc.)
+      Cognitive impairments (such as: anxiety, dyslexia, ADHD, etc.)
   - key: options.disability_status.not_listed
     t: >
       Not Listed

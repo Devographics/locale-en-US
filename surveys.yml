@@ -190,6 +190,9 @@ translations:
   - key: readinglist.add_to_list
     t: Add to Your Reading List
 
+  - key: readinglist.remove_from_list
+    t: Remove from Reading List
+
   - key: readinglist.added_to_list
     t: Added “{label}” to your reading list.
 
