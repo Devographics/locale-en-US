@@ -170,7 +170,7 @@ translations:
   - key: award.feature_adoption_delta_award.comment
     t: |
       The `gap` property for Flexbox is such a useful addition that it's not surprising
-      it would see a **{value}** progression in 2022
+      it would see a **{value}** progression in 2023
 
   # - key: award.tool_usage_delta_award.comment
   #   t: No other tool comes even close to Tailwind CSS's dramatic **{value}** progression over the last year.
