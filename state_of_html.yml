@@ -359,6 +359,9 @@ translations:
     t: PWA Pain Points
   - key: features.progressive_web_apps_pain_points.question
     t: What are your biggest pain points around making web apps that feel native?
+  - key: features.progressive_web_apps_pain_points.placeholder
+    t: |
+      Pain point #{index}
 
   # Other Tools
 
