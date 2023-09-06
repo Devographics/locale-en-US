@@ -438,9 +438,9 @@ translations:
     t: If you could add 5 elements to HTML, what would they be?
   - key: usage.html_missing_elements.description
     t: |
-      These could be things like Accordion, Alert, Calendar, Carousel, Combobox/Autocomplete, Context menu, Data Grid, Rating, Tabs, Image Zoom, Switch, Skeleton loading pattern etc.
-
       If you use any component technologies, the components you find yourself reusing across multiple projects could be good candidates.
+
+      These could be things like Accordion, Alert, Calendar, Carousel, Combobox/Autocomplete, Context menu, Data Grid, Rating, Tabs, Image Zoom, Switch, Skeleton loading pattern etc.
 
   - key: options.html_missing_elements.accordion
     t: Accordion
