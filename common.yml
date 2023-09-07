@@ -237,6 +237,9 @@ translations:
     t: "**{featureName}** Code Example"
   - key: general.code_example
     t: Code Example
+  - key: general.language_code
+    t: |
+      {language} Code
 
   ###########################################################################
   # Nav

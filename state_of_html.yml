@@ -50,9 +50,9 @@ translations:
   - key: sections.accessibility.description
     t: Making sites and apps accessible by all.
 
-  - key: sections.progressive_web_apps.title
-    t: Progressive Web Apps
-  - key: sections.progressive_web_apps.description
+  - key: sections.mobile_web_apps.title
+    t: Mobile Web Apps
+  - key: sections.mobile_web_apps.description
     t: Authoring mobile-optimized web apps.
 
   - key: sections.other_features.title
@@ -115,7 +115,7 @@ translations:
   - key: na
     t: 🚫 None
   - key: options.interactivity_techniques.css_for_interactivity
-    t: CSS for interactivity (animations, toggles, etc.)
+    t: CSS for interactivity (toggles, tabs, etc.)
   - key: options.interactivity_techniques.js_dom_libraries
     t: JavaScript DOM libraries (jQuery, etc.)
   - key: options.interactivity_techniques.js_framework
@@ -194,7 +194,7 @@ translations:
   - key: features.web_components_libraries.question
     t: Have you used any Web Components libraries?
 
-  - key: features.web_components_features.question
+  - key: features.web_components_features
     t: Other Web Component Features
   - key: features.web_components_features.question
     t: Which of the following web component features have you used?
@@ -355,11 +355,11 @@ translations:
     t: |
       Which of these app manifest fields (`<link rel="manifest">`) have you used, if any?
 
-  - key: features.progressive_web_apps_pain_points
-    t: PWA Pain Points
-  - key: features.progressive_web_apps_pain_points.question
-    t: What are your biggest pain points around making web apps that feel native?
-  - key: features.progressive_web_apps_pain_points.placeholder
+  - key: features.mobile_web_apps_pain_points
+    t: Mobile Web Apps Pain Points
+  - key: features.mobile_web_apps_pain_points.question
+    t: What are your biggest pain points around making mobile web apps that feel native?
+  - key: features.mobile_web_apps_pain_points.placeholder
     t: |
       Pain point #{index}
 
