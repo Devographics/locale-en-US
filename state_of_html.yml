@@ -517,8 +517,8 @@ translations:
     t: Switch/Toggle
   - key: options.html_missing_elements.tabs
     t: Tabs
-  - key: options.html_missing_elements.toast_message
-    t: Toast Message
+  # - key: options.html_missing_elements.toast_message
+  #   t: Toast Message
   - key: options.html_missing_elements.tooltip
     t: Tooltip
   - key: options.html_missing_elements.offcanvas
