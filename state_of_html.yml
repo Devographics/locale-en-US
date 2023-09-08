@@ -95,6 +95,9 @@ translations:
     t: Form Pain Points
   - key: features.forms_pain_points.question
     t: What are your pain points around HTML forms?
+  - key: features.forms_pain_points.placeholder
+    t: |
+      Pain point #{index}…
 
   # interactivity
 
@@ -107,6 +110,9 @@ translations:
     t: Interactivity Pain Points
   - key: features.interactivity_pain_points.question
     t: What are your pain points around interactivity & HTML?
+  - key: features.interactivity_pain_points.placeholder
+    t: |
+      Pain point #{index}…
 
   - key: features.interactivity_techniques
     t: Interactivity Methods
@@ -163,6 +169,9 @@ translations:
     t: Content Pain Points
   - key: features.content_pain_points.question
     t: What are your pain points around managing content in HTML?
+  - key: features.content_pain_points.placeholder
+    t: |
+      Pain point #{index}…
 
   # External Content
 
@@ -183,6 +192,9 @@ translations:
     t: External Content Pain Points
   - key: features.external_content_pain_points.question
     t: What are your biggest pain points around using external content in HTML?
+  - key: features.external_content_pain_points.placeholder
+    t: |
+      Pain point #{index}…
   - key: features.external_content_pain_points.description
     t: |
       External content includes `<iframe>`, graphics and multimedia, etc.
@@ -203,11 +215,17 @@ translations:
     t: Using Web Components Pain Points
   - key: features.using_web_components_pain_points.question
     t: What are your biggest pain points around using third-party web components?
+  - key: features.using_web_components_pain_points.placeholder
+    t: |
+      Pain point #{index}…
 
   - key: features.making_web_components_pain_points
     t: Making Web Components Pain Points
   - key: features.making_web_components_pain_points.question
     t: What are your biggest pain points around making web components?
+  - key: features.making_web_components_pain_points.placeholder
+    t: |
+      Pain point #{index}…
 
   # Accessibility
 
@@ -235,6 +253,9 @@ translations:
     t: Accessibility Pain Points
   - key: features.accessibility_pain_points.question
     t: What are your biggest pain points around web accessibility?
+  - key: features.accessibility_pain_points.placeholder
+    t: |
+      Pain point #{index}…
 
   - key: features.accessibility_disabilities
     t: User Disabilities
