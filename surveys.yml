@@ -187,6 +187,10 @@ translations:
   # Reading List
   ###########################################################################
 
+  - key: readinglist.prompt
+    t: >
+      You picked “{option}”. If you'd like to learn more about this feature at the end of the survey, you can click the "+" icon above to add it to your **reading list**.
+
   - key: readinglist.add_to_list
     t: Add to Your Reading List
 
