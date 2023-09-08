@@ -437,10 +437,12 @@ translations:
   - key: usage.html_functionality_features
     t: Limited Functionality
   - key: usage.html_functionality_features.question
-    t: Which existing HTML features are you unable to use because of styling limitations, functionality limitations, or other reasons (except browser incompatibilities)?
+    t: Which existing HTML features are you unable to use for other reasons (beyond browser support)?
   - key: usage.html_functionality_features.description
     t: |
       Good candidates might be existing HTML features that you often have to recreate or augment using JS.
+
+      These are often form elements, interactive elements, interactive behaviors (e.g. autocomplete, form validation, drag-and-drop, tooltips, etc).
   - key: usage.html_functionality_features.placeholder
     t: |
       ﹤foo type="bar"﹥ (doesn't do X, styling limitations, a11y)
