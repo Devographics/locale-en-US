@@ -484,7 +484,7 @@ translations:
   - key: usage.html_missing_elements
     t: Missing Elements
   - key: usage.html_missing_elements.question
-    t: If you could add 5 elements to HTML, what would they be?
+    t: If you could add 3 elements to HTML, what would they be?
   # - key: usage.html_missing_elements.description
   #   t: |
   #     If you use any component technologies, the components you find yourself reusing across multiple projects could be good candidates.
@@ -500,21 +500,23 @@ translations:
   - key: options.html_missing_elements.carousel
     t: Carousel
   - key: options.html_missing_elements.combobox_autocomplete
-    t: Combobox/Autocomplete
+    t: Combobox / Autocomplete
   - key: options.html_missing_elements.command_palette
     t: Command Palette
   - key: options.html_missing_elements.context_menu
-    t: Context Menu/Right-Click Menu
+    t: Context Menu / Right-Click Menu
   - key: options.html_missing_elements.datatable
-    t: Datatable
+    t: Data table (with sorting, filtering, etc.)
   - key: options.html_missing_elements.dropdown_menu
     t: Dropdown Menu
+  - key: options.html_missing_elements.image_zoom
+    t: Image Zoom
   - key: options.html_missing_elements.progress_bar
     t: Progress Bar
   - key: options.html_missing_elements.skeleton_loading_placeholder
-    t: Skeleton UI/Loading Placeholder
+    t: Skeleton UI / Loading Placeholder
   - key: options.html_missing_elements.switch
-    t: Switch/Toggle
+    t: Switch / Toggle
   - key: options.html_missing_elements.tabs
     t: Tabs
   # - key: options.html_missing_elements.toast_message
@@ -528,7 +530,7 @@ translations:
   - key: options.html_missing_elements.segmented_button
     t: Segmented Button
   - key: options.html_missing_elements.scroll_area
-    t: Scroll Area
+    t: Infinite Scroll
   - key: options.html_missing_elements.icon
     t: Icon
   - key: options.html_missing_elements.star_rating
