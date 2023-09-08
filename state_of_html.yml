@@ -212,6 +212,12 @@ translations:
     t: Other Web Component Features
   - key: features.web_components_features.question
     t: Which of the following web component features have you used?
+  - key: options.web_components_features.host_pseudos.description
+    t: |
+     `:host` , `:host()` , `:host-context()`
+  - key: options.web_components_features.is_attribute.description
+    t: |
+      `<button is="fancy-button">`
 
   - key: features.using_web_components_pain_points
     t: Using Web Components Pain Points
