@@ -426,10 +426,10 @@ translations:
   - key: usage.html_interoperability_features
     t: Browser Interoperability
   - key: usage.html_interoperability_features.question
-    t: Which existing HTML features do you have difficulties using because of lack of support, or differences between browsers?
-  # - key: usage.html_interoperability_features.description
-  #   t: |
-  #     Good candidates might be existing HTML features that you often have to recreate or augment using JavaScript.
+    t: Which existing HTML features or browser APIs are you unable to use because of lack of support or differences between browsers?
+  - key: usage.html_interoperability_features.description
+    t: |
+      Any type of API the survey has asked about is within scope.
   - key: usage.html_interoperability_features.placeholder
     t: |
       Feature #{index}
@@ -437,13 +437,13 @@ translations:
   - key: usage.html_functionality_features
     t: Limited Functionality
   - key: usage.html_functionality_features.question
-    t: Which existing HTML features do you have difficulties using because of limited styling options, or limited functionality?
+    t: Which existing HTML features are you unable to use because of styling limitations, functionality limitations, or other reasons (except browser incompatibilities)?
   - key: usage.html_functionality_features.description
     t: |
-      Good candidates might be existing HTML features that you often have to recreate or augment using JavaScript.
+      Good candidates might be existing HTML features that you often have to recreate or augment using JS.
   - key: usage.html_functionality_features.placeholder
     t: |
-      Feature #{index}
+      ﹤foo type="bar"﹥ (doesn't do X, styling limitations, a11y)
 
   - key: usage.what_do_you_use_html_for
     t: HTML Usage
