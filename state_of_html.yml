@@ -109,7 +109,9 @@ translations:
   - key: features.interactivity_pain_points
     t: Interactivity Pain Points
   - key: features.interactivity_pain_points.question
-    t: What are your pain points around interactivity & HTML?
+    t: What are your pain points around dynamic HTML changes?
+  - key: features.interactivity_pain_points.description
+    t: Interactivity, DOM manipulation, etc.
   - key: features.interactivity_pain_points.placeholder
     t: |
       Pain point #{index}…
