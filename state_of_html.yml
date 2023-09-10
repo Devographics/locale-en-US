@@ -250,7 +250,7 @@ translations:
     t: Which of the following web component features have you used?
   - key: options.web_components_features.host_pseudos.description
     t: |
-     `:host` , `:host()` , `:host-context()`
+      `:host` , `:host()` , `:host-context()`
   - key: options.web_components_features.is_attribute.description
     t: |
       `<button is="fancy-button">`
@@ -513,7 +513,7 @@ translations:
   - key: usage.tools_for_other_developers
     t: Coding for Other Developers
   - key: usage.tools_for_other_developers.question
-    t: Other than yourself, how many developers use the libraries, packages, components, etc. that you create?
+    t: Other than yourself, how many developers use the libraries, packages, components, etc. that you create or maintain?
   - key: options.tools_for_other_developers.na
     t: 🚫 None
   - key: options.tools_for_other_developers.less_than_100

@@ -180,7 +180,7 @@ translations:
 
   - key: award.tool_satisfaction_award.comment
     t: |
-      Out of all the CSS-in-JS solutions, CSS Modules is the only one that maintained a
+      Out of all the CSS-in-JS solutions, Open Props is the only one that maintained a
       sky-high **{value}** retention ratio.
 
   # - key: award.tool_interest_award.comment
@@ -188,7 +188,7 @@ translations:
 
   - key: award.most_write_ins_award.comment
     t: |
-      With **{value}** mentions, the Arc browser was the tool most mentioned in freeform questions by far.
+      With **{value}** mentions, Panda was the tool most mentioned in freeform questions by far.
 
   ###########################################################################
   # Conclusion
