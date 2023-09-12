@@ -95,6 +95,11 @@ translations:
     t: Form Pain Points
   - key: features.forms_pain_points.question
     t: What are your pain points around HTML forms?
+  - key: features.forms_pain_points.description
+    t: |
+      Think of the various form controls (e.g. `<input>`, `<textarea>`, `<select>`, `<button>` etc.),
+      behaviors (e.g. validation, autocomplete), handling forms via JS etc.
+      Anything that bothers you is fair game — browser support, functionality, styling, etc.
   - key: features.forms_pain_points.placeholder
     t: |
       Pain point #{index}…
@@ -207,6 +212,8 @@ translations:
     t: Content Pain Points
   - key: features.content_pain_points.question
     t: What are your pain points around managing content in HTML?
+  - key: features.content_pain_points.description
+    t: Think of multimedia, embedding (iframes, SVG, etc), machine-readable data, internationalization & localization, etc.
   - key: features.content_pain_points.placeholder
     t: |
       Pain point #{index}…
