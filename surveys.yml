@@ -421,3 +421,47 @@ translations:
     t: How will this data be used?
   - key: faq.data_used_js2022.description
     t: All data collected will be released publicly. It will then become a resources both for developers, who consult it to inform their technological choices, and browser vendors, who use it to prioritize focus areas and inform their roadmaps.
+
+  # HTML 2023
+
+  - key: faq.data_used_html2023
+    t: How will this data be used?
+  - key: faq.data_used_html2023.description
+    t: >
+      All data collected will be released openly for any developer or company to consult. 
+      Browser vendors also [use this data](https://web.dev/interop-2023/) to prioritize focus areas and inform their roadmaps.
+
+  - key: faq.survey_goals_html2023
+    t: What are the survey's goals?
+  - key: faq.survey_goals_html2023.description
+    t: >
+      The survey's goals are to measure awareness of new HTML features and browser APIs, and help developers keep track of how their usage is evolving.
+
+  - key: faq.who_should_take_survey_html2023
+    t: Who should take this survey?
+  - key: faq.who_should_take_survey_html2023.description
+    t: >
+      This is an open survey for anybody who makes websites or web apps, whether regularly or occasionally, as part of their job, as a student, or just for fun!
+
+  - key: faq.how_long_will_survey_take_html2023
+    t: How long will answering the survey take?
+  - key: faq.how_long_will_survey_take_html2023.description
+    t: >
+      Depending on how many questions you answer (all questions are optional), 
+      filling out the survey should take around 15-20 minutes.
+
+  - key: faq.learn_more_html2023
+    t: Where can I learn more?
+  - key: faq.learn_more_html2023.description
+    t: You can learn more about this survey in [our announcement post](https://lea.verou.me/blog/2023/design-state-of-html/).
+
+  - key: faq.survey_design_html2023
+    t: How was this survey designed?
+  - key: faq.survey_design_html2023.description
+    t: >
+      The survey was designed by [Lea Verou](https://lea.verou.me), with input from browser vendors as well as groups such as the [WebDX Community Group](https://www.w3.org/community/webdx/).
+
+  - key: faq.results_released_html2023
+    t: When will the results be released?
+  - key: faq.results_released_html2023.description
+    t: The survey will run from September 19 to October 10, and the survey results will be released shortly after that.

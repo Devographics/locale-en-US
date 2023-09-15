@@ -880,6 +880,11 @@ translations:
   - key: charts.no_answer.short
     t: No Answer
 
+  - key: charts.other_answers
+    t: Others
+  - key: charts.other_answers.short
+    t: Others
+
   - key: charts.tick.links
     t: Links
 
