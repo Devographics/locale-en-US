@@ -98,7 +98,7 @@ translations:
   - key: features.forms_pain_points.description
     t: |
       Think of the various form controls (e.g. `<input>`, `<textarea>`, `<select>`, `<button>` etc.),
-      behaviors (e.g. validation, autocomplete), handling forms via JS etc.
+      behaviors (e.g. validation, autocomplete), handling forms via JS, editing APIs (e.g. `contentEditable`) etc.
       Anything that bothers you is fair game — browser support, functionality, styling, etc.
   - key: features.forms_pain_points.placeholder
     t: |
@@ -152,7 +152,7 @@ translations:
   - key: features.interactivity_pain_points.question
     t: What are your pain points around dynamic HTML changes?
   - key: features.interactivity_pain_points.description
-    t: Interactivity, DOM manipulation, etc.
+    t: Interactivity (except forms), DOM manipulation, etc.
   - key: features.interactivity_pain_points.placeholder
     t: |
       Pain point #{index}…
@@ -233,16 +233,16 @@ translations:
     t: |
       Which of these values have you used for the `rel` attribute of `<link>` ?
 
-  - key: features.external_content_pain_points
-    t: External Content Pain Points
-  - key: features.external_content_pain_points.question
-    t: What are your biggest pain points around using external content in HTML?
-  - key: features.external_content_pain_points.placeholder
-    t: |
-      Pain point #{index}…
-  - key: features.external_content_pain_points.description
-    t: |
-      External content includes `<iframe>`, graphics and multimedia, etc.
+  # - key: features.external_content_pain_points
+  #   t: External Content Pain Points
+  # - key: features.external_content_pain_points.question
+  #   t: What are your biggest pain points around using external content in HTML?
+  # - key: features.external_content_pain_points.placeholder
+  #   t: |
+  #     Pain point #{index}…
+  # - key: features.external_content_pain_points.description
+  #   t: |
+  #     External content includes `<iframe>`, graphics and multimedia, etc.
 
   # Web Components
 
@@ -265,7 +265,9 @@ translations:
   - key: features.using_web_components_pain_points
     t: Using Web Components Pain Points
   - key: features.using_web_components_pain_points.question
-    t: What are your biggest pain points around using third-party web components?
+    t: What are your biggest pain points around *consuming* web components?
+  - key: features.using_web_components_pain_points.description
+    t: Using Web Components that you or others have made.
   - key: features.using_web_components_pain_points.placeholder
     t: |
       Pain point #{index}…
@@ -273,7 +275,10 @@ translations:
   - key: features.making_web_components_pain_points
     t: Making Web Components Pain Points
   - key: features.making_web_components_pain_points.question
-    t: What are your biggest pain points around making web components?
+    t: What are your biggest pain points around *making* web components?
+  - key: features.making_web_components_pain_points.description
+    t: |
+      Things preventing you from exposing the syntax you want, browser differences in related APIs, etc.
   - key: features.making_web_components_pain_points.placeholder
     t: |
       Pain point #{index}…
@@ -436,6 +441,8 @@ translations:
     t: Native-like Web Apps Pain Points
   - key: features.mobile_web_apps_pain_points.question
     t: What are your biggest pain points around making web apps that feel native?
+  - key: features.mobile_web_apps_pain_points.description
+    t: Capabilities the Web Platform doesn't yet have, browser differences in related APIs, etc.
   - key: features.mobile_web_apps_pain_points.placeholder
     t: |
       Pain point #{index}
