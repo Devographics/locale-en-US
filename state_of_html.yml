@@ -530,19 +530,24 @@ translations:
     aliasFor: options.what_do_you_use_css_for.web_apps
 
   - key: usage.tools_for_other_developers
-    t: Coding for Other Developers
+    t: Ecosystem Impact
   - key: usage.tools_for_other_developers.question
-    t: Other than yourself, how many developers use the libraries, packages, components, etc. that you create or maintain?
+    t: Other than yourself, how many developers use the libraries, packages, components, APIs etc. that you create or maintain?
+  - key: usage.tools_for_other_developers.description
+    t: |
+      Total, if you work on multiple projects that are used by other developers.
+      If you’re not sure, pick the closest to your best estimate.
+      For open source code, npm downloads might offer a useful data point.
   - key: options.tools_for_other_developers.na
-    t: 🚫 None
-  - key: options.tools_for_other_developers.less_than_100
-    t: Less than a hundred developers.
+    t: 🚫 None (Just me)
+  - key: options.tools_for_other_developers.a_few
+    t: A few other developers (e.g. developers within a small team)
   - key: options.tools_for_other_developers.more_than_100
-    t: Hundreds of developers.
+    t: Hundreds of developers
   - key: options.tools_for_other_developers.more_than_1000
-    t: Thousands of developers.
+    t: Thousands of developers
   - key: options.tools_for_other_developers.more_than_1000000
-    t: Millions of developers or more.
+    t: Millions of developers
 
   - key: usage.html_missing_elements
     t: Missing Elements
