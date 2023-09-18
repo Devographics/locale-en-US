@@ -419,7 +419,12 @@ translations:
   - key: features.pwa_features
     t: PWA Features
   - key: features.pwa_features.question
-    t: Have you ever used any of the following PWA technologies/APIs?
+    t: Have you used any of the following PWA technologies/APIs?
+
+  - key: features.local_storage_features
+    t: Local storage features
+  - key: features.local_storage_features.question
+    t: Have you used any of the following to store data client-side?
 
   - key: features.pwa_app_manifest_fields
     t: App Manifest Fields
