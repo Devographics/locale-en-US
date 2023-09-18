@@ -51,7 +51,7 @@ translations:
     t: Making sites and apps accessible by all.
 
   - key: sections.mobile_web_apps.title
-    t: Mobile Web Apps
+    t: Native-like Web Apps
   - key: sections.mobile_web_apps.description
     t: Authoring mobile-optimized web apps.
 
@@ -428,9 +428,9 @@ translations:
       Which of these app manifest fields (`<link rel="manifest">`) have you used, if any?
 
   - key: features.mobile_web_apps_pain_points
-    t: Mobile Web Apps Pain Points
+    t: Native-like Web Apps Pain Points
   - key: features.mobile_web_apps_pain_points.question
-    t: What are your biggest pain points around making mobile web apps that feel native?
+    t: What are your biggest pain points around making web apps that feel native?
   - key: features.mobile_web_apps_pain_points.placeholder
     t: |
       Pain point #{index}
