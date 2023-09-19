@@ -9,9 +9,12 @@ translations:
     t: |
       While web developers tend to focus on JavaScript and CSS, none of what we do would be even possible without HTML acting as a foundation for all of it.
 
-      And while it has long seemed like HTML wasn't evolving, things may be changing. New elements like `<selectmenu>` and `<breadcrumb>` are on the horizon, not to mention cool new features like popovers and declarative Shadow DOM.
+      And while it has long seemed like HTML wasn't evolving, things may be changing.
+      New elements like `<selectlist>` and `<model>` are on the horizon, not to mention cool new features like popovers,
+      and the swath of related browser APIs around HTML (Web Components, PWAs, etc.).
 
-      So with this survey, our goal is to fill in the gaps between the [State of JS](http://stateofjs.com/) and [State of CSS](https://stateofcss.com/) surveys, and help track the evolution of the web platform as a whole!
+      So with this survey, our goal is to fill in the gaps between the [State of JS](http://stateofjs.com/) and [State of CSS](https://stateofcss.com/) surveys,
+      and track the evolution of the web platform as a whole!
 
   - key: general.state_of_html.description
     t: The annual developer survey about the web platform
@@ -145,7 +148,7 @@ translations:
       `element.toggleAttribute("data-selected", isSelected)`
   - key: options.dom_methods.document_create_document_fragment.description
     t: |
-      `document.createDocumentFragment()`
+      `let fragment = document.createDocumentFragment()`
 
   - key: features.interactivity_pain_points
     t: Interactivity Pain Points
@@ -160,7 +163,7 @@ translations:
   - key: features.interactivity_techniques
     t: Interactivity Methods
   - key: features.interactivity_techniques.question
-    t: Which of these methods do you use to add interactivity or dynamic elements to websites?
+    t: Which of these methods do you use to add interactivity or dynamically modify HTML?
   - key: na
     t: <span aria-hidden="true">🚫</span> None
   - key: options.interactivity_techniques.css_for_interactivity
@@ -220,12 +223,12 @@ translations:
 
   # External Content
 
-  - key: features.script_link_attributes
+  - key: features.privacy_security_features
     t: |
-      `<script>` or `<link>` Attributes
-  - key: features.script_link_attributes.question
+      Security & Privacy Features
+  - key: features.privacy_security_features.question
     t: |
-      Which of the following `<script>` or `<link>` attributes have you used?
+      Which of the following security & privacy features have you used?
 
   - key: features.rel_attribute
     t: Resource Hints
@@ -473,16 +476,16 @@ translations:
 
   # Usage
 
-  - key: usage.html_existing_features
-    t: Unusable HTML Features
-  - key: usage.html_existing_features.question
-    t: Which existing HTML features are you unable to use?
-  - key: usage.html_existing_features.description
-    t: |
-      Existing HTML features that you find yourself recreating using custom components.
-  - key: usage.html_existing_features.placeholder
-    t: |
-      ﹤foo type="bar"﹥ (browser incompatibilities, styling limitations, doesn't do X)
+  # - key: usage.html_existing_features
+  #   t: Unusable HTML Features
+  # - key: usage.html_existing_features.question
+  #   t: Which existing HTML features are you unable to use?
+  # - key: usage.html_existing_features.description
+  #   t: |
+  #     Existing HTML features that you find yourself recreating using custom components.
+  # - key: usage.html_existing_features.placeholder
+  #   t: |
+  #     ﹤foo type="bar"﹥ (browser incompatibilities, styling limitations, doesn't do X)
 
   - key: usage.html_interoperability_features
     t: Browser Interoperability
@@ -506,7 +509,10 @@ translations:
       These are often form elements, interactive elements, interactive behaviors (e.g. autocomplete, form validation, drag-and-drop, tooltips, etc).
   - key: usage.html_functionality_features.placeholder
     t: |
-      ﹤foo type="bar"﹥ (doesn't do X, styling limitations, a11y)
+      ﹤foo﹥ (styling limitations, doesn't do X)
+  - key: usage.html_functionality_features.placeholder.even
+    t: |
+      ﹤bar type="baz"﹥ (doesn't do Y, poor a11y)
 
   - key: usage.what_do_you_use_html_for
     t: HTML Usage
