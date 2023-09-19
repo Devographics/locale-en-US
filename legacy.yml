@@ -257,12 +257,12 @@ translations:
     t: I've used it
 
   # features (short versions)
-  - key: options.features.never_heard.short
-    t: Never heard of it
-  - key: options.features.heard.short
-    t: Know about it
-  - key: options.features.used.short
-    t: Have used it
+  # - key: options.features.never_heard.short
+  #   t: Never heard of it
+  # - key: options.features.heard.short
+  #   t: Know about it
+  # - key: options.features.used.short
+  #   t: Have used it
 
   # patterns
   - key: options.patterns.use_never

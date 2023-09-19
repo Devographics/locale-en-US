@@ -1410,6 +1410,10 @@ translations:
     t: |
       Optionally, you can tell us more about why you picked this answer:
 
+  - key: followups.description.short
+    t: |
+      Tell us more:
+
   - key: followups.placeholder
     t: Other reason…
 
