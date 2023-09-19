@@ -162,7 +162,7 @@ translations:
   - key: features.interactivity_techniques.question
     t: Which of these methods do you use to add interactivity or dynamic elements to websites?
   - key: na
-    t: 🚫 None
+    t: <span aria-hidden="true">🚫</span> None
   - key: options.interactivity_techniques.css_for_interactivity
     t: CSS for interactivity (toggles, tabs, etc.)
   - key: options.interactivity_techniques.js_dom_libraries
@@ -488,9 +488,9 @@ translations:
     t: Browser Interoperability
   - key: usage.html_interoperability_features.question
     t: Which existing HTML features or browser APIs are you unable to use because of lack of support or differences between browsers?
-  - key: usage.html_interoperability_features.description
-    t: |
-      Any type of API the survey has asked about is within scope.
+  # - key: usage.html_interoperability_features.description
+  #   t: |
+  #     Any type of API the survey has asked about is within scope.
   - key: usage.html_interoperability_features.placeholder
     t: |
       Feature #{index}
