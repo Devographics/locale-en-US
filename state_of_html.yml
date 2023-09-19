@@ -9,7 +9,7 @@ translations:
     t: |
       While web developers tend to focus on JavaScript and CSS, none of what we do would be even possible without HTML acting as a foundation for all of it.
 
-      And while it has long seemed like HTML wasn't evolving, things may be changing. New elements like `<selectmenu>` and `<breadcrumb>` are on the horizon, not to mention cool new features like popovers and declarative Shadow DOM.
+      And while it has long seemed like HTML wasn't evolving, things may be changing. New elements like `<selectlist>` and `<model>` are on the horizon, not to mention cool new features like popovers and declarative Shadow DOM.
 
       So with this survey, our goal is to fill in the gaps between the [State of JS](http://stateofjs.com/) and [State of CSS](https://stateofcss.com/) surveys, and help track the evolution of the web platform as a whole!
 
@@ -160,7 +160,7 @@ translations:
   - key: features.interactivity_techniques
     t: Interactivity Methods
   - key: features.interactivity_techniques.question
-    t: Which of these methods do you use to add interactivity or dynamic elements to websites?
+    t: Which of these methods do you use to add interactivity or dynamically modify HTML?
   - key: na
     t: 🚫 None
   - key: options.interactivity_techniques.css_for_interactivity
