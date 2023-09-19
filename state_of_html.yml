@@ -220,12 +220,12 @@ translations:
 
   # External Content
 
-  - key: features.script_link_attributes
+  - key: features.privacy_security_features
     t: |
-      `<script>` or `<link>` Attributes
-  - key: features.script_link_attributes.question
+      Security & Privacy Features
+  - key: features.privacy_security_features.question
     t: |
-      Which of the following `<script>` or `<link>` attributes have you used?
+      Which of the following security & privacy features have you used?
 
   - key: features.rel_attribute
     t: Resource Hints
