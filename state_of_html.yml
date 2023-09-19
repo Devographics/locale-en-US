@@ -542,6 +542,8 @@ translations:
     t: 🚫 None (Just me)
   - key: options.tools_for_other_developers.a_few
     t: A few other developers (e.g. developers within a small team)
+  - key: options.tools_for_other_developers.less_than_100
+    t: Less than a hundred developers
   - key: options.tools_for_other_developers.more_than_100
     t: Hundreds of developers
   - key: options.tools_for_other_developers.more_than_1000
