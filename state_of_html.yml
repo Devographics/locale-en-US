@@ -845,6 +845,6 @@ translations:
   - key: features.features_intro_html
     t: |
       Welcome to the survey! These first couple sections are all about figuring out
-      which **features** of HTML you know about.
+      which **features** of HTML (and related APIs) you know about.
 
       By the way, if you want to learn more about any item in the survey, you can add it to your reading list by clicking its little "+" icon!
