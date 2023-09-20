@@ -114,9 +114,9 @@ translations:
   # interactivity
 
   - key: features.dom_attribute_features
-    t: DOM Attributes
+    t: DOM Attribute-related methods
   - key: features.dom_attribute_features.question
-    t: Which of the following DOM attributes have you used?
+    t: Which of the following DOM attribute-related methods have you used?
 
   - key: features.dom_html_features
     t: HTML String Handling Features
