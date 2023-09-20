@@ -93,6 +93,11 @@ translations:
   - key: accounts.your_email
     t: Your Email
 
+  - key: accounts.upgrade_account.action
+    t: Upgrade your account
+  - key: accounts.upgrade_account.description
+    t: Upgrading your account with an email address will let you access your survey response after you end your session.
+
   - key: accounts.continue_as_guest
     t: Continue as Guest
   - key: accounts.continue_as_guest.description
