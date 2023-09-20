@@ -113,46 +113,56 @@ translations:
 
   # interactivity
 
+  - key: features.dom_attribute_features
+    t: DOM Attributes
+  - key: features.dom_attribute_features.question
+    t: Which of the following DOM attributes have you used?
+
+  - key: features.dom_html_features
+    t: HTML String Handling Features
+  - key: features.dom_html_features.question
+    t: Which of the following DOM HTML string handling features have you used?
+
   - key: features.dom_methods
-    t: DOM Methods
-  - key: features.dom_methods.question
-    t: Which of the following DOM methods have you used?
-  - key: options.dom_methods.element_innerhtml.description
-    t: |
-      `element.innerHTML = rawHTML`
-  - key: options.dom_methods.element_textcontent.description
-    t: |
-      `element.textContent = text`
-  - key: options.dom_methods.element_insert_adjacent_html.description
-    t: |
-      `element.insertAdjacentHTML("beforebegin", rawHTML)`
-  - key: options.dom_methods.element_insert_adjacent_element.description
-    t: |
-      `element.insertAdjacentElement("afterend", otherElement)`
-  - key: options.dom_methods.element_append.description
-    t: |
-      `parent.append(...children)`
-  - key: options.dom_methods.element_append_child.description
-    t: |
-      `parent.appendChild(child)`
-  - key: options.dom_methods.element_before_after.description
-    t: |
-      `element.before(otherElement)`
-  - key: options.dom_methods.element_replace_with.description
-    t: |
-      `element.replaceWith(otherElement)`
-  - key: options.dom_methods.element_replace_child.description
-    t: |
-      `parent.replaceChild(newChild, oldChild)`
-  - key: options.dom_methods.element_replace_children.description
-    t: |
-      `element.replaceChildren(...newChildren)`
-  - key: options.dom_methods.element_toggle_attribute.description
-    t: |
-      `element.toggleAttribute("data-selected", isSelected)`
-  - key: options.dom_methods.document_create_document_fragment.description
-    t: |
-      `let fragment = document.createDocumentFragment()`
+    t: Element reparenting DOM Methods
+  - key: features.dom_moving_element_features.question
+    t: Which of the following element moving DOM methods have you used?
+  # - key: options.dom_methods.element_innerhtml.description
+  #   t: |
+  #     `element.innerHTML = rawHTML`
+  # - key: options.dom_methods.element_textcontent.description
+  #   t: |
+  #     `element.textContent = text`
+  # - key: options.dom_methods.element_insert_adjacent_html.description
+  #   t: |
+  #     `element.insertAdjacentHTML("beforebegin", rawHTML)`
+  # - key: options.dom_methods.element_insert_adjacent_element.description
+  #   t: |
+  #     `element.insertAdjacentElement("afterend", otherElement)`
+  # - key: options.dom_methods.element_append.description
+  #   t: |
+  #     `parent.append(...children)`
+  # - key: options.dom_methods.element_append_child.description
+  #   t: |
+  #     `parent.appendChild(child)`
+  # - key: options.dom_methods.element_before_after.description
+  #   t: |
+  #     `element.before(otherElement)`
+  # - key: options.dom_methods.element_replace_with.description
+  #   t: |
+  #     Replaced the older `parent.replaceChild(el2, el1)` method.
+  # - key: options.dom_methods.element_replace_child.description
+  #   t: |
+  #     `parent.replaceChild(newChild, oldChild)`
+  # - key: options.dom_methods.element_replace_children.description
+  #   t: |
+  #     `element.replaceChildren(...newChildren)`
+  # - key: options.dom_methods.element_toggle_attribute.description
+  #   t: |
+  #     `element.toggleAttribute("data-selected", isSelected)`
+  # - key: options.dom_methods.document_create_document_fragment.description
+  #   t: |
+  #     `let fragment = document.createDocumentFragment()`
   - key: options.dom_methods.na
     t: <span aria-hidden="true">🚫</span> None of the above
 
