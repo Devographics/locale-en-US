@@ -228,7 +228,7 @@ translations:
   - key: features.i18n_features
     t: Internationalization Features
   - key: features.i18n_features.question
-    t: Which of the following HTML & JS internationalization features have you used?
+    t: Which of the following internationalization features have you used?
   - key: options.i18n_features.na
     t: <span aria-hidden="true">🚫</span> None of the above
 
