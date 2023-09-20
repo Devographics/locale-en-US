@@ -262,7 +262,14 @@ translations:
     t: |
       Pain point #{index}…
 
-  # External Content
+  # Content
+
+  - key: features.external_content_elements
+    t: External Content Elements
+  - key: features.external_content_elements.question
+    t: Which of the following elements have you used?
+  - key: options.external_content_elements.na
+    t: <span aria-hidden="true">🚫</span> None of the above
 
   - key: features.privacy_security_features
     t: |
