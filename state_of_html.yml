@@ -466,6 +466,15 @@ translations:
     t: |
       Which of these app manifest fields (`<link rel="manifest">`) have you used, if any?
 
+  - key: features.native_apps_tools
+    t: Native Apps Tools
+  - key: features.native_apps_tools.question
+    t: Have you used any of these tools to build native apps?
+  - key: options.native_apps_tools.na
+    t: <span aria-hidden="true">🚫</span> I have never made native apps
+  - key: options.native_apps_tools.native_tech
+    t: Native technologies (Swift, .NET, C++, etc.)
+
   - key: features.mobile_web_apps_pain_points
     t: Native-like Web Apps Pain Points
   - key: features.mobile_web_apps_pain_points.question
