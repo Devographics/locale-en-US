@@ -372,7 +372,8 @@ translations:
   - key: options.accessibility_disabilities.learning_disabilities
     t: Learning disabilities (e.g. dyslexia, dyscalculia)
   - key: options.accessibility_disabilities.cognitive_impairments
-    aliasFor: options.disability_status.cognitive_impairments
+    t: |
+      Other cognitive impairments (such as: anxiety, ADHD, etc.)
   - key: options.accessibility_disabilities.vestibular_disorders
     t: Vestibular disorders (e.g. epilepsy)
   - key: options.accessibility_disabilities.low_vision
