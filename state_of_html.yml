@@ -88,11 +88,15 @@ translations:
     t: Input Types
   - key: features.form_input_types.question
     t: Which input types have you used?
+  - key: options.form_input_types.na
+    t: <span aria-hidden="true">🚫</span> None of the above
 
   - key: features.form_validation_features
     t: Form Validation
   - key: features.form_validation_features.question
     t: Which of the following form validation features have you used?
+  - key: options.form_validation_features.na
+    t: <span aria-hidden="true">🚫</span> None of the above
 
   - key: features.forms_pain_points
     t: Form Pain Points
@@ -149,6 +153,8 @@ translations:
   - key: options.dom_methods.document_create_document_fragment.description
     t: |
       `let fragment = document.createDocumentFragment()`
+  - key: options.dom_methods.na
+    t: <span aria-hidden="true">🚫</span> None of the above
 
   - key: features.interactivity_pain_points
     t: Interactivity Pain Points
@@ -164,8 +170,6 @@ translations:
     t: Interactivity Methods
   - key: features.interactivity_techniques.question
     t: Which of these methods do you use to add interactivity or dynamically modify HTML?
-  - key: na
-    t: <span aria-hidden="true">🚫</span> None
   - key: options.interactivity_techniques.css_for_interactivity
     t: CSS for interactivity (toggles, tabs, etc.)
   - key: options.interactivity_techniques.js_dom_libraries
@@ -176,6 +180,8 @@ translations:
     t: Plain JavaScript (no frameworks or libraries)
   - key: options.interactivity_techniques.web_components
     t: Web Components
+  - key: options.interactivity_techniques.na
+    t: <span aria-hidden="true">🚫</span> None of the above
 
   # content
 
@@ -210,6 +216,8 @@ translations:
     t: Internationalization Features
   - key: features.i18n_features.question
     t: Which of the following HTML & JS internationalization features have you used?
+  - key: options.i18n_features.na
+    t: <span aria-hidden="true">🚫</span> None of the above
 
   - key: features.content_pain_points
     t: Content Pain Points
@@ -229,6 +237,8 @@ translations:
   - key: features.privacy_security_features.question
     t: |
       Which of the following security & privacy features have you used?
+  - key: options.privacy_security_features.na
+    t: <span aria-hidden="true">🚫</span> None of the above
 
   - key: features.rel_attribute
     t: Resource Hints
@@ -264,6 +274,8 @@ translations:
   - key: options.web_components_features.is_attribute.description
     t: |
       `<button is="fancy-button">`
+  - key: options.web_components_features.na
+    t: <span aria-hidden="true">🚫</span> None of the above
 
   - key: features.using_web_components_pain_points
     t: Using Web Components Pain Points
@@ -428,11 +440,15 @@ translations:
     t: PWA Features
   - key: features.pwa_features.question
     t: Have you used any of the following PWA technologies/APIs?
+  - key: options.pwa_features.na
+    t: <span aria-hidden="true">🚫</span> None of the above
 
   - key: features.local_storage_features
     t: Local storage features
   - key: features.local_storage_features.question
     t: Have you used any of the following to store data client-side?
+  - key: options.local_storage_features.na
+    t: <span aria-hidden="true">🚫</span> None of the above
 
   - key: features.pwa_app_manifest_fields
     t: App Manifest Fields
@@ -467,12 +483,17 @@ translations:
   - key: other_tools.machine_readable_features.question
     aliasFor: features.machine_readable_features.question
 
+  - key: options.machine_readable_features.na
+    t: <span aria-hidden="true">🚫</span> None of the above
+
   - key: other_tools.blast_from_the_past
     t: Blast from the Past!
   - key: other_tools.blast_from_the_past.question
     t: Have you ever used any of the following old-school elements?
   - key: other_tools.blast_from_the_past.description
     t: Blast from the past!
+  - key: options.blast_from_the_past.na
+    t: <span aria-hidden="true">🚫</span> None of the above
 
   # Usage
 
@@ -490,7 +511,7 @@ translations:
   - key: usage.html_interoperability_features
     t: Browser Interoperability
   - key: usage.html_interoperability_features.question
-    t: Which existing HTML features or browser APIs are you unable to use because of lack of support or differences between browsers?
+    t: Which existing HTML features or browser APIs are you unable to use because of browser differences or lack of support?
   # - key: usage.html_interoperability_features.description
   #   t: |
   #     Any type of API the survey has asked about is within scope.
@@ -501,18 +522,19 @@ translations:
   - key: usage.html_functionality_features
     t: Limited Functionality
   - key: usage.html_functionality_features.question
-    t: Which existing HTML features are you unable to use for other reasons (beyond browser support)?
+    t: Which existing HTML features or browser APIs are you unable to use for other reasons (and why)?
   - key: usage.html_functionality_features.description
     t: |
       Good candidates might be existing HTML features that you often have to recreate or augment using JS.
 
-      These are often form elements, interactive elements, interactive behaviors (e.g. autocomplete, form validation, drag-and-drop, tooltips, etc).
-  - key: usage.html_functionality_features.placeholder
+      Please also specify the reason, such as lack of functionality, difficult styling, poor accessibility, etc.
+
+  - key: usage.html_functionality_features.placeholder.1
     t: |
-      ﹤foo﹥ (styling limitations, doesn't do X)
-  - key: usage.html_functionality_features.placeholder.even
+      Feature #1 (hard to style)
+  - key: usage.html_functionality_features.placeholder.2
     t: |
-      ﹤bar type="baz"﹥ (doesn't do Y, poor a11y)
+      Feature #2 (limited functionality, poor accessibility)
 
   - key: usage.what_do_you_use_html_for
     t: HTML Usage
@@ -550,6 +572,8 @@ translations:
     t: A few other developers (e.g. developers within a small team)
   - key: options.tools_for_other_developers.less_than_100
     t: Less than a hundred developers
+  - key: options.tools_for_other_developers.less_than_1000
+    t: Less than a thousand developers
   - key: options.tools_for_other_developers.more_than_100
     t: Hundreds of developers
   - key: options.tools_for_other_developers.more_than_1000
