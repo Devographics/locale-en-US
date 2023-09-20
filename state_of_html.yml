@@ -56,7 +56,7 @@ translations:
   - key: sections.mobile_web_apps.title
     t: Native-like Web Apps
   - key: sections.mobile_web_apps.description
-    t: Authoring mobile-optimized web apps.
+    t: Authoring mobile and desktop-optimized web apps.
 
   - key: sections.other_features.title
     t: Other Features
