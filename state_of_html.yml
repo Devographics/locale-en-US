@@ -209,7 +209,7 @@ translations:
   - key: features.i18n_features
     t: Internationalization Features
   - key: features.i18n_features.question
-    t: Which of the following internationalization features have you used?
+    t: Which of the following HTML & JS internationalization features have you used?
 
   - key: features.content_pain_points
     t: Content Pain Points
