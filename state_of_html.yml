@@ -119,14 +119,17 @@ translations:
     t: Which of the following DOM attribute-related methods have you used?
 
   - key: features.dom_html_features
-    t: HTML String Handling Features
+    t: HTML String-handling Features
   - key: features.dom_html_features.question
-    t: Which of the following DOM HTML string handling features have you used?
+    t: Which of the following DOM HTML string-handling features have you used?
 
   - key: features.dom_methods
     t: Element reparenting DOM Methods
+
+  - key: features.dom_moving_element_features
+    t: Element-moving DOM Methods
   - key: features.dom_moving_element_features.question
-    t: Which of the following element moving DOM methods have you used?
+    t: Which of the following element-moving DOM methods have you used?
   # - key: options.dom_methods.element_innerhtml.description
   #   t: |
   #     `element.innerHTML = rawHTML`
@@ -179,7 +182,7 @@ translations:
   - key: features.interactivity_techniques
     t: Interactivity Methods
   - key: features.interactivity_techniques.question
-    t: Which of these methods do you use to add interactivity or dynamically modify HTML?
+    t: Which of these methods have you used to add interactivity or dynamically modify HTML?
   - key: options.interactivity_techniques.css_for_interactivity
     t: CSS for interactivity (toggles, tabs, etc.)
   - key: options.interactivity_techniques.js_dom_libraries
@@ -228,6 +231,25 @@ translations:
     t: Which of the following HTML & JS internationalization features have you used?
   - key: options.i18n_features.na
     t: <span aria-hidden="true">🚫</span> None of the above
+
+  # - key: options.i18n_features.intl_datetimeformat.description
+  #   t:
+  # - key: options.i18n_features.intl_collator.description
+  #   t:
+  # - key: options.i18n_features.intl_listformat.description
+  #   t:
+  # - key: options.i18n_features.intl_numberformat.description
+  #   t:
+  # - key: options.i18n_features.intl_messageformat.description
+  #   t:
+  # - key: options.i18n_features.intl_pluralrules.description
+  #   t:
+  # - key: options.i18n_features.intl_relative_time_format.description
+  #   t:
+  # - key: options.i18n_features.intl_segmenter.description
+  #   t:
+  # - key: options.i18n_features.intl_localematcher.description
+  #   t:
 
   - key: features.content_pain_points
     t: Content Pain Points
