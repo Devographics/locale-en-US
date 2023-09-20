@@ -9,9 +9,12 @@ translations:
     t: |
       While web developers tend to focus on JavaScript and CSS, none of what we do would be even possible without HTML acting as a foundation for all of it.
 
-      And while it has long seemed like HTML wasn't evolving, things may be changing. New elements like `<selectmenu>` and `<breadcrumb>` are on the horizon, not to mention cool new features like popovers and declarative Shadow DOM.
+      And while it has long seemed like HTML wasn't evolving, things may be changing.
+      New elements like `<selectlist>` and `<model>` are on the horizon, not to mention cool new features like popovers,
+      and the swath of related browser APIs around HTML (Web Components, PWAs, etc.).
 
-      So with this survey, our goal is to fill in the gaps between the [State of JS](http://stateofjs.com/) and [State of CSS](https://stateofcss.com/) surveys, and help track the evolution of the web platform as a whole!
+      So with this survey, our goal is to fill in the gaps between the [State of JS](http://stateofjs.com/) and [State of CSS](https://stateofcss.com/) surveys,
+      and track the evolution of the web platform as a whole!
 
   - key: general.state_of_html.description
     t: The annual developer survey about the web platform
@@ -53,7 +56,7 @@ translations:
   - key: sections.mobile_web_apps.title
     t: Native-like Web Apps
   - key: sections.mobile_web_apps.description
-    t: Authoring mobile-optimized web apps.
+    t: Authoring mobile and desktop-optimized web apps.
 
   - key: sections.other_features.title
     t: Other Features
@@ -85,11 +88,15 @@ translations:
     t: Input Types
   - key: features.form_input_types.question
     t: Which input types have you used?
+  - key: options.form_input_types.na
+    t: <span aria-hidden="true">🚫</span> None of the above
 
   - key: features.form_validation_features
     t: Form Validation
   - key: features.form_validation_features.question
     t: Which of the following form validation features have you used?
+  - key: options.form_validation_features.na
+    t: <span aria-hidden="true">🚫</span> None of the above
 
   - key: features.forms_pain_points
     t: Form Pain Points
@@ -106,46 +113,61 @@ translations:
 
   # interactivity
 
+  - key: features.dom_attribute_features
+    t: DOM Attribute-related methods
+  - key: features.dom_attribute_features.question
+    t: Which of the following DOM attribute-related methods have you used?
+
+  - key: features.dom_html_features
+    t: HTML String-handling Features
+  - key: features.dom_html_features.question
+    t: Which of the following DOM HTML string-handling features have you used?
+
   - key: features.dom_methods
-    t: DOM Methods
-  - key: features.dom_methods.question
-    t: Which of the following DOM methods have you used?
-  - key: options.dom_methods.element_innerhtml.description
-    t: |
-      `element.innerHTML = rawHTML`
-  - key: options.dom_methods.element_textcontent.description
-    t: |
-      `element.textContent = text`
-  - key: options.dom_methods.element_insert_adjacent_html.description
-    t: |
-      `element.insertAdjacentHTML("beforebegin", rawHTML)`
-  - key: options.dom_methods.element_insert_adjacent_element.description
-    t: |
-      `element.insertAdjacentElement("afterend", otherElement)`
-  - key: options.dom_methods.element_append.description
-    t: |
-      `parent.append(...children)`
-  - key: options.dom_methods.element_append_child.description
-    t: |
-      `parent.appendChild(child)`
-  - key: options.dom_methods.element_before_after.description
-    t: |
-      `element.before(otherElement)`
-  - key: options.dom_methods.element_replace_with.description
-    t: |
-      `element.replaceWith(otherElement)`
-  - key: options.dom_methods.element_replace_child.description
-    t: |
-      `parent.replaceChild(newChild, oldChild)`
-  - key: options.dom_methods.element_replace_children.description
-    t: |
-      `element.replaceChildren(...newChildren)`
-  - key: options.dom_methods.element_toggle_attribute.description
-    t: |
-      `element.toggleAttribute("data-selected", isSelected)`
-  - key: options.dom_methods.document_create_document_fragment.description
-    t: |
-      `document.createDocumentFragment()`
+    t: Element reparenting DOM Methods
+
+  - key: features.dom_moving_element_features
+    t: Element-moving DOM Methods
+  - key: features.dom_moving_element_features.question
+    t: Which of the following element-moving DOM methods have you used?
+  # - key: options.dom_methods.element_innerhtml.description
+  #   t: |
+  #     `element.innerHTML = rawHTML`
+  # - key: options.dom_methods.element_textcontent.description
+  #   t: |
+  #     `element.textContent = text`
+  # - key: options.dom_methods.element_insert_adjacent_html.description
+  #   t: |
+  #     `element.insertAdjacentHTML("beforebegin", rawHTML)`
+  # - key: options.dom_methods.element_insert_adjacent_element.description
+  #   t: |
+  #     `element.insertAdjacentElement("afterend", otherElement)`
+  # - key: options.dom_methods.element_append.description
+  #   t: |
+  #     `parent.append(...children)`
+  # - key: options.dom_methods.element_append_child.description
+  #   t: |
+  #     `parent.appendChild(child)`
+  # - key: options.dom_methods.element_before_after.description
+  #   t: |
+  #     `element.before(otherElement)`
+  # - key: options.dom_methods.element_replace_with.description
+  #   t: |
+  #     Replaced the older `parent.replaceChild(el2, el1)` method.
+  # - key: options.dom_methods.element_replace_child.description
+  #   t: |
+  #     `parent.replaceChild(newChild, oldChild)`
+  # - key: options.dom_methods.element_replace_children.description
+  #   t: |
+  #     `element.replaceChildren(...newChildren)`
+  # - key: options.dom_methods.element_toggle_attribute.description
+  #   t: |
+  #     `element.toggleAttribute("data-selected", isSelected)`
+  # - key: options.dom_methods.document_create_document_fragment.description
+  #   t: |
+  #     `let fragment = document.createDocumentFragment()`
+  - key: options.dom_methods.na
+    t: <span aria-hidden="true">🚫</span> None of the above
 
   - key: features.interactivity_pain_points
     t: Interactivity Pain Points
@@ -160,9 +182,7 @@ translations:
   - key: features.interactivity_techniques
     t: Interactivity Methods
   - key: features.interactivity_techniques.question
-    t: Which of these methods do you use to add interactivity or dynamic elements to websites?
-  - key: na
-    t: 🚫 None
+    t: Which of these methods have you used to add interactivity or dynamically modify HTML?
   - key: options.interactivity_techniques.css_for_interactivity
     t: CSS for interactivity (toggles, tabs, etc.)
   - key: options.interactivity_techniques.js_dom_libraries
@@ -173,6 +193,8 @@ translations:
     t: Plain JavaScript (no frameworks or libraries)
   - key: options.interactivity_techniques.web_components
     t: Web Components
+  - key: options.interactivity_techniques.na
+    t: <span aria-hidden="true">🚫</span> None of the above
 
   # content
 
@@ -206,26 +228,50 @@ translations:
   - key: features.i18n_features
     t: Internationalization Features
   - key: features.i18n_features.question
-    t: Which of the following internationalization features have you used?
+    t: Which of the following HTML & JS internationalization features have you used?
+  - key: options.i18n_features.na
+    t: <span aria-hidden="true">🚫</span> None of the above
+
+  # - key: options.i18n_features.intl_datetimeformat.description
+  #   t:
+  # - key: options.i18n_features.intl_collator.description
+  #   t:
+  # - key: options.i18n_features.intl_listformat.description
+  #   t:
+  # - key: options.i18n_features.intl_numberformat.description
+  #   t:
+  # - key: options.i18n_features.intl_messageformat.description
+  #   t:
+  # - key: options.i18n_features.intl_pluralrules.description
+  #   t:
+  # - key: options.i18n_features.intl_relative_time_format.description
+  #   t:
+  # - key: options.i18n_features.intl_segmenter.description
+  #   t:
+  # - key: options.i18n_features.intl_localematcher.description
+  #   t:
 
   - key: features.content_pain_points
     t: Content Pain Points
   - key: features.content_pain_points.question
     t: What are your pain points around managing content in HTML?
   - key: features.content_pain_points.description
-    t: Think of multimedia, embedding (iframes, SVG, etc), machine-readable data, internationalization & localization, etc.
+    t: |
+      Think of embedding (multimedia, iframes, SVG, etc), machine-readable data, internationalization & localization, security & privacy, performance etc.
   - key: features.content_pain_points.placeholder
     t: |
       Pain point #{index}…
 
   # External Content
 
-  - key: features.script_link_attributes
+  - key: features.privacy_security_features
     t: |
-      `<script>` or `<link>` Attributes
-  - key: features.script_link_attributes.question
+      Security & Privacy Features
+  - key: features.privacy_security_features.question
     t: |
-      Which of the following `<script>` or `<link>` attributes have you used?
+      Which of the following security & privacy features have you used?
+  - key: options.privacy_security_features.na
+    t: <span aria-hidden="true">🚫</span> None of the above
 
   - key: features.rel_attribute
     t: Resource Hints
@@ -261,6 +307,8 @@ translations:
   - key: options.web_components_features.is_attribute.description
     t: |
       `<button is="fancy-button">`
+  - key: options.web_components_features.na
+    t: <span aria-hidden="true">🚫</span> None of the above
 
   - key: features.using_web_components_pain_points
     t: Using Web Components Pain Points
@@ -325,7 +373,8 @@ translations:
   - key: options.accessibility_disabilities.learning_disabilities
     t: Learning disabilities (e.g. dyslexia, dyscalculia)
   - key: options.accessibility_disabilities.cognitive_impairments
-    aliasFor: options.disability_status.cognitive_impairments
+    t: |
+      Other cognitive impairments (such as: anxiety, ADHD, etc.)
   - key: options.accessibility_disabilities.vestibular_disorders
     t: Vestibular disorders (e.g. epilepsy)
   - key: options.accessibility_disabilities.low_vision
@@ -425,17 +474,44 @@ translations:
     t: PWA Features
   - key: features.pwa_features.question
     t: Have you used any of the following PWA technologies/APIs?
+  - key: options.pwa_features.na
+    t: <span aria-hidden="true">🚫</span> None of the above
 
   - key: features.local_storage_features
     t: Local storage features
   - key: features.local_storage_features.question
     t: Have you used any of the following to store data client-side?
+  - key: options.local_storage_features.na
+    t: <span aria-hidden="true">🚫</span> None of the above
 
   - key: features.pwa_app_manifest_fields
     t: App Manifest Fields
   - key: features.pwa_app_manifest_fields.question
     t: |
       Which of these app manifest fields (`<link rel="manifest">`) have you used, if any?
+
+  - key: features.native_apps_tools
+    t: Native Apps Tools
+  - key: features.native_apps_tools.question
+    t: Have you used any of these tools to build native apps?
+  - key: features.native_apps_tools.description
+    t: Excluding scripts, command-line apps, server-side code, etc.
+  - key: options.native_apps_tools.na
+    t: <span aria-hidden="true">🚫</span> I haven't developed native apps
+  - key: options.native_apps_tools.native_languages
+    t: Native technologies
+  - key: options.native_apps_tools.native_languages.description
+    t: Objective-C, Swift, Kotlin, .NET, etc.
+  - key: options.native_apps_tools.webviews
+    t: Web app loaded via Webviews
+  - key: options.native_apps_tools.js_frameworks
+    t: JavaScript-based frameworks
+  - key: options.native_apps_tools.js_frameworks.description
+    t: React Native, Ionic, Electron, etc.
+  - key: options.native_apps_tools.other_frameworks
+    t: Non-JavaScript frameworks
+  - key: options.native_apps_tools.other_frameworks.description
+    t: Tauri, Flutter, etc.
 
   - key: features.mobile_web_apps_pain_points
     t: Native-like Web Apps Pain Points
@@ -464,33 +540,38 @@ translations:
   - key: other_tools.machine_readable_features.question
     aliasFor: features.machine_readable_features.question
 
+  - key: options.machine_readable_features.na
+    t: <span aria-hidden="true">🚫</span> None of the above
+
   - key: other_tools.blast_from_the_past
     t: Blast from the Past!
   - key: other_tools.blast_from_the_past.question
     t: Have you ever used any of the following old-school elements?
   - key: other_tools.blast_from_the_past.description
     t: Blast from the past!
+  - key: options.blast_from_the_past.na
+    t: <span aria-hidden="true">🚫</span> None of the above
 
   # Usage
 
-  - key: usage.html_existing_features
-    t: Unusable HTML Features
-  - key: usage.html_existing_features.question
-    t: Which existing HTML features are you unable to use?
-  - key: usage.html_existing_features.description
-    t: |
-      Existing HTML features that you find yourself recreating using custom components.
-  - key: usage.html_existing_features.placeholder
-    t: |
-      ﹤foo type="bar"﹥ (browser incompatibilities, styling limitations, doesn't do X)
+  # - key: usage.html_existing_features
+  #   t: Unusable HTML Features
+  # - key: usage.html_existing_features.question
+  #   t: Which existing HTML features are you unable to use?
+  # - key: usage.html_existing_features.description
+  #   t: |
+  #     Existing HTML features that you find yourself recreating using custom components.
+  # - key: usage.html_existing_features.placeholder
+  #   t: |
+  #     ﹤foo type="bar"﹥ (browser incompatibilities, styling limitations, doesn't do X)
 
   - key: usage.html_interoperability_features
     t: Browser Interoperability
   - key: usage.html_interoperability_features.question
-    t: Which existing HTML features or browser APIs are you unable to use because of lack of support or differences between browsers?
-  - key: usage.html_interoperability_features.description
-    t: |
-      Any type of API the survey has asked about is within scope.
+    t: Which existing HTML features or browser APIs are you unable to use because of browser differences or lack of support?
+  # - key: usage.html_interoperability_features.description
+  #   t: |
+  #     Any type of API the survey has asked about is within scope.
   - key: usage.html_interoperability_features.placeholder
     t: |
       Feature #{index}
@@ -498,15 +579,19 @@ translations:
   - key: usage.html_functionality_features
     t: Limited Functionality
   - key: usage.html_functionality_features.question
-    t: Which existing HTML features are you unable to use for other reasons (beyond browser support)?
+    t: Which existing HTML features or browser APIs are you unable to use for other reasons (and why)?
   - key: usage.html_functionality_features.description
     t: |
       Good candidates might be existing HTML features that you often have to recreate or augment using JS.
 
-      These are often form elements, interactive elements, interactive behaviors (e.g. autocomplete, form validation, drag-and-drop, tooltips, etc).
-  - key: usage.html_functionality_features.placeholder
+      Please also specify the reason, such as lack of functionality, difficult styling, poor accessibility, etc.
+
+  - key: usage.html_functionality_features.placeholder.1
     t: |
-      ﹤foo type="bar"﹥ (doesn't do X, styling limitations, a11y)
+      Feature #1 (hard to style)
+  - key: usage.html_functionality_features.placeholder.2
+    t: |
+      Feature #2 (limited functionality, poor accessibility)
 
   - key: usage.what_do_you_use_html_for
     t: HTML Usage
@@ -544,6 +629,8 @@ translations:
     t: A few other developers (e.g. developers within a small team)
   - key: options.tools_for_other_developers.less_than_100
     t: Less than a hundred developers
+  - key: options.tools_for_other_developers.less_than_1000
+    t: Less than a thousand developers
   - key: options.tools_for_other_developers.more_than_100
     t: Hundreds of developers
   - key: options.tools_for_other_developers.more_than_1000
@@ -784,6 +871,6 @@ translations:
   - key: features.features_intro_html
     t: |
       Welcome to the survey! These first couple sections are all about figuring out
-      which **features** of HTML you know about.
+      which **features** of HTML (and related APIs) you know about.
 
       By the way, if you want to learn more about any item in the survey, you can add it to your reading list by clicking its little "+" icon!

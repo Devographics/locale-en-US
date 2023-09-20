@@ -175,6 +175,8 @@ translations:
     t: Leave a Comment
   - key: experience.tell_us_more
     t: "You answered “{response}”. Tell us more about your choice:"
+  - key: experience.tell_us_more_generic
+    t: "Tell us more about your answer:"
   - key: experience.tell_us_more_no_value
     t: "You didn't pick any response. Tell us why:"
 
