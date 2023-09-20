@@ -471,11 +471,21 @@ translations:
   - key: features.native_apps_tools.question
     t: Have you used any of these tools to build native apps?
   - key: options.native_apps_tools.na
-    t: <span aria-hidden="true">🚫</span> I have never made native apps
-  - key: options.native_apps_tools.native_tech
-    t: Native technologies (Objective-C, Swift, Kotlin, etc.)
-  - key: options.native_apps_tools.webview
-    t: Webviews
+    t: <span aria-hidden="true">🚫</span> I haven't developed native apps
+  - key: options.native_apps_tools.native_languages
+    t: Native technologies
+  - key: options.native_apps_tools.native_languages.description
+    t: Objective-C, Swift, Kotlin, etc.
+  - key: options.native_apps_tools.webviews
+    t: Web app loaded via Webviews
+  - key: options.native_apps_tools.js_frameworks
+    t: JavaScript-based frameworks
+  - key: options.native_apps_tools.js_frameworks.description
+    t: React Native, Ionic, Electron, etc.
+  - key: options.native_apps_tools.other_frameworks
+    t: Non-JavaScript frameworks
+  - key: options.native_apps_tools.other_frameworks.description
+    t: Tauri, Flutter, etc.
 
   - key: features.mobile_web_apps_pain_points
     t: Native-like Web Apps Pain Points
