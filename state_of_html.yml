@@ -499,7 +499,7 @@ translations:
   - key: options.native_apps_tools.native_languages
     t: Native technologies
   - key: options.native_apps_tools.native_languages.description
-    t: Objective-C, Swift, Kotlin, C#, etc.
+    t: Objective-C, Swift, Kotlin, .NET, etc.
   - key: options.native_apps_tools.webviews
     t: Web app loaded via Webviews
   - key: options.native_apps_tools.js_frameworks
