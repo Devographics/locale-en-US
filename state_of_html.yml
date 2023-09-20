@@ -473,7 +473,9 @@ translations:
   - key: options.native_apps_tools.na
     t: <span aria-hidden="true">🚫</span> I have never made native apps
   - key: options.native_apps_tools.native_tech
-    t: Native technologies (Swift, .NET, C++, etc.)
+    t: Native technologies (Objective-C, Swift, Kotlin, etc.)
+  - key: options.native_apps_tools.webview
+    t: Webviews
 
   - key: features.mobile_web_apps_pain_points
     t: Native-like Web Apps Pain Points
