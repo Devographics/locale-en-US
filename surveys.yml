@@ -63,6 +63,9 @@ translations:
   - key: textlist.placeholder
     t: Item {index}…
 
+  - key: feature.unimplemented
+    t: Not yet implemented
+
   ###########################################################################
   # Errors & Messages
   ###########################################################################
