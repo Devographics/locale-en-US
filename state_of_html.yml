@@ -364,20 +364,41 @@ translations:
     t: What kind of user disabilities do you account for when making websites?
 
   - key: options.accessibility_disabilities.hearing_impairments
-    aliasFor: options.disability_status.hearing_impairments
+    t: Hearing impairments
+  - key: options.accessibility_disabilities.hearing_impairments.description
+    t: Deafness, tinnitus, etc.
+
   - key: options.accessibility_disabilities.mobility_impairments
-    aliasFor: options.disability_status.mobility_impairments
+    t: Mobility impairments
+  - key: options.accessibility_disabilities.mobility_impairments.description
+    t: Arthritis, carpal tunnel, etc.
+
   - key: options.accessibility_disabilities.learning_disabilities
-    t: Learning disabilities (e.g. dyslexia, dyscalculia)
+    t: Learning disabilities
+  - key: options.accessibility_disabilities.learning_disabilities.description
+    t: Dyslexia, dyscalculia, etc.
+
   - key: options.accessibility_disabilities.cognitive_impairments
     t: |
-      Other cognitive impairments (such as: anxiety, ADHD, etc.)
+      Other cognitive impairments
+  - key: options.accessibility_disabilities.cognitive_impairments.description
+    t: |
+      Anxiety, Autism, OCD, ADHD, etc.
+
   - key: options.accessibility_disabilities.vestibular_disorders
-    t: Vestibular disorders (e.g. epilepsy)
+    t: Vestibular disorders
+  - key: options.accessibility_disabilities.vestibular_disorders.description
+    t: Epilepsy, vertigo, etc.
+
   - key: options.accessibility_disabilities.low_vision
-    t: Low vision (including blindness)
+    t: Low vision
+  - key: options.accessibility_disabilities.low_vision.description
+    t: Blindness, high myopia, etc.
+
   - key: options.accessibility_disabilities.atypical_vision
-    t: Atypical color vision (”color blindness”)
+    t: Atypical color vision
+  - key: options.accessibility_disabilities.atypical_vision.description
+    t: Color blindness
 
   - key: features.accessibility_screenreaders
     t: Screen Readers
