@@ -28,7 +28,7 @@ translations:
 
       In addition to the data collected through a survey's questions, we collect your device, browser, OS, browser version, and referrer.
 
-      Note that all questions are entirely optional, and we never link any identifiable information (such as email addresses) to your survey answers. 
+      Note that all questions are entirely optional, and we never link any identifiable information (such as email addresses) to your survey answers.
 
       ### 2. Email Collection
 
@@ -39,10 +39,10 @@ translations:
 
       2. Contact you once survey results are available, as well as when we launch future editions of a survey and for infrequent announcements. You can unsubscribe from our mailing list at any time, and your email is discarded from our records once it is sent to our email newsletter provider.
 
-      3. Send you a recap list of features or tools you want to learn more about. We will discard your address once the email has been sent out through our transactional email provider. 
+      3. Send you a recap list of features or tools you want to learn more about. We will discard your address once the email has been sent out through our transactional email provider.
 
 
-      When we do collect your email address, it is never linked to your responses for a survey, or to your user account. 
+      When we do collect your email address, it is never linked to your responses for a survey, or to your user account.
 
       ### 3. Cookies
 
@@ -216,7 +216,7 @@ translations:
 
   - key: readinglist.empty
     t: >
-      You don't have any items in your reading list. 
+      You don't have any items in your reading list.
       Try going back to the survey and adding features or libraries you'd like
       to learn more about using the "+" button.
 
@@ -261,7 +261,7 @@ translations:
   - key: general.js2020.survey_intro
     t: |
       2020 has been a tough year for everyone, one that makes worrying about the
-      latest JavaScript frameworks seem pretty futile in comparison. 
+      latest JavaScript frameworks seem pretty futile in comparison.
 
       Still, the world has to move on, and so does JavaScript. And once again, with your help
       we'll try to build a comprehensive picture of the ecosystem to find out a little bit more
@@ -269,58 +269,58 @@ translations:
 
   - key: general.css2021.survey_intro
     t: |
-      Hey CSS, what have you been up to lately? Oh really, `@container`? Oh and 
+      Hey CSS, what have you been up to lately? Oh really, `@container`? Oh and
       intrinsic sizing? And `@property` too?! Wow, you've been busy!
 
       Even though the pandemic kept on making everybody's lives harder throughout 2021, somehow
-      dedicated contributors around the world managed to keep CSS moving forward. 
+      dedicated contributors around the world managed to keep CSS moving forward.
       And so once more it's time to survey the CSS ecosystem and figure out
       where this is all going. And maybe learn about a few new things while you're at it!
 
   - key: general.js2021.survey_intro
     t: |
-      First the 2020 Olympics got pushed back to 2021, 
+      First the 2020 Olympics got pushed back to 2021,
       and now the 2021 State of JavaScript survey is happening now, in 2022!
 
-      It's true: between work, family, and and all the turmoil in the world, 
+      It's true: between work, family, and and all the turmoil in the world,
       some things got disrupted a little.
 
-      But while the year may be off-by-one, we hope the data provided by the 
-      survey itself will be just as informative and insightful as ever. 
+      But while the year may be off-by-one, we hope the data provided by the
+      survey itself will be just as informative and insightful as ever.
       And don't worry, there will be another survey towards the end of this year to set things straight again!
 
   - key: general.graphql2022.survey_intro
     t: |
-      When GraphQL was first introduced it offered a radically new way to build APIs, with more control, more granularity, and more flexibility. 
+      When GraphQL was first introduced it offered a radically new way to build APIs, with more control, more granularity, and more flexibility.
 
-      But that flexibility came at a price in the form of extra complexity, and a crop of frameworks, libraries, and services quickly appeared to help define better patterns and workflows. 
+      But that flexibility came at a price in the form of extra complexity, and a crop of frameworks, libraries, and services quickly appeared to help define better patterns and workflows.
 
       Now, for the first time ever we're surveying the GraphQL community to figure out which of these many tools are the most popular, and which features are actually being used. With your help, let's see what GraphQL has been up to in 2022!
 
   - key: general.css2022.survey_intro
     t: |
-      CSS keeps progressing at an unprecedented rate. Luckily this year we got help from someone at the forefront of all these changes: [Lea Verou](https://lea.verou.me/) took the lead on selecting this year's questions, with a special focus on highlighting new and upcoming CSS features. 
+      CSS keeps progressing at an unprecedented rate. Luckily this year we got help from someone at the forefront of all these changes: [Lea Verou](https://lea.verou.me/) took the lead on selecting this year's questions, with a special focus on highlighting new and upcoming CSS features.
 
-      What's more, the survey results will also help browser vendors prioritize their roadmaps and work towards better compatibility between browsers. 
+      What's more, the survey results will also help browser vendors prioritize their roadmaps and work towards better compatibility between browsers.
 
       With all this out of the way, let's see how CSS evolved in 2022!
 
   - key: general.js2022.survey_intro
     t: |
-      For the first time in a while, it feels like the status quo of the JavaScript ecosystem is being questioned. 
+      For the first time in a while, it feels like the status quo of the JavaScript ecosystem is being questioned.
 
       Faster bundling with Vite, island architecture with Astro, resumability with Qwik… New entrants are challenging the old guard, and the result is a lot more excitement, but also
-      a lot more uncertainty. 
+      a lot more uncertainty.
 
       So once more, let's try and figure out together where JavaScript is going, in 2022 and beyond.
 
   - key: general.css2023.survey_intro
     t: |
-      To help you keep up with `:has()`, `@container`, and all the other new CSS features, we're introducing a new feature of our own this year: the **Reading List**. 
+      To help you keep up with `:has()`, `@container`, and all the other new CSS features, we're introducing a new feature of our own this year: the **Reading List**.
 
-      As you take the survey, you'll be able to bookmark any feature you want and learn more about it after you submit your answers. 
+      As you take the survey, you'll be able to bookmark any feature you want and learn more about it after you submit your answers.
 
-      This year [Chen Hui Jing](https://chenhuijing.com/) took the lead of the survey design process, building on the work done by [Lea Verou](https://lea.verou.me/) last year. And as usual, your feedback here will play a key role in helping browser vendors prioritize their roadmaps and work towards better compatibility between browsers. 
+      This year [Chen Hui Jing](https://chenhuijing.com/) took the lead of the survey design process, building on the work done by [Lea Verou](https://lea.verou.me/) last year. And as usual, your feedback here will play a key role in helping browser vendors prioritize their roadmaps and work towards better compatibility between browsers.
 
       With all this out of the way, let's see how CSS has evolved so far in 2023!
 
@@ -342,21 +342,21 @@ translations:
     t: How will this data be used?
   - key: faq.data_used_css.description
     t: >
-      All data collected will be released openly for any developer or company to consult. 
+      All data collected will be released openly for any developer or company to consult.
       Browser vendors also [use this data](https://web.dev/interop-2023/) to prioritize focus areas and inform their roadmaps.
 
   - key: faq.who_should_take_survey_css
     t: Who should take this survey?
   - key: faq.who_should_take_survey_css.description
     t: >
-      This is an open survey for anybody who writes CSS, whether regularly 
+      This is an open survey for anybody who writes CSS, whether regularly
       or occasionally, as part of their job, as a student, or just for fun!
 
   - key: faq.survey_goals_css
     t: What is the survey's goal?
   - key: faq.survey_goals_css.description
     t: >
-      The survey's goal is to track the evolution of upcoming features and libraries, 
+      The survey's goal is to track the evolution of upcoming features and libraries,
       and help developers decide which new technologies to focus on.
 
   # CSS 2022
@@ -387,7 +387,7 @@ translations:
     t: How long will answering the survey take?
   - key: faq.how_long_will_survey_take_css2023.description
     t: >
-      Depending on how many questions you answer (all questions can be skipped), 
+      Depending on how many questions you answer (all questions can be skipped),
       filling out the survey should take around 10-15 minutes.
 
   - key: faq.learn_more_css2023
@@ -399,7 +399,7 @@ translations:
     t: How was this survey designed?
   - key: faq.survey_design_css2023.description
     t: >
-      This year, thanks to a grant from Google's [UI Fund](https://web.dev/ui-fund/), 
+      This year, thanks to a grant from Google's [UI Fund](https://web.dev/ui-fund/),
       [Chen Hui Jing](https://chenhuijing.com/) was able to help manage the survey's [open design process](https://github.com/Devographics/surveys/issues/84).
 
   - key: faq.results_released_css2023
@@ -435,7 +435,7 @@ translations:
     t: How will this data be used?
   - key: faq.data_used_html2023.description
     t: >
-      All data collected will be released openly for any developer or company to consult. 
+      All data collected will be released openly for any developer or company to consult.
       Browser vendors also [use this data](https://web.dev/interop-2023/) to prioritize focus areas and inform their roadmaps.
 
   - key: faq.survey_goals_html2023
@@ -454,7 +454,7 @@ translations:
     t: How long will answering the survey take?
   - key: faq.how_long_will_survey_take_html2023.description
     t: >
-      Depending on how many questions you answer (all questions are optional), 
+      Depending on how many questions you answer (all questions are optional),
       filling out the survey should take around 15-20 minutes.
 
   - key: faq.learn_more_html2023
