@@ -367,8 +367,6 @@ translations:
   - key: features.filter_effects
     t: CSS Filter Effects
 
-  - key: features.intrinsic_sizing
-    t: Intrinsic Sizing
   - key: features.linear_easing_function
     t: "`linear()` Easing Function"
   - key: features.blend_modes

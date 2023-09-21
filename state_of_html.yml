@@ -345,16 +345,6 @@ translations:
   - key: features.accessibility_features.question
     t: Which of these accessibility features have you used?
 
-  - key: features.accessibility_techniques.question
-    t: Accessibility Techniques
-  - key: features.accessibility_techniques.question
-    t: Which of these techniques are part of your regular accessibility strategy?
-
-  - key: features.accessibility_screenreaders
-    t: Screen readers
-  - key: features.accessibility_screenreaders.question
-    t: Which screen readers do you test in?
-
   - key: features.accessibility_tools
     t: Accessibility Tools
   - key: features.accessibility_tools.question
@@ -393,11 +383,6 @@ translations:
     t: Screen Readers
   - key: features.accessibility_screenreaders.question
     t: Which screen readers do you use for accessibility testing?
-
-  - key: features.accessibility_techniques
-    t: Other Accessibility Techniques
-  - key: features.accessibility_strategies.question
-    t: What other techniques are part of your regular accessibility strategy?
 
   - key: features.accessibility_techniques
     t: Other Accessibility Techniques

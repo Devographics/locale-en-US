@@ -348,7 +348,7 @@ translations:
     t: An automatic reactivity compiler for React
   - key: options.new_features.new_docs
     t: New Documentation
-  - key: options.new_features.new_docs
+  - key: options.new_features.new_docs.description
     t: React's updated documentation site.
   - key: options.new_features.offscreen_rendering
     t: Offscreen Rendering

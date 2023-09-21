@@ -917,8 +917,6 @@ translations:
     t: Blogs
   - key: options.first_steps.view_source
     t: View Source
-  - key: options.first_steps.documentation
-    t: Documentation
   - key: options.first_steps.trial_and_error
     t: Trial & Error
   - key: options.first_steps.forums

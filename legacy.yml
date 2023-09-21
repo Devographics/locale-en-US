@@ -18,7 +18,7 @@ translations:
       - Save your session as you go
 
       - Notify you when results are live
-  - key: general.survey_closed
+  - key: general.survey_closed_detailed
     t: >
       Sorry, the survey is now closed! You can still review your data but you won't be able to modify it.
   - key: general.survey_read_only
