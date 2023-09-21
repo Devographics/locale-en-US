@@ -411,7 +411,7 @@ translations:
 
   - key: features.accessibility_techniques
     t: Other Accessibility Techniques
-  - key: features.accessibility_strategies.question
+  - key: features.accessibility_techniques.question
     t: What other techniques are part of your regular accessibility strategy?
 
   - key: options.accessibility_techniques.tabindex
