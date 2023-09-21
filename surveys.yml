@@ -64,7 +64,7 @@ translations:
     t: Item {index}…
 
   - key: feature.unimplemented
-    t: No browser implementation
+    t: No browser implementation yet
 
   ###########################################################################
   # Errors & Messages
