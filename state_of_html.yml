@@ -7,14 +7,18 @@ translations:
 
   - key: general.state_of_html.intro
     t: |
-      While web developers tend to focus on JavaScript and CSS, none of what we do would be even possible without HTML acting as a foundation for all of it.
+      While web developers tend to focus on JavaScript and CSS, none of what we do would be possible without HTML acting as the foundation.
 
-      And while it has long seemed like HTML wasn't evolving, things may be changing.
-      New elements like `<selectlist>` and `<model>` are on the horizon, not to mention cool new features like popovers,
-      and the swath of related browser APIs around HTML (Web Components, PWAs, etc.).
+      It has long seemed like HTML wasn't evolving, but things may be changing.
+      New elements like `<selectlist>` are on the horizon, cool new features like popovers,
+      and a swath of related browser APIs (Web Components, PWAs, etc.).
 
-      So with this survey, our goal is to fill in the gaps between the [State of JS](http://stateofjs.com/) and [State of CSS](https://stateofcss.com/) surveys,
-      and track the evolution of the web platform as a whole!
+      This year, [Lea Verou](https://lea.verou.me/) took on the formidable task of leading the design of this brand new survey, from content to UX and beyond.
+
+      Building on the success of [State of JS](http://stateofjs.com/) and [State of CSS](https://stateofcss.com/), we introduce State of HTML;
+      the last missing piece that completes our web platform trilogy, so we can track the evolution of the web platform as a whole.
+      As usual, responses here help browser vendors prioritize their roadmaps and work towards better compatibility,
+      so investing time in thoughtfully answering can come back to you tenfold.
 
   - key: general.state_of_html.description
     t: The annual developer survey about the web platform
