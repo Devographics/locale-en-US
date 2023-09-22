@@ -64,10 +64,10 @@ translations:
     t: Item {index}…
 
   - key: feature.unimplemented
-    t: No browser implementation
+    t: No browser support
 
   - key: feature.unimplemented.description
-    t: This feature has not been implemented in browsers yet. You can still select “Used it” if you have used it via polyfills, transpilers, or other tools.
+    t: This feature has not yet been implemented in browsers. You can still select “Used it” if you have used it via polyfills, transpilers, or other tools.
 
   ###########################################################################
   # Errors & Messages
