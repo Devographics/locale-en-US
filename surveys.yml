@@ -67,9 +67,7 @@ translations:
     t: No browser implementation
 
   - key: feature.unimplemented.description
-    t: |
-      This feature has not been implemented in browsers yet.
-      You can still select “Used it” if you have used it via polyfills, transpilers, or other tools.
+    t: This feature has not been implemented in browsers yet. You can still select “Used it” if you have used it via polyfills, transpilers, or other tools.
 
   ###########################################################################
   # Errors & Messages
