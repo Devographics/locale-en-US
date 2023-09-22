@@ -26,8 +26,9 @@ translations:
       You are currently viewing this survey in read-only mode.
   - key: general.survey_preview
     t: >
-      This survey is in preview mode. Its questions are subject to change, and all
-      inputted data will be deleted when the actual survey starts.
+      This survey is in **preview mode**. Its questions are subject to change, and any data you input now **will be deleted** when the survey actually starts.
+  - key: general.survey_feedback
+    t: Leave feedback
 
   - key: general.survey_read_only_back
     t: >
@@ -1388,6 +1389,11 @@ translations:
     t: Additional surveys not mentioned above
   - key: options.other_surveys.na
     t: 🚫 None
+
+  - key: user_info.other_surveys
+    aliasFor: resources.other_surveys
+  - key: user_info.other_surveys.question
+    aliasFor: resources.other_surveys.description
 
   # video creators
   - key: resources.video_creators

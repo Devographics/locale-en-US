@@ -66,6 +66,18 @@ translations:
   - key: feature.unimplemented
     t: No browser implementation yet
 
+  - key: general.skip_question
+    t: Skip
+
+  - key: general.unskip_question
+    t: Answer Question
+
+  - key: general.skip_question.description
+    t: Skip question and mark it as completed
+
+  - key: general.unskip_question.description
+    t: Unskip question and answer it
+
   ###########################################################################
   # Errors & Messages
   ###########################################################################
