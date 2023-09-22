@@ -1388,6 +1388,9 @@ translations:
     t: Additional surveys not mentioned above
   - key: options.other_surveys.na
     t: 🚫 None
+    # TODO: temporary fix, this should not be needed in the first place
+  - key: user_info.other_surveys.question
+    t: Which other developer surveys do you participate in?
 
   # video creators
   - key: resources.video_creators
