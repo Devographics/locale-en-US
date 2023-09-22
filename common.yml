@@ -136,7 +136,8 @@ translations:
 
   # navigation
   - key: general.table_of_contents
-    t: Table of Contents
+    t: >
+     {sectionCount} sections ({completion}% completed)
   - key: general.all_questions_optional
     t: >
       Note: all questions are optional, reaching 100% completion is not required.
