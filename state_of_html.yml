@@ -457,7 +457,7 @@ translations:
     t: Form Control Labels
   - key: options.accessibility_techniques.form_control_label.description
     t: |
-      Ensuring every form control has a label (or `aria-label`, etc.).
+      Ensuring every form control has a `<label>` (or `aria-label`, etc.).
   - key: options.accessibility_techniques.visible_focus
     t: Visible Focus Ring
   - key: options.accessibility_techniques.visible_focus.description
