@@ -187,8 +187,13 @@ translations:
       of all respondents.
   - key: thanks.score_explanation_no_ranking
     t: >
-      You’ve heard or used <span class="score-number score-number-known">{known}</span> out of
-      <span class="score-number score-number-total">{total}</span> features mentioned in the survey.
+      Of the {total} features mentioned in the survey,
+      you have used {usage_count}&nbsp;({usage_score})
+      and heard of {awareness_count}&nbsp;({awareness_score}) more.
+      Well done!
+  - key: thanks.score_awareness_explanation
+    t: >
+      For fairness, this percentage is calculated over only the {awareness_total} features you could express you knew
   - key: thanks.share_on_twitter
     t: Share on Twitter
   - key: thanks.share_score_message
@@ -356,6 +361,14 @@ translations:
     t: Heard of it
   - key: options.features.used.label.short
     t: Used it
+
+  # features (no emoji, x-short versions)
+  - key: options.features.never_heard.label.xshort
+    t: Unknown
+  - key: options.features.heard.label.xshort
+    t: Heard
+  - key: options.features.used.label.xshort
+    t: Used
 
   # patterns
   - key: options.patterns.use_never
