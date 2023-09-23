@@ -179,8 +179,8 @@ translations:
     t: What are your pain points around dynamic HTML changes?
   - key: features.interactivity_pain_points.description
     t: |
-      Browser incompatibilities, missing features, and other problems you face
-      around interactive elements and behaviors (except forms), DOM manipulation, and related APIs.
+      Browser incompatibilities or lack of support, missing features, and other problems you face
+      around interactive elements and behaviors (except forms), DOM manipulation, events, and related APIs.
 
   - key: features.interactivity_pain_points.placeholder
     t: |
