@@ -185,15 +185,22 @@ translations:
       <span class="score-number score-number-total">{total}</span> features mentioned in the survey, which
       puts you in the top <span class="score-number score-number-ranking">{knowledgeRankingFromTop}%</span>
       of all respondents.
-  - key: thanks.score_explanation_no_ranking
+  - key: thanks.score_statistics
     t: >
-      You’ve heard or used <span class="score-number score-number-known">{known}</span> out of
-      <span class="score-number score-number-total">{total}</span> features mentioned in the survey.
+      Of the {total} features mentioned in the survey,
+      you have used {usage_count} and heard of {awareness_count} more.
+      Well done!
+  - key: thanks.points
+    t: >
+      pts.
+  - key: thanks.score_awareness_explanation
+    t: >
+      For fairness, this percentage is calculated over only the {awareness_total} features you could express you knew
   - key: thanks.share_on_twitter
     t: Share on Twitter
   - key: thanks.share_score_message
     t: >
-      I got a {score}% knowledge score on this year's #{hashtag} survey! Take the survey here: {shareUrl}
+      I got a {score} knowledge score on this year's #{hashtag} survey! Take the survey here: {shareUrl}
   # share
   - key: general.share_subject
     t: >
