@@ -364,14 +364,6 @@ translations:
   - key: options.features.used.label.short
     t: Used it
 
-  # features (no emoji, x-short versions)
-  - key: options.features.never_heard.label.xshort
-    t: Unknown
-  - key: options.features.heard.label.xshort
-    t: Heard
-  - key: options.features.used.label.xshort
-    t: Used
-
   # patterns
   - key: options.patterns.use_never
     t: Almost always avoid
