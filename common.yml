@@ -200,7 +200,9 @@ translations:
     t: Share on Twitter
   - key: thanks.share_score_message
     t: >
-      I got a {score} knowledge score on this year's #{hashtag} survey! Take the survey here: {shareUrl}
+      I got a {score} pts knowledge score on this year’s #{hashtag} survey!
+      I have used {usage_count} features, and knew {awareness_count} more.
+      Can you beat my score? {shareUrl}
   # share
   - key: general.share_subject
     t: >
