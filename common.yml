@@ -179,13 +179,13 @@ translations:
     t: Features Score
   - key: thanks.quiz_score
     t: Quiz Score
-  - key: thanks.score_explanation
-    t: >
-      You’ve heard or used <span class="score-number score-number-known">{known}</span> out of
-      <span class="score-number score-number-total">{total}</span> features mentioned in the survey, which
-      puts you in the top <span class="score-number score-number-ranking">{knowledgeRankingFromTop}%</span>
-      of all respondents.
   - key: thanks.score_statistics
+    t: >
+      Of the {total} features mentioned in the survey,
+      you have used {usage_count} and heard of {awareness_count} more,
+      which puts you in the top {knowledgeRankingFromTop} of all respondents.
+      Well done!
+  - key: thanks.score_statistics_noranking
     t: >
       Of the {total} features mentioned in the survey,
       you have used {usage_count} and heard of {awareness_count} more.
