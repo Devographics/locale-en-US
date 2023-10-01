@@ -201,7 +201,8 @@ translations:
   - key: thanks.share_score_message
     t: >
       I got a {score} pts knowledge score on this year’s #{hashtag} survey!
-      I have used {usage_count} features, and knew {awareness_count} more.
+      I have used {usage_count} features, and knew {awareness_count} more,
+      placing me in the top {rank}% of all respondents.
       Can you beat my score? {shareUrl}
   # share
   - key: general.share_subject
