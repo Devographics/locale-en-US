@@ -138,7 +138,7 @@ translations:
   # navigation
   - key: general.table_of_contents
     t: >
-     {sectionCount} sections ({completion}% completed)
+      {sectionCount} sections ({completion}% completed)
   - key: general.all_questions_optional
     t: >
       Note: all questions are optional, reaching 100% completion is not required.
@@ -156,6 +156,8 @@ translations:
   # thanks
   - key: general.back
     t: Back
+  - key: general.back_to_survey
+    t: Back to survey
   - key: general.thanks
     t: >
       Thanks for filling out the survey! Your data is saved.

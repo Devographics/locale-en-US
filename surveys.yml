@@ -4,6 +4,11 @@ translations:
   # General
   ###########################################################################
 
+  - key: general.title
+    t: Devographics Surveys
+  - key: general.description
+    t: The State of JavaScript, State of CSS, State of HTML, and other developer surveys.
+
   - key: general.no_preview_surveys
     t: No surveys to preview
   - key: general.global_nav
@@ -64,10 +69,7 @@ translations:
     t: Item {index}…
 
   - key: feature.unimplemented
-    t: No browser support
-
-  - key: feature.unimplemented.description
-    t: This feature has not yet been implemented in browsers. You can still select “Used it” if you have used it via polyfills, transpilers, or other tools.
+    t: No browser implementation yet
 
   - key: general.skip_question
     t: Skip
@@ -80,6 +82,26 @@ translations:
 
   - key: general.unskip_question.description
     t: Unskip question and answer it
+
+  - key: years.less_than_one_year
+    t: Less than one year
+
+  - key: years.years
+    t: years
+
+  - key: likert.option.0
+    t: Very Unhappy
+  - key: likert.option.1
+    t: Unhappy
+  - key: likert.option.2
+    t: Neutral
+  - key: likert.option.3
+    t: Happy
+  - key: likert.option.4
+    t: Very Happy
+
+  - key: general.numeric_input.invalid_input
+    t: Please make sure you enter a valid number.
 
   ###########################################################################
   # Errors & Messages
