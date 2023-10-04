@@ -127,6 +127,9 @@ translations:
     t: Please enter your email
   - key: accounts.magic_link.success
     t: Check your inbox! We sent you a magic link, just click it to confirm your account and log in.
+    # Open known mail provider directly in browser with the right search params
+  - key: accounts.magic_link.browser
+    t: <a href="{link}">"Click to open your inbox.</a>.
 
   ###########################################################################
   # FAQ
