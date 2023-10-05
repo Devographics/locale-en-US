@@ -4,8 +4,9 @@ translations:
   ###########################################################################
   # General
   ###########################################################################
-
+  # Intro for stateofhtml.com
   - key: general.state_of_html.intro
+    # aliasFor: general.html2023.survey_intro # Can we do that?
     t: |
       While web developers tend to focus on JavaScript and CSS, none of what we do would be possible without HTML acting as the foundation.
 
@@ -15,10 +16,17 @@ translations:
 
       This year, [Lea Verou](https://lea.verou.me/) took on the formidable task of leading the design of this brand new survey, from content to UX and beyond.
 
-      Building on the success of [State of JS](http://stateofjs.com/) and [State of CSS](https://stateofcss.com/), we introduce State of HTML;
-      the last missing piece that completes our web platform trilogy, so we can track the evolution of the web platform as a whole.
-      As usual, responses here help browser vendors prioritize their roadmaps and work towards better compatibility,
-      so investing time in thoughtfully answering can come back to you tenfold.
+      Building on the success of [State of JS](http://stateofjs.com/) and [State of CSS](https://stateofcss.com/), we introduce **State of HTML**;
+      the last missing piece that completes the trilogy, so we can track the evolution of the web platform as a whole.
+
+      Benefits to you:
+      - Survey results are **used by browsers** and standards groups **for roadmap prioritization**.
+      Your responses can help get features you care about implemented, browser incompatibilities being prioritized, and gaps in the platform being addressed.
+      - Learn about new and upcoming features; add features to your reading list and get a list of resources at the end!
+      - Get a personalized knowledge score and see how you compare to other respondents
+
+      The survey will be open for 3 weeks, but responses entered **within the first 9 days (until October 1st)** will have a much higher impact on the Web,
+      as preliminary data will be used for certain prioritization efforts that have deadlines before then.
 
   - key: general.state_of_html.description
     t: The annual developer survey about the web platform
