@@ -773,6 +773,9 @@ translations:
   - key: charts.facet_responses
     t: "{count} responses"
 
+  - key: charts.freeform_data
+    t: (freeform answers)
+
   - key: charts.axis_legends.years_of_experience
     t: Years of Experience
   - key: charts.axis_legends.yearly_salary
@@ -880,10 +883,20 @@ translations:
   - key: charts.no_answer.short
     t: No Answer
 
+  - key: charts.no_match
+    t: Other Answers
+  - key: charts.no_match.short
+    t: Other Answers
+
+  - key: charts.cutoff_answers
+    t: Other Answers
+  - key: charts.cutoff_answers.short
+    t: Other Answers
+
   - key: charts.other_answers
-    t: Others
+    t: Other Answers
   - key: charts.other_answers.short
-    t: Others
+    t: Other Answers
 
   - key: charts.tick.links
     t: Links

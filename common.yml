@@ -847,6 +847,17 @@ translations:
   - key: options.industry_sector.unemployed
     t: Unemployed
 
+  - key: options.industry_sector.recruiting
+    t: Recruiting
+  - key: options.industry_sector.agency
+    t: Agency
+  - key: options.industry_sector.business
+    t: Business
+  - key: options.industry_sector.communication
+    t: Comunication
+  - key: options.industry_sector.security
+    t: Security
+
   # tool evaluation
   - key: options.tool_evaluation.learning_curve_documentation
     t: Documentation
