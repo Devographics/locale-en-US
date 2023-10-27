@@ -390,6 +390,18 @@ translations:
       The survey will be open for 3 weeks, but responses entered **within the first 9 days (until October 1st)** will have a much higher impact on the Web,
       as preliminary data will be used for certain prioritization efforts that have deadlines before then.
 
+  - key: general.react2023.survey_intro
+    t: |
+      As soon as React was first introduced, it was clear that it would become a big deal for the web. 
+
+      It was used to build Facebook after all, and despite this weird "JSX" thing, developers quickly adopted it. And what's even more impressive, the community stuck on through major changes such as function components and hooks. 
+
+      But it's now 10 years later and the newly-introduced React Server Components promise to be the biggest change since… well, since React itself!
+
+      Will the community follow along one more time? Or will developers jump ship to Svelte, Solid, or something else?
+
+      Let's find out together with the first ever State of React survey!
+
   ###########################################################################
   # Survey-Specific FAQs
   ###########################################################################

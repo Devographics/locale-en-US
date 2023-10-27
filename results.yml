@@ -256,6 +256,9 @@ translations:
   - key: user_info.source.note
     t: Respondent source is computed based on referrer data, URL tracking data, and self-reported answers.
 
+  - key: options.source.other_answers
+    t: Other sources
+
   - key: user_info.source_by_gender
     t: Source by Gender
 
@@ -775,6 +778,8 @@ translations:
 
   - key: charts.freeform_data
     t: (freeform answers)
+  - key: charts.insufficient_data
+    t: Insufficient Data
 
   - key: charts.axis_legends.years_of_experience
     t: Years of Experience
@@ -1524,7 +1529,7 @@ translations:
   - key: filters.submit
     t: Update Chart
   - key: filters.copy_link
-    t: Copy link to current filters
+    t: Copy link to filters
   - key: filters.get_code
     t: Get filters code
 
