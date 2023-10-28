@@ -340,7 +340,7 @@ translations:
   - key: other_tools.mobile_development
     t: Mobile Development
   - key: other_tools.mobile_development.question
-    t: Which libraries do you use for mobile development?
+    t: Which libraries have you used for mobile development?
 
   # - key: tools.mobile_development_others
   #   t: Other Mobile Development Tools
@@ -378,7 +378,7 @@ translations:
   # - key: other_tools.auth.description
   #   t: Libraries and services for managing authentication and accounts.
   - key: other_tools.auth.question
-    t: Which libraries and services for managing authentication and accounts have you used?
+    t: Which libraries and services have you used to handle authentication?
 
   - key: other_tools.data_visualization_libraries
     t: Data Visualization
