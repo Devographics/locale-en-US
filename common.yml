@@ -428,16 +428,16 @@ translations:
       t: Use as much as I can
 
     # tools experience
-    - key: options.tools.never_heard
-      t: <span aria-hidden="true">🤷</span> Never heard of it/Not sure what it is
-    - key: options.tools.interested
-      t: <span aria-hidden="true">✅</span> Heard of it > Would like to learn
-    - key: options.tools.not_interested
-      t: <span aria-hidden="true">🚫</span> Heard of it > Not interested
     - key: options.tools.would_use
       t: <span aria-hidden="true">👍</span> Used it > Would use again
     - key: options.tools.would_not_use
       t: <span aria-hidden="true">👎</span> Used it > Would not use again
+    - key: options.tools.interested
+      t: <span aria-hidden="true">✅</span> Heard of it > Would like to learn
+    - key: options.tools.not_interested
+      t: <span aria-hidden="true">🚫</span> Heard of it > Not interested
+    - key: options.tools.never_heard
+      t: <span aria-hidden="true">🤷</span> Never heard of it/Not sure what it is
 
     # tools experience (no emoji)
     - key: options.tools.never_heard.legend
