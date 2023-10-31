@@ -523,7 +523,7 @@ translations:
 
   - key: features.string_features
     t: String Features
-  - key: features.array_features.question
+  - key: features.string_features.question
     t: Which of these String features have you used?
 
   - key: features.array_features
