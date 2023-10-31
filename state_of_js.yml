@@ -528,7 +528,7 @@ translations:
 
   - key: features.array_features
     t: Array Features
-  - key: features.array_features
+  - key: features.array_features.question
     t: Which of these Array features have you used?
 
   # patterns
