@@ -194,7 +194,7 @@ translations:
       Well done!
   - key: thanks.points
     t: >
-      pts.
+      points
   - key: thanks.score_awareness_explanation
     t: >
       For fairness, this percentage is calculated over only the {awareness_total} features you could express you knew
@@ -202,7 +202,7 @@ translations:
     t: Share on Twitter
   - key: thanks.share_score_message
     t: >
-      I got a {score} pts knowledge score on this year’s #{hashtag} survey!
+      I got a {score} points knowledge score on this year’s #{hashtag} survey!
       I have used {usage_count} features, and knew {awareness_count} more,
       placing me in the top {rank}% of all respondents.
       Can you beat my score? {shareUrl}

@@ -856,6 +856,10 @@ translations:
     t: Which edge or serverless runtimes do you regularly use?
   - key: tools_others.edge_runtimes.others
     t: Other Edge Runtimes
+  - key: other_tools.edge_runtimes
+    aliasFor: tools_others.edge_runtimes
+  - key: other_tools.edge_runtimes.description
+    aliasFor: tools_others.edge_runtimes.description
 
   - key: usage.usage_type
     t: JavaScript Usage
