@@ -77,6 +77,11 @@ translations:
   - key: sections.rendering_frameworks.description
     t: Frameworks focused on rendering and serving your application
 
+  - key: sections.meta_frameworks.title
+    t: Meta-Frameworks
+  - key: sections.meta_frameworks.description
+    t: Frameworks focused on rendering and serving your application
+
   - key: sections.back_end_frameworks.title
     t: Back-end Frameworks
   - key: sections.back_end_frameworks.description
@@ -515,6 +520,16 @@ translations:
       wrapping one piece of code with another — literally “decorating” it.
   - key: features.dynamic_import
     t: Dynamic Import
+
+  - key: features.string_features
+    t: String Features
+  - key: features.array_features.question
+    t: Which of these String features have you used?
+
+  - key: features.array_features
+    t: Array Features
+  - key: features.array_features
+    t: Which of these Array features have you used?
 
   # patterns
   - key: patterns.object_oriented_programming
