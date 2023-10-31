@@ -61,7 +61,7 @@ translations:
       t: How do you build and submit your app for the App Store or Google Play?
 
     - key: sections.tools.title
-      t: Tools
+      t: React Native Tools
     - key: sections.tools.description
       t: The tools you use to develop React Native apps. 
 
