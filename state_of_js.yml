@@ -829,6 +829,16 @@ translations:
   - key: other_tools.backend_frameworks.others
     aliasFor: tools_others.backend_frameworks.others
 
+  - key: other_tools.ai_tools
+    t: AI Tools
+  - key: other_tools.ai_tools.question
+    t: Which of these AI tools do you regularly use to help you write code?
+
+  - key: other_tools.hosting
+    t: Hosting Services
+  - key: other_tools.hosting.question
+    t: Which of services have you used to host your apps?
+
   ###########################################################################
   # Usage
   ###########################################################################
