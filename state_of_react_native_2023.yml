@@ -1,0 +1,593 @@
+#########################################################################
+
+# These translations only concern `results` and not `surveyform`!
+# I've added the survey locales to common.yml instead for them to load in `surveyform`
+
+#########################################################################
+
+locale: en-US
+namespace: js
+translations:
+  - key: general.results.description
+    t: A survey about everything React Native
+
+  - key: introduction.rn2023.bartlomiej_bukowski.bio
+    t: Software Engineer at Software Mansion
+
+  - key: introduction.rn2023.bartlomiej_bukowski
+    t: |
+      [Version 2023 TBD] Once in a while a React Native developer is challenged with making a project-wide decision about what solution to use in the project. A few months ago, I found myself in this situation, trying to decide on the best styling technique for my React Native app. I did an extensive research, gathering information about all available options, reading opinions and articles, but I still wasn't sure what to choose. I realised I was missing a single, centralized comparison of all these options, similar to what's available in the [State of JS](https://stateofjs.com/en-us/), but tailored specifically for the React Native ecosystem.
+
+      This led to the creation of [State of React Native](https://stateofreactnative.com/). I consulted the idea with [Sacha Greif](https://sachagreif.com) from the [Devographics team](https://www.devographics.com) (creator of State of JS), assembled a team of talented colleagues, and after many work hours and gathering almost 2000 responses from the community, we are proud to present the results of the first State of React Native survey.
+
+      I hope that this first edition sets the tone for an annual tradition and that the results provide you with a comprehensive overview of the current state of React Native, helping you make informed decisions for your current and future React Native projects.
+  
+  - key: introduction.rn2023.sebastien_lorber.bio
+    t: This Week In React founder and Docusaurus maintainer
+
+  - key: introduction.rn2023.sebastien_lorber
+    t: |
+      The State of React Native is an awesome initiative! Thanks to everyone who took the survey, and to Software Mansion for putting it together!
+
+      For this very first year, the sentiment breakdown (“would use again” vs “would not use again”) is a quite interesting tool to help you make better technical decisions.
+      
+      Making this an annual tradition is even better: next year we will be able to see how this sentiment evolves over time.
+      
+  - key: conclusion.rn2023.bartlomiej_bukowski.bio
+    t: Software Engineer at Software Mansion
+    
+  - key: conclusion.rn2023.bartlomiej_bukowski
+    t: |
+      The React Native ecosystem is thriving and becoming better with each new version released. The community is very active and innovative solutions to various challenges faced by programmers are emerging.
+
+      This survey showcases the diversity and versatility of the React Native by covering various aspects of app development and solutions. My own styling problem was solved by the wonderful [NativeWind](https://www.nativewind.dev) library, which provides great control over styles and a great developer experience. This is just one example of how React Native is benefiting from the web React and JavaScript ecosystems to increase its quality and popularity.
+
+      Despite this, there are still some challenges that need to be addressed in the React Native framework. However, the core team members and open source contributors are working tirelessly to fix these issues, making the future of React Native even brighter.
+
+      In 2023, we can expect to see even more performant React Native apps that are indistinguishable from apps written using native technologies.
+
+      P.S. if you're still hungry for more React and JavaScript stats I highly recommend checking out the yearly [State of JS](https://stateofjs.com/en-us/) survey and [Rising Stars](https://risingstars.js.org/2022/en) ranking from [Best Of JS](https://bestofjs.org/).
+  
+  - key: conclusion.rn2023.sebastien_lorber.bio
+    t: This Week In React founder and Docusaurus maintainer
+
+  - key: conclusion.rn2023.sebastien_lorber
+    t: |
+      If there is one thing that can be said about the React Native community, it is its ability to overcome one obstacle after another. Sometimes it's not as fast as we'd hoped, but nevertheless, we keep moving in the right direction.
+      
+      This year, our ecosystem strengthened in many ways, in particular:
+      - The core of React Native improved, and the transition to the new architecture finally started
+      - [Expo](https://docs.expo.dev/) kept its awesome developer experience and became closer to a vanilla React Native app, making it much easier to adopt for any kind of app
+      - Cross-platform development continued to drive innovations spanning animations, styling, bundling, and routing
+      
+      Over time, we continue to push the boundaries of what is possible with React Native. We are JavaScript developers, but we do not reject the native side. Instead, we embrace it. Just yesterday, an iOS developer friend of mine told me how impressed he was with what was possible today.
+      
+      In 2023, I'm excited to see our community being empowered to leverage even more of the native side using modern languages like [Swift](https://developer.apple.com/swift/) and [Kotlin](https://kotlinlang.org/). There are also many innovations to come with [React 18](https://reactjs.org/blog/2022/03/29/react-v18.html) that we are not yet taking advantage of.
+      
+      I'll be glad to keep you up to date on the latest React Native innovation for another year through my newsletter [This Week In React](https://thisweekinreact.com/?utm_source=state_of_rn)
+      
+  - key: about.content
+    t: >
+      The State of React Native survey was a grassroots initiative from developers at [Software Mansion](https://swmansion.com/). The survey started on 22nd December 2022 and run till 20th January 2023 gathering 1886 responses in total.
+
+      ### Goal
+      
+      The goal of the State of React Native survey was to create a resource to compare different aspects of React Native development for you to help you make better technical decisions. The survey can be used as a source for finding alternatives in different categories of app development.
+      <br/>
+      Keep in mind that this type of results always have to be treated with a pinch of salt as it's impossible to capture for the state of the entire ecosystem.
+      <br/>
+      We're thrived to see the upcoming trends in the following editions as with it's first edition we only have a single data point.
+
+      ### Design
+
+      The survey was modeled and built on the foundations of [Devographics'](https://www.devographics.com/) [State of JavaScript](https://stateofjs.com/) and [State of CSS](https://stateofcss.com/) survey.
+      <br/>
+      About a dozen of experienced React Native developers from Software Mansion and a couple more outside of walls of the company have shaped the questions. We've asked the community to contribute in [a GitHub discussion](https://github.com/software-mansion/state-of-react-native/discussions/1) which most of it was included in the final survey.
+      <br/>
+      The logo and the design of the interface was created by [Daniel Wodziczka](https://dribbble.com/wodziczka), one of our amazing UI/UX Designers at Software Mansion.
+      <br/>
+      All survey questions were optional.
+
+      ### Audience
+
+      The survey was open for everyone to participate and the responders weren't filtered or selected in any way. We were thrilled to see the survey trending organically on Twitter, Slack and Discord communities. The survey was promoted through social media accounts and the [This Week in React](https://thisweekinreact.com/?utm_source=state_of_rn) newsletter. 
+
+      ### Technical Overview
+
+      To bootstrap this survey, we've asked for permission to use the battle-tested technological stack created by [Devographics](https://www.devographics.com/) which includes:
+    
+      - **Data collection**: custom [Vulcan.js](http://vulcanjs.org/) app.
+
+      - **Data storage/processing**: MongoDB & MongoDB Aggregations.
+
+      - **Data API**: Node.js GraphQL API. 
+
+      - **Results Site**: [Gatsby](https://www.gatsbyjs.com/) React app.
+
+      - **Data Visualizations**: [Nivo](https://nivo.rocks/) React dataviz library.
+
+
+      ### Lessons learned
+
+      We've gathered considerable amount of feedback to iterate and next year, we would like to focus on the brevity of the survey. With the data gathered, we're free to get rid of some of the freeform fields and make the overall survey shorter.
+      <br/>
+      Next point would be to make results more representative by reaching more diverse communities all over the world.
+
+
+  - key: options.about_you_age.about_you_age_18_or_youger
+    t: 18 years old or under
+  - key: options.about_you_age.about_you_age_19_24
+    t: 19-24 years old
+  - key: options.about_you_age.about_you_age_25_34
+    t: 25-34 years old
+  - key: options.about_you_age.about_you_age_35_44
+    t: 35-44 years old
+  - key: options.about_you_age.about_you_age_45_54
+    t: 45-54 years old
+  - key: options.about_you_age.about_you_age_55_64
+    t: 55-64 years old
+  - key: options.about_you_age.about_you_age_65_or_older
+    t: 65 or more years old
+
+  - key: options.about_you_age.about_you_age_18_or_youger.short
+    t: <= 18
+  - key: options.about_you_age.about_you_age_19_24.short
+    t: 19-24
+  - key: options.about_you_age.about_you_age_25_34.short
+    t: 25-34
+  - key: options.about_you_age.about_you_age_35_44.short
+    t: 35-44
+  - key: options.about_you_age.about_you_age_45_54.short
+    t: 45-54
+  - key: options.about_you_age.about_you_age_55_64.short
+    t: 55-64
+  - key: options.about_you_age.about_you_age_65_or_older.short
+    t: "> 65"
+
+  - key: options.about_you_company_size.about_you_company_size_1_employee
+    t: 1 employee
+  - key: options.about_you_company_size.about_you_company_size_2_to_5
+    t: 2-5 employees
+  - key: options.about_you_company_size.about_you_company_size_6_to_10
+    t: 6-10 employees
+  - key: options.about_you_company_size.about_you_company_size_11_to_20
+    t: 11-20 employees
+  - key: options.about_you_company_size.about_you_company_size_21_to_50
+    t: 21-50 employees
+  - key: options.about_you_company_size.about_you_company_size_51_to_100
+    t: 51-100 employees
+  - key: options.about_you_company_size.about_you_company_size_101_to_500
+    t: 101-500 employees
+  - key: options.about_you_company_size.about_you_company_size_501_to_1000
+    t: 501-1000 employees
+  - key: options.about_you_company_size.about_you_company_size_1000_or_more
+    t: 1000 or more employees
+
+  - key: options.about_you_company_size.about_you_company_size_1_employee.short
+    t: 1
+  - key: options.about_you_company_size.about_you_company_size_2_to_5.short
+    t: 2-5
+  - key: options.about_you_company_size.about_you_company_size_6_to_10.short
+    t: 6-10
+  - key: options.about_you_company_size.about_you_company_size_11_to_20.short
+    t: 11-20
+  - key: options.about_you_company_size.about_you_company_size_21_to_50.short
+    t: 21-50
+  - key: options.about_you_company_size.about_you_company_size_51_to_100.short
+    t: 51-100
+  - key: options.about_you_company_size.about_you_company_size_101_to_500.short
+    t: 101-500
+  - key: options.about_you_company_size.about_you_company_size_501_to_1000.short
+    t: 501-1000
+  - key: options.about_you_company_size.about_you_company_size_1000_or_more.short
+    t: 1000+
+
+  - key: options.about_you_education_degree.about_you_education_degree_no
+    t: no degree
+  - key: options.about_you_education_degree.about_you_education_degree_yes_related
+    t: yes, related
+  - key: options.about_you_education_degree.about_you_education_degree_yes_unrelated
+    t: yes, unrelated
+
+  - key: options.about_you_education_degree.about_you_education_degree_no.short
+    t: no
+  - key: options.about_you_education_degree.about_you_education_degree_yes_related.short
+    t: related
+  - key: options.about_you_education_degree.about_you_education_degree_yes_unrelated.short
+    t: unrelated
+
+  - key: options.about_you_experience_in_rn.about_you_experience_in_rn_1_year_or_less
+    t: 1 year or less
+  - key: options.about_you_experience_in_rn.about_you_experience_in_rn_2_to_3_years
+    t: 2-3 years
+  - key: options.about_you_experience_in_rn.about_you_experience_in_rn_4_to_5_years
+    t: 4-5 years
+  - key: options.about_you_experience_in_rn.about_you_experience_in_rn_6_years_or_more
+    t: 6 or more years
+
+  - key: options.about_you_experience_in_rn.about_you_experience_in_rn_1_year_or_less.short
+    t: <= 1
+  - key: options.about_you_experience_in_rn.about_you_experience_in_rn_2_to_3_years.short
+    t: 2-3 years
+  - key: options.about_you_experience_in_rn.about_you_experience_in_rn_4_to_5_years.short
+    t: 4-5 years
+  - key: options.about_you_experience_in_rn.about_you_experience_in_rn_6_years_or_more.short
+    t: 6 or more years
+
+  - key: options.about_you_experience.about_you_experience_1_year_or_less
+    t: 1 year or less
+  - key: options.about_you_experience.about_you_experience_2_to_3_years
+    t: 2-3 years
+  - key: options.about_you_experience.about_you_experience_4_to_5_years
+    t: 4-5 years
+  - key: options.about_you_experience.about_you_experience_6_to_10_years
+    t: 6-10 years
+  - key: options.about_you_experience.about_you_experience_11_to_20_years
+    t: 11-20 years
+  - key: options.about_you_experience.about_you_experience_20_years_or_more
+    t: 20 or more years
+
+  - key: options.about_you_experience.about_you_experience_1_year_or_less.short
+    t: <= 1
+  - key: options.about_you_experience.about_you_experience_2_to_3_years.short
+    t: 2-3
+  - key: options.about_you_experience.about_you_experience_4_to_5_years.short
+    t: 4-5
+  - key: options.about_you_experience.about_you_experience_6_to_10_years.short
+    t: 6-10
+  - key: options.about_you_experience.about_you_experience_11_to_20_years.short
+    t: 11-20
+  - key: options.about_you_experience.about_you_experience_20_years_or_more.short
+    t: 20+
+
+  - key: options.about_you_gender.about_you_gender_female
+    t: female
+  - key: options.about_you_gender.about_you_gender_male
+    t: male
+  - key: options.about_you_gender.about_you_gender_non_binary
+    t: non-binary
+  - key: options.about_you_gender.about_you_gender_not_listed
+    t: not listed
+
+  - key: options.about_you_gender.about_you_gender_female.short
+    t: F
+  - key: options.about_you_gender.about_you_gender_male.short
+    t: M
+  - key: options.about_you_gender.about_you_gender_non_binary.short
+    t: NB
+  - key: options.about_you_gender.about_you_gender_not_listed.short
+    t: NL
+
+  - key: options.about_you_salary.about_you_salary_free
+    t: free
+  - key: options.about_you_salary.about_you_salary_0_to_10k
+    t: 0-10k
+  - key: options.about_you_salary.about_you_salary_10k_to_30k
+    t: 10-30k
+  - key: options.about_you_salary.about_you_salary_30k_to_50k
+    t: 30-50k
+  - key: options.about_you_salary.about_you_salary_50k_to_100k
+    t: 50-100k
+  - key: options.about_you_salary.about_you_salary_100k_to_200k
+    t: 100-200k
+  - key: options.about_you_salary.about_you_salary_200k_or_more
+    t: 200+k
+
+  - key: options.about_you_salary.about_you_salary_free.short
+    t: free
+  - key: options.about_you_salary.about_you_salary_0_to_10k.short
+    t: 0-10k
+  - key: options.about_you_salary.about_you_salary_10k_to_30k.short
+    t: 10-30k
+  - key: options.about_you_salary.about_you_salary_30k_to_50k.short
+    t: 30-50k
+  - key: options.about_you_salary.about_you_salary_50k_to_100k.short
+    t: 50-100k
+  - key: options.about_you_salary.about_you_salary_100k_to_200k.short
+    t: 100-200k
+  - key: options.about_you_salary.about_you_salary_200k_or_more.short
+    t: 200+k
+
+  - key: options.tools.developer_background_before.answer.a
+    t: React developer
+  - key: options.tools.developer_background_before.answer.b
+    t: iOS developer
+  - key: options.tools.developer_background_before.answer.c
+    t: Android developer
+  - key: options.tools.developer_background_before.answer.d
+    t: Frontend developer (other than React e.g. Vue, Angular, SolidJS, Svelte, etc.)
+  - key: options.tools.developer_background_before.answer.e
+    t: Backend developer (PHP, Node.js, JVM, Python, etc.)
+  - key: options.tools.developer_background_before.answer.f
+    t: Desktop developer (e.g. macOS, Windows, Linux)
+  - key: options.tools.developer_background_before.answer.g
+    t: QA engineer
+  - key: options.tools.developer_background_before.answer.h
+    t: DevOps
+  - key: options.tools.developer_background_before.answer.i
+    t: Embedded developer
+  - key: options.tools.developer_background_before.answer.j
+    t: Non-technical role
+  - key: options.tools.developer_background_before.answer.k
+    t: Started with React Native
+  - key: options.tools.developer_background_before_other
+    t: Other background
+
+  - key: options.tools_package_managers.tools_package_managers_npm
+    t: npm
+  - key: options.tools_package_managers.tools_package_managers_yarn
+    t: yarn
+  - key: options.tools_package_managers.tools_package_managers_yarn_berry
+    t: yarn berry (yarn v2+)
+  - key: options.tools_package_managers.tools_package_managers_pnpm
+    t: pnpm
+
+  - key: options.tools_starter_templates.tools_starter_templates_expo
+    t: create-expo-app
+  - key: options.tools_starter_templates.tools_starter_templates_react_native_cli
+    t: react-native init
+  - key: options.tools_starter_templates.tools_starter_templates_ignite_cli
+    t: ignite-cli
+  - key: options.tools_starter_templates.tools_starter_templates_create_t3_turbo
+    t: create-t3-turbo
+
+  - key: options.react_native_features_brownfield.react_native_features_brownfield_green
+    t: I mainly work on standalone React Native apps (greenfield)
+  - key: options.react_native_features_brownfield.react_native_features_brownfield_green.short
+    t: Standalone apps (greenfield)
+  - key: options.react_native_features_brownfield.react_native_features_brownfield_brown
+    t: I mainly work on integrated React Native apps (brownfield)
+  - key: options.react_native_features_brownfield.react_native_features_brownfield_brown.short
+    t: Integrated apps (brownfield)
+  - key: options.react_native_features_brownfield.react_native_features_brownfield_both
+    t: I work on both standalone and brownfield apps
+  - key: options.react_native_features_brownfield.react_native_features_brownfield_both.short
+    t: Both
+
+  - key: options.developer_background_contribution_to_lib.yes
+    t: Yes
+  - key: options.developer_background_contribution_to_lib.no
+    t: No
+  - key: options.developer_background_contribution_to_rn.yes
+    t: Yes
+  - key: options.developer_background_contribution_to_rn.no
+    t: No
+
+  - key: options.about_you_locale.en-US
+    t: "English"
+  - key: options.about_you_locale.fr-FR
+    t: "French"
+  - key: options.about_you_locale.pt-BR
+    t: "Portuguese"
+  - key: options.about_you_locale.es-ES
+    t: "Spanish"
+  - key: options.about_you_locale.pl-PL
+    t: "Polish"
+  - key: options.about_you_locale.tr-TR
+    t: "Turkish"
+  - key: options.about_you_locale.de-DE
+    t: "German"
+  - key: options.about_you_locale.ru-RU
+    t: "Russian"
+  - key: options.about_you_locale.ja
+    t: "Japanese"
+  - key: options.about_you_locale.uk-UA
+    t: "Ukrainian"
+  - key: options.about_you_locale.zh-CN
+    t: "Chinese"
+
+  - key: options.tools_js_ts.0
+    t: "100% JS"
+  - key: options.tools_js_ts.1
+    t: "|"
+  - key: options.tools_js_ts.2
+    t: "|"
+  - key: options.tools_js_ts.3
+    t: "|"
+  - key: options.tools_js_ts.4
+    t: "50%/50%"
+  - key: options.tools_js_ts.5
+    t: "|"
+  - key: options.tools_js_ts.6
+    t: "|"
+  - key: options.tools_js_ts.7
+    t: "|"
+  - key: options.tools_js_ts.8
+    t: "100% TS"
+
+  - key: options.opinions_changing_too_fast.0
+    t: "Disagree Strongly"
+  - key: options.opinions_changing_too_fast.1
+    t: "Disagree"
+  - key: options.opinions_changing_too_fast.2
+    t: "Neutral"
+  - key: options.opinions_changing_too_fast.3
+    t: "Agree"
+  - key: options.opinions_changing_too_fast.4
+    t: "Agree Strongly"
+
+  - key: options.opinions_complex.0
+    t: "Disagree Strongly"
+  - key: options.opinions_complex.1
+    t: "Disagree"
+  - key: options.opinions_complex.2
+    t: "Neutral"
+  - key: options.opinions_complex.3
+    t: "Agree"
+  - key: options.opinions_complex.4
+    t: "Agree Strongly"
+    
+  - key: options.opinions_right_direction.0
+    t: "Disagree Strongly"
+  - key: options.opinions_right_direction.1
+    t: "Disagree"
+  - key: options.opinions_right_direction.2
+    t: "Neutral"
+  - key: options.opinions_right_direction.3
+    t: "Agree"
+  - key: options.opinions_right_direction.4
+    t: "Agree Strongly"
+
+  # newsletter
+  - key: blocks.newsletter.title
+    t: Stay Tuned
+  - key: blocks.newsletter.description
+    t: |
+      If you'd like to know when we release additional results or announce next year's edition,
+      just leave us your email below:
+  - key: blocks.newsletter.email
+    t: Your Email
+  - key: blocks.newsletter.submit
+    t: Notify Me
+
+  # comments
+  - key: picks.intro
+    t: We asked members of the React Native community to share their opinions about the results
+
+
+  - key: picks.william_candillon.bio
+    t: Maker of the “Can it be done in React Native?” YouTube series
+  - key: picks.william_candillon.description
+    t: |
+          When animations are delightful, users tend to be more lenient with everything else. 
+          Call me biased, but [Reanimated](https://docs.swmansion.com/react-native-reanimated/) and [Skia](https://shopify.github.io/react-native-skia/) are my favorite libraries, and I suspect that deeper integration 
+          between these two will be a common thread in 2023.
+
+  - key: picks.lorenzo_sciandra.bio
+    t: Senior Software Engineer at Microsoft, react-native core maintainer and releaser
+  - key: picks.lorenzo_sciandra.description
+    t: |
+          Examining these data points, I find that they reflect well one key aspect of my vision for react-native: ubiquity. 
+          By reducing the barriers to entry for native platform development, developers of various backgrounds and skill levels are able to 
+          bring their ideas to fruition for customers across many industries. 
+          
+          Additionally, there is a growing trend towards targeting 
+          mobile and web platforms. At Microsoft, we are working to extend this trend to include desktop platforms through 
+          our efforts with [react-native-windows](https://github.com/microsoft/react-native-windows) and [react-native-macos](https://github.com/microsoft/react-native-macos). 
+          It is our hope that in the near future, we will see an increase in the targeting of desktop platforms as well.
+
+  - key: picks.colin_gray.bio
+    t: Principal Engineer at Shopify
+  - key: picks.colin_gray.description
+    t: |
+          We have seen many client-state libraries increasing in popularity in the last year: [Zustand](https://docs.pmnd.rs/zustand/), [Jotai](https://jotai.org/), and [Legend State](https://legendapp.com/open-source/state/) all make 
+          a strong showing in the Interest category, but are still relatively low in Usage. The pattern I am seeing here is that devs 
+          want less boilerplate with their state management. A common criticism leveled at the ever-popular [Redux](https://redux.js.org/) library 
+          (Usage is second only to the built-in hooks) is that diffs are large compared to the size of the change. [Redux Toolkit](https://redux-toolkit.js.org/) helps 
+          a lot, but newer libraries go even further, often consolidating state and actions into one primitive, while still relying on 
+          either familiar selectors (Zustand) or Proxy-based automatic observers (Legend State, [Mobx](https://mobx.js.org/README.html), [Valtio](https://valtio.pmnd.rs/)) to prevent unnecessary 
+          re-renders. 
+          
+          Meanwhile Recoil is still trying to find its legs, even after all these years. Jotai has a similar design to 
+          Recoil but is fairing much better in retention, and slightly better in interest. I expected Legend State to do better in terms 
+          of interest - but it's a relative new-comer in this group. On the server-state side of things, [TanStack Query](https://tanstack.com/query/) and [Apollo](https://www.apollographql.com/) are 
+          neck and neck in usage, but Apollo is falling in retention. This surprises me. I expected both to do well in retention. 
+          
+          Once you've learned useQuery (each library provides similar versions of this hook), you're off to the races. 
+          Apollo, though, has a steeper learning curve (compare the caching capabilities for an example). If I had to guess at why 
+          TanStack Query is edging out Apollo in retention and interest, that would be my guess. This is consistent with the 
+          relative popularity of the client-state libraries - simpler is indeed usually better!
+
+  - key: picks.kacper_kapusciak.bio
+    t: One of the devs at Software Mansion making State of React Native happen
+  - key: picks.kacper_kapusciak.description
+    t: |
+          Besides well-known headaches with upgrades and debugging, the developers highlighted a huge reliance on community libraries, 
+          many of which got abandoned over the years. Let's be honest - creating (and maintaining) a library requiring expertise in 3+ 
+          languages and having knowledge of both iOS and Android APIs isn't easy. 
+          
+          Futhermore, the never-ending changes in the mobile platforms forces continuous maintenance of native modules. New architecture won't make it any easier as it is making bridge-based packages obsolete. 
+          Seeing so many responses and passionate feedback it's clear that people want React Native to succeed. In the near future, 
+          I would love to see Expo Modules API helping greatly in the development of native modules.
+
+  - key: picks.navigation_evan_bacon.bio
+    t: Software Engineer at Expo, Author of Config Plugins and Expo Router
+  - key: picks.navigation_evan_bacon.description
+    t: |
+          In 2022, building performant navigation in React Native has felt stable and reliable thanks to the availability of various solutions. 
+          Among them, [React Navigation](https://reactnavigation.org/) emerged as the dominant player, being used in over half of all React Native projects. 
+
+          As React Native apps in the browser become more widespread, there is a growing need for better navigation, leading to the development of 
+          cross-framework solutions like [Solito](https://github.com/nandorojo/solito) and universal React Native solutions like the 
+          [File-based, Expo Router](https://expo.github.io/router). It would seem URL-based routing is becoming a staple in the community, with 
+          React Navigation serving as the underlying catalyst for high-quality user experience.
+
+          In 2023, I predict that React Native frameworks will become more similar to web-only frameworks, leveraging opinionated navigation systems 
+          as the foundation that additional functionality like data fetching is built around. Potentially leading to increased adoption of native 
+          app development from the web community.
+
+          Additionally, there are more baseline advancements in native navigation to look forward to, such as with Software Mansion's [React Native Screens](https://github.com/software-mansion/react-native-screens) package and its [native shared element transitions proposal](https://github.com/software-mansion/react-native-screens/pull/1591).
+
+          Overall, navigation in React Native is an exciting space that may eventually surpass the general capabilities of vanilla native 
+          navigation by combining the power of native primitives with the intuitive routing paradigms of the web.
+  
+  - key: picks.tools_evan_bacon.bio
+    t: Software Engineer at Expo, Author of Config Plugins and Expo Router
+  - key: picks.tools_evan_bacon.description
+    t: |
+          2022 was the most thrilling year for React Native developer tools to date. The Metro bundler team at Meta increased 
+          in size and [outlined exciting plans](https://github.com/react-native-community/discussions-and-proposals/discussions/546#discussioncomment-4166119) 
+          to enhance performance, speed, and reliability in React Native. Expo collaborated closely with the Metro team to 
+          significantly improve the possibilities of bundling in React Native, resulting in [Metro for web](https://docs.expo.dev/guides/customizing-metro/#web-support) and the first 
+          file-based routing solution for native apps, [Expo Router](https://github.com/expo/router). 
+          
+          The Microsoft team open sourced [RNX Kit](https://microsoft.github.io/rnx-kit/), which includes a suite of tools that they use 
+          to improve the stability and correctness of their extensive React Native app collection. Established tools like 
+          [Ignite CLI](https://github.com/infinitered/ignite) and npx react-native continue to improve in both reliability and developer experience. 
+          Expo CLI underwent a ground-up rewrite to [the versioned npx expo](https://blog.expo.dev/the-new-expo-cli-f4250d8e3421) to provide better 
+          CI compatibility, project longevity, and establish Prebuild as the long-term alternative to Ejecting. 
+          The momentum of React Native dev tools is stronger than ever, and 2023 is expected to be even more exciting.
+
+  - key: picks.brent_vatne.bio
+    t: Engineering Manager at Expo
+  - key: picks.brent_vatne.description
+    t: |
+          It's never been easier to ship an app to stores. [EAS Build](https://docs.expo.dev/build/introduction/) and [Submit](https://docs.expo.dev/submit/introduction/) have made it into a single command with eas build --auto-submit, 
+          and with Apple Silicon workers, mobile CI/CD is faster than ever.
+          
+          [Fastlane](https://fastlane.tools/) continues to be a great solution for developers that want to roll 
+          their own CI/CD processes on a service of their choice. I expect everything to continue the trend of getting faster, easier to use, and more 
+          flexible in 2023.
+
+  - key: picks.satyajit_sahoo.bio
+    t: React Native expert at Callstack, Lead Maintainer of React Navigation
+  - key: picks.satyajit_sahoo.description
+    t: |
+          We've always been trying to make navigation better and more flexible. In the past few years, we completely rewrote [React Navigation](https://reactnavigation.org/) 
+          from scratch, used native navigation by default when it made sense and focused a lot on type-safety. I'm happy to see that our hard work 
+          paid off and  a lot of people have positive experience with React Navigation. There's a lot more to come in 2023 and I hope that we can
+          address some of the pain points and make React Navigation even better. 
+          
+          One of the things I'm excited about is the 
+          [revamped static API](https://github.com/react-navigation/react-navigation/pull/11144) that aims to make it easier to configure TypeScript 
+          and deep linking. I also hope to see more of the community to keep building tools around React Navigation such as 
+          [Solito](https://solito.dev/), [expo-router](https://expo.github.io/router/), and custom navigators that integrate with other libraries.
+
+  - key: picks.data_fetching_sebastien_lorber.bio
+    t: This Week In React founder and Docusaurus maintainer
+  - key: picks.data_fetching_sebastien_lorber.description
+    t: |
+          This year, [tRPC](https://trpc.io/) and [zod](https://github.com/colinhacks/zod) have seen a lot of traction on the web 
+          platform. In 2023, it wouldn't be surprising to see its usage to grow significantly in React Native projects and 
+          compete with [React-Query](https://tanstack.com/query/) or [SWR](https://swr.vercel.app/). 
+          
+          The [create-t3-turbo](https://github.com/t3-oss/create-t3-turbo) boilerplate is a good illustration of its usage in a 
+          cross-platform stack.
+
+  - key: picks.styling_sebastien_lorber.bio
+    t: This Week In React founder and Docusaurus maintainer
+  - key: picks.styling_sebastien_lorber.description
+    t: |
+          React Native developers are clearly attracted to cross-platform styling solutions. [Tailwind](https://tailwindcss.com/) is already successful on 
+          the web, so there's no reason it shouldn't become more popular on mobile. The [StyleSheet API](https://reactnative.dev/docs/stylesheet) remains boring in a 
+          good way and a safe choice for most projects.
+
+  - key: picks.react_native_alternatives_sebastien_lorber.bio
+    t: This Week In React founder and Docusaurus maintainer
+  - key: picks.react_native_alternatives_sebastien_lorber.description
+    t: |
+          It's great to see that React Native developers appreciate [SwiftUI](https://developer.apple.com/xcode/swiftui/) and [Jetpack Compose](https://developer.android.com/jetpack/compose). Our beloved platform is not 
+          competing against the native side but rather extending it in a quite flexible way. 
+
+          Although we do not particularly appreciate [Flutter](https://flutter.dev/) as a framework, we still benefit from low-level innovations happening 
+          in its ecosystem thanks to [React Native Skia](https://github.com/Shopify/react-native-skia). 
