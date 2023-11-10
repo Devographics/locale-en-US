@@ -74,7 +74,7 @@ translations:
     - key: faq.survey_design
       t: How was this survey designed?
     - key: faq.survey_design.description
-      t: The survey was designed based on our expertise and the community feedback gathered on [this GitHub discussion](https://github.com/software-mansion/state-of-react-native/discussions/1). 
+      t: The survey was designed based on our expertise and the community feedback gathered on [this GitHub discussion](https://github.com/software-mansion/state-of-react-native/discussions/6). 
     - key: faq.results_released
       t: When will the results be made available?
     - key: faq.results_released.description
