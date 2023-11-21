@@ -1029,7 +1029,7 @@ translations:
   # first steps
   - key: resources.first_steps
     t: First Learning Methods
-  - key: resources.first_steps.description
+  - key: resources.first_steps.question
     t: When first starting out, how did you initially learn coding?
   - key: resources.first_steps.others
     t: Other First Learning Methods
@@ -1039,7 +1039,7 @@ translations:
   # blogs & magazines
   - key: resources.blogs_news_magazines
     t: Blogs & Magazines
-  - key: resources.blogs_news_magazines.description
+  - key: resources.blogs_news_magazines.question
     t: Which blogs/magazines/etc. do you read?
   - key: resources.blogs_news_magazines.others
     t: Other Blogs & Magazines
@@ -1049,7 +1049,7 @@ translations:
   # sites & courses
   - key: resources.sites_courses
     t: Sites & Courses
-  - key: resources.sites_courses.description
+  - key: resources.sites_courses.question
     t: Which sites/courses/etc. do you consult?
   - key: resources.sites_courses.others
     t: Other Sites & Courses
@@ -1059,7 +1059,7 @@ translations:
   # podcasts
   - key: resources.podcasts
     t: Podcasts
-  - key: resources.podcasts.description
+  - key: resources.podcasts.question
     t: Which programming-related podcasts do you listen to?
   - key: resources.podcasts.others
     t: Other Podcasts
@@ -1085,7 +1085,7 @@ translations:
   # other surveys
   - key: resources.other_surveys
     t: Other Surveys
-  - key: resources.other_surveys.description
+  - key: resources.other_surveys.question
     t: Which other developer surveys do you participate in?
   - key: resources.other_surveys.others
     t: Additional surveys not mentioned above

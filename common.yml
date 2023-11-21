@@ -120,6 +120,8 @@ translations:
     t: Data Processing
   - key: credits.back_end_development
     t: Back-End Developement
+  - key: credits.survey_review
+    t: Survey Review
 
   # support
   - key: general.support_from
@@ -1148,10 +1150,8 @@ translations:
     t: Other options you use for the current section not mentioned in the list above.
   - key: tools.happiness
     t: Overall Happiness
-  - key: tools.happiness.description
-    t: >
-      On a scale of one (very unhappy) to five (very happy), how happy are
-      you with the current overall state of things as it relates to the options listed above?
+  - key: tools.happiness.question
+    t: How happy are you with the current state of things as it relates to the options listed above?
 
   ###########################################################################
   # Demographics (About You/User Info)
@@ -1253,7 +1253,7 @@ translations:
 
   # other info
   - key: user_info.how_did_user_find_out_about_the_survey
-    t: How did you hear about this survey?
+    t: Where did you hear about this survey?
   - key: user_info.email
     t: Your Email
   - key: user_info.email.description
@@ -1343,7 +1343,7 @@ translations:
   # first steps
   - key: resources.first_steps
     t: First Learning Methods
-  - key: resources.first_steps.description
+  - key: resources.first_steps.question
     t: When first starting out, how did you initially learn coding?
   - key: resources.first_steps.others
     t: Other First Learning Methods
@@ -1353,7 +1353,7 @@ translations:
   # blogs & magazines
   - key: resources.blogs_news_magazines
     t: Blogs & Magazines
-  - key: resources.blogs_news_magazines.description
+  - key: resources.blogs_news_magazines.question
     t: Which blogs/magazines/etc. do you read?
   - key: resources.blogs_news_magazines.others
     t: Other Blogs & Magazines
@@ -1365,8 +1365,8 @@ translations:
   # sites & courses
   - key: resources.sites_courses
     t: Sites & Courses
-  - key: resources.sites_courses.description
-    t: Which sites/courses/etc. do you consult?
+  - key: resources.sites_courses.question
+    t: Which sites/courses/etc. do you consult to learn JavaScript?
   - key: resources.sites_courses.others
     t: Other Sites & Courses
   - key: resources.sites_courses.others.description
@@ -1377,7 +1377,7 @@ translations:
   # podcasts
   - key: resources.podcasts
     t: Podcasts
-  - key: resources.podcasts.description
+  - key: resources.podcasts.question
     t: Which programming-related podcasts do you listen to?
   - key: resources.podcasts.others
     t: Other Podcasts
@@ -1389,8 +1389,8 @@ translations:
   # people
   - key: resources.people
     t: People
-  - key: resources.people.description
-    t: People you read, follow, or just want to highlight.
+  - key: resources.people.question
+    t: Which individuals do you read, follow, or just want to highlight in the JavaScript community?
   # - key: resources.people.others
   #   t: Other People
   # - key: resources.people.others.description
@@ -1407,7 +1407,7 @@ translations:
   # other surveys
   - key: resources.other_surveys
     t: Other Surveys
-  - key: resources.other_surveys.description
+  - key: resources.other_surveys.question
     t: Which other developer surveys do you participate in?
   - key: resources.other_surveys.others
     t: Additional surveys not mentioned above
@@ -1420,13 +1420,13 @@ translations:
   - key: user_info.other_surveys
     aliasFor: resources.other_surveys
   - key: user_info.other_surveys.question
-    aliasFor: resources.other_surveys.description
+    aliasFor: resources.other_surveys.question
 
   # video creators
   - key: resources.video_creators
     t: Video Creators
-  - key: resources.video_creators.description
-    t: Creators you follow on video-centric platforms such as YouTube, Twitch, TikTok, etc.
+  - key: resources.video_creators.question
+    t: Which programming-related video creators do you follow (on platforms such as YouTube, Twitch, TikTok, etc.)?
   - key: resources.video_creators.others
     t: Other Video Creators
   - key: options.video_creators.na

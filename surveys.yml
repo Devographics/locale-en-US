@@ -402,6 +402,16 @@ translations:
 
       Let's find out together with the first ever State of React survey!
 
+  # JS 2023
+
+  - key: general.js2023.survey_intro
+    t: |
+      Between Astro, Vite, and Remix, 2022 kicked off a wave of JavaScript change that kept on growing in 2023 with Bun, Svelte 5, Tauri, and many others. 
+
+      But the –relatively speaking– old guard hasn't been standing still either, with Next.js and React leading the way with innovations such as Server Components and Server Actions. 
+
+      So after yet another busy year, it's now time to take stock, and see where things stand in the JavaScript ecosystem.
+
   ###########################################################################
   # Survey-Specific FAQs
   ###########################################################################
@@ -585,3 +595,8 @@ translations:
     t: When will the results be released?
   - key: faq.results_released_react2023.description
     t: The survey will run from October 27 to November 15, and the survey results will be released shortly after that.
+
+  # JS 2023
+
+  - key: general.js2023.survey_intro
+    t: >

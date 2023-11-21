@@ -775,6 +775,13 @@ translations:
     t: All Respondents
   - key: charts.facet_responses
     t: "{count} responses"
+  - key: charts.facet_respondents
+    t: "({count} respondents)"
+
+  - key: charts.nth_percentile
+    t: "{percentile}th percentile"
+  - key: charts.nth_percentile_value
+    t: "{percentile}th percentile: {value}"
 
   - key: charts.freeform_data
     t: (freeform answers)
@@ -1560,3 +1567,13 @@ translations:
 
   - key: filters.facet.select
     t: Select a facet…
+
+  - key: dataloader.failed_request
+    t: >
+      Oh no! The API request failed with the following message:
+  - key: dataloader.submit_report_prompt
+    t: >
+      Submit a bug report to let us know about this issue, and we'll do our best to
+      fix it:
+  - key: dataloader.submit_issue
+    t: Submit Issue

@@ -27,6 +27,11 @@ translations:
   # Sections
   ###########################################################################
 
+  - key: sections.features.title
+    t: Features
+  - key: sections.features.description
+    t: Syntax, browser APIs, and other features.
+
   - key: sections.syntax.title
     t: Syntax
   - key: sections.syntax.description
@@ -521,6 +526,11 @@ translations:
   - key: features.dynamic_import
     t: Dynamic Import
 
+  - key: features.syntax_features
+    t: Syntax Features
+  - key: features.syntax_features.question
+    t: Which of these syntax features have you used?
+
   - key: features.string_features
     t: String Features
   - key: features.string_features.question
@@ -530,6 +540,26 @@ translations:
     t: Array Features
   - key: features.array_features.question
     t: Which of these Array features have you used?
+
+  - key: features.async_features
+    t: Async Features
+  - key: features.async_features.question
+    t: Which of these async features have you used?
+
+  - key: features.browser_api_features
+    t: Browser APIs
+  - key: features.browser_api_features.question
+    t: Which of these browser APIs have you used?
+
+  - key: features.language_pain_points
+    t: Language Pain Points
+  - key: features.language_pain_points.question
+    t: What are your main pain points regarding the JavaScript language?
+
+  - key: features.browser_apis_pain_points
+    t: Browser APIs Pain Points
+  - key: features.browser_apis_pain_points.question
+    t: What are your main pain points regarding browser APIs?
 
   # patterns
   - key: patterns.object_oriented_programming
@@ -568,6 +598,77 @@ translations:
     t: >
       Libraries are loaded from [Best of JS](https://bestofjs.org/). 
       If a project is missing, you can [submit it here](https://github.com/michaelrambeau/bestofjs/issues/new?template=add-a-project-to-best-of-javascript.md).
+
+  # front-end frameworks
+  - key: tools.front_end_frameworks_happiness
+    t: Front-end Frameworks Happiness
+  - key: tools.front_end_frameworks_happiness.question
+    t: How happy are you with the current state of front-end frameworks?
+
+  - key: tools.front_end_frameworks_pain_points
+    t: Front-end Frameworks Pain Points
+  - key: tools.front_end_frameworks_pain_points.question
+    t: What pain points have you encountered when using front-end frameworks?
+
+  # meta-frameworks
+
+  - key: tools.meta_frameworks_happiness
+    t: Meta-Frameworks Happiness
+  - key: tools.meta_frameworks_happiness.question
+    t: How happy are you with the current state of meta-frameworks?
+
+  - key: tools.meta_frameworks_pain_points
+    t: Meta-Frameworks Pain Points
+  - key: tools.meta_frameworks_pain_points.question
+    t: What pain points have you encountered when using meta-frameworks?
+
+  # testing
+
+  - key: tools.testing_happiness
+    t: Testing Happiness
+  - key: tools.testing_happiness.question
+    t: How happy are you with the current state of testing tools?
+
+  - key: tools.testing_pain_points
+    t: Testing Pain Points
+  - key: tools.testing_pain_points.question
+    t: What pain points have you encountered when using testing tools?
+
+  # mobile & desktop
+
+  - key: tools.mobile_desktop_happiness
+    t: Mobile & Desktop Happiness
+  - key: tools.mobile_desktop_happiness.question
+    t: How happy are you with the current state of mobile & desktop tools?
+
+  - key: tools.mobile_desktop_pain_points
+    t: Mobile & Desktop Pain Points
+  - key: tools.mobile_desktop_pain_points.question
+    t: What pain points have you encountered when using JavaScript to build mobile & desktop apps?
+
+  # build tools
+
+  - key: tools.build_tools_happiness
+    t: Build Tools Happiness
+  - key: tools.build_tools_happiness.question
+    t: How happy are you with the current state of build tools?
+
+  - key: tools.build_tools_pain_points
+    t: Build Tools Pain Points
+  - key: tools.build_tools_pain_points.question
+    t: What pain points have you encountered when using build tools?
+
+  # monorepo tools
+
+  - key: tools.monorepo_tools_happiness
+    t: Monorepo Happiness
+  - key: tools.monorepo_tools_happiness.question
+    t: How happy are you with the current state of monorepo tools?
+
+  - key: tools.monorepo_tools_pain_points
+    t: Monorepo Pain Points
+  - key: tools.monorepo_tools_pain_points.question
+    t: What pain points have you encountered when using monorepo tools?
 
   ###########################################################################
   # Other Tools
@@ -845,35 +946,37 @@ translations:
 
   - key: usage.js_app_patterns
     t: Application Patterns
-  - key: usage.js_app_patterns.description
+  - key: usage.js_app_patterns.question
     t: Which of the following architecture and rendering patterns have you used **in the last year**?
   - key: usage.js_app_patterns.others
     t: Other App Patterns
 
   - key: usage.what_do_you_use_js_for
+    t: JavaScript Usage
+  - key: usage.what_do_you_use_js_for.question
     t: What do you use JavaScript for?
   - key: usage.what_do_you_use_js_for.others
     t: Other JavaScript Use Cases
 
   - key: usage.js_ts_balance
     t: JavaScript/TypeScript Balance
-  - key: usage.js_ts_balance.description
+  - key: usage.js_ts_balance.question
     t: How do you divide your time between writing JavaScript and TypeScript code?
 
   - key: tools_others.edge_runtimes
     t: JavaScript Edge/Serverless Runtimes
-  - key: tools_others.edge_runtimes.description
+  - key: tools_others.edge_runtimes.question
     t: Which edge or serverless runtimes do you regularly use?
   - key: tools_others.edge_runtimes.others
     t: Other Edge Runtimes
   - key: other_tools.edge_runtimes
     aliasFor: tools_others.edge_runtimes
   - key: other_tools.edge_runtimes.description
-    aliasFor: tools_others.edge_runtimes.description
+    aliasFor: tools_others.edge_runtimes.question
 
   - key: usage.usage_type
     t: JavaScript Usage
-  - key: usage.usage_type.description
+  - key: usage.usage_type.question
     t: In what context do you primarily use JavaScript?
   - key: usage.usage_type.others
     t: Other Usages
@@ -885,7 +988,7 @@ translations:
 
   - key: usage.industry_sector_js
     aliasFor: usage.industry_sector
-  - key: usage.industry_sector_js.description
+  - key: usage.industry_sector_js.question
     t: Which industry sector(s) are you using JavaScript in?
   - key: usage.industry_sector_js.others
     aliasFor: usage.industry_sector.others
@@ -933,12 +1036,22 @@ translations:
     t: How happy are you with the state of rendering frameworks?
 
   - key: happiness.state_of_the_web
+    t: Web Technologies Happiness
+  - key: happiness.state_of_the_web.question
     t: How happy are you with the general state of web technologies?
 
   - key: happiness.state_of_js
+    t: JavaScript Happiness
+  - key: happiness.state_of_js.question
     t: How happy are you with the general state of JavaScript?
 
   # Pain Points
+
+  - key: usage.top_js_pain_points
+    aliasFor: opinions.js_pain_points
+  - key: usage.top_js_pain_points.question
+    t: What aspects of JavaScript do you struggle with the most?
+
   - key: opinions.js_pain_points
     t: JavaScript Pain Points
   - key: opinions.js_pain_points.description
@@ -956,6 +1069,12 @@ translations:
     aliasFor: opinions_others.js_pain_points.others
 
   # Missing Features
+
+  - key: usage.top_currently_missing_from_js
+    t: Missing Features
+  - key: usage.top_currently_missing_from_js.question
+    aliasFor: opinions.currently_missing_from_js
+
   - key: opinions.currently_missing_from_js
     t: What do you feel is currently missing from JavaScript?
   - key: opinions.currently_missing_from_js.description
