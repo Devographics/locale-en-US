@@ -425,11 +425,11 @@ translations:
   - key: options.js_app_patterns.static_site_generation
     t: Static Site Generation (SSG)
   - key: options.js_app_patterns.static_site_generation.description
-    t: Pre-rendered static content, with or without a client-side dynamic element
+    t: Static content pre-rendered at build time, with or without a client-side dynamic element
   - key: options.js_app_patterns.server_side_rendering
     t: Server-Side Rendering (SSR)
   - key: options.js_app_patterns.server_side_rendering.description
-    t: Dynamically rendering HTML content on the server before rehydrating it on the client
+    t: Dynamically rendering HTML content on the server on request, before rehydrating it on the client
   - key: options.js_app_patterns.partial_hydration
     t: Partial Hydration
   - key: options.js_app_patterns.partial_hydration.description
@@ -449,7 +449,7 @@ translations:
   - key: options.js_app_patterns.incremental_static_generation
     t: Incremental Static Generation
   - key: options.js_app_patterns.incremental_static_generation.description
-    t: Being able to dynamically augment or modify a static site even after the initial build (Next.js ISR, Gatsby DSG)
+    t: Being able to dynamically augment or modify a static site even after the initial build (Next.js ISR & on-demand revalidation, Gatsby DSG)
   - key: options.js_app_patterns.streaming_ssr
     t: Streaming SSR
   - key: options.js_app_patterns.streaming_ssr.description
@@ -462,6 +462,10 @@ translations:
     t: Edge Rendering
   - key: options.js_app_patterns.edge_rendering.description
     t: Altering rendered HTML at the edge before sending it on to the client
+  - key: options.js_app_patterns.partial_prerendering
+    t: Partial Prerendering
+  - key: options.js_app_patterns.partial_prerendering.description
+    t: Render a route with a static loading shell, while keeping some parts dynamic
 
   - key: options.js_app_patterns.micro_frontend
     t: Micro Frontend
@@ -938,7 +942,7 @@ translations:
   - key: other_tools.hosting
     t: Hosting Services
   - key: other_tools.hosting.question
-    t: Which of services have you used to host your apps?
+    t: Which of these services have you used to host JavaScript apps?
 
   ###########################################################################
   # Usage

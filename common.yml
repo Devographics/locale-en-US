@@ -577,6 +577,21 @@ translations:
   - key: options.yearly_salary.range_more_than_200
     t: More than $200k
 
+  - key: options.yearly_salary.range_0_20
+    t: $0k-$20k
+  - key: options.yearly_salary.range_20_40
+    t: $20k-$40k
+  - key: options.yearly_salary.range_40_60
+    t: $40k-$60k
+  - key: options.yearly_salary.range_60_80
+    t: $60k-$80k
+  - key: options.yearly_salary.range_80_100
+    t: $80k-$100k
+  - key: options.yearly_salary.range_100_150
+    t: $100k-$150k
+  - key: options.yearly_salary.range_150_200
+    t: $150k-$200k
+
   # salary (short versions)
   - key: options.yearly_salary.na.short
     t: N/A
@@ -1179,7 +1194,7 @@ translations:
   - key: user_info.yearly_salary
     t: Yearly Income
   - key: user_info.yearly_salary.description
-    t: Your yearly income in U.S. dollar.
+    t: Your yearly gross (pre-tax) income in U.S. dollar.
 
   # job title
   - key: user_info.job_title
@@ -1354,13 +1369,16 @@ translations:
   - key: resources.blogs_news_magazines
     t: Blogs & Magazines
   - key: resources.blogs_news_magazines.question
-    t: Which blogs/magazines/etc. do you read?
+    t: Which blogs/magazines/newsletters/etc. do you read?
   - key: resources.blogs_news_magazines.others
     t: Other Blogs & Magazines
   - key: resources.blogs_news_magazines.others.description
     t: Other answers (freeform field).
   - key: options.blogs_news_magazines.na
     t: 🚫 None
+  - key: resources.blogs_news_magazines.placeholder
+    t: |
+      Blog/newsletter #{index}…
 
   # sites & courses
   - key: resources.sites_courses
@@ -1373,6 +1391,20 @@ translations:
     t: Other answers (freeform field).
   - key: options.sites_courses.na
     t: 🚫 None
+  - key: resources.sites_courses.placeholder
+    t: |
+      Site/course #{index}…
+
+  # paid courses
+  - key: resources.paid_courses
+    t: Paid Courses
+  - key: resources.paid_courses.question
+    t: Which **paid resources** (courses, videos, books, etc.) have you used to learn JavaScript?
+  - key: options.paid_courses.na
+    t: 🚫 None
+  - key: resources.paid_courses.placeholder
+    t: |
+      Course/book #{index}…
 
   # podcasts
   - key: resources.podcasts
@@ -1385,6 +1417,9 @@ translations:
     t: Other answers (freeform field).
   - key: options.podcasts.na
     t: 🚫 None
+  - key: resources.podcasts.placeholder
+    t: |
+      Podcast #{index}…
 
   # people
   - key: resources.people
@@ -1403,6 +1438,9 @@ translations:
       (freeform field, comma-separated names).
   - key: options.people.na
     t: 🚫 None
+  - key: resources.people.placeholder
+    t: |
+      Person #{index}…
 
   # other surveys
   - key: resources.other_surveys
@@ -1426,11 +1464,14 @@ translations:
   - key: resources.video_creators
     t: Video Creators
   - key: resources.video_creators.question
-    t: Which programming-related video creators do you follow (on platforms such as YouTube, Twitch, TikTok, etc.)?
+    t: Which programming-related video creators do you follow (on YouTube, Twitch, etc.)?
   - key: resources.video_creators.others
     t: Other Video Creators
   - key: options.video_creators.na
     t: 🚫 None
+  - key: resources.video_creators.placeholder
+    t: |
+      Video creator #{index}…
 
   ###########################################################################
   # Follow-Up Questions
@@ -1482,3 +1523,8 @@ translations:
   #   t:
   # - key: followups.
   #   t:
+
+  # entities info
+
+  - key: entity.learn_more
+    t: Learn more…
