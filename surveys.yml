@@ -602,11 +602,14 @@ translations:
     t: >
       JavaScript started its life as a browser language, and then went to on conquer the server with Node.js. 
 
+
       And it 2023, it seems like the ecosystem as a whole might finally be ready to try and bridge that gap. Between features like React Server Components, frameworks like Solid and Qwik, or meta-frameworks like Next.js and Sveltekit, providing a better way of serving code and data to clients has become JavaScript's next big goal. 
+
 
       Or should we say TypeScript? At this point it's become hard to disentangle the two, so let's not even try. 
 
-      Instead, join us to figure out what's new, what's old, and what async/awaits us in the years to come!
+
+      Instead, take the survey and help us figure out what's new, what's old, and what async/awaits us in the years to come!
 
   - key: faq.data_used_js2023
     t: How will this data be used?
