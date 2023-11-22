@@ -246,6 +246,21 @@ translations:
   - key: options.top_js_pain_points.date_management.description
     aliasFor: options.js_pain_points.date_management.description
 
+  - key: options.top_js_pain_points.performance
+    t: Performance
+  - key: options.top_js_pain_points.performance.description
+    t: Writing performant and efficient JavaScript code
+
+  - key: options.top_js_pain_points.build_tools
+    t: Build Tools
+  - key: options.top_js_pain_points.build_tools.description
+    t: Managing tooling to bundle your code
+
+  - key: options.top_js_pain_points.typing
+    t: Typing
+  - key: options.top_js_pain_points.typing.description
+    t: Managing and maintaining types
+
   - key: options.top_js_pain_points.build_tools
     t: Build Tools
   - key: options.top_js_pain_points.typing
