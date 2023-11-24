@@ -979,7 +979,7 @@ translations:
   - key: share.link
     t: Link to section
   - key: share.url
-    t: Get link
+    t: Copy link
   - key: share.close
     t: Close
 

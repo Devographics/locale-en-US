@@ -639,7 +639,7 @@ translations:
   - key: faq.learn_more_js2023
     t: Where can I learn more?
   - key: faq.learn_more_js2023.description
-    t: You can learn more about this survey in [our announcement post](https://dev.to/sachagreif/the-state-of-js-2023-survey-is-now-open-1cmh).
+    t: You can learn more about this survey in [our announcement post](https://dev.to/sachagreif/the-state-of-js-2023-survey-is-now-open-2hah).
 
   - key: faq.survey_design_js2023
     t: How was this survey designed?
