@@ -787,6 +787,8 @@ translations:
     t: (freeform answers)
   - key: charts.insufficient_data
     t: Insufficient Data
+  - key: charts.insufficient_data.description
+    t: Segments with fewer than {value} respondents are not included in the results.
 
   - key: charts.axis_legends.years_of_experience
     t: Years of Experience
