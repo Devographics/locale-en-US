@@ -98,7 +98,7 @@ translations:
       t: What's your background as a developer?
 
     - key: sections.debugging_and_profiling.title
-      t: Debugging and Profiling
+      t: Debugging and profiling
     - key: sections.debugging_and_profiling.description
       t: How do you debug and profile your apps?
 
