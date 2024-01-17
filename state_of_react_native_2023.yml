@@ -321,6 +321,8 @@ translations:
     t: yarn berry (yarn v2+)
   - key: options.tools_package_managers.tools_package_managers_pnpm
     t: pnpm
+  - key: options.tools_package_managers.tools_package_managers_bun
+    t: Bun
 
   - key: options.tools_starter_templates.tools_starter_templates_expo
     t: create-expo-app
