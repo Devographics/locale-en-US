@@ -1606,10 +1606,10 @@ translations:
 
   - key: charts.sort_by_sort
     t: >
-      Sort by “**{sort}**”
+      Sort by "**{sort}**""
   - key: charts.sorted_by_sort_order
     t: >
-      Sorted by “**{sort}**”, **{order}**
+      Sorted by "**{sort}**"", **{order}**
   - key: charts.order.asc
     t: Ascending
   - key: charts.order.desc
