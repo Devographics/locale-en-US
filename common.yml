@@ -371,6 +371,22 @@ translations:
   - key: options.features.used.label.short
     t: Used it
 
+  # aliases
+  - key: options.experience.never_heard.label.short
+    aliasFor: options.features.never_heard.label.short
+  - key: options.experience.heard.label.short
+    aliasFor: options.features.heard.label.short
+  - key: options.experience.used.label.short
+    aliasFor: options.features.used.label.short
+
+  # sentiments
+  - key: options.sentiment.positive.label.short
+    t: Positive
+  - key: options.sentiment.neutral.label.short
+    t: Neutral
+  - key: options.sentiment.negative.label.short
+    t: Negative
+
   # patterns
   - key: options.patterns.use_never
     t: Almost always avoid

@@ -1579,3 +1579,50 @@ translations:
       fix it:
   - key: dataloader.submit_issue
     t: Submit Issue
+
+  ###########################################################################
+  # Chart Controls
+  ###########################################################################
+
+  - key: charts.group_by
+    t: >
+      Group by:
+  - key: charts.group.experience
+    t: Experience
+  - key: charts.group.sentiment
+    t: Sentiment
+
+  - key: charts.display_mode
+    t: >
+      Display mode:
+  - key: charts.display_mode.split
+    t: Split View
+  - key: charts.display_mode.stacked
+    t: Stacked View
+
+  - key: charts.order
+    t: >
+      Sort order:
+
+  - key: charts.sort_by_sort
+    t: >
+      Sort by “**{sort}**”
+  - key: charts.sorted_by_sort_order
+    t: >
+      Sorted by “**{sort}**”, **{order}**
+  - key: charts.order.asc
+    t: Ascending
+  - key: charts.order.desc
+    t: Descending
+
+  ###########################################################################
+  # Multi Items Experience Chart
+  ###########################################################################
+
+  - key: charts.multiexp.cell_tooltip.grouped_by_experience
+    t: >
+      Among the **{parentValue}%** of respondents who answered "**{parentAnswer}**", **{value}%** had a **{answer}** sentiment
+
+  - key: charts.multiexp.cell_tooltip.grouped_by_sentiment
+    t: >
+      Among the **{parentValue}%** of respondents who had a **{parentAnswer}** sentiment, **{value}%** answered "**{answer}**"
