@@ -317,6 +317,9 @@ translations:
   # Options
   ###########################################################################
 
+  - key: options.experience.title
+    t: Experience
+
   # other answer
   - key: options.other
     t: Other…
@@ -349,11 +352,25 @@ translations:
 
   # features (short)
   - key: options.features.never_heard.short
-    t: <span aria-hidden="true">🤷</span> Never heard of it
+    t: Never heard of it
   - key: options.features.heard.short
-    t: <span aria-hidden="true">👀</span> Heard of it
+    t: Heard of it
   - key: options.features.used.short
-    t: <span aria-hidden="true">🤓</span> Used it
+    t: Used it
+
+  - key: options.experience.never_heard
+    aliasFor: options.features.never_heard.short
+  - key: options.experience.heard
+    aliasFor: options.features.heard.short
+  - key: options.experience.used
+    aliasFor: options.features.used.short
+
+  - key: options.experience.never_heard.short
+    aliasFor: options.features.never_heard.short
+  - key: options.experience.heard.short
+    aliasFor: options.features.heard.short
+  - key: options.experience.used.short
+    aliasFor: options.features.used.short
 
   # features (no emoji)
   - key: options.features.never_heard.label
@@ -379,13 +396,44 @@ translations:
   - key: options.experience.used.label.short
     aliasFor: options.features.used.label.short
 
+  - key: options.experience.never_heard.description
+    t: Respondents who have never heard about an item.
+  - key: options.experience.heard.description
+    t: Respondents who have heard about an item, but haven't used it.
+  - key: options.experience.used.description
+    t: Respondents who have used an item.
+
   # sentiments
+
+  - key: options.sentiment.title
+    t: Sentiment
+
+  - key: options.sentiment.positive.label
+    t: Positive Sentiment
+  - key: options.sentiment.neutral.label
+    t: Neutral Sentiment
+  - key: options.sentiment.negative.label
+    t: Negative Sentiment
+
   - key: options.sentiment.positive.label.short
     t: Positive
   - key: options.sentiment.neutral.label.short
     t: Neutral
   - key: options.sentiment.negative.label.short
     t: Negative
+  - key: options.sentiment.positive.short
+    aliasFor: options.sentiment.positive.label.short
+  - key: options.sentiment.neutral.short
+    aliasFor: options.sentiment.neutral.label.short
+  - key: options.sentiment.negative.short
+    aliasFor: options.sentiment.negative.label.short
+
+  - key: options.sentiment.positive.description
+    t: Respondents who are interested in learning more about a technology; or are willing to use it again.
+  - key: options.sentiment.neutral.description
+    t: Responents who did not indicate any sentiment about a technology.
+  - key: options.sentiment.negative.description
+    t: Respondents who are not interested in learning more about a technology; or have used it and had a negative experience.
 
   # patterns
   - key: options.patterns.use_never
@@ -1191,57 +1239,57 @@ translations:
   # age
   - key: user_info.age
     t: Age
-  - key: user_info.age.description
+  - key: user_info.age.question
     t: How old are you, in years?
 
   # years of experience
   - key: user_info.years_of_experience
     t: Years of Experience
-  - key: user_info.years_of_experience.description
+  - key: user_info.years_of_experience.question
     t: How long have you been working or studying in this field, in years?
 
   # company size
   - key: user_info.company_size
     t: Company Size
-  - key: user_info.company_size.description
+  - key: user_info.company_size.question
     t: How many people work at your organization, including yourself?
 
   # salary ranges
   - key: user_info.yearly_salary
     t: Yearly Income
-  - key: user_info.yearly_salary.description
-    t: Your yearly gross (pre-tax) income in U.S. dollar.
+  - key: user_info.yearly_salary.question
+    t: What is your yearly gross (pre-tax) income in U.S. dollar?
 
   # job title
   - key: user_info.job_title
     t: Job Title
-  - key: user_info.job_title.description
+  - key: user_info.job_title.question
     t: How do you introduce yourself to others?
 
   # javascript proficiency
   - key: user_info.javascript_proficiency
     t: JavaScript Proficiency
-  - key: user_info.javascript_proficiency.description
+  - key: user_info.javascript_proficiency.question
     t: How proficient are you at JavaScript?
 
   # css proficiency
   - key: user_info.css_proficiency
     t: CSS Proficiency
-  - key: user_info.css_proficiency.description
+  - key: user_info.css_proficiency.question
     t: How proficient are you at CSS?
 
   # backend proficiency
   - key: user_info.backend_proficiency
     t: Back-end Proficiency
-  - key: user_info.backend_proficiency.description
+  - key: user_info.backend_proficiency.question
     t: How proficient are you at back-end development?
 
   # gender
   - key: user_info.gender
     t: Gender
-  - key: user_info.gender.description
+  - key: user_info.gender.question
     t: >
-      Which of the following options describes you, if any? Please pick one.
+      Which of the following options describes you?
   - key: user_info.gender.note
     t: >
       While we know collecting and publishing diversity data can be a sensitive issue,
@@ -1251,9 +1299,9 @@ translations:
   # race & ethnicity
   - key: user_info.race_ethnicity
     t: Race & Ethnicity
-  - key: user_info.race_ethnicity.description
+  - key: user_info.race_ethnicity.question
     t: >
-      Which of the following options describe you, if any? Please check all that apply.
+      Which of the following options describe you?
   - key: user_info.race_ethnicity.note
     t: >
       While we know collecting and publishing diversity data can be a sensitive issue,
@@ -1271,10 +1319,12 @@ translations:
   # disability status
   - key: user_info.disability_status
     t: Disability Status
-  - key: user_info.disability_status.description
+  - key: user_info.disability_status.question
     t: >
-      Which of the following disabilities do you experience, if any? Please check all that apply.
-      Note that this can include temporary disabilities or injuries.
+      Which of the following disabilities do you experience?
+  - key: user_info.disability_status.question
+    t: >
+      Please check all that apply. Note that this can include temporary disabilities or injuries.
 
   # disability status (other)
   - key: user_info.disability_status.others
@@ -1284,6 +1334,8 @@ translations:
 
   # other info
   - key: user_info.how_did_user_find_out_about_the_survey
+    t: Source
+  - key: user_info.how_did_user_find_out_about_the_survey.question
     t: Where did you hear about this survey?
   - key: user_info.email
     t: Your Email
@@ -1315,7 +1367,7 @@ translations:
 
   - key: user_info.industry_sector
     t: Industry Sector
-  - key: user_info.industry_sector.description
+  - key: user_info.industry_sector.question
     t: Which industry sector(s) do you work in?
   - key: user_info.industry_sector.others
     t: Other Industry Sectors
@@ -1325,18 +1377,18 @@ translations:
   - key: usage.industry_sector
     aliasFor: user_info.industry_sector
   - key: usage.industry_sector.description
-    aliasFor: user_info.industry_sector.description
+    aliasFor: user_info.industry_sector.question
   - key: usage.industry_sector.others
     aliasFor: user_info.industry_sector.others
   - key: usage.industry_sector_freeform
     aliasFor: user_info.industry_sector.others
   - key: usage.industry_sector.others.description
-    aliasFor: user_info.industry_sector.description
+    aliasFor: user_info.industry_sector.question
 
   # degree
   - key: user_info.higher_education_degree
     t: Higher Education Degree
-  - key: user_info.higher_education_degree.description
+  - key: user_info.higher_education_degree.question
     t: Do you have a higher education degree?
 
   # employment status
@@ -1349,7 +1401,7 @@ translations:
   - key: user_info.completion_stats
     t: Survey Completion
   - key: user_info.completion_stats.description
-    t: Which proportion of the survey did respondents fill out?
+    t: The proportion of the survey filled out by respondents.
 
   # email_temporary (receive updates?)
   - key: user_info.receive_notifications
@@ -1361,6 +1413,8 @@ translations:
 
   # how can we improve the survey?
   - key: user_info.how_can_we_improve
+    t: Survey Improvements
+  - key: user_info.how_can_we_improve.question
     t: How could we improve this survey?
 
   ###########################################################################

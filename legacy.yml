@@ -812,55 +812,55 @@ translations:
   # age
   - key: user_info.age
     t: Age
-  - key: user_info.age.description
+  - key: user_info.age.question
     t: How old are you, in years?
 
   # years of experience
   - key: user_info.years_of_experience
     t: Years of Experience
-  - key: user_info.years_of_experience.description
+  - key: user_info.years_of_experience.question
     t: How long have you been working or studying in this field, in years?
 
   # company size
   - key: user_info.company_size
     t: Company Size
-  - key: user_info.company_size.description
+  - key: user_info.company_size.question
     t: How big is your company, in number of employees?
 
   # salary ranges
   - key: user_info.yearly_salary
     t: Yearly Salary
-  - key: user_info.yearly_salary.description
+  - key: user_info.yearly_salary.question
     t: Your yearly salary in U.S. dollar.
 
   # job title
   - key: user_info.job_title
     t: Job Title
-  - key: user_info.job_title.description
+  - key: user_info.job_title.question
     t: How do you introduce yourself to others?
 
   # javascript proficiency
   - key: user_info.javascript_proficiency
     t: JavaScript Proficiency
-  - key: user_info.javascript_proficiency.description
+  - key: user_info.javascript_proficiency.question
     t: How proficient are you at JavaScript?
 
   # css proficiency
   - key: user_info.css_proficiency
     t: CSS Proficiency
-  - key: user_info.css_proficiency.description
+  - key: user_info.css_proficiency.question
     t: How proficient are you at CSS?
 
   # backend proficiency
   - key: user_info.backend_proficiency
     t: Back-end Proficiency
-  - key: user_info.backend_proficiency.description
+  - key: user_info.backend_proficiency.question
     t: How proficient are you at back-end development?
 
   # gender
   - key: user_info.gender
     t: Gender
-  - key: user_info.gender.description
+  - key: user_info.gender.question
     t: >
       Which of the following options describes you, if any? Please pick one.
   - key: user_info.gender.note
@@ -872,7 +872,7 @@ translations:
   # race & ethnicity
   - key: user_info.race_ethnicity
     t: Race & Ethnicity
-  - key: user_info.race_ethnicity.description
+  - key: user_info.race_ethnicity.question
     t: >
       Which of the following options describe you, if any? Please check all that apply.
   - key: user_info.race_ethnicity.note
@@ -888,7 +888,7 @@ translations:
   # disability status
   - key: user_info.disability_status
     t: Disability Status
-  - key: user_info.disability_status.description
+  - key: user_info.disability_status.question
     t: >
       Which of the following disabilities do you experience, if any? Please check all that apply.
       Note that this can include temporary disabilities or injuries.
@@ -930,7 +930,7 @@ translations:
 
   - key: user_info.industry_sector
     t: Industry Sector
-  - key: user_info.industry_sector.description
+  - key: user_info.industry_sector.question
     t: Which industry sector(s) do you work in?
   - key: user_info.industry_sector.others
     t: Other Industry Sectors
@@ -940,7 +940,7 @@ translations:
   # degree
   - key: user_info.higher_education_degree
     t: Higher Education Degree
-  - key: user_info.higher_education_degree.description
+  - key: user_info.higher_education_degree.question
     t: Do you have a higher education degree?
 
   # email_temporary (receive updates?)

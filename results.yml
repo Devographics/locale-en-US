@@ -740,7 +740,7 @@ translations:
   ###########################################################################
 
   - key: chart_units.respondents
-    t: "{count} question respondents ({percentage}% completion percentage)"
+    t: "**{count}** question respondents out of **{total}** survey participants (**{percentage}%** completion percentage)"
   - key: chart_units.percentage
     t: Percents
   - key: chart_units.count
@@ -754,16 +754,19 @@ translations:
   - key: chart_units.percentageSurvey
     aliasFor: chart_units.percentage_survey
   - key: chart_units.percentage_bucket
-    t: "% of bucket"
+    t: Percentages
   - key: chart_units.percentageBucket
     aliasFor: chart_units.percentage_bucket
   - key: chart_units.average
-    t: Average {axis}
+    t: Average
   - key: chart_units.averageByFacet
     aliasFor: chart_units.average
 
+  - key: chart_units.facetCounts
+    t: Counts
+
   - key: chart_units.percentilesByFacet
-    t: "{axis} Percentiles"
+    t: Percentiles
 
   - key: charts.average
     t: Average {axis}
@@ -1604,6 +1607,9 @@ translations:
     t: >
       Sort order:
 
+  - key: charts.sort_by
+    t: >
+      Sort by:
   - key: charts.sort_by_sort
     t: >
       Sort by "**{sort}**""
@@ -1615,14 +1621,20 @@ translations:
   - key: charts.order.desc
     t: Descending
 
+  - key: charts.actions.customize
+    aliasFor: filters.customize_chart
+  - key: charts.actions.data
+    t: Get Chart Data
+  - key: charts.actions.share
+    t: Share Chart
+
+  - key: charts.vs_facet
+    t: vs. {facet}
+
   ###########################################################################
   # Multi Items Experience Chart
   ###########################################################################
 
-  - key: charts.multiexp.cell_tooltip.grouped_by_experience
+  - key: charts.multiexp.cell_tooltip
     t: >
-      Among the **{parentValue}%** of respondents who answered "**{parentAnswer}**", **{value}%** had a **{answer}** sentiment
-
-  - key: charts.multiexp.cell_tooltip.grouped_by_sentiment
-    t: >
-      Among the **{parentValue}%** of respondents who had a **{parentAnswer}** sentiment, **{value}%** answered "**{answer}**"
+      **{value}%** of respondents answered "**{parentAnswer}**" and had a **{answer}** sentiment
