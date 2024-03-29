@@ -463,6 +463,10 @@ translations:
     t: npm
   - key: blocks.entity.youtube_link
     t: YouTube
+  - key: blocks.entity.mdn_link
+    t: MDN
+  - key: blocks.entity.caniuse_link
+    t: CanIUse
 
   # people
   - key: blocks.people.name
@@ -1647,4 +1651,8 @@ translations:
 
   - key: charts.multiexp.cell_tooltip
     t: >
-      **{value}%** of respondents answered "**{parentAnswer}**" and had a **{answer}** sentiment
+      **{value}%** of respondents answered "**{experience}**" and had a **{sentiment}** sentiment
+
+  - key: charts.multiexp.cell_tooltip_neutral
+    t: >
+      **{value}%** of respondents answered "**{experience}**" and did not pick any sentiment
