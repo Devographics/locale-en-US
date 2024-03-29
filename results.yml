@@ -772,10 +772,10 @@ translations:
     t: Average {axis}
   - key: charts.mean
     t: Mean
-  - key: charts.overall
-    t: Overall
   - key: charts.all_respondents
     t: All Respondents
+  - key: charts.overall
+    aliasFor: charts.all_respondents
   - key: charts.facet_responses
     t: "{count} responses"
   - key: charts.facet_respondents
@@ -906,14 +906,24 @@ translations:
     t: Other Answers
 
   - key: charts.cutoff_answers
-    t: Other Answers
+    t: Cutoff Answers
   - key: charts.cutoff_answers.short
-    t: Other Answers
+    t: Cutoff Answers
 
   - key: charts.other_answers
     t: Other Answers
   - key: charts.other_answers.short
     t: Other Answers
+
+  - key: charts.overlimit_answers
+    t: Over Limit
+  - key: charts.overlimit_answers.short
+    t: Over Limit
+
+  - key: charts.freeform_data
+    t: Freeform Data
+  - key: charts.freeform_data.description
+    t: Data gathered from answers submitted through a freeform textfield
 
   - key: charts.tick.links
     t: Links
@@ -1628,8 +1638,8 @@ translations:
   - key: charts.actions.share
     t: Share Chart
 
-  - key: charts.vs_facet
-    t: vs. {facet}
+  - key: charts.vs
+    t: vs.
 
   ###########################################################################
   # Multi Items Experience Chart

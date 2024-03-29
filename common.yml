@@ -539,7 +539,7 @@ translations:
 
   # age (short versions)
   - key: options.age.range_less_than_10.short
-    t: "<=10"
+    t: "<10"
   - key: options.age.range_10_18.short
     t: 11-18
   - key: options.age.range_18_24.short
@@ -554,6 +554,33 @@ translations:
     t: 55-64
   - key: options.age.range_more_than_65.short
     t: ">65"
+
+  # age 2
+  - key: options.age.range_under_20
+    t: 20 years old and under
+  - key: options.age.range_20_29
+    t: 20-29 years old
+  - key: options.age.range_30_39
+    t: 30-39 years old
+  - key: options.age.range_40_49
+    t: 40-49 years old
+  - key: options.age.range_50_59
+    t: 50-59 years old
+  - key: options.age.range_over_60
+    t: 60 years old or older
+
+  - key: options.age.range_under_20.short
+    t: "<20"
+  - key: options.age.range_20_29.short
+    t: 20-29
+  - key: options.age.range_30_39.short
+    t: 30-39
+  - key: options.age.range_40_49.short
+    t: 40-49
+  - key: options.age.range_50_59.short
+    t: 50-59
+  - key: options.age.range_over_60.short
+    t: ">60"
 
   # years of experience
   - key: options.years_of_experience.range_less_than_1
@@ -1155,6 +1182,27 @@ translations:
   - key: options.percentage_segments.range_91_100
     t: 91-100%
 
+  - key: options.percentage_segments.range_0_10
+    t: 0-10%
+  - key: options.percentage_segments.range_10_20
+    t: 10-20%
+  - key: options.percentage_segments.range_20_30
+    t: 20-30%
+  - key: options.percentage_segments.range_30_40
+    t: 30-40%
+  - key: options.percentage_segments.range_40_50
+    t: 40-50%
+  - key: options.percentage_segments.range_50_60
+    t: 50-60%
+  - key: options.percentage_segments.range_60_70
+    t: 60-70%
+  - key: options.percentage_segments.range_70_80
+    t: 70-80%
+  - key: options.percentage_segments.range_80_90
+    t: 80-90%
+  - key: options.percentage_segments.range_90_100
+    t: 90-100%
+
   - key: options.completion_stats.range_0_10
     aliasFor: options.percentage_segments.range_0_10
   - key: options.completion_stats.range_11_20
@@ -1175,6 +1223,27 @@ translations:
     aliasFor: options.percentage_segments.range_81_90
   - key: options.completion_stats.range_91_100
     aliasFor: options.percentage_segments.range_91_100
+
+  - key: options.completion_stats.range_0_10
+    aliasFor: options.percentage_segments.range_0_10
+  - key: options.completion_stats.range_10_20
+    aliasFor: options.percentage_segments.range_10_20
+  - key: options.completion_stats.range_20_30
+    aliasFor: options.percentage_segments.range_20_30
+  - key: options.completion_stats.range_30_40
+    aliasFor: options.percentage_segments.range_30_40
+  - key: options.completion_stats.range_40_50
+    aliasFor: options.percentage_segments.range_40_50
+  - key: options.completion_stats.range_50_60
+    aliasFor: options.percentage_segments.range_50_60
+  - key: options.completion_stats.range_60_70
+    aliasFor: options.percentage_segments.range_60_70
+  - key: options.completion_stats.range_70_80
+    aliasFor: options.percentage_segments.range_70_80
+  - key: options.completion_stats.range_80_90
+    aliasFor: options.percentage_segments.range_80_90
+  - key: options.completion_stats.range_90_100
+    aliasFor: options.percentage_segments.range_90_100
 
   - key: options.knowledge_score.range_0_10
     aliasFor: options.percentage_segments.range_0_10
