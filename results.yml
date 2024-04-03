@@ -1494,11 +1494,25 @@ translations:
   - key: filters.compare_data
     t: Compare Data
   - key: filters.customize_chart
-    t: Customize Chart
+    t: Customize Chart…
   - key: filters.docs
     t: Documentation
   - key: filters.compare_chart
     t: Customize “{chartName}”
+  - key: filters.edit_variant_with_name
+    t: Edit “{name}”
+  - key: filters.edit_name
+    t: "Edit Name"
+  - key: filters.edit_name.description
+    t: "Edit chart variant name:"
+  - key: filters.create_variant
+    t: Create New Variant
+  - key: filters.delete_variant
+    t: Delete Chart
+  - key: filters.delete_variant_confirm
+    t: Delete chart variant “{name}”?
+  - key: filters.edit_variant
+    t: Edit Options…
   - key: filters.filters.description
     t: |
       Using a combination of demographics filters, you can define up to four **custom data series** to dynamically
@@ -1587,6 +1601,12 @@ translations:
   - key: filters.facet.select
     t: Select a facet…
 
+  - key: filters.by_x
+    t: By {name}
+
+  - key: filters.vs_x
+    t: Vs. {name}
+
   - key: dataloader.failed_request
     t: >
       Oh no! The API request failed with the following message:
@@ -1645,9 +1665,22 @@ translations:
   - key: charts.vs
     t: vs.
 
+  - key: charts.custom_variant
+    t: Variant {index}
+  - key: charts.new_variant_name_prompt
+    t: Enter a short descriptive name for your new chart (e.g. “vs. Income”, “by Gender”, etc.)
+
   ###########################################################################
   # Multi Items Experience Chart
   ###########################################################################
+
+  - key: charts.multiexp.cell_group_tooltip.experience
+    t: >
+      **{value}%** of respondents answered "**{answer}**"
+
+  - key: charts.multiexp.cell_group_tooltip.sentiment
+    t: >
+      **{value}%** of respondents had a **{answer}** sentiment
 
   - key: charts.multiexp.cell_tooltip
     t: >
