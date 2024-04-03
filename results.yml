@@ -657,9 +657,11 @@ translations:
     t: >
       You can copy paste this query into our <a target="_blank" rel="nofollow" href="https://graphiql.devographics.com/">public GraphQL API</a>.
   - key: export.export_json
-    t: Get JSON Data
+    t: JSON Data
   - key: export.export_graphql
-    t: Get GraphQL Query
+    t: GraphQL Query
+  - key: export.export_filters
+    t: Filters Code
 
   - key: custom_data.heading
     t: Custom Chart
