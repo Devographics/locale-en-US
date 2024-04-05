@@ -1672,6 +1672,11 @@ translations:
   - key: charts.new_variant_name_prompt
     t: Enter a short descriptive name for your new chart (e.g. “vs. Income”, “by Gender”, etc.)
 
+  - key: charts.show_all_rows
+    t: Show All
+  - key: charts.show_all_rows.x_hidden
+    t: Show All ({count} hidden)
+
   ###########################################################################
   # Multi Items Experience Chart
   ###########################################################################
