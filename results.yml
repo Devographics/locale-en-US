@@ -728,7 +728,7 @@ translations:
 
   # other
   - key: blocks.freeform
-    t: (freeform question)
+    t: Freeform
 
   # Reading List
   - key: features.reading_list
@@ -1496,7 +1496,7 @@ translations:
   - key: filters.compare_data
     t: Compare Data
   - key: filters.customize_chart
-    t: Customize Chart…
+    t: Add Filters…
   - key: filters.docs
     t: Documentation
   - key: filters.compare_chart
@@ -1517,19 +1517,23 @@ translations:
     t: Edit Options…
   - key: filters.filters.description
     t: |
-      Using a combination of demographics filters, you can define up to four **custom data series** to dynamically
-      load and compare them with the default data for this question.
+      Define a combination of filters to compare multiple versions of the same chart side-by-side
   - key: filters.facets.description
     t: |
-      Pick a variable to break down each bar into "facets".
+      Pick a variable and use it to further break down each row of a chart into segments.
   - key: filters.grid_mode
-    t: Side-by-Side
+    t: Filters
   - key: filters.combined_mode
     t: Combined
   - key: filters.facet_mode
     t: Facets
   - key: filters.facet
     t: "Facet:"
+
+  - key: filters.facet_view
+    t: Segmented bars
+  - key: filters.grid_view
+    t: Side-by-side grid
 
   - key: filters.series.heading
     t: Series {index}
@@ -1618,6 +1622,26 @@ translations:
       fix it:
   - key: dataloader.submit_issue
     t: Submit Issue
+
+  # advanced options
+
+  - key: filters.advanced_options
+    t: Advanced Options
+
+  - key: filters.options.cutoff
+    t: Cutoff Threshold
+  - key: filters.options.cutoff.description
+    t: Exclude any value under this threshold from the data
+
+  - key: filters.options.limit
+    t: Limit
+  - key: filters.options.limit.description
+    t: Limit the results to the first n items
+
+  - key: filters.options.showDefaultSeries
+    aliasFor: filters.series.show_default
+  - key: filters.options.showDefaultSeries.description
+    t: Show the default (unfiltered) data series when using Grid mode
 
   ###########################################################################
   # Chart Controls
