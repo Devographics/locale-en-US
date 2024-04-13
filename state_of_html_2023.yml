@@ -6,3 +6,27 @@ translations:
 
   - key: general.results.description
     t: The 2022 edition of the annual survey about the latest trends in the HTML ecosystem.
+
+  - key: introduction.html2023
+    t: >
+      While JavaScript was taking over the web, and CSS was gaining new superpowers year over year, 
+      it could seem like HTML was content to stay dormant, happy to cede center stage to its younger siblings. 
+      After all once you've learned about `<div>`s and `<h>`s 1 through 6, what else is there to know?
+
+
+      Quite a lot, as it turns out! Once again we drafted [Lea Verou](https://lea.verou.me/) to put her in-depth
+      knowledge of the web platform to work, and help us craft a survey that ended up reaching far
+      beyond pure HTML to cover accessibility, web components, and much more.
+
+
+      This partly explains why this report has taken so long to come out – there was 
+      just a *lot* of new data to process! Hopefully you'll find that the result was worth the wait.
+
+
+      Beyond the data included here, we've also improved our **chart customization** feature to let you tailor 
+      each data visualization to an even greater degree. If you find any interesting
+      insights in the process, be sure to let us know!
+
+
+      With all this out of the day, welcome to the results for the first ever State of HTML survey. 
+      After this, I'm willing to bet you won't look at good old HTML quite the same way ever again!
