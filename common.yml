@@ -415,6 +415,21 @@ translations:
   - key: options.sentiment.negative.label
     t: Negative Sentiment
 
+  - key: options.sentiment.never_heard.positive.label
+    aliasFor: followups.sentiment_interested
+  - key: options.sentiment.never_heard.negative.label
+    aliasFor: followups.sentiment_not_interested
+
+  - key: options.sentiment.heard.positive.label
+    aliasFor: followups.sentiment_interested
+  - key: options.sentiment.heard.negative.label
+    aliasFor: followups.sentiment_not_interested
+
+  - key: options.sentiment.used.positive.label
+    aliasFor: followups.sentiment_positive_experience
+  - key: options.sentiment.used.negative.label
+    aliasFor: followups.sentiment_negative_experience
+
   - key: options.sentiment.positive.label.short
     t: Positive
   - key: options.sentiment.neutral.label.short
@@ -427,6 +442,21 @@ translations:
     aliasFor: options.sentiment.neutral.label.short
   - key: options.sentiment.negative.short
     aliasFor: options.sentiment.negative.label.short
+
+  - key: options.sentiment.never_heard.positive.label.short
+    aliasFor: followups.sentiment_interested
+  - key: options.sentiment.never_heard.negative.label.short
+    aliasFor: followups.sentiment_not_interested
+
+  - key: options.sentiment.heard.positive.label.short
+    aliasFor: followups.sentiment_interested
+  - key: options.sentiment.heard.negative.label.short
+    aliasFor: followups.sentiment_not_interested
+
+  - key: options.sentiment.used.positive.label.short
+    aliasFor: followups.sentiment_positive_experience
+  - key: options.sentiment.used.negative.label.short
+    aliasFor: followups.sentiment_negative_experience
 
   - key: options.sentiment.positive.description
     t: Respondents who are interested in learning more about a technology; or are willing to use it again.

@@ -937,7 +937,7 @@ translations:
   - key: charts.freeform_data
     t: Freeform Data
   - key: charts.freeform_data.description
-    t: Data gathered from answers submitted through a freeform textfield
+    t: Data gathered through a freeform text field
 
   - key: charts.tick.links
     t: Links
@@ -970,6 +970,13 @@ translations:
     t: Report this comment
   - key: comments.share
     t: Share Comment
+
+  - key: comments.filter.experience
+    t: "Experience: "
+  - key: comments.filter.sentiment
+    t: "Sentiment: "
+  - key: comments.filter.all
+    t: All
 
   ###########################################################################
   # Sharing
