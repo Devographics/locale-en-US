@@ -101,3 +101,21 @@ translations:
     t: Find your dream developer job in Japan today.
   - key: sponsors.renderatl.description
     t: The tech conference focused on Front-End Engineering.
+
+  ###########################################################################
+  # Conclusion
+  ###########################################################################
+
+  - key: conclusion.html2023.bio
+    t: Lead Maintainer, State of HTML Survey
+  - key: conclusion.html2023
+    t: >
+      HTML has gone through a real hero's journey over its existence. Born as a humble document description language, it soon evolved into something much more powerful, receiving its own content styling features and interaction capabilities. 
+
+      But as the web grew, CSS and JavaScript came out from HTML's shadow and both grew much more powerful than poor HTML could ever dream of, and relegated it to a secondary role. 
+
+      Yet over the years, web developers have grown disillusioned with having to reimplement the same basic components over and over again. While some have put their faith in JavaScript frameworks, and other wait for the promised Web Components Era, others yet are wondering if maybe the solution wasn't under our eyes all along. Could it be HTML's time to shine again?
+
+      Browser vendors certainly seem to think so, with many new elements and APIs having been introduced over the last couple years – and many more yet to come. 
+
+      And while this initial State of HTML has been quite instructive, I personally can't wait to see how the data evolves. So I hope you'll join us next year (or rather, this year!) as well, and come along HTML's next adventure!
