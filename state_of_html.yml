@@ -114,7 +114,7 @@ translations:
     t: Form Pain Points
   - key: features.forms_pain_points.question
     t: What are your pain points around HTML forms?
-  - key: features.forms_pain_points.description
+  - key: features.forms_pain_points.prompt
     t: |
       Think of the various form controls (e.g. `<input>`, `<textarea>`, `<select>`, `<button>` etc.),
       behaviors (e.g. validation, autocomplete), handling forms via JS, editing APIs (e.g. `contentEditable`) etc.
@@ -611,9 +611,12 @@ translations:
     t: Which existing HTML features or browser APIs are you unable to use for other reasons (and why)?
   - key: usage.html_functionality_features.description
     t: |
-      Good candidates might be existing HTML features that you often have to recreate or augment using JS.
+      Existing HTML features that you often have to recreate or augment using JS.
+  # - key: usage.html_functionality_features.description
+  #   t: |
+  #     Existing HTML features that you often have to recreate or augment using JS.
 
-      Please also specify the reason, such as lack of functionality, difficult styling, poor accessibility, etc.
+  #     Please also specify the reason, such as lack of functionality, difficult styling, poor accessibility, etc.
 
   - key: usage.html_functionality_features.placeholder.1
     t: |

@@ -34,26 +34,36 @@ translations:
     t: Colombia
   - key: options.country.CIV
     t: Côte d'Ivoire
+  - key: options.country.CYP
+    t: Cyprus
   - key: options.country.CZE
     t: Czechia
+  - key: options.country.DEU
+    t: Germany
   - key: options.country.DNK
     t: Denmark
   - key: options.country.EGY
     t: Egypt
   - key: options.country.ETH
     t: Ethiopia
+  - key: options.country.FIN
+    t: Finland
   - key: options.country.FRA
     t: France
-  - key: options.country.DEU
-    t: Germany
   - key: options.country.GHA
     t: Ghana
   - key: options.country.GBR
     t: United Kingdom
+  - key: options.country.HKG
+    t: Hong Kong
   - key: options.country.IND
     t: India
   - key: options.country.IDN
     t: Indonesia
+  - key: options.country.IRL
+    t: Ireland
+  - key: options.country.ISL
+    t: Iceland
   - key: options.country.IRN
     t: Iran
   - key: options.country.IRQ
@@ -68,6 +78,8 @@ translations:
     t: Kenya
   - key: options.country.KOR
     t: South Korea
+  - key: options.country.MDA
+    t: Moldova
   - key: options.country.MEX
     t: Mexico
   - key: options.country.MMR

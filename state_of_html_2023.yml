@@ -79,12 +79,25 @@ translations:
 
   - key: sections.features.description.html2023
     t: |
-      Wondering which front-end features are the most used, most beloved, or most hated? We've got you covered.
+      HTML features and other browser APIs
 
-  # - key: sections.forms.description.html2023
-  #   t: |
-  #     Forms play a key role in any web app, by letting users send data back to the server. So it makes sense that respondents had quite a few things to say about them.
+  ###########################################################################
+  # Other Content
+  ###########################################################################
 
-  # - key: sections.interactivity.description.html2023
-  #   t: |
-  #     Despite being abstracted away by many JavaScript frameworks, APIs for adding DOM interaction and interactivity remain an important part of the developer's toolbox.
+  - key: features.all_features.description
+    t: |
+      This chart recaps all of the survey's feature questions. You can also find a more specific breakdown of the same data in each feature sub-section.
+
+  ###########################################################################
+  # Sponsors
+  ###########################################################################
+
+  - key: sponsors.frontendmasters.description
+    t: Advance your skills with in-depth, modern front-end engineering courses.
+  - key: sponsors.google_chrome.description
+    t: Thanks to the Google Chrome team for supporting our work.
+  - key: sponsors.tokyodev.description
+    t: Find your dream developer job in Japan today.
+  - key: sponsors.renderatl.description
+    t: The tech conference focused on Front-End Engineering.

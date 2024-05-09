@@ -243,16 +243,12 @@ translations:
   - key: user_info.locale
     t: Language
   - key: user_info.locale.description
-    t: What language did respondents select to fill out the survey?
-  - key: user_info.locale.note
-    t: >
-      This data is collected automatically based on respondent's settings while taking the survey; 
-      Languages with fewer than 20 respondents not shown.
+    t: The language respondents selected to fill out the survey
 
   - key: user_info.source
     t: Source
   - key: user_info.source.description
-    t: How did respondents find out about the survey?
+    t: How respondents found out about the survey
   - key: user_info.source.note
     t: Respondent source is computed based on referrer data, URL tracking data, and self-reported answers.
 
@@ -734,12 +730,9 @@ translations:
   - key: features.reading_list
     t: Reading List
   - key: features.reading_list.description
-    t: How many respondents added each item to their reading list?
-  - key: features.reading_list.note
     t: >
-      The “Reading List” feature lets respondents save items they want to learn more
-      about while taking the survey; and get a recap of useful resources about them at
-      the end of the survey.
+      How many time each item was added to respondent's Reading List, a feature that lets people
+      learn more about specific topics as they take the survey.
 
   ###########################################################################
   # Charts
@@ -1716,6 +1709,19 @@ translations:
   - key: charts.show_all_rows.x_hidden
     t: Show All ({count} hidden)
 
+  - key: charts.metadata.completion
+    t: >
+      **{value}%** completion rate (out of {total} survey participants)
+  - key: charts.metadata.respondents
+    t: >
+      **{value}** question respondents
+  - key: charts.metadata.average
+    t: >
+      **{value}** average value
+  - key: charts.metadata.median
+    t: >
+      **{value}** median value
+
   ###########################################################################
   # Multi Items Experience Chart
   ###########################################################################
@@ -1735,3 +1741,18 @@ translations:
   - key: charts.multiexp.cell_tooltip_neutral
     t: >
       **{value}%** of respondents answered "**{experience}**" and did not pick any sentiment
+
+  ###########################################################################
+  # Raw Freeform Answers
+  ###########################################################################
+
+  - key: answers.answers
+    t: Freeform Answers
+  - key: answers.answers_for
+    t: Answers matching “{name}”
+  - key: answers.description
+    t: |
+      These freeform answers were matched to the **{name}** keyword through a combination of
+      automated and manual data processing.
+  - key: answers.report_abuse
+    t: Report this answer

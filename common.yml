@@ -1446,7 +1446,7 @@ translations:
       We do not store any personal data, so after you fill in your email address we will use it to generate a unique anonymized identifier and then delete the address itself from our records.
   - key: user_info.country
     t: Country or Region
-  - key: user_info.country.description
+  - key: user_info.country.question
     t: Where do you currently reside?
 
   - key: user_info.github_username
