@@ -28,6 +28,9 @@ translations:
       insights in the process, be sure to let us know!
 
 
+      You can learn more about all this in [this post](https://dev.to/sachagreif/discover-the-state-of-html-2023-survey-results-n10), or by watching a [quick YouTube video](https://www.youtube.com/watch?v=G-rFwp2zUT4)
+
+
       With all this out of the day, welcome to the results for the first ever State of HTML survey. 
       After this, I'm willing to bet you won't look at good old HTML quite the same way ever again!
 
@@ -87,7 +90,10 @@ translations:
 
   - key: features.all_features.description
     t: |
-      This chart recaps all of the survey's feature questions. You can also find a more specific breakdown of the same data in each feature sub-section.
+      This chart recaps all of the survey's feature questions. The main bars represent a respondent's experience; and they are then further subdivided according to that respondent's sentiment. You can change the grouping to alternate between both. 
+
+
+      Note that you can also find a more specific breakdown of the same data in each feature sub-section.
 
   ###########################################################################
   # Sponsors
@@ -107,19 +113,7 @@ translations:
   ###########################################################################
 
   - key: conclusion.html2023.bio
-    t: Lead Maintainer, State of HTML Survey
+    t: W3C Technical Architecture Group Member & MIT CSAIL Researcher
   - key: conclusion.html2023
     t: >
-      HTML has gone through a real hero's journey over its existence. Born as a humble document description language, it soon evolved into something much more powerful, receiving its own content styling features and interaction capabilities. 
-
-
-      But as the web grew, CSS and JavaScript came out from HTML's shadow and both grew much more powerful than poor HTML could ever dream of, and relegated it to a secondary role. 
-
-
-      Yet over the years, web developers have grown disillusioned with having to reimplement the same basic components over and over again. While some have put their faith in JavaScript frameworks, and other wait for the promised Web Components Era, others yet are wondering if maybe the solution wasn't under our eyes all along. Could it be HTML's time to shine again?
-
-
-      Browser vendors certainly seem to think so, with many new elements and APIs having been introduced over the last couple years – and many more yet to come. 
-
-
-      And while this initial State of HTML has been quite instructive, I personally can't wait to see how the data evolves. So I hope you'll join us next year (or rather, this year!) as well, and come along HTML's next adventure!
+      Coming soon…
