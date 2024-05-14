@@ -132,3 +132,41 @@ translations:
 
 
       Which brings me to my final point: it is important to remember that this survey only captures developer perspectives at a specific moment in time. I cannot wait to see how the data evolves! So I hope you will join us soon for the survey’s second iteration, so we can gain insight on the trend of all this over time.
+
+  ###########################################################################
+  # About
+  ###########################################################################
+
+  - key: about.content
+    t: |
+      The 2023 State of HTML survey ran from September 19 to October 19 2023, and collected 20,904 responses. 
+
+      The survey design effort was lead by [Lea Verou](https://lea.verou.me/) thanks to a grand from Google. Lea also oversaw the prototyping, testing, and implementation of new UI data collection elements; contributed to data processing; and helped with data visualization. 
+
+      The survey infrastructure is run by [Sacha Greif](https://sachagreif.com/) and [Eric Burel](https://www.lbke.fr/), with help from a team of open-source contributors and consultants. 
+
+      This year's logo and t-shirt were designed by [Christopher Kirk-Nielsen](http://chriskirknielsen.com/).
+
+      ### Survey Goals
+
+      This survey was created to identify upcoming trends in the web development ecosystem in order to help developers make technological choices. 
+
+      As such, the survey is focused on anticipating what's coming over the next few years rather than analyzing what's popular now, which is why the features or technologies that are currently most widespread are not always included. 
+
+      It should also be taken as a **snapshot of a specific subset of developers**, and is not meant to speak for the entire ecosystem. 
+
+      The survey was openly accessible online and respondents were not filtered or selected in any way.
+
+      ### Project Funding
+
+      Funding from this project comes from a variety of sources:
+
+      - **T-shirt sales**. 
+
+      - **Sponsored links**: the links to recommended resources at the bottom of each page are provided by our partner [Frontend Masters](https://frontendmasters.com/).
+
+      - **Other Funding**: [Google](https://www.google.com/) and [TokyoDev](https://www.tokyodev.com/) also funded work on the survey.
+
+      ### Technical Overview
+
+      You can find a more in-depth technical overview of how the surveys are run [here](https://dev.to/sachagreif/how-the-devographics-surveys-are-run-2023-edition-1p6a).
