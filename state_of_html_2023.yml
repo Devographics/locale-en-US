@@ -116,22 +116,22 @@ translations:
     t: W3C Technical Architecture Group Member & MIT CSAIL Researcher
   - key: conclusion.html2023
     t: >
-      *Phew!* This survey has taken a monumental effort by dozens of people across six continents. Not only did it set a new record for the most responses in a “State of…” survey debut, the data collection UIs we pioneered gave us unparalleled insight into developer attitudes.
+      *Phew!* This survey has taken a monumental effort by dozens of people across six continents. Not only did it set a new record for the most responses in a “State of…” survey debut, its data collection UI pioneered innovations that gave us unparalleled insight into developer attitudes, and will ripple far beyond its scope. 
 
 
-      Some argue that improving HTML is futile, but the survey resoundingly demonstrates the contrary. **Developers crave more interactive HTML elements**: not only were interactive elements like `<datalist>` or the Popover API among those accumulating the most positive sentiment across all categories, but interactive widgets also topped the wishlist for [missing elements](https://2023.stateofhtml.com/en-US/usage/#html_missing_elements). 
+      Some argue that improving HTML is futile, but the survey resoundingly demonstrates the contrary. **Developers crave more interactive HTML elements**: not only were interactive elements like `<datalist>` or the Popover API among those accumulating the most positive sentiment across all categories, but in addition all top [missing elements](https://2023.stateofhtml.com/en-US/usage/#html_missing_elements) were interactive widgets. 
 
 
       However, **making simple things easy** by providing canned functionality is no longer sufficient. Making complex things possible by supporting thorough customization is a necessity: insufficient customizability, especially around **styling**, was by far the top recurring pain point. 
 
 
-      As a result, form elements were also those [most frequently recreated](https://2023.stateofhtml.com/en-US/usage/#html_functionality_features); a lose-lose outcome that makes both developers and end-users suffer. Thankfully, there are many new initiatives to improve this, so the future looks bright.
+      As a result, form elements were also the elements [most frequently recreated](https://2023.stateofhtml.com/en-US/usage/#html_functionality_features); a lose-lose outcome that makes both developers and end-users suffer. Thankfully, there are many new initiatives to improve this, so the future looks bright.
 
 
-      Another big need is **extensibility**. HTML only being evolved by standards bodies does not scale, and projects have specific needs that cannot be addressed by generic elements. Unfortunately, **Web Components APIs**, while widely used, still fall short at effectively addressing developer pain points, and topped the charts of worst experiences across the entire survey. However, the ongoing activity in this area (some of which I have been a part of) leaves me hopeful that while it has been a rocky path, they will reach their full potential in the end.
+      Another big need is extensibility. It does not scale if only standards bodies have the privilege to extend HTML; and besides, generic elements cannot possibly address the enormous diversity of needs. Unfortunately, **Web Components APIs** (and especially Shadow DOM), while widely used, appear to fall short in terms of meeting developer needs and providing a smooth developer experience, as they topped the charts of worst experiences across the survey. However, the ongoing activity in this area (some of which I have been part of) leaves me hopeful that while it has been a rocky path, they are on track to reach their full potential.
 
 
-      Which brings me to my final point: it is important to remember that this survey only captures developer perspectives at a specific moment in time. I cannot wait to see how the data evolves! So I hope you will join us soon for the survey’s second iteration, so we can gain insight on the trend of all this over time.
+      Which brings me to my final point: it is important to remember that this survey is only a snapshot of developer perspectives and reflects the state of the web platform at the time. However, a primary goal of these surveys is to improve the status quo by providing better visibility into developer needs. How many of today’s pain points will be addressed tomorrow as a result? Join us later this year for the survey’s second iteration and let’s find out!
 
   ###########################################################################
   # About
