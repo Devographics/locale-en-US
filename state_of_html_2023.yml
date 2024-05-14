@@ -5,7 +5,7 @@ translations:
   ###########################################################################
 
   - key: general.results.description
-    t: The 2022 edition of the annual survey about the latest trends in the HTML ecosystem.
+    t: The 2023 edition of the annual survey about the latest trends in the HTML ecosystem.
 
   - key: introduction.html2023
     t: >
