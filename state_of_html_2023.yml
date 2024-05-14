@@ -116,7 +116,7 @@ translations:
     t: W3C Technical Architecture Group Member & MIT CSAIL Researcher
   - key: conclusion.html2023
     t: >
-      *Phew!* This survey has taken a monumental effort by dozens of people across the world. Not only did it set a new record for the most responses in a “State of…” survey debut, the data collection UIs we pioneered gave us unparalleled insight into developer attitudes.
+      *Phew!* This survey has taken a monumental effort by dozens of people across six continents. Not only did it set a new record for the most responses in a “State of…” survey debut, the data collection UIs we pioneered gave us unparalleled insight into developer attitudes.
 
 
       Some argue that improving HTML is futile, but the survey resoundingly demonstrates the contrary. **Developers crave more interactive HTML elements**: not only were interactive elements like `<datalist>` or the Popover API among those accumulating the most positive sentiment across all categories, but interactive widgets also topped the wishlist for [missing elements](https://2023.stateofhtml.com/en-US/usage/#html_missing_elements). 
