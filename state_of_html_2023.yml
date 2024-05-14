@@ -116,4 +116,19 @@ translations:
     t: W3C Technical Architecture Group Member & MIT CSAIL Researcher
   - key: conclusion.html2023
     t: >
-      Coming soon…
+      *Phew!* This survey has taken a monumental effort by dozens of people across the world. Not only did it set a new record for the most responses in a “State of…” survey debut, the data collection UIs we pioneered gave us unparalleled insight into developer attitudes.
+
+
+      Some may think HTML isn't worth paying attention to, but the survey resoundingly demonstrates the contrary. **Developers crave more interactive HTML elements**: not only were interactive elements like `<datalist>` or the Popover API among those accumulating the most positive sentiment across all categories, but interactive widgets also topped the wishlist for [missing elements](https://2023.stateofhtml.com/en-US/usage/#html_missing_elements). 
+
+
+      However, **making simple things easy** by providing canned functionality is no longer sufficient. Making complex things possible by supporting thorough customization is a necessity: insufficient customizability, especially around **styling**, was by far the top recurring pain point. 
+
+
+      As a result, form elements were also those [most frequently recreated](https://2023.stateofhtml.com/en-US/usage/#html_functionality_features); a lose-lose outcome that makes both developers and end-users suffer. Thankfully, there are many new initiatives to improve this, so the future looks bright.
+
+
+      Another big need is **extensibility**. Projects will always have specific requirements that cannot be addressed by generic elements, and while Web Components have yet to reach their full potential, the ongoing activity in this area (some of which I have been a part of) leaves me hopeful that they will soon be able to address this problem. 
+
+
+      Which brings me to my final point: it is important to remember that this survey only captures developer perspectives at a specific moment in time. I cannot wait to see how the data evolves! So I hope you will join us soon for the survey’s second iteration, so we can gain insight on the trend of all this over time.
