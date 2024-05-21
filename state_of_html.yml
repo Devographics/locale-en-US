@@ -695,7 +695,9 @@ translations:
   - key: options.html_missing_elements.context_menu
     t: Context Menu / Right-Click Menu
   - key: options.html_missing_elements.datatable
-    t: Data table (with sorting, filtering, etc.)
+    t: Data table
+  - key: options.html_missing_elements.datatable.description
+    t: Data table with sorting, filtering, etc.
   - key: options.html_missing_elements.dropdown_menu
     t: Dropdown Menu
   - key: options.html_missing_elements.image_zoom
