@@ -75,6 +75,42 @@ translations:
   - key: options.experience_ranking.awareness
     t: Awareness
 
+  - key: ratios.interest
+    aliasFor: options.experience_ranking.interest
+  - key: ratios.usage
+    aliasFor: options.experience_ranking.usage
+  - key: ratios.awareness
+    aliasFor: options.experience_ranking.awareness
+  - key: ratios.retention
+    t: Retention
+  - key: ratios.positivity
+    t: Positivity
+
+  - key: ratios.interest.description
+    t: >
+      Proportion of **positive sentiment** among respondents having **heard about** an item
+  - key: ratios.usage.description
+    t: >
+      Proportion of respondents **having used** an item
+  - key: ratios.awareness.description
+    t: >
+      Proportion of respondents **having heard about or used** an item
+  - key: ratios.retention.description
+    t: >
+      Proportion of **positive sentiment** among respondents having **used** an item
+  - key: ratios.positivity.description
+    t: >
+      Proportion of **positive sentiment** among all respondents
+
+  - key: modes.rank
+    t: Rank
+  - key: modes.value
+    t: Value
+  - key: modes.rank.description
+    t: Place according to rank
+  - key: modes.value.description
+    t: Place according to value
+
   - key: options.features_mode.grouped
     t: Grouped
   - key: options.features_mode.awareness_rank
@@ -947,6 +983,18 @@ translations:
     t: >
       Note that averages are calculated by taking the midpoint value of each range as an approximate representative value.
 
+  - key: charts.share
+    t: Share Chart…
+  - key: charts.export
+    t: Export Data…
+
+  - key: charts.mode
+    t: >
+      Mode:
+  - key: charts.view
+    t: >
+      View:
+
   ###########################################################################
   # Comments
   ###########################################################################
@@ -990,7 +1038,7 @@ translations:
   - key: share.site.body
     t: "Here are some interesting survey results: {link}"
   - key: share.block.twitter_text
-    t: "{hashtag} {year}: {title} {link}"
+    t: "{siteTitle}: {title}"
   - key: share.block.subject
     t: "{siteTitle} Survey Results"
   - key: share.block.body
