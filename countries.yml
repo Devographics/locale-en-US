@@ -22,6 +22,8 @@ translations:
     t: Brazil
   - key: options.country.CAN
     t: Canada
+  - key: options.country.CRI
+    t: Costa Rica
   - key: options.country.CHE
     t: Switzerland
   - key: options.country.CHL
@@ -76,6 +78,8 @@ translations:
     t: Japan
   - key: options.country.KEN
     t: Kenya
+  - key: options.country.LUX
+    t: Luxembourg
   - key: options.country.KOR
     t: South Korea
   - key: options.country.MDA
@@ -120,6 +124,8 @@ translations:
     t: Uganda
   - key: options.country.UKR
     t: Ukraine
+  - key: options.country.ARE
+    t: United Arab Emirates
   - key: options.country.USA
     t: United States of America
   - key: options.country.VNM

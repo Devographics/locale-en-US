@@ -850,6 +850,8 @@ translations:
     t: Interest %
   - key: charts.axis_legends.satisfaction_percentage
     t: Retention %
+  - key: charts.axis_legends.retention_percentage
+    t: Retention %
   - key: charts.axis_legends.usage_percentage
     t: Usage %
   - key: charts.axis_legends.awareness_percentage
@@ -1759,13 +1761,13 @@ translations:
 
   - key: charts.metadata.completion
     t: >
-      **{value}%** completion rate (out of {total} survey participants)
+      **{value}** completion rate (out of {total} survey participants)
   - key: charts.metadata.respondents
     t: >
       **{value}** question respondents
   - key: charts.metadata.average
     t: >
-      **{value}** average value
+      **{value}** mean (average) value
   - key: charts.metadata.median
     t: >
       **{value}** median value

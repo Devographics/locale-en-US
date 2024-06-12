@@ -622,7 +622,7 @@ translations:
   - key: tools.front_end_frameworks_happiness
     t: Front-end Frameworks Happiness
   - key: tools.front_end_frameworks_happiness.question
-    t: How happy are you with the current state of front-end frameworks?
+    t: On a scale of 0 (very unhappy) to 4 (very happy), how happy are you with the current state of front-end frameworks?
 
   - key: tools.front_end_frameworks_pain_points
     t: Front-end Frameworks Pain Points
@@ -634,7 +634,7 @@ translations:
   - key: tools.meta_frameworks_happiness
     t: Meta-Frameworks Happiness
   - key: tools.meta_frameworks_happiness.question
-    t: How happy are you with the current state of meta-frameworks?
+    t: On a scale of 0 (very unhappy) to 4 (very happy), how happy are you with the current state of meta-frameworks?
 
   - key: tools.meta_frameworks_pain_points
     t: Meta-Frameworks Pain Points
@@ -646,7 +646,7 @@ translations:
   - key: tools.testing_happiness
     t: Testing Happiness
   - key: tools.testing_happiness.question
-    t: How happy are you with the current state of testing tools?
+    t: On a scale of 0 (very unhappy) to 4 (very happy), how happy are you with the current state of testing tools?
 
   - key: tools.testing_pain_points
     t: Testing Pain Points
@@ -658,7 +658,7 @@ translations:
   - key: tools.mobile_desktop_happiness
     t: Mobile & Desktop Happiness
   - key: tools.mobile_desktop_happiness.question
-    t: How happy are you with the current state of mobile & desktop tools?
+    t: On a scale of 0 (very unhappy) to 4 (very happy), how happy are you with the current state of mobile & desktop tools?
 
   - key: tools.mobile_desktop_pain_points
     t: Mobile & Desktop Pain Points
@@ -670,7 +670,7 @@ translations:
   - key: tools.build_tools_happiness
     t: Build Tools Happiness
   - key: tools.build_tools_happiness.question
-    t: How happy are you with the current state of build tools?
+    t: On a scale of 0 (very unhappy) to 4 (very happy), how happy are you with the current state of build tools?
 
   - key: tools.build_tools_pain_points
     t: Build Tools Pain Points
@@ -682,7 +682,7 @@ translations:
   - key: tools.monorepo_tools_happiness
     t: Monorepo Happiness
   - key: tools.monorepo_tools_happiness.question
-    t: How happy are you with the current state of monorepo tools?
+    t: On a scale of 0 (very unhappy) to 4 (very happy), how happy are you with the current state of monorepo tools?
 
   - key: tools.monorepo_tools_pain_points
     t: Monorepo Pain Points

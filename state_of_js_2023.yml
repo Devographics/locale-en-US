@@ -18,21 +18,17 @@ translations:
   - key: introduction.js2023
     t: |
 
-      <span class="first-letter">A</span>fter years of relative stability, many are now beginning to question the status quo. 
+      <span class="first-letter">I</span>t should be clear by now that, for better or for worse, JavaScript is not slowing down. 
 
-      New front-end frameworks like Solid and Qwik are suggesting that React might not have all the answers after all, and on the server Astro, Remix and Next.js (among others) are making us reconsider how much code we really need to ship to the client. 
+      Between server components, server actions, signals, compilers, and more, we're seeing new innovations pop up faster than most of us can handle. 
 
-      We'll need all the data we can get if we want to make sense of all this, and in fact this year's survey received a massive **39,472** responses, almost double last year's amount! 
+      The trick to avoiding the dreaded JavaScript fatigue is remembering that you can pick your lane: sure, you can live life on the cutting edge with the early adopters; but you can also keep a slower pace and focus on stable, mature technologies – and eventually get to the new hotness once it's had a couple years to cool down. 
 
-      Because of this newly expanded audience you might notice some unexpected results, such as some features going down year-over-year in terms of awareness or usage. 
+      Speaking of taking it slow, you might be wondering why these 2023 survey results are being released six months into *2024*. The truth is, between launching the new [State of HTML](https://2023.stateofhtml.com/) survey, innovating new question formats, collecting more freeform data than ever, and rewriting a lot of our data visualization codebase, we ended up with a workload that was probably a bit too ambitious, to say the least. 
 
-      But having more data can potentially mean new insights, and that's why we've developed two new ways to interact with our dataset: the **Data Explorer** lets you cross-reference two variables and highlight any outlying results; while **Chart Filters** let you filter specific charts by income, country, gender, and many other demographic variables. 
+      Hopefully the result of all this extra effort will be worth it though. And we do plan on much faster turnarounds going forward. 
 
-      We've also replaced our catch-all "back-end" category with a more specific **Rendering Frameworks** page and added a new **Video Creators** list to the Resources section. 
-
-      Finally, Features and Libraries questions also now have a **Comments** popup that lets you see what people actually think of the items mentioned in the survey!
-
-      With all this out of the way, let's discover what JavaScript has been up to in 2022!
+      With all this out of the way, let's discover what JavaScript has been up to lately!
 
       <span class="conclusion__byline">– Sacha Greif</span>
 
@@ -80,7 +76,7 @@ translations:
 
   - key: sections.user_info.description
     t: |
-      This year, **39,471** respondents took part in the survey. And in order
+      This year, **23,540** respondents took part in the survey. And in order
       to help highlight different voices and surface deeper insights, we made a special
       effort to provide new ways to break our data down.
 

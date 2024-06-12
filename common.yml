@@ -350,6 +350,9 @@ translations:
     t: |
       <span class="option-chip option-main option-main-used">Used it</span> » <span class="option-chip option-negative">Negative experience</span>
 
+  - key: options.features.na
+    t: None
+
   # features (short)
   - key: options.features.never_heard.short
     t: Never heard of it
@@ -638,6 +641,42 @@ translations:
   - key: options.years_of_experience.range_10_20.short
     t: 11-20 years
   - key: options.years_of_experience.range_more_than_20.short
+    t: ">20 years"
+
+  # years of experience v2
+  - key: options.years_of_experience.range_under_1
+    t: Less than one year
+  - key: options.years_of_experience.range_1_3
+    t: 1 to 3 years
+  - key: options.years_of_experience.range_4_6
+    t: 4 to 6 years
+  - key: options.years_of_experience.range_7_9
+    t: 7 to 9 years
+  - key: options.years_of_experience.range_10_12
+    t: 10 to 12 years
+  - key: options.years_of_experience.range_13_15
+    t: 13 to 15 years
+  - key: options.years_of_experience.range_16_20
+    t: 16 to 20 years
+  - key: options.years_of_experience.range_over_20
+    t: More than 20 years
+
+  # years of experience v2 (short versions)
+  - key: options.years_of_experience.range_under_1.short
+    t: "<1 years"
+  - key: options.years_of_experience.range_1_3.short
+    t: 1-3 years
+  - key: options.years_of_experience.range_4_6.short
+    t: 4-6 years
+  - key: options.years_of_experience.range_7_9.short
+    t: 7-9 years
+  - key: options.years_of_experience.range_10_12.short
+    t: 10-12 years
+  - key: options.years_of_experience.range_13_15.short
+    t: 13-15 years
+  - key: options.years_of_experience.range_16_20.short
+    t: 16-20 years
+  - key: options.years_of_experience.range_over_20.short
     t: ">20 years"
 
   # company size
