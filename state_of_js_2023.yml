@@ -294,7 +294,7 @@ translations:
     t: Web developer, event organizer
   - key: picks.martin_heidegger.description
     t: |
-      I have not done a lot of JavaScript last year, but I was impressed that the tess2 algorithm, a 10-year-old npm library, still performs well!
+      I have not done a lot of JavaScript last year, but I was impressed by the tess2 algorithm, a 10-year-old npm library that still performs well!
 
   # https://auto-animate.formkit.com/
   - key: picks.sacha_greif.name
