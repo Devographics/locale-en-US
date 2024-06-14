@@ -100,8 +100,7 @@ translations:
 
   - key: sections.resources.description
     t: |
-      Highlighting blogs, podcasts, and sites was a good start, but this year we decided to go one step further
-      and actually feature the people who make up the JavaScript community!
+      Rather than provide predefined lists of options for survey respondents to pick from, we decided to simply offer raw text fields. This led to quite a few new entrants in this year's Resources section!
 
   - key: sections.opinions.description
     t: |
@@ -203,287 +202,115 @@ translations:
   ###########################################################################
 
   - key: picks.my_pick
-    t: "My 2022 Pick: "
+    t: "My 2023 Pick: "
   - key: picks.intro
     t: We asked members of the JavaScript community to share their “pick of the year”
 
-  # https://svelte.dev/blog/announcing-sveltekit-1.0
-  - key: picks.lee_robinson.name
-    t: SvelteKit 1.0
-  - key: picks.lee_robinson.bio
-    t: VP of Developer Experience at Vercel
-  - key: picks.lee_robinson.description
+  # https://leaddev.com/personal-development/how-build-trust-new-engineering-manager
+  - key: picks.emma_bostian.name
+    t: How to build trust as a new engineering manager
+  - key: picks.emma_bostian.bio
+    t: Engineering Manager, instructor, and co-host of the Ladybug Podcast.
+  - key: picks.emma_bostian.description
     t: |
-      Two years in the making, SvelteKit is finally ready for production – 
-      and it has no shortage of amazing features for developers.
+      I've found the blog posts on LeadDev under Skills for new managers to be invaluable as a new Engineering Manager. They provide great resources for anyone looking to expand their engineering leadership and management skills!
 
-  # - key: picks.vadim_makeev.name
-  #   t: Server-Side Rendering
-  # - key: picks.vadim_makeev.bio
-  #   t: DevRel, Podcaster & Web Standards Advocate
-  # - key: picks.vadim_makeev.description
-  #   t: |
-  #       The time has come to get our priorities straight.
-  #       UX > DX, and it has always been like that. Performance FTW!
-
-  # - key: picks.ben_ilegbodu.name
-  #   t: Lee Robinson
-  # - key: picks.ben_ilegbodu.bio
-  #   t: Ben Ilegbodu, Principal Frontend Engineer @ Stitch Fix
-  # - key: picks.ben_ilegbodu.description
-  #   t: |
-  #       Lee has been great at shepherding and advocating for Next.js.
-  #       He's helped me a ton with Next and continues to build excitement
-  #       for where it's going
-
-  # - key: picks.shawn_wang.name
-  #   t: Supabase
-  # - key: picks.shawn_wang.bio
-  #   t: Head of DX at Temporal
-  # - key: picks.shawn_wang.description
-  #   t: |
-  #       Supabase is making Postgres accessible to more developers and showing
-  #       everyone how a small focused team can out-ship peers 10x their size.
-
-  # - key: picks.sarah_drasner.name
-  #   t: Pawel Kozlowski
-  # - key: picks.sarah_drasner.bio
-  #   t: Director of Engineering, Core Developer Web at Google
-  # - key: picks.sarah_drasner.description
-  #   t: |
-  #       Pawel Kozlowski is the kind of developer who can be open-minded to different
-  #       approaches with humility and curiosity with the interest of improving things.
-
-  # - key: picks.sara_vieira.name
-  #   t: Paul Henschel
-  # - key: picks.sara_vieira.bio
-  #   t: International Agent of JS Bullshit
-  # - key: picks.sara_vieira.description
-  #   t: |
-  #       Paul's work on animations and ReactThreeFiber
-  #       have made doing any kind of 3D work on the web way easier.
-
-  # - key: picks.mark_erikson.name
-  #   t: Ryan Carniato
-  # - key: picks.mark_erikson.bio
-  #   t: Redux Maintainer
-  # - key: picks.mark_erikson.description
-  #   t: |
-  #       Ryan's reactive JS framework SolidJS hit 1.0,
-  #       and he wrote numerous articles analyzing advanced
-  #       JS framework implementation concepts.
-
-  # - key: picks.alyssa_nicoll.name
-  #   t: BroccoDev's Twitch Stream
-  # - key: picks.alyssa_nicoll.bio
-  #   t: Sr. Developer Advocate at Progress
-  # - key: picks.alyssa_nicoll.description
-  #   t: |
-  #     Mike Brocchi recently started streaming to Twitch. He is a brilliant programmer,
-  #     developer, and most importantly teacher.
-  #     I always have a blast watching his streams and learning from him.
-
-  # - key: picks.michael_jackson.name
-  #   t: esbuild
-  # - key: picks.michael_jackson.bio
-  #   t: Co-founder of Remix
-  # - key: picks.michael_jackson.description
-  #   t: |
-  #     We have been building the Remix compiler on top of esbuild and it
-  #     has definitely raised the bar as far as JS bundlers are concerned.
-  #     It's incredibly fast and the plugin API allows us to do pretty much anything we want.
-
-  # - key: picks.david_khourshid.name
-  #   t: Remix
-  # - key: picks.david_khourshid.bio
-  #   t: Pianist and founder of Stately
-  # - key: picks.david_khourshid.description
-  #   t: |
-  #       Remix is a full-stack web framework that feels old-school, but in a good way,
-  #       by putting you on the path to create fast, complex, and accessible modern web apps.
-
-  # - key: picks.kent_c_dodds.name
-  #   t: Fly.io
-  # - key: picks.kent_c_dodds.bio
-  #   t: Director of Developer Experience, Remix
-  # - key: picks.kent_c_dodds.description
-  #   t: |
-  #       Fly enabled me (a frontend engineer with a distain for DevOps)
-  #       to confidently deploy a real-world, globally-distributed, production-grade
-  #       app.
-
-  # - key: picks.tejas_kumar.name
-  #   t: Joe Haddad
-  # - key: picks.tejas_kumar.bio
-  #   t: Web Developer, Conference Speaker, and Director of DevRel at Xata
-  # - key: picks.tejas_kumar.description
-  #   t: |
-  #       Joe works on Next.js at Vercel and is constantly looking to proudly
-  #       demonstrate its power while actively listening
-  #       to feedback from the community to support them better.
-
-  # - key: picks.wes_bos.name
-  #   t: TC39 Proposals
-  # - key: picks.wes_bos.bio
-  #   t: JavaScript Teacher & Podcast Host
-  # - key: picks.wes_bos.description
-  #   t: |
-  #       A Git repo full of all the things that have been proposed to be added to JavaScript. It's really fun to read through all the ideas people have for the language and see them go through the stages.
-
-  # - key: picks.scott_tolinski.name
-  #   t: SvelteKit
-  # - key: picks.scott_tolinski.bio
-  #   t: Creator of Level-Up Tuts, co-host of Syntax
-  # - key: picks.scott_tolinski.description
-  #   t: |
-  #       Svelte Kit provides the amazing developer experience of Svelte with all
-  #       of the modern features of expected from a web platform.
-
-  # https://astro.build/
-  - key: picks.miguel_angel_duran.name
-    t: Astro
-  - key: picks.miguel_angel_duran.bio
-    t: Twitch Coding Streamer & Content Creator
-  - key: picks.miguel_angel_duran.description
+  # https://pocketbase.io
+  - key: picks.fireship.name
+    t: Pocketbase
+  - key: picks.fireship.bio
+    t: Google developer expert, data enthusiast, and YouTuber
+  - key: picks.fireship.description
     t: |
-      Astro is a new exciting static site generator. 
-      Zero client JavaScript by default, lazy-loading hydration, 
-      and framework-agnostic. Built on top of Vite, it's blazing fast and easy to use.
+      My pick of the year is the Pocketbase project - an open-source SQLite powered backend. Its JavaScript SDK gives web developers everything needed to build a serious application, and amazingly, can be deployed as a single binary to any $5 server.
 
-  # https://sandpack.codesandbox.io/
-  - key: picks.josh_comeau.name
-    t: Sandpack
-  - key: picks.josh_comeau.bio
-    t: Software developer and educator
-  - key: picks.josh_comeau.description
-    t: |
-      The folks at CodeSandbox open-sourced their ridiculously 
-      powerful in-browser bundler, and packaged 
-      it up in a world-class embedded code editor. Such an amazing tool!
-
-  # https://github.com/tc39/proposal-type-annotations
+  # https://www.localfirst.fm/
   - key: picks.rich_harris.name
-    t: Type Annotations Proposal
+    t: localfirst.fm
   - key: picks.rich_harris.bio
-    t: Principal Software Engineer, Vercel
+    t: Open source troublemaker at Vercel. Creator of Rollup and Svelte
   - key: picks.rich_harris.description
     t: |
-      I'm going to nominate the type annotations proposal, which was shared with the world this year.
+      If you're interested in where software is heading, this podcast is required listening. It'll renew your optimism about the future of web development.
 
-  # https://twitter.com/mooeypoo
-  - key: picks.cassidy_williams.name
-    t: Moriel Schottlender
-  - key: picks.cassidy_williams.bio
-    t: CTO at Contenda, Memer and Dreamer
-  - key: picks.cassidy_williams.description
+  # https://tldraw.com
+  - key: picks.david_khourshid.name
+    t: tldraw
+  - key: picks.david_khourshid.bio
+    t: Creator of XState and founder of [http://stately.ai](Stately)
+  - key: picks.david_khourshid.description
     t: |
-      Moriel is an inspiring developer who gives passionate, 
-      interesting talks about internationalization and accessibility, 
-      and some of the things she's built with Vue are SO cool, 
-      everyone should check them out!
+      Much more than an infinite canvas, tldraw reimagines what is possible with user interfaces, from its impressive AI experiments to its attention to drawing detail. Its source code is readily available too, and I appreciate the state machines and extensible API for endless tinkering.
 
-  # https://www.withdiode.com/
-  - key: picks.charlie_gerard.name
-    t: Diode
-  - key: picks.charlie_gerard.bio
-    t: Senior Developer Advocate at Stripe, Author and Creative Technologist
-  - key: picks.charlie_gerard.description
+  # https://replicache.dev/
+  - key: picks.dax_raad.name
+    t: Replicache
+  - key: picks.dax_raad.bio
+    t: Building [Serverless Stack](https://sst.dev/) and [Bumi](https://withbumi.com/)
+  - key: picks.dax_raad.description
     t: |
-      Diode is an interactive tool to build and simulate hardware projects in the browser. 
-      As a hardware tinkerer, this is really exciting and the interface built with 
-      Three.js is great!
+      No technology has had a bigger impact on the quality of what I've shipped in years.  I think they are carrying the torch on pushing what can be done on the web.
 
-  # https://arisa-fukuzaki.dev/
-  - key: picks.alba_silvente.name
-    t: Arisa Fukuzaki
-  - key: picks.alba_silvente.bio
-    t: FrontEnd developer working as DevRel at Storyblok
-  - key: picks.alba_silvente.description
+  # https://lexical.dev/
+  - key: picks.german_jablonski.name
+    t: Lexical
+  - key: picks.german_jablonski.bio
+    t: CEO and creator of [Fluski](https://fluski.com/), notes and spreadsheet manager
+  - key: picks.german_jablonski.description
     t: |
-      Arisa is a hybrid between FrontEnd and Dev Rels, lover of React and its ecosystem, 
-      she is always thinking about giving back to the community and contributes by giving talks,
-       workshops and articles on the subject.
+      It's been an exceptional year for the Meta text editor. Its ingenious data model and lifecycle have greatly influenced the way I program.
 
-  # https://github.com/statelyai/xstate
-  - key: picks.matt_pocock.name
-    t: XState
-  - key: picks.matt_pocock.bio
-    t: TypeScript educator from the UK, building Total TypeScript.
-  - key: picks.matt_pocock.description
+  # https://marvinh.dev/blog/speeding-up-javascript-ecosystem/
+  - key: picks.alina_listunova.name
+    t: Speeding up the JavaScript ecosystem
+  - key: picks.alina_listunova.bio
+    t: Front-end Developer, Technical Translator 🇺🇦
+  - key: picks.alina_listunova.description
     t: |
-      If I were given something complicated to build from scratch, 
-      like a spreadsheet, WYSIWYG, or video calling app, I'd use XState. 
-      It's the only library I can rely on to build complex systems.
+      Started in late 2022, this ongoing article series by Preact developer Marvin Hagemeister reveals time-inefficient elements in modern JavaScript projects and approaches. It is truly a fascinating piece for performance-conscious professionals.
 
-  # https://beta.reactjs.org/
-  - key: picks.kathryn_grayson_nanz.name
-    t: React Beta Docs
-  - key: picks.kathryn_grayson_nanz.bio
-    t: Developer Advocate at Progress
-  - key: picks.kathryn_grayson_nanz.description
+  # https://www.rspack.dev/
+  - key: picks.shadowingszy.name
+    t: Rspack
+  - key: picks.shadowingszy.bio
+    t: Architect of Datawhale, senior front-end R&D engineer of ByteDance
+  - key: picks.shadowingszy.description
     t: |
-      The new React docs are incredibly well-written, accessible for beginners, 
-      and beautifully designed. 
-      Documentation is one of the hardest things to do well, 
-      so this fantastic example is my pick of the year!
+      Rspack is a Rust-based web bundler with extremely excellent performance. By using Rust, it has solved a large number of performance bottlenecks of JS bundler. And it can be compatible with the ecosystem of webpack.
 
-  - key: picks.ryan_carniato.name
-    t: Astro
-  - key: picks.ryan_carniato.bio
-    t: Creator of Solid
-  - key: picks.ryan_carniato.description
+  # https://nuxt.com/
+  - key: picks.quarkstuff.name
+    t: Nuxt 4
+  - key: picks.quarkstuff.bio
+    t: Web & Game dev nerd
+  - key: picks.quarkstuff.description
     t: |
-      While Astro has been popularizing the "Islands" architecture for the past couple of years, 2022 saw it reach 1.0 and bring on-demand server rendering. It's never been easier to create great sites while shipping less JavaScript.
+      Nuxt 4 is one of the releases of all time. Few things broken, some things improved, and fairly easy to migrate. Give it a go if you havent yet!
 
-  - key: picks.theo_browne.name
-    t: tRPC
-  - key: picks.theo_browne.bio
-    t: Youtube Ranter & CEO @Ping.gg
-  - key: picks.theo_browne.description
+  # https://www.npmjs.com/package/tess2
+  - key: picks.martin_heidegger.name
+    t: tess2.js
+  - key: picks.martin_heidegger.bio
+    t: Web developer, event organizer
+  - key: picks.martin_heidegger.description
     t: |
-      2022 was a big year for fullstack type-safety, and tRPC deserves most of the credit. tRPC is one of those rare libraries that makes everything you used before feel… awful, honestly. Never felt more productive as a full stack engineer.
+      I have not done a lot of JavaScript last year, but I was impressed that the tess2 algorithm, a 10-year-old npm library, still performs well!
 
-  - key: picks.sebastien_lorber.name
-    t: Remotion
-  - key: picks.sebastien_lorber.bio
-    t: This Week In React founder and Docusaurus maintainer
-  - key: picks.sebastien_lorber.description
+  # https://auto-animate.formkit.com/
+  - key: picks.sacha_greif.name
+    t: AutoAnimate
+  - key: picks.sacha_greif.bio
+    t: State of JS creator
+  - key: picks.sacha_greif.description
     t: |
-      The ability to create videos with React is rad. We can get creative and use any cutting-edge web technology, not only DOM/CSS. With the GitHub Unwrapped project, it has proved it can scale, render thousands of videos and be an awesome marketing tool.
+      Formkit's AutoAnimate library, which you can see in action right here on this site, does exactly what its name implies and somehow figures out how to add animations to your apps with a single line of code!
 
-  - key: picks.ben_holmes.name
-    t: Zod
-  - key: picks.ben_holmes.bio
-    t: Open source maintainer at Astro
-  - key: picks.ben_holmes.description
-    t: |
-      Runtime safety came to define 2022 with tRPC's rise to stardom. 
-      Now, with Astro using Zod for type-safe Markdown and Remix users bringing Zod to form validation, 
-      it's becoming an must-have for any JavaScript developer
-
-  - key: picks.tyler_mcginnis.name
-    t: TanStack
-  - key: picks.tyler_mcginnis.bio
-    t: Founder, UI.dev
-  - key: picks.tyler_mcginnis.description
-    t: |
-      My JavaScript pick of the year is TanStack, or anything else that 
-      Tanner and Dominik make.
-
-  - key: picks.shaundai_person.name
-    t: Sarah Drasner
-  - key: picks.shaundai_person.bio
-    t: Senior Software Engineer, Netflix
-  - key: picks.shaundai_person.description
-    t: |
-      Sarah continues to give back to the community through blog posts, public speaking, and most recently - her book "Engineering Management for the Rest of Us".
-
-  - key: picks.xxxx.name
-    t:
-  - key: picks.xxxx.bio
-    t:
-  - key: picks.xxxx.description
-    t: |
+  # - key: picks.xxxx.name
+  #   t:
+  # - key: picks.xxxx.bio
+  #   t:
+  # - key: picks.xxxx.description
+  #   t: |
 
   ###########################################################################
   # Sponsors
