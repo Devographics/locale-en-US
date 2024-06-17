@@ -159,22 +159,22 @@ translations:
 
   - key: award.tool_usage_delta_award.comment
     t: |
-      **Vite** is barely two years old, but with a **{value}** progression over the last year it's already gaining ground.
+      **Vite** continues to be the fastest-growing library out there, with a **{value}** year-over-year increase in usage!
 
   - key: award.tool_satisfaction_award.comment
-    t: Vite takes the top spot with a sky-high **{value}** retention ratio!
+    t: Vite once again takes the top spot, with **{value}** of developers willing to use it again!
 
   - key: award.tool_interest_award.comment
-    t: With a **{value}** interest ratio, Vite once again wins the gold!
+    t: Did you guess Vite? Close, but this year **Vitest** is the technology developers are most interested in with a **{value}** interest ratio.
 
   - key: award.most_write_ins_award.comment
-    t: Many questions also accepted write-in answers, and with **{value}** mentions **Astro** was the most popular item overall.
-
-  - key: award.most_commented_feature_award.comment
-    t: With **{value}** comments, no other feature even came close to generating as much feedback as Private Fields.
+    t: With **{value}** mentions, **Bun** was the most mentioned technology overall in freeform questions.
 
   - key: award.most_commented_tool_award.comment
-    t: With **{value}** comments, React showed that it's still the most-discussed library around.
+    t: With **{value}** comments, React showed that it's once again the most-discussed library around.
+
+  - key: award.most_loved_tool_award.comment
+    t: With **{value}** of all developers having a positive opinion of it, Vite concludes its sweep of these awards by being the most-loved technology around!
 
   ###########################################################################
   # Conclusion
@@ -304,6 +304,33 @@ translations:
   - key: picks.sacha_greif.description
     t: |
       Formkit's AutoAnimate library, which you can see in action right here on this site, does exactly what its name implies and somehow figures out how to add animations to your apps with a single line of code!
+
+  # https://nuxt.com/
+  - key: picks.rexhent.name
+    t: Nuxt
+  - key: picks.rexhent.bio
+    t: Aspiring Linux and web developer
+  - key: picks.rexhent.description
+    t: |
+      Nuxt is focused on DX & UX. It's stable and continuously improving. It has the best devtools out of any framework and has created UnJS, and other tooling that powers new frameworks, like Nitro. They are a pillar of the FOSS community.
+
+  # https://medium.com/@devgustavovasquez/the-future-of-web-development-embracing-interoperable-runtimes-bd2006e9b9d7
+  - key: picks.gustavo_vasquez.name
+    t: Web Interoperable Runtimes
+  - key: picks.gustavo_vasquez.bio
+    t: Software Engineer 🇧🇷
+  - key: picks.gustavo_vasquez.description
+    t: |
+      Web Interoperable Runtimes are execution environments that allow code to run consistently across multiple platforms and environments. I believe that working with such a standard exposes us to the future of web development.
+
+  # https://x.com/wunderacle
+  - key: picks.augustin_mauroy.name
+    t: Claudio Wunder
+  - key: picks.augustin_mauroy.bio
+    t: Web developer and an OSS enthusiast
+  - key: picks.augustin_mauroy.description
+    t: |
+      Claudio is a superb person. He helped me to grow as a dev, but he also made it possible to redesign the Node website, thanks to his leadership skills. And he continues to push the Node project forward.
 
   # - key: picks.xxxx.name
   #   t:

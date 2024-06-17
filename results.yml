@@ -1170,12 +1170,17 @@ translations:
   - key: award.tool_usage_delta_award.title
     t: Most Adopted Technology
   - key: award.tool_usage_delta_award.description
-    t: Awarded to the technology with the largest year-over-year “would use again” progression.
+    t: Awarded to the technology with the largest year-over-year usage progression.
+
+  - key: award.tool_retention_award.title
+    t: Highest Retention
+  - key: award.tool_retention_award.description
+    t: Awarded to the technology with the highest percentage of returning users.
 
   - key: award.tool_satisfaction_award.title
-    t: Highest Retention
+    aliasFor: award.tool_retention_award.title
   - key: award.tool_satisfaction_award.description
-    t: Awarded to the technology with the highest percentage of returning users.
+    aliasFor: award.tool_retention_award.description
 
   - key: award.tool_interest_award.title
     t: Highest Interest
@@ -1206,6 +1211,11 @@ translations:
     t: Most Commented Library
   - key: award.most_commented_tool_award.description
     t: Awarded to the library which received the most comments.
+
+  - key: award.most_loved_tool_award.title
+    t: Most Loved Library
+  - key: award.most_loved_tool_award.description
+    t: Awarded to the technology with the highest proportion of positive opinions.
 
   ###########################################################################
   # Hints
