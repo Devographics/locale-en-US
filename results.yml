@@ -582,7 +582,7 @@ translations:
   # tool tier list
   - key: blocks.tools_tier_list
     t: Library Tier List
-  - key: blocks.tools_tier_list.description
+  - key: blocks.tools_tier_list.note
     t: |
       This chart ranks libraries based on their retention ratio (percentage of users
       who would use a library again). Note that libraries used by less than 10% of survey 
