@@ -771,7 +771,7 @@ translations:
   # Reading List
   - key: features.reading_list
     t: Reading List
-  - key: features.reading_list.description
+  - key: features.reading_list.note
     t: >
       How many time each item was added to respondent's Reading List, a feature that lets people
       learn more about specific topics as they take the survey.

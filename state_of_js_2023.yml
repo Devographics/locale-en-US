@@ -180,22 +180,41 @@ translations:
   # Conclusion
   ###########################################################################
 
-  - key: conclusion.js2022
+  - key: conclusion.js2023.cassidy_williams
     t: |
-      <span class="first-line">JavaScript and TypeScript are more vibrant than ever.</span> 
+      <span class="first-line">Y'all, what a cool year to be on the internet.</span>
 
-      We saw a continuation of performance-lead innovations, many in reactivity and hydration (or the lack thereof). For example, [Svelte](https://www.youtube.com/watch?v=AdNJ3fydeao) took on simplicity in developer ergonomics and leaned into the compiler. Solid’s explored [new approaches to reactivity](https://www.youtube.com/watch?v=2iK9zzhSKo4), while Qwik [shifted our mental model with resumability](https://www.youtube.com/watch?v=Zddw6qy5pf0). 
+      There's so many interesting and exciting changes happening, and I've got my popcorn next to my keyboard, building and watching!
 
-      Innovation is also exciting to see in multi-platform solutions like Tauri, Ionic and Flutter, which opens the door to see applications that span across even more platforms.
+      The fact that so many "smaller" libraries like Preact, Solid, and htmx are climbing in positive sentiment over something massive like Next.js is fascinating. We're seeing Angular start to make a bit of a comeback, but not quite. We're seeing people fall out of love with some of the industry darlings. We're seeing very Rusty systems grow. Astro feels like it's off to the races in developer support.
 
-      We see globally distributed talent- like Nigeria and now India [having the highest developer growth on GitHub](https://octoverse.github.com/2022/global-tech-talent). Around the world, there are amazing projects like Segun Adebayo's [Chakra UI](https://chakra-ui.com/), or Liyas Thomas's [Hoppscotch](https://hoppscotch.io/), and folks supporting other people’s growth and learning like Ada Nduka Oyom who founded [SheCodeAfrica](https://shecodeafrica.org/), a non-profit organization that has helped empower over 17K women across Africa.
+      In terms of actual browser features, it almost feels like we're going too fast for the world to catch up. Which is not always a bad thing, necessarily! But I totally echo the sentiments that browser support is my primary concern over all the cool things coming out. 
 
-      When we look at established frameworks like React, Angular, or Vue we often see a drop in satisfaction, and people may wonder what it means for the future. I believe that this decline is a function of the tool being battle-tested and used in production, of finding the rough edges and experiencing the trade-offs every tool has. It’s a sign of maturity and clear-eyed appreciation for what these tools can offer. They will also learn from innovation in the space and continue to evolve.
+      That being said, I'm personally loving using some of the new array features and the fact that more and more folks are supporting PWAs.
 
-      Finally, I couldn’t be happier to see Vite’s absolute resounding presence in the award section for the second year in a row. Build and serve tech is truly making massive strides and we all benefit from this hard work. Bravo!
+      Next year, let's improve the diversity of responses, get more people developing, and hopefully all of the new and exciting changes err on the side of fun, rather than intimidating! Thanks Sacha and team for including me here, and for running another awesome and valuable survey.
 
-  - key: conclusion.js2022.bio
-    t: Director of Engineering and Web Infrastructure, Google
+      See you online!
+
+  - key: conclusion.js2023.cassidy_williams.bio
+    t: Dev advocate, engineer, open sourcer, and memer
+
+  - key: conclusion.js2023.theo_browne
+    t: |
+      <span class="first-line">Javascript is moving to the server, and we’re uneasy about it.</span>
+
+      In last year’s survey, we saw quickly growing adoption of server-rendered frameworks like Next, Nuxt, Remix, and SvelteKit. This year, we shifted to server-first patterns such as Partial Hydration and Islands, which doubled in their adoption.
+
+      Frame-, err, libraries like HTMX show that web devs aren’t the only ones benefiting from utilizing the server. SPAs aren’t going anywhere (take a look at [Inertia](https://inertiajs.com/) for proof), but as these new patterns continue to improve, the market seems to be following along.
+
+      This move has not been unanimously loved. React’s continued to grow, but React developers are increasingly concerned about it’s direction. Getting here has been…rough, but progress is being made every day.
+
+      We’re also seeing more options appear outside of the React ecosystem. From [Nuxt](https://roe.dev/blog/nuxt-server-components) to [SolidStart](https://docs.solidjs.com/solid-start/reference/server/use-server) to [Astro](https://astro.build/blog/astro-480/#experimental-astro-actions), all of the best React Server Component features are rolling out to every developer.
+
+      And of course, Vite has continued to dominate, and is the choice for app developers and framework authors alike. Hard to imagine where we’d be today without it!
+
+  - key: conclusion.js2023.theo_browne.bio
+    t: Creator of Ping, uploadthing, create-t3-app, and video creator
 
   ###########################################################################
   # Picks
