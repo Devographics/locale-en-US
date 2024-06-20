@@ -112,9 +112,9 @@ translations:
   # Conclusion
   ###########################################################################
 
-  - key: conclusion.html2023.bio
+  - key: conclusion.html2023.lea_verou.bio
     t: W3C Technical Architecture Group Member & MIT CSAIL Researcher
-  - key: conclusion.html2023
+  - key: conclusion.html2023.lea_verou
     t: >
       *Phew!* This survey has taken a monumental effort by dozens of people across six continents. Not only did it set a new record for the most responses in a “State of…” survey debut, its data collection UI pioneered innovations that gave us unparalleled insight into developer attitudes, and will ripple far beyond its scope. 
 
