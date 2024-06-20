@@ -6,7 +6,7 @@ translations:
   ###########################################################################
 
   - key: general.results.description
-    t: The 2022 edition of the annual survey about the latest trends in the JavaScript ecosystem.
+    t: The 2023 edition of the annual survey about the latest trends in the JavaScript ecosystem.
 
   - key: general.livestream_announcement
     t: Make sure to tune in for our [special survey results livestream](https://dev.to/sachagreif/state-of-javascript-2021-livestream-24a5) on February 22! (English)
@@ -375,7 +375,7 @@ translations:
 
   - key: about.content
     t: |
-      The 2023 State of JavaScript survey ran from November 22 to December 12 2022, and collected 23,540 responses. The survey is run by [Devographics](https://devographics.com/), a collective consisting of me ([Sacha Greif](https://sachagreif.com/)) and [Eric Burel](https://www.lbke.fr/), as well as invited experts and open-source contributors. 
+      The 2023 State of JavaScript survey ran from November 22 to December 12 2023, and collected 23,540 responses. The survey is run by [Devographics](https://devographics.com/), a collective consisting of me ([Sacha Greif](https://sachagreif.com/)) and [Eric Burel](https://www.lbke.fr/), as well as invited experts and open-source contributors. 
 
       The State of JavaScript logo and t-shirt were designed by [Christopher Kirk-Nielsen](http://chriskirknielsen.com/).
 
