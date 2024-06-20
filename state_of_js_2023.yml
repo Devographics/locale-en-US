@@ -186,7 +186,7 @@ translations:
 
       There's so many interesting and exciting changes happening, and I've got my popcorn next to my keyboard, building and watching!
 
-      The fact that so many "smaller" libraries like Preact, Solid, and htmx are climbing in positive sentiment over something massive like Next.js is fascinating. We're seeing Angular start to make a bit of a comeback, but not quite. We're seeing people fall out of love with some of the industry darlings. We're seeing very Rusty systems grow. Astro feels like it's off to the races in developer support.
+      The fact that so many "smaller" libraries like Preact, Solid, and htmx are climbing in positive sentiment over something massive like Next.js is fascinating. We're starting to see Angular make a bit of a comeback, and we'll see if that trend continues next year. We're seeing people fall out of love with some of the industry darlings. We're seeing very Rusty systems grow. Astro feels like it's off to the races in developer support.
 
       In terms of actual browser features, it almost feels like we're going too fast for the world to catch up. Which is not always a bad thing, necessarily! But I totally echo the sentiments that browser support is my primary concern over all the cool things coming out. 
 
@@ -205,9 +205,9 @@ translations:
 
       In last year’s survey, we saw quickly growing adoption of server-rendered frameworks like Next, Nuxt, Remix, and SvelteKit. This year, we shifted to server-first patterns such as Partial Hydration and Islands, which doubled in their adoption.
 
-      Frame-, err, libraries like HTMX show that web devs aren’t the only ones benefiting from utilizing the server. SPAs aren’t going anywhere (take a look at [Inertia](https://inertiajs.com/) for proof), but as these new patterns continue to improve, the market seems to be following along.
+      Frame-, err, libraries like htmx show that web devs aren’t the only ones benefiting from utilizing the server. SPAs aren’t going anywhere (take a look at [Inertia](https://inertiajs.com/) for proof), but as these new patterns continue to improve, the market seems to be following along.
 
-      This move has not been unanimously loved. React’s continued to grow, but React developers are increasingly concerned about it’s direction. Getting here has been…rough, but progress is being made every day.
+      This move has not been unanimously loved. React’s continued to grow, but React developers are increasingly concerned about its direction. Getting here has been… rough, but progress is being made every day.
 
       We’re also seeing more options appear outside of the React ecosystem. From [Nuxt](https://roe.dev/blog/nuxt-server-components) to [SolidStart](https://docs.solidjs.com/solid-start/reference/server/use-server) to [Astro](https://astro.build/blog/astro-480/#experimental-astro-actions), all of the best React Server Component features are rolling out to every developer.
 
