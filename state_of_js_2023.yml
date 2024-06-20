@@ -265,7 +265,7 @@ translations:
   - key: picks.dax_raad.name
     t: Replicache
   - key: picks.dax_raad.bio
-    t: Building [Serverless Stack](https://sst.dev/) and [Bumi](https://withbumi.com/)
+    t: Building [SST](https://sst.dev/) and [terminal](https://www.terminal.shop/)
   - key: picks.dax_raad.description
     t: |
       No technology has had a bigger impact on the quality of what I've shipped in years.  I think they are carrying the torch on pushing what can be done on the web.
