@@ -1,4 +1,3 @@
-# WIP DO NOT TRANSLATE YET
 locale: en-US
 translations:
   ###########################################################################
@@ -350,6 +349,15 @@ translations:
   - key: picks.augustin_mauroy.description
     t: |
       Claudio is a superb person. He helped me to grow as a dev, but he also made it possible to redesign the Node website, thanks to his leadership skills. And he continues to push the Node project forward.
+
+  # https://www.electronjs.org/
+  - key: picks.kilian_valkhof.name
+    t: Electron
+  - key: picks.kilian_valkhof.bio
+    t: Creator of Polypane Browser for Developers
+  - key: picks.kilian_valkhof.description
+    t: |
+      With everyday apps like VS Code, Figma, Discord, Slack and 1Password all running on Electron, it remains an integral part of the JS and developer ecosystem. Many tools we all use wouldn't exist without it, and when used correctly it's a powerful platform indeed.
 
   # - key: picks.xxxx.name
   #   t:
