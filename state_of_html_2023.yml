@@ -88,6 +88,9 @@ translations:
   # Other Content
   ###########################################################################
 
+  - key: features.all_features
+    t: All Features
+
   - key: features.all_features.description
     t: |
       This chart recaps all of the survey's feature questions. The main bars represent a respondent's experience; and they are then further subdivided according to that respondent's sentiment. You can change the grouping to alternate between both. 
