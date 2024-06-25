@@ -20,6 +20,8 @@ translations:
     t: Belarus
   - key: options.country.BRA
     t: Brazil
+  - key: options.country.BGR
+    t: Bulgaria
   - key: options.country.CAN
     t: Canada
   - key: options.country.CRI
@@ -58,6 +60,8 @@ translations:
     t: United Kingdom
   - key: options.country.HKG
     t: Hong Kong
+  - key: options.country.HUN
+    t: Hungary
   - key: options.country.IND
     t: India
   - key: options.country.IDN
