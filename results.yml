@@ -548,13 +548,13 @@ translations:
       This chart shows each technology's **retention ratio** over its total **user count**.
       It can be divided into four quadrants:
 
-        - **ASSESS**: Low usage, high retention. Technologies worth keeping an eye on.
+        - **1**: Low usage, high retention. Technologies worth keeping an eye on.
 
-        - **ADOPT**: High usage, high retention. Safe technologies to adopt.
+        - **2**: High usage, high retention. Safe technologies to adopt.
 
-        - **AVOID**: Low usage, low retention. Technologies probably best avoided currently.
+        - **3**: Low usage, low retention. Technologies that are harder to recommend currently.
 
-        - **ANALYZE**: High usage, low retention. Reassess these technologies if you're currently using them.
+        - **4**: High usage, low retention. Reassess these technologies if you're currently using them.
 
   # category other tools
   - key: blocks.category_other_tools

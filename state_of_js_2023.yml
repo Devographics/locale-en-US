@@ -7,9 +7,6 @@ translations:
   - key: general.results.description
     t: The 2023 edition of the annual survey about the latest trends in the JavaScript ecosystem.
 
-  - key: general.livestream_announcement
-    t: Make sure to tune in for our [special survey results livestream](https://dev.to/sachagreif/state-of-javascript-2021-livestream-24a5) on February 22! (English)
-
   ###########################################################################
   # Introduction
   ###########################################################################
@@ -81,30 +78,27 @@ translations:
 
   - key: sections.features.description
     t: |
-      JavaScript may move fast, but it seems like JavaScript developers move even faster, as many relatively new features already show high adoption levels.
+      This year we put special emphasis on identifying developer pain points with JavaScript. As one might expect, the **lack of native typing** and **browser inconsistencies** led their respective charts, each affecting nearly a third of developers.
 
-  - key: sections.technologies.description
+  - key: sections.libraries.description
     t: |
-      This year's results point to a high degree of fragmentation in the JavaScript world. But while this can sometimes cause headaches, all that competition does make for a very dynamic ecosystem.
+      We reworked our charts to highlight not just developer experience, but *sentiment*. Be sure to explore these new grouping and sorting options to figure out which libraries get the most love… or the least!
 
-  - key: sections.tools_others.description
+  - key: sections.other_tools.description
     t: |
-      Picking a technology can often come down to a series of tough choices between 
-      competing priorities, and this year we tried to capture this process using a new bracket-style question format.
+      While the JavaScript conversation often seems to boild down to which framework to pick, it's worth remembering that there's a whole galaxy of other tools, services, and platforms to explore beyond that!
 
-  - key: sections.environments.description
+  - key: sections.usage.description
     t: |
-      Accessibility has long been an after-thought when it comes to web development, but many developers
-      are now realizing that it should in fact be the foundation on which everything else rests.
+      Once again it seems like TypeScript has established itself as the default, at least among survey respondents. But apart from that, JavaScript usage remains as varied as ever!
 
   - key: sections.resources.description
     t: |
       Rather than provide predefined lists of options for survey respondents to pick from, we decided to simply offer raw text fields. This led to quite a few new entrants in this year's Resources section!
 
-  - key: sections.opinions.description
+  - key: sections.awards.description
     t: |
-      Whether it's pain points that hold you back today, or missing features that you hope to use
-      tomorrow, this was your chance to vent and share your gripes with JavaScript!
+      This year's awards were dominated by one very specific project… how quickly will you guess what it is?
 
   ###########################################################################
   # Charts
@@ -116,19 +110,6 @@ translations:
     aliasFor: sections.browser_apis.title
   - key: options.features_categories.other_features
     aliasFor: sections.other_features.title
-
-  - key: blocks.tools_quadrant.description
-    t: |
-      This chart shows each technology's **retention ratio** over its total **user count**.
-      It can be divided into four quadrants:
-
-        - **1**: Low usage, high retention. Technologies worth keeping an eye on.
-
-        - **2**: High usage, high retention. Safe technologies to adopt.
-
-        - **3**: Low usage, low retention. Technologies that are harder to recommend currently.
-
-        - **4**: High usage, low retention. Reassess these technologies if you're currently using them.
 
   ###########################################################################
   # Notes
@@ -382,8 +363,6 @@ translations:
     t: Advance your skills with in-depth, modern front-end engineering courses.
   - key: sponsors.google_chrome.description
     t: Thanks to the Google Chrome team for supporting our work.
-  - key: sponsors.renderatl.description
-    t: This is a tech conference focused on Front-End Engineering.
 
   ###########################################################################
   # FAQ/About
