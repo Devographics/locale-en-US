@@ -363,6 +363,10 @@ translations:
     t: Advance your skills with in-depth, modern front-end engineering courses.
   - key: sponsors.google_chrome.description
     t: Thanks to the Google Chrome team for supporting our work.
+  - key: sponsors.tokyodev.description
+    t: Find your dream developer job in Japan today.
+  - key: sponsors.renderatl.description
+    t: The tech conference focused on Front-End Engineering.
 
   ###########################################################################
   # FAQ/About

@@ -1636,6 +1636,10 @@ translations:
     t: is one of
   - key: filters.operators.nin
     t: is not one of
+  - key: filters.operators.lt
+    t: is lower than
+  - key: filters.operators.gt
+    t: is greater than
   - key: filters.value.add
     t: Add Value
   - key: filters.value.delete
