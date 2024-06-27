@@ -54,7 +54,7 @@ translations:
     t: Get It
 
   - key: tshirt.price
-    t: USD $29 + shipping
+    t: USD $32 + shipping
 
   - key: tshirt.designer.heading
     t: About the Designer
