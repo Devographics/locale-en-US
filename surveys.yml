@@ -404,7 +404,7 @@ translations:
 
   # JS 2023
 
-  - key: general.js2023.survey_intro
+  - key: general.js2023.survey_intro_not_used
     t: |
       Between Astro, Vite, and Remix, 2022 kicked off a wave of JavaScript change that kept on growing in 2023 with Bun, Svelte 5, Tauri, and many others. 
 

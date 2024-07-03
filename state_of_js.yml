@@ -261,18 +261,12 @@ translations:
   - key: options.top_js_pain_points.typing.description
     t: Managing and maintaining types
 
-  - key: options.top_js_pain_points.build_tools
-    t: Build Tools
-  - key: options.top_js_pain_points.typing
-    t: Typing
   - key: options.top_js_pain_points.typescript
     t: TypeScript
   - key: options.top_js_pain_points.esm_cjs
     t: ESM vs CJS
   - key: options.top_js_pain_points.testing
     t: Testing
-  - key: options.top_js_pain_points.performance
-    t: Performance
   - key: options.top_js_pain_points.too_many_choices
     t: Too Many Choices
   - key: options.top_js_pain_points.react

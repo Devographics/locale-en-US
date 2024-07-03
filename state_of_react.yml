@@ -222,10 +222,6 @@ translations:
     t: >
       `use` is a React Hook that lets you read the value of a resource like a Promise or context.
 
-  - key: features.usetransition.description
-    t: >
-      `useTransition` is a React Hook that lets you update the state without blocking the UI.
-
   - key: features.starttransition.description
     t: >
       `startTransition` lets you update the state without blocking the UI.

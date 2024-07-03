@@ -1251,8 +1251,8 @@ translations:
   - key: options.percentage_segments.range_91_100
     t: 91-100%
 
-  - key: options.percentage_segments.range_0_10
-    t: 0-10%
+  # - key: options.percentage_segments.range_0_10
+  #   t: 0-10%
   - key: options.percentage_segments.range_10_20
     t: 10-20%
   - key: options.percentage_segments.range_20_30
@@ -1460,7 +1460,7 @@ translations:
   - key: user_info.disability_status.question
     t: >
       Which of the following disabilities do you experience?
-  - key: user_info.disability_status.question
+  - key: user_info.disability_status.prompt
     t: >
       Please check all that apply. Note that this can include temporary disabilities or injuries.
 

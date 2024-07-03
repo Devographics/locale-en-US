@@ -827,7 +827,7 @@ translations:
   - key: charts.nth_percentile_value
     t: "{percentile}th percentile: {value}"
 
-  - key: charts.freeform_data
+  - key: charts.freeform_data_indicator
     t: (freeform answers)
   - key: charts.insufficient_data
     t: Insufficient Data
