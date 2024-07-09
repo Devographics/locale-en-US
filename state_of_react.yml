@@ -90,9 +90,9 @@ translations:
   # - key: sections.testing.description
   #   t: Testing utilities and libraries
 
-  - key: sections.other_tools.title
+  - key: sections.tools.title
     t: Other Tools
-  - key: sections.other_tools.description
+  - key: sections.tools.description
     t: Other React utilities and libraries
 
   - key: sections.usage_react.title
@@ -261,7 +261,7 @@ translations:
   # tools
 
   - key: tools.component_libraries_others
-    t: Other Libraries
+    t: Other Component Libraries
   - key: tools.component_libraries_others.question
     t: What other component libraries have you used?
 
@@ -323,9 +323,9 @@ translations:
   - key: tools.back_end_infrastructure_pain_points.question
     t: What pain points have you encountered related to back-end and infrastructure?
 
-  - key: other_tools.testing
+  - key: tools.testing
     t: Testing Libraries
-  - key: other_tools.testing.question
+  - key: tools.testing.question
     t: Which libraries do you use to test your React apps?
 
   # - key: tools.testing_happiness
@@ -333,9 +333,9 @@ translations:
   # - key: tools.testing_happiness.description
   #   t: How happy are you with the current state of testing libraries?
 
-  - key: other_tools.mobile_development
+  - key: tools.mobile_development
     t: Mobile Development
-  - key: other_tools.mobile_development.question
+  - key: tools.mobile_development.question
     t: Which libraries have you used for mobile development?
 
   # - key: tools.mobile_development_others
@@ -346,94 +346,94 @@ translations:
   #   t: How happy are you with the current state of mobile development?
 
   # other tools
-  - key: other_tools.form_libraries
+  - key: tools.form_libraries
     t: Form Libraries
-  # - key: other_tools.form_libraries.description
+  # - key: tools.form_libraries.description
   #   t: Libraries for generating and validating forms.
-  - key: other_tools.form_libraries.question
+  - key: tools.form_libraries.question
     t: Which libraries have you used to manage forms?
   - key: options.form_libraries.na
     t: None
 
-  - key: other_tools.build_tools
+  - key: tools.build_tools
     t: Build Tools
-  # - key: other_tools.build_tools.description
+  # - key: tools.build_tools.description
   #   t: Build tools and bundlers.
-  - key: other_tools.build_tools.question
+  - key: tools.build_tools.question
     t: Which build tools and bundlers have you used?
 
-  - key: other_tools.animation_libraries
+  - key: tools.animation_libraries
     t: Animation
-  # - key: other_tools.animation.description
+  # - key: tools.animation.description
   #   t: Libraries to help manage animations and transitions.
-  - key: other_tools.animation_libraries.question
+  - key: tools.animation_libraries.question
     t: Which animation libraries have you used?
 
-  - key: other_tools.auth
+  - key: tools.auth
     t: Authentication
-  # - key: other_tools.auth.description
+  # - key: tools.auth.description
   #   t: Libraries and services for managing authentication and accounts.
-  - key: other_tools.auth.question
+  - key: tools.auth.question
     t: Which libraries and services have you used to handle authentication?
 
-  - key: other_tools.data_visualization_libraries
+  - key: tools.data_visualization_libraries
     t: Data Visualization
-  # - key: other_tools.data_visualization.description
+  # - key: tools.data_visualization.description
   #   t: Data visualization and graphics libraries.
-  - key: other_tools.data_visualization_libraries.question
+  - key: tools.data_visualization_libraries.question
     t: Which data visualization and graphics libraries have you used?
 
-  - key: other_tools.css_tools
+  - key: tools.css_tools
     t: CSS Tools & Libraries
-  # - key: other_tools.css_tools.description
+  # - key: tools.css_tools.description
   #   t: CSS libraries, frameworks, and utilities you use to style your React app.
-  - key: other_tools.css_tools.question
+  - key: tools.css_tools.question
     t: Which libraries or frameworks have you used to style your React apps?
 
-  - key: other_tools.other_frontend_frameworks
+  - key: tools.other_frontend_frameworks
     t: Other Front-end Frameworks
-  # - key: other_tools.other_frontend_frameworks.description
+  # - key: tools.other_frontend_frameworks.description
   #   t: >
   #     Other front-end frameworks
-  - key: other_tools.other_frontend_frameworks.question
+  - key: tools.other_frontend_frameworks.question
     t: >
       Which other front-end frameworks have you used?
 
-  - key: other_tools.hosting
+  - key: tools.hosting
     t: Hosting Services
-  # - key: other_tools.hosting.description
+  # - key: tools.hosting.description
   #   t: Services you use to host your React apps.
-  - key: other_tools.hosting.question
+  - key: tools.hosting.question
     t: Which of services have you used to host your React apps?
 
-  - key: other_tools.backend_language
+  - key: tools.backend_language
     t: Back-end Languages
-  - key: other_tools.backend_language.question
+  - key: tools.backend_language.question
     t: Which language(s) are your back-end apps written in?
 
-  - key: other_tools.other_services
+  - key: tools.other_services
     t: Other Services
-  - key: other_tools.other_services.question
+  - key: tools.other_services.question
     t: What other services have you used with your React apps?
 
-  - key: other_tools.validation
+  - key: tools.validation
     t: Schema & Validation Libraries
-  - key: other_tools.validation.question
+  - key: tools.validation.question
     t: Which libraries have you used for validating data against a schema?
 
-  - key: other_tools.ai_tools
+  - key: tools.ai_tools
     t: AI Tools
-  - key: other_tools.ai_tools.question
+  - key: tools.ai_tools.question
     t: What AI tools or services have you used to help you write React code?
 
-  - key: other_tools.renderers
+  - key: tools.renderers
     t: React Renderers
-  - key: other_tools.renderers.question
+  - key: tools.renderers.question
     t: Which libraries have you used to render React to different platforms or environments?
 
-  - key: other_tools.other_tools
+  - key: tools.other_tools
     t: Other Tools
-  - key: other_tools.other_tools.question
+  - key: tools.tools.question
     t: What other tools have you used to develop React apps?
 
   # CSS

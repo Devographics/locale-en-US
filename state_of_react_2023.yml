@@ -72,13 +72,11 @@ translations:
 
   - key: sections.user_info.description
     t: |
-      This year, **23,540** respondents took part in the survey. And in order
-      to help highlight different voices and surface deeper insights, we made a special
-      effort to provide new ways to break our data down.
+      **13,003** respondents took part in the first ever State of React survey. A small sample of the overall community to be sure, but still large enough to provide us with valuable data!
 
   - key: sections.features.description
     t: |
-      This year we put special emphasis on identifying developer pain points with JavaScript. As one might expect, the **lack of native typing** and **browser inconsistencies** led their respective charts, each affecting nearly a third of developers.
+      We asked respondents about their thoughts on **28** distinct features, from omnipresent hooks such as `useState`, to more niche APIs like `useDeferredValue`. Be sure to try and sort by “sentiment”!
 
   - key: sections.libraries.description
     t: |
@@ -99,6 +97,67 @@ translations:
   - key: sections.awards.description
     t: |
       This year's awards were dominated by one very specific project… how quickly will you guess what it is?
+
+  ###########################################################################
+  # Other Content
+  ###########################################################################
+
+  - key: features.all_features
+    t: All Features
+
+  - key: features.all_features.takeaway
+    t: |
+      This chart recaps all of the survey's feature questions. The main bars represent a respondent's experience; and they are then further subdivided according to that respondent's sentiment. You can change the grouping to alternate between both.
+
+  - key: features.reading_list.takeaway
+    t: >
+      **30%** of respondents added at least one item to their reading list while taking the survey in order to learn more about them later. Here is a breakdown of their picks.
+
+  - key: features.main_apis_items
+    t: Main APIs Experience & Sentiment
+  - key: features.main_apis_pain_points.takeaway
+    t: >
+      Among the most common React APIs, `forwardRef` was by far the one generating the most pain for developers, with `memo` a close second. Thankfully the React team is in the process of rolling out better alternatives to both.
+
+  - key: features.hooks_items
+    t: Hooks Experience & Sentiment
+  - key: features.hooks_pain_points.takeaway
+    t: >
+      Unsurpringly, `useEffect` and `useCallback` were cited as the most problematice React hooks, in large part due to the management of dependency arrays.
+
+  - key: features.new_apis_items
+    t: New APIs Experience & Sentiment
+  - key: features.new_apis_pain_points.takeaway
+    t: >
+      While React's ability to keep evolving and stay relevant over time is one of its best assets, it also comes at a cost and new APIs such as **Server Components** can definitely be tough to adopt.
+
+  # component libraries
+  - key: tools.component_libraries_experience
+    t: Component Libraries Experience & Sentiment
+  - key: tools.component_libraries_experience.takeaway
+    t: >
+      **React Aria** and **Radix** lead the rankings in terms of positivity, proving that the headless approach to component libraries has a lot going for it.
+
+  # state management
+  - key: tools.state_management_experience
+    t: State Management Experience & Sentiment
+  - key: tools.state_management_experience.takeaway
+    t: >
+      Beyond **useState**, the state management solution with the highest positivity ratio is **Zustand**. And while **Redux** still boasts a large userbase, it isn't quite as beloved.
+
+  # data loading
+  - key: tools.data_loading_experience
+    t: Data Loading Experience & Sentiment
+  - key: tools.data_loading_experience.takeaway
+    t: >
+      **TanStack Query** has been making waves for a while now, and it turns out its stellar reputation is reflected in the data.
+
+  # back-end infrastructure
+  - key: tools.meta_frameworks_experience
+    t: Meta-Frameworks Experience & Sentiment
+  - key: tools.meta_frameworks_experience.takeaway
+    t: >
+      While you'll certainly have no trouble finding people complaining about **Next.js**, it still managed to top the positivity rankings for meta-frameworks, followed by **Remix** and **Astro**.
 
   ###########################################################################
   # Charts
