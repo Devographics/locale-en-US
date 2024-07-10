@@ -14,17 +14,15 @@ translations:
   - key: introduction.react2023
     t: |
 
-      <span class="first-letter">I</span>t should be clear by now that, for better or for worse, JavaScript is not slowing down. 
+      <span class="first-letter">R</span>eact has been around for 11 years, which seems hard to even grasp when you look at the current pace of web development. 
 
-      Between server components, server actions, signals, compilers, and more, we're seeing new innovations pop up faster than most of us can handle. 
+      The reason why we're still talking about React today is that it's somehow been able to keep up, always evolving to meet the challenges thrown at it by its users. 
 
-      The trick to avoiding the dreaded JavaScript fatigue is remembering that you can pick your lane: sure, you can live life on the cutting edge with the early adopters; but you can also keep a slower pace and focus on stable, mature technologies – and eventually get to the new hotness once it's had a couple years to cool down. 
+      In fact, not content with merely keeping up, React is even leading the way on new innovative patterns such as Server Components and the upcoming Compiler. 
 
-      Speaking of taking it slow, you might be wondering why these 2023 survey results are being released six months into *2024*. The truth is, between launching the new [State of HTML](https://2023.stateofhtml.com/) survey, innovating new question formats, collecting more freeform data than ever, and rewriting a lot of our data visualization codebase, we ended up with a workload that was probably a bit too ambitious, to say the least. 
+      That being said, please note that this data was collected between **October 27** and **November 15, 2023**, which sadly means some of the more recent developments in the React ecosystem aren't covered. 
 
-      Hopefully the result of all this extra effort will be worth it though. And we do plan on much faster turnarounds going forward. 
-
-      With all this out of the way, let's discover what JavaScript has been up to lately!
+      Even so, there's still a lot to explore here, from component libraries, to state management techniques, to application patterns. So let's discover the first ever State of React survey results together!
 
       <span class="conclusion__byline">– Sacha Greif</span>
 
@@ -117,11 +115,19 @@ translations:
     t: |
       We reworked our charts to highlight not just developer experience, but *sentiment*. Be sure to explore these new grouping and sorting options to figure out which libraries get the most love… or the least!
 
-  - key: tools.all_items.experience
+  - key: tools.all_tools_experience
     t: Libraries Experience & Sentiment
-  - key: tools.all_items.experience.takeaway
+  - key: tools.all_tools_experience.takeaway
     t: >
       Among React libraries and frameworks, **Next.js** and **TanStack Query** lead the way in terms of overall positivity.
+
+      Note that some items such as `useState` and `fetch` were also included in order to provide a baseline, even though they're not libraries themselves.
+
+  - key: tools.scatterplot_overview
+    t: Libraries Retention vs Usage
+  - key: tools.scatterplot_overview.takeaway
+    t: >
+      Among libraries and frameworks, **Next.js** was the only item boasting both high retention and high usage. On the other hand, while even more respondents had used **Create React App**, a lot fewer were willing to keep using it going forward.
 
   # component libraries
 
@@ -171,33 +177,37 @@ translations:
     t: >
       Despite the focus on static site generation, server-side rendering, and server components, it's interesting to note that the vast majority of React users still work on Single Page Applications.
 
+  - key: usage.react_version.takeaway
+    t: >
+      Note that the survey was conducted **before** the announcement or release of React 19.
+
   # resources
 
   - key: sections.resources.description
     t: |
       One of the big reason for React's continued dominance is the sheer amount of documentation, blog posts, videos, and other resources it has accumulated over the years. Here's just a small sample!
 
-  - key: sections.learning_methods.takeaway
+  - key: resources.learning_methods.takeaway
     t: |
       The React team has done a great job with the new React docs site, so it shouldn't be surprised that it has become the number one way people learn about the framework.
 
-  - key: sections.blogs_news_magazines.takeaway
+  - key: resources.blogs_news_magazines.takeaway
     t: |
       While this list is populated by many usual suspects, it's worth celebrating the presence of React-specific media such as **This Week in React** or **React Status**.
 
-  - key: sections.sites_courses.takeaway
+  - key: resources.sites_courses.takeaway
     t: |
       While **Stack Overflow** has gone through its own share of AI-related trouble recently, it still tops the rankings for now.
 
-  - key: sections.podcasts.takeaway
+  - key: resources.podcasts.takeaway
     t: |
       **Syntax** continues to assert its dominance over the dev podcast landscape. Also interesting to note the lack of any active React-specific podcast in the top 10.
 
-  - key: sections.video_creators.takeaway
+  - key: resources.video_creators.takeaway
     t: |
       While **Theo** and **Web Dev Simplified** both featured React content, it's interesting to note that despite not typically covering React, **The Primeagen** still comes in at #3.
 
-  - key: sections.people.takeaway
+  - key: resources.people.takeaway
     t: |
       When it comes to being an influential figure in the React community, it's no surprise that **Dan Abramov** tops the rankings – Although **Kent C. Dodds** and **Theo** both seem to be challenging for the crown.
 
