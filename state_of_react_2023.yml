@@ -67,40 +67,20 @@ translations:
       Originally from France but now based in the United States, Chris is not just an amazing front-end developer, but also a talented illustrator who specializes in retro visuals. In fact, we encourage you to also check out his [other t-shirt designs](https://chriskirknielsen.com/designs)!
 
   ###########################################################################
-  # Sections
+  # Content
   ###########################################################################
+
+  # user_info
 
   - key: sections.user_info.description
     t: |
       **13,003** respondents took part in the first ever State of React survey. A small sample of the overall community to be sure, but still large enough to provide us with valuable data!
 
+  # features
+
   - key: sections.features.description
     t: |
       We asked respondents about their thoughts on **28** distinct features, from omnipresent hooks such as `useState`, to more niche APIs like `useDeferredValue`. Be sure to try and sort by “sentiment”!
-
-  - key: sections.libraries.description
-    t: |
-      We reworked our charts to highlight not just developer experience, but *sentiment*. Be sure to explore these new grouping and sorting options to figure out which libraries get the most love… or the least!
-
-  - key: sections.other_tools.description
-    t: |
-      While the JavaScript conversation often seems to boild down to which framework to pick, it's worth remembering that there's a whole galaxy of other tools, services, and platforms to explore beyond that!
-
-  - key: sections.usage.description
-    t: |
-      Once again it seems like TypeScript has established itself as the default, at least among survey respondents. But apart from that, JavaScript usage remains as varied as ever!
-
-  - key: sections.resources.description
-    t: |
-      Rather than provide predefined lists of options for survey respondents to pick from, we decided to simply offer raw text fields. This led to quite a few new entrants in this year's Resources section!
-
-  - key: sections.awards.description
-    t: |
-      This year's awards were dominated by one very specific project… how quickly will you guess what it is?
-
-  ###########################################################################
-  # Other Content
-  ###########################################################################
 
   - key: features.all_features
     t: All Features
@@ -131,7 +111,20 @@ translations:
     t: >
       While React's ability to keep evolving and stay relevant over time is one of its best assets, it also comes at a cost and new APIs such as **Server Components** can definitely be tough to adopt.
 
+  # libraries
+
+  - key: sections.libraries.description
+    t: |
+      We reworked our charts to highlight not just developer experience, but *sentiment*. Be sure to explore these new grouping and sorting options to figure out which libraries get the most love… or the least!
+
+  - key: tools.all_items.experience
+    t: Libraries Experience & Sentiment
+  - key: tools.all_items.experience.takeaway
+    t: >
+      Among React libraries and frameworks, **Next.js** and **TanStack Query** lead the way in terms of overall positivity.
+
   # component libraries
+
   - key: tools.component_libraries_experience
     t: Component Libraries Experience & Sentiment
   - key: tools.component_libraries_experience.takeaway
@@ -139,6 +132,7 @@ translations:
       **React Aria** and **Radix** lead the rankings in terms of positivity, proving that the headless approach to component libraries has a lot going for it.
 
   # state management
+
   - key: tools.state_management_experience
     t: State Management Experience & Sentiment
   - key: tools.state_management_experience.takeaway
@@ -146,18 +140,71 @@ translations:
       Beyond **useState**, the state management solution with the highest positivity ratio is **Zustand**. And while **Redux** still boasts a large userbase, it isn't quite as beloved.
 
   # data loading
+
   - key: tools.data_loading_experience
     t: Data Loading Experience & Sentiment
   - key: tools.data_loading_experience.takeaway
     t: >
-      **TanStack Query** has been making waves for a while now, and it turns out its stellar reputation is reflected in the data.
+      **TanStack Query** has been making waves for a while now, and it turns out its reputation is reflected in the data since it's the data loading method respondents felt the most positive about, right after the native `fetch` API.
 
   # back-end infrastructure
+
   - key: tools.meta_frameworks_experience
     t: Meta-Frameworks Experience & Sentiment
   - key: tools.meta_frameworks_experience.takeaway
     t: >
       While you'll certainly have no trouble finding people complaining about **Next.js**, it still managed to top the positivity rankings for meta-frameworks, followed by **Remix** and **Astro**.
+
+  #other_tools
+
+  - key: sections.other_tools.description
+    t: |
+      React is known for focusing on UI rendering while being fairly agnostic about the other parts of your app, and that's reflected in the vibrant ecosystem that has emerged to fill these gaps!
+
+  # usage
+
+  - key: sections.usage.description
+    t: |
+      No matter what version you use, application pattern you adopt, or industry sector you belong to, there's no wrong way to use React!
+
+  - key: usage.js_app_patterns.takeaway
+    t: >
+      Despite the focus on static site generation, server-side rendering, and server components, it's interesting to note that the vast majority of React users still work on Single Page Applications.
+
+  # resources
+
+  - key: sections.resources.description
+    t: |
+      One of the big reason for React's continued dominance is the sheer amount of documentation, blog posts, videos, and other resources it has accumulated over the years. Here's just a small sample!
+
+  - key: sections.learning_methods.takeaway
+    t: |
+      The React team has done a great job with the new React docs site, so it shouldn't be surprised that it has become the number one way people learn about the framework.
+
+  - key: sections.blogs_news_magazines.takeaway
+    t: |
+      While this list is populated by many usual suspects, it's worth celebrating the presence of React-specific media such as **This Week in React** or **React Status**.
+
+  - key: sections.sites_courses.takeaway
+    t: |
+      While **Stack Overflow** has gone through its own share of AI-related trouble recently, it still tops the rankings for now.
+
+  - key: sections.podcasts.takeaway
+    t: |
+      **Syntax** continues to assert its dominance over the dev podcast landscape. Also interesting to note the lack of any active React-specific podcast in the top 10.
+
+  - key: sections.video_creators.takeaway
+    t: |
+      While **Theo** and **Web Dev Simplified** both featured React content, it's interesting to note that despite not typically covering React, **The Primeagen** still comes in at #3.
+
+  - key: sections.people.takeaway
+    t: |
+      When it comes to being an influential figure in the React community, it's no surprise that **Dan Abramov** tops the rankings – Although **Kent C. Dodds** and **Theo** both seem to be challenging for the crown.
+
+  #awards
+  - key: sections.awards.description
+    t: |
+      This year's awards were dominated by one very specific project… how quickly will you guess what it is?
 
   ###########################################################################
   # Charts
