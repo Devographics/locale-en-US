@@ -20,9 +20,11 @@ translations:
 
       In fact, not content with merely keeping up, React is even leading the way on new innovative patterns such as Server Components and the upcoming Compiler. 
 
-      That being said, please note that this data was collected between **October 27** and **November 15, 2023**, which sadly means some of the more recent developments in the React ecosystem aren't covered. 
+      That being said, please note that this data was collected between **October 27** and **November 15, 2023**, which does mean that React 19 –as well as any other development that may have taken place after that time period– isn't covered. 
 
-      Even so, there's still a lot to explore here, from component libraries, to state management techniques, to application patterns. So let's discover the first ever State of React survey results together!
+      Even so, there's still a lot to explore here, from component libraries, to state management techniques, to application patterns. So let's discover the results of the first ever State of React community survey together!
+
+      *Please note that this in an unofficial survey unaffiliated with Meta, Vercel, or the React team.*
 
       <span class="conclusion__byline">– Sacha Greif</span>
 
@@ -35,18 +37,16 @@ translations:
 
   - key: sections.tshirt.description
     t: |
-      ## Support the Survey With the State of JavaScript T-Shirt
+      ## Support the Survey With the official State of React T-Shirt
 
-      Between the bad video quality, the bulky cassettes, and having to rewind, there's not much to miss about the VHS era. But one thing we *do* miss are the amazing 90s visuals that used to adorn blank VHS tapes. 
-
-      But now, thanks to the talented Christopher Kirk-Nielsen you can enjoy all this retro radness while also celebrating your love for JavaScript at the same time!
+      Is it a library? A framework? An unknown element on the verge of mutating into a dangerous, unstable entity? Whatever your feelings about React, you will find them reflected in this design that echoes anime and science-fiction.
 
   - key: tshirt.about
     t: About the T-shirt
 
   - key: tshirt.description
     t: |
-      We use a high-quality, super-soft tri-blend shirt with a slim fit printed by our partners at Cotton Bureau.
+      We use a high-quality shirt printed by our partners at Cotton Bureau.
 
   - key: tshirt.getit
     t: Get It
@@ -73,6 +73,16 @@ translations:
   - key: sections.user_info.description
     t: |
       **13,003** respondents took part in the first ever State of React survey. A small sample of the overall community to be sure, but still large enough to provide us with valuable data!
+
+  - key: user_info.country.takeaway
+    t: |
+      The majority of respondents came from the **U.S.** and **Europe**.
+
+  - key: user_info.locale.takeaway
+    aliasFor: user_info.locale.description
+
+  - key: user_info.completion_stats.takeaway
+    aliasFor: user_info.completion_stats.description
 
   # features
 
@@ -276,41 +286,29 @@ translations:
   # Conclusion
   ###########################################################################
 
-  - key: conclusion.js2023.cassidy_williams
+  - key: conclusion.react2023.josh_comeau
     t: |
-      <span class="first-line">Y'all, what a cool year to be on the internet.</span>
 
-      There's so many interesting and exciting changes happening, and I've got my popcorn next to my keyboard, building and watching!
+      <span class="first-line">With the introduction of Server Components,</span>  I’d say this has been the biggest year for React since 2018, when Hooks were first introduced.
 
-      The fact that so many "smaller" libraries like Preact, Solid, and htmx are climbing in positive sentiment over something massive like Next.js is fascinating. We're starting to see Angular make a bit of a comeback, and we'll see if that trend continues next year. We're seeing people fall out of love with some of the industry darlings. We're seeing very Rusty systems grow. Astro feels like it's off to the races in developer support.
+      In the 5 years since 2018, Hooks have reached overwhelming adoption. A whopping 99.5% of survey respondents have adopted `useState`, and less than 2% are unhappy about it. Class components still exist, but they’ve been relegated to legacy codebases and the occasional error boundary component.
 
-      In terms of actual browser features, it almost feels like we're going too fast for the world to catch up. Which is not always a bad thing, necessarily! But I totally echo the sentiments that browser support is my primary concern over all the cool things coming out. 
+      I wonder, though… Will we all be using Server Components 5 years after their release, in 2028? I’m not so sure. As things stand, the only way to use them is through a framework that supports Server Side Rendering (SSR) like Next.js, and 37% of survey respondents have never used SSR. In fact, Create React App remains the most widely-used React environment despite being officially deprecated, and not having a release since April 2022.
 
-      That being said, I'm personally loving using some of the new array features and the fact that more and more folks are supporting PWAs.
+      At the same time, 71% of survey respondents said they were using React 18, the newest version available when this data was collected. I suspect that the developers who take the time to answer surveys like this tend to be early adopters. If I had to guess, I’d say that in 2028, there will be two Reacts in wide circulation with roughly equivalent usage: the full-stack version and the client-only version. 
 
-      Next year, let's improve the diversity of responses, get more people developing, and hopefully all of the new and exciting changes err on the side of fun, rather than intimidating! Thanks Sacha and team for including me here, and for running another awesome and valuable survey.
+      Another thing that jumps out to me from these results is that the React team is listening. Consider the 3 biggest pain points mentioned:
 
-      See you online!
+      - `forwardRef`: No longer needed in React 19! It’s been made totally redundant.
 
-  - key: conclusion.js2023.cassidy_williams.bio
-    t: Dev advocate, engineer, open sourcer, and memer
+      - `memo`: Can be automatically applied using the experimental React Compiler.
 
-  - key: conclusion.js2023.theo_browne
-    t: |
-      <span class="first-line">Javascript is moving to the server, and we’re uneasy about it.</span>
+      - Context API: Will be easier to consume with the new use() Hook.
 
-      In last year’s survey, we saw quickly growing adoption of server-rendered frameworks like Next, Nuxt, Remix, and SvelteKit. This year, we shifted to server-first patterns such as Partial Hydration and Islands, which doubled in their adoption.
+      React has been my favourite way to build user interfaces for almost a decade now, and I’m excited to see how the ecosystem evolves over the coming years.
 
-      Frame-, err, libraries like htmx show that web devs aren’t the only ones benefiting from utilizing the server. SPAs aren’t going anywhere (take a look at [Inertia](https://inertiajs.com/) for proof), but as these new patterns continue to improve, the market seems to be following along.
-
-      This move has not been unanimously loved. React’s continued to grow, but React developers are increasingly concerned about its direction. Getting here has been… rough, but progress is being made every day.
-
-      We’re also seeing more options appear outside of the React ecosystem. From [Nuxt](https://roe.dev/blog/nuxt-server-components) to [SolidStart](https://docs.solidjs.com/solid-start/reference/server/use-server) to [Astro](https://astro.build/blog/astro-480/#experimental-astro-actions), all of the best React Server Component features are rolling out to every developer.
-
-      And of course, Vite has continued to dominate, and is the choice for app developers and framework authors alike. Hard to imagine where we’d be today without it!
-
-  - key: conclusion.js2023.theo_browne.bio
-    t: Creator of Ping, uploadthing, create-t3-app, and video creator
+  - key: conclusion.react2023.josh_comeau.bio
+    t: Software engineer and educator. Creator of [The Joy of React](https://www.joyofreact.com/)
 
   ###########################################################################
   # Picks
@@ -490,21 +488,21 @@ translations:
 
   - key: about.content
     t: |
-      The 2023 State of JavaScript survey ran from November 22 to December 12 2023, and collected 23,540 responses. The results were published on June 20, 2024. The survey is run by [Devographics](https://devographics.com/), a collective consisting of me ([Sacha Greif](https://sachagreif.com/)) and [Eric Burel](https://www.lbke.fr/), as well as invited experts and open-source contributors. 
+      The 2023 State of React survey ran from October 27 to November 15 2023, and collected 13,003 responses. The results were published on July 20, 2024. The survey is run by [Devographics](https://devographics.com/), a collective consisting of me ([Sacha Greif](https://sachagreif.com/)) and [Eric Burel](https://www.lbke.fr/), as well as invited experts and open-source contributors. 
 
-      The State of JavaScript logo and t-shirt were designed by [Christopher Kirk-Nielsen](http://chriskirknielsen.com/).
+      The State of React logo and t-shirt were designed by [Christopher Kirk-Nielsen](http://chriskirknielsen.com/).
 
       ### Survey Goals
 
-      This survey was created to identify upcoming trends in the web development ecosystem in order to help developers make technological choices. 
+      This survey was created to identify upcoming trends in the React ecosystem in order to help developers make technological choices. 
 
       As such, the survey is focused on anticipating what's coming over the next few years rather than analyzing what's popular now, which is why features or technologies may sometimes be omitted even if they are currently widespread 
 
-      It should also be taken as a **snapshot of a specific subset of developers**, and is not meant to speak for the entire ecosystem. 
+      It should also be taken as a **snapshot of a specific subset of developers**, and is not meant to speak for the entire React ecosystem. 
 
       ### Survey Design
 
-      The survey was designed in part based on last year's survey, with an open feedback period where the survey outline was discussed [on GitHub](https://github.com/Devographics/surveys/issues?q=is%3Aissue+is%3Aopen+label%3A%22State+of+JS+2022%22). 
+      The survey was designed in part based on last year's survey, with an open feedback period where the survey outline was discussed [on GitHub](https://github.com/Devographics/surveys/issues/85). 
 
       All survey questions were optional. 
 
@@ -520,12 +518,14 @@ translations:
 
       - **T-shirt sales**. 
 
-      - **Sponsored links**: the links to recommended resources at the bottom of each page are provided by our partners [Frontend Masters](https://frontendmasters.com/) and [RenderATL](https://www.renderatl.com/).
+      - **Sponsored links**: the links to recommended resources at the bottom of each page are provided by our partner [Frontend Masters](https://frontendmasters.com/).
 
-      - **Direct Funding**: this year, [Google](https://www.google.com/) funded my work on the survey. 
+      - **Direct Funding**: this year, [Google](https://www.google.com/) funded my work on the surveys. 
 
       Any contribution or sponsorship is greatly appreciated. we would especially like to work closely with more browser vendors, since they play such a central role in the web ecosystem.  
 
       ### Technical Overview
 
       You can find a more in-depth technical overview of how the surveys are run [here](https://dev.to/sachagreif/how-the-devographics-surveys-are-run-2023-edition-1p6a).
+
+      **Note: This is *not* an official React survey, and the survey team is not affiliated with Meta, Vercel, or the React team.**

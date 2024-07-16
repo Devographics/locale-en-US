@@ -118,6 +118,8 @@ translations:
     t: Spain
   - key: options.country.SWE
     t: Sweden
+  - key: options.country.TWN
+    t: Taiwan
   - key: options.country.TZA
     t: Tanzania
   - key: options.country.THA
