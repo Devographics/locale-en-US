@@ -289,23 +289,19 @@ translations:
   - key: conclusion.react2023.josh_comeau
     t: |
 
-      <span class="first-line">With the introduction of Server Components,</span>  I’d say this has been the biggest year for React since 2018, when Hooks were first introduced.
+      <span class="first-line">What a year!</span>
+
+      With the introduction of React Server Components, I’d say this has been the biggest year for React since 2018, when React Hooks were first introduced.
 
       In the 5 years since 2018, Hooks have reached overwhelming adoption. A whopping 99.5% of survey respondents have adopted `useState`, and less than 2% are unhappy about it. Class components still exist, but they’ve been relegated to legacy codebases and the occasional error boundary component.
 
-      I wonder, though… Will we all be using Server Components 5 years after their release, in 2028? I’m not so sure. As things stand, the only way to use them is through a framework that supports Server Side Rendering (SSR) like Next.js, and 37% of survey respondents have never used SSR. In fact, Create React App remains the most widely-used React environment despite being officially deprecated, and not having a release since April 2022.
+      I wonder, though… Will we all be using Server Components 5 years after their release, in 2028? I’m not so sure. The Server Components paradigm requires deep integration with the bundler and router. It’s not something that most developers can start incrementally adopting in their current React codebase.
 
-      At the same time, 71% of survey respondents said they were using React 18, the newest version available when this data was collected. I suspect that the developers who take the time to answer surveys like this tend to be early adopters. If I had to guess, I’d say that in 2028, there will be two Reacts in wide circulation with roughly equivalent usage: the full-stack version and the client-only version. 
+      React developers like to keep up-to-date; 71% of survey respondents said they were using React 18, the newest version available when this data was collected. At the same time, the most widely-used React environment is still Create React App, despite being officially deprecated and not having a release since April 2022. We’ll happily update React when a new version comes out, but we’re not about to switch to a different environment; 37% of survey respondents have never even used SSR (Server Side Rendering), even though it’s been an option for over a decade now!
 
-      Another thing that jumps out to me from these results is that the React team is listening. Consider the 3 biggest pain points mentioned:
+      If I had to guess, I’d say that in 2028, there will be two Reacts in wide circulation with roughly equivalent usage. The “full-stack” version, with Server Components and Server Actions, and the client-only Single Page App version.
 
-      - `forwardRef`: No longer needed in React 19! It’s been made totally redundant.
-
-      - `memo`: Can be automatically applied using the experimental React Compiler.
-
-      - Context API: Will be easier to consume with the new use() Hook.
-
-      React has been my favourite way to build user interfaces for almost a decade now, and I’m excited to see how the ecosystem evolves over the coming years.
+      We live in interesting times! I’m excited to see how React and its ecosystem evolves over the coming years. ❤️
 
   - key: conclusion.react2023.josh_comeau.bio
     t: Software engineer and educator. Creator of [The Joy of React](https://www.joyofreact.com/)
@@ -471,3 +467,7 @@ translations:
       You can find a more in-depth technical overview of how the surveys are run [here](https://dev.to/sachagreif/how-the-devographics-surveys-are-run-2023-edition-1p6a).
 
       **Note: This is *not* an official React survey, and the survey team is not affiliated with Meta, Vercel, or the React team.**
+
+      ### Special Thanks
+
+      Special thanks for their ongoing support to Paul McMahon, Marc Grabanski, and Justin Samuels.
