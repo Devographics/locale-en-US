@@ -24,7 +24,7 @@ translations:
 
       Even so, there's still a lot to explore here, from component libraries, to state management techniques, to application patterns. So let's discover the results of the first ever State of React community survey together!
 
-      *Please note that this in an unofficial survey unaffiliated with Meta, Vercel, or the React team.*
+      *This in an unofficial survey unaffiliated with Meta, Vercel, or the React team.*
 
       <span class="conclusion__byline">– Sacha Greif</span>
 
@@ -317,158 +317,100 @@ translations:
   - key: picks.my_pick
     t: "My 2023 Pick: "
   - key: picks.intro
-    t: We asked members of the JavaScript community to share their “pick of the year”
+    t: We asked members of the React community to share their “pick of the year”
 
-  # https://leaddev.com/personal-development/how-build-trust-new-engineering-manager
-  - key: picks.emma_bostian.name
-    t: How to build trust as a new engineering manager
-  - key: picks.emma_bostian.bio
-    t: Engineering Manager, instructor, and co-host of the Ladybug Podcast.
-  - key: picks.emma_bostian.description
+  # https://zustand-demo.pmnd.rs
+  - key: picks.jack_herrington.name
+    t: Zustand
+  - key: picks.jack_herrington.bio
+    t: Principal Engineer and YouTuber
+  - key: picks.jack_herrington.description
     t: |
-      I've found the blog posts on LeadDev under Skills for new managers to be invaluable as a new Engineering Manager. They provide great resources for anyone looking to expand their engineering leadership and management skills!
+      Simple, elegant, extensible state management that "just works" (tm). Nowadays, you might not need state management, but if you do, Zustand is a great place to start.
 
-  # https://pocketbase.io
-  - key: picks.fireship.name
-    t: Pocketbase
-  - key: picks.fireship.bio
-    t: Google developer expert, data enthusiast, and YouTuber
-  - key: picks.fireship.description
+  # https://react.dev/reference/rsc/server-components
+  - key: picks.alex_sidorenko.name
+    t: React Server Components
+  - key: picks.alex_sidorenko.bio
+    t: Making short videos about Next.js on Twitter
+  - key: picks.alex_sidorenko.description
     t: |
-      My pick of the year is the Pocketbase project - an open-source SQLite powered backend. Its JavaScript SDK gives web developers everything needed to build a serious application, and amazingly, can be deployed as a single binary to any $5 server.
+      Eleven years ago, React reimagined web development by challenging established practices. Now, React is doing this again with RSC. 
 
-  # https://www.localfirst.fm/
-  - key: picks.rich_harris.name
-    t: localfirst.fm
-  - key: picks.rich_harris.bio
-    t: Open source troublemaker at Vercel. Creator of Rollup and Svelte
-  - key: picks.rich_harris.description
+      P.S. Shout out to the Next.js team for pushing this new vision forward.
+
+  # https://youtube.com/watch?v=zqhE-CepH2g
+  - key: picks.sam_selikoff.name
     t: |
-      If you're interested in where software is heading, this podcast is required listening. It'll renew your optimism about the future of web development.
-
-  # https://tldraw.com
-  - key: picks.david_khourshid.name
-    t: tldraw
-  - key: picks.david_khourshid.bio
-    t: Creator of XState and founder of [http://stately.ai](Stately)
-  - key: picks.david_khourshid.description
+      "Mind the Gap" – Ryan Florence's talk at Big Sky Dev Con 2024
+  - key: picks.sam_selikoff.bio
+    t: Videos for frontend developers on Build UI and YouTube, co-host of the Frontend First podcast
+  - key: picks.sam_selikoff.description
     t: |
-      Much more than an infinite canvas, tldraw reimagines what is possible with user interfaces, from its impressive AI experiments to its attention to drawing detail. Its source code is readily available too, and I appreciate the state machines and extensible API for endless tinkering.
+      Ryan masterfully shows how React's new "use server" and "use client" directives let us build rich features on both sides of the network, using the same unified paradigm. A must-watch for any React developer.
 
-  # https://replicache.dev/
-  - key: picks.dax_raad.name
-    t: Replicache
-  - key: picks.dax_raad.bio
-    t: Building [SST](https://sst.dev/) and [terminal](https://www.terminal.shop/)
-  - key: picks.dax_raad.description
+  # https://www.remotion.dev/
+  - key: picks.sebastien_lorber.name
+    t: Remotion
+  - key: picks.sebastien_lorber.bio
+    t: Creator of [This Week in React](https://thisweekinreact.com/)
+  - key: picks.sebastien_lorber.description
     t: |
-      No technology has had a bigger impact on the quality of what I've shipped in years.  I think they are carrying the torch on pushing what can be done on the web.
+      The idea of creating programmatic videos in React continues to fascinate me. Remotion is a rather discreet project, which continues to grow slowly but steadily, successfully adopted by DevRels, educators, indie makers and larger companies (notably GitHub's Unwrapped video campaign).
 
-  # https://lexical.dev/
-  - key: picks.german_jablonski.name
-    t: Lexical
-  - key: picks.german_jablonski.bio
-    t: CEO and creator of [Fluski](https://fluski.com/), notes and spreadsheet manager
-  - key: picks.german_jablonski.description
+  # https://buildui.com/posts/instant-search-params-with-react-server-components
+  - key: picks.aurora_scharff.name
+    t: Instant Search Params with React Server Components
+  - key: picks.aurora_scharff.bio
+    t: Web developer and consultant at Inmeta
+  - key: picks.aurora_scharff.description
     t: |
-      It's been an exceptional year for the Meta text editor. Its ingenious data model and lifecycle have greatly influenced the way I program.
+      This blog post goes through a problem you would must likely encounter when building a proper app with the Next.js App Router: handling search params. It’s surprisingly hard to make interactions behave “perfectly”, and the post end with the solution: useOptimistic. It also teaches you about transitions with lots of sandbox demos.
 
-  # https://marvinh.dev/blog/speeding-up-javascript-ecosystem/
-  - key: picks.alina_listunova.name
-    t: Speeding up the JavaScript ecosystem
-  - key: picks.alina_listunova.bio
-    t: Front-end Developer, Technical Translator 🇺🇦
-  - key: picks.alina_listunova.description
+  # https://mui.com/blog/introducing-pigment-css/
+  - key: picks.josh_comeau.name
+    t: Pigment CSS
+  - key: picks.josh_comeau.bio
+    t: Software engineer and educator. Creator of [The Joy of React](https://www.joyofreact.com/)
+  - key: picks.josh_comeau.description
     t: |
-      Started in late 2022, this ongoing article series by Preact developer Marvin Hagemeister reveals time-inefficient elements in modern JavaScript projects and approaches. It is truly a fascinating piece for performance-conscious professionals.
+      The Material UI team is building a next-gen CSS-in-JS library that pulls the styled API into the React Server Components era. There’s no shortage of CSS-in-JS tools out there, but this one checks all of the boxes for me.
 
-  # https://www.rspack.dev/
-  - key: picks.shadowingszy.name
-    t: Rspack
-  - key: picks.shadowingszy.bio
-    t: Architect of Datawhale, senior front-end R&D engineer of ByteDance
-  - key: picks.shadowingszy.description
+  # https://www.propelauth.com/post/nextjs-challenges
+  - key: picks.carl_vitullo.name
+    t: It’s not just you, Next.js is getting harder to use
+  - key: picks.carl_vitullo.bio
+    t: Solopreneur currently hosting [This Month in React](https://podcasts.apple.com/us/podcast/this-month-in-react/id1661733526), and community lead at [Reactiflux](https://www.reactiflux.com/)
+  - key: picks.carl_vitullo.description
     t: |
-      Rspack is a Rust-based web bundler with extremely excellent performance. By using Rust, it has solved a large number of performance bottlenecks of JS bundler. And it can be compatible with the ecosystem of webpack.
+      This was a great blog post! I think it captures the current zeitgeist in React, clearly articulates a frustration that's been simmering in the ecosystem through 2024.
 
-  # https://unjs.io/
-  - key: picks.quarkstuff.name
-    t: UnJS
-  - key: picks.quarkstuff.bio
-    t: Web & Game dev nerd
-  - key: picks.quarkstuff.description
+  # https://sonner.emilkowal.ski
+  - key: picks.miguel_angel_duran.name
+    t: Sonner
+  - key: picks.miguel_angel_duran.bio
+    t: Twitch Coding Streamer & Content Creator
+  - key: picks.miguel_angel_duran.description
     t: |
-      The UnJS ecosystem is like a developer's toybox. From ofetch and consola to citty and nitro, there is likely something there for your next big project.
+      Sonner is the best toast component for React. Beautiful by default, highly configurable, and with a simple API to use in any project. Wonderful work by Emil.
 
-  # https://www.npmjs.com/package/tess2
-  - key: picks.martin_heidegger.name
-    t: tess2.js
-  - key: picks.martin_heidegger.bio
-    t: Web developer, event organizer
-  - key: picks.martin_heidegger.description
+  # https://docs.expo.dev/router/introduction/
+  - key: picks.lydia_hallie.name
+    t: Expo Router
+  - key: picks.lydia_hallie.bio
+    t: Independent software engineer and technical content creator
+  - key: picks.lydia_hallie.description
     t: |
-      I have not done a lot of JavaScript last year, but I was impressed by the tess2 algorithm, a 10-year-old npm library that still performs well!
+      Expo Router earns my pick for its incredible potential in both the web and native space. It's the first framework to leverage React's full power to operate across all platforms, making React a true platform-agnostic renderer. Its file-based architecture makes it simpler for web developers to adapt to native platforms, speeding up development, and reducing the time to ship across all devices.
 
-  # https://auto-animate.formkit.com/
-  - key: picks.sacha_greif.name
-    t: AutoAnimate
-  - key: picks.sacha_greif.bio
-    t: State of JS creator
-  - key: picks.sacha_greif.description
-    t: |
-      Formkit's AutoAnimate library, which you can see in action right here on this site, does exactly what its name implies and somehow figures out how to add animations to your apps with a single line of code!
-
-  # https://nuxt.com/
-  - key: picks.rexhent.name
-    t: Nuxt
-  - key: picks.rexhent.bio
-    t: Aspiring Linux and web developer
-  - key: picks.rexhent.description
-    t: |
-      Nuxt is focused on DX & UX. It's stable and continuously improving. It has the best devtools out of any framework and has created UnJS, and other tooling that powers new frameworks, like Nitro. They are a pillar of the FOSS community.
-
-  # https://medium.com/@devgustavovasquez/the-future-of-web-development-embracing-interoperable-runtimes-bd2006e9b9d7
-  - key: picks.gustavo_vasquez.name
-    t: Web Interoperable Runtimes
-  - key: picks.gustavo_vasquez.bio
-    t: Software Engineer 🇧🇷
-  - key: picks.gustavo_vasquez.description
-    t: |
-      Web Interoperable Runtimes are execution environments that allow code to run consistently across multiple platforms and environments. I believe that working with such a standard exposes us to the future of web development.
-
-  # https://x.com/wunderacle
-  - key: picks.augustin_mauroy.name
-    t: Claudio Wunder
-  - key: picks.augustin_mauroy.bio
-    t: Web developer and an OSS enthusiast
-  - key: picks.augustin_mauroy.description
-    t: |
-      Claudio is a superb person. He helped me to grow as a dev, but he also made it possible to redesign the Node website, thanks to his leadership skills. And he continues to push the Node project forward.
-
-  # https://www.electronjs.org/
-  - key: picks.kilian_valkhof.name
-    t: Electron
-  - key: picks.kilian_valkhof.bio
-    t: Creator of Polypane Browser for Developers
-  - key: picks.kilian_valkhof.description
-    t: |
-      With everyday apps like VS Code, Figma, Discord, Slack and 1Password all running on Electron, it remains an integral part of the JS and developer ecosystem. Many tools we all use wouldn't exist without it, and when used correctly it's a powerful platform indeed.
-
-  # https://x.com/dawntraoz
-  - key: picks.arisa_fukuzaki.name
-    t: Alba Silvente Fuentes
-  - key: picks.arisa_fukuzaki.bio
-    t: Senior DevRel Engineer & Docs at Storyblok
-  - key: picks.arisa_fukuzaki.description
-    t: |
-      Alba writes about frontend development, web architecture, and web performance, spoke at many conferences, and has a podcast, "No me da la vida". She has been inspiring many devs, and I'm one of them!
-
-  # - key: picks.xxxx.name
+  #
+  # - key: picks.xxx.name
   #   t:
-  # - key: picks.xxxx.bio
+  # - key: picks.xxx.bio
   #   t:
-  # - key: picks.xxxx.description
+  # - key: picks.xxx.description
   #   t: |
+
   ###########################################################################
   # Sponsors
   ###########################################################################
