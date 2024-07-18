@@ -119,7 +119,7 @@ translations:
   - key: credits.data_processing
     t: Data Processing
   - key: credits.back_end_development
-    t: Back-End Developement
+    t: Back-End Development
   - key: credits.survey_review
     t: Survey Review
 
@@ -1031,7 +1031,7 @@ translations:
   - key: options.industry_sector.business
     t: Business
   - key: options.industry_sector.communication
-    t: Comunication
+    t: Communication
   - key: options.industry_sector.security
     t: Security
 
