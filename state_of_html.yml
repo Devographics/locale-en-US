@@ -114,7 +114,7 @@ translations:
     t: Form Pain Points
   - key: features.forms_pain_points.question
     t: What are your pain points around HTML forms?
-  - key: features.forms_pain_points.description
+  - key: features.forms_pain_points.prompt
     t: |
       Think of the various form controls (e.g. `<input>`, `<textarea>`, `<select>`, `<button>` etc.),
       behaviors (e.g. validation, autocomplete), handling forms via JS, editing APIs (e.g. `contentEditable`) etc.
@@ -185,7 +185,7 @@ translations:
     t: Interactivity Pain Points
   - key: features.interactivity_pain_points.question
     t: What are your pain points around dynamic HTML changes?
-  - key: features.interactivity_pain_points.description
+  - key: features.interactivity_pain_points.prompt
     t: |
       Browser incompatibilities or lack of support, missing features, and other problems you face
       around interactive elements and behaviors (except forms), DOM manipulation, events, and related APIs.
@@ -270,7 +270,7 @@ translations:
     t: Content Pain Points
   - key: features.content_pain_points.question
     t: What are your pain points around managing content in HTML?
-  - key: features.content_pain_points.description
+  - key: features.content_pain_points.prompt
     t: |
       Think of embedding (multimedia, iframes, SVG, etc), machine-readable data, internationalization & localization, security & privacy, performance etc.
       Missing features, browser incompatibilities, and other problems you face are all fair game.
@@ -337,7 +337,7 @@ translations:
     t: Using Web Components Pain Points
   - key: features.using_web_components_pain_points.question
     t: What are your biggest pain points around *consuming* web components?
-  - key: features.using_web_components_pain_points.description
+  - key: features.using_web_components_pain_points.prompt
     t: Using Web Components that you or others have made. Missing features, browser incompatibilities, etc.
   - key: features.using_web_components_pain_points.placeholder
     t: |
@@ -347,7 +347,7 @@ translations:
     t: Making Web Components Pain Points
   - key: features.making_web_components_pain_points.question
     t: What are your biggest pain points around *making* web components?
-  - key: features.making_web_components_pain_points.description
+  - key: features.making_web_components_pain_points.prompt
     t: |
       What prevents you from creating the amazing components you envision? Missing features, browser incompatibilities, etc.
   - key: features.making_web_components_pain_points.placeholder
@@ -611,9 +611,12 @@ translations:
     t: Which existing HTML features or browser APIs are you unable to use for other reasons (and why)?
   - key: usage.html_functionality_features.description
     t: |
-      Good candidates might be existing HTML features that you often have to recreate or augment using JS.
+      Existing HTML features that you often have to recreate or augment using JS.
+  # - key: usage.html_functionality_features.description
+  #   t: |
+  #     Existing HTML features that you often have to recreate or augment using JS.
 
-      Please also specify the reason, such as lack of functionality, difficult styling, poor accessibility, etc.
+  #     Please also specify the reason, such as lack of functionality, difficult styling, poor accessibility, etc.
 
   - key: usage.html_functionality_features.placeholder.1
     t: |
@@ -692,7 +695,9 @@ translations:
   - key: options.html_missing_elements.context_menu
     t: Context Menu / Right-Click Menu
   - key: options.html_missing_elements.datatable
-    t: Data table (with sorting, filtering, etc.)
+    t: Data table
+  - key: options.html_missing_elements.datatable.description
+    t: Data table with sorting, filtering, etc.
   - key: options.html_missing_elements.dropdown_menu
     t: Dropdown Menu
   - key: options.html_missing_elements.image_zoom

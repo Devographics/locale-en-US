@@ -20,8 +20,12 @@ translations:
     t: Belarus
   - key: options.country.BRA
     t: Brazil
+  - key: options.country.BGR
+    t: Bulgaria
   - key: options.country.CAN
     t: Canada
+  - key: options.country.CRI
+    t: Costa Rica
   - key: options.country.CHE
     t: Switzerland
   - key: options.country.CHL
@@ -34,26 +38,38 @@ translations:
     t: Colombia
   - key: options.country.CIV
     t: Côte d'Ivoire
+  - key: options.country.CYP
+    t: Cyprus
   - key: options.country.CZE
     t: Czechia
+  - key: options.country.DEU
+    t: Germany
   - key: options.country.DNK
     t: Denmark
   - key: options.country.EGY
     t: Egypt
   - key: options.country.ETH
     t: Ethiopia
+  - key: options.country.FIN
+    t: Finland
   - key: options.country.FRA
     t: France
-  - key: options.country.DEU
-    t: Germany
   - key: options.country.GHA
     t: Ghana
   - key: options.country.GBR
     t: United Kingdom
+  - key: options.country.HKG
+    t: Hong Kong
+  - key: options.country.HUN
+    t: Hungary
   - key: options.country.IND
     t: India
   - key: options.country.IDN
     t: Indonesia
+  - key: options.country.IRL
+    t: Ireland
+  - key: options.country.ISL
+    t: Iceland
   - key: options.country.IRN
     t: Iran
   - key: options.country.IRQ
@@ -66,8 +82,12 @@ translations:
     t: Japan
   - key: options.country.KEN
     t: Kenya
+  - key: options.country.LUX
+    t: Luxembourg
   - key: options.country.KOR
     t: South Korea
+  - key: options.country.MDA
+    t: Moldova
   - key: options.country.MEX
     t: Mexico
   - key: options.country.MMR
@@ -98,6 +118,8 @@ translations:
     t: Spain
   - key: options.country.SWE
     t: Sweden
+  - key: options.country.TWN
+    t: Taiwan
   - key: options.country.TZA
     t: Tanzania
   - key: options.country.THA
@@ -108,6 +130,8 @@ translations:
     t: Uganda
   - key: options.country.UKR
     t: Ukraine
+  - key: options.country.ARE
+    t: United Arab Emirates
   - key: options.country.USA
     t: United States of America
   - key: options.country.VNM

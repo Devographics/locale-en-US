@@ -680,7 +680,7 @@ translations:
 
   - key: tools_others.utilities
     t: Utilities
-  - key: tools_others.utilities.description
+  - key: tools_others.utilities.question
     t: Which utilities or tools do you regularly use?
   - key: tools_others.utilities.others
     t: Other Utilities
@@ -692,7 +692,7 @@ translations:
   - key: other_tools.utilities
     aliasFor: tools_others.utilities
   - key: other_tools.utilities.description
-    aliasFor: tools_others.utilities.description
+    aliasFor: tools_others.utilities.question
   - key: other_tools.utilities.others
     aliasFor: tools_others.utilities.others
   - key: other_tools.utilities.others.description
@@ -702,7 +702,7 @@ translations:
 
   - key: tools_others.browsers
     t: Browsers
-  - key: tools_others.browsers.description
+  - key: tools_others.browsers.question
     t: Which browser(s) do you primarily work in during initial development?
   - key: tools_others.browsers.others
     t: Other Browsers
@@ -712,7 +712,7 @@ translations:
   - key: other_tools.browsers
     aliasFor: tools_others.browsers
   - key: other_tools.browsers.description
-    aliasFor: tools_others.browsers.description
+    aliasFor: tools_others.browsers.question
   - key: other_tools.browsers.others
     aliasFor: tools_others.browsers.others
   - key: other_tools.browsers.others.description

@@ -1,0 +1,473 @@
+locale: en-US
+translations:
+  ###########################################################################
+  # General
+  ###########################################################################
+
+  - key: general.results.description
+    t: The 2023 edition of the annual survey about the latest trends in the React ecosystem.
+
+  ###########################################################################
+  # Introduction
+  ###########################################################################
+
+  - key: introduction.react2023
+    t: |
+
+      <span class="first-letter">R</span>eact has been around for 11 years, which seems hard to even grasp when you look at the current pace of web development. 
+
+      The reason why we're still talking about React today is that it's somehow been able to keep up, always evolving to meet the challenges thrown at it by its users. 
+
+      In fact, not content with merely keeping up, React is even leading the way on new innovative patterns such as Server Components and the upcoming Compiler. 
+
+      That being said, please note that this data was collected between **October 27** and **November 15, 2023**, which does mean that React 19 –as well as any other development that may have taken place after that time period– isn't covered. 
+
+      Even so, there's still a lot to explore here, from component libraries, to state management techniques, to application patterns. So let's discover the results of the first ever State of React community survey together!
+
+      *This in an unofficial survey unaffiliated with Meta, Vercel, or the React team.*
+
+      <span class="conclusion__byline">– Sacha Greif</span>
+
+  ###########################################################################
+  # Tshirt
+  ###########################################################################
+
+  - key: sections.tshirt.title
+    t: T-shirt
+
+  - key: sections.tshirt.description
+    t: |
+      ## Support the Survey With the official State of React T-Shirt
+
+      Is it a library? A framework? An unknown element on the verge of mutating into a dangerous, unstable entity? Whatever your feelings about React, you will find them reflected in this design that echoes anime and science-fiction.
+
+  - key: tshirt.about
+    t: About the T-shirt
+
+  - key: tshirt.description
+    t: |
+      We use a high-quality shirt printed by our partners at Cotton Bureau.
+
+  - key: tshirt.getit
+    t: Get It
+
+  - key: tshirt.price
+    t: USD $32 + shipping
+
+  - key: tshirt.designer.heading
+    t: About the Designer
+
+  - key: tshirt.designer.name
+    t: Christopher Kirk-Nielsen
+
+  - key: tshirt.designer.bio
+    t: |
+      Originally from France but now based in the United States, Chris is not just an amazing front-end developer, but also a talented illustrator who specializes in retro visuals. In fact, we encourage you to also check out his [other t-shirt designs](https://chriskirknielsen.com/designs)!
+
+  ###########################################################################
+  # Content
+  ###########################################################################
+
+  # user_info
+
+  - key: sections.user_info.description
+    t: |
+      **13,003** respondents took part in the first ever State of React survey. A small sample of the overall community to be sure, but still large enough to provide us with valuable data!
+
+  - key: user_info.country.takeaway
+    t: |
+      The majority of respondents came from the **U.S.** and **Europe**.
+
+  - key: user_info.locale.takeaway
+    aliasFor: user_info.locale.description
+
+  - key: user_info.completion_stats.takeaway
+    aliasFor: user_info.completion_stats.description
+
+  # features
+
+  - key: sections.features.description
+    t: |
+      We asked respondents about their thoughts on **28** distinct features, from omnipresent hooks such as `useState`, to more niche APIs like `useDeferredValue`. Be sure to try and sort by “sentiment”!
+
+  - key: features.all_features
+    t: All Features
+
+  - key: features.all_features.takeaway
+    t: |
+      This chart recaps all of the survey's feature questions. The main bars represent a respondent's experience; and they are then further subdivided according to that respondent's sentiment. You can change the grouping to alternate between both.
+
+  - key: features.reading_list.takeaway
+    t: >
+      **30%** of respondents added at least one item to their reading list while taking the survey in order to learn more about them later. Here is a breakdown of their picks.
+
+  - key: features.main_apis_items
+    t: Main APIs Experience & Sentiment
+  - key: features.main_apis_pain_points.takeaway
+    t: >
+      Among the most common React APIs, `forwardRef` was by far the one generating the most pain for developers, with `memo` a close second. Thankfully the React team is in the process of rolling out better alternatives to both.
+
+  - key: features.hooks_items
+    t: Hooks Experience & Sentiment
+  - key: features.hooks_pain_points.takeaway
+    t: >
+      Unsurpringly, `useEffect` and `useCallback` were cited as the most problematice React hooks, in large part due to the management of dependency arrays.
+
+  - key: features.new_apis_items
+    t: New APIs Experience & Sentiment
+  - key: features.new_apis_pain_points.takeaway
+    t: >
+      While React's ability to keep evolving and stay relevant over time is one of its best assets, it also comes at a cost and new APIs such as **Server Components** can definitely be tough to adopt.
+
+  # libraries
+
+  - key: sections.libraries.description
+    t: |
+      We reworked our charts to highlight not just developer experience, but *sentiment*. Be sure to explore these new grouping and sorting options to figure out which libraries get the most love… or the least!
+
+  - key: tools.all_tools_experience
+    t: Libraries Experience & Sentiment
+  - key: tools.all_tools_experience.takeaway
+    t: >
+      Among React libraries and frameworks, **Next.js** and **TanStack Query** lead the way in terms of overall positivity.
+
+      Note that some items such as `useState` and `fetch` were also included in order to provide a baseline, even though they're not libraries themselves.
+
+  - key: tools.scatterplot_overview
+    t: Libraries Retention vs Usage
+  - key: tools.scatterplot_overview.takeaway
+    t: >
+      Among libraries and frameworks, **Next.js** was the only item boasting both high retention and high usage. On the other hand, while even more respondents had used **Create React App**, a lot fewer were willing to keep using it going forward.
+
+  # component libraries
+
+  - key: tools.component_libraries_experience
+    t: Component Libraries Experience & Sentiment
+  - key: tools.component_libraries_experience.takeaway
+    t: >
+      **React Aria** and **Radix** lead the rankings in terms of positivity, proving that the headless approach to component libraries has a lot going for it.
+
+  # state management
+
+  - key: tools.state_management_experience
+    t: State Management Experience & Sentiment
+  - key: tools.state_management_experience.takeaway
+    t: >
+      Beyond **useState**, the state management solution with the highest positivity ratio is **Zustand**. And while **Redux** still boasts a large userbase, it isn't quite as beloved.
+
+  # data loading
+
+  - key: tools.data_loading_experience
+    t: Data Loading Experience & Sentiment
+  - key: tools.data_loading_experience.takeaway
+    t: >
+      **TanStack Query** has been making waves for a while now, and it turns out its reputation is reflected in the data since it's the data loading method respondents felt the most positive about, right after the native `fetch` API.
+
+  # back-end infrastructure
+
+  - key: tools.meta_frameworks_experience
+    t: Meta-Frameworks Experience & Sentiment
+  - key: tools.meta_frameworks_experience.takeaway
+    t: >
+      While you'll certainly have no trouble finding people complaining about **Next.js**, it still managed to top the positivity rankings for meta-frameworks, followed by **Remix** and **Astro**.
+
+  #other_tools
+
+  - key: sections.other_tools.description
+    t: |
+      React is known for focusing on UI rendering while being fairly agnostic about the other parts of your app, and that's reflected in the vibrant ecosystem that has emerged to fill these gaps!
+
+  # usage
+
+  - key: sections.usage.description
+    t: |
+      No matter what version you use, application pattern you adopt, or industry sector you belong to, there's no wrong way to use React!
+
+  - key: usage.js_app_patterns.takeaway
+    t: >
+      Despite the focus on static site generation, server-side rendering, and server components, it's interesting to note that the vast majority of React users still work on Single Page Applications.
+
+  - key: usage.react_version.takeaway
+    t: >
+      Note that the survey was conducted **before** the announcement or release of React 19.
+
+  # resources
+
+  - key: sections.resources.description
+    t: |
+      One of the big reason for React's continued dominance is the sheer amount of documentation, blog posts, videos, and other resources it has accumulated over the years. Here's just a small sample!
+
+  - key: resources.learning_methods.takeaway
+    t: |
+      The React team has done a great job with the new React docs site, so it shouldn't be surprised that it has become the number one way people learn about the framework.
+
+  - key: resources.blogs_news_magazines.takeaway
+    t: |
+      While this list is populated by many usual suspects, it's worth celebrating the presence of React-specific media such as **This Week in React** or **React Status**.
+
+  - key: resources.sites_courses.takeaway
+    t: |
+      While **Stack Overflow** has gone through its own share of AI-related trouble recently, it still tops the rankings for now.
+
+  - key: resources.podcasts.takeaway
+    t: |
+      **Syntax** continues to assert its dominance over the dev podcast landscape. Also interesting to note the lack of any active React-specific podcast in the top 10.
+
+  - key: resources.video_creators.takeaway
+    t: |
+      While **Theo** and **Web Dev Simplified** both featured React content, it's interesting to note that despite not typically covering React, **The Primeagen** still comes in at #3.
+
+  - key: resources.people.takeaway
+    t: |
+      When it comes to being an influential figure in the React community, it's no surprise that **Dan Abramov** tops the rankings – Although **Kent C. Dodds** and **Theo** both seem to be challenging for the crown.
+
+  #awards
+  - key: sections.awards.description
+    t: |
+      This year's awards were dominated by one very specific project… how quickly will you guess what it is?
+
+  ###########################################################################
+  # Charts
+  ###########################################################################
+
+  - key: options.features_categories.language
+    aliasFor: sections.language.title
+  - key: options.features_categories.browser_apis
+    aliasFor: sections.browser_apis.title
+  - key: options.features_categories.other_features
+    aliasFor: sections.other_features.title
+
+  ###########################################################################
+  # Notes
+  ###########################################################################
+
+  - key: blocks.gender.note
+    t: |
+      If you're interested in learning more, we [wrote a blog post](https://dev.to/sachagreif/is-our-survey-biased-against-women-49oj) that addresses the survey's gender dynamics.
+
+  - key: blocks.source.note
+    t: >
+
+      This chart aggregates a mix of referrers, URL parameters, and freeform answers. 
+
+      - State of JS: the [State of JS](https://stateofjs.com) mailing list.
+
+      - State of CSS: the State of CSS mailing list; also matches `email`, `by email`, etc.
+
+      - Work: matches `work`, `colleagues`, `coworkers`, etc.
+
+  ###########################################################################
+  # Awards
+  ###########################################################################
+
+  - key: award.feature_adoption_delta_award.comment
+    t: With a **{value}** progression in 2022, **top-level await** has quickly become an integral part of JavaScript.
+
+  - key: award.tool_usage_delta_award.comment
+    t: |
+      **Vite** continues to be the fastest-growing library out there, with a **{value}** year-over-year increase in usage!
+
+  - key: award.tool_satisfaction_award.comment
+    t: Vite once again takes the top spot, with **{value}** of developers willing to use it again!
+
+  - key: award.tool_interest_award.comment
+    t: Did you guess Vite? Close, but this year **Vitest** is the technology developers are most interested in with a **{value}** interest ratio.
+
+  - key: award.most_write_ins_award.comment
+    t: With **{value}** mentions, **Bun** was the most mentioned technology overall in freeform questions.
+
+  - key: award.most_commented_tool_award.comment
+    t: With **{value}** comments, React showed that it's once again the most-discussed library around.
+
+  - key: award.most_loved_tool_award.comment
+    t: With **{value}** of all developers having a positive opinion of it, Vite concludes its sweep of these awards by being the most-loved technology around!
+
+  ###########################################################################
+  # Conclusion
+  ###########################################################################
+
+  - key: conclusion.react2023.josh_comeau
+    t: |
+
+      <span class="first-line">What a year!</span>
+
+      With the introduction of React Server Components, I’d say this has been the biggest year for React since 2018, when React Hooks were first introduced.
+
+      In the 5 years since 2018, Hooks have reached overwhelming adoption. A whopping 99.5% of survey respondents have adopted `useState`, and less than 2% are unhappy about it. Class components still exist, but they’ve been relegated to legacy codebases and the occasional error boundary component.
+
+      I wonder, though… Will we all be using Server Components 5 years after their release, in 2028? I’m not so sure. The Server Components paradigm requires deep integration with the bundler and router. It’s not something that most developers can start incrementally adopting in their current React codebase.
+
+      React developers like to keep up-to-date; 71% of survey respondents said they were using React 18, the newest version available when this data was collected. At the same time, the most widely-used React environment is still Create React App, despite being officially deprecated and not having a release since April 2022. We’ll happily update React when a new version comes out, but we’re not about to switch to a different environment; 37% of survey respondents have never even used SSR (Server Side Rendering), even though it’s been an option for over a decade now!
+
+      If I had to guess, I’d say that in 2028, there will be two Reacts in wide circulation with roughly equivalent usage. The “full-stack” version, with Server Components and Server Actions, and the client-only Single Page App version.
+
+      We live in interesting times! I’m excited to see how React and its ecosystem evolves over the coming years. ❤️
+
+  - key: conclusion.react2023.josh_comeau.bio
+    t: Software engineer and educator. Creator of [The Joy of React](https://www.joyofreact.com/)
+
+  ###########################################################################
+  # Picks
+  ###########################################################################
+
+  - key: picks.my_pick
+    t: "My 2023 Pick: "
+  - key: picks.intro
+    t: We asked members of the React community to share their “pick of the year”
+
+  # https://zustand-demo.pmnd.rs
+  - key: picks.jack_herrington.name
+    t: Zustand
+  - key: picks.jack_herrington.bio
+    t: Principal Engineer and YouTuber
+  - key: picks.jack_herrington.description
+    t: |
+      Simple, elegant, extensible state management that "just works" (tm). Nowadays, you might not need state management, but if you do, Zustand is a great place to start.
+
+  # https://react.dev/reference/rsc/server-components
+  - key: picks.alex_sidorenko.name
+    t: React Server Components
+  - key: picks.alex_sidorenko.bio
+    t: Making short videos about Next.js on Twitter
+  - key: picks.alex_sidorenko.description
+    t: |
+      Eleven years ago, React reimagined web development by challenging established practices. Now, React is doing this again with RSC. 
+
+      P.S. Shout out to the Next.js team for pushing this new vision forward.
+
+  # https://youtube.com/watch?v=zqhE-CepH2g
+  - key: picks.sam_selikoff.name
+    t: |
+      "Mind the Gap" – Ryan Florence's talk at Big Sky Dev Con 2024
+  - key: picks.sam_selikoff.bio
+    t: Videos for frontend developers on Build UI and YouTube, co-host of the Frontend First podcast
+  - key: picks.sam_selikoff.description
+    t: |
+      Ryan masterfully shows how React's new "use server" and "use client" directives let us build rich features on both sides of the network, using the same unified paradigm. A must-watch for any React developer.
+
+  # https://www.remotion.dev/
+  - key: picks.sebastien_lorber.name
+    t: Remotion
+  - key: picks.sebastien_lorber.bio
+    t: Creator of [This Week in React](https://thisweekinreact.com/)
+  - key: picks.sebastien_lorber.description
+    t: |
+      The idea of creating programmatic videos in React continues to fascinate me. Remotion is a rather discreet project, which continues to grow slowly but steadily, successfully adopted by DevRels, educators, indie makers and larger companies (notably GitHub's Unwrapped video campaign).
+
+  # https://buildui.com/posts/instant-search-params-with-react-server-components
+  - key: picks.aurora_scharff.name
+    t: Instant Search Params with React Server Components
+  - key: picks.aurora_scharff.bio
+    t: Web developer and consultant at Inmeta
+  - key: picks.aurora_scharff.description
+    t: |
+      This blog post goes through a problem you would must likely encounter when building a proper app with the Next.js App Router: handling search params. It’s surprisingly hard to make interactions behave “perfectly”, and the post end with the solution: useOptimistic. It also teaches you about transitions with lots of sandbox demos.
+
+  # https://mui.com/blog/introducing-pigment-css/
+  - key: picks.josh_comeau.name
+    t: Pigment CSS
+  - key: picks.josh_comeau.bio
+    t: Software engineer and educator. Creator of [The Joy of React](https://www.joyofreact.com/)
+  - key: picks.josh_comeau.description
+    t: |
+      The Material UI team is building a next-gen CSS-in-JS library that pulls the styled API into the React Server Components era. There’s no shortage of CSS-in-JS tools out there, but this one checks all of the boxes for me.
+
+  # https://www.propelauth.com/post/nextjs-challenges
+  - key: picks.carl_vitullo.name
+    t: It’s not just you, Next.js is getting harder to use
+  - key: picks.carl_vitullo.bio
+    t: Solopreneur currently hosting [This Month in React](https://podcasts.apple.com/us/podcast/this-month-in-react/id1661733526), and community lead at [Reactiflux](https://www.reactiflux.com/)
+  - key: picks.carl_vitullo.description
+    t: |
+      This was a great blog post! I think it captures the current zeitgeist in React, clearly articulates a frustration that's been simmering in the ecosystem through 2024.
+
+  # https://sonner.emilkowal.ski
+  - key: picks.miguel_angel_duran.name
+    t: Sonner
+  - key: picks.miguel_angel_duran.bio
+    t: Twitch Coding Streamer & Content Creator
+  - key: picks.miguel_angel_duran.description
+    t: |
+      Sonner is the best toast component for React. Beautiful by default, highly configurable, and with a simple API to use in any project. Wonderful work by Emil.
+
+  # https://docs.expo.dev/router/introduction/
+  - key: picks.lydia_hallie.name
+    t: Expo Router
+  - key: picks.lydia_hallie.bio
+    t: Independent software engineer and technical content creator
+  - key: picks.lydia_hallie.description
+    t: |
+      Expo Router earns my pick for its incredible potential in both the web and native space. It's the first framework to leverage React's full power to operate across all platforms, making React a true platform-agnostic renderer. Its file-based architecture makes it simpler for web developers to adapt to native platforms, speeding up development, and reducing the time to ship across all devices.
+
+  #
+  # - key: picks.xxx.name
+  #   t:
+  # - key: picks.xxx.bio
+  #   t:
+  # - key: picks.xxx.description
+  #   t: |
+
+  ###########################################################################
+  # Sponsors
+  ###########################################################################
+
+  - key: sponsors.frontendmasters.description
+    t: Advance your skills with in-depth, modern front-end engineering courses.
+  - key: sponsors.google_chrome.description
+    t: Thanks to the Google Chrome team for supporting our work.
+  - key: sponsors.tokyodev.description
+    t: Find your dream developer job in Japan today.
+  - key: sponsors.renderatl.description
+    t: The tech conference focused on Front-End Engineering.
+
+  ###########################################################################
+  # FAQ/About
+  ###########################################################################
+
+  - key: about.content
+    t: |
+      The 2023 State of React survey ran from October 27 to November 15 2023, and collected 13,003 responses. The results were published on July 20, 2024. The survey is run by [Devographics](https://devographics.com/), a collective consisting of me ([Sacha Greif](https://sachagreif.com/)) and [Eric Burel](https://www.lbke.fr/), as well as invited experts and open-source contributors. 
+
+      The State of React logo and t-shirt were designed by [Christopher Kirk-Nielsen](http://chriskirknielsen.com/).
+
+      ### Survey Goals
+
+      This survey was created to identify upcoming trends in the React ecosystem in order to help developers make technological choices. 
+
+      As such, the survey is focused on anticipating what's coming over the next few years rather than analyzing what's popular now, which is why features or technologies may sometimes be omitted even if they are currently widespread 
+
+      It should also be taken as a **snapshot of a specific subset of developers**, and is not meant to speak for the entire React ecosystem. 
+
+      ### Survey Design
+
+      The survey was designed in part based on last year's survey, with an open feedback period where the survey outline was discussed [on GitHub](https://github.com/Devographics/surveys/issues/85). 
+
+      All survey questions were optional. 
+
+      ### Survey Audience
+
+      The survey was openly accessible online and respondents were not filtered or selected in any way. Respondents were primarily a mix of respondents from past surveys (alerted through a dedicated mailing list) and social media traffic. 
+
+      Note that frameworks, libraries, etc. were free to encourage their audience to participate in the survey and some of them did take advantage of this via banners, tweets, etc. A detailed breakdown of traffic sources is included in the "Sources" chart. 
+
+      ### Project Funding
+
+      Funding from this project comes from a variety of sources:
+
+      - **T-shirt sales**. 
+
+      - **Sponsored links**: the links to recommended resources at the bottom of each page are provided by our partner [Frontend Masters](https://frontendmasters.com/).
+
+      - **Direct Funding**: this year, [Google](https://www.google.com/) funded my work on the surveys. 
+
+      Any contribution or sponsorship is greatly appreciated. we would especially like to work closely with more browser vendors, since they play such a central role in the web ecosystem.  
+
+      ### Technical Overview
+
+      You can find a more in-depth technical overview of how the surveys are run [here](https://dev.to/sachagreif/how-the-devographics-surveys-are-run-2023-edition-1p6a).
+
+      **Note: This is *not* an official React survey, and the survey team is not affiliated with Meta, Vercel, or the React team.**
+
+      ### Special Thanks
+
+      Special thanks for their ongoing support to Paul McMahon, Marc Grabanski, and Justin Samuels.

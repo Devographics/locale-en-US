@@ -5,4 +5,171 @@ translations:
   ###########################################################################
 
   - key: general.results.description
-    t: The 2022 edition of the annual survey about the latest trends in the HTML ecosystem.
+    t: The 2023 edition of the annual survey about the latest trends in the HTML ecosystem.
+
+  - key: introduction.html2023
+    t: >
+      While JavaScript was taking over the web, and CSS was gaining new superpowers year over year, 
+      it could seem like HTML was content to stay dormant, happy to cede center stage to its younger siblings. 
+      After all once you've learned about `<div>`s and `<h>`s 1 through 6, what else is there to know?
+
+
+      Quite a lot, as it turns out! Once again we drafted [Lea Verou](https://lea.verou.me/) to put her in-depth
+      knowledge of the web platform to work, and help us craft a survey that ended up reaching far
+      beyond pure HTML to cover accessibility, web components, and much more.
+
+
+      This partly explains why this report has taken so long to come out – there was 
+      just a *lot* of new data to process! Hopefully you'll find that the result was worth the wait.
+
+
+      Beyond the data included here, we've also improved our **chart customization** feature to let you tailor 
+      each data visualization to an even greater degree. If you find any interesting
+      insights in the process, be sure to let us know!
+
+
+      You can learn more about all this in [this post](https://dev.to/sachagreif/discover-the-state-of-html-2023-survey-results-n10), or by watching a [quick YouTube video](https://www.youtube.com/watch?v=G-rFwp2zUT4)
+
+
+      With all this out of the day, welcome to the results for the first ever State of HTML survey. 
+      After this, I'm willing to bet you won't look at good old HTML quite the same way ever again!
+
+  ###########################################################################
+  # Tshirt
+  ###########################################################################
+
+  - key: sections.tshirt.title
+    t: T-shirt
+
+  - key: sections.tshirt.description
+    t: |
+      ## Support the Survey With the State of HTML T-Shirt
+
+      Do you miss the the good old days of the mid-90s, when HTML was king and VHS tape covers featured futuristic, colorful artwork? 
+
+      The bad news is that even with 2024's technology, you can't yet go back in time to relive those glory days. But what you *can* do is wear this awesome original retro t-shirt, designed by none other than the talented Christopher Kirk-Nielsen.
+
+  - key: tshirt.about
+    t: About the T-shirt
+
+  - key: tshirt.description
+    t: |
+      We use a high-quality, super-soft tri-blend shirt with a slim fit printed by our partners at Cotton Bureau.
+
+  - key: tshirt.getit
+    t: Get It
+
+  - key: tshirt.price
+    t: USD $32 + shipping
+
+  - key: tshirt.designer.heading
+    t: About the Designer
+
+  - key: tshirt.designer.name
+    t: Christopher Kirk-Nielsen
+
+  - key: tshirt.designer.bio
+    t: |
+      Originally from France but now based in the United States, Chris is not just an amazing front-end developer, but also a talented illustrator who specializes in retro visuals. In fact, we encourage you to also check out his [other t-shirt designs](https://chriskirknielsen.com/designs)!
+
+  ###########################################################################
+  # Sections Introductions
+  ###########################################################################
+
+  - key: sections.user_info.description.html2023
+    t: |
+      Welcome to the State of HTML survey results. This first-ever edition reached **20,904** participants from all around the world.
+
+  - key: sections.features.description.html2023
+    t: |
+      HTML features and other browser APIs
+
+  ###########################################################################
+  # Other Content
+  ###########################################################################
+
+  - key: features.all_features
+    t: All Features
+
+  - key: features.all_features.description
+    t: |
+      This chart recaps all of the survey's feature questions. The main bars represent a respondent's experience; and they are then further subdivided according to that respondent's sentiment. You can change the grouping to alternate between both. 
+
+
+      Note that you can also find a more specific breakdown of the same data in each feature sub-section.
+
+  ###########################################################################
+  # Sponsors
+  ###########################################################################
+
+  - key: sponsors.frontendmasters.description
+    t: Advance your skills with in-depth, modern front-end engineering courses.
+  - key: sponsors.google_chrome.description
+    t: Thanks to the Google Chrome team for supporting our work.
+  - key: sponsors.tokyodev.description
+    t: Find your dream developer job in Japan today.
+  - key: sponsors.renderatl.description
+    t: The tech conference focused on Front-End Engineering.
+
+  ###########################################################################
+  # Conclusion
+  ###########################################################################
+
+  - key: conclusion.html2023.lea_verou.bio
+    t: W3C Technical Architecture Group Member & MIT CSAIL Researcher
+  - key: conclusion.html2023.lea_verou
+    t: >
+      *Phew!* This survey has taken a monumental effort by dozens of people across six continents. Not only did it set a new record for the most responses in a “State of…” survey debut, its data collection UI pioneered innovations that gave us unparalleled insight into developer attitudes, and will ripple far beyond its scope. 
+
+
+      Some argue that improving HTML is futile, but the survey resoundingly demonstrates the contrary. **Developers crave more interactive HTML elements**: not only were interactive elements like `<datalist>` or the Popover API among those accumulating the most positive sentiment across all categories, but in addition all top [missing elements](https://2023.stateofhtml.com/en-US/usage/#html_missing_elements) were interactive widgets. 
+
+
+      However, **making simple things easy** by providing canned functionality is no longer sufficient. **Making complex things possible** by supporting thorough customization is a necessity: insufficient customizability, especially around **styling**, was by far the top recurring pain point. 
+
+
+      As a result, form elements were also the elements [most frequently recreated](https://2023.stateofhtml.com/en-US/usage/#html_functionality_features); a lose-lose outcome that makes both developers and end-users suffer. Thankfully, there are many new initiatives to improve this, so the future looks bright.
+
+
+      Another big need is extensibility. It does not scale if only standards bodies have the privilege to extend HTML; and besides, generic elements cannot possibly address the enormous diversity of needs. Unfortunately, **Web Components APIs** (and especially Shadow DOM), while widely used, appear to fall short in terms of meeting developer needs and providing a smooth developer experience, as they topped the charts of worst experiences across the survey. However, the ongoing activity in this area (some of which I have been part of) leaves me hopeful that while it has been a rocky path, they are on track to reach their full potential.
+
+
+      Which brings me to my final point: it is important to remember that this survey is only a snapshot of developer perspectives and reflects the state of the web platform at the time. However, a primary goal of these surveys is to improve the status quo by providing better visibility into developer needs. How many of today’s pain points will be addressed tomorrow as a result? Join us later this year for the survey’s second iteration and let’s find out!
+
+  ###########################################################################
+  # About
+  ###########################################################################
+
+  - key: about.content
+    t: |
+      The 2023 State of HTML survey ran from September 19 to October 19 2023, and collected 20,904 responses. 
+
+      The survey design effort was lead by [Lea Verou](https://lea.verou.me/) thanks to a grant from Google. Lea also oversaw the prototyping, testing, and implementation of new UI data collection elements; contributed to data processing; and helped with data visualization. 
+
+      The survey infrastructure is run by [Sacha Greif](https://sachagreif.com/) and [Eric Burel](https://www.lbke.fr/), with help from a team of open-source contributors and consultants. 
+
+      This year's logo and t-shirt were designed by [Christopher Kirk-Nielsen](http://chriskirknielsen.com/).
+
+      ### Survey Goals
+
+      This survey was created to identify upcoming trends in the web development ecosystem in order to help developers make technological choices. 
+
+      As such, the survey is focused on anticipating what's coming over the next few years rather than analyzing what's popular now, which is why the features or technologies that are currently most widespread are not always included. 
+
+      It should also be taken as a **snapshot of a specific subset of developers**, and is not meant to speak for the entire ecosystem. 
+
+      The survey was openly accessible online and respondents were not filtered or selected in any way.
+
+      ### Project Funding
+
+      Funding from this project comes from a variety of sources:
+
+      - **T-shirt sales**. 
+
+      - **Sponsored links**: the links to recommended resources at the bottom of each page are provided by our partner [Frontend Masters](https://frontendmasters.com/).
+
+      - **Other Funding**: [Google](https://www.google.com/) and [TokyoDev](https://www.tokyodev.com/) also funded work on the survey.
+
+      ### Technical Overview
+
+      You can find a more in-depth technical overview of how the surveys are run [here](https://dev.to/sachagreif/how-the-devographics-surveys-are-run-2023-edition-1p6a).

@@ -402,6 +402,16 @@ translations:
 
       Let's find out together with the first ever State of React survey!
 
+  # JS 2023
+
+  - key: general.js2023.survey_intro_not_used
+    t: |
+      Between Astro, Vite, and Remix, 2022 kicked off a wave of JavaScript change that kept on growing in 2023 with Bun, Svelte 5, Tauri, and many others. 
+
+      But the –relatively speaking– old guard hasn't been standing still either, with Next.js and React leading the way with innovations such as Server Components and Server Actions. 
+
+      So after yet another busy year, it's now time to take stock, and see where things stand in the JavaScript ecosystem.
+
   ###########################################################################
   # Survey-Specific FAQs
   ###########################################################################
@@ -585,3 +595,59 @@ translations:
     t: When will the results be released?
   - key: faq.results_released_react2023.description
     t: The survey will run from October 27 to November 15, and the survey results will be released shortly after that.
+
+  # JS 2023
+
+  - key: general.js2023.survey_intro
+    t: >
+      JavaScript started its life as a browser language, and then went to on conquer the server with Node.js. 
+
+
+      And it 2023, it seems like the ecosystem as a whole might finally be ready to try and bridge that gap. Between features like React Server Components, frameworks like Solid and Qwik, or meta-frameworks like Next.js and Sveltekit, providing a better way of serving code and data to clients has become JavaScript's next big goal. 
+
+
+      Or should we say TypeScript? At this point it's become hard to disentangle the two, so let's not even try. 
+
+
+      Instead, take the survey and help us figure out what's new, what's old, and what async/awaits us in the years to come!
+
+  - key: faq.data_used_js2023
+    t: How will this data be used?
+  - key: faq.data_used_js2023.description
+    t: >
+      All data collected will be released openly for anybody to consult. Developers or companies may use it to prioritize focus areas and inform their roadmaps.
+
+  - key: faq.survey_goals_js2023
+    t: What are the survey's goals?
+  - key: faq.survey_goals_js2023.description
+    t: >
+      The survey's goals are to measure awareness and popularity of JavaScript features and libraries in order to anticipate future trends.
+
+  - key: faq.who_should_take_survey_js2023
+    t: Who should take this survey?
+  - key: faq.who_should_take_survey_js2023.description
+    t: >
+      This is an open survey for anybody who uses JavaScript (or TypeScript), whether regularly or occasionally, as part of their job, as a student, or just for fun!
+
+  - key: faq.how_long_will_survey_take_js2023
+    t: How long will answering the survey take?
+  - key: faq.how_long_will_survey_take_js2023.description
+    t: >
+      Depending on how many questions you answer (all questions are optional),
+      filling out the survey should take around 15-20 minutes.
+
+  - key: faq.learn_more_js2023
+    t: Where can I learn more?
+  - key: faq.learn_more_js2023.description
+    t: You can learn more about this survey in [our announcement post](https://dev.to/sachagreif/the-state-of-js-2023-survey-is-now-open-2hah).
+
+  - key: faq.survey_design_js2023
+    t: How was this survey designed?
+  - key: faq.survey_design_js2023.description
+    t: >
+      The survey was designed with input from the community through an [open feedback thread](https://github.com/Devographics/surveys/issues/224).
+
+  - key: faq.results_released_js2023
+    t: When will the results be released?
+  - key: faq.results_released_js2023.description
+    t: The survey will run from November 22 to December 12, and the survey results will be released shortly after that.

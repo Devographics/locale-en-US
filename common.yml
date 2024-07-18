@@ -120,6 +120,8 @@ translations:
     t: Data Processing
   - key: credits.back_end_development
     t: Back-End Development
+  - key: credits.survey_review
+    t: Survey Review
 
   # support
   - key: general.support_from
@@ -315,6 +317,9 @@ translations:
   # Options
   ###########################################################################
 
+  - key: options.experience.title
+    t: Experience
+
   # other answer
   - key: options.other
     t: Other…
@@ -345,13 +350,30 @@ translations:
     t: |
       <span class="option-chip option-main option-main-used">Used it</span> » <span class="option-chip option-negative">Negative experience</span>
 
+  - key: options.features.na
+    t: None
+
   # features (short)
   - key: options.features.never_heard.short
-    t: <span aria-hidden="true">🤷</span> Never heard of it
+    t: Never heard of it
   - key: options.features.heard.short
-    t: <span aria-hidden="true">👀</span> Heard of it
+    t: Heard of it
   - key: options.features.used.short
-    t: <span aria-hidden="true">🤓</span> Used it
+    t: Used it
+
+  - key: options.experience.never_heard
+    aliasFor: options.features.never_heard.short
+  - key: options.experience.heard
+    aliasFor: options.features.heard.short
+  - key: options.experience.used
+    aliasFor: options.features.used.short
+
+  - key: options.experience.never_heard.short
+    aliasFor: options.features.never_heard.short
+  - key: options.experience.heard.short
+    aliasFor: options.features.heard.short
+  - key: options.experience.used.short
+    aliasFor: options.features.used.short
 
   # features (no emoji)
   - key: options.features.never_heard.label
@@ -368,6 +390,83 @@ translations:
     t: Heard of it
   - key: options.features.used.label.short
     t: Used it
+
+  # aliases
+  - key: options.experience.never_heard.label.short
+    aliasFor: options.features.never_heard.label.short
+  - key: options.experience.heard.label.short
+    aliasFor: options.features.heard.label.short
+  - key: options.experience.used.label.short
+    aliasFor: options.features.used.label.short
+
+  - key: options.experience.never_heard.description
+    t: Respondents who have never heard about an item.
+  - key: options.experience.heard.description
+    t: Respondents who have heard about an item, but haven't used it.
+  - key: options.experience.used.description
+    t: Respondents who have used an item.
+
+  # sentiments
+
+  - key: options.sentiment.title
+    t: Sentiment
+
+  - key: options.sentiment.positive.label
+    t: Positive Sentiment
+  - key: options.sentiment.neutral.label
+    t: Neutral Sentiment
+  - key: options.sentiment.negative.label
+    t: Negative Sentiment
+
+  - key: options.sentiment.never_heard.positive.label
+    aliasFor: followups.sentiment_interested
+  - key: options.sentiment.never_heard.negative.label
+    aliasFor: followups.sentiment_not_interested
+
+  - key: options.sentiment.heard.positive.label
+    aliasFor: followups.sentiment_interested
+  - key: options.sentiment.heard.negative.label
+    aliasFor: followups.sentiment_not_interested
+
+  - key: options.sentiment.used.positive.label
+    aliasFor: followups.sentiment_positive_experience
+  - key: options.sentiment.used.negative.label
+    aliasFor: followups.sentiment_negative_experience
+
+  - key: options.sentiment.positive.label.short
+    t: Positive
+  - key: options.sentiment.neutral.label.short
+    t: Neutral
+  - key: options.sentiment.negative.label.short
+    t: Negative
+  - key: options.sentiment.positive.short
+    aliasFor: options.sentiment.positive.label.short
+  - key: options.sentiment.neutral.short
+    aliasFor: options.sentiment.neutral.label.short
+  - key: options.sentiment.negative.short
+    aliasFor: options.sentiment.negative.label.short
+
+  - key: options.sentiment.never_heard.positive.label.short
+    aliasFor: followups.sentiment_interested
+  - key: options.sentiment.never_heard.negative.label.short
+    aliasFor: followups.sentiment_not_interested
+
+  - key: options.sentiment.heard.positive.label.short
+    aliasFor: followups.sentiment_interested
+  - key: options.sentiment.heard.negative.label.short
+    aliasFor: followups.sentiment_not_interested
+
+  - key: options.sentiment.used.positive.label.short
+    aliasFor: followups.sentiment_positive_experience
+  - key: options.sentiment.used.negative.label.short
+    aliasFor: followups.sentiment_negative_experience
+
+  - key: options.sentiment.positive.description
+    t: Respondents who are interested in learning more about a technology; or are willing to use it again.
+  - key: options.sentiment.neutral.description
+    t: Responents who did not indicate any sentiment about a technology.
+  - key: options.sentiment.negative.description
+    t: Respondents who are not interested in learning more about a technology; or have used it and had a negative experience.
 
   # patterns
   - key: options.patterns.use_never
@@ -473,7 +572,7 @@ translations:
 
   # age (short versions)
   - key: options.age.range_less_than_10.short
-    t: "<=10"
+    t: "<10"
   - key: options.age.range_10_18.short
     t: 11-18
   - key: options.age.range_18_24.short
@@ -488,6 +587,33 @@ translations:
     t: 55-64
   - key: options.age.range_more_than_65.short
     t: ">65"
+
+  # age 2
+  - key: options.age.range_under_20
+    t: 20 years old and under
+  - key: options.age.range_20_29
+    t: 20-29 years old
+  - key: options.age.range_30_39
+    t: 30-39 years old
+  - key: options.age.range_40_49
+    t: 40-49 years old
+  - key: options.age.range_50_59
+    t: 50-59 years old
+  - key: options.age.range_over_60
+    t: 60 years old or older
+
+  - key: options.age.range_under_20.short
+    t: "<20"
+  - key: options.age.range_20_29.short
+    t: 20-29
+  - key: options.age.range_30_39.short
+    t: 30-39
+  - key: options.age.range_40_49.short
+    t: 40-49
+  - key: options.age.range_50_59.short
+    t: 50-59
+  - key: options.age.range_over_60.short
+    t: ">60"
 
   # years of experience
   - key: options.years_of_experience.range_less_than_1
@@ -515,6 +641,42 @@ translations:
   - key: options.years_of_experience.range_10_20.short
     t: 11-20 years
   - key: options.years_of_experience.range_more_than_20.short
+    t: ">20 years"
+
+  # years of experience v2
+  - key: options.years_of_experience.range_under_1
+    t: Less than one year
+  - key: options.years_of_experience.range_1_3
+    t: 1 to 3 years
+  - key: options.years_of_experience.range_4_6
+    t: 4 to 6 years
+  - key: options.years_of_experience.range_7_9
+    t: 7 to 9 years
+  - key: options.years_of_experience.range_10_12
+    t: 10 to 12 years
+  - key: options.years_of_experience.range_13_15
+    t: 13 to 15 years
+  - key: options.years_of_experience.range_16_20
+    t: 16 to 20 years
+  - key: options.years_of_experience.range_over_20
+    t: More than 20 years
+
+  # years of experience v2 (short versions)
+  - key: options.years_of_experience.range_under_1.short
+    t: "<1 years"
+  - key: options.years_of_experience.range_1_3.short
+    t: 1-3 years
+  - key: options.years_of_experience.range_4_6.short
+    t: 4-6 years
+  - key: options.years_of_experience.range_7_9.short
+    t: 7-9 years
+  - key: options.years_of_experience.range_10_12.short
+    t: 10-12 years
+  - key: options.years_of_experience.range_13_15.short
+    t: 13-15 years
+  - key: options.years_of_experience.range_16_20.short
+    t: 16-20 years
+  - key: options.years_of_experience.range_over_20.short
     t: ">20 years"
 
   # company size
@@ -574,6 +736,21 @@ translations:
     t: $100k-$200k
   - key: options.yearly_salary.range_more_than_200
     t: More than $200k
+
+  - key: options.yearly_salary.range_0_20
+    t: $0k-$20k
+  - key: options.yearly_salary.range_20_40
+    t: $20k-$40k
+  - key: options.yearly_salary.range_40_60
+    t: $40k-$60k
+  - key: options.yearly_salary.range_60_80
+    t: $60k-$80k
+  - key: options.yearly_salary.range_80_100
+    t: $80k-$100k
+  - key: options.yearly_salary.range_100_150
+    t: $100k-$150k
+  - key: options.yearly_salary.range_150_200
+    t: $150k-$200k
 
   # salary (short versions)
   - key: options.yearly_salary.na.short
@@ -1074,6 +1251,27 @@ translations:
   - key: options.percentage_segments.range_91_100
     t: 91-100%
 
+  # - key: options.percentage_segments.range_0_10
+  #   t: 0-10%
+  - key: options.percentage_segments.range_10_20
+    t: 10-20%
+  - key: options.percentage_segments.range_20_30
+    t: 20-30%
+  - key: options.percentage_segments.range_30_40
+    t: 30-40%
+  - key: options.percentage_segments.range_40_50
+    t: 40-50%
+  - key: options.percentage_segments.range_50_60
+    t: 50-60%
+  - key: options.percentage_segments.range_60_70
+    t: 60-70%
+  - key: options.percentage_segments.range_70_80
+    t: 70-80%
+  - key: options.percentage_segments.range_80_90
+    t: 80-90%
+  - key: options.percentage_segments.range_90_100
+    t: 90-100%
+
   - key: options.completion_stats.range_0_10
     aliasFor: options.percentage_segments.range_0_10
   - key: options.completion_stats.range_11_20
@@ -1094,6 +1292,27 @@ translations:
     aliasFor: options.percentage_segments.range_81_90
   - key: options.completion_stats.range_91_100
     aliasFor: options.percentage_segments.range_91_100
+
+  - key: options.completion_stats.range_0_10
+    aliasFor: options.percentage_segments.range_0_10
+  - key: options.completion_stats.range_10_20
+    aliasFor: options.percentage_segments.range_10_20
+  - key: options.completion_stats.range_20_30
+    aliasFor: options.percentage_segments.range_20_30
+  - key: options.completion_stats.range_30_40
+    aliasFor: options.percentage_segments.range_30_40
+  - key: options.completion_stats.range_40_50
+    aliasFor: options.percentage_segments.range_40_50
+  - key: options.completion_stats.range_50_60
+    aliasFor: options.percentage_segments.range_50_60
+  - key: options.completion_stats.range_60_70
+    aliasFor: options.percentage_segments.range_60_70
+  - key: options.completion_stats.range_70_80
+    aliasFor: options.percentage_segments.range_70_80
+  - key: options.completion_stats.range_80_90
+    aliasFor: options.percentage_segments.range_80_90
+  - key: options.completion_stats.range_90_100
+    aliasFor: options.percentage_segments.range_90_100
 
   - key: options.knowledge_score.range_0_10
     aliasFor: options.percentage_segments.range_0_10
@@ -1148,10 +1367,8 @@ translations:
     t: Other options you use for the current section not mentioned in the list above.
   - key: tools.happiness
     t: Overall Happiness
-  - key: tools.happiness.description
-    t: >
-      On a scale of one (very unhappy) to five (very happy), how happy are
-      you with the current overall state of things as it relates to the options listed above?
+  - key: tools.happiness.question
+    t: How happy are you with the current state of things as it relates to the options listed above?
 
   ###########################################################################
   # Demographics (About You/User Info)
@@ -1160,57 +1377,57 @@ translations:
   # age
   - key: user_info.age
     t: Age
-  - key: user_info.age.description
+  - key: user_info.age.question
     t: How old are you, in years?
 
   # years of experience
   - key: user_info.years_of_experience
     t: Years of Experience
-  - key: user_info.years_of_experience.description
+  - key: user_info.years_of_experience.question
     t: How long have you been working or studying in this field, in years?
 
   # company size
   - key: user_info.company_size
     t: Company Size
-  - key: user_info.company_size.description
+  - key: user_info.company_size.question
     t: How many people work at your organization, including yourself?
 
   # salary ranges
   - key: user_info.yearly_salary
     t: Yearly Income
-  - key: user_info.yearly_salary.description
-    t: Your yearly income in U.S. dollar.
+  - key: user_info.yearly_salary.question
+    t: What is your yearly gross (pre-tax) income in U.S. dollar?
 
   # job title
   - key: user_info.job_title
     t: Job Title
-  - key: user_info.job_title.description
+  - key: user_info.job_title.question
     t: How do you introduce yourself to others?
 
   # javascript proficiency
   - key: user_info.javascript_proficiency
     t: JavaScript Proficiency
-  - key: user_info.javascript_proficiency.description
+  - key: user_info.javascript_proficiency.question
     t: How proficient are you at JavaScript?
 
   # css proficiency
   - key: user_info.css_proficiency
     t: CSS Proficiency
-  - key: user_info.css_proficiency.description
+  - key: user_info.css_proficiency.question
     t: How proficient are you at CSS?
 
   # backend proficiency
   - key: user_info.backend_proficiency
     t: Back-end Proficiency
-  - key: user_info.backend_proficiency.description
+  - key: user_info.backend_proficiency.question
     t: How proficient are you at back-end development?
 
   # gender
   - key: user_info.gender
     t: Gender
-  - key: user_info.gender.description
+  - key: user_info.gender.question
     t: >
-      Which of the following options describes you, if any? Please pick one.
+      Which one of the following options describes you?
   - key: user_info.gender.note
     t: >
       While we know collecting and publishing diversity data can be a sensitive issue,
@@ -1220,9 +1437,9 @@ translations:
   # race & ethnicity
   - key: user_info.race_ethnicity
     t: Race & Ethnicity
-  - key: user_info.race_ethnicity.description
+  - key: user_info.race_ethnicity.question
     t: >
-      Which of the following options describe you, if any? Please check all that apply.
+      Which of the following options describe you?
   - key: user_info.race_ethnicity.note
     t: >
       While we know collecting and publishing diversity data can be a sensitive issue,
@@ -1240,10 +1457,12 @@ translations:
   # disability status
   - key: user_info.disability_status
     t: Disability Status
-  - key: user_info.disability_status.description
+  - key: user_info.disability_status.question
     t: >
-      Which of the following disabilities do you experience, if any? Please check all that apply.
-      Note that this can include temporary disabilities or injuries.
+      Which of the following disabilities do you experience?
+  - key: user_info.disability_status.prompt
+    t: >
+      Please check all that apply. Note that this can include temporary disabilities or injuries.
 
   # disability status (other)
   - key: user_info.disability_status.others
@@ -1253,7 +1472,9 @@ translations:
 
   # other info
   - key: user_info.how_did_user_find_out_about_the_survey
-    t: How did you hear about this survey?
+    t: Source
+  - key: user_info.how_did_user_find_out_about_the_survey.question
+    t: Where did you hear about this survey?
   - key: user_info.email
     t: Your Email
   - key: user_info.email.description
@@ -1264,7 +1485,7 @@ translations:
       We do not store any personal data, so after you fill in your email address we will use it to generate a unique anonymized identifier and then delete the address itself from our records.
   - key: user_info.country
     t: Country or Region
-  - key: user_info.country.description
+  - key: user_info.country.question
     t: Where do you currently reside?
 
   - key: user_info.github_username
@@ -1284,7 +1505,7 @@ translations:
 
   - key: user_info.industry_sector
     t: Industry Sector
-  - key: user_info.industry_sector.description
+  - key: user_info.industry_sector.question
     t: Which industry sector(s) do you work in?
   - key: user_info.industry_sector.others
     t: Other Industry Sectors
@@ -1294,18 +1515,18 @@ translations:
   - key: usage.industry_sector
     aliasFor: user_info.industry_sector
   - key: usage.industry_sector.description
-    aliasFor: user_info.industry_sector.description
+    aliasFor: user_info.industry_sector.question
   - key: usage.industry_sector.others
     aliasFor: user_info.industry_sector.others
   - key: usage.industry_sector_freeform
     aliasFor: user_info.industry_sector.others
   - key: usage.industry_sector.others.description
-    aliasFor: user_info.industry_sector.description
+    aliasFor: user_info.industry_sector.question
 
   # degree
   - key: user_info.higher_education_degree
     t: Higher Education Degree
-  - key: user_info.higher_education_degree.description
+  - key: user_info.higher_education_degree.question
     t: Do you have a higher education degree?
 
   # employment status
@@ -1318,7 +1539,7 @@ translations:
   - key: user_info.completion_stats
     t: Survey Completion
   - key: user_info.completion_stats.description
-    t: Which proportion of the survey did respondents fill out?
+    t: The proportion of the survey filled out by respondents.
 
   # email_temporary (receive updates?)
   - key: user_info.receive_notifications
@@ -1330,6 +1551,8 @@ translations:
 
   # how can we improve the survey?
   - key: user_info.how_can_we_improve
+    t: Survey Improvements
+  - key: user_info.how_can_we_improve.question
     t: How could we improve this survey?
 
   ###########################################################################
@@ -1343,7 +1566,7 @@ translations:
   # first steps
   - key: resources.first_steps
     t: First Learning Methods
-  - key: resources.first_steps.description
+  - key: resources.first_steps.question
     t: When first starting out, how did you initially learn coding?
   - key: resources.first_steps.others
     t: Other First Learning Methods
@@ -1353,31 +1576,48 @@ translations:
   # blogs & magazines
   - key: resources.blogs_news_magazines
     t: Blogs & Magazines
-  - key: resources.blogs_news_magazines.description
-    t: Which blogs/magazines/etc. do you read?
+  - key: resources.blogs_news_magazines.question
+    t: Which blogs/magazines/newsletters/etc. do you read?
   - key: resources.blogs_news_magazines.others
     t: Other Blogs & Magazines
   - key: resources.blogs_news_magazines.others.description
     t: Other answers (freeform field).
   - key: options.blogs_news_magazines.na
     t: 🚫 None
+  - key: resources.blogs_news_magazines.placeholder
+    t: |
+      Blog/newsletter #{index}…
 
   # sites & courses
   - key: resources.sites_courses
     t: Sites & Courses
-  - key: resources.sites_courses.description
-    t: Which sites/courses/etc. do you consult?
+  - key: resources.sites_courses.question
+    t: Which sites/courses/etc. do you consult to learn JavaScript?
   - key: resources.sites_courses.others
     t: Other Sites & Courses
   - key: resources.sites_courses.others.description
     t: Other answers (freeform field).
   - key: options.sites_courses.na
     t: 🚫 None
+  - key: resources.sites_courses.placeholder
+    t: |
+      Site/course #{index}…
+
+  # paid courses
+  - key: resources.paid_courses
+    t: Paid Courses
+  - key: resources.paid_courses.question
+    t: Which **paid resources** (courses, videos, books, etc.) have you used to learn JavaScript?
+  - key: options.paid_courses.na
+    t: 🚫 None
+  - key: resources.paid_courses.placeholder
+    t: |
+      Course/book #{index}…
 
   # podcasts
   - key: resources.podcasts
     t: Podcasts
-  - key: resources.podcasts.description
+  - key: resources.podcasts.question
     t: Which programming-related podcasts do you listen to?
   - key: resources.podcasts.others
     t: Other Podcasts
@@ -1385,12 +1625,15 @@ translations:
     t: Other answers (freeform field).
   - key: options.podcasts.na
     t: 🚫 None
+  - key: resources.podcasts.placeholder
+    t: |
+      Podcast #{index}…
 
   # people
   - key: resources.people
     t: People
-  - key: resources.people.description
-    t: People you read, follow, or just want to highlight.
+  - key: resources.people.question
+    t: Which individuals do you read, follow, or just want to highlight in the JavaScript community?
   # - key: resources.people.others
   #   t: Other People
   # - key: resources.people.others.description
@@ -1403,11 +1646,14 @@ translations:
       (freeform field, comma-separated names).
   - key: options.people.na
     t: 🚫 None
+  - key: resources.people.placeholder
+    t: |
+      Person #{index}…
 
   # other surveys
   - key: resources.other_surveys
     t: Other Surveys
-  - key: resources.other_surveys.description
+  - key: resources.other_surveys.question
     t: Which other developer surveys do you participate in?
   - key: resources.other_surveys.others
     t: Additional surveys not mentioned above
@@ -1420,17 +1666,20 @@ translations:
   - key: user_info.other_surveys
     aliasFor: resources.other_surveys
   - key: user_info.other_surveys.question
-    aliasFor: resources.other_surveys.description
+    aliasFor: resources.other_surveys.question
 
   # video creators
   - key: resources.video_creators
     t: Video Creators
-  - key: resources.video_creators.description
-    t: Creators you follow on video-centric platforms such as YouTube, Twitch, TikTok, etc.
+  - key: resources.video_creators.question
+    t: Which programming-related video creators do you follow (on YouTube, Twitch, etc.)?
   - key: resources.video_creators.others
     t: Other Video Creators
   - key: options.video_creators.na
     t: 🚫 None
+  - key: resources.video_creators.placeholder
+    t: |
+      Video creator #{index}…
 
   ###########################################################################
   # Follow-Up Questions
@@ -1482,3 +1731,8 @@ translations:
   #   t:
   # - key: followups.
   #   t:
+
+  # entities info
+
+  - key: entity.learn_more
+    t: Learn more…
