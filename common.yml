@@ -1035,6 +1035,25 @@ translations:
   - key: options.industry_sector.security
     t: Security
 
+  - key: options.industry_sector.ai
+    t: Artificial Intelligence (AI)
+  - key: options.industry_sector.advertising
+    t: Advertising
+  - key: options.industry_sector.cloud_computing
+    t: Cloud Computing
+  - key: options.industry_sector.consumer_electronics
+    t: Consumer Electronics
+  - key: options.industry_sector.food
+    t: Food
+  - key: options.industry_sector.hospitality_tourism
+    t: Hospitality / Tourism
+  - key: options.industry_sector.fashion
+    t: Fashion
+  - key: options.industry_sector.robotics
+    t: Robotics
+  - key: options.industry_sector.saas
+    t: SaaS (Software as a Service)
+
   # tool evaluation
   - key: options.tool_evaluation.learning_curve_documentation
     t: Documentation

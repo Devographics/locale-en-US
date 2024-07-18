@@ -103,6 +103,11 @@ translations:
   - key: general.numeric_input.invalid_input
     t: Please make sure you enter a valid number.
 
+  - key: general.numeric_input.unit.years
+    t: years
+  - key: general.numeric_input.unit.years_old
+    t: years old
+
   ###########################################################################
   # Errors & Messages
   ###########################################################################
