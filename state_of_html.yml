@@ -356,10 +356,10 @@ translations:
 
   # Accessibility
 
-  - key: features.accessibility_features
-    t: Accessibility Features
-  - key: features.accessibility_features.question
-    t: Which of these accessibility features have you used?
+  # - key: features.accessibility_features
+  #   t: Accessibility Features
+  # - key: features.accessibility_features.question
+  #   t: Which of these accessibility features have you used?
 
   - key: features.accessibility_tools
     t: Accessibility Tools

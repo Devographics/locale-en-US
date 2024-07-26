@@ -90,13 +90,33 @@ translations:
 
   - key: features.all_features
     t: All Features
-
   - key: features.all_features.description
     t: |
       This chart recaps all of the survey's feature questions. The main bars represent a respondent's experience; and they are then further subdivided according to that respondent's sentiment. You can change the grouping to alternate between both. 
 
 
       Note that you can also find a more specific breakdown of the same data in each feature sub-section.
+
+  - key: features.forms_features
+    t: Forms Experience & Sentiment
+
+  - key: features.interactivity_features
+    t: Interactivity Experience & Sentiment
+
+  - key: features.content_features
+    t: Content Experience & Sentiment
+
+  - key: features.web_components_main_features
+    t: Web Components Experience & Sentiment
+
+  - key: features.web_components_main_features
+    t: Web Components Experience & Sentiment
+
+  - key: features.accessibility_features
+    t: Accessibility Experience & Sentiment
+
+  - key: features.mobile_web_apps_features
+    t: Mobile Web Apps Experience & Sentiment
 
   ###########################################################################
   # Sponsors

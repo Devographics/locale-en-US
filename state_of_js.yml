@@ -637,6 +637,8 @@ translations:
     t: Other Front-end Frameworks
   - key: tools.front_end_frameworks.others.short
     aliasFor: tools.others
+  - key: tools.front_end_frameworks_others
+    aliasFor: tools.front_end_frameworks.others
 
   - key: tools.front_end_frameworks_happiness
     t: Front-end Frameworks Happiness
@@ -668,6 +670,8 @@ translations:
     t: Other Meta-Frameworks
   - key: tools.meta_frameworks.others.short
     aliasFor: tools.others
+  - key: tools.meta_frameworks_others
+    aliasFor: tools.meta_frameworks.others
 
   - key: tools.meta_frameworks_happiness
     t: Meta-Frameworks Happiness
