@@ -543,6 +543,8 @@ translations:
   # tools quadrant
   - key: blocks.tools_quadrant
     t: Retention vs Usage
+  - key: tools.scatterplot_overview
+    aliasFor: blocks.tools_quadrant
   - key: blocks.tools_quadrant.description
     t: |
       This chart shows each technology's **retention ratio** over its total **user count**.

@@ -366,7 +366,7 @@ translations:
   - key: sponsors.tokyodev.description
     t: Find your dream developer job in Japan today.
   - key: sponsors.renderatl.description
-    t: The tech conference focused on Front-End Engineering.
+    t: The tech conference focused on all things web.
 
   ###########################################################################
   # FAQ/About
