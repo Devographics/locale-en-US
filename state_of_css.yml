@@ -354,6 +354,8 @@ translations:
 
   - key: features.viewport_percentage_length_units
     t: Small, Large, and Dynamic Viewport Units
+  - key: features.viewport_percentage_length_units.question
+    aliasFor: features.viewport_percentage_length_units
   - key: features.at_container
     t: "`@container` Queries"
   - key: features.at_container.description
@@ -369,12 +371,18 @@ translations:
 
   - key: features.linear_easing_function
     t: "`linear()` Easing Function"
+  - key: features.linear_easing_function.question
+    aliasFor: features.linear_easing_function
   - key: features.blend_modes
     t: Blend Modes
+  - key: features.blend_modes.question
+    aliasFor: features.blend_modes
   - key: features.intrinsic_sizing
     t: Intrinsinc Sizing Keywords
   - key: features.gradient_color_spaces
     t: Interpolation Color Spaces
+  - key: features.gradient_color_spaces.question
+    aliasFor: features.gradient_color_spaces
 
   # typography
   - key: features.web_fonts
@@ -414,6 +422,8 @@ translations:
 
   - key: features.trigonometric_functions
     t: Trigonometric Functions
+  - key: features.trigonometric_functions.question
+    aliasFor: features.trigonometric_functions
   - key: features.exponential_functions
     t: Exponential Functions
   - key: features.sign_related_functions
@@ -426,14 +436,20 @@ translations:
     t: Shadow DOM Features
   - key: features.individual_transform_properties
     t: Individual Transform Properties
+  - key: features.individual_transform_properties.question
+    aliasFor: features.individual_transform_properties
   - key: features.comparison_functions
     t: CSS Comparison Functions
+  - key: features.comparison_functions.question
+    aliasFor: features.comparison_functions
   - key: features.math_functions
     t: CSS Math Functions
   - key: features.viewport_units
     t: Viewport Units (`vh`, `vw`)
   - key: features.cascade_layers
     t: Cascade Layers
+  - key: features.cascade_layers.question
+    aliasFor: features.cascade_layers
 
   # missing features (see also options)
   - key: features.nesting
@@ -652,8 +668,20 @@ translations:
   # slider
   - key: options.css_js_balance.0
     t: 100% CSS
+  - key: options.css_js_balance.1
+    t: "|"
+  - key: options.css_js_balance.2
+    t: "|"
+  - key: options.css_js_balance.3
+    t: "|"
   - key: options.css_js_balance.4
     t: 50%–50%
+  - key: options.css_js_balance.5
+    t: "|"
+  - key: options.css_js_balance.6
+    t: "|"
+  - key: options.css_js_balance.7
+    t: "|"
   - key: options.css_js_balance.8
     t: 100% JS
 
@@ -661,14 +689,24 @@ translations:
   # Other Tools
   ###########################################################################
 
+  - key: tools.css_frameworks
+    t: CSS Frameworks
+  - key: tools.css_frameworks.question
+    t: Which frameworks or libraries that give you pre-made components or styles do you use?
+
+  - key: tools.css_in_js
+    aliasFor: sections.css_in_js.title
+  - key: tools.css_in_js.question
+    t: Which CSS-in-JS libraries do you use?
+
   - key: tools_others.pre_post_processors
     aliasFor: sections.pre_post_processors.title
   - key: other_tools.pre_post_processors
     aliasFor: sections.pre_post_processors.title
-  - key: tools_others.pre_post_processors.description
+  - key: tools_others.pre_post_processors.question
     t: Which pre- or post-processors do you regularly use?
   - key: other_tools.pre_post_processors.description
-    aliasFor: tools_others.pre_post_processors.description
+    aliasFor: tools_others.pre_post_processors.question
   - key: tools_others.pre_post_processors.others
     aliasFor: sections.pre_post_processors_others.title
   - key: other_tools.pre_post_processors.others
@@ -677,6 +715,11 @@ translations:
     aliasFor: sections.pre_post_processors_others.title
   - key: options.pre_post_processors.na
     t: None
+
+  - key: tools.pre_post_processors
+    aliasFor: sections.pre_post_processors.title
+  - key: tools.pre_post_processors.question
+    aliasFor: tools_others.pre_post_processors.question
 
   - key: tools_others.utilities
     t: Utilities
@@ -689,6 +732,11 @@ translations:
   - key: options.utilities.na
     t: None
 
+  - key: tools.utilities
+    aliasFor: tools_others.utilities
+  - key: tools.utilities.question
+    aliasFor: tools_others.utilities.question
+
   - key: other_tools.utilities
     aliasFor: tools_others.utilities
   - key: other_tools.utilities.description
@@ -700,6 +748,11 @@ translations:
   - key: other_tools.utilities_freeform
     aliasFor: tools_others.utilities.others
 
+  - key: tools.utilities
+    aliasFor: tools_others.utilities
+  - key: tools.utilities.question
+    aliasFor: tools_others.utilities.question
+
   - key: tools_others.browsers
     t: Browsers
   - key: tools_others.browsers.question
@@ -708,6 +761,11 @@ translations:
     t: Other Browsers
   - key: tools_others.browsers.others.description
     t: Other answers (freeform field).
+
+  - key: tools.browsers
+    aliasFor: tools_others.browsers
+  - key: tools.browsers.question
+    aliasFor: tools_others.browsers.question
 
   - key: other_tools.browsers
     aliasFor: tools_others.browsers
@@ -729,7 +787,7 @@ translations:
 
   - key: environments.form_factors
     t: Testing Environments
-  - key: environments.form_factors.description
+  - key: environments.form_factors.question
     t: Which form factors or environments do you test on?
   - key: environments.form_factors.others
     t: Other Testing Environments
@@ -739,7 +797,9 @@ translations:
   - key: usage.form_factors
     aliasFor: environments.form_factors
   - key: usage.form_factors.description
-    aliasFor: environments.form_factors.description
+    aliasFor: environments.form_factors.question
+  - key: usage.form_factors.question
+    aliasFor: environments.form_factors.question
   - key: usage.form_factors.others
     aliasFor: environments.form_factors.others
   - key: usage.form_factors_freeform
@@ -749,7 +809,7 @@ translations:
 
   - key: environments.accessibility_features
     t: Accessibility Features
-  - key: environments.accessibility_features.description
+  - key: environments.accessibility_features.question
     t: Which accessibility features do you usually implement?
   - key: environments.accessibility_features.others
     t: Other Accessibility Features
@@ -758,25 +818,30 @@ translations:
 
   - key: environments.css_for_print
     t: CSS for Print
-  - key: environments.css_for_print.description
+  - key: environments.css_for_print.question
     t: Do you write print styles?
 
   - key: environments.css_for_email
     t: CSS for Email Clients
-  - key: environments.css_for_email.description
+  - key: environments.css_for_email.question
     t: Do you write CSS for email clients?
 
   - key: environments.what_do_you_use_css_for
     t: What do you mainly use CSS for?
-  - key: environments.what_do_you_use_css_for.description
+  - key: environments.what_do_you_use_css_for.question
     t: What kind of project do you usually use CSS for?
   - key: environments.what_do_you_use_css_for.others
     t: Other kinds of projects
 
   - key: usage.what_do_you_use_css_for
     aliasFor: environments.what_do_you_use_css_for
+  - key: usage.what_do_you_use_css_for.question
+    aliasFor: environments.what_do_you_use_css_for.question
+
+  - key: usage.what_do_you_use_css_for
+    aliasFor: environments.what_do_you_use_css_for
   - key: usage.what_do_you_use_css_for.description
-    aliasFor: environments.what_do_you_use_css_for.description
+    aliasFor: environments.what_do_you_use_css_for.question
   - key: usage.what_do_you_use_css_for.others
     aliasFor: environments.what_do_you_use_css_for.others
   - key: usage.what_do_you_use_css_for_freeform
@@ -836,7 +901,7 @@ translations:
 
   - key: usage.css_interoperability_features
     aliasFor: opinions_others.browser_interoperability_features.others
-  - key: usage.css_interoperability_features.description
+  - key: usage.css_interoperability_features.question
     aliasFor: opinions_others.browser_interoperability_features.others.description
 
   - key: usage.css_interoperability_features_freeform
@@ -864,6 +929,8 @@ translations:
     aliasFor: features.color_functions.description
   - key: options.css_interoperability_features.cascade_layers
     aliasFor: features.cascade_layers
+  - key: options.css_interoperability_features.scrollbar
+    t: Scrollbar styling
 
   - key: options.css_interoperability_features.na
     t: None
@@ -884,7 +951,7 @@ translations:
 
   - key: usage.css_pain_points
     aliasFor: opinions_others.css_pain_points.others
-  - key: usage.css_pain_points.description
+  - key: usage.css_pain_points.question
     aliasFor: usage.other_pain_points_freeform
   - key: usage.css_pain_points_freeform
     aliasFor: usage.other_pain_points_freeform
@@ -907,7 +974,7 @@ translations:
 
   - key: usage.css_missing_features
     t: Missing Features
-  - key: usage.css_missing_features.description
+  - key: usage.css_missing_features.question
     aliasFor: usage.missing_features_freeform
 
   - key: opinions_others.css_missing_features.others
@@ -943,17 +1010,17 @@ translations:
     t: How happy are you with the general state of web technologies?
   - key: usage.state_of_the_web_happiness
     aliasFor: happiness.state_of_the_web
-  - key: usage.state_of_the_web_happiness.description
+  - key: usage.state_of_the_web_happiness.question
     aliasFor: happiness.state_of_the_web.description
 
   - key: happiness.state_of_css
     t: State of CSS
-  - key: happiness.state_of_css.description
+  - key: happiness.state_of_css.question
     t: How happy are you with the general state of CSS?
   - key: usage.state_of_css_happiness
     aliasFor: happiness.state_of_css
-  - key: usage.state_of_css_happiness.description
-    aliasFor: happiness.state_of_css.description
+  - key: usage.state_of_css_happiness.question
+    aliasFor: happiness.state_of_css.question
 
   # pain points/currently missing (results)
   - key: css_pain_points.css_pain_points_wins
@@ -978,13 +1045,20 @@ translations:
 
   - key: usage.css_js_balance
     t: CSS vs JavaScript Balance
-  - key: usage.css_js_balance.description
+  - key: usage.css_js_balance.question
     t: How do you divide your time between writing CSS (including HTML markup) and JavaScript code?
 
   - key: usage.css_usage_type
     t: CSS Usage
-  - key: usage.css_usage_type.description
+  - key: usage.css_usage_type.question
     t: In what context do you primarily use CSS?
+  - key: usage.css_usage_type.others
+    t: Other CSS Usages
+
+  - key: usage.usage_type
+    aliasFor: usage.css_usage_type
+  - key: usage.usage_type.question
+    aliasFor: usage.css_usage_type.question
   - key: usage.css_usage_type.others
     t: Other CSS Usages
 
@@ -1019,6 +1093,9 @@ translations:
     aliasFor: resources.people.others
   - key: resources.people_css.others.description
     t: People you read, follow, or just want to highlight for their work in the CSS ecosystem.
+
+  - key: resources.people.question
+    t: Which individuals do you read, follow, or just want to highlight in the CSS ecosystem?
 
   ###########################################################################
   # Survey Help
