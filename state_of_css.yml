@@ -692,7 +692,9 @@ translations:
   - key: tools.css_frameworks
     t: CSS Frameworks
   - key: tools.css_frameworks.question
-    t: Which frameworks or libraries that give you pre-made components or styles do you use?
+    t: Which CSS frameworks do you use?
+  - key: tools.css_frameworks.prompt
+    t: Frameworks or libraries that give you pre-made components or styles.
 
   - key: tools.css_in_js
     aliasFor: sections.css_in_js.title
@@ -796,8 +798,6 @@ translations:
 
   - key: usage.form_factors
     aliasFor: environments.form_factors
-  - key: usage.form_factors.description
-    aliasFor: environments.form_factors.question
   - key: usage.form_factors.question
     aliasFor: environments.form_factors.question
   - key: usage.form_factors.others
@@ -840,8 +840,6 @@ translations:
 
   - key: usage.what_do_you_use_css_for
     aliasFor: environments.what_do_you_use_css_for
-  - key: usage.what_do_you_use_css_for.description
-    aliasFor: environments.what_do_you_use_css_for.question
   - key: usage.what_do_you_use_css_for.others
     aliasFor: environments.what_do_you_use_css_for.others
   - key: usage.what_do_you_use_css_for_freeform
@@ -1081,6 +1079,14 @@ translations:
     aliasFor: resources.sites_courses
   - key: resources.sites_courses_css.description
     t: Which CSS-related sites/courses/etc. do you use to learn about CSS?
+
+  # blogs_news_magazines
+  - key: resources.blogs_news_magazines.question
+    t: Which blogs/magazines/newsletters/etc. do you read to keep up with CSS?
+
+  # courses
+  - key: resources.courses.question
+    t: Which course or other material (videos, books, etc.) have you used to learn about CSS?
 
   # podcasts
   - key: resources.podcasts_css

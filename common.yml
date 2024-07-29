@@ -1626,12 +1626,23 @@ translations:
   - key: resources.paid_courses
     t: Paid Courses
   - key: resources.paid_courses.question
-    t: Which **paid resources** (courses, videos, books, etc.) have you used to learn JavaScript?
+    t: Which **paid resources** (courses, videos, books, etc.) have you used?
   - key: options.paid_courses.na
     t: 🚫 None
   - key: resources.paid_courses.placeholder
     t: |
       Course/book #{index}…
+
+  # courses
+  - key: resources.courses
+    t: Courses & Training Material
+  - key: resources.courses.question
+    t: Which course or other material (videos, books, etc.) have you used?
+  - key: options.courses.na
+    t: 🚫 None
+  - key: resources.courses.placeholder
+    t: |
+      Course/book/etc. #{index}…
 
   # podcasts
   - key: resources.podcasts
