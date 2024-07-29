@@ -245,6 +245,15 @@ translations:
   - key: options.css_pain_points.performance_issues.description
     t: Dealing with scrolling jank, making animations smoother, etc.
 
+  - key: options.css_pain_points.accessibility
+    t: Accessibility
+  - key: options.css_pain_points.accessibility.description
+    t: Keeping content accessible
+  - key: options.css_pain_points.animations
+    t: Animations
+  - key: options.css_pain_points.animations.description
+    t: Creating animations and transitions
+
   # CSS missing features (same as features section)
   - key: options.css_missing_features.nesting
     t: Nesting
