@@ -1,0 +1,360 @@
+locale: en-US
+translations:
+  ###########################################################################
+  # General
+  ###########################################################################
+
+  - key: general.results.description
+    t: The 2022 edition of the annual survey about the latest trends in the GraphQL ecosystem.
+
+  - key: general.livestream_announcement
+    t: Make sure to tune in for our [special survey results livestream](https://dev.to/sachagreif/state-of-javascript-2021-livestream-24a5) on February 22! (English)
+
+  ###########################################################################
+  # Introduction
+  ###########################################################################
+
+  - key: introduction.demo2022
+    t: >
+
+      <span class="first-letter">S</span>ince being originally created at Facebook in September 2015, many developers have embraced GraphQL as a new and promising way to build APIs. 
+
+
+      Yet 7 years later, a lot of questions still remain: when do you need GraphQL exactly? Should you hand-code your GraphQL API or generate it from your database? And will it ever replace REST?
+
+
+      To answer these questions and many more, we've created the first ever **State of GraphQL** community survey. Over 3,000 developers took part this year, and this is just the beginning.
+
+
+      We hope you enjoy browsing the data, and make sure to check out our [GraphQL API](https://graphiql.devographics.com/) as well!
+
+
+      <span class="conclusion__byline">– Sacha Greif</span>
+
+  ###########################################################################
+  # Tshirt
+  ###########################################################################
+
+  - key: sections.tshirt.title
+    t: T-shirt
+
+  - key: sections.tshirt.description
+    t: |
+      ## Support the Survey With the State of JavaScript T-Shirt
+
+      Between the bad video quality, the bulky cassettes, and having to rewind, there's not much to miss about the VHS era. But one thing we *do* miss are the amazing 90s visuals that used to adorn blank VHS tapes. 
+
+      But now, thanks to the talented Christopher Kirk-Nielsen you can enjoy all this retro radness while also celebrating your love for JavaScript at the same time!
+
+  - key: tshirt.about
+    t: About the T-shirt
+
+  - key: tshirt.description
+    t: |
+      We use a high-quality, super-soft tri-blend shirt with a slim fit printed by our partners at Cotton Bureau.
+
+  - key: tshirt.getit
+    t: Get It
+
+  - key: tshirt.price
+    t: USD $29 + shipping
+
+  - key: tshirt.designer.heading
+    t: About the Designer
+
+  - key: tshirt.designer.name
+    t: Christopher Kirk-Nielsen
+
+  - key: tshirt.designer.bio
+    t: |
+      Originally from France but now based in the United States, Chris is not just an amazing front-end developer, but also a talented illustrator who specializes in retro visuals. In fact, we encourage you to also check out his [other t-shirt designs](https://chriskirknielsen.com/designs)!
+
+  ###########################################################################
+  # Sections
+  ###########################################################################
+
+  - key: sections.user_info_demo2022.description
+    t: |
+      **3,094** respondents took part in this year's survey.
+
+  - key: sections.features_demo2022.description
+    t: |
+      GraphQL may be a simple concept at its core, but there are many features and patterns to consider when you dig below the surface.
+
+  - key: sections.libraries_demo2022.description
+    t: |
+      The GraphQL ecosystem is surprisingly deep, with many competing libraries helping you set up your API.
+
+  - key: sections.tools_others_demo2022.description
+    t: |
+      Picking the right tools to use in combination with GraphQL can make all the difference.
+
+  - key: sections.usage_demo2022.description
+    t: |
+      We wanted to know not only how people use GraphQL, but also *why* they use it – as well as where GraphQL is still lacking…
+
+  - key: sections.resources_demo2022.description
+    t: |
+      We're sure you'll discover at least one or two new people, podcasts, or blogs to follow!
+
+  ###########################################################################
+  # Charts
+  ###########################################################################
+
+  - key: options.features_categories.graphql_language
+    aliasFor: sections.graphql_language.title
+  - key: options.features_categories.directives
+    aliasFor: sections.directives.title
+  - key: options.features_categories.security_performance
+    aliasFor: sections.security_performance.title
+  - key: options.features_categories.other_features
+    aliasFor: sections.other_features.title
+
+  - key: blocks.tools_quadrant.description
+    t: |
+      This chart shows each technology's **retention ratio** over its total **user count**.
+      It can be divided into four quadrants:
+
+        - **1**: Low usage, high retention. Technologies worth keeping an eye on.
+
+        - **2**: High usage, high retention. Safe technologies to adopt.
+
+        - **3**: Low usage, low retention. Technologies that are harder to recommend currently.
+
+        - **4**: High usage, low retention. Reassess these technologies if you're currently using them.
+
+  ###########################################################################
+  # Notes
+  ###########################################################################
+
+  - key: blocks.gender.note
+    t: |
+      If you're interested in learning more, we [wrote a blog post](https://dev.to/sachagreif/is-our-survey-biased-against-women-49oj) that addresses the survey's gender dynamics.
+
+  - key: blocks.css_missing_features.note
+    t: |
+      You can explore the full dataset of answers to this question in [this side project](https://whatsmissingfromcss.com/).
+
+  - key: blocks.source.note
+    t: >
+
+      This chart aggregates a mix of referrers, URL parameters, and freeform answers. 
+
+      - State of JS: the [State of JS](https://stateofjs.com) mailing list.
+
+      - State of CSS: the State of CSS mailing list; also matches `email`, `by email`, etc.
+
+      - Work: matches `work`, `colleagues`, `coworkers`, etc.
+
+  ###########################################################################
+  # Awards
+  ###########################################################################
+
+  - key: award.feature_adoption_delta_award.comment
+    t: With a **{value}** progression in 2021, the nullish coalescing operator (??) has quickly become an integral part of JavaScript.
+
+  - key: award.tool_usage_delta_award.comment
+    t: esbuild is barely two years old, but with a **{value}** progression over the last year it's already gaining ground.
+
+  - key: award.tool_satisfaction_award.comment
+    t: Vite takes the top spot with a sky-high **{value}** retention ratio!
+
+  - key: award.tool_interest_award.comment
+    t: With a **{value}** interest ratio, Vite once again wins the gold!
+
+  - key: award.most_write_ins_award.comment
+    t: Many questions also accepted write-in answers, and with **{value}** mentions Elm was the most popular item overall.
+
+  ###########################################################################
+  # Conclusion
+  ###########################################################################
+
+  - key: conclusion.demo2022
+    t: |
+
+      <span class="first-line">GraphQL is truly part of how we build modern applications today.</span>
+
+      More and more companies are creating products, services, tooling, RFCs and most of that work is being done as open-source, which is fantastic to see! It's crucial for a flourishing ecosystem to have healthy competition and collaboration!
+
+      As a result, the tide is changing on how we consume GraphQL on the client, with libraries such as urql and React Query being popular choices today alongside stalwarts like Apollo Client and Relay. It's also great to see GraphQL continue to grow and flourish in languages other than JavaScript – there are now stable and mature GraphQL servers and clients in almost all of the most popular programming languages!
+
+      GraphQL itself is changing as well, with much anticipated changes edging closer to being officially part of the specification. We'll soon see changes with stream, defer, input polymorphism, as well as improvements around subscriptions and live queries. 
+
+      Moreover, there's now dedicated companies focused on GraphQL security, caching, tracing errors, deploying to the edge, abstracting databases and backends into simple schemas, and so much more that make working with GraphQL even more approachable than it ever has been before.
+
+      We also recently witnessed a brand new GraphiQL release that boasts a powerful plugin ecosystem, fewer dependencies, and even dark mode! And the [GraphQL Foundation](https://graphql.org/foundation/) continues to grow with new members joining regularly to help sustain the efforts of all those involved in educating, building, and steering the future of GraphQL.
+
+      GraphQL has found its place in the ecosystem, and it has an exciting future ahead!
+
+  - key: conclusion.demo2022.bio
+    t: Senior Developer Relations @ Grafbase
+
+  ###########################################################################
+  # Picks
+  ###########################################################################
+
+  - key: picks.my_pick
+    t: "My 2022 Pick: "
+  - key: picks.intro
+    t: We asked members of the GraphQL community to share their “pick of the year”
+
+  - key: picks.jamie_barton.name
+    t: GraphQL Mesh
+  - key: picks.jamie_barton.bio
+    t: Full Stack Developer & Educator
+  - key: picks.jamie_barton.description
+    t: |
+      More and more people are looking for solutions to bridge the 
+      gap between all of their services. Mesh lets you do that with GraphQL, 
+      and non-GraphQL services.
+
+  - key: picks.tanmai_gopal.name
+    t: Streaming over GraphQL Subscriptions
+  - key: picks.tanmai_gopal.bio
+    t: CEO & co-founder at Hasura
+  - key: picks.tanmai_gopal.description
+    t: |
+      Modern APIs need to handle an increasing volume of data, 
+      or fast-moving data that is a stream. 
+      Could we use GraphQL subscriptions as a streaming API?
+
+  - key: picks.tim_suchanek.name
+    t: Benjie Gillam
+  - key: picks.tim_suchanek.bio
+    t: Software Engineer and Entrepreneur
+  - key: picks.tim_suchanek.description
+    t: |
+      Benjie is one of the main people pushing GraphQL forward. 
+      His engagement in the WG, TSC, and various foundation initiatives is second to none.
+
+  - key: picks.uri_goldshtein.name
+    t: Pothos GraphQL
+  - key: picks.uri_goldshtein.bio
+    t: Founder of The Guild
+  - key: picks.uri_goldshtein.description
+    t: |
+      Code-first, TS schema builder. Easy to use yet powerful, plugin based and very well maintained. 
+      If you go code first, this is the one to choose.
+
+  - key: picks.benjie_gillam.name
+    t: SpecNews Podcast
+  - key: picks.benjie_gillam.bio
+    t: Community-funded OSS maintainer
+  - key: picks.benjie_gillam.description
+    t: |
+      Latest activities from the GraphQL Working Group summarised in just 5-10 minutes per month. 
+      Cutting edge GraphQL knowledge with minimal effort!
+
+  - key: picks.xxxx.name
+    t:
+  - key: picks.xxxx.bio
+    t:
+  - key: picks.xxxx.description
+    t: |
+  ###########################################################################
+  # Sponsors
+  ###########################################################################
+
+  - key: sponsors.nijibox.description
+    t: >
+      One-stop support for UX design, creativity, and development.
+
+  - key: sponsors.frontendmasters.description
+    t: >
+      Advance your skills with in-depth, modern front-end engineering courses.
+
+  - key: sponsors.nhost.description
+    t: >
+      Nhost is an open source Firebase alternative with GraphQL.
+
+  - key: sponsors.apollo.description
+    t: >
+      Apollo's supergraph empowers product and engineering teams to quickly create incredible experiences for their customers.
+
+  - key: sponsors.the_guild.description
+    t: >
+      The Guild's open-source tools and ecosystem provides everything you need for evolving your APIs.
+
+  - key: sponsors.hasura.description
+    t: >
+      Run Hasura locally or in the cloud, and connect it to your new or existing databases to instantly get a production-grade GraphQL API.
+
+  - key: sponsors.graphql_wtf.description
+    t: >
+      Learn something new with GraphQL, every week. Get new episodes directly to your inbox.
+
+  - key: sponsors.grafbase.description
+    t: >
+      Instant serverless GraphQL backends. Grafbase provides the best developer experience to deploy GraphQL APIs.
+
+  ###########################################################################
+  # FAQ/About
+  ###########################################################################
+
+  - key: about.content
+    t: >
+      The 2022 State of GraphQL survey ran from June 15, 2022 to July 15, 2022, and collected 3,094 responses. The survey is primarily run by me, [Sacha Greif](https://sachagreif.com/), with help from a team of open-source contributors and consultants. 
+
+      ### Survey Goals
+
+      This survey, along with the [State of CSS](https://stateofcss.com/) and [State of JS](https://stateofjs.com/) surveys, was created to identify upcoming trends in the web development ecosystem in order to help developers make technological choices. 
+
+
+      Because of the relatively small sample size, this survey should be taken as a **snapshot of a subset of developers**, and is not meant to speak for the entire GraphQL ecosystem.
+
+
+      The survey is also **not affiliated with GraphQL or Facebook**.  
+
+      ### Survey Design
+
+      The survey was designed collaboratively, with an open feedback period where the survey contents were discussed on GitHub ([1](https://github.com/Devographics/Monorepo/issues/86), [2](https://github.com/Devographics/Monorepo/issues/90)). All survey questions were optional. 
+
+      ### Survey Audience
+
+      The survey was openly accessible online and respondents were not filtered or selected in any way. Respondents were primarily inbound from social media traffic. 
+
+      ### Representativeness & Inclusivity
+
+      While we believe it's important to give a voice to every community, the reality is that an open survey like this one will always struggle to properly represent everybody, especially when operating through systems that already carry their own inherent biases. 
+
+
+      In order to counter-balance this, we are implementing three distinct strategies:
+
+
+      - **Outreach**: we always try to reach out to different organizations (such as BIPOC- or LGBTQ-focused organizations, or online teaching platforms) to try and diversify our own audience. 
+
+      - **Data Analysis**: through features like facets and variants, we're always trying to make it easier to surface the voices of any demographic segment, no matter how minoritized it might be in our data. 
+
+      - **Barrier Lowering**: making the survey too long, inaccessible, slow to load, English-only, etc. can all contribute to imposing an "effort tax" that cuts off the parts of the community that can't afford to pay it. Fixing these issues can lower the barrier to entry and in the process make our audience more diverse. 
+
+
+      ### Project Funding
+
+      Funding from this project comes from a variety of sources:
+
+
+      - **Chart Sponsorships**: members of the community can donate to the survey in exchange for having their name featured in the report.  
+
+      - **Sponsored Links**: the links to recommended resources at the bottom of each page are provided by our partner [Frontend Masters](https://frontendmasters.com/).
+
+      - **Other Funding**: the companies listed in the "Our Partners" section on the [introduction page](/introduction) have also contributed financially or otherwise. 
+
+
+      Sponsors have no say over the survey contents or the way the results are presented, and sponsorships are only decided once all data has already been collected. 
+
+      ### Technical Overview
+
+      You can find a more in-depth technical overview of how the surveys are run [here](https://dev.to/sachagreif/how-the-state-of-js-css-surveys-are-run-4lnb).
+
+
+      - **Data collection**: custom [Vulcan.js](http://vulcanjs.org/) app.
+
+      - **Data storage/processing**: MongoDB & MongoDB Aggregations.
+
+      - **Data API**: Node.js GraphQL API. 
+
+      - **Results Site**: [Gatsby](https://www.gatsbyjs.com/) React app.
+
+      - **Data Visualizations**: [Nivo](https://nivo.rocks/) React dataviz library. 
+
+      - **Type**: [IBM Plex Mono](https://fonts.google.com/specimen/IBM+Plex+Mono) and [Bebas Neue](https://fonts.google.com/specimen/Bebas+Neue).
