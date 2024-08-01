@@ -131,9 +131,9 @@ translations:
   - key: general.privacy_policy
     t: Privacy Policy
   - key: general.leave_issue
-    t: Questions? Found a bug? <a href="{link}" target="_blank">Leave an issue</a>.
+    t: Questions? Found a bug? <a href="{link}" target="_blank">Report an issue</a>.
   - key: general.leave_issue2
-    t: Leave an issue
+    t: Report an issue
   - key: general.emoji_icons
     t: Emoji icons by <a target="_blank" rel="noreferrer" href="https://icons8.com">Icons8</a>
 
