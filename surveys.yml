@@ -107,6 +107,8 @@ translations:
     t: years
   - key: general.numeric_input.unit.years_old
     t: years old
+  - key: general.numeric_input.unit.hours
+    t: hours
 
   ###########################################################################
   # Errors & Messages
@@ -244,7 +246,7 @@ translations:
 
   - key: readinglist.prompt
     t: >
-      You picked “{option}”. If you'd like to learn more about this feature at the end of the survey, you can click the "+" icon above to add it to your **reading list**.
+      You picked “{option}”. If you'd like to learn more about this feature at the end of the survey, you can click the "+" icon in the corner above to add it to your **reading list**.
 
   - key: readinglist.add_to_list
     t: Add to Your Reading List

@@ -75,6 +75,11 @@ translations:
   - key: sections.other_features.description
     t: Other CSS features.
 
+  - key: sections.math_features.title
+    t: Math
+  - key: sections.math_features.description
+    t: Math features.
+
   - key: sections.units_selectors.title
     t: Units & Selectors
   - key: sections.units_selectors.description

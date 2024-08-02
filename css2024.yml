@@ -10,13 +10,13 @@ translations:
   - key: general.css2024.results_intro
     t: |
 
-      I'm not going to lie, keeping up with CSS hasn't been easy lately. Thankfully this year [Chen Hui Jing](https://chenhuijing.com/) took the lead of the survey design process, building on the work done by [Lea Verou](https://lea.verou.me/) last year.
+      It's amazing to witness the speed at which CSS keeps evolving. While the past decade has been all about building a solid foundation for layout (Flexbox, Grid) and syntax (variables) the future promises to be about going much further than most of us ever dreamed of. 
 
-      We were also lucky enough to get support from the Google Chrome team, who (along with other browser vendors) uses these results to help guide their roadmap.
+      Want to calculate a square root or cosine in your CSS? Use that to build scroll-triggered animations? And maybe scope all of it down so it doesn't have any unwanted effects? Now you can do all that, and much more!
 
-      Thanks to all that extra help, we were able to introduce a bunch of new features, starting with the ability to **customize charts**. By clicking the <span class="customize-chart-icon">“settings”</span> icon next to a chart, you can now filter it by salary, country, or any other variable you'd like!
+      Which is why this survey is more important than ever, not just as a way to keep track of your own progress; but also as a tool to let browser vendors know what we all think about this new direction.
 
-      With all this out of the way, let's see how CSS evolved in 2023!
+      So once again, please join me for this year's State of CSS!
 
   ###########################################################################
   # Introduction
