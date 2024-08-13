@@ -18,6 +18,20 @@ translations:
 
       So once again, please join me for this year's State of CSS!
 
+  - key: features.features_intro_css2024
+    t: |
+      Welcome to the survey! This first part is all about sharing your experience with various CSS features:
+
+
+      - **Never heard of it**: it's your first time seeing this – or you've heard of it but have no idea what it does. 
+
+      - **Heard of it**: you've read or learned about this, but haven't actually used it yet. 
+
+      - **Used it**: you've used this at least once, even if it was just to play around. 
+
+
+      By the way, if you want to tell us more about any of your choices, just click that little "comment" icon!
+
   ###########################################################################
   # Introduction
   ###########################################################################
@@ -506,7 +520,7 @@ translations:
   - key: faq.results_released_css2024
     t: When will the results be released?
   - key: faq.results_released_css2024.description
-    t: The survey will run from August 19 to September 10, 2024, and the survey results will be released shortly after.
+    t: The survey will run from August 17 to September 7, 2024, and the survey results will be released shortly after.
 
   - key: about.content
     t: >
