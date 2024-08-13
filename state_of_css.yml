@@ -1074,6 +1074,24 @@ translations:
   - key: usage.css_usage_type.others
     t: Other CSS Usages
 
+  # design_methodology
+  - key: usage.design_methodology
+    t: Design Methodology
+  - key: usage.design_methodology
+    t: Which of these best describes how you primarily design with CSS?
+  - key: options.design_methodology.implement_other_peoples_designs
+    t: I implement other people's designs
+  - key: options.design_methodology.design_in_design_apps
+    t: I create my own designs in design apps, and then implement them in CSS
+  - key: options.design_methodology.design_in_css
+    t: I implement my own designs directly in CSS
+
+  # favorite_new_feature
+  - key: usage.favorite_new_features
+    t: Favorite New Feature
+  - key: usage.favorite_new_features.question
+    t: What are your favorite new CSS features that you started using this year?
+
   ###########################################################################
   # Resources
   ###########################################################################
