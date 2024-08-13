@@ -485,6 +485,29 @@ translations:
   # FAQ/About
   ###########################################################################
 
+  - key: faq.how_long_will_survey_take_css2024
+    t: How long will answering the survey take?
+  - key: faq.how_long_will_survey_take_css2024.description
+    t: >
+      Depending on how many questions you answer (all questions can be skipped),
+      filling out the survey should take around 15-20 minutes.
+
+  - key: faq.learn_more_css2024
+    t: Where can I learn more?
+  - key: faq.learn_more_css2024.description
+    t: You can learn more about this survey in [our announcement post](https://dev.to/sachagreif/the-2024-state-of-css-survey-is-now-open-1bjj).
+
+  - key: faq.survey_design_css2024
+    t: How was this survey designed?
+  - key: faq.survey_design_css2024.description
+    t: >
+      This survey was designed as the results of an [open design process](https://github.com/Devographics/surveys/issues/245) involving browser vendors and the web development community.
+
+  - key: faq.results_released_css2024
+    t: When will the results be released?
+  - key: faq.results_released_css2024.description
+    t: The survey will run from August 19 to September 10, 2024, and the survey results will be released shortly after.
+
   - key: about.content
     t: >
       The 2023 State of CSS survey ran from June 15 to July 15 2023, and collected 9,108 responses. The survey is run by [Devographics](https://www.devographics.com/), with help from a team of open-source contributors and consultants. 
