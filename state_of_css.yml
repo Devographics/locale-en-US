@@ -711,7 +711,7 @@ translations:
     t: Frameworks or libraries that give you pre-made components or styles.
 
   - key: tools.css_in_js
-    aliasFor: sections.css_in_js.title
+    t: CSS-in-JS
   - key: tools.css_in_js.question
     t: Which CSS-in-JS libraries do you use?
 
@@ -1077,7 +1077,7 @@ translations:
   # design_methodology
   - key: usage.design_methodology
     t: Design Methodology
-  - key: usage.design_methodology
+  - key: usage.design_methodology.question
     t: Which of these best describes how you primarily design with CSS?
   - key: options.design_methodology.implement_other_peoples_designs
     t: I implement other people's designs

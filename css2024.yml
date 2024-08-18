@@ -7,7 +7,7 @@ translations:
   - key: general.results.description
     t: The 2024 edition of the annual survey about the latest trends in the CSS ecosystem.
 
-  - key: general.css2024.results_intro
+  - key: general.css2024.survey_intro
     t: |
 
       It's amazing to witness the speed at which CSS keeps evolving. While the past decade has been all about building a solid foundation for layout (Flexbox, Grid) and syntax (variables) the future promises to be about going much further than most of us ever dreamed of. 
