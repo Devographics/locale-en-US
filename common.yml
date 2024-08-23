@@ -1008,7 +1008,7 @@ translations:
   - key: options.industry_sector.art
     t: Art
   - key: options.industry_sector.crypto
-    t: Crypto
+    t: Blockchain/Cryptocurrency
   - key: options.industry_sector.aerospace
     t: Aerospace
   - key: options.industry_sector.web3
