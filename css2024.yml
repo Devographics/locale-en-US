@@ -509,7 +509,7 @@ translations:
   - key: faq.learn_more_css2024
     t: Where can I learn more?
   - key: faq.learn_more_css2024.description
-    t: You can learn more about this survey in [our announcement post](https://dev.to/sachagreif/the-2024-state-of-css-survey-is-now-open-1bjj).
+    t: You can learn more about this survey in [our announcement post](https://dev.to/sachagreif/the-2024-state-of-css-survey-is-now-open-4o5h).
 
   - key: faq.survey_design_css2024
     t: How was this survey designed?
