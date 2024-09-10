@@ -559,6 +559,11 @@ translations:
   - key: other_tools.site_generators.question
     t: Which of these static or dynamic site generators do you regularly use?
 
+  - key: other_tools.validation_tools
+    t: Validation Tools
+  - key: other_tools.validation_tools.question
+    t: Which of these validation tools do you regularly use?
+
   - key: other_tools.ai_tools
     t: AI Tools
   - key: other_tools.ai_tools.question
@@ -624,6 +629,11 @@ translations:
   - key: usage.html_functionality_features.placeholder.2
     t: |
       Feature #2 (limited functionality, poor accessibility)
+
+  - key: usage.html_new_features
+    t: New Features
+  - key: usage.html_new_features.question
+    t: Which of these new and upcoming features are you most excited about?
 
   - key: usage.what_do_you_use_html_for
     t: HTML Usage
