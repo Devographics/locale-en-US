@@ -76,9 +76,9 @@ translations:
     t: Other HTML elements & browser APIs.
 
   - key: sections.other_tools.title
-    t: Other Tools & Features
+    t: Other Tools
   - key: sections.other_tools.description
-    t: Other tools or features you use as part of your work.
+    t: Other tools you use as part of your work.
 
   - key: sections.usage.title
     t: Usage
@@ -552,12 +552,174 @@ translations:
     t: |
       Pain point #{index}
 
+  # other features
+
+  - key: features.foo_attribute
+    t: "`{id}` attribute"
+
+  - key: features.slot_assignment
+    t: Explicit slot assignment (`slot="foo"`)
+
+  - key: features.tabindex
+    t: "`tabindex` attribute"
+
+  - key: features.respimg
+    t: "`srcset` and `sizes` attributes"
+
+  - key: features.model_element
+    t: "`<model>` for AR/VR/3D content"
+
+  - key: features.slot_def
+    t: Defining slots (`<slot>` and `::slotted()`)
+
+  - key: features.controlslist
+    t: "`controlslist` attribute"
+
+  - key: features.popover_api
+    t: Popover API
+
+  - key: features.lazy_loading
+    t: Lazy loading
+
+  - key: features.sandbox_attr
+    t: "`sandbox` attribute for iframes"
+
+  - key: features.details_element
+    t: "`<details>` and `<summary>`"
+
+  - key: features.crossorigin
+    t: "`crossorigin` attribute"
+
+  - key: features.host_css
+    t: Styling component host (`:host`, `:host()`, `:host-context()`)
+
+  - key: features.element_internals
+    t: "`ElementInternals` API"
+
+  - key: features.cors
+    t: CORS
+
+  - key: features.csp
+    t: Content-Security Policy (CSP)
+
+  - key: features.structured_data
+    t: Structured data (RDFa, Microdata, Microformats)
+
+  - key: features.extended_builtins
+    t: Extended built-ins
+
+  - key: features.html_modules
+    t: HTML Modules
+
+  - key: features.accordion
+    t: Exclusive accordion
+
+  - key: features.imperative_slot
+    t: Imperative slot assignment
+
+  # - key: features.focusgroup
+  #   t: "`focusgroup` attribute"
+
+  - key: features.form_validation
+    t: Form validation
+
+  - key: features.aria
+    t: ARIA
+
+  - key: features.rh_preconnect
+    t: "Resource Hints: preconnect (`<link rel=preconnect>`)"
+
+  - key: features.rh_prerender
+    t: "Resource Hints: prerender (`<link rel=prerender>`)"
+
+  - key: features.rh_preload
+    t: "Resource Hints: preload (`<link rel=preload>`)"
+
+  - key: features.resource_hints
+    t: Resource Hints (all)
+
+  - key: features.rh_prefetch
+    t: "Resource Hints: prefetch (`<link rel=prefetch>`)"
+
+  - key: features.declarative_shadow
+    t: Declarative Shadow DOM (`<template shadowrootmode="open">`)
+
+  - key: features.referrerpolicy
+    t: "`referrerpolicy` attribute"
+
+  - key: features.integrity
+    t: Subresource Integrity (`integrity` attribute)
+
+  - key: features.pwa_manifest
+    t: PWA manifest
+
+  - key: features.part_attr
+    t: Exposing component parts (`part` attribute)
+
+  - key: features.part_selector
+    t: Styling component parts (`::part()`)
+
+  - key: features.svg_element
+    t: Inline SVG (`<svg>`)
+
+  - key: features.math_element
+    t: Inline MathML (`<math>`)
+
+  - key: features.scoped_element_registries
+    t: Scoped Custom Element Registries
+
+  - key: features.navigation_api
+    t: Navigation API
+
+  - key: features.custom_elements_defining
+    t: Defining Custom Elements
+
+  - key: features.decoding
+    t: "`decoding` attribute"
+
+  - key: features.custom_elements_using
+    t: Using Custom Elements
+
+  - key: features.fencedframe
+    t: Fenced frames
+
+  - key: features.credentialless
+    t: Credentialess iframes
+
+  - key: features.media_capture
+    t: HTML Media Capture
+
+  - key: features.contenteditable_plaintext
+    t: "`plaintext-only` value for `contenteditable`"
+
+  - key: features.dom_parts
+    t: DOM Parts
+
+  - key: features.fetchpriority
+    t: Fetch Priority API (`fetchpriority` attribute)
+
+  - key: features.autocomplete
+    t: '`autocomplete="hint"`'
+
+  - key: features.inert_attribute
+    t: "`inert` attribute"
+
+  - key: features.client_hints
+    t: HTTP client hints
+
+  ###########################################################################
   # Other Tools
+  ###########################################################################
 
   - key: other_tools.site_generators
     t: Site Generators
   - key: other_tools.site_generators.question
     t: Which of these static or dynamic site generators do you regularly use?
+
+  - key: other_tools.browsers
+    aliasFor: tools_others.browsers
+  - key: other_tools.browsers.question
+    aliasFor: tools_others.browsers.question
 
   - key: other_tools.validation_tools
     t: Validation Tools
@@ -586,7 +748,19 @@ translations:
   - key: options.blast_from_the_past.na
     t: <span aria-hidden="true">🚫</span> None of the above
 
+  - key: other_tools.performance_tools
+    t: Performance Tools
+  - key: other_tools.performance_tools.question
+    t: What tools & services do you use to track and improve the performance of your websites?
+
+  - key: other_tools.analytics_tools
+    t: Analytics Tools
+  - key: other_tools.analytics_tools.question
+    t: What analytics tools & services do you use to monitor your websites?
+
+  ###########################################################################
   # Usage
+  ###########################################################################
 
   # - key: usage.html_existing_features
   #   t: Unusable HTML Features
@@ -753,160 +927,41 @@ translations:
   - key: options.html_css_js_balance.8
     t: 100% JS
 
-  # other features
+  ###########################################################################
+  # Resources
+  ###########################################################################
 
-  - key: features.foo_attribute
-    t: "`{id}` attribute"
+  - key: resources.web_platform_resources
+    t: Web Platform Resources
+  - key: resources.web_platform_resources.question
+    t: Which of these resources do you consult to stay informed about web platform features?
 
-  - key: features.slot_assignment
-    t: Explicit slot assignment (`slot="foo"`)
+  ###########################################################################
+  # Opinions
+  ###########################################################################
 
-  - key: features.tabindex
-    t: "`tabindex` attribute"
+  - key: opinions.opinions_intro
+    t: For the following questions, let us know how much you agree with each statement.
 
-  - key: features.respimg
-    t: "`srcset` and `sizes` attributes"
+  - key: opinions.accessibility_is_valued
+    t: Accessibility
+  - key: opinions.accessibility_is_valued.question
+    t: Accessibility is valued in my workplace or professional environment
 
-  - key: features.model_element
-    t: "`<model>` for AR/VR/3D content"
+  - key: opinions.keeping_informed_is_challenging
+    t: Keeping Informed
+  - key: opinions.keeping_informed_is_challenging.question
+    t: Keeping informed about new web platform features is a challenge
 
-  - key: features.slot_def
-    t: Defining slots (`<slot>` and `::slotted()`)
+  - key: opinions.browser_interoperability_is_obstacle
+    t: Browser Interoperability
+  - key: opinions.browser_interoperability_is_obstacle.question
+    t: The lack of browser interoperability is a major obstacle to web development
 
-  - key: features.controlslist
-    t: "`controlslist` attribute"
-
-  - key: features.popover_api
-    t: Popover API
-
-  - key: features.lazy_loading
-    t: Lazy loading
-
-  - key: features.sandbox_attr
-    t: "`sandbox` attribute for iframes"
-
-  - key: features.details_element
-    t: "`<details>` and `<summary>`"
-
-  - key: features.crossorigin
-    t: "`crossorigin` attribute"
-
-  - key: features.host_css
-    t: Styling component host (`:host`, `:host()`, `:host-context()`)
-
-  - key: features.element_internals
-    t: "`ElementInternals` API"
-
-  - key: features.cors
-    t: CORS
-
-  - key: features.csp
-    t: Content-Security Policy (CSP)
-
-  - key: features.structured_data
-    t: Structured data (RDFa, Microdata, Microformats)
-
-  - key: features.extended_builtins
-    t: Extended built-ins
-
-  - key: features.html_modules
-    t: HTML Modules
-
-  - key: features.accordion
-    t: Exclusive accordion
-
-  - key: features.imperative_slot
-    t: Imperative slot assignment
-
-  # - key: features.focusgroup
-  #   t: "`focusgroup` attribute"
-
-  - key: features.form_validation
-    t: Form validation
-
-  - key: features.aria
-    t: ARIA
-
-  - key: features.rh_preconnect
-    t: "Resource Hints: preconnect (`<link rel=preconnect>`)"
-
-  - key: features.rh_prerender
-    t: "Resource Hints: prerender (`<link rel=prerender>`)"
-
-  - key: features.rh_preload
-    t: "Resource Hints: preload (`<link rel=preload>`)"
-
-  - key: features.resource_hints
-    t: Resource Hints (all)
-
-  - key: features.rh_prefetch
-    t: "Resource Hints: prefetch (`<link rel=prefetch>`)"
-
-  - key: features.declarative_shadow
-    t: Declarative Shadow DOM (`<template shadowrootmode="open">`)
-
-  - key: features.referrerpolicy
-    t: "`referrerpolicy` attribute"
-
-  - key: features.integrity
-    t: Subresource Integrity (`integrity` attribute)
-
-  - key: features.pwa_manifest
-    t: PWA manifest
-
-  - key: features.part_attr
-    t: Exposing component parts (`part` attribute)
-
-  - key: features.part_selector
-    t: Styling component parts (`::part()`)
-
-  - key: features.svg_element
-    t: Inline SVG (`<svg>`)
-
-  - key: features.math_element
-    t: Inline MathML (`<math>`)
-
-  - key: features.scoped_element_registries
-    t: Scoped Custom Element Registries
-
-  - key: features.navigation_api
-    t: Navigation API
-
-  - key: features.custom_elements_defining
-    t: Defining Custom Elements
-
-  - key: features.decoding
-    t: "`decoding` attribute"
-
-  - key: features.custom_elements_using
-    t: Using Custom Elements
-
-  - key: features.fencedframe
-    t: Fenced frames
-
-  - key: features.credentialless
-    t: Credentialess iframes
-
-  - key: features.media_capture
-    t: HTML Media Capture
-
-  - key: features.contenteditable_plaintext
-    t: "`plaintext-only` value for `contenteditable`"
-
-  - key: features.dom_parts
-    t: DOM Parts
-
-  - key: features.fetchpriority
-    t: Fetch Priority API (`fetchpriority` attribute)
-
-  - key: features.autocomplete
-    t: '`autocomplete="hint"`'
-
-  - key: features.inert_attribute
-    t: "`inert` attribute"
-
-  - key: features.client_hints
-    t: HTTP client hints
+  - key: opinions.web_platform_right_direction
+    t: Web Platform
+  - key: opinions.web_platform_right_direction.question
+    t: The web platform is moving in the right direction overall
 
   ###########################################################################
   # Survey Help

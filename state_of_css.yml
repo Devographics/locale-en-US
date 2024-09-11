@@ -841,7 +841,7 @@ translations:
     t: Do you write CSS for email clients?
 
   - key: environments.what_do_you_use_css_for
-    t: What do you mainly use CSS for?
+    t: CSS Usage
   - key: environments.what_do_you_use_css_for.question
     t: What kind of project do you usually use CSS for?
   - key: environments.what_do_you_use_css_for.others
