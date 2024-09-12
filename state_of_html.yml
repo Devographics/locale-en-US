@@ -753,6 +753,9 @@ translations:
   - key: other_tools.performance_tools.question
     t: What tools & services do you use to track and improve the performance of your websites?
 
+  - key: options.performance_tools.browser_devtools
+    t: Browser Devtools
+
   - key: other_tools.analytics_tools
     t: Analytics Tools
   - key: other_tools.analytics_tools.question
