@@ -197,6 +197,25 @@ translations:
   - key: faq.results_released_html2024.description
     t: The survey will run from September 12 to October 1, 2024, and the survey results will be released shortly after.
 
+  - key: faq.who_should_take_survey_html2024
+    t: Who should take this survey?
+  - key: faq.who_should_take_survey_html2024.description
+    t: >
+      This is an open survey for anybody who makes websites or web apps, whether regularly or occasionally, as part of their job, as a student, or just for fun!
+
+  - key: faq.data_used_html2024
+    t: How will this data be used?
+  - key: faq.data_used_html2024.description
+    t: >
+      All data collected will be released openly for any developer or company to consult.
+      Browser vendors also [use this data](https://web.dev/blog/interop-2024) to prioritize focus areas and inform their roadmaps.
+
+  - key: faq.survey_goals_html2024
+    t: What are the survey's goals?
+  - key: faq.survey_goals_html2024.description
+    t: >
+      The survey's goals are to measure awareness of new HTML features and browser APIs, and help developers keep track of how their usage is evolving.
+
   - key: about.content
     t: |
       The 2024 State of HTML survey ran from September 19 to October 19 2024, and collected 20,904 responses. 
