@@ -1569,10 +1569,16 @@ translations:
       mailing list provider it will be deleted from our own records.
 
   # how can we improve the survey?
+  - key: user_info.did_you_run_into_technical_issues
+    t: Technical Issues
+  - key: user_info.did_you_run_into_technical_issues.question
+    t: Did you run into any technical issues while taking this survey?
+
+  # how can we improve the survey?
   - key: user_info.how_can_we_improve
     t: Survey Improvements
   - key: user_info.how_can_we_improve.question
-    t: How could we improve this survey?
+    t: How else could we improve this survey?
 
   ###########################################################################
   # Usage
