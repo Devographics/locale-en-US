@@ -1794,6 +1794,14 @@ translations:
     t: >
       **{value}** median value
 
+  - key: charts.filter_by
+    t: >
+      Filter by:
+  - key: charts.all_filters
+    t: All
+  - key: charts.all_filters.description
+    t: Show All
+
   ###########################################################################
   # Multi Items Experience Chart
   ###########################################################################

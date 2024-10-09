@@ -4,12 +4,6 @@ translations:
   # General
   ###########################################################################
 
-  - key: features.discrete_properties_animations
-    t: foobar
-
-  - key: features.discrete_properties_animations.description
-    t: baz123
-
   - key: general.results.description
     t: The 2024 edition of the annual survey about the latest trends in the CSS ecosystem.
 
@@ -147,6 +141,23 @@ translations:
   - key: options.features_categories.selectors
     aliasFor: sections.selectors.title
 
+  - key: features.layout
+    aliasFor: sections.layout.title
+  - key: features.shapes_graphics
+    aliasFor: sections.shapes_graphics.title
+  - key: features.interactions
+    aliasFor: sections.interactions.title
+  - key: features.typography
+    aliasFor: sections.typography.title
+  - key: features.accessibility
+    aliasFor: sections.accessibility.title
+  - key: features.other_features
+    aliasFor: sections.other_features.title
+  - key: features.colors
+    aliasFor: sections.colors.title
+  - key: features.selectors
+    aliasFor: sections.selectors.title
+
   - key: user_info.country_low_vs_high_income.description.css2024
     t: >
       Splitting respondents between low-income and high-income brackets gives
@@ -180,6 +191,8 @@ translations:
       When comparing U.S. incomes against the rest of the world, it becomes clear that U.S.
       developers are over-represented in the higher income brackets.
 
+  - key: features.all_features
+    t: Features
   ###########################################################################
   # Awards
   ###########################################################################

@@ -416,6 +416,12 @@ translations:
   - key: features.animations
     t: CSS Animations
 
+  - key: features.discrete_properties_animations
+    t: Discrete Properties Animations
+
+  - key: features.discrete_properties_animations.description
+    t: Easily animate entry and exit animations for dismissible elements such as dialogs and popovers.
+
   # media queries/accessibility
   - key: features.tabindex
     t: "`tabindex` HTML attribute"
