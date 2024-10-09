@@ -38,13 +38,13 @@ translations:
 
   - key: introduction.css2024
     t: |
-      <span class="first-letter">C</span>SS is going through a period of unprecedented progress. Between `:has()`, container queries, subgrid, and many more, new features are making their way to browsers seemingly every month. 
+      <span class="first-letter">L</span>et me make a prediction: we'll look back at 2024 as the turning point between “CSS Classic” and “New CSS”.
 
-      The consequence of all this growth is that things can get a bit overwhelming. Thankfully this year we had [Chen Hui Jing](https://chenhuijing.com/) to help design the survey and guide us through the CSS jungle. 
+      CSS Classic is how most of us have been writing CSS for years: using a limited set of features, and compensating for the language's limitations using outside tools such as libraries, pre- and post-processors, and strict methodologies. 
 
-      And speaking of the survey, did you know browser vendors use its data as part of the [Interop](https://web.dev/interop-2023/) initiative to help prioritize which features to work on next?
+      New CSS on the other hand is an approach that embraces Subgrid, `:has()`, variables, container queries, and the many new and exciting CSS features introduced in recent years to not only do away with extra tooling, but even start taking on tasks that previously required complex JavaScript workarounds. 
 
-      Finally, we are introducing a new feature this year: the ability to **customize charts** with your own data filters. We're excited to see what kind of new insights you'll come up with!
+      This is all possible thanks to a renewed comittment by browser vendors to, you know, actually *make this stuff work* – and I can't shake the feeling that we've barely scratched the surface of everything New CSS can offer. 
 
       <span class="conclusion__byline">– Sacha Greif</span>
 
@@ -92,25 +92,18 @@ translations:
 
   - key: sections.user_info.description.css2024
     t: |
-      This year's survey reached **9,190** developers throughout the world.
+      This year's survey reached **9,594** developers throughout the world.
 
   - key: sections.features.description.css2024
     t: |
-      CSS has been on a roll lately, and many of the new features introduced are
-      slowly but surely being adopted by the developer community.
+      It's no secret that CSS is adding new features at a record rate – which is why we ended up asking about no less than *50* of them this year!
 
-  - key: sections.css_frameworks.description.css2024
-    t: |
-      Once again, Tailwind CSS stands apart as the one major UI framework that developers are happy to keep using; while Open Props is generating a small but passionate following.
-
-  - key: sections.css_in_js.description.css2024
-    t: |
-      After some initial growth, it seems like the CSS-in-JS sector has plateaued, and
-      the fact that native CSS itself is adopting many of its main advantages is probably a big contributing factor.
+  - key: sections.other_tools.css2024
+    t: Libraries & Tools
 
   - key: sections.other_tools.description.css2024
     t: |
-      30 years after the invention of the browser, we're still seeing innovation in that space with new entrants like Brave and Arc; or specialized tools like Polypane gaining marketshare.
+      Despite the many capabilities unlocked by CSS's new features, developers still rely on tooling and libraries to support their workflow, at least for now.
 
   - key: sections.usage.description.css2024
     t: |
@@ -118,81 +111,62 @@ translations:
 
   - key: sections.resources.description.css2024
     t: |
-      Between blogs, YouTube channels, and podcasts, the CSS community is more vibrant than ever.
+      Rest assured: with the amount of new CSS features coming out, we won't run out of material for CSS blog posts, podcasts, videos, and courses anytime soon!
 
   ###########################################################################
   # Charts
   ###########################################################################
 
-  - key: options.features_categories.layout
-    aliasFor: sections.layout.title
-  - key: options.features_categories.shapes_graphics
-    aliasFor: sections.shapes_graphics.title
-  - key: options.features_categories.interactions
-    aliasFor: sections.interactions.title
-  - key: options.features_categories.typography
-    aliasFor: sections.typography.title
-  - key: options.features_categories.accessibility
-    aliasFor: sections.accessibility.title
-  - key: options.features_categories.other_features
-    aliasFor: sections.other_features.title
-  - key: options.features_categories.colors
-    aliasFor: sections.colors.title
-  - key: options.features_categories.selectors
-    aliasFor: sections.selectors.title
-
-  - key: features.layout
-    aliasFor: sections.layout.title
-  - key: features.shapes_graphics
-    aliasFor: sections.shapes_graphics.title
-  - key: features.interactions
-    aliasFor: sections.interactions.title
-  - key: features.typography
-    aliasFor: sections.typography.title
-  - key: features.accessibility
-    aliasFor: sections.accessibility.title
-  - key: features.other_features
-    aliasFor: sections.other_features.title
-  - key: features.colors
-    aliasFor: sections.colors.title
-  - key: features.selectors
-    aliasFor: sections.selectors.title
-
-  - key: user_info.country_low_vs_high_income.description.css2024
+  - key: user_info.country_low_vs_high_income.takeaway.css2024
     t: >
       Splitting respondents between low-income and high-income brackets gives
       us two very different lists of countries.
 
-  - key: user_info.higher_education_degree_by_gender.description.css2024
+  - key: user_info.higher_education_degree_by_gender.takeaway.css2024
     t: >
       Women representation was higher than expected among respondents 
       with a higher-education diploma in areas unrelated to CSS, potentially 
       indicating a lot of career changes.
 
-  - key: user_info.source_by_gender.description.css2024
+  - key: user_info.source_by_gender.takeaway.css2024
     t: >
       Although the low total counts make it hard to draw any conclusions,
       the proportion of women was highest among respondents 
       who came across the survey from their workplace or through word-of-mouth, 
       especially compared to social networks such as Twitter or YouTube.
 
-  - key: user_info.source_by_race_ethnicity.description.css2024
+  - key: user_info.source_by_race_ethnicity.takeaway.css2024
     t: >
       Again keeping in mind the low sample size, when considering race and ethnicity,
       YouTube stands out as one of the most diverse source of traffic to the survey.
 
-  - key: user_info.average_income_by_company_size.description.css2024
+  - key: user_info.average_income_by_company_size.takeaway.css2024
     t: >
       We find the highest-paid respondents working for large companies, although
       it's notable that solo workers show a slight income advantage over small companies.
 
-  - key: user_info.yearly_salary_usa_vs_the_world.description.css2024
+  - key: user_info.yearly_salary_usa_vs_the_world.takeaway.css2024
     t: >
       When comparing U.S. incomes against the rest of the world, it becomes clear that U.S.
       developers are over-represented in the higher income brackets.
 
   - key: features.all_features
     t: Features
+
+  - key: features.all_features.takeaway.css2024
+    t: >
+      Filter Effects (`blur()`, `contrast()`, etc.) were the unexpected most-used CSS feature of 2024, with 75.4% of respondents having used them; with the `:has()` selector a close second with 72.8%. 
+
+      When ranking for sentiment on the other hand, Subgrid turned out to be the most loved feature, with 51.5% of respondents willing to use it again.
+
+      The least-used feature? None other than `hanging-punctuation`, with 84.7% of respondents never having even heard about it!
+
+  - key: features.reading_list.takeaway.css2024
+    t: >
+      The Reading List lets you save items you want to learn more about after the survey is complete. 
+
+      So it's no coincidence that the least-known-about feature, `hanging-punctuation`, also tops our Reading List rankings as the item developers saved the most!
+
   ###########################################################################
   # Awards
   ###########################################################################

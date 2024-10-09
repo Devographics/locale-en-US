@@ -1156,3 +1156,41 @@ translations:
     t: |
       The next couple sections focus on the **libraries** and **frameworks** that make up 
       the CSS ecosystem. Let us know what you're excited about!
+
+  - key: options.features_categories.layout
+    aliasFor: sections.layout.title
+  - key: options.features_categories.shapes_graphics
+    aliasFor: sections.shapes_graphics.title
+  - key: options.features_categories.interactions
+    aliasFor: sections.interactions.title
+  - key: options.features_categories.typography
+    aliasFor: sections.typography.title
+  - key: options.features_categories.accessibility
+    aliasFor: sections.accessibility.title
+  - key: options.features_categories.other_features
+    aliasFor: sections.other_features.title
+  - key: options.features_categories.colors
+    aliasFor: sections.colors.title
+  - key: options.features_categories.selectors
+    aliasFor: sections.selectors.title
+  - key: options.features_categories.math_features
+    aliasFor: sections.math_features.title
+
+  - key: features.layout
+    aliasFor: sections.layout.title
+  - key: features.shapes_graphics
+    aliasFor: sections.shapes_graphics.title
+  - key: features.interactions
+    aliasFor: sections.interactions.title
+  - key: features.typography
+    aliasFor: sections.typography.title
+  - key: features.accessibility
+    aliasFor: sections.accessibility.title
+  - key: features.other_features
+    aliasFor: sections.other_features.title
+  - key: features.colors
+    aliasFor: sections.colors.title
+  - key: features.selectors
+    aliasFor: sections.selectors.title
+  - key: features.math_features
+    aliasFor: sections.math_features.title

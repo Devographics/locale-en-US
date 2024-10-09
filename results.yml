@@ -1801,6 +1801,12 @@ translations:
     t: All
   - key: charts.all_filters.description
     t: Show All
+  - key: charts.filter_by_value
+    t: >
+      Filter by {value}
+  - key: charts.filtered_by_value
+    t: >
+      Filtered by {value}
 
   ###########################################################################
   # Multi Items Experience Chart
