@@ -194,7 +194,7 @@ translations:
   # Conclusion
   ###########################################################################
 
-  - key: conclusion.css2023
+  - key: conclusion.css2023.chen_hui_jing
     t: |
       <span class="first-line">As usage of newer CSS features has been trending upwards, usage of CSS frameworks has been on a downward slope.</span>
 
@@ -208,7 +208,7 @@ translations:
 
       But as [Lea Verou](https://lea.verou.me/) mentioned last year, with initiatives such as [Interop](https://wpt.fyi/interop-2023) bringing browsers together, features thought previously impossible can now potentially become reality!
 
-  - key: conclusion.css2023.bio
+  - key: conclusion.css2023.chen_hui_jing.bio
     t: Developer Experience Engineer @ Interledger Foundation
 
   ###########################################################################
