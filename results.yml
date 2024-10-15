@@ -1219,6 +1219,21 @@ translations:
   - key: award.most_loved_tool_award.description
     t: Awarded to the technology with the highest proportion of positive opinions.
 
+  - key: award.most_used_feature_award.title
+    t: Most Used Feature
+  - key: award.most_used_feature_award.description
+    t: Awarded to the feature with the highest proportion of users.
+
+  - key: award.least_used_feature_award.title
+    t: Least Used Feature
+  - key: award.least_used_feature_award.description
+    t: Awarded to the feature with the lowest proportion of users.
+
+  - key: award.most_loved_feature_award.title
+    t: Most Loved Feature
+  - key: award.most_loved_feature_award.description
+    t: Awarded to the feature with the highest proportion of positive opinions.
+
   ###########################################################################
   # Hints
   ###########################################################################

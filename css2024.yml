@@ -301,28 +301,21 @@ translations:
   # Awards
   ###########################################################################
 
-  - key: award.feature_adoption_delta_award.comment
+  - key: award.most_used_feature_award.comment
     t: |
-      The `gap` property for Flexbox is such a useful addition that it's not surprising
-      it would see a **{value}** progression in 2023
+      **Filter effects** have been around for a while, and they are still as useful as ever!
 
-  # - key: award.tool_usage_delta_award.comment
-  #   t: No other tool comes even close to Tailwind CSS's dramatic **{value}** progression over the last year.
+  - key: award.least_used_feature_award.comment
+    t: |
+      `hanging-punctuation` wins the prize for being the most unknown CSS feature!
+
+  - key: award.most_loved_feature_award.comment
+    t: |
+      With {value}% of respondents having a positive impression of **Subgrid**, it takes the top spot in our rankings.
 
   - key: award.most_commented_feature_award.comment
-    t: With **{value}** comments, no other feature even came close to generating as much feedback as Subgrid.
-
-  - key: award.tool_satisfaction_award.comment
     t: |
-      Out of all the CSS-in-JS solutions, Open Props is the only one that maintained a
-      sky-high **{value}** retention ratio.
-
-  # - key: award.tool_interest_award.comment
-  #   t: With a **{value}** ratio, CSS Modules again generated the most interest among CSS developers this year.
-
-  - key: award.most_write_ins_award.comment
-    t: |
-      With **{value}** mentions, Panda was the tool most mentioned in freeform questions by far.
+      **Subgrid** got over {value} comments, in part because it appeared early on in the survey, but also because it's definitely a praise-worthy feature!
 
   ###########################################################################
   # Conclusion
@@ -410,7 +403,7 @@ translations:
     t: |
       `:has()`
   - key: picks.augustin_mauroy.bio
-    t:
+    t: Web Developer & OSS Enthusiast
   - key: picks.augustin_mauroy.description
     t: |
       The `:has` pseudo class allows you to create really creative things. But it also allows you to “go upstream”, for example a map that changes shape when you hover one of its child elements.
