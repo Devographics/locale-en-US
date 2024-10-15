@@ -98,10 +98,10 @@ translations:
     t: |
       It's no secret that CSS is adding new features at a record rate – which is why we ended up asking about no less than *50* of them this year!
 
-  - key: sections.other_tools.css2024
+  - key: sections.tools.css2024
     t: Libraries & Tools
 
-  - key: sections.other_tools.description.css2024
+  - key: sections.tools.description.css2024
     t: |
       Despite the many capabilities unlocked by CSS's new features, developers still rely on tooling and libraries to support their workflow, at least for now.
 
@@ -117,38 +117,61 @@ translations:
   # Charts
   ###########################################################################
 
-  - key: user_info.country_low_vs_high_income.takeaway.css2024
-    t: >
-      Splitting respondents between low-income and high-income brackets gives
-      us two very different lists of countries.
+  # user_info
 
-  - key: user_info.higher_education_degree_by_gender.takeaway.css2024
+  - key: user_info.country.takeaway.css2024
     t: >
-      Women representation was higher than expected among respondents 
-      with a higher-education diploma in areas unrelated to CSS, potentially 
-      indicating a lot of career changes.
+      While the U.S. still represented the largest single demographic, we were still happy to see a good mix of countries among the rest of our respondents – although Asia sadly continues to be under-represented.
 
-  - key: user_info.source_by_gender.takeaway.css2024
+  - key: user_info.locale.takeaway.css2024
     t: >
-      Although the low total counts make it hard to draw any conclusions,
-      the proportion of women was highest among respondents 
-      who came across the survey from their workplace or through word-of-mouth, 
-      especially compared to social networks such as Twitter or YouTube.
+      Many thanks to our volunteer translators for making the surveys available in so many different languages!
 
-  - key: user_info.source_by_race_ethnicity.takeaway.css2024
+  - key: user_info.completion_stats.takeaway.css2024
     t: >
-      Again keeping in mind the low sample size, when considering race and ethnicity,
-      YouTube stands out as one of the most diverse source of traffic to the survey.
+      Despite the survey's length, an overwhelming majority of respondents took the time to complete it from start to finish!
 
-  - key: user_info.average_income_by_company_size.takeaway.css2024
+  - key: user_info.age.takeaway.css2024
     t: >
-      We find the highest-paid respondents working for large companies, although
-      it's notable that solo workers show a slight income advantage over small companies.
+      CSS isn't doing great among Gen Alpha respondents, possibly because they're too busy playing Fortnite. 
 
-  - key: user_info.yearly_salary_usa_vs_the_world.takeaway.css2024
+      Wait, Fortnite is still a thing right…?
+
+  - key: user_info.years_of_experience.takeaway.css2024
     t: >
-      When comparing U.S. incomes against the rest of the world, it becomes clear that U.S.
-      developers are over-represented in the higher income brackets.
+      This chart reveals that most respondents were lucky enough to never have to deal with `float`-based positioning.
+
+  - key: user_info.company_size.takeaway.css2024
+    t: >
+      The larger the company, the higher the salary. Although if you're good enough, our data shows that you can earn a decent living no matter your company's size.
+
+  - key: user_info.yearly_salary.takeaway.css2024
+    t: >
+      While we often hear tales of six-figure salaries out of Silicon Valley, the reality is that most front-end developers throughout the world earn far less, as becomes apparent when directly comparing the U.S. and the rest of the world.
+
+  - key: user_info.higher_education_degree.takeaway.css2024
+    t: >
+      While having a degree will ensure you earn more, turns out it doesn't necessarily have to be related to programming – a good sign for the many among us who discovered a passion for web development further along in life.
+
+  - key: user_info.gender.takeaway.css2024
+    t: >
+      Canada, Spain, the U.K., and the U.S. had the highest proportion of women respondents. 
+
+      Our data also shows women's income to be lagging compared to other groups. While the reasons behind this are beyond the scope of this report, it’s clear that women in our industry do face some unique challenges.
+
+  - key: user_info.race_ethnicity.takeaway.css2024
+    t: >
+      Non-white respondents were more likely to be younger and have less experience – which hopefully points to a ongoing diversification of the industry.
+
+  - key: user_info.disability_status.takeaway.css2024
+    t: >
+      Thanks to the continued efforts of accessibility advocates, we now accept the fact that disabilities (permanent or not) should be taken into account as part of the design & development process.
+
+  - key: user_info.source.takeaway.css2024
+    t: >
+      While most respondents knew about the survey from previous years, Kevin Powell also sent a large chunk of survey takers our way.
+
+  # features
 
   - key: features.all_features
     t: Features
@@ -166,6 +189,113 @@ translations:
       The Reading List lets you save items you want to learn more about after the survey is complete. 
 
       So it's no coincidence that the least-known-about feature, `hanging-punctuation`, also tops our Reading List rankings as the item developers saved the most!
+
+  # tools
+
+  - key: tools.css_frameworks.takeaway.css2024
+    t: >
+      When it comes to CSS frameworks & UI libraries, Tailwind CSS continues to forge its own path far ahead of other, more traditional competitors.
+
+  - key: tools.css_in_js.takeaway.css2024
+    t: >
+      While some of CSS-in-JS's appeal might've been made obsolete by newer CSS features such as variables, recent innovations like typed styles and build-time compilation show that the space still has a lot to offer.
+
+  - key: tools.pre_post_processors.takeaway.css2024
+    t: >
+      Sass/SCSS is still the leader here, but it'll be interesting to see if its usage will remain stable now that many of its key features have been absorbed by CSS itself.
+
+  - key: tools.utilities.takeaway.css2024
+    t: >
+      There is no shortage of ways to format, minify, and otherwise tweak your CSS code to your liking.
+
+  - key: tools.browsers.takeaway.css2024
+    t: >
+      While the big four browsers dominate this chart, Arc is slowly creeping up the browser rankings, going from 7.8% to 12% usage year over year.
+
+  # usage
+
+  - key: usage.form_factors.takeaway.css2024
+    t: >
+      An encouraging sign of accessibility's growing importance, screen reader testing has gone up from 16.6% to 19% year-over-year.
+
+  - key: usage.what_do_you_use_css_for.takeaway.css2024
+    t: >
+      While this data is unsurprising, it's a nice reminder that CSS can do a lot more than format webpages.
+
+  - key: usage.industry_sector.takeaway.css2024
+    t: >
+      Did you know you can filter this survey's data by Industry Sector? Just click "Add Filters…" on any other chart!
+
+  - key: usage.usage_type.takeaway.css2024
+    t: >
+      Whether you build websites profesionally or just dabble, there's no wrong way to use CSS!
+
+  - key: usage.design_methodology.takeaway.css2024
+    t: >
+      While a large majority of respondents use CSS to implement pre-existing designs, it'll be interesting to see if this changes as design apps evolve, and AI tools become capable of going straight from idea to code.
+
+  - key: usage.css_js_balance.takeaway.css2024
+    t: >
+      Even in the context of a CSS survey, it turns out a majority of respondents still spend most of their time in the JavaScript ecosystem. Only time will tell if this too will shift now that CSS is becoming more capable.
+
+  - key: usage.css_interoperability_features.takeaway.css2024
+    t: >
+      There are few worse feelings that knowing a new feature will solve your issue perfectly, yet not being able to use it because of poor browser support. 
+
+
+      This is the case with Anchor Positioning, a promising new feature that is sadly not yet broadly supported.
+
+
+      Container Queries on the other hand *are* [available at a baseline level](https://web.dev/blog/cq-stable) and ready to be used, despite showing up in many respondent's answers!
+
+  - key: usage.css_missing_features.takeaway.css2024
+    t: >
+      In the absence of a magic wand that lets us conjure up any CSS feature we can dream of, the best we can hope for is that this data can help push browser vendors in the right direction!
+
+
+      The good news: conditional logic, mixins, and masonry layouts are all currently being worked on in some form or another!
+
+  - key: usage.css_pain_points.takeaway.css2024
+    t: >
+      While browser support remains the eternal CSS pain point, Tailwind CSS is also proving to be a source of frustration for some – while others complain that it's not used enough!
+
+  - key: usage.favorite_new_features.takeaway.css2024
+    t: >
+      Long-awaited feature, sensible implementation, good browser support: `:has()` has it all, and tops the rankings of the best new CSS feature of 2024!
+
+  - key: usage.state_of_the_web_happiness.takeaway.css2024
+    t: >
+      While we do love to complain about the state of thigns, it turns out happiness levels have remained surprisingly constent over the years.
+
+  - key: usage.state_of_css_happiness.takeaway.css2024
+    t: >
+      We are even seeing a slight uptick when it comes to CSS specifically, proof that the hard work by browser vendors, working groups, and the CSS community at large is not going unnoticed!
+
+  # resources
+
+  - key: resources.blogs_news_magazines.takeaway.css2024
+    t: >
+      Despite CSS-Tricks going through a change of ownership over the last few years, it's managed to hold onto its number one ranking when it comes to CSS blogs.
+
+  - key: resources.courses.takeaway.css2024
+    t: >
+      Free resources like MDN and YouTube videos are essential tools for learning CSS, but it's also worth pointing out Josh Comeau's excellent material.
+
+  - key: resources.podcasts.takeaway.css2024
+    t: >
+      Syntax may retain its top spot for now, but Web Standards and The CSS Podcast show that you can be quite successful by addressing a specific language or topic.
+
+  - key: resources.video_creators.takeaway.css2024
+    t: >
+      Kevin Powell shows once again that when it comes to CSS on YouTube, nobody else can quite match his reach and popularity.
+
+  - key: resources.people.takeaway.css2024
+    t: >
+      While Kevin takes the lead here once more, it's nice to see Adam, Una, Josh, and Lea's work recognized by the community!
+
+  - key: resources.other_surveys.takeaway.css2024
+    t: >
+      You won't be surprised to hear that we consider surveys an essential learning tool – and for that reason we're always on the lookout for new competit… I mean, friends!
 
   ###########################################################################
   # Awards
@@ -220,220 +350,109 @@ translations:
   ###########################################################################
 
   - key: picks.my_pick
-    t: "My 2023 Pick: "
+    t: "My 2024 Pick: "
   - key: picks.intro
     t: We asked members of the CSS community to share their “pick of the year”
 
-  # - key: picks.david_east.name
-  #   t: CSS Subgrid
-  # - key: picks.david_east.bio
-  #   t: Advocate for building on the web
-  # - key: picks.david_east.description
-  #   t: |
-  #     CSS Subgrid allows child elements to inherit their parents grid properties.
-  #     Soon, it will be much easier to lay elements out to the same grid
-  #     lines across the entire page.
-
-  # - key: picks.bramus_van_damme.name
-  #   t: The `:has()` Selector
-  # - key: picks.bramus_van_damme.bio
-  #   t: Chrome Developer Relations Engineer at Google
-  # - key: picks.bramus_van_damme.description
-  #   t: |
-  #     You might know this one as the so-called “parent selector” but that name does it
-  #     no justice as it only covers a small part of what it can do.
-  #     This selector has essentially changed the way I write my CSS.
-
-  - key: picks.kevin_j_powell.name
-    t: Ahmad Shadeed
-  - key: picks.kevin_j_powell.bio
-    t: CSS Evangelist
-  - key: picks.kevin_j_powell.description
+  - key: picks.chris_coyier.name
+    t: Google's CSS Contributions
+  - key: picks.chris_coyier.bio
+    t: Codepen creator & Shoptalk Show host
+  - key: picks.chris_coyier.description
     t: |
-      Ahmad's blog is a source of knowledge and inspiration, with in-depth explorations of topics, including great visuals and use cases.
+      It's tempting to say something about the CSS powerhouse that Google has been recently, certainly in the last year. Rachel Andrew, Adam Argyle, Bramus Van Damme, Una Kravets, Tab Atkins, fantasai — and they are all doing big cool stuff publicly mostly.
 
-  # - key: picks.samuel_kraft.name
-  #   t: The `:has()` Selector
-  # - key: picks.samuel_kraft.bio
-  #   t: Design Engineer
-  # - key: picks.samuel_kraft.description
-  #   t: |
-  #     The new :has() selector is super powerful and unlocks new styling possibilities.
-  #     This great article from Jen Simmons breaks it down with explanations and practical examples.
-
-  - key: picks.josh_comeau.name
-    t: CSS Podcast
-  - key: picks.josh_comeau.bio
-    t: Instructor, CSS for JavaScript Developers
-  - key: picks.josh_comeau.description
+  - key: picks.temani_afif.name
     t: |
-      This podcast is a delightful tour of a bunch of 
-      important and modern CSS features. 
-      It's hosted by Una Kravets and Adam Argyle, two absolutely wonderful people.
+      `@property` Being Widely Available
+  - key: picks.temani_afif.bio
+    t: Creator of [css-challenges.com](https://css-challenges.com)
+  - key: picks.temani_afif.description
+    t: |
+      I would probably say the support of `@property` coming to Firefox this year, making this feature available-cross browser (since July) and unlocking a lot of cool stuff.
 
   - key: picks.adam_argyle.name
-    t: Zag.js
+    t: |
+      `linear()`
   - key: picks.adam_argyle.bio
-    t: Google Chrome Developer Relations
+    t: Google
   - key: picks.adam_argyle.description
     t: |
-      The talented folks at ChakraUI are building some next-gen components and ideas, 
-      can't wait to see what else they come up with.
+      The linear() easing function has enabled phenomenal finishing touches to interactions.
 
-  # - key: picks.eric_w_bailey.name
-  #   t: “Style with Stateful, Semantic Selectors” by Ben Myers
-  # - key: picks.eric_w_bailey.bio
-  #   t: Accessibility advocate and CSS nerd
-  # - key: picks.eric_w_bailey.description
-  #   t: |
-  #     Ben demonstrates how utilizing ARIA
-  #     attribute selectors can simply and powerfully tie appearance to state.
-
-  # - key: picks.michelle_barker.name
-  #   t: Interop 2022
-  # - key: picks.michelle_barker.bio
-  #   t: Writer and creator of front-end blog CSS { In Real Life }
-  # - key: picks.michelle_barker.description
-  #   t: |
-  #     Interop is a collaboration between all of the major browser vendors,
-  #     agreeing 15 key areas of focus for implementation —
-  #     including game-changing new CSS features like container queries,
-  #     cascade layers and color functions.
-
-  - key: picks.jhey_tompkins.name
+  - key: picks.andy_bell.name
     t: |
-      The `:has()` Selector
-  - key: picks.jhey_tompkins.bio
-    t: CEO of Fancy CSS
-  - key: picks.jhey_tompkins.description
+      Getting Stuck: All the Ways `position:sticky` Can Fail
+  - key: picks.andy_bell.bio
+    t: Designer, developer and founder of Piccalilli and Set Studio.
+  - key: picks.andy_bell.description
     t: |
-      `:has()` is the magic that you can use to combine other APIs like container queries, anchor positioning, etc. together. I'm excited to see how the community finds new and innovative ways to use it.
+      In all my years in CSS, `position: sticky` has to be one of the most *frustrating* capabilities, but it’s also extremely useful. I always wanted to write a guide to help people with that but luckily I don’t need to because Kilian nailed this one.
 
-  # - key: picks.gift_egwuenu.name
-  #   t: Learn CSS
-  # - key: picks.gift_egwuenu.bio
-  #   t: Developer Advocate at Cloudflare
-  # - key: picks.gift_egwuenu.description
-  #   t: |
-  #     My recommended resource for anyone looking to learn CSS from the ground up,
-  #     I also use it as a reference everytime I need to look up any CSS property.
-
-  - key: picks.ahmad_shadeed.name
-    t: Scroll-Driven Animations
-  - key: picks.ahmad_shadeed.bio
-    t: Design Engineer and Writer at [ishadeed.com](https://ishadeed.com/)
-  - key: picks.ahmad_shadeed.description
+  - key: picks.miguel_angel_duran.name
     t: |
-      If I went back 2 years, I'd never have imagined CSS 
-      having scroll-driven animations. Yet, here we are!
+      `@view-transition`
+  - key: picks.miguel_angel_duran.bio
+    t: Twitch Content Creator
+  - key: picks.miguel_angel_duran.description
+    t: |
+      The new `@view-transition` CSS at-rule is a game-changer for 2024. It allows developers to create smooth, native transitions between pages or components with minimal code, significantly reducing the reliance on JavaScript-heavy solutions. This marks a major advancement for building dynamic, fluid interfaces in web development!
 
-  # - key: picks.georgedoescode.name
+  - key: picks.sacha_greif.name
+    t: Sara Soueidan
+  - key: picks.sacha_greif.bio
+    t: Creator, State of CSS
+  - key: picks.sacha_greif.description
+    t: |
+      Even though we all work in the digital realm, it's important to remember that this is all made possible by actual, physical human beings that have to suffer the consequences of conflicts around the world. Sara was recently displaced from her home by war, and I can only hope she's able to resume her awesome work soon!
+
+  - key: picks.augustin_mauroy.name
+    t: |
+      `:has()`
+  - key: picks.augustin_mauroy.bio
+    t:
+  - key: picks.augustin_mauroy.description
+    t: |
+      The `:has` pseudo class allows you to create really creative things. But it also allows you to “go upstream”, for example a map that changes shape when you hover one of its child elements.
+
+  - key: picks.lea_verou.name
+    t: Style Queries and `if()`
+  - key: picks.lea_verou.bio
+    t: Product Lead at Font Awesome
+  - key: picks.lea_verou.description
+    t: |
+      My pick would be style queries and inline `if()`. Once these two ship everywhere, the amount of things we can do with CSS variables will improve tenfold.
+
+  # - key: picks.xxx.name
+  #   t: State Queries
+  # - key: picks.xxx.bio
   #   t:
-  # - key: picks.georgedoescode.bio
+  # - key: picks.xxx.description
+  #   t: |
+  #     I'd pick State Queries, even if we aren't there yet, I feel like this has been a missing piece for quite some time now.
+
+  #     Applying styles once an element becomes sticky or starts to overflow isn't a game changer persé, because it could've been achieved with JS before. But being able to achieve this without any JS is a great addition next to scroll driven animations and view transitions to bring the power of styling and animations back to CSS.
+
+  # - key: picks.xxx.name
   #   t:
-  # - key: picks.georgedoescode.description
+  # - key: picks.xxx.bio
+  #   t:
+  # - key: picks.xxx.description
   #   t: |
 
-  # - key: picks.jen_simmons.name
-  #   t: The `:has()` Selector
-  # - key: picks.jen_simmons.bio
-  #   t: Web technologies evangelist at Apple
-  # - key: picks.jen_simmons.description
+  # - key: picks.xxx.name
+  #   t:
+  # - key: picks.xxx.bio
+  #   t:
+  # - key: picks.xxx.description
   #   t: |
-  #     For two decades, “parent selector” was a top requested feature for CSS.
-  #     Then in 2022, in a total surprise, the :has() pseudo-class arrived to solve this and far more.
 
-  - key: picks.sara_soueidan.name
-    t: |
-      `color-contrast()`
-  - key: picks.sara_soueidan.bio
-    t: Inclusive design engineer and educator
-  - key: picks.sara_soueidan.description
-    t: |
-      My vote goes to color-contrast() because I think it deserves more spotlight. 
-      It’s one of the few features that makes it _easier_ for us (developers) 
-      to design for our users. Cross-browser support can’t come soon enough.
-
-  - key: picks.adam_wathan.name
-    t: Lightning CSS
-  - key: picks.adam_wathan.bio
-    t: Creator of Tailwind CSS
-  - key: picks.adam_wathan.description
-    t: |
-      An extremely fast, all-in-one CSS processing tool that handles things like vendor prefixes, minification, and modern feature transpilation, all while being an amazing platform for other developers to build CSS tools on top of.
-
-  # - key: picks.christianoliff.bio
-  #   t: Front-end developer for Trimble MAPS
-  # - key: picks.christianoliff.description
+  # - key: picks.xxx.name
+  #   t:
+  # - key: picks.xxx.bio
+  #   t:
+  # - key: picks.xxx.description
   #   t: |
-  #       One thing I've really started using and appreciating this year though is Purge CSS- an awesome tool for removing unused CSS. It can greatly reduce the size of your CSS, and its fast and easy to use.
-
-  - key: picks.kilian_valkhof.name
-    t: Devtoolstips
-  - key: picks.kilian_valkhof.bio
-    t: Creator of Polypane, the browser for developers.
-  - key: picks.kilian_valkhof.description
-    t: |
-      The devtools in all browsers are super powerful. These bite-sized tips 
-      help you get the most out of them regardless of which browser you use.
-
-  - key: picks.ahmad_awais.name
-    t: |
-      `text-wrap: balance`
-  - key: picks.ahmad_awais.bio
-    t: VP DevRel & Google Developers Advisory Board founding member
-  - key: picks.ahmad_awais.description
-    t: |
-      Headlines should dazzle and read like a breeze, even if screens play hard to predict. 
-      I've battled those annoying solo words at line's end (hello, widow words!), 
-      but guess what? Enter text-wrap: balance – one-liner-fix wizardry that's pure magic!
-
-  # - key: picks.piccalilli_.bio
-  #   t: Freelance designer & dev who runs piccalil.li
-  # - key: picks.piccalilli_.description
-  #   t: |
-  #       This blog is an absolute gold mine of CSS knowledge. Michelle is a CSS legend and every post or tutorial they write is heaped with useful content.
-
-  # - key: picks.piccalilli_.bio
-  #   t: Freelance designer & dev who runs piccalil.li
-  # - key: picks.piccalilli_.description
-  #   t: |
-  #       This blog is an absolute gold mine of CSS knowledge. Michelle is a CSS legend and every post or tutorial they write is heaped with useful content.
-
-  # - key: picks.sarasoueidan.bio
-  #   t: Independent UI/design engineer
-  # - key: picks.sarasoueidan.description
-  #   t: |
-  #       My pick is a person, namely Rachel Andrew. She taught CSS Grid to a whole generation of developers.
-
-  # - key: picks.5t3ph.bio
-  #   t: Software Engineer @ Microsoft
-  # - key: picks.5t3ph.description
-  #   t: |
-  #       In this conference talk, Manuel Matuzovic provides thoughtfully
-  #       crafted examples that are engaging, approachable, and actionable.
-
-  # - key: picks.hugogiraudel.bio
-  #   t: Non-binary accessibility & diversity advocate
-  # - key: picks.hugogiraudel.description
-  #   t: |
-  #       Fela is an amazing piece of software.
-  #       It’s pretty powerful, relatively easy to use and very performant
-
-  # - key: picks.foolip.bio
-  #   t: Software Engineer @ Google
-  # - key: picks.foolip.description
-  #   t: |
-  #       Sergio has recently fixed lots of Flexbox in WebKit and even some in Chromium,
-  #       notably bringing flex gap to WebKit,
-  #       which means that soon it will be available on all modern browsers.
-
-  # - key: picks.jina.bio
-  #   t: Design systems advocate and practitioner
-  # - key: picks.jina.description
-  #   t: |
-  #       The media query to reduce motion, which helps avoid
-  #       triggering dizziness and discomfort.
 
   ###########################################################################
   # Quiz

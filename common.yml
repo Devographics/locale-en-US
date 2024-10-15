@@ -679,6 +679,22 @@ translations:
   - key: options.years_of_experience.range_over_20.short
     t: ">20 years"
 
+  # years of experience v3
+  - key: options.years_of_experience.range_0_4
+    t: 0-4 years
+  - key: options.years_of_experience.range_5_9
+    t: 5-9 years
+  - key: options.years_of_experience.range_10_14
+    t: 10-14 years
+  - key: options.years_of_experience.range_15_19
+    t: 15-19 years
+  - key: options.years_of_experience.range_20_24
+    t: 20-24 years
+  - key: options.years_of_experience.range_25_29
+    t: 25-29 years
+  - key: options.years_of_experience.range_over_30
+    t: Over 30 years
+
   # company size
   - key: options.company_size.na
     t: 🚫 Not Applicable
