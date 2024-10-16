@@ -39,9 +39,9 @@ translations:
     t: React's built-in hooks
 
   - key: sections.new_apis.title
-    t: New APIs
+    t: New Features
   - key: sections.new_apis.description
-    t: Newly-introduced or experimental features
+    t: Newly-introduced or experimental APIs & features
 
   - key: sections.component_libraries.title
     t: Component Libraries
@@ -336,7 +336,7 @@ translations:
   - key: tools.mobile_development
     t: Mobile Development
   - key: tools.mobile_development.question
-    t: Which libraries have you used for mobile development?
+    t: Which frameworks or libraries have you used for mobile development?
 
   # - key: tools.mobile_development_others
   #   t: Other Mobile Development Tools
@@ -354,6 +354,17 @@ translations:
     t: Which libraries have you used to manage forms?
   - key: options.form_libraries.na
     t: None
+
+  - key: tools.react_form_patterns
+    t: Form Patterns
+  - key: tools.react_form_patterns.question
+    t: Which form pattern do you usually prefer using?
+  - key: options.react_form_patterns.form_patterns_controlled
+    t: Controlled form components
+  - key: options.react_form_patterns.form_patterns_uncontrolled
+    t: Uncontrolled form components
+  - key: options.react_form_patterns.form_patterns_both
+    t: Both, depending on the situation
 
   - key: tools.build_tools
     t: Build Tools
@@ -404,7 +415,7 @@ translations:
   # - key: tools.hosting.description
   #   t: Services you use to host your React apps.
   - key: tools.hosting.question
-    t: Which of services have you used to host your React apps?
+    t: Which of these services have you used to host your React apps?
 
   - key: tools.backend_language
     t: Back-end Languages
@@ -615,14 +626,33 @@ translations:
   # what do you use React for?
   - key: options.what_do_you_use_react_for.static_sites
     t: Static sites
+  - key: options.what_do_you_use_react_for.static_sites.description
+    t: Pre-generated sites with minimal server interactions
+
   - key: options.what_do_you_use_react_for.design_systems
     t: Design systems
+  - key: options.what_do_you_use_react_for.design_systems.description
+    t: Custom libraries of React components
+
   - key: options.what_do_you_use_react_for.web_apps
     t: Web apps
+  - key: options.what_do_you_use_react_for.web_apps.description
+    t: Web-based apps with complex interactions, state, routing, etc.
+
   - key: options.what_do_you_use_react_for.mobile_apps
     t: Mobile apps
+  - key: options.what_do_you_use_react_for.mobile_apps.description
+    t: Mobile apps using React or React Native
+
   - key: options.what_do_you_use_react_for.desktop_apps
     t: Desktop apps
+  - key: options.what_do_you_use_react_for.desktop_apps.description
+    t: Apps that run locally on a desktop
+
+  - key: options.what_do_you_use_react_for.hybrid_sites
+    t: Hybrid sites
+  - key: options.what_do_you_use_react_for.hybrid_sites.description
+    t: Traditional sites with dynamic client components (e.g. e-commerce sites)
 
   # resources
   - key: resources.learning_methods_react
