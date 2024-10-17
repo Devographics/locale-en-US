@@ -92,7 +92,7 @@ translations:
 
   - key: sections.user_info.description.css2024
     t: |
-      This year's survey reached **9,594** developers throughout the world.
+      This year's survey reached **9,704** developers throughout the world.
 
   - key: sections.features.description.css2024
     t: |
@@ -527,7 +527,7 @@ translations:
 
   - key: about.content
     t: >
-      The 2023 State of CSS survey ran from June 15 to July 15 2023, and collected 9,108 responses. The survey is run by [Devographics](https://www.devographics.com/), with help from a team of open-source contributors and consultants. 
+      The 2023 State of CSS survey ran from August 17 to September 12 2024, and collected 9,704 responses. The survey is run by [Devographics](https://www.devographics.com/), with help from a team of open-source contributors and consultants. 
 
 
       The State of CSS logo and t-shirt were designed and animated by [Christopher Kirk-Nielsen](http://chriskirknielsen.com/).
@@ -535,18 +535,18 @@ translations:
 
       ### Survey Goals
 
-      This survey, along with the [State of JavaScript](https://stateofjs.com/) survey, was created to identify upcoming trends in the web development ecosystem in order to help developers make technological choices. 
+      This survey was created to identify upcoming trends in the web development ecosystem in order to help developers make technological choices. 
 
 
-      As such, these surveys are focused on anticipating what's coming over the next few years rather than analyzing what's popular now, which is why the features or technologies that are currently most widespread are not always included. 
+      As such, this survey is focused on anticipating what's coming over the next few years rather than analyzing what's popular now, which is why the features or technologies that are currently most widespread are not always included. 
 
 
-      Additionally, survey data is also used by browser vendors to prioritize features and inform initiatives such as [Interop 2023](https://web.dev/interop-2023/).
+      Additionally, survey data is also used by browser vendors to prioritize features and inform initiatives such as [Interop 2024](https://web.dev/blog/interop-2024).
 
 
       ### Survey Design
 
-      This year, survey design was lead by [Chen Hui Jing](https://chenhuijing.com/) thanks to a funding grant from the Google Chrome team. All survey questions were optional. 
+      This survey was designed collaboratively [on GitHub](https://github.com/Devographics/surveys/issues/245).
 
       ### Survey Audience
 
@@ -554,18 +554,13 @@ translations:
 
       ### Project Funding
 
-      Funding from this project comes from a variety of sources:
+      Apart from t-shirt sales, funding from this project comes from a variety of sources:
 
-      - **T-shirt sales**. 
+      - Our partner [Frontend Masters](https://frontendmasters.com/) sponsors the survey in exchange for featuring relevant links to their courses at the bottom of each page.
 
-      - **Sponsored Links**: the links to recommended resources at the bottom of each page are provided by our partner [Frontend Masters](https://frontendmasters.com/).
+      - The [Google Chrome](https://www.google.com/chrome/) team set aside a sponsoring budget this year to help design and run the survey.
 
-      - **Sponsored Charts**: starting last year, anybody can now also choose to directly sponsor a chart for $10 or more, and get their Twitter avatar displayed next to it.
-
-      - **Google**: this year, the [Google Chrome](https://www.google.com/chrome/) team set aside a budget to hire Lea to help design the survey, as well as funded me directly to help support my work. 
-
-      - **Nijibox**: Japan-based [Nijibox](https://nijibox.jp/) has also graciously accepted to sponsor my efforts to help make these yearly surveys more sustainable. 
-
+      - [TokyoDev](https://www.tokyodev.com/) is also sponsoring the survey on an ongoing basis. 
 
       ### Technical Overview
 
@@ -576,7 +571,7 @@ translations:
 
       - [Report a technical issue](https://github.com/Devographics/Monorepo/issues)
 
-      - [Make a suggestion for next year](https://github.com/Devographics/surveys/issues/193)
+      - [Make a suggestion for next year](https://github.com/Devographics/surveys/issues/249)
 
       - [Other non-technical issues](https://github.com/Devographics/surveys/issues)
 
