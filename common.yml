@@ -1788,3 +1788,18 @@ translations:
 
   - key: entity.learn_more
     t: Learn more…
+
+  ###########################################################################
+  # Baseline
+  ###########################################################################
+
+  - key: baseline.baseline
+    t: "Baseline:"
+  - key: baseline.learn_more
+    t: Learn more
+  - key: baseline.support.false
+    t: Limited Availability
+  - key: baseline.support.low
+    t: Newly Available
+  - key: baseline.support.high
+    t: Widely Available

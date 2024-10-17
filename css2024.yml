@@ -321,22 +321,19 @@ translations:
   # Conclusion
   ###########################################################################
 
-  - key: conclusion.css2024
+  - key: conclusion.css2024.ahmad_shadeed
     t: |
-      <span class="first-line">As usage of newer CSS features has been trending upwards, usage of CSS frameworks has been on a downward slope.</span>
 
-      This could be an indication that folks are starting to get used to the idea that you don’t necessarily have to wait to use newer CSS features, because browsers will catch up a lot quicker than before.
+      <span class="first-line">Over the past two years, CSS has evolved so much</span> that keeping up with all the new features feels like a full-time job. This means there are many topics and ideas to explore and experiment with.
 
-      With high awareness of native CSS features like nesting and `:has()` (which can act like a parent selector, but is much more than that!), it seems like we are on the brink of widespread adoption.
+      For example, after being requested for years CSS `:has()` turned out to be one of the most powerful additions to CSS and significantly reduced the need for JavaScript. To me, it’s comparable to the transition from using CSS floats to Flexbox, which allowed us to create nearly any layout we could imagine.
 
-      Out of all these features, I did have a personal favourite for this year, and that is `text-wrap: balance`. It provides a one-line fix for a request that I’ve constantly gotten over my entire web development career: “can we adjust that headline so the last word isn’t an orphan?”
+      CSS **container size and style queries** are also game-changers for building components that need to work in different contexts. Currently, only size container queries have full support across all major browsers, though their adoption remains limited.
 
-      It was also interesting that so many developers felt that animating to auto and masonry layout were missing CSS features. It's true it's always been tricky for browsers to determine element dimensions (especially height) when they're not explicitly declared. 
+      Looking ahead to 2025, I hope to see wider usage of size container queries, full browser support for **scroll-driven animations**, style queries, and **anchor positioning**. What more could we ask for?
 
-      But as [Lea Verou](https://lea.verou.me/) mentioned last year, with initiatives such as [Interop](https://wpt.fyi/interop-2023) bringing browsers together, features thought previously impossible can now potentially become reality!
-
-  - key: conclusion.css2024.bio
-    t: Developer Experience Engineer @ Interledger Foundation
+  - key: conclusion.css2024.ahmad_shadeed.bio
+    t: Design Engineer and author of [Debugging CSS](https://debuggingcss.com/)
 
   ###########################################################################
   # Picks
@@ -426,12 +423,13 @@ translations:
 
   #     Applying styles once an element becomes sticky or starts to overflow isn't a game changer persé, because it could've been achieved with JS before. But being able to achieve this without any JS is a great addition next to scroll driven animations and view transitions to bring the power of styling and animations back to CSS.
 
-  # - key: picks.xxx.name
-  #   t:
-  # - key: picks.xxx.bio
-  #   t:
-  # - key: picks.xxx.description
-  #   t: |
+  - key: picks.ahmad_shadeed.name
+    t: Scroll-driven Animations
+  - key: picks.ahmad_shadeed.bio
+    t: Design Engineer and author of [Debugging CSS](https://debuggingcss.com/)
+  - key: picks.ahmad_shadeed.description
+    t: |
+      This is a game changer that will soon be supported in all major browsers. It's incredible that what once required a lot of JavaScript is now achievable with just a few lines of CSS.
 
   # - key: picks.xxx.name
   #   t:
