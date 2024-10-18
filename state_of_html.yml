@@ -546,13 +546,16 @@ translations:
   - key: features.foo_attribute
     t: "`{id}` attribute"
 
-  - key: features.slot_assignment
-    t: Explicit slot assignment (`slot="foo"`)
+  - key: features.slot_attribute
+    t: Named slot assignment
 
-  - key: features.tabindex
+  - key: features.landmark_elements
+    t: Landmark elements
+
+  - key: features.tabindex_attribute
     t: "`tabindex` attribute"
 
-  - key: features.respimg
+  - key: features.respimg_attributes
     t: "`srcset` and `sizes` attributes"
 
   - key: features.model_element
@@ -561,7 +564,7 @@ translations:
   - key: features.slot_def
     t: Defining slots (`<slot>` and `::slotted()`)
 
-  - key: features.controlslist
+  - key: features.controlslist_attribute
     t: "`controlslist` attribute"
 
   - key: features.popover_api
@@ -588,7 +591,7 @@ translations:
   - key: features.cors
     t: CORS
 
-  - key: features.csp
+  - key: features.content_security_policy
     t: Content-Security Policy (CSP)
 
   - key: features.structured_data
@@ -600,14 +603,14 @@ translations:
   - key: features.html_modules
     t: HTML Modules
 
-  - key: features.accordion
+  - key: features.accordion_element
     t: Exclusive accordion
 
   - key: features.imperative_slot
     t: Imperative slot assignment
 
-  # - key: features.focusgroup
-  #   t: "`focusgroup` attribute"
+  - key: features.focusgroup_attribute
+    t: "`focusgroup` attribute"
 
   - key: features.form_validation
     t: Form validation
@@ -630,8 +633,11 @@ translations:
   - key: features.rh_prefetch
     t: "Resource Hints: prefetch (`<link rel=prefetch>`)"
 
-  - key: features.declarative_shadow
-    t: Declarative Shadow DOM (`<template shadowrootmode="open">`)
+  - key: features.shadow_dom
+    t: Shadow DOM
+
+  - key: features.declarative_shadow_dom
+    t: Declarative Shadow DOM
 
   - key: features.referrerpolicy
     t: "`referrerpolicy` attribute"
@@ -678,23 +684,59 @@ translations:
   - key: features.media_capture
     t: HTML Media Capture
 
+  - key: features.formdata
+    t: FormData API
+
+  - key: features.customizable_select
+    t: Customizable Select
+
   - key: features.contenteditable_plaintext
     t: "`plaintext-only` value for `contenteditable`"
 
   - key: features.dom_parts
     t: DOM Parts
 
-  - key: features.fetchpriority
-    t: Fetch Priority API (`fetchpriority` attribute)
+  - key: features.fetchpriority_attribute
+    t: "`fetchpriority` attribute"
 
-  - key: features.autocomplete
-    t: '`autocomplete="hint"`'
+  - key: features.autocomplete_attribute
+    t: "`autocomplete` attribute"
 
   - key: features.inert_attribute
     t: "`inert` attribute"
 
   - key: features.client_hints
     t: HTTP client hints
+
+  - key: features.clipboard_api
+    t: Clipboard API
+
+  - key: features.custom_highlight_api
+    t: CSS Custom Highlight API
+  
+  - key: features.intl_segmenter
+    t: "`Intl.Segmenter` API"
+
+  - key: features.filesystem_access
+    t: File System Access API
+
+  - key: features.badging_api
+    t: Badging API
+
+  - key: features.web_share_api
+    t: Web Share API
+
+  - key: features.launch_handler_api
+    t: Launch Handler API
+
+  - key: features.file_handling_api
+    t: File Handling API
+
+  - key: features.window_controls_overlay
+    t: Window Controls Overlay API
+
+  - key: features.isolated_webapps
+    t: Isolated Web Apps
 
   ###########################################################################
   # Other Tools
