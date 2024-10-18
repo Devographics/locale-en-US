@@ -1207,6 +1207,9 @@ translations:
   - key: options.learning_methods.events
     aliasFor: options.first_steps.events
 
+  - keys: options.learning_methods.ai_tools
+    t: AI Tools (ChatGPT, Claude, etc.)
+
   # degree
   - key: options.higher_education_degree.no_degree
     t: No

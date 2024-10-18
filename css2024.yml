@@ -431,12 +431,13 @@ translations:
     t: |
       This is a game changer that will soon be supported in all major browsers. It's incredible that what once required a lot of JavaScript is now achievable with just a few lines of CSS.
 
-  # - key: picks.xxx.name
-  #   t:
-  # - key: picks.xxx.bio
-  #   t:
-  # - key: picks.xxx.description
-  #   t: |
+  - key: picks.josh_comeau.name
+    t: Temani Afif
+  - key: picks.josh_comeau.bio
+    t: Indie Hacker and Educator
+  - key: picks.josh_comeau.description
+    t: |
+      Temani is pushing the limits of what can be done with CSS. His experiments always blow my mind!
 
   # - key: picks.xxx.name
   #   t:
