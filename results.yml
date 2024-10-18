@@ -1749,6 +1749,12 @@ translations:
     t: Experience
   - key: charts.group.sentiment
     t: Sentiment
+  - key: charts.grouped_by_group
+    t: >
+      Grouped by "**{group}**""
+  - key: charts.group_by_group
+    t: >
+      Group by "**{group}**""
 
   - key: charts.display_mode
     t: >
@@ -1818,10 +1824,10 @@ translations:
     t: Show All
   - key: charts.filter_by_value
     t: >
-      Filter by {value}
+      Filter by “{value}”
   - key: charts.filtered_by_value
     t: >
-      Filtered by {value}
+      Filtered by “{value}”
 
   ###########################################################################
   # Multi Items Experience Chart
@@ -1857,3 +1863,10 @@ translations:
       automated and manual data processing.
   - key: answers.report_abuse
     t: Report this answer
+
+  ###########################################################################
+  # Banners
+  ###########################################################################
+
+  - key: banner.html2024
+    t: The State of HTML 2024 survey is currently open!

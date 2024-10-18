@@ -11,6 +11,16 @@ translations:
   # Introduction
   ###########################################################################
 
+  - key: general.react2024.survey_intro
+    t: |
+      Let's face it: neither you or I have the dedication, patience, and sheer force of will it would take to properly keep up with the React ecosystem, as new APIs, new libraries, and even new versions are introduced week after week. 
+
+      Thankfully for all of our sakes, one individual has willingly taken on that burden: I'm talking about none other than [This Week in React](https://thisweekinreact.com/)'s Sebastien Lorber. 
+
+      Sebastien has lent us his knowledge to make sure this year's survey covers all bases. This means that by taking this survey not only will you help provide the community with valuable insights, but you will also get a chance to catch up with any developments you might've missed.
+
+      So once again, please join me for this year's State of React!
+
   - key: introduction.react2024
     t: |
 
