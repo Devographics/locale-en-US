@@ -666,9 +666,9 @@ translations:
     t: Which blogs, magazines, or newsletters do you consult to keep up with React news?
 
   - key: resources.sites_courses_react
-    t: Sites & Courses
+    t: Courses & Training Material
   - key: resources.sites_courses_react.question
-    t: Which sites or courses have you used to learn React?
+    t: Which courses or other material (videos, books, etc.) have you used to learn React?
 
   - key: resources.podcasts_react
     t: Podcasts

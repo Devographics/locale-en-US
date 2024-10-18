@@ -21,6 +21,24 @@ translations:
 
       So once again, please join me for this year's State of React!
 
+  - key: features.features_intro.react2024
+    t: |
+      Welcome to the survey! This first part is all about sharing your experience with various React features:
+
+
+      - **Never heard of it**: it's your first time seeing this – or you've heard of it but have no idea what it does. 
+
+      - **Heard of it**: you've read or learned about this, but haven't actually used it yet. 
+
+      - **Used it**: you've used this at least once, even if it was just to play around. 
+
+
+      By the way, if you want to tell us more about any of your choices, just click that little "comment" icon!
+
+  - key: tools.tools_intro.react2024
+    t: |
+      This next part of the survey is all about the various libraries and frameworks that make up the React ecosystem.
+
   - key: introduction.react2024
     t: |
 
@@ -80,7 +98,7 @@ translations:
 
   # user_info
 
-  - key: sections.user_info.description
+  - key: sections.user_info.description.react2024
     t: |
       **13,003** respondents took part in the first ever State of React survey. A small sample of the overall community to be sure, but still large enough to provide us with valuable data!
 
@@ -96,7 +114,7 @@ translations:
 
   # features
 
-  - key: sections.features.description
+  - key: sections.features.description.react2024
     t: |
       We asked respondents about their thoughts on **28** distinct features, from omnipresent hooks such as `useState`, to more niche APIs like `useDeferredValue`. Be sure to try and sort by “sentiment”!
 
@@ -131,7 +149,7 @@ translations:
 
   # libraries
 
-  - key: sections.libraries.description
+  - key: sections.libraries.description.react2024
     t: |
       We reworked our charts to highlight not just developer experience, but *sentiment*. Be sure to explore these new grouping and sorting options to figure out which libraries get the most love… or the least!
 
@@ -183,13 +201,13 @@ translations:
 
   #other_tools
 
-  - key: sections.other_tools.description
+  - key: sections.other_tools.description.react2024
     t: |
       React is known for focusing on UI rendering while being fairly agnostic about the other parts of your app, and that's reflected in the vibrant ecosystem that has emerged to fill these gaps!
 
   # usage
 
-  - key: sections.usage.description
+  - key: sections.usage.description.react2024
     t: |
       No matter what version you use, application pattern you adopt, or industry sector you belong to, there's no wrong way to use React!
 
@@ -203,7 +221,7 @@ translations:
 
   # resources
 
-  - key: sections.resources.description
+  - key: sections.resources.description.react2024
     t: |
       One of the big reason for React's continued dominance is the sheer amount of documentation, blog posts, videos, and other resources it has accumulated over the years. Here's just a small sample!
 
@@ -232,7 +250,7 @@ translations:
       When it comes to being an influential figure in the React community, it's no surprise that **Dan Abramov** tops the rankings – Although **Kent C. Dodds** and **Theo** both seem to be challenging for the crown.
 
   #awards
-  - key: sections.awards.description
+  - key: sections.awards.description.react2024
     t: |
       This year's awards were dominated by one very specific project… how quickly will you guess what it is?
 
