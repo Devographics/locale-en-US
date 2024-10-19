@@ -1207,7 +1207,7 @@ translations:
   - key: options.learning_methods.events
     aliasFor: options.first_steps.events
 
-  - keys: options.learning_methods.ai_tools
+  - key: options.learning_methods.ai_tools
     t: AI Tools (ChatGPT, Claude, etc.)
 
   # degree
@@ -1440,7 +1440,7 @@ translations:
   - key: user_info.job_title
     t: Job Title
   - key: user_info.job_title.question
-    t: How do you introduce yourself to others?
+    t: What is your job title?
 
   # javascript proficiency
   - key: user_info.javascript_proficiency
