@@ -501,6 +501,8 @@ translations:
     t: The largest tech conference with a dedicated Design & CSS track.
   - key: sponsors.google_chrome.description
     t: Thanks to the Google Chrome team for supporting our work.
+  - key: sponsors.tokyodev.description
+    t: Find your dream developer job in Japan today.
 
   ###########################################################################
   # FAQ/About
