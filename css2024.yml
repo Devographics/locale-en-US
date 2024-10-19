@@ -350,7 +350,10 @@ translations:
     t: Codepen creator & Shoptalk Show host
   - key: picks.chris_coyier.description
     t: |
-      It's tempting to say something about the CSS powerhouse that Google has been recently, certainly in the last year. Rachel Andrew, Adam Argyle, Bramus Van Damme, Una Kravets, Tab Atkins — and they are all doing big cool stuff publicly mostly.
+      It's tempting to say something about the CSS powerhouse that Google has been recently, certainly in the last year. Rachel Andrew, Adam Argyle, Bramus Van Damme, Una Kravets, Tab Atkins, fantasai — and they are all doing big cool stuff publicly mostly.
+
+
+      *Note: fantasai now works at Apple.*
 
   - key: picks.temani_afif.name
     t: |
