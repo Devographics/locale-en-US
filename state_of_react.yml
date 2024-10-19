@@ -220,7 +220,7 @@ translations:
 
   - key: features.use_hook.description
     t: >
-      `use` is a React Hook that lets you read the value of a resource like a Promise or context.
+      `use` is a React API that lets you read the value of a resource like a Promise or context.
 
   - key: features.starttransition.description
     t: >
