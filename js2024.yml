@@ -1,0 +1,415 @@
+locale: en-US
+translations:
+  ###########################################################################
+  # General
+  ###########################################################################
+
+  - key: general.results.description
+    t: The 2024 edition of the annual survey about the latest trends in the JavaScript ecosystem.
+
+  ###########################################################################
+  # Introduction
+  ###########################################################################
+
+  - key: introduction.js2024
+    t: |
+
+      <span class="first-letter">I</span>t should be clear by now that, for better or for worse, JavaScript is not slowing down. 
+
+      Between server components, server actions, signals, compilers, and more, we're seeing new innovations pop up faster than most of us can handle. 
+
+      The trick to avoiding the dreaded JavaScript fatigue is remembering that you can pick your lane: sure, you can live life on the cutting edge with the early adopters; but you can also keep a slower pace and focus on stable, mature technologies – and eventually get to the new hotness once it's had a couple years to cool down. 
+
+      Speaking of taking it slow, you might be wondering why these 2024 survey results are being released six months into *2024*. The truth is, between launching the new [State of HTML](https://2024.stateofhtml.com/) survey, innovating new question formats, collecting more freeform data than ever, and rewriting a lot of our data visualization codebase, we ended up with a workload that was probably a bit too ambitious, to say the least. 
+
+      Hopefully the result of all this extra effort will be worth it though. And we do plan on much faster turnarounds going forward. 
+
+      With all this out of the way, let's discover what JavaScript has been up to lately!
+
+      <span class="conclusion__byline">– Sacha Greif</span>
+
+  ###########################################################################
+  # Tshirt
+  ###########################################################################
+
+  - key: sections.tshirt.title
+    t: T-shirt
+
+  - key: sections.tshirt.description
+    t: |
+      ## Support the Survey With the State of JavaScript T-Shirt
+
+      Between the bad video quality, the bulky cassettes, and having to rewind, there's not much to miss about the VHS era. But one thing we *do* miss are the amazing 90s visuals that used to adorn blank VHS tapes. 
+
+      But now, thanks to the talented Christopher Kirk-Nielsen you can enjoy all this retro radness while also celebrating your love for JavaScript at the same time!
+
+  - key: tshirt.about
+    t: About the T-shirt
+
+  - key: tshirt.description
+    t: |
+      We use a high-quality, super-soft tri-blend shirt with a slim fit printed by our partners at Cotton Bureau.
+
+  - key: tshirt.getit
+    t: Get It
+
+  - key: tshirt.price
+    t: USD $32 + shipping
+
+  - key: tshirt.designer.heading
+    t: About the Designer
+
+  - key: tshirt.designer.name
+    t: Christopher Kirk-Nielsen
+
+  - key: tshirt.designer.bio
+    t: |
+      Originally from France but now based in the United States, Chris is not just an amazing front-end developer, but also a talented illustrator who specializes in retro visuals. In fact, we encourage you to also check out his [other t-shirt designs](https://chriskirknielsen.com/designs)!
+
+  ###########################################################################
+  # Sections
+  ###########################################################################
+
+  - key: sections.user_info.description
+    t: |
+      This year, **23,540** respondents took part in the survey. And in order
+      to help highlight different voices and surface deeper insights, we made a special
+      effort to provide new ways to break our data down.
+
+  - key: sections.features.description
+    t: |
+      This year we put special emphasis on identifying developer pain points with JavaScript. As one might expect, the **lack of native typing** and **browser inconsistencies** led their respective charts, each affecting nearly a third of developers.
+
+  - key: sections.libraries.description
+    t: |
+      We reworked our charts to highlight not just developer experience, but *sentiment*. Be sure to explore these new grouping and sorting options to figure out which libraries get the most love… or the least!
+
+  - key: sections.other_tools.description
+    t: |
+      While the JavaScript conversation often seems to boild down to which framework to pick, it's worth remembering that there's a whole galaxy of other tools, services, and platforms to explore beyond that!
+
+  - key: sections.usage.description
+    t: |
+      Once again it seems like TypeScript has established itself as the default, at least among survey respondents. But apart from that, JavaScript usage remains as varied as ever!
+
+  - key: sections.resources.description
+    t: |
+      Rather than provide predefined lists of options for survey respondents to pick from, we decided to simply offer raw text fields. This led to quite a few new entrants in this year's Resources section!
+
+  - key: sections.awards.description
+    t: |
+      This year's awards were dominated by one very specific project… how quickly will you guess what it is?
+
+  ###########################################################################
+  # Charts
+  ###########################################################################
+
+  - key: options.features_categories.language
+    aliasFor: sections.language.title
+  - key: options.features_categories.browser_apis
+    aliasFor: sections.browser_apis.title
+  - key: options.features_categories.other_features
+    aliasFor: sections.other_features.title
+
+  ###########################################################################
+  # Notes
+  ###########################################################################
+
+  - key: blocks.gender.note
+    t: |
+      If you're interested in learning more, we [wrote a blog post](https://dev.to/sachagreif/is-our-survey-biased-against-women-49oj) that addresses the survey's gender dynamics.
+
+  - key: blocks.source.note
+    t: >
+
+      This chart aggregates a mix of referrers, URL parameters, and freeform answers. 
+
+      - State of JS: the [State of JS](https://stateofjs.com) mailing list.
+
+      - State of CSS: the State of CSS mailing list; also matches `email`, `by email`, etc.
+
+      - Work: matches `work`, `colleagues`, `coworkers`, etc.
+
+  ###########################################################################
+  # Awards
+  ###########################################################################
+
+  - key: award.feature_adoption_delta_award.comment
+    t: With a **{value}** progression in 2022, **top-level await** has quickly become an integral part of JavaScript.
+
+  - key: award.tool_usage_delta_award.comment
+    t: |
+      **Vite** continues to be the fastest-growing library out there, with a **{value}** year-over-year increase in usage!
+
+  - key: award.tool_satisfaction_award.comment
+    t: Vite once again takes the top spot, with **{value}** of developers willing to use it again!
+
+  - key: award.tool_interest_award.comment
+    t: Did you guess Vite? Close, but this year **Vitest** is the technology developers are most interested in with a **{value}** interest ratio.
+
+  - key: award.most_write_ins_award.comment
+    t: With **{value}** mentions, **Bun** was the most mentioned technology overall in freeform questions.
+
+  - key: award.most_commented_tool_award.comment
+    t: With **{value}** comments, React showed that it's once again the most-discussed library around.
+
+  - key: award.most_loved_tool_award.comment
+    t: With **{value}** of all developers having a positive opinion of it, Vite concludes its sweep of these awards by being the most-loved technology around!
+
+  ###########################################################################
+  # Conclusion
+  ###########################################################################
+
+  - key: conclusion.js2024.cassidy_williams
+    t: |
+      <span class="first-line">Y'all, what a cool year to be on the internet.</span>
+
+      There's so many interesting and exciting changes happening, and I've got my popcorn next to my keyboard, building and watching!
+
+      The fact that so many "smaller" libraries like Preact, Solid, and htmx are climbing in positive sentiment over something massive like Next.js is fascinating. We're starting to see Angular make a bit of a comeback, and we'll see if that trend continues next year. We're seeing people fall out of love with some of the industry darlings. We're seeing very Rusty systems grow. Astro feels like it's off to the races in developer support.
+
+      In terms of actual browser features, it almost feels like we're going too fast for the world to catch up. Which is not always a bad thing, necessarily! But I totally echo the sentiments that browser support is my primary concern over all the cool things coming out. 
+
+      That being said, I'm personally loving using some of the new array features and the fact that more and more folks are supporting PWAs.
+
+      Next year, let's improve the diversity of responses, get more people developing, and hopefully all of the new and exciting changes err on the side of fun, rather than intimidating! Thanks Sacha and team for including me here, and for running another awesome and valuable survey.
+
+      See you online!
+
+  - key: conclusion.js2024.cassidy_williams.bio
+    t: Dev advocate, engineer, open sourcer, and memer
+
+  - key: conclusion.js2024.theo_browne
+    t: |
+      <span class="first-line">Javascript is moving to the server, and we’re uneasy about it.</span>
+
+      In last year’s survey, we saw quickly growing adoption of server-rendered frameworks like Next, Nuxt, Remix, and SvelteKit. This year, we shifted to server-first patterns such as Partial Hydration and Islands, which doubled in their adoption.
+
+      Frame-, err, libraries like htmx show that web devs aren’t the only ones benefiting from utilizing the server. SPAs aren’t going anywhere (take a look at [Inertia](https://inertiajs.com/) for proof), but as these new patterns continue to improve, the market seems to be following along.
+
+      This move has not been unanimously loved. React’s continued to grow, but React developers are increasingly concerned about its direction. Getting here has been… rough, but progress is being made every day.
+
+      We’re also seeing more options appear outside of the React ecosystem. From [Nuxt](https://roe.dev/blog/nuxt-server-components) to [SolidStart](https://docs.solidjs.com/solid-start/reference/server/use-server) to [Astro](https://astro.build/blog/astro-480/#experimental-astro-actions), all of the best React Server Component features are rolling out to every developer.
+
+      And of course, Vite has continued to dominate, and is the choice for app developers and framework authors alike. Hard to imagine where we’d be today without it!
+
+  - key: conclusion.js2024.theo_browne.bio
+    t: Creator of Ping, uploadthing, create-t3-app, and video creator
+
+  ###########################################################################
+  # Picks
+  ###########################################################################
+
+  - key: picks.my_pick
+    t: "My 2024 Pick: "
+  - key: picks.intro
+    t: We asked members of the JavaScript community to share their “pick of the year”
+
+  # https://leaddev.com/personal-development/how-build-trust-new-engineering-manager
+  - key: picks.emma_bostian.name
+    t: How to build trust as a new engineering manager
+  - key: picks.emma_bostian.bio
+    t: Engineering Manager, instructor, and co-host of the Ladybug Podcast.
+  - key: picks.emma_bostian.description
+    t: |
+      I've found the blog posts on LeadDev under Skills for new managers to be invaluable as a new Engineering Manager. They provide great resources for anyone looking to expand their engineering leadership and management skills!
+
+  # https://pocketbase.io
+  - key: picks.fireship.name
+    t: Pocketbase
+  - key: picks.fireship.bio
+    t: Google developer expert, data enthusiast, and YouTuber
+  - key: picks.fireship.description
+    t: |
+      My pick of the year is the Pocketbase project - an open-source SQLite powered backend. Its JavaScript SDK gives web developers everything needed to build a serious application, and amazingly, can be deployed as a single binary to any $5 server.
+
+  # https://www.localfirst.fm/
+  - key: picks.rich_harris.name
+    t: localfirst.fm
+  - key: picks.rich_harris.bio
+    t: Open source troublemaker at Vercel. Creator of Rollup and Svelte
+  - key: picks.rich_harris.description
+    t: |
+      If you're interested in where software is heading, this podcast is required listening. It'll renew your optimism about the future of web development.
+
+  # https://tldraw.com
+  - key: picks.david_khourshid.name
+    t: tldraw
+  - key: picks.david_khourshid.bio
+    t: Creator of XState and founder of [http://stately.ai](Stately)
+  - key: picks.david_khourshid.description
+    t: |
+      Much more than an infinite canvas, tldraw reimagines what is possible with user interfaces, from its impressive AI experiments to its attention to drawing detail. Its source code is readily available too, and I appreciate the state machines and extensible API for endless tinkering.
+
+  # https://replicache.dev/
+  - key: picks.dax_raad.name
+    t: Replicache
+  - key: picks.dax_raad.bio
+    t: Building [SST](https://sst.dev/) and [terminal](https://www.terminal.shop/)
+  - key: picks.dax_raad.description
+    t: |
+      No technology has had a bigger impact on the quality of what I've shipped in years.  I think they are carrying the torch on pushing what can be done on the web.
+
+  # https://lexical.dev/
+  - key: picks.german_jablonski.name
+    t: Lexical
+  - key: picks.german_jablonski.bio
+    t: CEO and creator of [Fluski](https://fluski.com/), notes and spreadsheet manager
+  - key: picks.german_jablonski.description
+    t: |
+      It's been an exceptional year for the Meta text editor. Its ingenious data model and lifecycle have greatly influenced the way I program.
+
+  # https://marvinh.dev/blog/speeding-up-javascript-ecosystem/
+  - key: picks.alina_listunova.name
+    t: Speeding up the JavaScript ecosystem
+  - key: picks.alina_listunova.bio
+    t: Front-end Developer, Technical Translator 🇺🇦
+  - key: picks.alina_listunova.description
+    t: |
+      Started in late 2022, this ongoing article series by Preact developer Marvin Hagemeister reveals time-inefficient elements in modern JavaScript projects and approaches. It is truly a fascinating piece for performance-conscious professionals.
+
+  # https://www.rspack.dev/
+  - key: picks.shadowingszy.name
+    t: Rspack
+  - key: picks.shadowingszy.bio
+    t: Architect of Datawhale, senior front-end R&D engineer of ByteDance
+  - key: picks.shadowingszy.description
+    t: |
+      Rspack is a Rust-based web bundler with extremely excellent performance. By using Rust, it has solved a large number of performance bottlenecks of JS bundler. And it can be compatible with the ecosystem of webpack.
+
+  # https://unjs.io/
+  - key: picks.quarkstuff.name
+    t: UnJS
+  - key: picks.quarkstuff.bio
+    t: Web & Game dev nerd
+  - key: picks.quarkstuff.description
+    t: |
+      The UnJS ecosystem is like a developer's toybox. From ofetch and consola to citty and nitro, there is likely something there for your next big project.
+
+  # https://www.npmjs.com/package/tess2
+  - key: picks.martin_heidegger.name
+    t: tess2.js
+  - key: picks.martin_heidegger.bio
+    t: Web developer, event organizer
+  - key: picks.martin_heidegger.description
+    t: |
+      I have not done a lot of JavaScript last year, but I was impressed by the tess2 algorithm, a 10-year-old npm library that still performs well!
+
+  # https://auto-animate.formkit.com/
+  - key: picks.sacha_greif.name
+    t: AutoAnimate
+  - key: picks.sacha_greif.bio
+    t: State of JS creator
+  - key: picks.sacha_greif.description
+    t: |
+      Formkit's AutoAnimate library, which you can see in action right here on this site, does exactly what its name implies and somehow figures out how to add animations to your apps with a single line of code!
+
+  # https://nuxt.com/
+  - key: picks.rexhent.name
+    t: Nuxt
+  - key: picks.rexhent.bio
+    t: Aspiring Linux and web developer
+  - key: picks.rexhent.description
+    t: |
+      Nuxt is focused on DX & UX. It's stable and continuously improving. It has the best devtools out of any framework and has created UnJS, and other tooling that powers new frameworks, like Nitro. They are a pillar of the FOSS community.
+
+  # https://medium.com/@devgustavovasquez/the-future-of-web-development-embracing-interoperable-runtimes-bd2006e9b9d7
+  - key: picks.gustavo_vasquez.name
+    t: Web Interoperable Runtimes
+  - key: picks.gustavo_vasquez.bio
+    t: Software Engineer 🇧🇷
+  - key: picks.gustavo_vasquez.description
+    t: |
+      Web Interoperable Runtimes are execution environments that allow code to run consistently across multiple platforms and environments. I believe that working with such a standard exposes us to the future of web development.
+
+  # https://x.com/wunderacle
+  - key: picks.augustin_mauroy.name
+    t: Claudio Wunder
+  - key: picks.augustin_mauroy.bio
+    t: Web developer and an OSS enthusiast
+  - key: picks.augustin_mauroy.description
+    t: |
+      Claudio is a superb person. He helped me to grow as a dev, but he also made it possible to redesign the Node website, thanks to his leadership skills. And he continues to push the Node project forward.
+
+  # https://www.electronjs.org/
+  - key: picks.kilian_valkhof.name
+    t: Electron
+  - key: picks.kilian_valkhof.bio
+    t: Creator of Polypane Browser for Developers
+  - key: picks.kilian_valkhof.description
+    t: |
+      With everyday apps like VS Code, Figma, Discord, Slack and 1Password all running on Electron, it remains an integral part of the JS and developer ecosystem. Many tools we all use wouldn't exist without it, and when used correctly it's a powerful platform indeed.
+
+  # https://x.com/dawntraoz
+  - key: picks.arisa_fukuzaki.name
+    t: Alba Silvente Fuentes
+  - key: picks.arisa_fukuzaki.bio
+    t: Senior DevRel Engineer & Docs at Storyblok
+  - key: picks.arisa_fukuzaki.description
+    t: |
+      Alba writes about frontend development, web architecture, and web performance, spoke at many conferences, and has a podcast, "No me da la vida". She has been inspiring many devs, and I'm one of them!
+
+  # - key: picks.xxxx.name
+  #   t:
+  # - key: picks.xxxx.bio
+  #   t:
+  # - key: picks.xxxx.description
+  #   t: |
+  ###########################################################################
+  # Sponsors
+  ###########################################################################
+
+  - key: sponsors.frontendmasters.description
+    t: Advance your skills with in-depth, modern front-end engineering courses.
+  - key: sponsors.google_chrome.description
+    t: Thanks to the Google Chrome team for supporting our work.
+  - key: sponsors.tokyodev.description
+    t: Find your dream developer job in Japan today.
+  - key: sponsors.renderatl.description
+    t: The tech conference focused on all things web.
+
+  ###########################################################################
+  # FAQ/About
+  ###########################################################################
+
+  - key: about.content
+    t: |
+      The 2024 State of JavaScript survey ran from November 22 to December 12 2024, and collected 23,540 responses. The results were published on June 20, 2024. The survey is run by [Devographics](https://devographics.com/), a collective consisting of me ([Sacha Greif](https://sachagreif.com/)) and [Eric Burel](https://www.lbke.fr/), as well as invited experts and open-source contributors. 
+
+      The State of JavaScript logo and t-shirt were designed by [Christopher Kirk-Nielsen](http://chriskirknielsen.com/).
+
+      ### Survey Goals
+
+      This survey was created to identify upcoming trends in the web development ecosystem in order to help developers make technological choices. 
+
+      As such, the survey is focused on anticipating what's coming over the next few years rather than analyzing what's popular now, which is why features or technologies may sometimes be omitted even if they are currently widespread 
+
+      It should also be taken as a **snapshot of a specific subset of developers**, and is not meant to speak for the entire ecosystem. 
+
+      ### Survey Design
+
+      The survey was designed in part based on last year's survey, with an open feedback period where the survey outline was discussed [on GitHub](https://github.com/Devographics/surveys/issues?q=is%3Aissue+is%3Aopen+label%3A%22State+of+JS+2024%22). 
+
+      All survey questions were optional. 
+
+      ### Survey Audience
+
+      The survey was openly accessible online and respondents were not filtered or selected in any way. Respondents were primarily a mix of respondents from past surveys (alerted through a dedicated mailing list) and social media traffic. 
+
+      Note that frameworks, libraries, etc. were free to encourage their audience to participate in the survey and some of them did take advantage of this via banners, tweets, etc. A detailed breakdown of traffic sources is included in the "Sources" chart. 
+
+      ### Project Funding
+
+      Funding from this project comes from a variety of sources:
+
+      - **T-shirt sales**. 
+
+      - **Sponsored links**: the links to recommended resources at the bottom of each page are provided by our partners [Frontend Masters](https://frontendmasters.com/) and [RenderATL](https://www.renderatl.com/).
+
+      - **Direct Funding**: this year, [Google](https://www.google.com/) funded my work on the survey. 
+
+      Any contribution or sponsorship is greatly appreciated. we would especially like to work closely with more browser vendors, since they play such a central role in the web ecosystem.  
+
+      ### Technical Overview
+
+      You can find a more in-depth technical overview of how the surveys are run [here](https://dev.to/sachagreif/how-the-devographics-surveys-are-run-2024-edition-1p6a).
