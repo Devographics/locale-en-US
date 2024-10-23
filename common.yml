@@ -695,6 +695,22 @@ translations:
   - key: options.years_of_experience.range_over_30
     t: Over 30 years
 
+  # years of experience v3
+  - key: options.years.range_0_4
+    aliasFor: options.years_of_experience.range_0_4
+  - key: options.years.range_5_9
+    aliasFor: options.years_of_experience.range_5_9
+  - key: options.years.range_10_14
+    aliasFor: options.years_of_experience.range_10_14
+  - key: options.years.range_15_19
+    aliasFor: options.years_of_experience.range_15_19
+  - key: options.years.range_20_24
+    aliasFor: options.years_of_experience.range_20_24
+  - key: options.years.range_25_29
+    aliasFor: options.years_of_experience.range_25_29
+  - key: options.years.range_over_30
+    aliasFor: options.years_of_experience.range_over_30
+
   # company size
   - key: options.company_size.na
     t: 🚫 Not Applicable
