@@ -1671,8 +1671,14 @@ translations:
     t: Update Chart
   - key: filters.copy_link
     t: Copy link to filters
+  - key: filters.code
+    t: Filters Code
   - key: filters.get_code
-    t: Get filters code
+    t: Get Code
+  - key: filters.import_code
+    t: Import Code
+  - key: filters.paste_filters_code
+    t: Paste filters code here
 
   - key: filters.presets.title
     t: "Presets:"

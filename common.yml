@@ -1583,12 +1583,6 @@ translations:
   - key: user_info.higher_education_degree.question
     t: Do you have a higher education degree?
 
-  # employment status
-  - key: user_info.employment_status
-    t: Employment Status
-  - key: user_info.employment_status.description
-    t: What's your employment status?
-
   # completion
   - key: user_info.completion_stats
     t: Survey Completion

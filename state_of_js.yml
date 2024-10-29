@@ -621,6 +621,11 @@ translations:
   - key: tools.others
     t: Other Tools
 
+  - key: tools.tools_work
+    t: Work Context
+  - key: tools.tools_work.question
+    t: Which of these tools do you use as part of your work?
+
   # front-end frameworks
 
   - key: tools.front_end_frameworks_ratios
@@ -632,6 +637,11 @@ translations:
     t: Front-end Frameworks Experience & Sentiment
   - key: tools.front_end_frameworks_experience.short
     aliasFor: tools.experience
+
+  - key: tools.front_end_frameworks_work
+    aliasFor: tools.tools_work
+  - key: tools.front_end_frameworks_work.question
+    aliasFor: tools.tools_work.question
 
   - key: tools.front_end_frameworks.others
     t: Other Front-end Frameworks
@@ -666,6 +676,11 @@ translations:
   - key: tools.meta_frameworks_experience.short
     aliasFor: tools.experience
 
+  - key: tools.meta_frameworks_work
+    aliasFor: tools.tools_work
+  - key: tools.meta_frameworks_work.question
+    aliasFor: tools.tools_work.question
+
   - key: tools.meta_frameworks.others
     t: Other Meta-Frameworks
   - key: tools.meta_frameworks.others.short
@@ -699,9 +714,14 @@ translations:
   - key: tools.testing_experience.short
     aliasFor: tools.experience
 
-  - key: tools.testing.others
+  - key: tools.testing_work
+    aliasFor: tools.tools_work
+  - key: tools.testing_work.question
+    aliasFor: tools.tools_work.question
+
+  - key: tools.testing_others
     t: Other Testing Tools
-  - key: tools.testing.others.short
+  - key: tools.testing_others.short
     aliasFor: tools.others
 
   - key: tools.testing_happiness
@@ -730,9 +750,14 @@ translations:
   - key: tools.mobile_desktop_experience.short
     aliasFor: tools.experience
 
-  - key: tools.mobile_desktop.others
+  - key: tools.mobile_desktop_work
+    aliasFor: tools.tools_work
+  - key: tools.mobile_desktop_work.question
+    aliasFor: tools.tools_work.question
+
+  - key: tools.mobile_desktop_others
     t: Other Mobile & Desktop Tools
-  - key: tools.mobile_desktop.others.short
+  - key: tools.mobile_desktop_others.short
     aliasFor: tools.others
 
   - key: tools.mobile_desktop_happiness
@@ -761,9 +786,14 @@ translations:
   - key: tools.build_tools_experience.short
     aliasFor: tools.experience
 
-  - key: tools.build_tools.others
+  - key: tools.build_tools_work
+    aliasFor: tools.tools_work
+  - key: tools.build_tools_work.question
+    aliasFor: tools.tools_work.question
+
+  - key: tools.build_tools_others
     t: Other Build Tools
-  - key: tools.build_tools.others.short
+  - key: tools.build_tools_others.short
     aliasFor: tools.others
 
   - key: tools.build_tools_happiness
@@ -792,9 +822,14 @@ translations:
   - key: tools.monorepo_tools_experience.short
     aliasFor: tools.experience
 
-  - key: tools.monorepo_tools.others
+  - key: tools.monorepo_tools_work
+    aliasFor: tools.tools_work
+  - key: tools.monorepo_tools_work.question
+    aliasFor: tools.tools_work.question
+
+  - key: tools.monorepo_tools_others
     t: Other Monorepo Tools
-  - key: tools.monorepo_tools.others.short
+  - key: tools.monorepo_tools_others.short
     aliasFor: tools.others
 
   - key: tools.monorepo_tools_happiness
