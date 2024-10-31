@@ -1169,6 +1169,36 @@ translations:
   - key: usage.industry_sector_js.others
     aliasFor: usage.industry_sector.others
 
+  - key: usage.js_sugar_proposal
+    t: JS0/JSSugar
+  - key: usage.js_sugar_proposal.question
+    t: What do you think about the recent JS0/JSSugar proposal?
+  - key: usage.js_sugar_proposal.prompt
+    t: This would offload new feature support to JSSugar, a version of JavaScript interpreted by build tools; while browsers would only support JS0, a subset of that language.
+
+  - key: options.js_sugar_proposal.strongly_oppose
+    t: Strongly opposed
+  - key: options.js_sugar_proposal.oppose
+    t: Opposed
+  - key: options.js_sugar_proposal.neutral
+    t: Neutral
+  - key: options.js_sugar_proposal.support
+    t: Supportive
+  - key: options.js_sugar_proposal.strongly_support
+    t: Strongly supportive
+
+  - key: usage.native_types_proposal
+    t: Native Types
+  - key: usage.native_types_proposal.question
+    t: How would you like to see native types implemented in JavaScript?
+
+  - key: options.native_types_proposal.typescript_like_types
+    t: As similar to TypeScript as possible
+  - key: options.native_types_proposal.jsdoc_like_types
+    t: Using comments, similar to JSDoc
+  - key: options.native_types_proposal.no_types
+    t: I would not like to see them implemented
+
   ###########################################################################
   # Opinions
   ###########################################################################
