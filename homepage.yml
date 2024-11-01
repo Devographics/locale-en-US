@@ -59,6 +59,8 @@ translations:
     t: Your Email
   - key: newsletter.submit
     t: Notify Me
+  - key: newsletter.thanks
+    t: Thanks for signing up!
 
   # languages
   - key: languages.available_languages
