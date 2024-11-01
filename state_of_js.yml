@@ -1117,19 +1117,19 @@ translations:
     t: What proportion of the code you produce is AI-generated?
 
   - key: options.ai_generated_code.range_0
-    t: 0%
+    t: None (0%)
   - key: options.ai_generated_code.range_0_25
-    t: 0-25%
+    t: Very little (0-25%)
   - key: options.ai_generated_code.range_25_50
-    t: 25-50%
+    t: Some (25-50%)
   - key: options.ai_generated_code.range_50
-    t: 50%
+    t: About half (50%)
   - key: options.ai_generated_code.range_50_75
-    t: 50-75%
+    t: A lot (50-75%)
   - key: options.ai_generated_code.range_75_100
-    t: 75-100%
+    t: Most (75-100%)
   - key: options.ai_generated_code.range_100
-    t: 100%
+    t: Virtually all (100%)
 
   - key: tools.hosting
     t: Hosting Services
@@ -1218,6 +1218,11 @@ translations:
     t: Using comments, similar to JSDoc
   - key: options.native_types_proposal.no_types
     t: I would not like to see them implemented
+
+  - key: usage.js_new_features
+    aliasFor: usage.html_new_features
+  - key: usage.js_new_features.question
+    aliasFor: usage.html_new_features.question
 
   ###########################################################################
   # Opinions
