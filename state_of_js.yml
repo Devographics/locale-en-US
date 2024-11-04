@@ -1220,9 +1220,16 @@ translations:
     t: I would not like to see them implemented
 
   - key: usage.js_new_features
-    aliasFor: usage.html_new_features
+    t: New Proposals
   - key: usage.js_new_features.question
-    aliasFor: usage.html_new_features.question
+    t: Which of these active JavaScript proposals are you most excited about?
+  - key: usage.js_new_features.prompt
+    t: Based on current State 2.7 & Stage 3 [TC39 ECMAScript proposals](https://github.com/tc39/proposals).
+
+  - key: usage.js_missing_features
+    t: Missing Features
+  - key: usage.js_missing_features.question
+    t: Which of these features do you feel are currently missing from JavaScript?
 
   ###########################################################################
   # Opinions
