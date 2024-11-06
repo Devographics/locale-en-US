@@ -92,6 +92,8 @@ translations:
     t: Mexico
   - key: options.country.MMR
     t: Myanmar
+  - key: options.country.NPL
+    t: Nepal
   - key: options.country.NOR
     t: Norway
   - key: options.country.NLD

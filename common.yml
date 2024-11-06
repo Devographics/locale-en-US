@@ -89,7 +89,7 @@ translations:
   - key: general.translation_help
     t: Translation Help
   - key: general.newly_added
-    t: Newly added this year
+    t: Newly added to the survey this year
   - key: general.new
     t: New
   - key: general.devographics_banner

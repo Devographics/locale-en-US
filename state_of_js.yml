@@ -485,26 +485,6 @@ translations:
   - key: options.js_app_patterns.pespa
     t: PESPA
 
-  # slider
-  - key: options.js_ts_balance.0
-    t: 100% JS
-  - key: options.js_ts_balance.1
-    t: "|"
-  - key: options.js_ts_balance.2
-    t: "|"
-  - key: options.js_ts_balance.3
-    t: "|"
-  - key: options.js_ts_balance.4
-    t: "50/50"
-  - key: options.js_ts_balance.5
-    t: "|"
-  - key: options.js_ts_balance.6
-    t: "|"
-  - key: options.js_ts_balance.7
-    t: "|"
-  - key: options.js_ts_balance.8
-    t: 100% TS
-
   ###########################################################################
   # Features
   ###########################################################################
@@ -1111,26 +1091,6 @@ translations:
   - key: tools.ai_tools.question
     t: Which of these AI tools do you regularly use to help you write code?
 
-  - key: tools.ai_generated_code
-    t: AI Code Generation
-  - key: tools.ai_generated_code.question
-    t: What proportion of the code you produce is AI-generated?
-
-  - key: options.ai_generated_code.range_0
-    t: None (0%)
-  - key: options.ai_generated_code.range_0_25
-    t: Very little (0-25%)
-  - key: options.ai_generated_code.range_25_50
-    t: Some (25-50%)
-  - key: options.ai_generated_code.range_50
-    t: About half (50%)
-  - key: options.ai_generated_code.range_50_75
-    t: A lot (50-75%)
-  - key: options.ai_generated_code.range_75_100
-    t: Most (75-100%)
-  - key: options.ai_generated_code.range_100
-    t: Virtually all (100%)
-
   - key: tools.hosting
     t: Hosting Services
   - key: tools.hosting.question
@@ -1154,10 +1114,109 @@ translations:
   - key: usage.what_do_you_use_js_for.others
     t: Other JavaScript Use Cases
 
+  # js_ts_balance
+
   - key: usage.js_ts_balance
     t: JavaScript/TypeScript Balance
   - key: usage.js_ts_balance.question
     t: How do you divide your time between writing JavaScript and TypeScript code?
+
+  - key: options.js_ts_balance.0
+    t: 100% JS
+  - key: options.js_ts_balance.1
+    t: "|"
+  - key: options.js_ts_balance.2
+    t: "|"
+  - key: options.js_ts_balance.3
+    t: "|"
+  - key: options.js_ts_balance.4
+    t: "50/50"
+  - key: options.js_ts_balance.5
+    t: "|"
+  - key: options.js_ts_balance.6
+    t: "|"
+  - key: options.js_ts_balance.7
+    t: "|"
+  - key: options.js_ts_balance.8
+    t: 100% TS
+
+  # ai_generated_code_balance
+
+  - key: usage.ai_generated_code_balance
+    t: AI Code Generation
+  - key: usage.ai_generated_code_balance.question
+    t: What proportion of the code you produce is AI-generated?
+  - key: usage.ai_generated_code_balance.prompt
+    t: Including code copy-pasted from ChatGPT or other chatbots.
+
+  # slider
+  - key: options.ai_generated_code_balance.0
+    t: 0% AI
+  - key: options.ai_generated_code_balance.1
+    t: "|"
+  - key: options.ai_generated_code_balance.2
+    t: "|"
+  - key: options.ai_generated_code_balance.3
+    t: "|"
+  - key: options.ai_generated_code_balance.4
+    t: "50%"
+  - key: options.ai_generated_code_balance.5
+    t: "|"
+  - key: options.ai_generated_code_balance.6
+    t: "|"
+  - key: options.ai_generated_code_balance.7
+    t: "|"
+  - key: options.ai_generated_code_balance.8
+    t: 100% AI
+
+  # compiled_code_balance
+
+  - key: usage.compiled_code_balance
+    t: Compiled Code Balance
+  - key: usage.compiled_code_balance.question
+    t: What proportion of the JavaScript code you write is compiled through a build process?
+  - key: usage.compiled_code_balance.prompt
+    t: As opposed to code that is executed by the browser directly.
+
+  # slider
+  - key: options.compiled_code_balance.0
+    t: 0% Compiled
+  - key: options.compiled_code_balance.1
+    t: "|"
+  - key: options.compiled_code_balance.2
+    t: "|"
+  - key: options.compiled_code_balance.3
+    t: "|"
+  - key: options.compiled_code_balance.4
+    t: "50%"
+  - key: options.compiled_code_balance.5
+    t: "|"
+  - key: options.compiled_code_balance.6
+    t: "|"
+  - key: options.compiled_code_balance.7
+    t: "|"
+  - key: options.compiled_code_balance.8
+    t: 100% Compiled
+
+  # slider
+  - key: options.js_ts_balance.0
+    t: 100% JS
+  - key: options.js_ts_balance.1
+    t: "|"
+  - key: options.js_ts_balance.2
+    t: "|"
+  - key: options.js_ts_balance.3
+    t: "|"
+  - key: options.js_ts_balance.4
+    t: "50/50"
+  - key: options.js_ts_balance.5
+    t: "|"
+  - key: options.js_ts_balance.6
+    t: "|"
+  - key: options.js_ts_balance.7
+    t: "|"
+  - key: options.js_ts_balance.8
+    t: 100% TS
 
   - key: tools.edge_runtimes
     t: JavaScript Edge/Serverless Runtimes
