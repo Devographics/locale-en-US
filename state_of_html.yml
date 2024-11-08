@@ -713,7 +713,7 @@ translations:
 
   - key: features.custom_highlight_api
     t: CSS Custom Highlight API
-  
+
   - key: features.intl_segmenter
     t: "`Intl.Segmenter` API"
 
@@ -951,7 +951,7 @@ translations:
     t: Any other pain points around using HTML and related technologies?
 
   - key: usage.html_css_js_balance
-    t: HTML/CSS vs JavaScript/TypeScript Balance
+    t: HTML/CSS vs JS/TS Balance
   - key: usage.html_css_js_balance.question
     t: How do you divide your time between writing HTML/CSS and JavaScript (or TypeScript) code?
   - key: options.html_css_js_balance.0
@@ -967,8 +967,12 @@ translations:
 
   - key: resources.web_platform_resources
     t: Web Platform Resources
+    aliases:
+      - other_tools.web_platform_resources
   - key: resources.web_platform_resources.question
     t: Which of these resources do you consult to stay informed about web platform features?
+    aliases:
+      - other_tools.web_platform_resources.question
 
   ###########################################################################
   # Opinions
@@ -982,20 +986,64 @@ translations:
   - key: opinions.accessibility_is_valued.question
     t: Accessibility is valued in my workplace or professional environment
 
+  - key: options.accessibility_is_valued.0
+    aliasFor: options.opinions.0
+  - key: options.accessibility_is_valued.1
+    aliasFor: options.opinions.1
+  - key: options.accessibility_is_valued.2
+    aliasFor: options.opinions.2
+  - key: options.accessibility_is_valued.3
+    aliasFor: options.opinions.3
+  - key: options.accessibility_is_valued.4
+    aliasFor: options.opinions.4
+
   - key: opinions.keeping_informed_is_challenging
     t: Keeping Informed
   - key: opinions.keeping_informed_is_challenging.question
     t: Keeping informed about new web platform features is a challenge
+
+  - key: options.keeping_informed_is_challenging.0
+    aliasFor: options.opinions.0
+  - key: options.keeping_informed_is_challenging.1
+    aliasFor: options.opinions.1
+  - key: options.keeping_informed_is_challenging.2
+    aliasFor: options.opinions.2
+  - key: options.keeping_informed_is_challenging.3
+    aliasFor: options.opinions.3
+  - key: options.keeping_informed_is_challenging.4
+    aliasFor: options.opinions.4
 
   - key: opinions.browser_interoperability_is_obstacle
     t: Browser Interoperability
   - key: opinions.browser_interoperability_is_obstacle.question
     t: The lack of browser interoperability is a major obstacle to web development
 
+  - key: options.browser_interoperability_is_obstacle.0
+    aliasFor: options.opinions.0
+  - key: options.browser_interoperability_is_obstacle.1
+    aliasFor: options.opinions.1
+  - key: options.browser_interoperability_is_obstacle.2
+    aliasFor: options.opinions.2
+  - key: options.browser_interoperability_is_obstacle.3
+    aliasFor: options.opinions.3
+  - key: options.browser_interoperability_is_obstacle.4
+    aliasFor: options.opinions.4
+
   - key: opinions.web_platform_right_direction
     t: Web Platform
   - key: opinions.web_platform_right_direction.question
     t: The web platform is moving in the right direction overall
+
+  - key: options.web_platform_right_direction.0
+    aliasFor: options.opinions.0
+  - key: options.web_platform_right_direction.1
+    aliasFor: options.opinions.1
+  - key: options.web_platform_right_direction.2
+    aliasFor: options.opinions.2
+  - key: options.web_platform_right_direction.3
+    aliasFor: options.opinions.3
+  - key: options.web_platform_right_direction.4
+    aliasFor: options.opinions.4
 
   ###########################################################################
   # Survey Help

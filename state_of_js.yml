@@ -1174,9 +1174,9 @@ translations:
   - key: usage.compiled_code_balance
     t: Compiled Code Balance
   - key: usage.compiled_code_balance.question
-    t: What proportion of the JavaScript code you write is compiled through a build process?
+    t: What proportion of the JavaScript code you write for the browser goes through a build step?
   - key: usage.compiled_code_balance.prompt
-    t: As opposed to code that is executed by the browser directly.
+    t: Any bundled, minified, or otherwise transformed code, as opposed to code directly executed by the browser.
 
   # slider
   - key: options.compiled_code_balance.0

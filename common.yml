@@ -1642,6 +1642,13 @@ translations:
     t: |
       Blog/newsletter #{index}…
 
+  # newsletters
+
+  - key: resources.newsletters
+    t: Newsletters
+  - key: resources.newsletters.question
+    t: Which newsletters do you read to stay up to date with web development news?
+
   # sites & courses
   - key: resources.sites_courses
     t: Sites & Courses

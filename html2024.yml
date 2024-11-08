@@ -38,13 +38,15 @@ translations:
 
   - key: introduction.html2024
     t: |
-      <span class="first-letter">C</span>SS is going through a period of unprecedented progress. Between `:has()`, container queries, subgrid, and many more, new features are making their way to browsers seemingly every month. 
+      <span class="first-letter">D</span>espite its name, this survey is about a lot more than just HTML. 
 
-      The consequence of all this growth is that things can get a bit overwhelming. Thankfully this year we had [Chen Hui Jing](https://chenhuijing.com/) to help design the survey and guide us through the CSS jungle. 
+      Don't get me wrong – HTML itself is more relevant than ever today, which is quite impressive for a 30-year old technology. Even so, we've  tried to broaden the survey's scope even more to the web platform as a whole.  
 
-      And speaking of the survey, did you know browser vendors use its data as part of the [Interop](https://web.dev/interop-2023/) initiative to help prioritize which features to work on next?
+      From browser APIs, to web development pain points, to accessibility strategies, to analytics and performance tools, there's a *lot* to cover. 
 
-      Finally, we are introducing a new feature this year: the ability to **customize charts** with your own data filters. We're excited to see what kind of new insights you'll come up with!
+      And if you find all this raw data a bit lacking in context, you can now also browse through the **comments** left by respondents on each question. 
+
+      So let's dive right in and see what the web platform has been up to in 2024!
 
       <span class="conclusion__byline">– Sacha Greif</span>
 
