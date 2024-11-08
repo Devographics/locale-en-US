@@ -1031,6 +1031,17 @@ translations:
   - key: usage.state_of_the_web_happiness.question
     aliasFor: happiness.state_of_the_web.description
 
+  - key: options.state_of_the_web_happiness.0
+    aliasFor: options.happiness.0
+  - key: options.state_of_the_web_happiness.1
+    aliasFor: options.happiness.1
+  - key: options.state_of_the_web_happiness.2
+    aliasFor: options.happiness.2
+  - key: options.state_of_the_web_happiness.3
+    aliasFor: options.happiness.3
+  - key: options.state_of_the_web_happiness.4
+    aliasFor: options.happiness.4
+
   - key: happiness.state_of_css
     t: State of CSS
   - key: happiness.state_of_css.question
@@ -1039,6 +1050,17 @@ translations:
     aliasFor: happiness.state_of_css
   - key: usage.state_of_css_happiness.question
     aliasFor: happiness.state_of_css.question
+
+  - key: options.state_of_css_happiness.0
+    aliasFor: options.happiness.0
+  - key: options.state_of_css_happiness.1
+    aliasFor: options.happiness.1
+  - key: options.state_of_css_happiness.2
+    aliasFor: options.happiness.2
+  - key: options.state_of_css_happiness.3
+    aliasFor: options.happiness.3
+  - key: options.state_of_css_happiness.4
+    aliasFor: options.happiness.4
 
   # pain points/currently missing (results)
   - key: css_pain_points.css_pain_points_wins

@@ -94,7 +94,7 @@ translations:
 
   - key: sections.user_info.description.html2024
     t: |
-      Welcome to the State of HTML survey results. This first-ever edition reached **20,904** participants from all around the world.
+      Welcome to the State of HTML survey results. This year's edition reached **5,402** participants from all around the world.
 
   - key: sections.features.description.html2024
     t: |
