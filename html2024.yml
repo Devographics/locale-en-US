@@ -44,6 +44,8 @@ translations:
 
       From browser APIs, to web development pain points, to accessibility strategies, to analytics and performance tools, there's a *lot* to cover. 
 
+      To make it easier to find your way through all these new features, we are now integrating a feature's [Baseline status](https://web-platform-dx.github.io/web-features/) whenever possible – look for a little blue or green dot next to its name.
+
       And if you find all this raw data a bit lacking in context, you can now also browse through the **comments** left by respondents on each question. 
 
       So let's dive right in and see what the web platform has been up to in 2024!
@@ -99,6 +101,158 @@ translations:
   - key: sections.features.description.html2024
     t: |
       HTML features and other browser APIs
+  ###########################################################################
+  # Charts
+  ###########################################################################
+
+  # user_info
+
+  - key: user_info.country.takeaway.html2024
+    t: >
+      Germany had a great showing this year, and while it didn't overtake the U.S. for number one it definitely punched above its weight.
+
+  - key: user_info.locale.takeaway.html2024
+    t: >
+      Many thanks to our volunteer translators for making the surveys available in so many different languages!
+
+  - key: user_info.completion_stats.takeaway.html2024
+    t: >
+      Despite the survey's length, an overwhelming majority of respondents took the time to complete it from start to finish!
+
+  - key: user_info.age.takeaway.html2024
+    t: >
+      State of HTML respondents had a median age of 35 – close to State of CSS's 34, and quite a bit older than State of JS's 31.
+
+  - key: user_info.years_of_experience.takeaway.html2024
+    t: >
+      The difference between surveys also holds when looking at years of web development experience: an average of 12 years here, compared to 9 years for State of JS respondents.
+
+  - key: user_info.company_size.takeaway.html2024
+    t: >
+      The larger the company, the higher the salary. Although if you're good enough, our data shows that you can earn a decent living no matter your company's size.
+
+  - key: user_info.yearly_salary.takeaway.html2024
+    t: >
+      While we often hear tales of six-figure salaries out of Silicon Valley, the reality is that most front-end developers throughout the world earn far less, as becomes apparent when directly comparing the U.S. and the rest of the world.
+
+  - key: user_info.higher_education_degree.takeaway.html2024
+    t: >
+      While having a degree will ensure you earn more, turns out it doesn't necessarily have to be related to programming – a good sign for the many among us who discovered a passion for web development further along in life.
+
+  - key: user_info.gender.takeaway.html2024
+    t: >
+      Unlike past surveys, we didn't observe a significant income difference between genders this time. 
+
+      That being said, this lone datapoint does not mean we should disregard the challenges faced by women in our industry.
+
+  - key: user_info.race_ethnicity.takeaway.html2024
+    t: >
+      Non-white respondents were more likely to be younger and have less experience – which hopefully points to a ongoing diversification of the industry.
+
+  - key: user_info.disability_status.takeaway.html2024
+    t: >
+      Thanks to the continued efforts of accessibility advocates, we now accept the fact that disabilities (permanent or not) should be taken into account as part of the design & development process.
+
+  - key: user_info.source.takeaway.html2024
+    t: >
+      A majority of respondents knew about the survey from previous years, but many also found it through a banner on the [2024 State of CSS survey results](https://2024.stateofcss.com/). 
+
+      And for the first time, Mastodon overtook X as a traffic source, possibly due to the later penalizing tweets containing outbounds links.
+
+  # features
+
+  - key: features.all_features
+    t: Features
+
+  - key: features.all_features.takeaway.html2024
+    t: >
+      Landmark elements (`<main>`, `<nav>`, etc.) unsurprinsingly ranked first as the most used feature, while the *least* used was Isolated Web Apps. 
+
+      `<datalist>` had the highest proportion positive sentiment (47.%), while `<model>` ranked first for negative sentiment at 9%.
+
+  - key: features.reading_list.takeaway.html2024
+    t: >
+      The Reading List lets you save items you want to learn more about after the survey is complete, and the item that was added the most was the new Customizable Select feature.
+
+  # forms
+
+  - key: features.forms_features.takeaway.html2024
+    t: >
+      With forms being one of the main ways users interact with the web, it should come as no surprise that they present their set of challenges. 
+
+      One feature to keep an eye on is Customizable Select, which by virtue of being brand new is one of the least used form features, yet ranks second when ranked by positive sentiment.
+
+  - key: features.forms_pain_points.takeaway.html2024
+    t: >
+      Styling form inputs continues to be developers' top form-related pain point, especially when it comes to `<select>` elements. 
+
+      Speaking of `<select>`, the lack of “combobox” behavior (search, autofill, etc.) was also deeply felt since it often forces apps to rely on JavaScript workarounds
+
+  # interactivity
+
+  - key: features.interactivity_features.takeaway.html2024
+    t: >
+      Despite low usage and a “Limited Availability” baseline status, the new Popover API scored first in terms of positive sentiment, which makes sense for such a useful feature.
+
+  - key: features.interactivity_pain_points.takeaway.html2024
+    t: >
+      Styling form inputs continues to be developers' top form-related pain point, especially when it comes to `<select>` elements. 
+
+      Speaking of `<select>`, the lack of “combobox” behavior (search, autofill, etc.) was also deeply felt since it often forces apps to rely on JavaScript workarounds.
+
+  # content
+
+  - key: features.content_features.takeaway.html2024
+    t: >
+      The `srcset` and `sizes` attributes collected 81 freeform comments, with 58% of those corresponding to a negative sentiment. As one respondent put it, “you have to look up the syntax every time you use it.”
+
+  - key: features.content_pain_points.takeaway.html2024
+    t: >
+      SVG (especially styling them with CSS) and image management are the top two pain points when it comes to dealing with content.
+
+  # web_components
+
+  - key: features.web_components_features.takeaway.html2024
+    t: >
+      While Web Components have their adepts, they remain a contested technology. Web Components features had an average of 7% of negative opinions, versus 4% for all other features combined.
+
+  - key: features.web_components_libraries.takeaway.html2024
+    t: >
+      Svelte may not be known as a web components library, but it turns out that it works quite well with them – unlike React, which appears far lower down in the rankings.
+
+  - key: features.using_web_components_pain_points.takeaway.html2024
+    t: >
+      The difficulty of styling and customizing web components remains the top obstacle to using them more broadly. Another barrier to entry is how hard it is to integrate them with JavaScript frontend libraries.
+
+  - key: features.making_web_components_pain_points.takeaway.html2024
+    t: >
+      Despite its cool name, Shadow DOM continues to frustrate web component makers, with many throwing up their hands at the excessive complexity of the whole process.
+
+  # accessibility
+
+  - key: features.accessibility_features.takeaway.html2024
+    t: >
+      The accessibility features mentioned in this year's survey proved to be straightforward enough to use, which translated into a very low negative sentiment overall.
+
+  - key: features.accessibility_disabilities.takeaway.html2024
+    t: >
+      It was comforting to see developers account for a wide range of disabilities while making websites, with visual disabilities taking the top ranks.
+
+  - key: features.accessibility_techniques.takeaway.html2024
+    t: >
+      It's nice to see that alt text is widely implemented, and if nothing else this chart can serve as a handy shortlist of accessibility patterns to implement in your own projects.
+
+  - key: features.accessibility_screenreaders.takeaway.html2024
+    t: >
+      It should come as no surprise that developers are more likely to use screenreaders if they come bundled with their browser or OS.
+
+  - key: features.accessibility_tools.takeaway.html2024
+    t: >
+      Lighthouse and browser devtools in general topped the rankings, overtaking more specialized tools such as Axe or WAVE.
+
+  - key: features.accessibility_pain_points.takeaway.html2024
+    t: >
+      Accessibility presents a unique challenge in that developers must not only overcome technical issues such as testing difficulties, but also organizational obstacles such as low prioritization or lack of client demand.
 
   ###########################################################################
   # Other Content
@@ -122,8 +276,10 @@ translations:
   - key: features.content_features
     t: Content Experience & Sentiment
 
-  - key: features.web_components_main_features
+  - key: features.web_components_features
     t: Web Components Experience & Sentiment
+    aliases:
+      - web_components_main_features
 
   - key: features.accessibility_features
     t: Accessibility Experience & Sentiment

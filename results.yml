@@ -824,6 +824,13 @@ translations:
   - key: charts.facet_respondents
     t: "({count} respondents)"
 
+  - key: charts.average.used
+    t: “Used” average
+  - key: charts.average.positive
+    t: “Positive” average
+  - key: charts.average.negative
+    t: “Negative” average
+
   - key: charts.nth_percentile
     t: "{percentile}th percentile"
   - key: charts.nth_percentile_value

@@ -1055,3 +1055,16 @@ translations:
       which **features** of HTML (and related APIs) you know about.
 
       By the way, if you want to learn more about any item in the survey, you can add it to your reading list by clicking its little "+" icon!
+
+  - key: features.forms
+    aliasFor: sections.forms.title
+  - key: features.interactivity
+    aliasFor: sections.interactivity.title
+  - key: features.content
+    aliasFor: sections.content.title
+  - key: features.web_components
+    aliasFor: sections.web_components.title
+  - key: features.accessibility
+    aliasFor: sections.accessibility.title
+  - key: features.mobile_web_apps
+    aliasFor: sections.mobile_web_apps.title

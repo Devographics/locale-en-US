@@ -468,6 +468,13 @@ translations:
   - key: options.sentiment.negative.description
     t: Respondents who are not interested in learning more about a technology; or have used it and had a negative experience.
 
+  # comments
+
+  - key: options.experience.comments
+    t: Comments
+    aliases:
+      - options.sentiment.comments
+
   # patterns
   - key: options.patterns.use_never
     t: Almost always avoid
