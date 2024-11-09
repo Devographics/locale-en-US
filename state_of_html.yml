@@ -55,7 +55,7 @@ translations:
     t: Making sites and apps accessible by all.
 
   - key: sections.mobile_web_apps.title
-    t: Native-like Web Apps
+    t: Native Web Apps
   - key: sections.mobile_web_apps.description
     t: Authoring mobile and desktop-optimized web apps.
 
@@ -509,7 +509,7 @@ translations:
       Which of these app manifest fields (`<link rel="manifest">`) have you used, if any?
 
   - key: features.native_apps_tools
-    t: Native Apps Tools
+    t: Native Web Apps Tools
   - key: features.native_apps_tools.question
     t: Have you used any of these tools to build native apps?
   - key: features.native_apps_tools.description
@@ -532,7 +532,7 @@ translations:
     t: Tauri, Flutter, etc.
 
   - key: features.mobile_web_apps_pain_points
-    t: Native-like Web Apps Pain Points
+    t: Native Web Apps Pain Points
   - key: features.mobile_web_apps_pain_points.question
     t: What are your biggest pain points around making web apps that feel native?
   - key: features.mobile_web_apps_pain_points.description

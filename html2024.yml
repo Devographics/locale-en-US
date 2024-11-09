@@ -237,22 +237,133 @@ translations:
   - key: features.accessibility_disabilities.takeaway.html2024
     t: >
       It was comforting to see developers account for a wide range of disabilities while making websites, with visual disabilities taking the top ranks.
+    aliases:
+      - accessibility.accessibility_disabilities.takeaway.html2024
 
   - key: features.accessibility_techniques.takeaway.html2024
     t: >
       It's nice to see that alt text is widely implemented, and if nothing else this chart can serve as a handy shortlist of accessibility patterns to implement in your own projects.
+    aliases:
+      - accessibility.accessibility_techniques.takeaway.html2024
 
   - key: features.accessibility_screenreaders.takeaway.html2024
     t: >
       It should come as no surprise that developers are more likely to use screenreaders if they come bundled with their browser or OS.
+    aliases:
+      - accessibility.accessibility_screenreaders.takeaway.html2024
 
   - key: features.accessibility_tools.takeaway.html2024
     t: >
       Lighthouse and browser devtools in general topped the rankings, overtaking more specialized tools such as Axe or WAVE.
+    aliases:
+      - accessibility.accessibility_tools.takeaway.html2024
 
   - key: features.accessibility_pain_points.takeaway.html2024
     t: >
       Accessibility presents a unique challenge in that developers must not only overcome technical issues such as testing difficulties, but also organizational obstacles such as low prioritization or lack of client demand.
+    aliases:
+      - accessibility.accessibility_pain_points.takeaway.html2024
+
+  # mobile_web_apps_features
+
+  - key: features.mobile_web_apps_features.takeaway.html2024
+    t: >
+      Usage for mobile and desktop web app features was low overall, with an average of only 6% of respondents having used these features, versus 30% for all other features combined.
+
+  - key: features.native_apps_tools.takeaway.html2024
+    t: >
+      While building native apps with web technologies presents its set of challenges and limitations, it was still the most popular method among respondents.
+    aliases:
+      - mobile_web_apps.native_apps_tools.takeaway.html2024
+
+  - key: features.mobile_web_apps_pain_points.takeaway.html2024
+    t: >
+      iOS's dominant marketshare combined with its locked-down nature means there isn't much recourse when web platform issues crop up.
+
+  # other_tools
+
+  - key: other_tools.site_generators.takeaway.html2024
+    t: >
+      While Next.js isn't a traditional static site generator, its support for more dynamic rendering methods in addition to build-time rendering makes it a very polyvalent choice – just like Astro, which boasts a similar feature set.
+
+  - key: other_tools.validation_tools.takeaway.html2024
+    t: >
+      Validation tools might not be as popular as they once were, but they're still a useful item to have in your web developer toolbelt.
+
+  - key: other_tools.performance_tools.takeaway.html2024
+    t: >
+      Similar to the accessibility tools chart, Lighthouse and browser devtools top the ranking, once again showing that polyvalent tools tend to be more popular than their more specialized counterparts.
+
+  - key: other_tools.analytics_tools.takeaway.html2024
+    t: >
+      Google Analytics might still dominate, but more privacy-friendly alternative such as Plausible or Fathom are gaining ground.
+
+  - key: other_tools.browsers.takeaway.html2024
+    t: >
+      Once you look beyond the big four browsers, there's actually a surprising amount of variety in this space, with new entrants like Arc, Brave, and Zen; and developer-focused options such as Polypane.
+
+  - key: other_tools.web_platform_resources.takeaway.html2024
+    t: >
+      MDN and Can I Use have earned their spot as key resources of the web development community – but keep an eye out for the WebDX group's work around [Web Features](https://web-platform-dx.github.io/web-features-explorer/), a promising new initiative.
+
+  # usage
+
+  - key: usage.html_interoperability_features.takeaway.html2024
+    t: >
+      There are few things more frustrating than knowing a new browser API would solve your problem perfectly, but that you can't use it because of poor support. 
+
+
+      Thankfully, with initiatives like [Interop](https://web.dev/blog/interop-2024) one can hope that the Popover API and Anchor Positioning soon join the ranks of the features we all use without giving it a second thought.
+
+  - key: usage.html_functionality_features.takeaway.html2024
+    t: >
+      While poor browser support is certainly a problem, even well-supported features can see lower usage if they are hard to customize to developer needs, or just plain hard to master.
+
+  - key: usage.html_missing_elements.takeaway.html2024
+    t: >
+      It might seem weird that omnipresent UI controls such as tabs or datatables still don't have a corresponding native HTML element. 
+
+
+      But getting these complex behaviors right while accounting for all edge cases takes time, so for now all we can do is wait and hope these elements make their way to the browser one day.
+
+  - key: usage.html_css_js_balance.takeaway.html2024
+    t: >
+      We still spend far more time writing JavaScript (or TypeScript) than anything else. While there's nothing wrong with that, the web platform as a whole's ongoing progress will hopefully help balance things out a bit in the near future.
+
+  - key: usage.what_do_you_use_html_for.takeaway.html2024
+    t: >
+      While “classic” use cases like blogs or homepages still represent a sizable part of the modern web developer's workload, the largest chunk by far is now web apps – which in turn explains why the web platform has been adapting to this new state of things.
+
+  - key: usage.industry_sector.takeaway.html2024
+    t: >
+      Programming & Technical Tools topped the rankings, which makes sense for a developer-focused survey. 
+
+
+      It's also interesting to note that E-commerce came in third, as this is a sector that faces the double challenge of building highly performant sites that also need to feature complex user interactions.
+
+  # opinions
+
+  - key: opinions.accessibility_is_valued.takeaway.html2024
+    t: >
+      It's great to see accessibility being properly valued in the workplace – at least among survey respondents. 
+
+
+      And while there is surely a self-selection bias in effect, the efforts of accessibility advocates have also contributed a lot in moving the needle.
+
+  - key: opinions.keeping_informed_is_challenging.takeaway.html2024
+    t: >
+      New features are great, but only if you can actually know what they are, and how to use them.
+
+
+      A majority of respondents experience this challenge on a daily basis, as reflected in the data.
+
+  - key: opinions.browser_interoperability_is_obstacle.takeaway.html2024
+    t: >
+      While browser interoperability has traditionally been a major web development pain point, it does seem like the situation is finally getting better – and it'll be interesting to see how this chart evolves over time.
+
+  - key: opinions.web_platform_right_direction.takeaway.html2024
+    t: >
+      There's reason to be hopefuly about the web platform, and this optimism is reflected in this year's data.
 
   ###########################################################################
   # Other Content
@@ -285,7 +396,7 @@ translations:
     t: Accessibility Experience & Sentiment
 
   - key: features.mobile_web_apps_features
-    t: Mobile Web Apps Experience & Sentiment
+    t: Native Web Apps Experience & Sentiment
 
   ###########################################################################
   # Sponsors
