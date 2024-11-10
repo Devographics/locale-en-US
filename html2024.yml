@@ -304,7 +304,7 @@ translations:
 
   - key: other_tools.web_platform_resources.takeaway.html2024
     t: >
-      MDN and Can I Use have earned their spot as key resources of the web development community – but keep an eye out for the WebDX group's work around [Web Features](https://web-platform-dx.github.io/web-features-explorer/), a promising new initiative.
+      MDN and Can I Use have earned their spot as key resources for the web development community – but keep an eye out for the WebDX group's work around [Web Features](https://web-platform-dx.github.io/web-features-explorer/), a promising new initiative.
 
   # usage
 
