@@ -505,6 +505,10 @@ translations:
     t: MDN
   - key: blocks.entity.caniuse_link
     t: CanIUse
+  - key: blocks.entity.threads_link
+    t: Threads
+  - key: blocks.entity.bluesky_link
+    t: Bluesky
 
   # people
   - key: blocks.people.name
