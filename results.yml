@@ -964,7 +964,7 @@ translations:
   - key: charts.cutoff_answers.short
     t: Cutoff Answers
   - key: charts.cutoff_answers.description
-    t: Answers that scored below the defined threshold
+    t: Items that got fewer than {cutoff} answers
 
   - key: charts.other_answers
     t: Other Answers
@@ -978,7 +978,7 @@ translations:
   - key: charts.overlimit_answers.short
     t: Over Limit
   - key: charts.overlimit_answers.description
-    t: Answers that were outside of the defined number of items requested
+    t: Items that ranked lower than the defined limit of {limit} rows.
 
   - key: charts.freeform_data
     t: Freeform Data

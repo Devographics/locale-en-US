@@ -1088,13 +1088,21 @@ translations:
 
   - key: tools.ai_tools
     t: AI Tools
+    aliases:
+      - other_tools.ai_tools
   - key: tools.ai_tools.question
     t: Which of these AI tools do you regularly use to help you write code?
+    aliases:
+      - other_tools.ai_tools.question
 
   - key: tools.hosting
     t: Hosting Services
+    aliases:
+      - other_tools.hosting
   - key: tools.hosting.question
     t: Which of these services have you used to host JavaScript apps?
+    aliases:
+      - other_tools.hosting.question
 
   ###########################################################################
   # Usage
@@ -1108,7 +1116,7 @@ translations:
     t: Other App Patterns
 
   - key: usage.what_do_you_use_js_for
-    t: JavaScript Usage
+    t: Use Case
   - key: usage.what_do_you_use_js_for.question
     t: What do you use JavaScript for?
   - key: usage.what_do_you_use_js_for.others
@@ -1220,17 +1228,17 @@ translations:
 
   - key: tools.edge_runtimes
     t: JavaScript Edge/Serverless Runtimes
+    aliases:
+      - other_tools.edge_runtimes
   - key: tools.edge_runtimes.question
     t: Which edge or serverless runtimes do you regularly use?
+    aliases:
+      - other_tools.edge_runtimes.question
   - key: tools.edge_runtimes.others
     t: Other Edge Runtimes
-  - key: other_tools.edge_runtimes
-    aliasFor: tools.edge_runtimes
-  - key: other_tools.edge_runtimes.description
-    aliasFor: tools.edge_runtimes.question
 
   - key: usage.usage_type
-    t: JavaScript Usage
+    t: Usage
   - key: usage.usage_type.question
     t: In what context do you primarily use JavaScript?
   - key: usage.usage_type.others

@@ -484,9 +484,9 @@ translations:
 
   - key: about.content
     t: |
-      The 2024 State of HTML survey ran from September 19 to October 19 2024, and collected 20,904 responses. 
+      The 2024 State of HTML survey ran from September 12 to November 5 2024, and collected 5,402 responses. 
 
-      The survey design effort was lead by [Lea Verou](https://lea.verou.me/) thanks to a grant from Google. Lea also oversaw the prototyping, testing, and implementation of new UI data collection elements; contributed to data processing; and helped with data visualization. 
+      The survey was designed collaboratively through [an open GitHub thread](https://github.com/Devographics/surveys/issues/246) and during [WebDX Community Group](https://www.w3.org/groups/cg/webdx/) meetings. 
 
       The survey infrastructure is run by [Sacha Greif](https://sachagreif.com/) and [Eric Burel](https://www.lbke.fr/), with help from a team of open-source contributors and consultants. 
 
