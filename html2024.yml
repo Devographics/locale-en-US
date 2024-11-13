@@ -433,7 +433,7 @@ translations:
 
       Accessibility, although now better recognized as something developers and organizations need to care about, remains hard to test and complex to improve.
 
-      ### Browser Compability
+      ### Browser Compatibility
 
       On top of this, the browser compatibility and interoperability of our HTML features continues to be a major obstacle to web developers. Having to support older versions of browsers is a pain. This year, results show that this is especially true for newer features like Popover, anchor positioning, and multi-page View Transitions, but also for `<dialog>` and for PWAs. These features are getting adopted, and developers need them to work everywhere.
 

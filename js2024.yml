@@ -18,7 +18,7 @@ translations:
       While we were busy trying to figure out which front-end library to bet on next, JavaScript itself has been going through an evolution of its own. 
 
 
-      TypeScript's popularity is making the prospect of native type support an actual possibility. New proposals are making waves in the community, while others are already on the verge of being implemented in browsers everywhere. 
+      New TC39 proposals are making waves in the community, while others are already on the verge of being implemented in browsers everywhere. And TypeScript's popularity is making the prospect of native type support at some point in the future an actual possibility. 
 
 
       One thing's for certain – while the JavaScript of 2024 still feels familiar, there's no guarantee that we'll be able to say the same about the language we write five years from now.
