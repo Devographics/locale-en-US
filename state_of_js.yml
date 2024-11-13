@@ -538,6 +538,16 @@ translations:
   - key: features.async_features.question
     t: Which of these async features have you used?
 
+  - key: features.set_features
+    t: Set Features
+  - key: features.set_features.question
+    t: Which of these Set features have you used?
+
+  - key: features.object_features
+    t: Object Features
+  - key: features.object_features.question
+    t: Which of these Object features have you used?
+
   - key: features.browser_api_features
     t: Browser APIs
   - key: features.browser_api_features.question
@@ -603,7 +613,7 @@ translations:
   - key: tools.tools_work
     t: Work Context
   - key: tools.tools_work.question
-    t: Which of these tools do you use as part of your work?
+    t: Which of these tools do you use in a professional context?
 
   # front-end frameworks
 
@@ -878,6 +888,8 @@ translations:
     t: Non-JavaScript Languages
   - key: tools.non_js_languages.question
     t: Which other programming languages do you use?
+  - key: tools.non_js_languages.prompt
+    t: Other than JavaScript or TypeScript.
   - key: tools.non_js_languages.others
     t: Other Languages
   - key: tools.non_js_languages.others.description
