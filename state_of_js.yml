@@ -139,8 +139,7 @@ translations:
   - key: features.features_intro
     t: >
       Welcome to the survey! This first part is all about figuring out 
-      which **features** of the JavaScript language you know about. 
-      And if you know about something but haven't yet used it, that's fine too!
+      which **features** of the JavaScript language you've used before.
 
   - key: tools.tools_intro
     t: >
