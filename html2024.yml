@@ -415,26 +415,37 @@ translations:
   # Conclusion
   ###########################################################################
 
-  - key: conclusion.html2024.lea_verou.bio
-    t: W3C Technical Architecture Group Member & MIT CSAIL Researcher
-  - key: conclusion.html2024.lea_verou
+  - key: conclusion.html2024.patrick_brosset.bio
+    t: Product Manager on the Edge team at Microsoft
+  - key: conclusion.html2024.patrick_brosset
     t: >
-      *Phew!* This survey has taken a monumental effort by dozens of people across six continents. Not only did it set a new record for the most responses in a “State of…” survey debut, its data collection UI pioneered innovations that gave us unparalleled insight into developer attitudes, and will ripple far beyond its scope. 
+      We tend to take HTML for granted, and consider it to be mostly complete. But the elements and browser features it comes with have evolved tremendously over the years, and continue to evolve. As HTML-first architectures are gaining traction, we're getting the capabilities to build them the right way. It's never been a better time to be an HTML developer.
 
+      There's more to do though. New problem areas emerge all the time and the platform needs to keep up with new needs.
 
-      Some argue that improving HTML is futile, but the survey resoundingly demonstrates the contrary. **Developers crave more interactive HTML elements**: not only were interactive elements like `<datalist>` or the Popover API among those accumulating the most positive sentiment across all categories, but in addition all top [missing elements](https://2024.stateofhtml.com/en-US/usage/#html_missing_elements) were interactive widgets. 
+      ### Adding New Features…
 
+      New HTML elements, such as datatables, tabs, or switches, are dearly needed, but it's important to strike the right balance between complex components that do it all; and simpler but robust and styleable primitives from which we can build.
 
-      However, **making simple things easy** by providing canned functionality is no longer sufficient. **Making complex things possible** by supporting thorough customization is a necessity: insufficient customizability, especially around **styling**, was by far the top recurring pain point. 
+      ### …While Improving Old Ones
 
+      It's also important to keep improving what we already have. Existing features such as `<select>`, date and time `<input>`, or `<details>` don't always have the right level of stylability and customization – while other features like CSP or Shadow DOM are too complex to use. 
 
-      As a result, form elements were also the elements [most frequently recreated](https://2024.stateofhtml.com/en-US/usage/#html_functionality_features); a lose-lose outcome that makes both developers and end-users suffer. Thankfully, there are many new initiatives to improve this, so the future looks bright.
+      Accessibility, although now better recognized as something developers and organizations need to care about, remains hard to test and complex to improve.
 
+      ### Browser Compability
 
-      Another big need is extensibility. It does not scale if only standards bodies have the privilege to extend HTML; and besides, generic elements cannot possibly address the enormous diversity of needs. Unfortunately, **Web Components APIs** (and especially Shadow DOM), while widely used, appear to fall short in terms of meeting developer needs and providing a smooth developer experience, as they topped the charts of worst experiences across the survey. However, the ongoing activity in this area (some of which I have been part of) leaves me hopeful that while it has been a rocky path, they are on track to reach their full potential.
+      On top of this, the browser compatibility and interoperability of our HTML features continues to be a major obstacle to web developers. Having to support older versions of browsers is a pain. This year, results show that this is especially true for newer features like Popover, anchor positioning, and multi-page View Transitions, but also for `<dialog>` and for PWAs. These features are getting adopted, and developers need them to work everywhere.
 
+      ### The Challenge of Keeping Up
 
-      Which brings me to my final point: it is important to remember that this survey is only a snapshot of developer perspectives and reflects the state of the web platform at the time. However, a primary goal of these surveys is to improve the status quo by providing better visibility into developer needs. How many of today’s pain points will be addressed tomorrow as a result? Join us later this year for the survey’s second iteration and let’s find out!
+      So, yes, there's more to do. But, things _are_ happening. In fact, they're happening so fast that it can be challenging to stay informed. Resources like MDN, Caniuse.com, Web.dev, or the W3C website are a tremendous help, but there is an opportunity for more tools that help us keep up. 
+
+      On the other hand, talking about new features too early can be frustrating for developers who can't use them yet. That's why it's important to keep maintaining high-quality platform data such as [browser-compat-data](https://github.com/mdn/browser-compat-data/) and [web-features](https://github.com/web-platform-dx/web-features/), which let us communicate about features in a developer-friendlier way.
+
+      ### A Bright Future for HTML
+
+      To close, it's heartwarming that most respondents agree that, overall, interoperability is now much less of an issue than it used to be, with clear improvements being felt in recent years. And, with the increasing number of capabilities we're getting, building performant, accessible, and interactive HTML-first UIs is becoming easier all the time, making it possible to reduce JavaScript usage to where it truly matters, and letting web servers and browsers communicate how they were meant to: with HTML!
 
   ###########################################################################
   # FAQ/About
