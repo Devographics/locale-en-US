@@ -1436,3 +1436,24 @@ translations:
     t: First Steps With JavaScript
   - key: resources.first_steps_js.description
     t: When first starting out, how did you initially learn JavaScript?
+
+  ###########################################################################
+  # FAQ
+  ###########################################################################
+
+  - key: faq.who_should_take_survey_js
+    t: Who should take this survey?
+  - key: faq.who_should_take_survey_js.description
+    t: >
+      This is an open survey for anybody who uses JavaScript (or TypeScript), whether regularly or occasionally, as part of their job, as a student, or just for fun!
+
+  - key: faq.survey_goals_js
+    t: What are the survey's goals?
+  - key: faq.survey_goals_js.description
+    t: >
+      The survey's goals are to measure awareness and popularity of JavaScript features and libraries in order to anticipate future trends.
+
+  - key: faq.data_used_js
+    t: How will this data be used?
+  - key: faq.data_used_js.description
+    t: All data collected will be released publicly. It will then become a resources both for developers, who consult it to inform their technological choices, and browser vendors, who use it to prioritize focus areas and inform their roadmaps.
