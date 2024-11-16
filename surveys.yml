@@ -230,6 +230,16 @@ translations:
   - key: experience.tell_us_more_no_value
     t: "You didn't pick any response. Tell us why:"
 
+  - key: user_info.gender.snowball_sampling
+    t: >
+      ### Help us share this survey with more women!
+
+
+      We are hoping to increase women participation this year, and one approach we're trying (known as “[snowball sampling](https://github.com/Devographics/surveys/issues/258)”) is asking women respondents such as yourself to share the link to this survey with other women developers.
+
+
+      If you're able to help with this, here is a special share link you can use so we can track the success of this initiative:
+
   ###########################################################################
   # Response
   ###########################################################################

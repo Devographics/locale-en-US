@@ -1077,6 +1077,7 @@ translations:
     t: "Here are some interesting survey results ({title}): {link}"
   - key: share.twitter
     t: Share on Twitter
+  - key: share.bluesky
   - key: share.facebook
     t: Share on Facebook
   - key: share.linkedin
