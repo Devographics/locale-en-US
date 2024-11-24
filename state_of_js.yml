@@ -298,9 +298,9 @@ translations:
     t: Pattern Matching
   - key: options.currently_missing_from_js.pattern_matching.description
     t: A new `match` keyword for pattern-matching objects.
-  - key: options.currently_missing_from_js.pipe_operator
+  - key: options.currently_missing_from_js.js_pipeline_operator
     t: Pipe Operator
-  - key: options.currently_missing_from_js.pipe_operator.description
+  - key: options.currently_missing_from_js.js_pipeline_operator.description
     t: A new `|>` operator for passing the result of one function to another.
   - key: options.currently_missing_from_js.decorators
     t: Decorators
@@ -335,10 +335,10 @@ translations:
     aliasFor: options.currently_missing_from_js.pattern_matching
   - key: options.top_currently_missing_from_js.pattern_matching.description
     aliasFor: options.currently_missing_from_js.pattern_matching.description
-  - key: options.top_currently_missing_from_js.pipe_operator
-    aliasFor: options.currently_missing_from_js.pipe_operator
-  - key: options.top_currently_missing_from_js.pipe_operator.description
-    aliasFor: options.currently_missing_from_js.pipe_operator.description
+  - key: options.top_currently_missing_from_js.js_pipeline_operator
+    aliasFor: options.currently_missing_from_js.js_pipeline_operator
+  - key: options.top_currently_missing_from_js.js_pipeline_operator.description
+    aliasFor: options.currently_missing_from_js.js_pipeline_operator.description
   - key: options.top_currently_missing_from_js.decorators
     aliasFor: options.currently_missing_from_js.decorators
   - key: options.top_currently_missing_from_js.decorators.description
@@ -372,7 +372,7 @@ translations:
     t: Decorators
   - key: options.top_currently_missing_from_js.multithreading
     t: Multithreading
-  - key: options.top_currently_missing_from_js.pipe_operator
+  - key: options.top_currently_missing_from_js.js_pipeline_operator
     t: Pipe Operator
   - key: options.top_currently_missing_from_js.native_observables
     t: Native Observables
@@ -581,7 +581,7 @@ translations:
   # - key: features.pattern_matching
   #   t: Pattern Matching
 
-  # - key: features.pipe_operator
+  # - key: features.js_pipeline_operator
   #   t: Pipe Operator
 
   # - key: features.immutable_data_structures
