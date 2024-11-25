@@ -1,5 +1,7 @@
 locale: en-US
 translations:
+  - key: test.test1
+    t: foo1
   - key: accounts.error_incorrect_password
     t: Incorrect password
   - key: accounts.error_email_required
