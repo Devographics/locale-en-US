@@ -12,7 +12,6 @@ translations:
   ###########################################################################
 
   # JS 2023
-
   - key: general.js2024.survey_intro
     t: >
       While we were busy trying to figure out which front-end library to bet on next, JavaScript itself has been going through an evolution of its own. 
