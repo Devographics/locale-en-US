@@ -17,6 +17,7 @@ jobs:
       - name: Ping API
         env:
           SECRET_KEY: ${{ secrets.SECRET_KEY }} # Set your secret in repository settings
+          ACTIONS_ENDPOINT_URL: ${{ secrets.ACTIONS_ENDPOINT_URL }} # Set your secret in repository settings
         run: |
           curl -X GET \
-            "http://localhost:4020/gh-actions/reinitialize-locale?locale=${{ steps.repo_name.outputs.name }}&secretKey=$SECRET_KEY"
+            "$ACTIONS_ENDPOINT_URL?locale=${{ steps.repo_name.outputs.name }}&secretKey=$SECRET_KEY"
