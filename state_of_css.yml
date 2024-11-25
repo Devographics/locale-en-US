@@ -1100,7 +1100,7 @@ translations:
   - key: usage.usage_type.question
     aliasFor: usage.css_usage_type.question
   - key: usage.css_usage_type.others
-    t: Other CSS Usages
+    aliasFor: usage.css_usage_type.others
 
   # design_methodology
   - key: usage.design_methodology

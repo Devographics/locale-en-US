@@ -109,9 +109,6 @@ translations:
   - key: features.web_components_main_features
     t: Web Components Experience & Sentiment
 
-  - key: features.web_components_main_features
-    t: Web Components Experience & Sentiment
-
   - key: features.accessibility_features
     t: Accessibility Experience & Sentiment
 

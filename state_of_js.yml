@@ -1217,26 +1217,6 @@ translations:
   - key: options.compiled_code_balance.8
     t: 100% Compiled
 
-  # slider
-  - key: options.js_ts_balance.0
-    t: 100% JS
-  - key: options.js_ts_balance.1
-    t: "|"
-  - key: options.js_ts_balance.2
-    t: "|"
-  - key: options.js_ts_balance.3
-    t: "|"
-  - key: options.js_ts_balance.4
-    t: "50/50"
-  - key: options.js_ts_balance.5
-    t: "|"
-  - key: options.js_ts_balance.6
-    t: "|"
-  - key: options.js_ts_balance.7
-    t: "|"
-  - key: options.js_ts_balance.8
-    t: 100% TS
-
   - key: tools.edge_runtimes
     t: JavaScript Edge/Serverless Runtimes
     aliases:
