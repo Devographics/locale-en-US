@@ -1,0 +1,19 @@
+name: Ping API on Commit
+
+on:
+  push:
+    branches:
+      - "**" # Trigger on any branch
+
+jobs:
+  ping-api:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Get Repository Name
+        id: repo_name
+        run: echo "::set-output name=name::$(basename $GITHUB_REPOSITORY)"
+
+      - name: Ping API
+        run: |
+          curl -X POST "https://api.devographics.com/gh/reinitialize-locales-github?locale=${{ steps.repo_name.outputs.name }}"
