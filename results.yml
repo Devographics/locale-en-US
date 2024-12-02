@@ -69,6 +69,8 @@ translations:
     t: Low vs High Income
   - key: tabs.usa_vs_the_world
     t: U.S.A. vs World
+  - key: tabs.spanish
+    t: Spanish-Language
 
   ###########################################################################
   # Options
@@ -93,6 +95,8 @@ translations:
     t: Retention
   - key: ratios.positivity
     t: Positivity
+  - key: ratios.relativePositivity
+    t: Positivity
 
   - key: ratios.interest.description
     t: >
@@ -109,6 +113,9 @@ translations:
   - key: ratios.positivity.description
     t: >
       Proportion of **positive sentiment** among all respondents
+  - key: ratios.relativePositivity.description
+    t: >
+      Proportion of **positive sentiment** among respondents who expressed a sentiment.
 
   - key: modes.rank
     t: Rank
@@ -287,7 +294,7 @@ translations:
   - key: user_info.locale
     t: Language
   - key: user_info.locale.description
-    t: The language respondents selected to fill out the survey
+    t: The language respondents selected to fill out the survey.
 
   - key: user_info.source
     t: Source
@@ -353,6 +360,16 @@ translations:
     t: Higher Education Degree by Gender
   - key: user_info.higher_education_degree_by_gender.description
     t: Higher education degree distribution by gender.
+
+  - key: user_info.previous_surveys
+    t: Previous Surveys
+  - key: user_info.previous_surveys.description
+    t: Previous Devographics surveys taken by respondents.
+
+  - key: user_info.same_survey_count
+    t: Survey Participation Count
+  - key: user_info.same_survey_count.description
+    t: How many times respondents have taken part in the current survey.
 
   ###########################################################################
   # Locales
@@ -1026,6 +1043,9 @@ translations:
 
   - key: charts.no_data
     t: Sorry, this query did not return any data.
+
+  - key: charts.show_neutral_sentiment
+    t: Show neutral
 
   ###########################################################################
   # Comments
