@@ -293,15 +293,25 @@ translations:
 
   - key: user_info.locale
     t: Language
+    aliases:
+      - user_metadata.locale
   - key: user_info.locale.description
     t: The language respondents selected to fill out the survey.
+    aliases:
+      - user_metadata.locale.description
 
   - key: user_info.source
     t: Source
+    aliases:
+      - user_metadata.source
   - key: user_info.source.description
     t: How respondents found out about the survey
+    aliases:
+      - user_metadata.source.description
   - key: user_info.source.note
     t: Respondent source is computed based on referrer data, URL tracking data, and self-reported answers.
+    aliases:
+      - user_metadata.source.note
 
   - key: options.source.other_answers
     t: Other sources
@@ -361,15 +371,40 @@ translations:
   - key: user_info.higher_education_degree_by_gender.description
     t: Higher education degree distribution by gender.
 
-  - key: user_info.previous_surveys
+  - key: user_metadata.previous_surveys
     t: Previous Surveys
-  - key: user_info.previous_surveys.description
+  - key: user_metadata.previous_surveys.description
     t: Previous Devographics surveys taken by respondents.
 
-  - key: user_info.same_survey_count
+  - key: user_metadata.same_survey_count
     t: Survey Participation Count
-  - key: user_info.same_survey_count.description
+  - key: user_metadata.same_survey_count.description
     t: How many times respondents have taken part in the current survey.
+
+  - key: user_metadata.created_at_date
+    t: Responses Over Time
+  - key: user_metadata.created_at_date.description
+    t: Chronological breakdown of when responses were collected.
+
+  - key: user_metadata.device
+    t: Device
+  - key: user_metadata.device.description
+    t: What device was used to take the survey.
+
+  - key: user_metadata.browser
+    t: Browser
+  - key: user_metadata.browser.description
+    t: What browser was used to take the survey.
+
+  - key: user_metadata.version
+    t: Browser Version
+  - key: user_metadata.version.description
+    t: What browser version was used to take the survey.
+
+  - key: user_metadata.os
+    t: OS
+  - key: user_metadata.os.description
+    t: What OS version was used to take the survey.
 
   ###########################################################################
   # Locales

@@ -1593,8 +1593,12 @@ translations:
   # completion
   - key: user_info.completion_stats
     t: Survey Completion
+    aliases:
+      - user_metadata.completion_stats
   - key: user_info.completion_stats.description
     t: The proportion of the survey filled out by respondents.
+    aliases:
+      - user_metadata.completion_stats.description
 
   # email_temporary (receive updates?)
   - key: user_info.receive_notifications
