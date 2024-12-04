@@ -95,7 +95,7 @@ translations:
     t: Retention
   - key: ratios.positivity
     t: Positivity
-  - key: ratios.relativePositivity
+  - key: ratios.positivityRelative
     t: Positivity
 
   - key: ratios.interest.description
@@ -113,7 +113,7 @@ translations:
   - key: ratios.positivity.description
     t: >
       Proportion of **positive sentiment** among all respondents
-  - key: ratios.relativePositivity.description
+  - key: ratios.positivityRelative.description
     t: >
       Proportion of **positive sentiment** among respondents who expressed a sentiment.
 
@@ -286,6 +286,11 @@ translations:
     t: Awards
   - key: sections.awards.description
     t: Things that stood out this year.
+
+  - key: sections.user_metadata.title
+    t: Metadata
+  - key: sections.user_metadata.description
+    t: Additional metadata collected about respondents.
 
   ###########################################################################
   # User Info
