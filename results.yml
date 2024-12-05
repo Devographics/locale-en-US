@@ -71,6 +71,8 @@ translations:
     t: U.S.A. vs World
   - key: tabs.spanish
     t: Spanish-Language
+  - key: tabs.outreach
+    t: Outreach
 
   ###########################################################################
   # Options
@@ -401,9 +403,9 @@ translations:
     t: Whether respondents signed in or filled out the survey as guests.
 
   - key: options.authmode.anonymous
-    t: Guest
+    t: Guest Account
   - key: options.authmode.passwordless
-    t: Logged-in
+    t: Logged-in Account
 
   - key: user_metadata.device
     t: Device
