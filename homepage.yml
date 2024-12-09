@@ -82,3 +82,30 @@ translations:
     aliasFor: general.join_discord
   - key: homepage.astro_link
     t: Powered by [Astro](https://astro.build/)
+
+  # creators
+  - key: creators.heading
+    t: Creators We Support
+
+  - key: creators.description
+    t: |
+      Our surveys are only possible because of the developer community's ongoing support, and it's only natural that we also give back when we can. 
+
+
+      These are some of the awesome content creators and organizations we support financially, in exchange for raising awareness around the surveys.
+
+  - key: creators.stephanie_walter.description
+    t: |
+      Stéphanie Walter is an accomplished UX Researcher, Designer, and Writer living in Luxembourg with a knack for making otherwise complex topics clear and easy to understand.
+
+  - key: creators.afor_digital.description
+    t: |
+      Afor is a key figure in the Spanish-language web development streaming community, and her talent for making programming content compelling have led to her well-deserved success.
+
+  - key: creators.shruti_kapoor.description
+    t: |
+      Between blogging, producing YouTube videos, speaking at conferences, and generally being an all-around great person, Shruti has been a mainstay of the React ecosystem for a while now.
+
+  - key: creators.codebar.description
+    t: |
+      Codebar is an amazing organization that puts together workshops that would usually cost thousands of dollars, and makes them available for free online in order to build a more inclusive developer community.

@@ -386,7 +386,7 @@ translations:
     t: Please note that this data does not include respondents taking the survey as guests.
 
   - key: user_metadata.same_survey_count
-    t: Survey Participation Count
+    t: Participation Count
   - key: user_metadata.same_survey_count.description
     t: How many times respondents have taken part in the current survey.
   - key: user_metadata.same_survey_count.note
