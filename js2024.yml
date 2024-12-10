@@ -384,3 +384,254 @@ translations:
       ### Technical Overview
 
       You can find a more in-depth technical overview of how the surveys are run [here](https://dev.to/sachagreif/how-the-devographics-surveys-are-run-2024-edition-1p6a).
+
+  ###########################################################################
+  # Takeaways
+  ###########################################################################
+
+  # user_info
+
+  - key: user_info.country.takeaway.js2024
+    t: >
+      As usual, the U.S. represented a large share of respondents, and also topped the ranking in terms of median income.
+
+  - key: user_info.age.takeaway.js2024
+    t: >
+      With an mean age of 33.5 years old, the average State of JS respondent turned out to be slightly younger than State of CSS (34.9) and State of HTML (35.8).
+
+
+      Interestingly, younger respondents were far more likely to suffer from cognitive and visual impairments, while older respondents were more affected by hearing and mobility impairments.
+
+  - key: user_info.years_of_experience.takeaway.js2024
+    t: >
+      51% of respondents had 10 years of experience or less – which means a majority of survey takers haven't known the world before modern JavaScript frameworks.
+
+  - key: user_info.company_size.takeaway.js2024
+    t: >
+      Larger companies continue to represent a sizeable proportion of respondents, while company size continues to be correlated with income level.
+
+  - key: user_info.yearly_salary.takeaway.js2024
+    t: >
+      While we often hear tales of six-figure salaries out of Silicon Valley, the reality is that most front-end developers throughout the world earn far less, as becomes apparent when directly comparing the U.S. and the rest of the world.
+
+  - key: user_info.job_title.takeaway.js2024
+    t: >
+      It seems like the JavaScript ecosystem features as many different job titles as front end frameworks. But one clear trend is that anything with "engineer" in it will earn you more – even compared to CEOs, CTOs, and founders. "Developers" on the other hand are clearly at the bottom of the ladder, and might consider printing new business cards…
+
+  - key: user_info.higher_education_degree.takeaway.js2024
+    t: >
+      While having a degree will ensure you earn more, turns out it doesn't necessarily have to be related to programming.
+
+  - key: user_info.gender.takeaway.js2024
+    t: >
+      Despite [extra outreach efforts](https://dev.to/sachagreif/state-of-js-2024-outreach-and-diversity-report-c4g) this year, we only saw a small increase in the proportion of women and non-binary respondents compared to 2023, from 5% to 7%. 
+
+      Our data did not reveal any gender-based income gap, and Canada, the U.K., and the U.S. had the highest proportion of women respondents.
+
+  - key: user_info.race_ethnicity.takeaway.js2024
+    t: >
+      Non-white respondents were more likely to be younger and have less experience – which hopefully points to a ongoing diversification of the industry.
+
+  - key: user_info.disability_status.takeaway.js2024
+    t: >
+      Whether permanent or temporary, disabilities are a part of our daily lives for many of us – especially as we age, in the case of hearing and mobility impairments. 
+
+
+      And while some disabilities did not affect respondent's ability to earn a living, it does seem like visual impairments in particular are correlated with lower income.
+
+  # features
+
+  - key: features.language_pain_points.takeaway.js2024
+    t: >
+      When asked what aspect of JavaScript they struggled with the most, respondents overwhelmingly mentioned the lack of a built-in type system – with browser support issues a distant second.
+
+  - key: features.browser_apis_pain_points.takeaway.js2024
+    t: >
+      Unsurprisingly, poor browser support was the top obstacle regarding browsers and their APIs. Safari was also highlighted as a common pain point, and so was the overall lack of documentation about browser features.
+
+  - key: features.reading_list.takeaway.js2024
+    t: >
+      The Reading List lets you save items you want to learn more about after the survey is complete. 
+
+      This year, `error.cause`, Logical Assignment, and `Object.groupBy()` were the features that most triggered respondents' curiosity.
+
+  # tools
+
+  - key: tools.all_tools_experience.takeaway.js2024
+    t: >
+      Webpack is the most-used JavaScript tool, but not the most-loved. That title instead belongs to Vite, with 56% of positive opinions (note that remaining neutral was also an option this year). Astoundingly, Vite was also the third most used tool overall despite having only been around for a relatively short time!
+
+
+      React on the other hand came in second not only in the most-used list, but also in the most-loved rankings – which is worth noting for a project that is over 10 years old! And love it or hate it, React was also the single project that left respondents indiferrent the least.
+
+  - key: tools.tools_arrows.takeaway.js2024
+    t: >
+      JavaScript libraries commonly display a "boomerang" pattern over time: boosted by early positivity (line goes right), usage increases (line shoots up), but users then get confronted with more edge cases and real-world issues, and opinions can become more negative (line veers left).
+
+
+      So it's always interesting to see projects that manage to buck this trend, such as Vue and Angular, which have both managed to gain positive opinions again even after a couple years of less favorable results.
+
+  - key: tools.tier_list.takeaway.js2024
+    t: >
+      While there is sadly no single "S-tier" stack yet, SvelteKit and Astro both seem like safe bets to start a project – possibly with Vitest for testing and pnpm to manage your monorepo.
+
+  - key: tools.scatterplot_overview.takeaway.js2024
+    t: >
+      It's notable that there were only three libraries that captured over 50% of respondent usage while maintaining a >50% retention percentage: React, Jest, and Vite – the sign of a relatively fragmented ecosystem.
+
+  # front end frameworks
+
+  - key: tools.front_end_frameworks_ratios.takeaway.js2024
+    t: >
+      Last year's big story was Vue overtaking Angular in raw usage among our respondents. Despite Angular's progress this year, Vue managed to keep its number two spot – as well a gain a whopping three spots in terms of retention percentage!
+
+      Meanwhile, Svelte usage is increasing at a steady pace, while it continues to top the rankings in terms of overall positive opinions.
+
+  - key: tools.front_end_frameworks_pain_points.takeaway.js2024
+    t: >
+      As the incumbent, React has to bear the cross of being the target of most complaints. 
+
+
+      Excessive complexity, choice overload, poor performance, and breaking changes were also commonly cited as major pain points.
+
+  # meta frameworks
+
+  - key: tools.meta_frameworks_ratios.takeaway.js2024
+    t: >
+      Next.js continues to loom high above the competition in terms of raw usage. Yet looking at retention tells a different story – if not for Gatsby, Next.js would be dead last. 
+
+
+      This speaks to the success of Astro and SvelteKit in particular, who so far have managed to keep their users very happy.
+
+  - key: tools.meta_frameworks_pain_points.takeaway.js2024
+    t: >
+      Just like React in its own category, Next.js as the leader also takes the brunt of the criticism.
+
+  # testing
+
+  - key: tools.testing_ratios.takeaway.js2024
+    t: >
+      It's rare to see a trend as clear as Vitest's ascencion through the ranks over the past few years. While it may "only" be number four in terms of usage, it already tops the interest, retention, and overall positivity rankings – and shows no sign of conceding the top spot anytime soon.
+
+  - key: tools.testing_pain_points.takeaway.js2024
+    t: >
+      Mocking is the biggest pain point presented by testing, closely followed by the hassle of complex setups and configurations, and the burden of slow-running tests.
+
+  # mobile desktop
+
+  - key: tools.mobile_desktop_ratios.takeaway.js2024
+    t: >
+      Over the past decade, building mobile and desktop apps has become far more common – yet that doesn't mean developers are necessarily happy with their tools. 
+
+
+      While Tauri and Expo stand out at the top of the retention chart, everything else has a lower ratio compared to good old Native Apps.
+
+  - key: tools.mobile_desktop_pain_points.takeaway.js2024
+    t: >
+      JavaScript codebases still struggle to compete against pure native apps in terms of performance. And it seems like both Electron and React Native have their share of drawbacks.
+
+  # build tools
+
+  - key: tools.build_tools_ratios.takeaway.js2024
+    t: >
+      Just like its sibling Vitest, Vite is also gaining market share at record speed. Also make sure to keep an eye on new entrants Rolldown and Rspack, who are both starting off very high in the charts.
+
+  - key: tools.build_tools_pain_points.takeaway.js2024
+    t: >
+      Excessive configuration has traditionally been the bane of build tools – yet it's also often that very complexity that makes them powerful.
+
+  # build tools
+
+  - key: tools.monorepo_tools_ratios.takeaway.js2024
+    t: >
+      Monorepos have yet to cross over into the mainstream of the web development ecosystem – yet for those who are brave enough to explore this new frontier, pnpm seems like the clear front-runner.
+
+  - key: tools.monorepo_tools_ratios.takeaway.js2024
+    t: >
+      Monorepos are still too hard to set up properly. And package management in itself is something that we still haven't gotten quite right… but then again, who has?
+
+  # usage
+
+  - key: usage.js_ts_balance.takeaway.js2024
+    t: >
+      We're now firmly in the TypeScript era. 67% of respondents stated they write more TypeScript than JavaScript code – while the single largest group consisted of people who *only* write TypeScript.
+
+  - key: usage.compiled_code_balance.takeaway.js2024
+    t: >
+      It should come as no surprise that in 2024, almost all of our JavaScript code goes through a build step. While bundlers and build tools certainly add complexity to our development process, they are most likely here to stay.
+
+  - key: usage.ai_generated_code_balance.takeaway.js2024
+    t: >
+      For all the talk of AI-assisted coding, most of us still only use AI tools sparingly. And in fact, a whole 20% do not use them whatsoever to produce code.
+
+  - key: usage.usage_type.takeaway.js2024
+    t: >
+      It's always good to know in what context respondents are writing JavaScript code, and the vast majority are using it as part of their day job.
+
+  - key: usage.what_do_you_use_js_for.takeaway.js2024
+    t: >
+      Virtually every respondent stated that they use JavaScript for frontend development, which makes sense given the language's origins.
+
+  - key: usage.industry_sector.takeaway.js2024
+    t: >
+      While the largest industry sector consisted of developers building tools for other developers, the highest-paying one turned out to be Advertising.
+
+  - key: usage.js_app_patterns.takeaway.js2024
+    t: >
+      Despite modern JavaScript meta-frameworks now supporting intricate rendering strategies, the most common application patterns remained the most traditional ones: single-page apps and server-side rendering.
+
+  - key: usage.top_js_pain_points.takeaway.js2024
+    t: >
+      Code architecture is always a concern once a codebase gets past a certain size, so it makes sense that it topped the rankings of overall JavaScript pain points, followed by state and dependency management.
+
+  - key: usage.js_new_features.takeaway.js2024
+    t: >
+      There are currently quite a few [TC39 proposals](https://github.com/tc39/proposals) that are on the verge of becoming a reality. Temporal and Decorators stood out this year as the ones respondents were most excited about.
+
+  - key: usage.top_currently_missing_from_js.takeaway.js2024
+    t: >
+      While the lack of native static typing has long been felt by the community, it's interesting to see Signals making an entrance at number 3 on this list, despite not being part of the most popular front end framework.
+
+  - key: usage.native_types_proposal.takeaway.js2024
+    t: >
+      It's clear that survey respondents want native types, and that they hope to seem them implemented with a TypeScript-like syntax. 
+
+
+      This year's question phrasing sadly did not make a clear distinction between runtime types and TypeScript-like type-as-annotations, so it remains to be seen which of these two paths will gain the community's favor.
+
+  # resources
+
+  - key: resources.courses.takeaway.js2024
+    t: >
+      Udemy has done a great job of drafting popular instructors such as Brad Traversy or Colt Steele to boost its roster of JavaScript courses, and so has Frontend Masters (disclaimer: Frontend Masters financially supports this survey).
+
+
+      It's also worth mentioning You Don't Know JS, a great book available online for free.
+
+  - key: resources.newsletters.takeaway.js2024
+    t: >
+      Newsletters are a great way to stay up to date with the ever-changing JavaScript landscape, and Cooperpress' JavaScript Weekly continues to lead the field.
+
+  - key: resources.podcasts.takeaway.js2024
+    t: >
+      While Syntax retains its crown for now, a new challenge might come in the form of video creators such as The Primeagen and Midudev, who can easily generate audio content in addition to traditional streams.
+
+  - key: resources.video_creators.takeaway.js2024
+    t: >
+      Fireship, Theo, The Primeagen, stand atop the video creator rankings. But it's worth highlighting how vibrant the Spanish-language ecosystem has become, starting with (but not limited to!) Midudev in fourth place overall.
+
+
+      Note that the second tab shows the same rankings, but manually filtered down to Spanish-language creators only.
+
+  - key: resources.people.takeaway.js2024
+    t: >
+      Interestingly, Midudev is the only top video creator to also maintain a presence via other more traditional means. Josh Comeau comes in at a well-deserved second place, while Fernando Herrera's third place confirms the influence of Spanish-speaking developers.
+
+  # metadata
+
+  - key: user_metadata.source.takeaway.js2024
+    t: >
+      The majority of respondents knew about the survey from previous years. It's also worth highlighting that the [Angular](https://angular.dev/) and [Nuxt](https://nuxt.com/) homepages featured banners pointing their users to the survey; and that Bluesky came in at number 5 despite this being the first time appearing as a traffic source for the survey. 
+
+
+      We also made special outreach efforts ([full report here](https://dev.to/sachagreif/state-of-js-2024-outreach-and-diversity-report-c4g)) focused on attracting more women developers, but their effectiveness wasn't quite what we had hoped for.

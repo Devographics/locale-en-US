@@ -898,6 +898,8 @@ translations:
 
   - key: charts.average
     t: Average {axis}
+  - key: charts.average_value
+    t: "Average value: {value}"
   - key: charts.mean
     t: Mean
   - key: charts.all_respondents
