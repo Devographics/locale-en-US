@@ -1,0 +1,146 @@
+---
+locale: en-US
+translations:
+  - 
+    ###########################################################################
+    #General
+    ###########################################################################
+    key: general.no_preview_surveys
+    t: No surveys to preview
+  - 
+    key: general.global_nav
+    t: Global
+  - 
+    key: general.survey_status_preview
+    t: Preview
+  - 
+    key: general.survey_status_open
+    t: Open
+  - 
+    key: general.survey_status_closed
+    t: Closed
+  - 
+    ###########################################################################
+    #Accounts
+    ###########################################################################
+    key: accounts.create_account
+    t: Create an Account
+  - 
+    key: accounts.create_account.description
+    t: Having an account lets you **access your own data in the future** and be notified when survey results are published.
+  - 
+    key: accounts.create_account.note
+    t: If you **already have an account** we will send you a magic log-in link by email.
+  - 
+    key: accounts.create_account.action
+    t: Continue with Account
+  - 
+    key: accounts.your_email
+    t: Your Email
+  - 
+    key: accounts.continue_as_guest
+    t: Continue as Guest
+  - 
+    key: accounts.continue_as_guest.description
+    t: Taking the survey anonymously means you **won't be able to access your data again** after you end your session.
+  - 
+    key: accounts.continue_as_guest.action
+    t: Continue as Guest
+  - 
+    key: accounts.magic_link.no_email
+    t: Please enter your email
+  - 
+    key: accounts.magic_link.success
+    t: Check your inbox! We sent you a magic link, just click it to confirm your account and log in.
+  - 
+    ###########################################################################
+    #FAQ
+    ###########################################################################
+    key: general.faq
+    t: FAQ
+  - 
+    key: faq.create_account
+    t: Why do I need to create an account?
+  - 
+    key: faq.create_account.description
+    t: We ask you to create an account in order to avoid duplicate responses, save your data, and notify you when results are published.
+  - 
+    key: faq.anonymous_survey
+    t: Can I take the survey anonymously?
+  - 
+    key: faq.anonymous_survey.description
+    t: Yes, you can use a fake (something@example.com) or non-identifying email to take the survey as long as you save it for future access.
+  - 
+    key: faq.questions_required
+    t: Is answering every question required?
+  - 
+    key: faq.questions_required.description
+    t: No, every question of the survey is optional and can freely be skipped.
+  - 
+    key: faq.data_published
+    t: Will my data be made public?
+  - 
+    key: faq.data_published.description
+    t: Yes, all data will be released publicly, but only after being purged of any identifying information (emails, usernames, IDs, etc.).
+  - 
+    key: faq.survey_design
+    t: How are the surveys designed?
+  - 
+    key: faq.survey_design.description
+    t: Surveys are designed based on community feedback, as well as reviewed by experts. You can [learn more here](https://dev.to/sachagreif/how-the-state-of-js-css-surveys-are-run-4lnb).
+  - 
+    key: faq.results_released
+    t: When will the results be released?
+  - 
+    key: faq.results_released.description
+    t: Results are generally released a few weeks after the survey closes.
+  - 
+    key: faq.survey_deadline
+    t: When will the survey close?
+  - 
+    key: faq.survey_deadline.description
+    t: This survey is scheduled to run until {date}
+  - 
+    key: faq.team
+    t: Who runs these surveys?
+  - 
+    key: faq.team.description
+    t: Surveys are run by [Devographics](http://devographics.com) together with a collective of contributors, translators, and volunteers.
+  - 
+    ###########################################################################
+    #Form Controls
+    ###########################################################################
+    key: bracket.vs
+    t: VS
+  - 
+    key: bracket.start_over
+    t: Start Over
+  - 
+    key: bracket.winner
+    t: >
+
+    Winner:
+  - 
+    key: bracket.round
+    t: Round
+  - 
+    key: bracket.empty_bracket
+    t: Pending result (complete the previous round first)
+  - 
+    key: bracket.result
+    t: Result
+  - 
+    key: bracket.cancel
+    t: Cancel
+  - 
+    ###########################################################################
+    #Response
+    ###########################################################################
+    key: response.completion
+    t: '{completion}% completed'
+  - 
+    key: response.details
+    t: Started on {startedAt}, {completion}% completed.
+  - 
+    key: response.view_results
+    t: View Results
