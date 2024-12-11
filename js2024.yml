@@ -45,7 +45,7 @@ translations:
   - key: faq.results_released_js2024
     t: When will the results be released?
   - key: faq.results_released_js2024.description
-    t: The survey will run from November 13 to December 3, 2024, and the survey results will be released shortly after.
+    t: The survey will run from November 13 to December 10, 2024, and the survey results will be released shortly after.
 
   ###########################################################################
   # Introduction
@@ -54,17 +54,15 @@ translations:
   - key: introduction.js2024
     t: |
 
-      <span class="first-letter">I</span>t should be clear by now that, for better or for worse, JavaScript is not slowing down. 
+      <span class="first-letter">L</span>et's take a second to consider something: 2024's top three front end framework were all launched over a decade ago. 
 
-      Between server components, server actions, signals, compilers, and more, we're seeing new innovations pop up faster than most of us can handle. 
+      Now sure, all three have evolved a lot along the way, and the patterns of 2014 would seem downright antiquated today. But given the JavaScript ecosystems's reputation as a constantly-churning whirlwind of change, it can be nice to know that some things do remain constant. 
 
-      The trick to avoiding the dreaded JavaScript fatigue is remembering that you can pick your lane: sure, you can live life on the cutting edge with the early adopters; but you can also keep a slower pace and focus on stable, mature technologies – and eventually get to the new hotness once it's had a couple years to cool down. 
+      Speaking of constants – reaching beyond the survey's existing audience remains frustratingly hard despite renewed outreach efforts, and something we'll definitely need to keep working on. 
 
-      Speaking of taking it slow, you might be wondering why these 2024 survey results are being released six months into *2024*. The truth is, between launching the new [State of HTML](https://2024.stateofhtml.com/) survey, innovating new question formats, collecting more freeform data than ever, and rewriting a lot of our data visualization codebase, we ended up with a workload that was probably a bit too ambitious, to say the least. 
+      In the meantime, we've also added a new **Metadata** appendix that will tell you more about survey respondents and the survey itself. And don't forget you can also apply any of these new variables to other charts using the **Query Builder**. 
 
-      Hopefully the result of all this extra effort will be worth it though. And we do plan on much faster turnarounds going forward. 
-
-      With all this out of the way, let's discover what JavaScript has been up to lately!
+      With all this out of the way, let's discover what JavaScript has been up to this year!
 
       <span class="conclusion__byline">– Sacha Greif</span>
 
@@ -319,12 +317,21 @@ translations:
     t: |
       With X's slow descent into madness, it felt like the front end community had been left without a home. So it's great to see so many of us finally converging towards a new platform in the form of Bluesky.
 
-  # - key: picks.xxxx.name
-  #   t:
-  # - key: picks.xxxx.bio
-  #   t:
-  # - key: picks.xxxx.description
-  #   t: |
+  - key: picks.dominik_dorfmeister.name
+    t: Knip
+  - key: picks.dominik_dorfmeister.bio
+    t: Software Engineer @ Sentry, React Query maintainer
+  - key: picks.dominik_dorfmeister.description
+    t: |
+      Knip is an amazing tool that analyzes your code and tells you what you can get rid of. It’s fast (so you can run it in CI), understands many frameworks and libraries out of the box, and works seamlessly in monorepos, too.
+
+  - key: picks.sebastien_lorber.name
+    t: Rspack
+  - key: picks.sebastien_lorber.bio
+    t: This Week In React creator, Docusaurus maintainer
+  - key: picks.sebastien_lorber.description
+    t: |
+      The Rspack bundler is an almost drop-in replacement for Webpack. Implemented in Rust, it's much faster than Webpack and consumes less memory. All Webpack projects should try it out immediately, considering how easy it is to adopt!
 
   ###########################################################################
   # Sponsors

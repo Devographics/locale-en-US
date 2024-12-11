@@ -1688,7 +1688,7 @@ translations:
   - key: filters.compare_data
     t: Compare Data
   - key: filters.customize_chart
-    t: Add Filters…
+    t: Query Builder
   - key: filters.docs
     t: Documentation
   - key: filters.compare_chart

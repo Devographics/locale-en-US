@@ -1154,7 +1154,7 @@ translations:
     t: How do you divide your time between writing JavaScript and TypeScript code?
 
   - key: options.js_ts_balance.0
-    t: 100% JS
+    t: 0% TS
   - key: options.js_ts_balance.1
     t: "|"
   - key: options.js_ts_balance.2
@@ -1172,6 +1172,25 @@ translations:
   - key: options.js_ts_balance.8
     t: 100% TS
 
+  - key: options.js_ts_balance.0.description
+    aliasFor: options.slider.0.description
+  - key: options.js_ts_balance.1.description
+    aliasFor: options.slider.1.description
+  - key: options.js_ts_balance.2.description
+    aliasFor: options.slider.2.description
+  - key: options.js_ts_balance.3.description
+    aliasFor: options.slider.3.description
+  - key: options.js_ts_balance.4.description
+    aliasFor: options.slider.4.description
+  - key: options.js_ts_balance.5.description
+    aliasFor: options.slider.5.description
+  - key: options.js_ts_balance.6.description
+    aliasFor: options.slider.6.description
+  - key: options.js_ts_balance.7.description
+    aliasFor: options.slider.7.description
+  - key: options.js_ts_balance.8.description
+    aliasFor: options.slider.8.description
+
   # ai_generated_code_balance
 
   - key: usage.ai_generated_code_balance
@@ -1181,7 +1200,7 @@ translations:
   - key: usage.ai_generated_code_balance.prompt
     t: Including code copy-pasted from ChatGPT or other chatbots.
 
-  # slider
+  # ai_generated_code_balance
   - key: options.ai_generated_code_balance.0
     t: 0% AI
   - key: options.ai_generated_code_balance.1
@@ -1210,7 +1229,7 @@ translations:
   - key: usage.compiled_code_balance.prompt
     t: Any bundled, minified, or otherwise transformed code, as opposed to code directly executed by the browser.
 
-  # slider
+  # compiled_code_balance
   - key: options.compiled_code_balance.0
     t: 0% Compiled
   - key: options.compiled_code_balance.1

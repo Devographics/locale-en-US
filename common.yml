@@ -547,6 +547,26 @@ translations:
   - key: options.happiness.4.short
     t: Very Happy
 
+  # slider
+  - key: options.slider.0.description
+    t: 0%
+  - key: options.slider.1.description
+    t: 12.5%
+  - key: options.slider.2.description
+    t: 25%
+  - key: options.slider.3.description
+    t: 37.5%
+  - key: options.slider.4.description
+    t: 50%
+  - key: options.slider.5.description
+    t: 62.5%
+  - key: options.slider.6.description
+    t: 75%
+  - key: options.slider.7.description
+    t: 87.5%
+  - key: options.slider.8.description
+    t: 100%
+
   # opinions
   - key: options.opinions.0
     t: Disagree Strongly
