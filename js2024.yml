@@ -177,22 +177,22 @@ translations:
 
   - key: award.tool_usage_delta_award.comment
     t: |
-      **Vite** continues to be the fastest-growing library out there, with a **{value}** year-over-year increase in usage!
+      Faithful to its name, **Vite** continues to grow at a record pace, adding **{value}** year-over-year in usage!
 
   - key: award.tool_satisfaction_award.comment
-    t: Vite once again takes the top spot, with **{value}** of developers willing to use it again!
+    t: Vitest takes the top spot, with **{value}** of developers willing to use it again!
 
   - key: award.tool_interest_award.comment
-    t: Did you guess Vite? Close, but this year **Vitest** is the technology developers are most interested in with a **{value}** interest ratio.
+    t: Staying in the Vite ecosystem, this year **Rolldown** is the technology developers are most interested in with a **{value}** interest ratio.
 
   - key: award.most_write_ins_award.comment
-    t: With **{value}** mentions, **Bun** was the most mentioned technology overall in freeform questions.
+    t: With **{value}** mentions, Angular meta-framework **Analog** was the library that received the most write-ins from respondents.
 
   - key: award.most_commented_tool_award.comment
-    t: With **{value}** comments, React showed that it's once again the most-discussed library around.
+    t: Angular may not be the newest kid on the block, but it's still the talk of the town with **{value}** comments from respondents!
 
   - key: award.most_loved_tool_award.comment
-    t: With **{value}** of all developers having a positive opinion of it, Vite concludes its sweep of these awards by being the most-loved technology around!
+    t: With **{value}** of all developers having a positive opinion of it, Vite once more gets the prize for most-loved technology!
 
   ###########################################################################
   # Conclusion
@@ -431,9 +431,7 @@ translations:
 
   - key: user_info.gender.takeaway.js2024
     t: >
-      Despite [extra outreach efforts](https://dev.to/sachagreif/state-of-js-2024-outreach-and-diversity-report-c4g) this year, we only saw a small increase in the proportion of women and non-binary respondents compared to 2023, from 5% to 7%. 
-
-      Our data did not reveal any gender-based income gap, and Canada, the U.K., and the U.S. had the highest proportion of women respondents.
+      Despite [extra outreach efforts](https://dev.to/sachagreif/state-of-js-2024-outreach-and-diversity-report-c4g) this year, we only saw a small increase in the proportion of women and non-binary respondents compared to 2023, from 5% to 7%.
 
   - key: user_info.race_ethnicity.takeaway.js2024
     t: >
@@ -469,7 +467,7 @@ translations:
       Webpack is the most-used JavaScript tool, but not the most-loved. That title instead belongs to Vite, with 56% of positive opinions (note that remaining neutral was also an option this year). Astoundingly, Vite was also the third most used tool overall despite having only been around for a relatively short time!
 
 
-      React on the other hand came in second not only in the most-used list, but also in the most-loved rankings – which is worth noting for a project that is over 10 years old! And love it or hate it, React was also the single project that left respondents indiferrent the least.
+      React on the other hand came in second not only in the most-used list, but also in the most-loved rankings – which is quite the staying power for a project that is over 10 years old! It's also worth nothing that React sports the highest proportion of users actively picking a sentiment.
 
   - key: tools.tools_arrows.takeaway.js2024
     t: >

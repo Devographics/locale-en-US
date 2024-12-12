@@ -1977,3 +1977,12 @@ translations:
 
   - key: banner.html2024
     t: The State of HTML 2024 survey is currently open! Take the survey now →
+
+  ###########################################################################
+  # Cardinalities
+  ###########################################################################
+
+  - key: tools.cardinalities
+    t: Number of Items
+  - key: tools.cardinalities.description
+    t: How many items in this category respondends have used (or heard of).
