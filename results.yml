@@ -382,15 +382,15 @@ translations:
     t: Previous Surveys
   - key: user_metadata.previous_surveys.description
     t: Previous Devographics surveys taken by respondents.
-  - key: user_metadata.previous_surveys.note
-    t: Please note that this data does not include respondents taking the survey as guests.
+  # - key: user_metadata.previous_surveys.note
+  #   t: Please note that this data does not include respondents taking the survey as guests.
 
   - key: user_metadata.same_survey_count
     t: Participation Count
   - key: user_metadata.same_survey_count.description
     t: How many times respondents have taken part in the current survey.
-  - key: user_metadata.same_survey_count.note
-    aliasFor: user_metadata.previous_surveys.note
+  # - key: user_metadata.same_survey_count.note
+  #   aliasFor: user_metadata.previous_surveys.note
 
   - key: user_metadata.created_at_date
     t: Responses Over Time

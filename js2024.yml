@@ -642,3 +642,23 @@ translations:
 
 
       We also made special outreach efforts ([full report here](https://dev.to/sachagreif/state-of-js-2024-outreach-and-diversity-report-c4g)) focused on attracting more women developers, but their effectiveness wasn't quite what we had hoped for.
+
+  - key: user_metadata.previous_surveys.takeaway.js2024
+    t: >
+      This chart shows which other Devographics surveys this year's respondents had previously taken part in. 
+
+
+      The fact that a sizeable segment of this year's respondents had also taken other surveys points to web development not being quite as fragmented as one might think – even if you primarily write JavaScript, keeping up with CSS and the web platform is still key!
+
+
+      Note that we can only generate this datapoint for respondents taking the survey while logged-in. Guest respondents appear as “No Answer”.
+
+  - key: user_metadata.same_survey_count.takeaway.js2024
+    t: >
+      This chart shows how many times this year's respondents had taken part in a State of JS survey before.
+
+
+      The fact that the largest bucket consists of new respondents means we are successfully reaching a new population, which mitigates bias that might carry over from our existing audience. But it also points to the challenges of getting people to consistently fill out a survey year after year.
+
+
+      Note that we can only generate this datapoint for respondents taking the survey while logged-in. Guest respondents appear as “No Answer”.
