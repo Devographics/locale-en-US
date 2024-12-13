@@ -198,24 +198,20 @@ translations:
   # Conclusion
   ###########################################################################
 
-  - key: conclusion.js2024.cassidy_williams
+  - key: conclusion.js2024.fernando_herrera
     t: |
-      <span class="first-line">Y'all, what a cool year to be on the internet.</span>
+      <span class="first-line">Several years ago, another State of JS survey put Astro on my radar.</span>
 
-      There's so many interesting and exciting changes happening, and I've got my popcorn next to my keyboard, building and watching!
+      I decided to try it and after spending a few hours with it, I fell in love with the technology. It was almost love at first sight! Suddenly, I saw myself rebuilding my website, administrative tools, and other projects with Astro. Now, I can say that Astro is my favourite framework by far.
 
-      The fact that so many "smaller" libraries like Preact, Solid, and htmx are climbing in positive sentiment over something massive like Next.js is fascinating. We're starting to see Angular make a bit of a comeback, and we'll see if that trend continues next year. We're seeing people fall out of love with some of the industry darlings. We're seeing very Rusty systems grow. Astro feels like it's off to the races in developer support.
+      JavaScript is a dynamic and exciting ecosystem continually growing with many libraries and frameworks. From reusable components to client-side, server-side, and static solutions, there are countless ways to achieve your goals using Vanilla JavaScript, community packages, libraries, or frameworks—each offering new opportunities for innovation. Of course, it can feel overwhelming, but this diversity makes JavaScript powerful, giving you anywhere from one to hundreds of clever ways to succeed.
 
-      In terms of actual browser features, it almost feels like we're going too fast for the world to catch up. Which is not always a bad thing, necessarily! But I totally echo the sentiments that browser support is my primary concern over all the cool things coming out. 
+      Don’t be afraid to dive in and experiment with different tools—whether it’s Vitest or Jest, React or Solid, Node or Deno, Next.js or Astro – or something entirely new like [Brisa](https://brisa.build/). 
 
-      That being said, I'm personally loving using some of the new array features and the fact that more and more folks are supporting PWAs.
+      Stay curious, as no other language offers the community, flexibility, and creativity that JavaScript does!
 
-      Next year, let's improve the diversity of responses, get more people developing, and hopefully all of the new and exciting changes err on the side of fun, rather than intimidating! Thanks Sacha and team for including me here, and for running another awesome and valuable survey.
-
-      See you online!
-
-  - key: conclusion.js2024.cassidy_williams.bio
-    t: Dev advocate, engineer, open sourcer, and memer
+  - key: conclusion.js2024.fernando_herrera.bio
+    t: Developer, educator, and YouTuber
 
   - key: conclusion.js2024.theo_browne
     t: |

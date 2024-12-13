@@ -22,7 +22,7 @@ translations:
     t: "Completion percentage:"
 
   - key: sponsors.thanks
-    t: Thanks to our partners for supporting us!
+    t: Sponsored content from our partners.
 
   - key: sponsors.learn_more
     t: Learn more.
@@ -279,8 +279,7 @@ translations:
     t: Support Us
   - key: sections.support.description
     t: >
-      We run this survey as a side project, but in order to make the
-      project sustainable we’re always looking for partners who can help support us,
+      In order to make running the survey sustainable, we’re always looking for partners who can help support us,
       either financially or by helping us spread the word.
       If you think you could help in any way, please don’t hesitate to [get in touch](mailto:hello@stateofjs.com)!
 
