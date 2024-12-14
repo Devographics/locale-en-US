@@ -8,6 +8,8 @@ translations:
     t: Algeria
   - key: options.country.ARG
     t: Argentina
+  - key: options.country.ARM
+    t: Armenia
   - key: options.country.AUS
     t: Australia
   - key: options.country.AUT
@@ -18,6 +20,8 @@ translations:
     t: Belgium
   - key: options.country.BLR
     t: Belarus
+  - key: options.country.BIH
+    t: Bosnia and Herzegovina
   - key: options.country.BRA
     t: Brazil
   - key: options.country.BGR
@@ -44,20 +48,24 @@ translations:
     t: Czechia
   - key: options.country.DEU
     t: Germany
+  - key: options.country.GRC
+    t: Greece
   - key: options.country.DNK
     t: Denmark
   - key: options.country.EGY
     t: Egypt
+  - key: options.country.EST
+    t: Estonia
   - key: options.country.ETH
     t: Ethiopia
   - key: options.country.FIN
     t: Finland
   - key: options.country.FRA
     t: France
+  - key: options.country.GEO
+    t: Georgia
   - key: options.country.GHA
     t: Ghana
-  - key: options.country.GBR
-    t: United Kingdom
   - key: options.country.HKG
     t: Hong Kong
   - key: options.country.HUN
@@ -82,10 +90,10 @@ translations:
     t: Japan
   - key: options.country.KEN
     t: Kenya
+  - key: options.country.LTU
+    t: Lithuania
   - key: options.country.LUX
     t: Luxembourg
-  - key: options.country.KOR
-    t: South Korea
   - key: options.country.MDA
     t: Moldova
   - key: options.country.MEX
@@ -94,6 +102,8 @@ translations:
     t: Myanmar
   - key: options.country.NPL
     t: Nepal
+  - key: options.country.MKD
+    t: North Macedonia
   - key: options.country.NOR
     t: Norway
   - key: options.country.NLD
@@ -104,18 +114,30 @@ translations:
     t: New Zealand
   - key: options.country.POL
     t: Poland
+  - key: options.country.PRT
+    t: Portugal
   - key: options.country.PAK
     t: Pakistan
+  - key: options.country.PER
+    t: Peru
   - key: options.country.PHL
     t: Philippines
+  - key: options.country.ROU
+    t: Romania
   - key: options.country.RUS
     t: Russia
   - key: options.country.SAU
     t: Saudi Arabia
+  - key: options.country.SRB
+    t: Serbia
   - key: options.country.SGP
     t: Singapore
+  - key: options.country.SVN
+    t: Slovenia
   - key: options.country.ZAF
     t: South Africa
+  - key: options.country.KOR
+    t: South Korea
   - key: options.country.ESP
     t: Spain
   - key: options.country.SWE
@@ -134,8 +156,12 @@ translations:
     t: Ukraine
   - key: options.country.ARE
     t: United Arab Emirates
+  - key: options.country.GBR
+    t: United Kingdom
   - key: options.country.USA
     t: USA
+  - key: options.country.VEN
+    t: Venezuela
   - key: options.country.VNM
     t: Vietnam
 # from https://github.com/lukes/ISO-3166-Countries-with-Regional-Codes/blob/master/slim-3/slim-3.json

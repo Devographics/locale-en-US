@@ -66,9 +66,7 @@ translations:
 
   - key: sections.user_info.description
     t: |
-      This year's survey reached **8,714** developers throughout the world, and in order
-      to help highlight different voices and surface deeper insights, we made a special
-      effort to provide new ways to break our data down.
+      This year's survey reached **8,714** developers throughout the world.
 
   - key: sections.features.description
     t: |
