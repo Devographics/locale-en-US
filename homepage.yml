@@ -109,3 +109,16 @@ translations:
   - key: creators.codebar.description
     t: |
       Codebar is an amazing organization that puts together workshops that would usually cost thousands of dollars, and makes them available for free online in order to build a more inclusive developer community.
+
+  # calendar
+
+  - key: calendar.heading
+    t: Upcoming Surveys
+  - key: calendar.feedbackAt
+    t: Feedback start
+  - key: calendar.startedAt
+    t: Survey start
+  - key: calendar.endedAt
+    t: Survey end
+  - key: calendar.releasedAt
+    t: Results release
