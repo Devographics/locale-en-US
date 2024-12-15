@@ -108,33 +108,45 @@ translations:
   # Sections
   ###########################################################################
 
-  - key: sections.user_info.description
+  - key: sections.user_info.description.js2024
     t: |
-      This year **14,015** respondents took part in the survey.
+      This year **14,015** respondents took part in the survey. 
 
-  - key: sections.features.description
-    t: |
-      This year we put special emphasis on identifying developer pain points with JavaScript. As one might expect, the **lack of native typing** and **browser inconsistencies** led their respective charts, each affecting nearly a third of developers.
 
-  - key: sections.libraries.description
-    t: |
-      We reworked our charts to highlight not just developer experience, but *sentiment*. Be sure to explore these new grouping and sorting options to figure out which libraries get the most love… or the least!
+      For the first time this year, in addition to the usual demographic datapoints we also asked about job titles, leading to some interesting findings about how those titles correlate with income, age, and gender.
 
-  - key: sections.other_tools.description
+  - key: sections.features.description.js2024
     t: |
-      While the JavaScript conversation often seems to boild down to which framework to pick, it's worth remembering that there's a whole galaxy of other tools, services, and platforms to explore beyond that!
+      While they aren't seeing wide usage just yet, JavaScript's new Set and Object features will make it less necessary to rely on third-party utility libraries. 
 
-  - key: sections.usage.description
-    t: |
-      Once again it seems like TypeScript has established itself as the default, at least among survey respondents. But apart from that, JavaScript usage remains as varied as ever!
 
-  - key: sections.resources.description
-    t: |
-      Rather than provide predefined lists of options for survey respondents to pick from, we decided to simply offer raw text fields. This led to quite a few new entrants in this year's Resources section!
+      Also, whenever available we now display each feature's [Baseline status](): green for “widely available”, blue for “newly available”, and white for “limited availability”.
 
-  - key: sections.awards.description
+  - key: sections.libraries.description.js2024
     t: |
-      This year's awards were dominated by one very specific project… how quickly will you guess what it is?
+      While the JavaScript ecosystem is still quite fragmented, it's nice to see that some of the most used libraries are also the most appreciated.
+
+
+      Make sure to explore our new grouping and sorting options to figure out which libraries get the most love… or the least!
+
+  - key: sections.other_tools.description.js2024
+    t: |
+      This year AI tools make their debut in the survey, and while the space is currently still dominated by a few front runners, it's impressive to see just how many options already exist!
+
+  - key: sections.usage.description.js2024
+    t: |
+      This year's survey paints the picture of an average respondent who uses TypeScript, always runs their code through a build step, and hasn't quite jumped on the AI bandwagon just yet.
+
+  - key: sections.resources.description.js2024
+    t: |
+      While there are no lack of amazing courses, podcasts, and newsletters, video content in particular continues its takeover of JavaScript content. 
+
+
+      The Spanish-language conent ecosystem is also worth highlighting for putting up a worthy challenge to English's traditional dominance of the programming world.
+
+  - key: sections.awards.description.js2024
+    t: |
+      How *quickly* can you guess which project will take the top spot in each category?
 
   ###########################################################################
   # Charts
@@ -403,12 +415,15 @@ translations:
     t: >
       With an mean age of 33.5 years old, the average State of JS respondent turned out to be slightly younger than State of CSS (34.9) and State of HTML (35.8).
 
+      As expected, age and income are positively correlated; and it's encouraging to see more gender diversity in younger age brackets, as that could indicate changing demographics
 
       Interestingly, younger respondents were far more likely to suffer from cognitive and visual impairments, while older respondents were more affected by hearing and mobility impairments.
 
   - key: user_info.years_of_experience.takeaway.js2024
     t: >
       51% of respondents had 10 years of experience or less – which means a majority of survey takers haven't known the world before modern JavaScript frameworks.
+
+      Similarly to age, less experienced brackets also showed more gender diversity
 
   - key: user_info.company_size.takeaway.js2024
     t: >
@@ -422,24 +437,26 @@ translations:
     t: >
       It seems like the JavaScript ecosystem features as many different job titles as front end frameworks. But one clear trend is that anything with "engineer" in it will earn you more – even compared to CEOs, CTOs, and founders. "Developers" on the other hand are clearly at the bottom of the ladder, and might consider printing new business cards…
 
+
+      In terms of demographics, fullstack and frontend positions were staffed by the youngest respondents on average, and frontend job titles were also correlated with a significantly higher proportion of women.
+
   - key: user_info.higher_education_degree.takeaway.js2024
     t: >
       While having a degree will ensure you earn more, turns out it doesn't necessarily have to be related to programming.
 
   - key: user_info.gender.takeaway.js2024
     t: >
-      Despite [extra outreach efforts](https://dev.to/sachagreif/state-of-js-2024-outreach-and-diversity-report-c4g) this year, we only saw a small increase in the proportion of women and non-binary respondents compared to 2023, from 5% to 7%.
+      We saw a small increase in the proportion of women and non-binary respondents compared to 2023, partly due to [renewed outreach efforts](https://dev.to/sachagreif/state-of-js-2024-outreach-and-diversity-report-c4g) this year.
 
   - key: user_info.race_ethnicity.takeaway.js2024
     t: >
-      Non-white respondents were more likely to be younger and have less experience – which hopefully points to a ongoing diversification of the industry.
+      Non-white respondents were more likely to be younger and have less experience – which could explain why they also tend to earn less; and hopefully points to ongoing diversification in the industry's younger corners.
 
   - key: user_info.disability_status.takeaway.js2024
     t: >
       Whether permanent or temporary, disabilities are a part of our daily lives for many of us – especially as we age, in the case of hearing and mobility impairments. 
 
-
-      And while some disabilities did not affect respondent's ability to earn a living, it does seem like visual impairments in particular are correlated with lower income.
+      The fact that many respondents who suffer from visual and cognitive impairments were relatively young could also explain why those disabilities were correlated with a income levels.
 
   # features
 
