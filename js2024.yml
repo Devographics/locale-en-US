@@ -58,9 +58,9 @@ translations:
 
       Now sure, all three have evolved a lot along the way, and the patterns of 2014 would seem downright antiquated today. But given the JavaScript ecosystems's reputation as a constantly-churning whirlwind of change, it can be nice to know that some things do remain constant. 
 
-      Speaking of constants – reaching beyond the survey's existing audience remains frustratingly hard despite renewed outreach efforts, and something we'll definitely need to keep working on. 
+      Speaking of constants, Vite and Vitest are still topping every chart and leading the charge for a newer, simpler generation of tooling. 
 
-      In the meantime, we've also added a new **Metadata** appendix that will tell you more about survey respondents and the survey itself. And don't forget you can also apply any of these new variables to other charts using the **Query Builder**. 
+      Also – we've added a new **Metadata** appendix that will tell you more about survey respondents and the survey itself. And don't forget you can also apply any of these new variables to other charts using the **Query Builder**. 
 
       With all this out of the way, let's discover what JavaScript has been up to this year!
 
@@ -446,7 +446,7 @@ translations:
 
   - key: user_info.gender.takeaway.js2024
     t: >
-      We saw a small increase in the proportion of women and non-binary respondents compared to 2023, partly due to [renewed outreach efforts](https://dev.to/sachagreif/state-of-js-2024-outreach-and-diversity-report-c4g) this year.
+      We saw a small increase in the proportion of women and non-binary respondents compared to 2023, partly due to [renewed outreach efforts](https://dev.to/sachagreif/state-of-js-2024-outreach-and-diversity-report-n0e) this year.
 
   - key: user_info.race_ethnicity.takeaway.js2024
     t: >
@@ -653,7 +653,7 @@ translations:
       The majority of respondents knew about the survey from previous years. It's also worth highlighting that the [Angular](https://angular.dev/) and [Nuxt](https://nuxt.com/) homepages featured banners pointing their users to the survey; and that Bluesky came in at number 5 despite this being the first time appearing as a traffic source for the survey. 
 
 
-      We also made special outreach efforts ([full report here](https://dev.to/sachagreif/state-of-js-2024-outreach-and-diversity-report-c4g)) focused on attracting more women developers, but their effectiveness wasn't quite what we had hoped for.
+      We also made special outreach efforts ([full report here](https://dev.to/sachagreif/state-of-js-2024-outreach-and-diversity-report-n0e)) focused on attracting more women developers.
 
   - key: user_metadata.past_surveys.takeaway.js2024
     t: >
