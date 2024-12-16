@@ -1104,9 +1104,9 @@ translations:
     aliasFor: tools.data_fetching.others
 
   - key: other_tools.backend_frameworks
-    aliasFor: tools.backend_frameworks
+    t: Back-end Frameworks
   - key: other_tools.backend_frameworks.description
-    aliasFor: tools.backend_frameworks.description
+    t: Frameworks for generating APIs and managing back-ends
   - key: other_tools.backend_frameworks.others
     aliasFor: tools.backend_frameworks.others
 
