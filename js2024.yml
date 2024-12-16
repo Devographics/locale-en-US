@@ -229,12 +229,12 @@ translations:
 
       I wasn't alone in this journey; I was among the many JavaScript developers who were just starting to explore TypeScript and its benefits for teams aiming to create scalable and maintainable front-end systems.  It’s amazing to me to see how quickly TypeScript has grown in popularity!  I’m thrilled to see that the majority of survey respondents now use TypeScript in their daily work.
 
-      Today, my go-to stack for both my professional work and my personal projects contains React, TypeScript, Vite, and Jest. Large and rapidly-growing teams have placed their bets on these tools - like TypeScript and React - and look for expertise in these areas when hiring front-end developers. So it's no surprise that these tools are widely adopted and retained by other organizations as well. 
+      Today, my go-to stack for both my professional work and my personal projects contains React, TypeScript, Vite, and Jest. Large and rapidly-growing teams have placed their bets on these tools and look for expertise in these areas when hiring front-end developers. So it's no surprise to see that they have been widely adopted and retained by other organizations as well.
 
       If you're like me, you prefer to focus on mastering a few essential tools rather than continually experimenting with new frameworks and libraries. Also like me, you might even hold off on adopting the latest versions of reliable front-end tools until they reach stable releases and any issues are resolved. You’re not alone, and there are huge benefits for those of us who prefer the tried-and-true path.
 
   - key: conclusion.js2024.shaundai_person.bio
-    t: Developer, educator, and YouTuber
+    t: Front end Senior Software Engineer (Netflix) and course instructor
 
   ###########################################################################
   # Picks
