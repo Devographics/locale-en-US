@@ -624,7 +624,7 @@ translations:
     t: Other Tools
 
   - key: tools.tools_work
-    t: Work Context
+    t: Used at Work
   - key: tools.tools_work.question
     t: Which of these tools do you use in a professional context?
 

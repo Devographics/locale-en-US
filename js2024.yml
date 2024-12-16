@@ -513,6 +513,13 @@ translations:
 
       Excessive complexity, choice overload, poor performance, and breaking changes were also commonly cited as major pain points.
 
+  - key: tools.front_end_frameworks_work.takeaway.js2024
+    t: >
+      While there are no substantial income differences based on which frontend frameworks respondents used at work, company size tells a different story.
+
+
+      New challengers Alpine.js, Qwik, and Solid are being favored by small companies, while Web Components solutions Lit and Stencil are overwhelmingly used by large companies.
+
   # meta frameworks
 
   - key: tools.meta_frameworks_ratios.takeaway.js2024
@@ -526,6 +533,13 @@ translations:
     t: >
       Just like React in its own category, Next.js as the leader also takes the brunt of the criticism.
 
+  - key: tools.meta_frameworks_work.takeaway.js2024
+    t: >
+      Gatsby may be one of the least loved tools, but it's also the most lucrative – which is most likely due to it being used primarily in large companies.
+
+
+      On the other side of the spectrum, Astro is still at the beginning of its journey towards enterprise adoption, which in turns correlates with lower income.
+
   # testing
 
   - key: tools.testing_ratios.takeaway.js2024
@@ -536,8 +550,11 @@ translations:
     t: >
       Mocking is the biggest pain point presented by testing, closely followed by the hassle of complex setups and configurations, and the burden of slow-running tests.
 
-  # mobile desktop
+  - key: tools.testing_work.takeaway.js2024
+    t: >
+      Vitest displays the classic signs of a technology at the start of its lifespan: high retention and interest, but low adoption in large companies – for now.
 
+  # mobile desktop
   - key: tools.mobile_desktop_ratios.takeaway.js2024
     t: >
       Over the past decade, building mobile and desktop apps has become far more common – yet that doesn't mean developers are necessarily happy with their tools. 
@@ -549,6 +566,10 @@ translations:
     t: >
       JavaScript codebases still struggle to compete against pure native apps in terms of performance. And it seems like both Electron and React Native have their share of drawbacks.
 
+  - key: tools.mobile_desktop_work.takeaway.js2024
+    t: >
+      Once again newer tools like Tauri seem to primarily be used in the workplace by less experienced developers, which goes to show that not having all that baggage can sometimes be a good thing!
+
   # build tools
 
   - key: tools.build_tools_ratios.takeaway.js2024
@@ -559,7 +580,11 @@ translations:
     t: >
       Excessive configuration has traditionally been the bane of build tools – yet it's also often that very complexity that makes them powerful.
 
-  # build tools
+  - key: tools.build_tools_work.takeaway.js2024
+    t: >
+      Rspack has somehow found a way to buck the trend and jump right into being adopted by large companies, no doubt the result of its very smart strategy to become a drop-in replacement for webpack.
+
+  # monorepo tools
 
   - key: tools.monorepo_tools_ratios.takeaway.js2024
     t: >
@@ -568,6 +593,10 @@ translations:
   - key: tools.monorepo_tools_ratios.takeaway.js2024
     t: >
       Monorepos are still too hard to set up properly. And package management in itself is something that we still haven't gotten quite right… but then again, who has?
+
+  - key: tools.monorepo_tools_work.takeaway.js2024
+    t: >
+      It should be no surprise that many monorepo tools are used by large companies since company size often correlates with codebase size.
 
   # usage
 
