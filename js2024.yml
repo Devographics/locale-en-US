@@ -223,22 +223,18 @@ translations:
   - key: conclusion.js2024.fernando_herrera.bio
     t: Developer, educator, and YouTuber
 
-  - key: conclusion.js2024.theo_browne
+  - key: conclusion.js2024.shaundai_person
     t: |
-      <span class="first-line">Javascript is moving to the server, and we’re uneasy about it.</span>
+      <span class="first-line">Just under five years ago, I discovered the advantages of using TypeScript for the first time.</span>
 
-      In last year’s survey, we saw quickly growing adoption of server-rendered frameworks like Next, Nuxt, Remix, and SvelteKit. This year, we shifted to server-first patterns such as Partial Hydration and Islands, which doubled in their adoption.
+      I wasn't alone in this journey; I was among the many JavaScript developers who were just starting to explore TypeScript and its benefits for teams aiming to create scalable and maintainable front-end systems.  It’s amazing to me to see how quickly TypeScript has grown in popularity!  I’m thrilled to see that the majority of survey respondents now use TypeScript in their daily work.
 
-      Frame-, err, libraries like htmx show that web devs aren’t the only ones benefiting from utilizing the server. SPAs aren’t going anywhere (take a look at [Inertia](https://inertiajs.com/) for proof), but as these new patterns continue to improve, the market seems to be following along.
+      Today, my go-to stack for both my professional work and my personal projects contains React, TypeScript, Vite, and Jest. Large and rapidly-growing teams have placed their bets on these tools - like TypeScript and React - and look for expertise in these areas when hiring front-end developers. So it's no surprise that these tools are widely adopted and retained by other organizations as well. 
 
-      This move has not been unanimously loved. React’s continued to grow, but React developers are increasingly concerned about its direction. Getting here has been… rough, but progress is being made every day.
+      If you're like me, you prefer to focus on mastering a few essential tools rather than continually experimenting with new frameworks and libraries. Also like me, you might even hold off on adopting the latest versions of reliable front-end tools until they reach stable releases and any issues are resolved. You’re not alone, and there are huge benefits for those of us who prefer the tried-and-true path.
 
-      We’re also seeing more options appear outside of the React ecosystem. From [Nuxt](https://roe.dev/blog/nuxt-server-components) to [SolidStart](https://docs.solidjs.com/solid-start/reference/server/use-server) to [Astro](https://astro.build/blog/astro-480/#experimental-astro-actions), all of the best React Server Component features are rolling out to every developer.
-
-      And of course, Vite has continued to dominate, and is the choice for app developers and framework authors alike. Hard to imagine where we’d be today without it!
-
-  - key: conclusion.js2024.theo_browne.bio
-    t: Creator of Ping, uploadthing, create-t3-app, and video creator
+  - key: conclusion.js2024.shaundai_person.bio
+    t: Developer, educator, and YouTuber
 
   ###########################################################################
   # Picks
