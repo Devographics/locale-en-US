@@ -349,7 +349,7 @@ translations:
     t: The tech conference focused on all things web.
   - key: sponsors.gitnation.description
     t: |
-      Subscribe to the GitNation Multipass: access 11 remote conferences, 300+ hours of content, and hands-on workshops on JavaScript, React, Vue, and Node.
+      Learn latest trends directly from early-adopters and tech authors at GitNation.com
 
   ###########################################################################
   # FAQ/About
