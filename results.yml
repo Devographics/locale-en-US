@@ -1962,13 +1962,25 @@ translations:
   - key: answers.answers
     t: Freeform Answers
   - key: answers.answers_for
-    t: Answers matching “{name}”
+    t: |
+      {count} answers matching “{name}”
   - key: answers.description
     t: |
       These freeform answers were matched to the **{name}** keyword through a combination of
       automated and manual data processing.
   - key: answers.report_abuse
     t: Report this answer
+
+  - key: answers.length
+    t: Answer Length
+
+  - key: answers.keyword
+    t: |
+      Keyword:
+
+  - key: answers.keyword_count
+    t: |
+      {count} results
 
   ###########################################################################
   # Banners
