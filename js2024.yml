@@ -486,6 +486,9 @@ translations:
 
       So it's always interesting to see projects that manage to buck this trend, such as Vue and Angular, which have both managed to gain positive opinions again even after a couple years of less favorable results.
 
+
+      *Note: unlike previous editions, this year's question format made picking a positive or negative sentiment optional, with neutral as default. As a side effect, 2024 datapoints on this chart are generally trending back towards the center of the graph.*
+
   - key: tools.tier_list.takeaway.js2024
     t: >
       While there is sadly no single "S-tier" stack yet, SvelteKit and Astro both seem like safe bets to start a project – possibly with Vitest for testing and pnpm to manage your monorepo.
