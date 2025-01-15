@@ -292,6 +292,9 @@ translations:
   - key: sections.opinions.description
     t: How do you feel about the state of things?
 
+  - key: opinions.opinions_intro
+    t: For the following questions, let us know how much you agree with each statement.
+
   - key: sections.other_tools.title
     t: Other Tools
   - key: sections.other_tools.description
@@ -1622,6 +1625,8 @@ translations:
 
   # email_temporary (receive updates?)
   - key: user_info.receive_notifications
+    t: Notifications
+  - key: user_info.receive_notifications.question
     t: Do you want to be notified when the survey results are released?
   - key: user_info.receive_notifications.note
     t: >

@@ -982,9 +982,6 @@ translations:
   # Opinions
   ###########################################################################
 
-  - key: opinions.opinions_intro
-    t: For the following questions, let us know how much you agree with each statement.
-
   - key: opinions.accessibility_is_valued
     t: Accessibility
   - key: opinions.accessibility_is_valued.question

@@ -1,4 +1,417 @@
 locale: en-US
 translations:
-  - key: foo
-    t: bar
+  ###########################################################################
+  # General
+  ###########################################################################
+
+  ###########################################################################
+  # Sections
+  ###########################################################################
+
+  - key: tools.tools_intro.ai2025
+    t: |
+      This first part of the survey is all about which AI tools you use, or have heard about.
+
+  - key: sections.chatbots.title
+    t: Chatbots
+  - key: sections.chatbots.description
+    t: General-purpose AI tools.
+
+  - key: sections.coding_assistants.title
+    t: Coding Assistants
+  - key: sections.coding_assistants.description
+    t: AI tools that help throughout the development process.
+
+  - key: sections.code_generation.title
+    t: Code Generation
+  - key: sections.code_generation.description
+    t: AI tools used to generate new codebases or code snippets.
+
+  - key: sections.ides.title
+    t: IDEs & Editors
+  - key: sections.ides.title
+    t: IDEs or code editors focused on AI integration.
+
+  - key: sections.image_generation.title
+    t: Image Generation
+  - key: sections.image_generation.description
+    t: AI tools for generating and editing images.
+
+  # ai_programming_languages
+
+  - key: other_tools.ai_programming_languages
+    t: Programming Languages
+  - key: other_tools.ai_programming_languages.question
+    t: Which programming language(s) do you use AI tools with?
+
+  # ai_libraries_sdks
+
+  - key: other_tools.ai_libraries_sdks
+    t: Libraries & SDKs
+  - key: other_tools.ai_libraries_sdks.question
+    t: Which AI libraries and SDKs do you use?
+
+  # ai_tools_others
+  - key: other_tools.ai_tools_others
+    t: Other Tools
+  - key: other_tools.ai_tools_others.question
+    t: What other AI tools not mentioned so far do you use?
+
+  # ai_generated_code_balance
+
+  - key: usage.ai_generated_code_balance
+    t: AI Code Generation
+  - key: usage.ai_generated_code_balance.question
+    t: What proportion of the code you produce is AI-generated?
+  - key: usage.ai_generated_code_balance.prompt
+    t: Including code copy-pasted from ChatGPT or other chatbots.
+
+  - key: options.ai_generated_code_balance.0
+    t: 0% AI
+  - key: options.ai_generated_code_balance.1
+    t: "|"
+  - key: options.ai_generated_code_balance.2
+    t: "|"
+  - key: options.ai_generated_code_balance.3
+    t: "|"
+  - key: options.ai_generated_code_balance.4
+    t: "50%"
+  - key: options.ai_generated_code_balance.5
+    t: "|"
+  - key: options.ai_generated_code_balance.6
+    t: "|"
+  - key: options.ai_generated_code_balance.7
+    t: "|"
+  - key: options.ai_generated_code_balance.8
+    t: 100% AI
+
+  # ai_generated_code_refactoring
+
+  - key: usage.ai_generated_code_refactoring
+    t: AI Code Refactoring
+  - key: usage.ai_generated_code_refactoring.question
+    t: When using AI to generate code, what proportion do you rewrite or refactor before use?
+  - key: usage.ai_generated_code_refactoring.prompt
+    t: >
+      0% refactored: you use the code as-is with minimal changes; 100% refactored: you rewrite all or nearly all the code.
+  # - key: options.ai_generated_code_refactoring.0
+  #   t: I use the code as-is, or almost as-is
+  # - key: options.ai_generated_code_refactoring.1
+  #   t: I only change a couple things
+  # - key: options.ai_generated_code_refactoring.2
+  #   t: I change around half of the code
+  # - key: options.ai_generated_code_refactoring.3
+  #   t: I rewrite most of the code
+  # - key: options.ai_generated_code_refactoring.4
+  #   t: I rewrite all, or almost all the code
+
+  - key: options.ai_generated_code_refactoring.0
+    t: 0% refactored
+  - key: options.ai_generated_code_refactoring.1
+    t: "|"
+  - key: options.ai_generated_code_refactoring.2
+    t: "|"
+  - key: options.ai_generated_code_refactoring.3
+    t: "|"
+  - key: options.ai_generated_code_refactoring.4
+    t: "50%"
+  - key: options.ai_generated_code_refactoring.5
+    t: "|"
+  - key: options.ai_generated_code_refactoring.6
+    t: "|"
+  - key: options.ai_generated_code_refactoring.7
+    t: "|"
+  - key: options.ai_generated_code_refactoring.8
+    t: 100% refactored
+
+  # ai_personal_expenses
+
+  - key: usage.ai_personal_expenses
+    t: Personal Expenses
+  - key: usage.ai_personal_expenses.question
+    t: How much do you personally spend on AI tools per month (in USD)?
+  - key: usage.ai_personal_expenses.prompt
+    t: If working for yourself, include both personal and professional expenses.
+
+  - key: options.ai_personal_expenses.range_0
+    t: $0
+    aliases:
+      - options.ai_company_expenses.range_0
+  - key: options.ai_personal_expenses.range_1_20
+    t: $1-$20
+    aliases:
+      - options.ai_company_expenses.range_1_20
+  - key: options.ai_personal_expenses.range_21_50
+    t: $20-$50
+    aliases:
+      - options.ai_company_expenses.range_21_50
+  - key: options.ai_personal_expenses.range_51_100
+    t: $50-$100
+    aliases:
+      - options.ai_company_expenses.range_51_100
+  - key: options.ai_personal_expenses.range_101_500
+    t: $100-$500
+    aliases:
+      - options.ai_company_expenses.range_101_500
+  - key: options.ai_personal_expenses.range_501_1000
+    t: $500-$1000
+    aliases:
+      - options.ai_company_expenses.range_501_1000
+  - key: options.ai_personal_expenses.range_1001_5000
+    t: $1000-$5000
+    aliases:
+      - options.ai_company_expenses.range_1001_5000
+  - key: options.ai_personal_expenses.range_over_5000
+    t: Over $5000
+    aliases:
+      - options.ai_company_expenses.range_over_5000
+
+  # ai_company_expenses
+
+  - key: usage.ai_company_expenses
+    t: Company Expenses
+  - key: usage.ai_company_expenses.question
+    t: How much does your company spend on AI tools per month (in USD)?
+  - key: usage.ai_company_expenses.prompt
+    t: If working for yourself, feel free to skip this question.
+
+  # ai_code_generation_frequency
+
+  - key: usage.ai_code_generation_frequency
+    t: Code Generation Frequency
+  - key: usage.ai_code_generation_frequency.question
+    t: How frequently do you use AI tools to generate or refactor code?
+  - key: options.ai_code_generation_frequency.0
+    t: Never
+    aliases:
+      - options.ai_learning_frequency.0
+  - key: options.ai_code_generation_frequency.1
+    t: A few times per year
+    aliases:
+      - options.ai_learning_frequency.1
+  - key: options.ai_code_generation_frequency.2
+    t: A few times per month
+    aliases:
+      - options.ai_learning_frequency.2
+  - key: options.ai_code_generation_frequency.3
+    t: A few times per week
+    aliases:
+      - options.ai_learning_frequency.3
+  - key: options.ai_code_generation_frequency.4
+    t: A few times per day
+    aliases:
+      - options.ai_learning_frequency.4
+  - key: options.ai_code_generation_frequency.5
+    t: A few times per hour
+    aliases:
+      - options.ai_learning_frequency.5
+  - key: options.ai_code_generation_frequency.6
+    t: Constantly
+    aliases:
+      - options.ai_learning_frequency.6
+
+  # ai_learning_frequency
+
+  - key: usage.ai_learning_frequency
+    t: Learning Frequency
+  - key: usage.ai_learning_frequency.question
+    t: How frequently do you use AI tools to learn new skills or answer questions?
+
+  # what_do_you_use_ai_for
+  - key: usage.what_do_you_use_ai_for
+    t: Use Case
+  - key: usage.what_do_you_use_ai_for.question
+    t: What kind of projects do you use AI tools on?
+
+  # What do you use JS for?
+  - key: options.what_do_you_use_ai_for.frontend_development
+    aliasFor: options.what_do_you_use_js_for.frontend_development
+  - key: options.what_do_you_use_ai_for.backend_development
+    aliasFor: options.what_do_you_use_js_for.backend_development
+  - key: options.what_do_you_use_ai_for.data_analysis
+    aliasFor: options.what_do_you_use_js_for.data_analysis
+  - key: options.what_do_you_use_ai_for.machine_learning
+    aliasFor: options.what_do_you_use_js_for.machine_learning
+  - key: options.what_do_you_use_ai_for.desktop_apps
+    aliasFor: options.what_do_you_use_js_for.desktop_apps
+  - key: options.what_do_you_use_ai_for.mobile_apps
+    aliasFor: options.what_do_you_use_js_for.mobile_apps
+  - key: options.what_do_you_use_ai_for.embedded_apps
+    aliasFor: options.what_do_you_use_js_for.embedded_apps
+  - key: options.what_do_you_use_ai_for.game_development
+    aliasFor: options.what_do_you_use_js_for.game_development
+  - key: options.what_do_you_use_ai_for.data_visualization
+    aliasFor: options.what_do_you_use_js_for.data_visualization
+  - key: options.what_do_you_use_ai_for.graphics_animation
+    aliasFor: options.what_do_you_use_js_for.graphics_animation
+  - key: options.what_do_you_use_ai_for.scripting
+    aliasFor: options.what_do_you_use_js_for.scripting
+  - key: options.what_do_you_use_ai_for.command_line_tools
+    aliasFor: options.what_do_you_use_js_for.command_line_tools
+  - key: options.what_do_you_use_ai_for.developer_tooling
+    aliasFor: options.what_do_you_use_js_for.developer_tooling
+  - key: options.what_do_you_use_ai_for.automation
+    aliasFor: options.what_do_you_use_js_for.automation
+  - key: options.what_do_you_use_ai_for.bots
+    aliasFor: options.what_do_you_use_js_for.bots
+  - key: options.what_do_you_use_js_for.testing
+    aliasFor: options.what_do_you_use_js_for.testing
+  - key: options.what_do_you_use_ai_for.browser_extensions
+    aliasFor: options.what_do_you_use_js_for.browser_extensions
+  - key: options.what_do_you_use_ai_for.api
+    aliasFor: options.what_do_you_use_js_for.api
+  - key: options.what_do_you_use_ai_for.infrastructure_as_code
+    aliasFor: options.what_do_you_use_js_for.infrastructure_as_code
+  - key: options.what_do_you_use_ai_for.prototyping
+    aliasFor: options.what_do_you_use_js_for.prototyping
+
+  # # what_tasks_do_you_use_ai_for
+  # - key: usage.what_tasks_do_you_use_ai_for
+  #   t: AI Tasks
+  # - key: usage.what_tasks_do_you_use_ai_for.question
+  #   t: For which specific tasks do you most commonly use AI tools?
+
+  # - key: options.what_tasks_do_you_use_ai_for.writing_code
+  #   t: Writing code
+  # - key: options.what_tasks_do_you_use_ai_for.debugging
+  #   t: Debugging existing code
+  # - key: options.what_tasks_do_you_use_ai_for.refactoring
+  #   t: Refactoring or optimizing code
+  # - key: options.what_tasks_do_you_use_ai_for.documentation
+  #   t: Generating documentation
+  # - key: options.what_tasks_do_you_use_ai_for.testing
+  #   t: Testing code
+  # - key: options.what_tasks_do_you_use_ai_for.learning
+  #   t: Learning new skills
+
+  - key: usage.what_kind_of_code_generated
+    t: Generated Code
+  - key: usage.what_kind_of_code_generated.question
+    t: What kind of code do you generate using AI tools?
+
+  - key: options.what_kind_of_code_generated.helper_functions
+    t: Helper functions
+  - key: options.what_kind_of_code_generated.frontend_components
+    t: Frontend components
+  - key: options.what_kind_of_code_generated.css_code
+    t: CSS code
+  - key: options.what_kind_of_code_generated.core_app_logic
+    t: Core app logic
+  - key: options.what_kind_of_code_generated.api_integrations
+    t: API integration code
+  - key: options.what_kind_of_code_generated.documentation_comments
+    t: Documentation & comments
+  - key: options.what_kind_of_code_generated.tests
+    t: Tests
+
+  # ai_pain_points
+  - key: usage.ai_pain_points
+    t: Pain Points
+  - key: usage.ai_pain_points.question
+    t: What are your top pain points when it comes to using AI tools?
+
+  - key: options.ai_pain_points.misunderstood_prompt
+    t: AI not understanding the prompt
+  - key: options.ai_pain_points.poor_generated_code
+    t: Poor generated code quality
+  - key: options.ai_pain_points.ethical_concerns
+    t: Ethical concerns (e.g., bias, plagiarism)
+  - key: options.ai_pain_points.integration_difficulties
+    t: Integration difficulties with existing workflow
+  - key: options.ai_pain_points.costs
+    t: Costs
+  - key: options.ai_pain_points.environmental_impact
+    t: Environmental impact
+  - key: options.ai_pain_points.lack_of_context
+    t: AI not taking into account entire project context
+
+  # ai_missing_features
+
+  - key: usage.ai_missing_features
+    t: Missing Features
+  - key: usage.ai_missing_features.question
+    t: What capabilities do you feel are currently missing from AI tools?
+
+  # ai_happiness
+
+  - key: usage.ai_happiness
+    t: Happiness
+  - key: usage.ai_happiness.question
+    t: How happy are you with the current general state of AI tools for web development?
+
+  # existential_risk
+
+  - key: opinions.existential_risk
+    t: Existential Risk
+  - key: opinions.existential_risk.question
+    t: AI poses an existential risk to humanity
+
+  # integral_workflow
+
+  - key: opinions.integral_workflow
+    t: Workflow Integration
+  - key: opinions.integral_workflow.question
+    t: AI tools are an integral part of my workflow
+
+  # job_security_threat
+
+  - key: opinions.job_security_threat
+    t: Job Security
+  - key: opinions.job_security_threat.question
+    t: AI tools are a threat to my job security
+
+  # ai_reliance_worse_developers
+
+  - key: opinions.ai_reliance_worse_developers
+    t: AI Reliance
+  - key: opinions.ai_reliance_worse_developers.question
+    t: Relying on AI tools will make for less skilled developers overall
+
+  # interested_in_developing_tools
+
+  - key: opinions.interested_in_developing_tools
+    t: Developing Tools
+  - key: opinions.interested_in_developing_tools.question
+    t: I am interested in developing AI tools, not just using them
+
+  # reach_agi
+
+  - key: opinions.reach_agi
+    t: AGI Reached
+  - key: opinions.reach_agi.question
+    t: We will reach AGI (”real”, thinking artificial intelligence) within the next 10 years
+
+  # courses
+
+  - key: resources.ai_courses
+    t: Courses
+  - key: resources.ai_courses.question
+    t: Which courses or resources have you used to learn more about AI?
+
+  # newsletters
+
+  - key: resources.ai_newsletters
+    t: Newsletters
+  - key: resources.ai_newsletters.question
+    t: Which newsletters do you read to stay up to date with AI news?
+
+  # podcasts
+
+  - key: resources.ai_podcasts
+    t: Podcasts
+  - key: resources.ai_podcasts.question
+    t: Which podcasts do you listen to learn about AI?
+
+  # video_creators
+
+  - key: resources.ai_video_creators
+    t: Podcasts
+  - key: resources.ai_video_creators.question
+    t: Which video creators do you follow on YouTube, Twitch, etc. to learn about AI?
+
+  # people
+
+  - key: resources.ai_people
+    t: People
+  - key: resources.ai_people.question
+    t: Who do you follow on other social media to learn about AI?
