@@ -51,7 +51,15 @@ translations:
   - key: other_tools.ai_libraries_sdks.question
     t: Which AI libraries and SDKs do you use?
 
+  # ai_browser_apis
+
+  - key: other_tools.ai_browser_apis
+    t: Browser APIs
+  - key: other_tools.ai_browser_apis.question
+    t: What AI APIs would you most like to see supported natively in browsers?
+
   # ai_tools_others
+
   - key: other_tools.ai_tools_others
     t: Other Tools
   - key: other_tools.ai_tools_others.question
@@ -184,85 +192,84 @@ translations:
   - key: options.ai_code_generation_frequency.0
     t: Never
     aliases:
-      - options.ai_learning_frequency.0
+      - options.ai_other_tasks_frequency.0
   - key: options.ai_code_generation_frequency.1
     t: A few times per year
     aliases:
-      - options.ai_learning_frequency.1
+      - options.ai_other_tasks_frequency.1
   - key: options.ai_code_generation_frequency.2
     t: A few times per month
     aliases:
-      - options.ai_learning_frequency.2
+      - options.ai_other_tasks_frequency.2
   - key: options.ai_code_generation_frequency.3
     t: A few times per week
     aliases:
-      - options.ai_learning_frequency.3
+      - options.ai_other_tasks_frequency.3
   - key: options.ai_code_generation_frequency.4
     t: A few times per day
     aliases:
-      - options.ai_learning_frequency.4
+      - options.ai_other_tasks_frequency.4
   - key: options.ai_code_generation_frequency.5
     t: A few times per hour
     aliases:
-      - options.ai_learning_frequency.5
+      - options.ai_other_tasks_frequency.5
   - key: options.ai_code_generation_frequency.6
     t: Constantly
     aliases:
-      - options.ai_learning_frequency.6
+      - options.ai_other_tasks_frequency.6
 
-  # ai_learning_frequency
+  # ai_other_tasks_frequency
 
-  - key: usage.ai_learning_frequency
-    t: Learning Frequency
-  - key: usage.ai_learning_frequency.question
-    t: How frequently do you use AI tools to learn new skills or answer questions?
+  - key: usage.ai_other_tasks_frequency
+    t: Other Tasks Frequency
+  - key: usage.ai_other_tasks_frequency.question
+    t: How frequently do you use AI tools for tasks other than code generation?
 
-  # what_do_you_use_ai_for
-  - key: usage.what_do_you_use_ai_for
+  # ai_project_type
+  - key: usage.ai_project_type
     t: Use Case
-  - key: usage.what_do_you_use_ai_for.question
+  - key: usage.ai_project_type.question
     t: What kind of projects do you use AI tools on?
 
-  # What do you use JS for?
-  - key: options.what_do_you_use_ai_for.frontend_development
+  - key: options.ai_project_type.frontend_development
     aliasFor: options.what_do_you_use_js_for.frontend_development
-  - key: options.what_do_you_use_ai_for.backend_development
+  - key: options.ai_project_type.backend_development
     aliasFor: options.what_do_you_use_js_for.backend_development
-  - key: options.what_do_you_use_ai_for.data_analysis
+  - key: options.ai_project_type.data_analysis
     aliasFor: options.what_do_you_use_js_for.data_analysis
-  - key: options.what_do_you_use_ai_for.machine_learning
+  - key: options.ai_project_type.machine_learning
     aliasFor: options.what_do_you_use_js_for.machine_learning
-  - key: options.what_do_you_use_ai_for.desktop_apps
+  - key: options.ai_project_type.desktop_apps
     aliasFor: options.what_do_you_use_js_for.desktop_apps
-  - key: options.what_do_you_use_ai_for.mobile_apps
+  - key: options.ai_project_type.mobile_apps
     aliasFor: options.what_do_you_use_js_for.mobile_apps
-  - key: options.what_do_you_use_ai_for.embedded_apps
+  - key: options.ai_project_type.embedded_apps
     aliasFor: options.what_do_you_use_js_for.embedded_apps
-  - key: options.what_do_you_use_ai_for.game_development
+  - key: options.ai_project_type.game_development
     aliasFor: options.what_do_you_use_js_for.game_development
-  - key: options.what_do_you_use_ai_for.data_visualization
+  - key: options.ai_project_type.data_visualization
     aliasFor: options.what_do_you_use_js_for.data_visualization
-  - key: options.what_do_you_use_ai_for.graphics_animation
+  - key: options.ai_project_type.graphics_animation
     aliasFor: options.what_do_you_use_js_for.graphics_animation
-  - key: options.what_do_you_use_ai_for.scripting
+  - key: options.ai_project_type.scripting
     aliasFor: options.what_do_you_use_js_for.scripting
-  - key: options.what_do_you_use_ai_for.command_line_tools
+  - key: options.ai_project_type.command_line_tools
     aliasFor: options.what_do_you_use_js_for.command_line_tools
-  - key: options.what_do_you_use_ai_for.developer_tooling
+  - key: options.ai_project_type.developer_tooling
     aliasFor: options.what_do_you_use_js_for.developer_tooling
-  - key: options.what_do_you_use_ai_for.automation
+  - key: options.ai_project_type.automation
     aliasFor: options.what_do_you_use_js_for.automation
-  - key: options.what_do_you_use_ai_for.bots
+  - key: options.ai_project_type.bots
     aliasFor: options.what_do_you_use_js_for.bots
   - key: options.what_do_you_use_js_for.testing
     aliasFor: options.what_do_you_use_js_for.testing
-  - key: options.what_do_you_use_ai_for.browser_extensions
+  - key: options.ai_project_type.browser_extensions
     aliasFor: options.what_do_you_use_js_for.browser_extensions
-  - key: options.what_do_you_use_ai_for.api
+  - key: options.ai_project_type.api
     aliasFor: options.what_do_you_use_js_for.api
-  - key: options.what_do_you_use_ai_for.infrastructure_as_code
+  - key: options.ai_project_type.infrastructure_as_code
     aliasFor: options.what_do_you_use_js_for.infrastructure_as_code
-  - key: options.what_do_you_use_ai_for.prototyping
+  - key: options.ai_project_type.prototyping
     aliasFor: options.what_do_you_use_js_for.prototyping
 
   # # what_tasks_do_you_use_ai_for
@@ -284,25 +291,152 @@ translations:
   # - key: options.what_tasks_do_you_use_ai_for.learning
   #   t: Learning new skills
 
-  - key: usage.what_kind_of_code_generated
+  - key: usage.ai_generated_code_type
     t: Generated Code
-  - key: usage.what_kind_of_code_generated.question
+  - key: usage.ai_generated_code_type.question
     t: What kind of code do you generate using AI tools?
 
-  - key: options.what_kind_of_code_generated.helper_functions
+  - key: options.ai_generated_code_type.helper_functions
     t: Helper functions
-  - key: options.what_kind_of_code_generated.frontend_components
+  - key: options.ai_generated_code_type.frontend_components
     t: Frontend components
-  - key: options.what_kind_of_code_generated.css_code
+  - key: options.ai_generated_code_type.css_code
     t: CSS code
-  - key: options.what_kind_of_code_generated.core_app_logic
+  - key: options.ai_generated_code_type.core_app_logic
     t: Core app logic
-  - key: options.what_kind_of_code_generated.api_integrations
+  - key: options.ai_generated_code_type.api_integrations
     t: API integration code
-  - key: options.what_kind_of_code_generated.documentation_comments
+  - key: options.ai_generated_code_type.documentation_comments
     t: Documentation & comments
-  - key: options.what_kind_of_code_generated.tests
+  - key: options.ai_generated_code_type.tests
     t: Tests
+
+    # ai_uses
+
+  - key: usage.ai_uses
+    t: Use Cases
+  - key: usage.ai_uses.question
+    t: What do you use AI tools for?
+
+  - key: options.ai_uses.code_generation
+    t: Code generation
+    aliases:
+      - options.ai_browser_apis.code_generation
+
+  - key: options.ai_uses.code_generation.description
+    t: Generating or refactoring code based on a prompt.
+    aliases:
+      - options.ai_browser_apis.code_generation.description
+
+  - key: options.ai_uses.translation
+    t: Translation
+    aliases:
+      - options.ai_browser_apis.translation
+
+  - key: options.ai_uses.translation.description
+    t: Translating content from one language to another.
+    aliases:
+      - options.ai_browser_apis.translation.description
+
+  - key: options.ai_uses.language_detection
+    t: Language detection
+    aliases:
+      - options.ai_browser_apis.language_detection
+
+  - key: options.ai_uses.language_detection.description
+    t: Detecting the language a text is written in.
+    aliases:
+      - options.ai_browser_apis.language_detection.description
+
+  - key: options.ai_uses.summarization
+    t: Summarization
+    aliases:
+      - options.ai_browser_apis.summarization
+
+  - key: options.ai_uses.summarization.description
+    t: Summarizing a text or dataset into its main themes.
+    aliases:
+      - options.ai_browser_apis.summarization.description
+
+  - key: options.ai_uses.text_generation
+    t: Text generation
+    aliases:
+      - options.ai_browser_apis.text_generation
+
+  - key: options.ai_uses.text_generation.description
+    t: Generating a text based on a prompt.
+    aliases:
+      - options.ai_browser_apis.text_generation.description
+
+  - key: options.ai_uses.image_generation
+    t: Image generation
+    aliases:
+      - options.ai_browser_apis.image_generation
+
+  - key: options.ai_uses.image_generation.description
+    t: Generating an image based on a prompt
+    aliases:
+      - options.ai_browser_apis.image_generation.description
+
+  - key: options.ai_uses.speech_generation
+    t: Speech generation
+    aliases:
+      - options.ai_browser_apis.speech_generation
+
+  - key: options.ai_uses.speech_generation.description
+    t: Generating speech based on a prompt or a text.
+    aliases:
+      - options.ai_browser_apis.speech_generation.description
+
+  - key: options.ai_uses.speech_recognition
+    t: Speech recognition
+    aliases:
+      - options.ai_browser_apis.speech_recognition
+
+  - key: options.ai_uses.speech_recognition.description
+    t: Transcribing recorded or real-time speech into text.
+    aliases:
+      - options.ai_browser_apis.speech_recognition.description
+
+  - key: options.ai_uses.computer_vision
+    t: Computer vision
+    aliases:
+      - options.ai_browser_apis.computer_vision
+
+  - key: options.ai_uses.computer_vision.description
+    t: Detecting items in a photo or video feed.
+    aliases:
+      - options.ai_browser_apis.computer_vision.description
+
+  - key: options.ai_uses.sentiment_analysis
+    t: Sentiment analysis
+    aliases:
+      - options.ai_browser_apis.sentiment_analysis
+
+  - key: options.ai_uses.sentiment_analysis.description
+    t: Classifying text data based on sentiment.
+    aliases:
+      - options.ai_browser_apis.sentiment_analysis.description
+
+  - key: options.ai_uses.caption_generation
+    t: Captions generation
+    aliases:
+      - options.ai_browser_apis.caption_generation
+
+  - key: options.ai_uses.caption_generation.description
+    t: Generating captions or subtitles for images or videos.
+    aliases:
+      - options.ai_browser_apis.caption_generation.description
+
+  - key: options.ai_uses.learning_research
+    t: Learning & research
+    aliases:
+      - options.ai_browser_apis.learning_research
+
+  - key: options.ai_uses.learning_research.description
+    t: Learning new skills or researching a topic.
+    aliases:
+      - options.ai_browser_apis.learning_research.description
 
   # ai_pain_points
   - key: usage.ai_pain_points
@@ -314,8 +448,8 @@ translations:
     t: AI not understanding the prompt
   - key: options.ai_pain_points.poor_generated_code
     t: Poor generated code quality
-  - key: options.ai_pain_points.ethical_concerns
-    t: Ethical concerns (e.g., bias, plagiarism)
+  - key: options.ai_pain_points.training_data_concerns
+    t: Concerns about training on copyrighted materials
   - key: options.ai_pain_points.integration_difficulties
     t: Integration difficulties with existing workflow
   - key: options.ai_pain_points.costs
@@ -324,6 +458,8 @@ translations:
     t: Environmental impact
   - key: options.ai_pain_points.lack_of_context
     t: AI not taking into account entire project context
+  - key: options.ai_pain_points.privacy_concerns
+    t: Privacy concerns
 
   # ai_missing_features
 
@@ -351,7 +487,14 @@ translations:
   - key: opinions.integral_workflow
     t: Workflow Integration
   - key: opinions.integral_workflow.question
-    t: AI tools are an integral part of my workflow
+    t: AI tools have become an integral part of my workflow
+
+  # more_productive
+
+  - key: opinions.more_productive
+    t: Productivity
+  - key: opinions.more_productive.question
+    t: AI tools have made me a lot more productive
 
   # job_security_threat
 
@@ -415,3 +558,9 @@ translations:
     t: People
   - key: resources.ai_people.question
     t: Who do you follow on other social media to learn about AI?
+
+  - key: user_info.years_of_experience.state_of_ai
+    t: Years of Experience
+
+  - key: user_info.years_of_experience.state_of_ai.question
+    t: How long have you been working or studying as a developer, in years?

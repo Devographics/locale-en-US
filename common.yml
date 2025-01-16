@@ -1637,7 +1637,13 @@ translations:
   - key: user_info.did_you_run_into_technical_issues
     t: Technical Issues
   - key: user_info.did_you_run_into_technical_issues.question
-    t: Did you run into any technical issues while taking this survey?
+    t: What technical issues did you run into while taking this survey, if any?
+
+  # missing questions
+  - key: user_info.missing_questions
+    t: Missing Questions
+  - key: user_info.missing_questions.question
+    t: Were there any other questions you wish the survey would've asked?
 
   # how can we improve the survey?
   - key: user_info.how_can_we_improve
