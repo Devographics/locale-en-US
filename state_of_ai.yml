@@ -132,6 +132,26 @@ translations:
   - key: options.ai_generated_code_refactoring.8
     t: 100% refactored
 
+  # ai_code_refactoring_reasons
+
+  - key: usage.ai_code_refactoring_reasons
+    t: Reasons for Refactoring
+  - key: usage.ai_code_refactoring_reasons.question
+    t: What are the main reasons that require you to refactor AI-generated code?
+
+  - key: options.ai_code_refactoring_reasons.excessive_repetition
+    t: Excessive repetition
+  - key: options.ai_code_refactoring_reasons.performance_issues
+    t: Performance issues
+  - key: options.ai_code_refactoring_reasons.outdated_imports
+    t: Outdated imports
+  - key: options.ai_code_refactoring_reasons.security_issues
+    t: Security issues
+  - key: options.ai_code_refactoring_reasons.variable_renaming
+    t: Variable renaming
+  - key: options.ai_code_refactoring_reasons.improving_readability
+    t: Poor readability
+
   # ai_personal_expenses
 
   - key: usage.ai_personal_expenses
@@ -224,6 +244,9 @@ translations:
     t: Other Tasks Frequency
   - key: usage.ai_other_tasks_frequency.question
     t: How frequently do you use AI tools for tasks other than code generation?
+
+  - key: usage.ai_other_tasks_frequency.prompt
+    t: Research, learning new skills, summarizing documents, etc.
 
   # ai_project_type
   - key: usage.ai_project_type
@@ -445,21 +468,49 @@ translations:
     t: What are your top pain points when it comes to using AI tools?
 
   - key: options.ai_pain_points.misunderstood_prompt
-    t: AI not understanding the prompt
+    t: Prompt comprehension
+  - key: options.ai_pain_points.misunderstood_prompt.description
+    t: AI not correctly understanding the prompt.
+
   - key: options.ai_pain_points.poor_generated_code
-    t: Poor generated code quality
+    t: Code quality
+  - key: options.ai_pain_points.poor_generated_code.description
+    t: Code with low performance, excessive repetition, outdated imports, etc.
+
   - key: options.ai_pain_points.training_data_concerns
-    t: Concerns about training on copyrighted materials
+    t: Copyright concerns
+  - key: options.ai_pain_points.training_data_concerns.description
+    t: Concerns about training on copyrighted materials.
+
   - key: options.ai_pain_points.integration_difficulties
-    t: Integration difficulties with existing workflow
+    t: Integration difficulties
+  - key: options.ai_pain_points.integration_difficulties.description
+    t: Difficulties integrating AI tools with your existing workflow.
+
   - key: options.ai_pain_points.costs
-    t: Costs
+    t: Financial costs
+  - key: options.ai_pain_points.costs.description
+    t: AI tools being too expensive.
+
   - key: options.ai_pain_points.environmental_impact
     t: Environmental impact
+  - key: options.ai_pain_points.environmental_impact.description
+    t: Concerns about the energy consumption of AI tools.
+
   - key: options.ai_pain_points.lack_of_context
+    t: Lack of context
+  - key: options.ai_pain_points.lack_of_context.description
     t: AI not taking into account entire project context
+
+  - key: options.ai_pain_points.lack_of_memory
+    t: Lack of memory
+  - key: options.ai_pain_points.lack_of_memory.description
+    t: AI not having memory over time
+
   - key: options.ai_pain_points.privacy_concerns
     t: Privacy concerns
+  - key: options.ai_pain_points.privacy_concerns.description
+    t: Concerns about private code or data leaking to AI providers.
 
   # ai_missing_features
 
