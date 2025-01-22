@@ -42,17 +42,17 @@ translations:
   - key: introduction.react2024
     t: |
 
-      <span class="first-letter">R</span>eact has been around for 11 years, which seems hard to even grasp when you look at the current pace of web development. 
+      <span class="first-letter">T</span>his has been a year of consolidation for React.
 
-      The reason why we're still talking about React today is that it's somehow been able to keep up, always evolving to meet the challenges thrown at it by its users. 
+      With the community still reeling from the introduction of React Server Components, the lack of any major breaking changes was very welcome.
 
-      In fact, not content with merely keeping up, React is even leading the way on new innovative patterns such as Server Components and the upcoming Compiler. 
+      Instead, React 19 focused on taking a lot of our pain away, from making `forwardRef` obsolete, to diffs for hydration errors, to a new compiler that makes our code more performant with minimal extra work on our part. 
 
-      That being said, please note that this data was collected between **October 27** and **November 15, 2024**, which does mean that React 19 –as well as any other development that may have taken place after that time period– isn't covered. 
+      Yet while React itself may be trying to calm things down, the ecosystem is still innovating at a furious pace. For example, an ongoing story over the past year has been the TanStack team leveraging TanStack Query's success into the creation of TanStack Start, a potential challenger to Next.js' meta-framework crown – especially for those who aren't ready to embrace the server-first approach.  
 
-      Even so, there's still a lot to explore here, from component libraries, to state management techniques, to application patterns. So let's discover the results of the first ever State of React community survey together!
+      But for now at least, let's take a breather and celebrate the relative stability of the world's most popular JavaScript library. 
 
-      *This in an unofficial survey unaffiliated with Meta, Vercel, or the React team.*
+      *Please noe that this in an unofficial survey unaffiliated with Meta, Vercel, or the React team.*
 
       <span class="conclusion__byline">– Sacha Greif</span>
 
@@ -102,14 +102,52 @@ translations:
     t: |
       **13,003** respondents took part in the first ever State of React survey. A small sample of the overall community to be sure, but still large enough to provide us with valuable data!
 
-  - key: user_info.country.takeaway
+  - key: user_info.country.takeaway.react2024
     t: |
       The majority of respondents came from the **U.S.** and **Europe**.
 
-  - key: user_info.locale.takeaway
+  - key: user_info.age.takeaway.react2024
+    t: |
+      With a mean age of 32.4 years old, the average State of React respondent turned out to be slightly younger than the State of JS (33.5) orState of CSS (34.9).
+
+  - key: user_info.years_of_experience.takeaway.react2024
+    t: |
+      59% of respondents have less than 10 years of experience, meaning they never knew a world without React (which is itself nearly 12 years old!).
+
+  - key: user_info.company_size.takeaway.react2024
+    t: |
+      44% of respondents worked for companies with over 100 employees.
+
+  - key: user_info.yearly_salary.takeaway.react2024
+    t: |
+      Survey respondents had a slightly higher median salary ($75,000) compared to State of JavaScript results ($70,000). Yet the same income disparities held through when looking at the U.S. vs the rest of the world.
+
+  - key: user_info.job_title.takeaway.react2024
+    t: |
+      “Engineer” continues to be the most lucrative job title, while “Developer” remains at the bottom of the ladder.
+
+      And just like in the most recent [State of JavaScript survey results](https://2024.stateofjs.com/en-US/demographics/#job_title), fullstack and frontend positions were staffed by the youngest respondents on average, and frontend job titles were also correlated with a significantly higher proportion of women.
+
+  - key: user_info.higher_education_degree.takeaway.react2024
+    t: |
+      Unlike results shown by other surveys, this time the lack of a higher education degree did not seem to correlate with lower income levels.
+
+  - key: user_info.gender.takeaway.react2024
+    t: |
+      At 92% men, this edition's gender demographics remained consistent with previous surveys, showing that more effort is still needed to broaden the reach of the survey and ensure it represents all facets of the community.
+
+  - key: user_info.race_ethnicity.takeaway.react2024
+    t: |
+      It's encouraging to see the proportion of Hispanic and Latin respondents climb from 11% to 19%, potentially coinciding with the rise in popularity of Spanish and Portuguese-speaking streamers and educators.
+
+  - key: user_info.disability_status.takeaway.react2024
+    t: |
+      Whether permanent or temporary, the fact that disabilities are a part of daily life for many is worth keeping in mind whenever we build new apps.
+
+  - key: user_info.locale.takeaway.react2024
     aliasFor: user_info.locale.description
 
-  - key: user_info.completion_stats.takeaway
+  - key: user_info.completion_stats.takeaway.react2024
     aliasFor: user_info.completion_stats.description
 
   # features
@@ -121,31 +159,37 @@ translations:
   - key: features.all_features
     t: All Features
 
-  - key: features.all_features.takeaway
+  - key: features.all_features.takeaway.react2024
     t: |
       This chart recaps all of the survey's feature questions. The main bars represent a respondent's experience; and they are then further subdivided according to that respondent's sentiment. You can change the grouping to alternate between both.
 
-  - key: features.reading_list.takeaway
+
+      Worth highlighting this year: `createPortal`, while only used by 46.4% of respondents, was the fifth most loved feature. The Taint API on the other hand was both the least used and most unknown feature – which make sense since it's still experimental.
+
+
+      On the opposite end of the spectrum, `useState` was not only the most used feature but also the most beloved with only 1.26% of negative sentiment, which goes to show that simple solutions will always have their place.
+
+  - key: features.reading_list.takeaway.react2024
     t: >
-      **30%** of respondents added at least one item to their reading list while taking the survey in order to learn more about them later. Here is a breakdown of their picks.
+      **25%** of respondents added at items to their reading list while taking the survey in order to learn more about them later. Here is a breakdown of their picks.
 
   - key: features.main_apis_items
     t: Main APIs Experience & Sentiment
-  - key: features.main_apis_pain_points.takeaway
+  - key: features.main_apis_pain_points.takeaway.react2024
     t: >
-      Among the most common React APIs, `forwardRef` was by far the one generating the most pain for developers, with `memo` a close second. Thankfully the React team is in the process of rolling out better alternatives to both.
+      Just like last year, `forwardRef` and `memo` were the top pain points among the most common React APIs. With React 19 now out and promising to alleviate both issues, it'll be interesting to see what this chart looks like next year.
 
   - key: features.hooks_items
     t: Hooks Experience & Sentiment
-  - key: features.hooks_pain_points.takeaway
+  - key: features.hooks_pain_points.takeaway.react2024
     t: >
-      Unsurpringly, `useEffect` and `useCallback` were cited as the most problematice React hooks, in large part due to the management of dependency arrays.
+      `useEffect` is still the most problematic React hook, in large part due to having to manually manage dependency arrays.
 
   - key: features.new_apis_items
     t: New APIs Experience & Sentiment
-  - key: features.new_apis_pain_points.takeaway
+  - key: features.new_apis_pain_points.takeaway.react2024
     t: >
-      While React's ability to keep evolving and stay relevant over time is one of its best assets, it also comes at a cost and new APIs such as **Server Components** can definitely be tough to adopt.
+      **React Server Components** and overall complexity are still the top pain points when it comes to taking advantage of React's newer features.
 
   # libraries
 
@@ -155,49 +199,149 @@ translations:
 
   - key: tools.all_tools_experience
     t: Libraries Experience & Sentiment
-  - key: tools.all_tools_experience.takeaway
+  - key: tools.all_tools_experience.takeaway.react2024
     t: >
-      Among React libraries and frameworks, **Next.js** and **TanStack Query** lead the way in terms of overall positivity.
+      Among React libraries and frameworks, **TanStack Query** and **Zustand** have overtaken **Next.js** to take the lead the way in terms of overall positivity.
 
-      Note that some items such as `useState` and `fetch` were also included in order to provide a baseline, even though they're not libraries themselves.
+
+      And while **Create React App** may be the most used framework, it's also one of the most disliked with 33.1% of negative opinions, right after Redux's 34.1%.
+
+
+      Note that some items such as `useState` and `fetch` were also included as points of comparison, even though they're not libraries themselves.
 
   - key: tools.scatterplot_overview
     t: Libraries Retention vs Usage
-  - key: tools.scatterplot_overview.takeaway
+  - key: tools.scatterplot_overview.takeaway.react2024
     t: >
-      Among libraries and frameworks, **Next.js** was the only item boasting both high retention and high usage. On the other hand, while even more respondents had used **Create React App**, a lot fewer were willing to keep using it going forward.
+      Among libraries and frameworks, **Next.js** was still the only item boasting both high retention and high usage. That being said, **TanStack Query** does seem to be on the verge of crossing over into the >50% usage quadrant anytime now!
 
   # component libraries
 
   - key: tools.component_libraries_experience
     t: Component Libraries Experience & Sentiment
-  - key: tools.component_libraries_experience.takeaway
+  - key: tools.component_libraries_experience.takeaway.react2024
     t: >
       **React Aria** and **Radix** lead the rankings in terms of positivity, proving that the headless approach to component libraries has a lot going for it.
+
+  - key: tools.component_libraries_ratios
+    t: Component Libraries Ratios Over Time
+  - key: tools.component_libraries_ratios.takeaway.react2024
+    t: >
+      While **MUI** maintains in top rank in terms of usage, **shadcn/ui** is making huge gains, doubling from 20% to 42% in a year; as well as topping the positivity chart with 80%!
+
+  - key: tools.animation_libraries.takeaway.react2024
+    t: >
+      **Motion** (previously known as Framer Motion) takes a well-deserved first place to celebrate its recent rebranding!
+
+  - key: tools.data_visualization_libraries.takeaway.react2024
+    t: >
+      **Chart.js** tops the rankings this year. By the way, did you know that all of this survey's chart are custom-built?
+
+  - key: tools.form_libraries.takeaway.react2024
+    t: >
+      **React Hook Form** is by far the most common form library today. But with the growing popularity of the TanStack, er, stack, it'll be interesting to keep an eye on **TanStack Forms** in the future.
+
+  - key: tools.react_form_patterns.takeaway.react2024
+    t: >
+      Interestingly, a majority of developers is comfortable using both **controlled** and **uncontrolled** forms. 
+
+
+      That being said, if you must pick only one then **controlled** form inputs seem like the way to go!
+
+  - key: tools.css_tools.takeaway.react2024
+    t: >
+      Did **Tailwind** kill CSS-in-JS? Or did CSS itself simply catch up? In any case the days of getting fancy with CSS architecture seem to be over, as the top three spots are all taken by longstanding CSS tools.
+
+  - key: tools.component_libraries_pain_points.takeaway.react2024
+    t: >
+      With the amount of pain caused by **styling & customization** issues, it's no wonder “headless” libraries such as **Radix** and **React Aria** have proven so popular.
 
   # state management
 
   - key: tools.state_management_experience
     t: State Management Experience & Sentiment
-  - key: tools.state_management_experience.takeaway
+  - key: tools.state_management_experience.takeaway.react2024
     t: >
       Beyond **useState**, the state management solution with the highest positivity ratio is **Zustand**. And while **Redux** still boasts a large userbase, it isn't quite as beloved.
+
+  - key: tools.state_management_ratios
+    t: State Management Ratios Over Time
+  - key: tools.state_management_ratios.takeaway.react2024
+    t: >
+      **Zustand** confirms its lead in terms of positivity, with only the default **useState** scoring higher. It's also grown in terms of usage, going from 28% to 41% over the past year!
+
+  - key: tools.state_management_others.takeaway.react2024
+    t: >
+      While **TanStack Query** is best known as a data loading library, it does a great job of managing the resulting state as well.
+
+  - key: tools.state_management_pain_points.takeaway.react2024
+    t: >
+      State management as a whole remains unnecessarily complex, with **Redux** in particular taking a lot of the blame from respondents.
 
   # data loading
 
   - key: tools.data_loading_experience
     t: Data Loading Experience & Sentiment
-  - key: tools.data_loading_experience.takeaway
+  - key: tools.data_loading_experience.takeaway.react2024
     t: >
       **TanStack Query** has been making waves for a while now, and it turns out its reputation is reflected in the data since it's the data loading method respondents felt the most positive about, right after the native `fetch` API.
+
+  - key: tools.data_loading_ratios
+    t: Data Loading Ratios Over Time
+  - key: tools.data_loading_ratios.takeaway.react2024
+    t: >
+      **TanStack Query** continues its growth trajectory, both in terms of usage and positivity. The interest graph in particular reveals that –along with **tRPC**– it's pretty much the only data loading library that is still intriguing respondents today!
+
+  - key: tools.data_loading_others.takeaway.react2024
+    t: >
+      Besides **ky** and **URQL**, no new data loading library scored more than the minimum 10 mention threshold.
+
+  - key: tools.data_loading_pain_points.takeaway.react2024
+    t: >
+      The fact that **state management** was cited as the biggest issues when it comes to data loading may explain the popularity of **TanStack Query**, since it tackes that issue head-on. 
+
+
+      Yet overall, the fact that only 3% of respondents shared a pain point at all shows that data loading may actually have somehow become one of the *least* painful parts of modern web apps.
 
   # back-end infrastructure
 
   - key: tools.meta_frameworks_experience
     t: Meta-Frameworks Experience & Sentiment
-  - key: tools.meta_frameworks_experience.takeaway
+  - key: tools.meta_frameworks_experience.takeaway.react2024
     t: >
       While you'll certainly have no trouble finding people complaining about **Next.js**, it still managed to top the positivity rankings for meta-frameworks, followed by **Remix** and **Astro**.
+
+  - key: tools.meta_frameworks_ratios
+    t: Meta-Frameworks Ratios Over Time
+  - key: tools.meta_frameworks_ratios.takeaway.react2024
+    t: >
+      The only framework showing strong usage growth is **Astro**, going from 18% to 26%. Also worth noting that **TanStack Start** made a very strong debut at 81% interest and 90% retention!
+
+  - key: tools.meta_frameworks_others.takeaway.react2024
+    t: >
+      **Waku** is notable in that it's one of the few frameworks that were started after the advent of React Server Components, with the intent of taking full advantage of them from the start.
+
+  - key: tools.build_tools.takeaway.react2024
+    t: >
+      **Vite** has now overtaken **Webpack**, which is quite remarkable given how long Webpack has been around.
+
+  - key: tools.hosting.takeaway.react2024
+    t: >
+      **Vercel** leads the rankings, which is understandable given its heavy investment in the React ecosystem.
+
+  - key: tools.other_services.takeaway.react2024
+    t: >
+      **Firebase** is still a popular data storage platform, while **Sentry** remains most people's go-to for error tracking.
+
+  - key: tools.backend_language.takeaway.react2024
+    t: >
+      As expected, **TypeScript** and **JavaScript** power most React app's back-ends, showing that developers put a premium on keeping their entire codebase in the same language.
+
+  - key: tools.back_end_infrastructure_pain_points.takeaway.react2024
+    t: >
+      Oftentimes, the most common pain points will be generic issues such as “excessive complexity” or ”tough learning curve” – but not this time. 
+
+      **End-to-end typesafety** (sharing types between server and client; and making sure any data transferred comforms to them) is clearly this year's top issue when it comes to back-end infrastructure, and it explains why we're now seeing tools such as **TanStack Start** and **tRPC** appear to solve it.
 
   #other_tools
 
@@ -205,19 +349,63 @@ translations:
     t: |
       React is known for focusing on UI rendering while being fairly agnostic about the other parts of your app, and that's reflected in the vibrant ecosystem that has emerged to fill these gaps!
 
+  - key: tools.testing.takeaway.react2024
+    t: |
+      **Jest** and **Testing Library** maintained their lead this year. **Bun** also showed up with a few write-ins, which depending on the overall success of the new runtime might either be a one-time anomaly, or a sign of things to come.
+
+  - key: tools.renderers.takeaway.react2024
+    t: |
+      As expected the vast majority of developers render their app in the browser, but this question highlights just how diverse the React ecosystem really is, with renderers for everything from PDFs to command-line apps!
+
+  - key: tools.validation.takeaway.react2024
+    t: |
+      As you might've guessed, **Zod** is still the most common validation library.
+
+  - key: tools.auth.takeaway.react2024
+    t: |
+      Depending on whether you prefer a hosted service or a self-hosted solution, **Auth0** and **Auth.js** are both great options.
+
+  - key: tools.mobile_development.takeaway.react2024
+    t: |
+      While **React Native** still has its first place, **Expo** is gaining ground fast, and it would not be surprising to see it stealing the top spot within a year.
+
+  - key: tools.other_frontend_frameworks.takeaway.react2024
+    t: |
+      What do React devs use when they're not using React? Turns out, **Angular** and **Vue**, just like everybody else!
+
   # usage
 
   - key: sections.usage.description.react2024
     t: |
       No matter what version you use, application pattern you adopt, or industry sector you belong to, there's no wrong way to use React!
 
-  - key: usage.js_app_patterns.takeaway
+  - key: usage.what_do_you_use_react_for.takeaway.react2024
     t: >
-      Despite the focus on static site generation, server-side rendering, and server components, it's interesting to note that the vast majority of React users still work on Single Page Applications.
+      It's interesting to see that despite React traditionally being associated with complex client-side apps, **Static sites** still came in second, showing that JSX can also work great as a simple templating language.
 
-  - key: usage.react_version.takeaway
+  - key: usage.react_version.takeaway.react2024
     t: >
-      Note that the survey was conducted **before** the announcement or release of React 19.
+      Note that the survey was conducted **before** the stable release of React 19.
+
+  - key: usage.usage_type.takeaway.react2024
+    t: >
+      The overwhelming majority of respondents use React professionally.
+
+  - key: usage.industry_sector.takeaway.react2024
+    t: >
+      **Programming & Technical Tools** may be slightly over-represented as an industry sector, as it often attracts the type of developer most likely to fill out a survey such as this one.
+
+  - key: usage.js_app_patterns.takeaway.react2024
+    t: >
+      Despite the recent focus on static site generation, server-side rendering, and server components, it's interesting to note that the vast majority of React developers still work on Single Page Applications.
+
+  - key: usage.new_features.takeaway.react2024
+    t: >
+      With `memo` being a longstanding pain point, it makes sense that respondents would be most excited about the **React Compiler**.
+
+  - key: usage.usage_pain_points.takeaway.react2024
+    t: >
+      Once more, **excessive complexity** stands out as a major issue. It remains to be seen if a new generation of tooling will finally be able to alleviate our pain, or if that complexity is simply a natural consequence of the way the web works.
 
   # resources
 
@@ -225,29 +413,33 @@ translations:
     t: |
       One of the big reason for React's continued dominance is the sheer amount of documentation, blog posts, videos, and other resources it has accumulated over the years. Here's just a small sample!
 
-  - key: resources.learning_methods.takeaway
+  - key: resources.learning_methods.takeaway.react2024
     t: |
       The React team has done a great job with the new React docs site, so it shouldn't be surprised that it has become the number one way people learn about the framework.
 
-  - key: resources.blogs_news_magazines.takeaway
+  - key: resources.blogs_news_magazines.takeaway.react2024
     t: |
       While this list is populated by many usual suspects, it's worth celebrating the presence of React-specific media such as **This Week in React** or **React Status**.
 
-  - key: resources.sites_courses.takeaway
+  - key: resources.courses.takeaway.react2024
     t: |
-      While **Stack Overflow** has gone through its own share of AI-related trouble recently, it still tops the rankings for now.
+      It's always impressive to see how educators like **Wes Bos** or **Epic React**'s Kent C. Dodds can rank almost as high as entire platforms such as **Udemy** or **freeCodeCamp**.
 
-  - key: resources.podcasts.takeaway
+  - key: resources.podcasts.takeaway.react2024
     t: |
-      **Syntax** continues to assert its dominance over the dev podcast landscape. Also interesting to note the lack of any active React-specific podcast in the top 10.
+      **Syntax** continues to assert its dominance over the dev podcast landscape, and while there still really isn't much in terms of web-focused React podcasts, **React Native Radio** comes in at a very honorable #8.
 
-  - key: resources.video_creators.takeaway
+  - key: resources.video_creators.takeaway.react2024
     t: |
-      While **Theo** and **Web Dev Simplified** both featured React content, it's interesting to note that despite not typically covering React, **The Primeagen** still comes in at #3.
+      While **Fireship** was surpisingly low in the rankings last year, the popular YouTuber now tops the video creator podium, ahead of **Theo** and **The Primeagen**.
 
-  - key: resources.people.takeaway
+  - key: resources.people.takeaway.react2024
     t: |
-      When it comes to being an influential figure in the React community, it's no surprise that **Dan Abramov** tops the rankings – Although **Kent C. Dodds** and **Theo** both seem to be challenging for the crown.
+      With a huge climb from 17 to 5, **shadcn** is doing their best to match their own library's popularity!
+
+  - key: resources.other_surveys.takeaway.react2024
+    t: |
+      While it's no surprise that many respondents also take the **State of JavaScript** survey, it's worth noting that a majority also fill out the **State of CSS**, indicating that the JS/CSS divide may not be as big as we often make it to be.
 
   #awards
   - key: sections.awards.description.react2024

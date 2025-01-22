@@ -409,7 +409,7 @@ translations:
 
   - key: user_info.age.takeaway.js2024
     t: >
-      With an mean age of 33.5 years old, the average State of JS respondent turned out to be slightly younger than State of CSS (34.9) and State of HTML (35.8).
+      With a mean age of 33.5 years old, the average State of JS respondent turned out to be slightly younger than State of CSS (34.9) and State of HTML (35.8).
 
       As expected, age and income are positively correlated; and it's encouraging to see more gender diversity in younger age brackets, as that could indicate changing demographics
 

@@ -1468,7 +1468,7 @@ translations:
   - key: user_info.years_of_experience
     t: Years of Experience
   - key: user_info.years_of_experience.question
-    t: How long have you been working or studying in this field, in years?
+    t: How long have you been working or studying in web development, in years?
 
   # company size
   - key: user_info.company_size

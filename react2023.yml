@@ -111,7 +111,7 @@ translations:
     t: Hooks Experience & Sentiment
   - key: features.hooks_pain_points.takeaway
     t: >
-      Unsurpringly, `useEffect` and `useCallback` were cited as the most problematice React hooks, in large part due to the management of dependency arrays.
+      Unsurpringly, `useEffect` and `useCallback` were cited as the most problematic React hooks, in large part due to the management of dependency arrays.
 
   - key: features.new_apis_items
     t: New APIs Experience & Sentiment

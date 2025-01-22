@@ -290,8 +290,12 @@ translations:
 
   - key: sections.user_metadata.title
     t: Metadata
+    aliases:
+      - sections._user_metadata.title
   - key: sections.user_metadata.description
     t: Additional metadata collected about respondents.
+    aliases:
+      - sections._user_metadata.description
 
   ###########################################################################
   # User Info
@@ -387,7 +391,7 @@ translations:
   - key: user_metadata.past_same_survey_count
     t: Participation Count
   - key: user_metadata.past_same_survey_count.description
-    t: How many times respondents have taken part in the current survey.
+    t: How many times respondents have taken part in previous editions of the survey.
   # - key: user_metadata.past_same_survey_count.note
   #   aliasFor: user_metadata.past_surveys.note
 
