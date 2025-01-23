@@ -17,20 +17,40 @@ translations:
   - key: sections.chatbots.description
     t: General-purpose AI tools.
 
+  - key: tools.chatbots_pain_points
+    t: Chatbots Pain Points
+  - key: tools.chatbots_pain_points.question
+    t: Which pain points have you encountered when using chatbots?
+
   - key: sections.coding_assistants.title
     t: Coding Assistants
   - key: sections.coding_assistants.description
     t: AI tools that help throughout the development process.
+
+  - key: tools.coding_assistants_pain_points
+    t: Coding Assistants Pain Points
+  - key: tools.coding_assistants_pain_points.question
+    t: Which pain points have you encountered when using coding assistants?
 
   - key: sections.code_generation.title
     t: Code Generation
   - key: sections.code_generation.description
     t: AI tools used to generate new codebases or code snippets.
 
+  - key: tools.code_generation_pain_points
+    t: Code Generation Pain Points
+  - key: tools.code_generation_pain_points.question
+    t: Which pain points have you encountered when using code generation tools?
+
   - key: sections.ides.title
     t: IDEs & Editors
   - key: sections.ides.title
     t: IDEs or code editors focused on AI integration.
+
+  - key: tools.ides_pain_points
+    t: Coding Assistants Pain Points
+  - key: tools.ides_pain_points.question
+    t: Which pain points have you encountered when using AI-focused IDEs and editors?
 
   - key: sections.image_generation.title
     t: Image Generation
@@ -43,6 +63,11 @@ translations:
     t: Programming Languages
   - key: other_tools.ai_programming_languages.question
     t: Which programming language(s) do you use AI tools with?
+
+  - key: other_tools.image_generation
+    t: Image Generation
+  - key: other_tools.image_generation.question
+    t: Which AI tools or models do you use to generate images?
 
   # ai_libraries_sdks
 
