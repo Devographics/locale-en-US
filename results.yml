@@ -314,14 +314,17 @@ translations:
     t: Source
     aliases:
       - user_metadata.source
+      - _user_metadata.source
   - key: user_info.source.description
     t: How respondents found out about the survey
     aliases:
       - user_metadata.source.description
+      - _user_metadata.source.description
   - key: user_info.source.note
     t: Respondent source is computed based on referrer data, URL tracking data, and self-reported answers.
     aliases:
       - user_metadata.source.note
+      - _user_metadata.source.note
 
   - key: options.source.other_answers
     t: Other sources
@@ -391,7 +394,7 @@ translations:
   - key: user_metadata.past_same_survey_count
     t: Participation Count
   - key: user_metadata.past_same_survey_count.description
-    t: How many times respondents have taken part in previous editions of the survey.
+    t: How many times respondents have taken part in previous editions of this survey.
   # - key: user_metadata.past_same_survey_count.note
   #   aliasFor: user_metadata.past_surveys.note
 
