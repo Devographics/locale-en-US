@@ -12,15 +12,15 @@ translations:
     t: |
       This first part of the survey is all about which AI tools you use, or have heard about.
 
-  - key: sections.chatbots.title
-    t: Chatbots
-  - key: sections.chatbots.description
+  - key: sections.models.title
+    t: Model Providers
+  - key: sections.models.description
     t: General-purpose AI tools.
 
-  - key: tools.chatbots_pain_points
-    t: Chatbots Pain Points
-  - key: tools.chatbots_pain_points.question
-    t: Which pain points have you encountered when using chatbots?
+  - key: tools.models_pain_points
+    t: Model Providers Pain Points
+  - key: tools.cmodels_pain_points.question
+    t: Which pain points have you encountered when using AI models?
 
   - key: sections.coding_assistants.title
     t: Coding Assistants
@@ -536,6 +536,20 @@ translations:
     t: Privacy concerns
   - key: options.ai_pain_points.privacy_concerns.description
     t: Concerns about private code or data leaking to AI providers.
+
+  # ai_running_locally
+
+  - key: usage.ai_running_locally
+    t: Local AI
+  - key: usage.ai_running_locally.question
+    t: Have you tried running AI models locally on your own machine?
+
+  - key: options.ai_running_locally.no_not_interested
+    t: No, and I'm not interested
+  - key: options.ai_running_locally.no_but_interested
+    t: No, but I'd like to
+  - key: options.ai_running_locally.yes_interested
+    t: "Yes"
 
   # ai_missing_features
 
