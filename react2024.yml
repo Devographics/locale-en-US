@@ -512,25 +512,26 @@ translations:
   # Conclusion
   ###########################################################################
 
-  - key: conclusion.react2024.josh_comeau
+  - key: conclusion.react2024.sebastien_lorber
     t: |
 
-      <span class="first-line">What a year!</span>
+      <span class="first-line">What a great time to be a React developer!</span>
 
-      With the introduction of React Server Components, I’d say this has been the biggest year for React since 2018, when React Hooks were first introduced.
+      This year started with a [React Labs update](https://react.dev/blog/2024/02/15/react-labs-what-we-have-been-working-on-february-2024) and a [tweet](https://x.com/acdlite/status/1758229889595977824) from Andrew Clark promising we’d never need to use forwardRef again — the [most disliked React feature](../features/#all_features). Fast forward, and this promise has been largely fulfilled, with [React 19](https://react.dev/blog/2024/12/05/react-19) introducing exciting new features to play with along the way.
 
-      In the 5 years since 2018, Hooks have reached overwhelming adoption. A whopping 99.5% of survey respondents have adopted `useState`, and less than 2% are unhappy about it. Class components still exist, but they’ve been relegated to legacy codebases and the occasional error boundary component.
+      It was a close call, though: the new version was set to launch in [June](https://x.com/acdlite/status/1797668537349328923), when the [Suspense drama](https://tkdodo.eu/blog/react-19-and-suspense-a-drama-in-3-acts) unfolded, delaying the release until December. An optimization to render Suspense fallbacks sooner inadvertently introduced a Suspense siblings waterfall issue in many client-side apps. Fortunately, the React team went the extra mile to preserve the optimization while preventing waterfalls by introducing a new [Suspense siblings pre-warming](https://react.dev/blog/2024/04/25/react-19-upgrade-guide#improvements-to-suspense) feature.
 
-      I wonder, though… Will we all be using Server Components 5 years after their release, in 2028? I’m not so sure. The Server Components paradigm requires deep integration with the bundler and router. It’s not something that most developers can start incrementally adopting in their current React codebase.
+      Aside from the long wait, the adoption of this version has been relatively smooth from my perspective. The `18.3` release introduced extra warnings to help prepare our apps ahead of time, and the React team did an outstanding job minimizing breaking changes and documenting them thoroughly in the [upgrade guide](https://react.dev/blog/2024/04/25/react-19-upgrade-guide). Of course, we're still wrapping our heads around all the new features and APIs, but client-side React, as we know and love it, is now better than ever.
 
-      React developers like to keep up-to-date; 71% of survey respondents said they were using React 18, the newest version available when this data was collected. At the same time, the most widely-used React environment is still Create React App, despite being officially deprecated and not having a release since April 2022. We’ll happily update React when a new version comes out, but we’re not about to switch to a different environment; 37% of survey respondents have never even used SSR (Server Side Rendering), even though it’s been an option for over a decade now!
+      The introduction of React Server Components and Server Actions brings us new, powerful primitives tightly integrated into frameworks. Next.js, the leading implementation, demonstrates their benefits but also highlights new challenges in routing and caching, which have led to pushback in the community. Personally, I think it’s perfectly fine to continue using React on the client side and eventually adopt server-side features if they make sense for your project, once best practices become clearer.
 
-      If I had to guess, I’d say that in 2028, there will be two Reacts in wide circulation with roughly equivalent usage. The “full-stack” version, with Server Components and Server Actions, and the client-only Single Page App version.
+      But this year wasn’t just about React 19 — it was also the year React Native’s [New Architecture](https://reactnative.dev/blog/2024/10/23/the-new-architecture-is-here) became ready for production, marking a significant leap forward for the cross-platform ecosystem. We also got the [React Compiler](https://react.dev/blog/2024/10/21/react-compiler-beta-release) in beta. Initially presented as an auto-memoizing compiler, it’s actually a fully fledged optimization platform for React, set to become much more powerful in the future.
 
-      We live in interesting times! I’m excited to see how React and its ecosystem evolves over the coming years. ❤️
+      These new foundations lay the groundwork for a bright future in 2025. We’ve only begun to tap into their potential, with many impactful features and integrations ahead. Similar to the introduction of hooks, we could be on the brink of a React renaissance.
 
-  - key: conclusion.react2024.josh_comeau.bio
-    t: Software engineer and educator. Creator of [The Joy of React](https://www.joyofreact.com/)
+  - key: conclusion.react2024.sebastien_lorber.bio
+    t: |
+      [This Week In React](https://thisweekinreact.com/) founder and [Docusaurus](https://docusaurus.io/) maintainer
 
   ###########################################################################
   # Picks
@@ -541,91 +542,62 @@ translations:
   - key: picks.intro
     t: We asked members of the React community to share their “pick of the year”
 
-  # https://zustand-demo.pmnd.rs
   - key: picks.jack_herrington.name
-    t: Zustand
+    t: Tanstack Start
   - key: picks.jack_herrington.bio
     t: Principal Engineer and YouTuber
   - key: picks.jack_herrington.description
     t: |
-      Simple, elegant, extensible state management that "just works" (tm). Nowadays, you might not need state management, but if you do, Zustand is a great place to start.
+      Full-time Tanner is just the boost that Tanstack needed to take it next level. And Tanner is delivering on the promise of his stack with Tanstack Start on top of the whole Tanstack ecosystem.
 
-  # https://react.dev/reference/rsc/server-components
-  - key: picks.alex_sidorenko.name
-    t: React Server Components
-  - key: picks.alex_sidorenko.bio
-    t: Making short videos about Next.js on Twitter
-  - key: picks.alex_sidorenko.description
-    t: |
-      Eleven years ago, React reimagined web development by challenging established practices. Now, React is doing this again with RSC. 
-
-      P.S. Shout out to the Next.js team for pushing this new vision forward.
-
-  # https://youtube.com/watch?v=zqhE-CepH2g
-  - key: picks.sam_selikoff.name
-    t: |
-      "Mind the Gap" – Ryan Florence's talk at Big Sky Dev Con 2024
-  - key: picks.sam_selikoff.bio
-    t: Videos for frontend developers on Build UI and YouTube, co-host of the Frontend First podcast
-  - key: picks.sam_selikoff.description
-    t: |
-      Ryan masterfully shows how React's new "use server" and "use client" directives let us build rich features on both sides of the network, using the same unified paradigm. A must-watch for any React developer.
-
-  # https://www.remotion.dev/
   - key: picks.sebastien_lorber.name
-    t: Remotion
+    t: TanStack Router
   - key: picks.sebastien_lorber.bio
     t: Creator of [This Week in React](https://thisweekinreact.com/)
   - key: picks.sebastien_lorber.description
     t: |
-      The idea of creating programmatic videos in React continues to fascinate me. Remotion is a rather discreet project, which continues to grow slowly but steadily, successfully adopted by DevRels, educators, indie makers and larger companies (notably GitHub's Unwrapped video campaign).
+      This new router, launched in v1 in December 2023, proves that innovation in type safety and search parameters management remains possible. Strong adoption began in 2024, with very positive feedback from the community.
 
-  # https://buildui.com/posts/instant-search-params-with-react-server-components
   - key: picks.aurora_scharff.name
-    t: Instant Search Params with React Server Components
+    t: |
+      nuqs: Type-safe search params state manager for React
   - key: picks.aurora_scharff.bio
     t: Web developer and consultant at Inmeta
   - key: picks.aurora_scharff.description
     t: |
-      This blog post goes through a problem you would must likely encounter when building a proper app with the Next.js App Router: handling search params. It’s surprisingly hard to make interactions behave “perfectly”, and the post end with the solution: useOptimistic. It also teaches you about transitions with lots of sandbox demos.
+      My pick would be [François Best](https://bsky.app/profile/francoisbest.com) and his library [nuqs](https://nuqs.47ng.com/). Recently made available for other React frameworks besides Next.js, it solves many pain points when working with URL search params, and the API is super smooth and easy to use.
 
-  # https://mui.com/blog/introducing-pigment-css/
+  - key: picks.shaundai_person.name
+    t: CodeTV (formerly Learn with Jason)
+  - key: picks.shaundai_person.bio
+    t: Front end Senior Software Engineer (Netflix) and course instructor
+  - key: picks.shaundai_person.description
+    t: |
+      Jason’s mission is to make programming fun and accessible for everyone, and he is doing such an incredible job of it. In one series, Jason and 3 devs are faced with the challenge to create an app based on a short coding prompt like “build a leaderboard” or “build an e-commerce site”. And his newest series is a web dev game show that is kind of like a mix of Jeopardy and Hot Ones!
+
   - key: picks.josh_comeau.name
-    t: Pigment CSS
+    t: Lucide Icons
   - key: picks.josh_comeau.bio
     t: Software engineer and educator. Creator of [The Joy of React](https://www.joyofreact.com/)
   - key: picks.josh_comeau.description
     t: |
-      The Material UI team is building a next-gen CSS-in-JS library that pulls the styled API into the React Server Components era. There’s no shortage of CSS-in-JS tools out there, but this one checks all of the boxes for me.
+      Lucide is a fork of Feather Icons, adding hundreds of new icons in the same delightful style. Their React bindings are so good; super easy to use, and highly optimized!
 
-  # https://www.propelauth.com/post/nextjs-challenges
-  - key: picks.carl_vitullo.name
-    t: It’s not just you, Next.js is getting harder to use
-  - key: picks.carl_vitullo.bio
-    t: Solopreneur currently hosting [This Month in React](https://podcasts.apple.com/us/podcast/this-month-in-react/id1661733526), and community lead at [Reactiflux](https://www.reactiflux.com/)
-  - key: picks.carl_vitullo.description
+  - key: picks.sacha_greif.name
+    t: React Scan
+  - key: picks.sacha_greif.bio
+    t: Creator @ Devographics
+  - key: picks.sacha_greif.description
     t: |
-      This was a great blog post! I think it captures the current zeitgeist in React, clearly articulates a frustration that's been simmering in the ecosystem through 2024.
+      When I first saw a demo of React over a decade ago, one of its big selling points was how fast it could render long, complex web pages. Yet today, poor performance and excessive re-renderings are often held up as weaknesses of the framework. So it's great to see tools like [Million](https://million.dev/) creator [Aiden Bai](https://aiden.mov/)'s React Scan take on this challenge and give you new ways to improve React's performance.
 
-  # https://sonner.emilkowal.ski
-  - key: picks.miguel_angel_duran.name
-    t: Sonner
-  - key: picks.miguel_angel_duran.bio
-    t: Twitch Coding Streamer & Content Creator
-  - key: picks.miguel_angel_duran.description
-    t: |
-      Sonner is the best toast component for React. Beautiful by default, highly configurable, and with a simple API to use in any project. Wonderful work by Emil.
+  # - key: picks.xxx.name
+  #   t:
+  # - key: picks.xxx.bio
+  #   t:
+  # - key: picks.xxx.description
+  #   t: |
 
-  # https://docs.expo.dev/router/introduction/
-  - key: picks.lydia_hallie.name
-    t: Expo Router
-  - key: picks.lydia_hallie.bio
-    t: Independent software engineer and technical content creator
-  - key: picks.lydia_hallie.description
-    t: |
-      Expo Router earns my pick for its incredible potential in both the web and native space. It's the first framework to leverage React's full power to operate across all platforms, making React a true platform-agnostic renderer. Its file-based architecture makes it simpler for web developers to adapt to native platforms, speeding up development, and reducing the time to ship across all devices.
-
-  #
   # - key: picks.xxx.name
   #   t:
   # - key: picks.xxx.bio
