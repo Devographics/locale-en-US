@@ -190,3 +190,70 @@ translations:
       ### Technical Overview
 
       You can find a more in-depth technical overview of how the surveys are run [here](https://dev.to/sachagreif/how-the-devographics-surveys-are-run-2023-edition-1p6a).
+
+  # HTML 2023
+
+  - key: faq.data_used_html2023
+    t: How will this data be used?
+  - key: faq.data_used_html2023.description
+    t: >
+      All data collected will be released openly for any developer or company to consult.
+      Browser vendors also [use this data](https://web.dev/interop-2023/) to prioritize focus areas and inform their roadmaps.
+
+  - key: faq.survey_goals_html2023
+    t: What are the survey's goals?
+  - key: faq.survey_goals_html2023.description
+    t: >
+      The survey's goals are to measure awareness of new HTML features and browser APIs, and help developers keep track of how their usage is evolving.
+
+  - key: faq.who_should_take_survey_html2023
+    t: Who should take this survey?
+  - key: faq.who_should_take_survey_html2023.description
+    t: >
+      This is an open survey for anybody who makes websites or web apps, whether regularly or occasionally, as part of their job, as a student, or just for fun!
+
+  - key: faq.how_long_will_survey_take_html2023
+    t: How long will answering the survey take?
+  - key: faq.how_long_will_survey_take_html2023.description
+    t: >
+      Depending on how many questions you answer (all questions are optional),
+      filling out the survey should take around 15-20 minutes.
+
+  - key: faq.learn_more_html2023
+    t: Where can I learn more?
+  - key: faq.learn_more_html2023.description
+    t: You can learn more about this survey in [our announcement post](https://lea.verou.me/blog/2023/design-state-of-html/).
+
+  - key: faq.survey_design_html2023
+    t: How was this survey designed?
+  - key: faq.survey_design_html2023.description
+    t: >
+      The survey was designed by [Lea Verou](https://lea.verou.me), with input from browser vendors as well as groups such as the [WebDX Community Group](https://www.w3.org/community/webdx/).
+
+  - key: faq.results_released_html2023
+    t: When will the results be released?
+  - key: faq.results_released_html2023.description
+    t: The survey will run from September 19 to October 16, and the survey results will be released shortly after that.
+
+  # Intro for actual survey page
+  - key: general.html2023.survey_intro
+    t: |
+      While web developers tend to focus on JavaScript and CSS, none of what we do would be possible without HTML acting as the foundation.
+
+      It has long seemed like HTML wasn't evolving, but things may be changing.
+      New elements like `<selectlist>` are on the horizon, cool new features like popovers,
+      and a swath of related browser APIs (Web Components, PWAs, etc.).
+
+      This year, [Lea Verou](https://lea.verou.me/) took on the formidable task of leading the design of this brand new survey, from content to UX and beyond.
+
+      Building on the success of [State of JS](http://stateofjs.com/) and [State of CSS](https://stateofcss.com/), we introduce **State of HTML**;
+      the last missing piece that completes the trilogy, so we can track the evolution of the web platform as a whole.
+
+      Benefits to you:
+      - Survey results are **used by browsers** and standards groups **for roadmap prioritization**.
+      Your responses can help get features you care about implemented, browser incompatibilities being prioritized, and gaps in the platform being addressed.
+      - Learn about new and upcoming features; add features to your reading list and get a list of resources at the end!
+      - Get a personalized knowledge score and see how you compare to other respondents
+
+      The survey will be open for 3 weeks, but responses entered **within the first 9 days (until October 1st)** will have a much higher impact on the Web,
+      as preliminary data will be used for certain prioritization efforts that have deadlines before then.

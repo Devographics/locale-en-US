@@ -462,3 +462,33 @@ translations:
     t: Functions
   - key: options.missing_features_freeform.svg
     t: SVG
+
+  # CSS 2022
+
+  - key: faq.learn_more_css2022
+    t: Where can I learn more?
+  - key: faq.learn_more_css2022.description
+    t: You can learn more about [last year's survey here](https://2021.stateofcss.com/en-US/about/).
+
+  - key: faq.survey_design_css2022
+    t: How was this survey designed?
+  - key: faq.survey_design_css2022.description
+    t: This year, thanks to a grant from Google's [UI Fund](https://web.dev/ui-fund/), [Lea Verou](https://lea.verou.me/) was able to take the lead and managed the [open survey design process](https://github.com/orgs/Devographics/projects/1/views/1) on GitHub.
+
+  - key: faq.results_released_css2022
+    t: When will the results be released?
+  - key: faq.results_released_css2022.description
+    t: The survey will run until the end of October 2022, and the survey results will be released in early November.
+
+  - key: faq.data_used_css2022
+    t: How will this data be used?
+  - key: faq.data_used_css2022.description
+    t: All data collected will be released publicly. It will then become a resources both for developers, who consult it to inform their technological choices, and browser vendors, who use it to prioritize focus areas and inform their roadmaps.
+
+  - key: general.css2022.survey_intro
+    t: |
+      CSS keeps progressing at an unprecedented rate. Luckily this year we got help from someone at the forefront of all these changes: [Lea Verou](https://lea.verou.me/) took the lead on selecting this year's questions, with a special focus on highlighting new and upcoming CSS features.
+
+      What's more, the survey results will also help browser vendors prioritize their roadmaps and work towards better compatibility between browsers.
+
+      With all this out of the way, let's see how CSS evolved in 2022!

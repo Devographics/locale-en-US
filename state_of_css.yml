@@ -1216,3 +1216,26 @@ translations:
     aliasFor: sections.selectors.title
   - key: features.math_features
     aliasFor: sections.math_features.title
+
+  # CSS
+
+  - key: faq.data_used_css
+    t: How will this data be used?
+  - key: faq.data_used_css.description
+    t: >
+      All data collected will be released openly for any developer or company to consult.
+      Browser vendors also [use this data](https://web.dev/interop-2023/) to prioritize focus areas and inform their roadmaps.
+
+  - key: faq.who_should_take_survey_css
+    t: Who should take this survey?
+  - key: faq.who_should_take_survey_css.description
+    t: >
+      This is an open survey for anybody who writes CSS, whether regularly
+      or occasionally, as part of their job, as a student, or just for fun!
+
+  - key: faq.survey_goals_css
+    t: What is the survey's goal?
+  - key: faq.survey_goals_css.description
+    t: >
+      The survey's goal is to track the evolution of upcoming features and libraries,
+      and help developers decide which new technologies to focus on.

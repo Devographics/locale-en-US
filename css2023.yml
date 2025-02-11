@@ -544,3 +544,39 @@ translations:
       - [Other non-technical issues](https://github.com/Devographics/surveys/issues)
 
       - [Join our Discord](https://discord.gg/tuWRUWVyJs)
+
+  # CSS 2023
+
+  - key: faq.how_long_will_survey_take_css2023
+    t: How long will answering the survey take?
+  - key: faq.how_long_will_survey_take_css2023.description
+    t: >
+      Depending on how many questions you answer (all questions can be skipped),
+      filling out the survey should take around 10-15 minutes.
+
+  - key: faq.learn_more_css2023
+    t: Where can I learn more?
+  - key: faq.learn_more_css2023.description
+    t: You can learn more about this survey in [our announcement post](https://dev.to/sachagreif/the-2023-state-of-css-survey-is-now-open-18bk).
+
+  - key: faq.survey_design_css2023
+    t: How was this survey designed?
+  - key: faq.survey_design_css2023.description
+    t: >
+      This year, thanks to a grant from Google's [UI Fund](https://web.dev/ui-fund/),
+      [Chen Hui Jing](https://chenhuijing.com/) was able to help manage the survey's [open design process](https://github.com/Devographics/surveys/issues/84).
+
+  - key: faq.results_released_css2023
+    t: When will the results be released?
+  - key: faq.results_released_css2023.description
+    t: The survey will run until July 15, 2023, and the survey results will be released in the following weeks.
+
+  - key: general.css2023.survey_intro
+    t: |
+      To help you keep up with `:has()`, `@container`, and all the other new CSS features, we're introducing a new feature of our own this year: the **Reading List**.
+
+      As you take the survey, you'll be able to bookmark any feature you want and learn more about it after you submit your answers.
+
+      This year [Chen Hui Jing](https://chenhuijing.com/) took the lead of the survey design process, building on the work done by [Lea Verou](https://lea.verou.me/) last year. And as usual, your feedback here will play a key role in helping browser vendors prioritize their roadmaps and work towards better compatibility between browsers.
+
+      With all this out of the way, let's see how CSS has evolved so far in 2023!

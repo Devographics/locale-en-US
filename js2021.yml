@@ -434,3 +434,15 @@ translations:
       - **Data Visualizations**: [Nivo](https://nivo.rocks/) React dataviz library. 
 
       - **Type**: [IBM Plex Mono](https://fonts.google.com/specimen/IBM+Plex+Mono) and [Bebas Neue](https://fonts.google.com/specimen/Bebas+Neue).
+
+  - key: general.js2021.survey_intro
+    t: |
+      First the 2020 Olympics got pushed back to 2021,
+      and now the 2021 State of JavaScript survey is happening now, in 2022!
+
+      It's true: between work, family, and and all the turmoil in the world,
+      some things got disrupted a little.
+
+      But while the year may be off-by-one, we hope the data provided by the
+      survey itself will be just as informative and insightful as ever.
+      And don't worry, there will be another survey towards the end of this year to set things straight again!

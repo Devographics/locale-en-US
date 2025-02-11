@@ -572,3 +572,34 @@ translations:
       - **Data Visualizations**: [Nivo](https://nivo.rocks/) React dataviz library. 
 
       - **Type**: [IBM Plex Mono](https://fonts.google.com/specimen/IBM+Plex+Mono) and [Bebas Neue](https://fonts.google.com/specimen/Bebas+Neue).
+
+  # JS 2022
+
+  - key: faq.learn_more_js2022
+    t: Where can I learn more?
+  - key: faq.learn_more_js2022.description
+    t: You can learn more about [last year's survey here](https://2021.stateofjs.com/en-US/about/).
+
+  # - key: faq.survey_design_js2022
+  #   t: How was this survey designed?
+  # - key: faq.survey_design_css2022.description
+  #   t: This year, thanks to a grant from Google's [UI Fund](https://web.dev/ui-fund/), [Lea Verou](https://lea.verou.me/) was able to take the lead and managed the [open survey design process](https://github.com/orgs/Devographics/projects/1/views/1) on GitHub.
+
+  - key: faq.results_released_js2022
+    t: When will the results be released?
+  - key: faq.results_released_js2022.description
+    t: The survey will run until December 15, 2022, and the survey results will be released shortly afterwards.
+
+  - key: faq.data_used_js2022
+    t: How will this data be used?
+  - key: faq.data_used_js2022.description
+    t: All data collected will be released publicly. It will then become a resources both for developers, who consult it to inform their technological choices, and browser vendors, who use it to prioritize focus areas and inform their roadmaps.
+
+  - key: general.js2022.survey_intro
+    t: |
+      For the first time in a while, it feels like the status quo of the JavaScript ecosystem is being questioned.
+
+      Faster bundling with Vite, island architecture with Astro, resumability with Qwik… New entrants are challenging the old guard, and the result is a lot more excitement, but also
+      a lot more uncertainty.
+
+      So once more, let's try and figure out together where JavaScript is going, in 2022 and beyond.
