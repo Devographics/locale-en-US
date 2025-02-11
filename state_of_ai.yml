@@ -659,3 +659,32 @@ translations:
 
   - key: user_info.years_of_experience.state_of_ai.question
     t: How long have you been working or studying as a developer, in years?
+
+  ###########################################################################
+  # FAQ
+  ###########################################################################
+
+  - key: faq.how_long_will_survey_take_ai
+    t: How long will the survey take?
+  - key: faq.how_long_will_survey_take_ai.description
+    t: This survey should take around 15 minutes to complete.
+
+  - key: faq.who_should_take_survey_ai
+    t: Who should take the survey?
+  - key: faq.who_should_take_survey_ai.description
+    t: This survey is for web developers of all experience levels, including those that don't currently use AI tools.
+
+  - key: faq.survey_goals_ai
+    t: What is the goal of the survey?
+  - key: faq.survey_goals_ai.description
+    t: The goal of this survey is to identify how modern AI tools are impacting web development.
+
+  - key: faq.data_used_ai
+    t: How will the data collected be used?
+  - key: faq.data_used_ai.description
+    t: The data collected will be used to publish a free online report, and the full dataset will also be available for free [on demand](https://discord.gg/2E7bbgnrJJ).
+
+  - key: faq.team
+    t: Who runs this survey?
+  - key: faq.team.description
+    t: This survey is run by the [Devographics](https://devographics.com/) team along with help from volunteers and the community.

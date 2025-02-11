@@ -14,3 +14,16 @@ translations:
       We appreciate your time and input, and we look forward to sharing the results with the community. Let’s explore how AI is shaping the future of web development together!
 
       *P.S. One of the paragraphs above was in fact written by AI. Can you tell which one?*
+
+  # FAQ
+
+  - key: faq.results_released_ai2025
+    t: When will the results be released?
+  - key: faq.results_released_ai2025.description
+    t: The survey will run from February 10 to March 10, 2025, and the survey results will be released shortly after.
+
+  - key: faq.survey_design_ai2025
+    t: How was this survey designed?
+  - key: faq.survey_design_ai2025.description
+    t: >
+      This survey was designed as the results of an [open design process](https://github.com/Devographics/surveys/issues/278) involving AI companies, browser vendors and the web development community.
