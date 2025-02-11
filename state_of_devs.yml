@@ -1,4 +1,456 @@
 locale: en-US
 translations:
-  - key: foo
-    t: bar
+  ###########################################################################
+  # General
+  ###########################################################################
+
+  ###########################################################################
+  # Sections
+  ###########################################################################
+
+  - key: tools.tools_intro.ai2025
+    t: |
+      This first part of the survey is all about which AI tools you use, or have heard about.
+
+  - key: sections.career.title
+    t: Career
+  - key: sections.career.prompt
+    t: Your career and work experience up to now.
+
+  - key: sections.workplace.title
+    t: Workplace
+  - key: sections.workplace.prompt
+    t: Your current workplace.
+
+  - key: sections.technology.title
+    t: Technology
+  - key: sections.technology.prompt
+    t: The apps, languages, and platforms you use.
+
+  - key: sections.health.title
+    t: Health
+  - key: sections.health.prompt
+    t: Health & fitness.
+
+  - key: sections.worldview.title
+    t: Worldview
+  - key: sections.worldview.prompt
+    t: Worldview, politics, and current events.
+
+  - key: sections.hobbies.title
+    t: Hobbies
+  - key: sections.hobbies.prompt
+    t: Your other passions.
+
+  # career_issues
+
+  - key: career.career_issues
+    t: Workplace Issues
+  - key: career.career_issues.question
+    t: Which of these workplace issues have you experienced throughout your professional career?
+
+  - key: options.career_issues.sexual_harassment
+    t: Sexual harassment
+  - key: options.career_issues.sexual_harassment.description
+    t: Unwelcome behavior of a sexual nature that creates a hostile work environment.
+
+  - key: options.career_issues.non_sexual_harassment
+    t: Non-sexual harassment
+  - key: options.career_issues.non_sexual_harassment.description
+    t: Other targeted forms of harassment that creates a hostile work environment.
+
+  - key: options.career_issues.gender_discrimination
+    t: Gender discrimination
+  - key: options.career_issues.gender_discrimination.description
+    t: Being discriminated against based on your gender.
+
+  - key: options.career_issues.race_discrimination
+    t: Race discrimination
+  - key: options.career_issues.race_discrimination.description
+    t: Being discriminated against based on your race.
+
+  - key: options.career_issues.mental_health_issues
+    t: Mental health issues
+  - key: options.career_issues.mental_health_issues.description
+    t: Workplace-related mental health issues such as stress or anxiety.
+
+  - key: options.career_issues.excessive_overtime
+    t: Excessive overtime
+  - key: options.career_issues.excessive_overtime.description
+    t: Excessive overtime and other work-life-balance issues.
+
+  - key: options.career_issues.underpaid_work
+    t: Underpaid work
+  - key: options.career_issues.underpaid_work.description
+    t: Insufficient salary or income.
+
+  - key: options.career_issues.burnout
+    t: Burnout
+  - key: options.career_issues.burnout.description
+    t: Lack of motivation or depression related to work issues.
+
+  - key: options.career_issues.job_insecurity
+    t: Job insecurity
+  - key: options.career_issues.job_insecurity.description
+    t: Being afraid of losing your job; or difficulties finding a new one.
+
+  - key: options.career_issues.bad_management
+    t: Bad management
+  - key: options.career_issues.bad_management.description
+    t: Overall bad work environment due to poor management practices.
+
+  # past_year_conferences
+
+  - key: career.past_year_conferences
+    t: Conferences
+  - key: career.past_year_conferences.question
+    t: How many conferences have you attended in the past year?
+
+  - key: career.past_year_meetups_events
+    t: Meetups & Events
+  - key: career.past_year_meetups_events.question
+    t: How many meetups & local events have you attended in the past year?
+
+  # WORKPLACE
+
+  - key: workplace.remote_work_policy
+    t: Remote Work
+  - key: workplace.remote_work_policy.question
+    t: What best describes your employer's remote work policy?
+
+  - key: workplace.work_hours_per_week
+    t: Work Hours
+  - key: workplace.work_hours_per_week.question
+    t: In a typical week, how many hours do you work?
+
+  - key: workplace.job_happiness
+    t: Job Happiness
+  - key: workplace.job_happiness.question
+    t: How happy are you with your current job?
+
+  # - key: workplace.job_ai_threat
+  #   t: a
+
+  # workplace_difficulties
+
+  - key: workplace.workplace_difficulties
+    t: Workplace Difficulties
+  - key: workplace.workplace_difficulties.question
+    t: What are the negative aspects of the working environment at your current employer?
+
+  - key: options.workplace_difficulties.coworker_relations
+    t: Coworkers relations
+  - key: options.workplace_difficulties.coworker_relations.description
+    t: Harassment, poor communication, etc.
+
+  - key: options.workplace_difficulties.company_culture
+    t: Company culture
+  - key: options.workplace_difficulties.company_culture.description
+    t: Toxic culture, bad work practices, etc.
+
+  - key: options.workplace_difficulties.working_conditions
+    t: Working conditions
+  - key: options.workplace_difficulties.working_conditions.description
+    t: Old equipment, cramped spaces, etc.
+
+  - key: options.workplace_difficulties.job_security
+    t: Job security
+  - key: options.workplace_difficulties.job_security.description
+    t: Poor job security, short-term contracts, etc.
+
+  - key: options.workplace_difficulties.work_content
+    t: Work content
+  - key: options.workplace_difficulties.work_content.description
+    t: Uninteresting tasks, tasks not matching job description, excessive idle time, etc.
+
+  - key: options.workplace_difficulties.work_life_balance
+    t: Work-life balance
+  - key: options.workplace_difficulties.work_life_balance.description
+    t: Burnout, excessive overtime, forced company events, etc.
+
+  - key: options.workplace_difficulties.compensation
+    t: Compensation
+  - key: options.workplace_difficulties.compensation.description
+    t: Insufficient compensation
+
+  - key: options.workplace_difficulties.training
+    t: Training
+  - key: options.workplace_difficulties.training.description
+    t: Lack of training and development
+
+    # workplace_perks
+
+  - key: workplace.workplace_perks
+    t: Workplace Perks
+  - key: workplace.workplace_perks.question
+    t: What are the positive aspects of the working environment at your current employer?
+
+  - key: options.workplace_perks.coworker_relations
+    aliasFor: options.workplace_difficulties.coworker_relations
+  - key: options.workplace_perks.coworker_relations.description
+    t: Good relations with coworkers
+
+  - key: options.workplace_perks.company_culture
+    aliasFor: options.workplace_difficulties.company_culture
+  - key: options.workplace_perks.company_culture.description
+    t: Positive company culture, attention to quality, etc.
+
+  - key: options.workplace_perks.working_conditions
+    aliasFor: options.workplace_difficulties.working_conditions
+  - key: options.workplace_perks.working_conditions.description
+    t: Good work environment, modern equipment, etc.
+
+  - key: options.workplace_perks.job_security
+    aliasFor: options.workplace_difficulties.job_security
+  - key: options.workplace_perks.job_security.description
+    t: Stable job, long-term contracts, etc.
+
+  - key: options.workplace_perks.work_content
+    aliasFor: options.workplace_difficulties.work_content
+  - key: options.workplace_perks.work_content.description
+    t: Interesting tasks, fulfilling job, etc.
+
+  - key: options.workplace_perks.work_life_balance
+    aliasFor: options.workplace_difficulties.work_life_balance
+  - key: options.workplace_perks.work_life_balance.description
+    t: No overtime, flexible hours, etc.
+
+  - key: options.workplace_perks.compensation
+    aliasFor: options.workplace_difficulties.compensation
+  - key: options.workplace_perks.compensation.description
+    t: Good compensation
+
+  - key: options.workplace_perks.training
+    aliasFor: options.workplace_difficulties.training
+  - key: options.workplace_perks.training.description
+    t: Company-provided training and skill development
+
+  # - key: workplace.how_much_can_you_be_yourself_at_work
+  #   t:
+
+  # technology
+
+  # mobile_os
+  - key: technology.mobile_os
+    t: Mobile OS
+  - key: technology.mobile_os.question
+    t: Which mobile OS do you use most?
+
+  - key: options.mobile_os.ios
+    t: iOS
+  - key: options.mobile_os.android
+    t: Android
+  - key: options.mobile_os.no_smartphone
+    t: I don't have a smartphone
+
+  # desktop_os
+  - key: technology.desktop_os
+    t: Desktop OS
+  - key: technology.desktop_os.question
+    t: Which desktop OS do you use most?
+
+  - key: options.desktop_os.mac_os
+    t: macOS
+  - key: options.desktop_os.windows
+    t: Windows
+  - key: options.desktop_os.linux
+    t: Linux
+
+  # programming_languages
+  - key: technology.programming_languages
+    t: Programming Languages
+  - key: technology.programming_languages.question
+    t: Which programming languages do you code in?
+
+  # ai_tools
+  - key: technology.ai_tools
+    t: AI Tools
+  - key: technology.ai_tools.question
+    t: Which AI tools do you use regularly?
+
+  # productivity_apps
+  - key: technology.productivity_apps
+    t: Productivity Apps
+  - key: technology.productivity_apps.question
+    t: Which productivity app do you use regularly?
+
+  # chat_apps
+  - key: technology.chat_apps
+    t: Messaging Apps
+  - key: technology.chat_apps.question
+    t: Which messaging apps do you use regularly?
+
+  # social_media
+  - key: technology.social_media
+    t: Social Media
+  - key: technology.social_media.question
+    t: Which social media sites do you use regularly?
+
+  # health
+
+  - key: health.health_issues
+    t: Health Issues
+  - key: health.health_issues.question
+    t: Which ongoing health issues are you experiencing?
+
+  - key: options.health_issues.poor_sleep
+    t: Poor sleep
+  - key: options.health_issues.weight_issues
+    t: Weight issues
+  - key: options.health_issues.respiratory_issues
+    t: Respiratory issues
+  - key: options.health_issues.diabetes
+    t: Diabetes
+  - key: options.health_issues.chronic_fatigue
+    t: Chronic fatigue
+  - key: options.health_issues.heart_disease
+    t: Heart disease
+  - key: options.health_issues.cancer
+    t: Cancer
+  - key: options.health_issues.mental_health_issues
+    t: Mental health issues
+  - key: options.health_issues.substance_abuse_issues
+    t: Substance abuse issues
+  - key: options.health_issues.back_pain
+    t: Back pain
+  - key: options.health_issues.wrist_hand_pain
+    t: Wrist/hand pain
+  - key: options.health_issues.other_joint_pain
+    t: Other joint pain
+  - key: options.health_issues.skin_issues
+    t: Skin issues
+  - key: options.health_issues.headaches
+    t: Headaches & migraines
+
+  # sleep_quantity
+  - key: health.sleep_quantity
+    t: Sleep Quantity
+  - key: health.sleep_quantity.question
+    t: How much hours of sleep do you get per night, on average?
+
+  - key: options.sleep_quantity.range_5_or_less
+    t: 5 or fewer
+  - key: options.sleep_quantity.range_6
+    t: 6
+  - key: options.sleep_quantity.range_7
+    t: 7
+  - key: options.sleep_quantity.range_8
+    t: 8
+  - key: options.sleep_quantity.range_9
+    t: 9
+  - key: options.sleep_quantity.range_10
+    t: 10
+  - key: options.sleep_quantity.more_than_10
+    t: 10 or more
+
+  # sleep_bedtime
+  - key: health.sleep_bedtime
+    t: Bedtime
+  - key: health.sleep_bedtime.question
+    t: What time do you usually go to sleep?
+
+  - key: health.sleep_getuptime
+    t: Wake Up Time
+  - key: health.sleep_getuptime.question
+    t: What time do you usually wake up?
+
+  - key: health.sleep_measures
+    t: Sleep Strategies
+  - key: health.sleep_measures.question
+    t: What methods have you tried to improve your sleep, if any?
+
+  - key: options.sleep_measures.consistent_bedtime
+    t: Consistent bedtime
+  - key: options.sleep_measures.darkened_curtains
+    t: Darkened curtains
+  - key: options.sleep_measures.sleep_mask
+    t: Sleep mask
+  - key: options.sleep_measures.avoid_screens
+    t: Avoiding screens before bedtime
+  - key: options.sleep_measures.earplugs
+    t: Earplugs
+  - key: options.sleep_measures.sleeping_pills
+    t: Sleeping pills
+  - key: options.sleep_measures.supplements
+    t: Supplements
+
+  # worldview
+
+  - key: worldview.left_right
+    t: Left vs Right
+  - key: worldview.left_right.question
+    t: Where do you place yourself on the left vs right political axis?
+
+  - key: worldview.global_issues
+    t: Global Issues
+  - key: worldview.global_issues.question
+    t: What do you consider to be the top global issues facing the world today?
+
+  - key: options.global_issues.climate_change
+    t: Climate change
+  - key: options.global_issues.global_pandemics
+    t: Global pandemics
+  - key: options.global_issues.refugees_immigration
+    t: Refugee & migration crisis
+  - key: options.global_issues.economic_inequality
+    t: Economic inequality
+  - key: options.global_issues.healthcare_access
+    t: Healthcare access
+  - key: options.global_issues.geopolitical_tensions
+    t: Geopolitical tensions
+  - key: options.global_issues.ai_threats
+    t: AI threats
+  - key: options.global_issues.rising_authoritarianism
+    t: Rising authoritarianism
+  - key: options.global_issues.rising_intolerance
+    t: Rising intolerence
+  - key: options.global_issues.erosion_traditional_values
+    t: Erosion of traditional values
+  - key: options.global_issues.globalization
+    t: Globalization
+  - key: options.global_issues.lack_of_free_speech
+    t: Lack of free speech
+
+  # companies_opinion
+
+  - key: worldview.companies_opinion
+    t: Companies
+  - key: worldview.companies_opinion.question
+    t: What's your opinion of the following companies?
+
+  # happiness_factors
+  - key: worldview.happiness_factors
+    t: Happiness Factors
+  - key: worldview.happiness_factors.description
+    t: What are the most important factors for your own personal happiness?
+
+  - key: options.happiness_factors.health
+    t: Good health
+  - key: options.happiness_factors.career_progress
+    t: Career progress
+  - key: options.happiness_factors.romantic_relationships
+    t: Romantic relationships
+  - key: options.happiness_factors.other_relationships
+    t: Friendships
+  - key: options.happiness_factors.hobbies
+    t: Hobbies
+  - key: options.happiness_factors.family
+    t: Family
+  - key: options.happiness_factors.community
+    t: Community
+  - key: options.happiness_factors.material_possessions
+    t: Wealth and material possessions
+  - key: options.happiness_factors.living_environment
+    t: Living environment
+  - key: options.happiness_factors.religion_spirituality
+    t: Religion and/or spirituality
+
+  # overall_happiness
+  - key: worldview.overall_happiness
+    t: Overall Happiness
+  - key: worldview.overall_happiness.question
+    t: Overall, how happy are you these days?
+
+  # hobbies
+
+  # user_info

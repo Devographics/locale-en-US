@@ -1,19 +1,16 @@
 locale: en-US
 translations:
-  - key: foo
-    t: bar
-
   - key: general.ai2025.survey_intro
     t: |
 
-      I messed up. I asked ChatGPT to write an intro to this survey – I wasn't going to actually *use* it of course, I just wanted some inspiration. 
+      I asked ChatGPT to write an intro to this survey – not to actually use it of course, just for inspiration. 
 
       That intro was great – concise, coherent, well thought-out. And now the issue is that I'm struggling to come up with something quite as good using my own feeble human mind. 
 
-      I guess you'll have to take my word for it, but I somehow resisted the urge to copy-paste this time. But when it comes to web development, many of us have already embraced our new AI overlords and regularly generate entire apps before breakfast, if my social media feeds are to be believed.
+      Somehow I resisted the urge to copy-paste this time. However, when it comes to web development, many of us have already embraced our new AI overlords and regularly generate entire apps before breakfast – at least if my social media feeds are to be believed.
 
-      But to figure out what's *really* going on, I decided to take a break from asking AI, and ask *you*. How do you use AI? What tools have you tried? And do you think we'll get GTA 6 before the robots decide to come for us?
+      But today I want to figure out what's *really* going on. How do you use AI? What tools have you tried? And will the robots uprising happen before we get GTA 6?
 
       We appreciate your time and input, and we look forward to sharing the results with the community. Let’s explore how AI is shaping the future of web development together!
 
-      P.S. one of the paragraphs above was in fact written by AI. Can you tell which one?
+      *P.S. One of the paragraphs above was in fact written by AI. Can you tell which one?*

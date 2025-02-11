@@ -14,17 +14,17 @@ translations:
 
   - key: sections.models.title
     t: Model Providers
-  - key: sections.models.description
-    t: General-purpose AI tools.
+  - key: sections.models.prompt
+    t: General-purpose AI apps and/or models.
 
   - key: tools.models_pain_points
     t: Model Providers Pain Points
-  - key: tools.cmodels_pain_points.question
+  - key: tools.models_pain_points.question
     t: Which pain points have you encountered when using AI models?
 
   - key: sections.coding_assistants.title
     t: Coding Assistants
-  - key: sections.coding_assistants.description
+  - key: sections.coding_assistants.prompt
     t: AI tools that help throughout the development process.
 
   - key: tools.coding_assistants_pain_points
@@ -34,7 +34,7 @@ translations:
 
   - key: sections.code_generation.title
     t: Code Generation
-  - key: sections.code_generation.description
+  - key: sections.code_generation.prompt
     t: AI tools used to generate new codebases or code snippets.
 
   - key: tools.code_generation_pain_points
@@ -44,7 +44,7 @@ translations:
 
   - key: sections.ides.title
     t: IDEs & Editors
-  - key: sections.ides.title
+  - key: sections.ides.prompt
     t: IDEs or code editors focused on AI integration.
 
   - key: tools.ides_pain_points
@@ -54,7 +54,7 @@ translations:
 
   - key: sections.image_generation.title
     t: Image Generation
-  - key: sections.image_generation.description
+  - key: sections.image_generation.prompt
     t: AI tools for generating and editing images.
 
   # ai_programming_languages
@@ -68,6 +68,11 @@ translations:
     t: Image Generation
   - key: other_tools.image_generation.question
     t: Which AI tools or models do you use to generate images?
+
+  # chatgpt
+
+  - key: tools.chatgpt.prompt
+    t: Including all OpenAI GPT models
 
   # ai_libraries_sdks
 

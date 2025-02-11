@@ -973,6 +973,30 @@ translations:
     t: >
       Not Listed
 
+  # employment status
+
+  - id: career.job_status
+    t: Employment Status
+  - id: career.job_status.question
+    t: Which of the following best describes your current employment status?
+
+  - id: options.job_status.employed_full_time
+    t: Employed, full-time
+  - id: options.job_status.freelance
+    t: Independent contractor, freelance, or self-employed
+  - id: options.job_status.employed_part_time
+    t: Employed, part-time
+  - id: options.job_status.student_full_time
+    t: Student, full-time
+  - id: options.job_status.student_part_time
+    t: Student, part-time
+  - id: options.job_status.looking_for_job
+    t: Not employed, but looking for work
+  - id: options.job_status.not_employed_not_looking
+    t: Not employed, and not looking for work
+  - id: options.job_status.retired
+    t: Retired
+
   # Form Factors
   - key: options.form_factors.desktop
     t: Desktop
