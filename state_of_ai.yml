@@ -4,6 +4,17 @@ translations:
   # General
   ###########################################################################
 
+  - key: general.state_of_ai.description
+    t: The yearly survey about how web developers use AI
+
+  - key: general.state_of_ai.intro
+    t: |
+      If social media is to be believed, the AI revolution has already overtaken web development, with many of us generating entire working apps before breakfast and making millions in the process. 
+
+      But is this really what's going on? Or is AI another passing fad that will not fundamentally change things? Or maybe something in between?
+
+      Help us figure this out by taking the yearly State of Web Dev AI surve, and let’s explore how AI is shaping the future of web development together!
+
   ###########################################################################
   # Sections
   ###########################################################################

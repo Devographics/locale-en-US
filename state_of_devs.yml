@@ -118,6 +118,27 @@ translations:
   - key: workplace.remote_work_policy.question
     t: What best describes your employer's remote work policy?
 
+  - key: options.remote_work_policy.no_remote_work
+    t: No remote work
+  - key: options.remote_work_policy.no_remote_work.description
+    t: All employees must attend the office.
+  - key: options.remote_work_policy.hybrid
+    t: Hybrid
+  - key: options.remote_work_policy.hybrid.description
+    t: Some remote work is permitted, but employees must regularly attend the office.
+  - key: options.remote_work_policy.up_to_employee
+    t: Up to the employee
+  - key: options.remote_work_policy.up_to_employee.description
+    t: Employees can choose whether to work remotely or in the office.
+  - key: options.remote_work_policy.fully_remote
+    t: Fully remote
+  - key: options.remote_work_policy.fully_remote.description
+    t: All employees work completely remotely.
+  - key: options.remote_work_policy.na
+    t: 🚫 Not applicable
+  - key: options.remote_work_policy.na.description
+    t: Solo worker
+
   - key: workplace.work_hours_per_week
     t: Work Hours
   - key: workplace.work_hours_per_week.question
@@ -349,9 +370,9 @@ translations:
   - key: health.sleep_bedtime.question
     t: What time do you usually go to sleep?
 
-  - key: health.sleep_getuptime
+  - key: health.sleep_wakeuptime
     t: Wake Up Time
-  - key: health.sleep_getuptime.question
+  - key: health.sleep_wakeuptime.question
     t: What time do you usually wake up?
 
   - key: health.sleep_measures
@@ -380,6 +401,11 @@ translations:
     t: Left vs Right
   - key: worldview.left_right.question
     t: Where do you place yourself on the left vs right political axis?
+
+  - key: options.left_right.0.description
+    t: Far left
+  - key: options.left_right.8.description
+    t: Far right
 
   - key: worldview.global_issues
     t: Global Issues
@@ -453,4 +479,150 @@ translations:
 
   # hobbies
 
+  - key: hobbies.physical_activity
+    t: Physical Activities
+  - key: hobbies.physical_activity.question
+    t: Which of the following physical activites do you practice regularly? (once a week or more)
+
+  - key: options.physical_activity.climbing
+    t: Climbing
+  - key: options.physical_activity.martial_arts
+    t: Martial arts
+  - key: options.physical_activity.running
+    t: Running
+  - key: options.physical_activity.strength_training
+    t: Strength training
+  - key: options.physical_activity.swimming
+    t: Swimming
+  - key: options.physical_activity.yoga
+    t: Yoga
+  - key: options.physical_activity.gymnastics
+    t: Gymnastics
+  - key: options.physical_activity.golf
+    t: Golf
+  - key: options.physical_activity.tennis
+    t: Tennis
+  - key: options.physical_activity.soccer
+    t: Soccer
+  - key: options.physical_activity.biking
+    t: Biking
+  - key: options.physical_activity.hiking
+    t: Hiking
+
+  - key: hobbies.physical_activity_frequency
+    t: Physical Activity Frequency
+  - key: hobbies.physical_activity_frequency.question
+    t: On average, how many days a week do you exercise?
+
+  - key: options.physical_activity_frequency.0
+    t: 0
+  - key: options.physical_activity_frequency.1
+    t: 1
+  - key: options.physical_activity_frequency.2
+    t: 2
+  - key: options.physical_activity_frequency.3
+    t: 3
+  - key: options.physical_activity_frequency.4
+    t: 4
+  - key: options.physical_activity_frequency.5
+    t: 5
+  - key: options.physical_activity_frequency.6
+    t: 6
+  - key: options.physical_activity_frequency.7
+    t: 7
+
+  - key: hobbies.hobbies
+    t: Hobbies
+  - key: hobbies.hobbies.question
+    t: What hobbies do you have?
+
+  - key: options.hobbies.woodworking
+    t: Woodworking/DIY
+  - key: options.hobbies.table_top_gaming
+    t: Table-top gaming
+  - key: options.hobbies.video_games
+    t: Video games
+  - key: options.hobbies.music
+    t: Playing music
+  - key: options.hobbies.cooking
+    t: Cooking
+  - key: options.hobbies.reading
+    t: Reading
+  - key: options.hobbies.arts_and_crafts
+    t: Arts and crafts
+  - key: options.hobbies.electronics
+    t: Electronics
+  - key: options.hobbies.gardening
+    t: Gardening
+  - key: options.hobbies.camping
+    t: Camping
+
+  # hobbies_frequency
+
+  - key: hobbies.hobbies_frequency
+    t: Hobbies Frequency
+  - key: hobbies.hobbies_frequency.question
+    t: How often are you able to practice your hobbies?
+
+  - key: options.hobbies_frequency.once_a_year_less
+    t: Once a year or less
+  - key: options.hobbies_frequency.few_times_per_year
+    t: A few times per year
+  - key: options.hobbies_frequency.few_times_per_month
+    t: A few times per month
+  - key: options.hobbies_frequency.few_times_per_week
+    t: A few times per week
+  - key: options.hobbies_frequency.every_day
+    t: Every day
+
+  # video_game_platforms
+
+  - key: hobbies.video_game_platforms
+    t: Video Game Platforms
+  - key: hobbies.video_game_platforms.question
+    t: Which video game platforms do you play on, if any?
+
+  - key: options.video_game_platforms.nintendo_switch
+    t: Switch
+  - key: options.video_game_platforms.playstation
+    t: Playstation
+  - key: options.video_game_platforms.xbox
+    t: XBox
+  - key: options.video_game_platforms.pc
+    t: PC
+  - key: options.video_game_platforms.mac
+    t: macOS
+  - key: options.video_game_platforms.ios
+    t: iOS
+  - key: options.video_game_platforms.android
+    t: Android
+  - key: options.video_game_platforms.steamdeck
+    t: Steamdeck
+  - key: options.video_game_platforms.retro_emulation_console
+    t: Retro emulation consoles
+
+  # video_games
+
+  - key: hobbies.video_games
+    t: Video Games
+  - key: hobbies.video_games.question
+    t: What are your top three favorite video games you've played in the past 12 months?
+
   # user_info
+
+  - key: user_info.number_of_kids
+    t: Number of Kids
+  - key: user_info.number_of_kids.question
+    t: How many children do you have, if any?
+
+  - key: user_info.relationship_status
+    t: Relationship Status
+  - key: user_info.relationship_status.question
+    t: What is your current relationship status?
+
+  - key: options.relationship_status.single
+    t: Single
+  - key: options.relationship_status.in_a_relationship
+    t: In a relationship
+  - key: options.relationship_status.its_complicated
+    t: It's complicated
