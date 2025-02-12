@@ -113,7 +113,8 @@ translations:
   # calendar
 
   - key: calendar.heading
-    t: Upcoming Surveys
+    t: |
+      {currentYear} Surveys
   - key: calendar.feedbackAt
     t: Feedback start
   - key: calendar.startedAt
@@ -122,3 +123,17 @@ translations:
     t: Survey end
   - key: calendar.releasedAt
     t: Results release
+  - key: calendar.past_editions
+    t: Past Surveys
+  - key: calendar.ongoing_editions
+    t: Ongoing Surveys
+  - key: calendar.upcoming_editions
+    t: Upcoming Surveys
+  - key: calendar.no_editions
+    t: No surveys.
+  - key: calendar.give_feedback
+    t: Share feedback →
+  - key: calendar.take_survey
+    t: Take survey →
+  - key: calendar.view_results
+    t: View results →
