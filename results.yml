@@ -31,6 +31,9 @@ translations:
     t: >
       This survey was distributed primarily through online platforms, each of which carry their own inherent demographic biases. As such, it is representative of the makeup of these specific communities, and may not be representative of the developer community at large.
 
+  - key: results.ongoing_survey
+    t: Open Now
+
   ###########################################################################
   # Tabs
   ###########################################################################

@@ -7,6 +7,9 @@ translations:
   - key: general.results.description
     t: The 2024 edition of the annual survey about the latest trends in the React ecosystem.
 
+  - key: general.react2024.ai2025_banner
+    t: Take the State of Web Dev AI survey and help us figure out AI's impact on the web! →
+
   ###########################################################################
   # Introduction
   ###########################################################################

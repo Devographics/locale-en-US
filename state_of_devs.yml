@@ -42,6 +42,20 @@ translations:
   - key: sections.hobbies.prompt
     t: Your other passions.
 
+  # employment_status
+  - key: career.employment_status
+    aliasFor: user_info.employment_status
+  - key: career.employment_status.question
+    aliasFor: user_info.employment_status.question
+
+  # how_many_jobs
+  - key: career.how_many_jobs
+    t: Job Count
+  - key: career.how_many_jobs.question
+    t: How many companies have you worked for up to now?
+  - key: career.how_many_jobs.question.prompt
+    t: Only including programming jobs.
+
   # career_issues
 
   - key: career.career_issues
@@ -110,6 +124,31 @@ translations:
     t: Meetups & Events
   - key: career.past_year_meetups_events.question
     t: How many meetups & local events have you attended in the past year?
+
+  - key: options.past_year_conferences.range_0
+    t: None
+    aliases:
+      - options.past_year_meetups_events.range_0
+  - key: options.past_year_conferences.range_1
+    t: 1
+    aliases:
+      - options.past_year_meetups_events.range_1
+  - key: options.past_year_conferences.range_2_5
+    t: 2-5
+    aliases:
+      - options.past_year_meetups_events.range_2_5
+  - key: options.past_year_conferences.range_6_10
+    t: 6-10
+    aliases:
+      - options.past_year_meetups_events.range_6_10
+  - key: options.past_year_conferences.range_11_15
+    t: 11-15
+    aliases:
+      - options.past_year_meetups_events.range_11_15
+  - key: options.past_year_conferences.range_more_than_15
+    t: More than 15
+    aliases:
+      - options.past_year_meetups_events.range_more_than_15
 
   # WORKPLACE
 
@@ -402,10 +441,12 @@ translations:
   - key: worldview.left_right.question
     t: Where do you place yourself on the left vs right political axis?
 
-  - key: options.left_right.0.description
-    t: Far left
-  - key: options.left_right.8.description
-    t: Far right
+  - key: options.left_right.0
+    t: Far Left
+  - key: options.left_right.4
+    t: Center
+  - key: options.left_right.8
+    t: Far Right
 
   - key: worldview.global_issues
     t: Global Issues
@@ -480,7 +521,7 @@ translations:
   # hobbies
 
   - key: hobbies.physical_activity
-    t: Physical Activities
+    t: Physical Activity
   - key: hobbies.physical_activity.question
     t: Which of the following physical activites do you practice regularly? (once a week or more)
 

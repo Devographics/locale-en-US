@@ -132,7 +132,7 @@ translations:
   - key: calendar.no_editions
     t: No surveys.
   - key: calendar.give_feedback
-    t: Share feedback →
+    t: Suggest questions →
   - key: calendar.take_survey
     t: Take survey →
   - key: calendar.view_results

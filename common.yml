@@ -1297,6 +1297,27 @@ translations:
     t: Yes, unrelated field
 
   # employment_status
+
+  - key: user_info.employment_status
+    t: Employment Status
+  - key: user_info.employment_status.question
+    t: What is your current employment status?
+
+  - key: options.employment_status.employed_full_time
+    t: Employed, full-time
+  - key: options.employment_status.freelance
+    t: Independent contractor, freelancer, or self-employed
+  - key: options.employment_status.employed_part_time
+    t: Employed, part-time
+  - key: options.employment_status.student_full_time
+    t: Student, full-time
+  - key: options.employment_status.student_part_time
+    t: Student, part-time
+  - key: options.employment_status.looking_for_job
+    t: Not employed, but looking for work
+  - key: options.employment_status.not_employed_not_looking
+    t: Not employed, and not looking for work
+
   - key: options.employment_status.full_time
     t: Full-time
   - key: options.employment_status.student
