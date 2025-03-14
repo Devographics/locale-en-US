@@ -4,6 +4,16 @@ translations:
   # General
   ###########################################################################
 
+  - key: general.state_of_devs.description
+    t: The developer survey about everything else
+
+  - key: general.state_of_devs.intro
+    t: |
+
+      While asking about your favorite JavaScript framework over and over again is all well and good, we thought it was time to take on the bigger questions in life: who are you? what do you do besides coding? and what do you believe and hope for?
+
+      This is what the State of Devs survey is all about. This time, it's about everything that's *not* code.
+
   ###########################################################################
   # Sections
   ###########################################################################

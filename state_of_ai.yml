@@ -23,62 +23,161 @@ translations:
     t: |
       This first part of the survey is all about which AI tools you use, or have heard about.
 
+  # models
+
   - key: sections.models.title
     t: Model Providers
   - key: sections.models.prompt
     t: General-purpose AI apps and/or models.
 
+  - key: tools.models_experience
+    t: Models Experience & Sentiment
+  - key: tools.models_others
+    t: Other Models
+
   - key: tools.models_pain_points
     t: Model Providers Pain Points
+    aliases:
+      - models.models_pain_points
+      - ai_pain_points.models_pain_points
   - key: tools.models_pain_points.question
     t: Which pain points have you encountered when using AI models?
+    aliases:
+      - models.models_pain_points.question
+      - ai_pain_points.models_pain_points.question
+
+  - key: options.ai_pain_points.hallucinations
+    t: Hallucinations
+  - key: options.ai_pain_points.inaccurate_incorrect_results
+    t: Inaccurate/incorrect results
+  - key: options.ai_pain_points.context_limitations
+    t: Limited context
+  - key: options.ai_pain_points.high_cost
+    t: High monetary cost
+  - key: options.ai_pain_points.slow_to_return_results
+    t: Slow response speed
+  - key: options.ai_pain_points.poor_generated_code_quality
+    t: Poor generated code quality
+  - key: options.ai_pain_points.outdated_information
+    t: Outdated information
+  - key: options.ai_pain_points.misunderstanding_prompt
+    t: Misunderstanding the prompt
+  - key: options.ai_pain_points.rate_limiting
+    t: Rate and usage limiting
+  - key: options.ai_pain_points.inconsistent_results
+    t: Inconsistent results
+  - key: options.ai_pain_points.poor_reliability
+    t: Poor reliability
+  - key: options.ai_pain_points.overly_generic_answers
+    t: Overly generic answers
+  - key: options.ai_pain_points.overconfidence
+    t: Overconfidence
+  - key: options.ai_pain_points.overly_verbose_results
+    t: Overly verbose answers
+
+  - key: options.ai_pain_points.cursor_pain_points
+    t: Cursor issues
+
+  # coding_assistants
 
   - key: sections.coding_assistants.title
     t: Coding Assistants
   - key: sections.coding_assistants.prompt
     t: AI tools that help throughout the development process.
 
+  - key: tools.coding_assistants_experience
+    t: Coding Assistants Experience & Sentiment
+  - key: tools.coding_assistants_others
+    t: Other Coding Assistants
+
   - key: tools.coding_assistants_pain_points
     t: Coding Assistants Pain Points
+    aliases:
+      - coding_assistants.coding_assistants_pain_points
+      - ai_pain_points.coding_assistants_pain_points
   - key: tools.coding_assistants_pain_points.question
     t: Which pain points have you encountered when using coding assistants?
+    aliases:
+      - coding_assistants.coding_assistants_pain_points.question
+      - ai_pain_points.coding_assistants_pain_points.question
+
+  # code_generation
 
   - key: sections.code_generation.title
     t: Code Generation
   - key: sections.code_generation.prompt
     t: AI tools used to generate new codebases or code snippets.
 
+  - key: tools.code_generation_experience
+    t: Code Generation Experience & Sentiment
+  - key: tools.code_generation_others
+    t: Other Code Generation Tools
+
   - key: tools.code_generation_pain_points
     t: Code Generation Pain Points
+    aliases:
+      - code_generation.code_generation_pain_points
+      - ai_pain_points.code_generation_pain_points
   - key: tools.code_generation_pain_points.question
     t: Which pain points have you encountered when using code generation tools?
+    aliases:
+      - code_generation.code_generation_pain_points.question
+      - ai_pain_points.code_generation_pain_points.question
+
+  # ides
 
   - key: sections.ides.title
     t: IDEs & Editors
   - key: sections.ides.prompt
     t: IDEs or code editors focused on AI integration.
 
+  - key: tools.ides_experience
+    t: IDEs Experience & Sentiment
+  - key: tools.ides_others
+    t: Other IDEs
+
   - key: tools.ides_pain_points
     t: Coding Assistants Pain Points
+    aliases:
+      - ides.ides_pain_points
+      - ai_pain_points.ides_pain_points
   - key: tools.ides_pain_points.question
     t: Which pain points have you encountered when using AI-focused IDEs and editors?
+    aliases:
+      - ides.ides_pain_points.question
+      - ai_pain_points.ides_pain_points.question
+
+  # image_generation
 
   - key: sections.image_generation.title
     t: Image Generation
   - key: sections.image_generation.prompt
     t: AI tools for generating and editing images.
 
+  - key: tools.image_generation_experience
+    t: Image Generation Experience & Sentiment
+  - key: tools.image_generation_others
+    t: Other Image Generation Tools
+
   # ai_programming_languages
 
   - key: other_tools.ai_programming_languages
     t: Programming Languages
+    aliases:
+      - tools.ai_programming_languages
   - key: other_tools.ai_programming_languages.question
     t: Which programming language(s) do you use AI tools with?
+    aliases:
+      - tools.ai_programming_languages.question
 
   - key: other_tools.image_generation
     t: Image Generation
+    aliases:
+      - tools.image_generation
   - key: other_tools.image_generation.question
     t: Which AI tools or models do you use to generate images?
+    aliases:
+      - tools.image_generation.question
 
   # chatgpt
 
@@ -89,22 +188,34 @@ translations:
 
   - key: other_tools.ai_libraries_sdks
     t: Libraries & SDKs
+    aliases:
+      - tools.ai_libraries_sdks
   - key: other_tools.ai_libraries_sdks.question
     t: Which AI libraries and SDKs do you use?
+    aliases:
+      - tools.ai_libraries_sdks.question
 
   # ai_browser_apis
 
   - key: other_tools.ai_browser_apis
     t: Browser APIs
+    aliases:
+      - tools.ai_browser_apis
   - key: other_tools.ai_browser_apis.question
     t: What AI APIs would you most like to see supported natively in browsers?
+    aliases:
+      - tools.ai_browser_apis.question
 
-  # ai_tools_others
+  # ai_pain_points_others
 
-  - key: other_tools.ai_tools_others
+  - key: other_tools.ai_pain_points_others
     t: Other Tools
-  - key: other_tools.ai_tools_others.question
+    aliases:
+      - tools.ai_pain_points_others
+  - key: other_tools.ai_pain_points_others.question
     t: What other AI tools not mentioned so far do you use?
+    aliases:
+      - tools.ai_pain_points_others.question
 
   # ai_generated_code_balance
 
