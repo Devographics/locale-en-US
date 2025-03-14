@@ -7,7 +7,7 @@ translations:
   - key: homepage.hand_coded
     t: Hand-coded in Japan.
   - key: homepage.leave_issue
-    t: Leave an issue
+    t: Report an issue
   - key: homepage.get_in_touch
     t: Get in touch
 
