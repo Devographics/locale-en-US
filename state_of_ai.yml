@@ -775,6 +775,8 @@ translations:
     t: People
   - key: resources.ai_people.question
     t: Who do you follow on other social media to learn about AI?
+  - key: resources.ai_people.description
+    t: Developers, influencers, experts, etc.
 
   - key: user_info.years_of_experience.state_of_ai
     t: Years of Experience
