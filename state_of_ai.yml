@@ -53,7 +53,7 @@ translations:
   - key: options.ai_pain_points.context_limitations
     t: Limited context
   - key: options.ai_pain_points.high_cost
-    t: High monetary cost
+    t: High cost
   - key: options.ai_pain_points.slow_to_return_results
     t: Slow response speed
   - key: options.ai_pain_points.poor_generated_code_quality
@@ -677,6 +677,11 @@ translations:
     t: No, but I'd like to
   - key: options.ai_running_locally.yes_interested
     t: "Yes"
+
+  - key: options.ai_running_locally.no_not_interested.short
+    t: No, not interested
+  - key: options.ai_running_locally.no_but_interested.short
+    t: No, but interested
 
   # ai_missing_features
 

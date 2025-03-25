@@ -15,6 +15,25 @@ translations:
 
       *P.S. One of the paragraphs above was in fact written by AI. Can you tell which one?*
 
+  - key: introduction.ai2025
+    t: |
+
+      Does napping help with jetlag? What's the best denim brand for me? Where should I eat tonight? 
+
+      Like many I've experimented with entrusting life's small – and sometimes not-so-small – decisions to AI, with some success. But what about *writing code*? Is AI ready to take over, or should we hold on to our keyboards just a little bit longer?
+
+      Now sure, open any social media app and you'll find no shortage of developers willing to tell you all about how they routinely “vibe code” a whole app before breakfast. 
+
+      Yet many questions still remain: How much are developers spending on AI? Which tools are the most useful? And what are developer's biggest pain points when it comes to actually leveraging AI to develop web apps?
+
+      This first ever State of Web Dev AI survey answers all these questions and much more. What's more, we tried to also poll developers who still have their reservations about AI, in order to paint a more accurate picture of the current State of the AI ecosystem.
+
+      We hope you find the resulting report as interesting as we did!
+
+      *Note that this survey should not be confused with: [The State of AI Report](xxx), *
+
+      <span class="conclusion__byline">– Sacha Greif</span>
+
   # FAQ
 
   - key: faq.results_released_ai2025
@@ -27,3 +46,193 @@ translations:
   - key: faq.survey_design_ai2025.description
     t: >
       This survey was designed as the results of an [open design process](https://github.com/Devographics/surveys/issues/278) involving AI companies, browser vendors and the web development community.
+
+  ###########################################################################
+  # Content
+  ###########################################################################
+
+  # user_info
+
+  - key: sections.user_info.description.ai2025
+    t: |
+      **4,181** respondents took part in this first edition of the State of Web Dev AI survey.
+
+  # models
+
+  - key: sections.models.description.ai2025
+    t: |
+      The foundation on which the entire ecosystem is built.
+
+  - key: tools.models_experience.takeaway.ai2025
+    t: |
+      It should be no surprise that OpenAI's **ChatGPT** still benefits from its first-mover advantage and large mindshare, making it both the most-used (91.2%) and most-loved (53.1%) model provider. 
+
+      But while it does possess a large lead in terms of usage, runner-up **Claude** is not very far behind in terms of positive sentiment with 45.9%.
+
+  - key: ai_pain_points.models_pain_points.takeaway.ai2025
+    t: |
+      Hallucinations
+
+  # ides
+
+  - key: sections.ides.description.ai2025
+    t: |
+      The AI-powered text editors of tomorrow.
+
+  - key: tools.ides_experience.takeaway.ai2025
+    t: |
+      **Cursor** has a dominant awareness lead, with 82.2% of respondents having used it or heard of it, versus just 54.1% for runner-up Zed. 
+
+      When looking at freeform comments left about Cursor, it seems like the main issue is actually its price, indicating that the market might have room for a cheaper alternative.
+
+  - key: ai_pain_points.ides_pain_points.takeaway.ai2025
+    t: |
+      A **limited context window** is the main thing currently preventing web developers from using dedicated IDEs to code, followed by the **high cost** associated with AI IDEs.
+
+  # coding_assistants
+
+  - key: sections.coding_assistants.description.ai2025
+    t: |
+      Your personal coding buddy.
+
+  - key: tools.coding_assistants_experience.takeaway.ai2025
+    t: |
+      While it's no surprise seeing **GitHub Copilot** top the usage and positive sentiment rankings, it's worth noting that **Supermaven** has the second highest amount of positive sentiment despite only ranking 4th in terms of usage. This kind of discrepancy is often the sign of a new rising star that could make waves in the year to come.
+
+  - key: ai_pain_points.coding_assistants_pain_points.takeaway.ai2025
+    t: |
+      Just like for IDEs, these tools' **limited context window** tops the list of pain points.
+
+  # code_generation
+
+  - key: sections.code_generation.description.ai2025
+    aliasFor: sections.code_generation.prompt
+
+  - key: tools.code_generation_experience.takeaway.ai2025
+    t: |
+      With Vercel's might behind it, **v0** has quickly established itself as the leader in this budding new industry sector. But StackBlitz' **Bolt** is not far behind, and certainly worth keeping an eye on.
+
+  - key: ai_pain_points.code_generation_pain_points.takeaway.ai2025
+    t: |
+      TODO
+
+  # other_tools
+
+  - key: sections.other_tools.description.ai2025
+    t: Other AI Tools
+
+  - key: other_tools.ai_programming_languages.takeaway.ai2025
+    t: |
+      As expected for a surevy focusing on web development, AI tools wre most often used in conjunction with JavaScript and TypeScript.
+
+  - key: other_tools.image_generation.takeaway.ai2025
+    t: |
+      Being built into ChatGPT has proven to be a big advantage for **Dall-E**, as it takes the lead over established competitors such as **Stable Diffusion** and **Midjourney**.
+
+  - key: other_tools.ai_libraries_sdks.takeaway.ai2025
+    t: |
+      Between v0 and the **Vercel AI SDK**, Vercel has managed to perform quite well in the AI space, despite not having AI as its main focus.
+
+  - key: other_tools.ai_browser_apis.takeaway.ai2025
+    t: |
+      AI models could very well become baked into our web browsers in the future – and if that happens, things like translating or summarizing content on the fly could be just an API call away.
+
+  # usage
+
+  - key: sections.usage.description.ai2025
+    t: todo
+
+  - key: usage.ai_uses.takeaway.ai2025
+    t: As expected in a developer survey, **code generation** ranked as the most common AI usage. On the other hand, even though **image generation** was the original use case for generative AI, only 38% of respondents stated using it.
+
+  - key: usage.ai_generated_code_balance.takeaway.ai2025
+    t: Most of us aren't quite vibe coding just yet, with a majority of respondents (69%) generating less than 25% of their code through AI – and only a small minority (8%) generating more than 75% of it.
+
+  - key: usage.ai_generated_code_refactoring.takeaway.ai2025
+    t: Even when AI is used to generate code, a large majority (76%) of developers stated they have to refactor at least half of the outputted code before it's ready to be used.
+
+  - key: usage.ai_code_refactoring_reasons.takeaway.ai2025
+    t: |
+      The top reasons for refactoring were cosmetic concerns such as poor readability, variable renaming, and excessive repetition. 
+
+      Many respondents also used the freeform “other answer” field to state that generated code often just didn't work as intended.
+
+  - key: usage.ai_code_generation_frequency.takeaway.ai2025
+    t: |
+      This chart shows just how embedded AI has become in our daily workflows, with 46% of respondents using AI to generate code multiple times per day or more.
+
+  - key: usage.ai_other_tasks_frequency.takeaway.ai2025
+    t: |
+      Compared to code generation, AI is used for other tasks (research, summarization, translation, etc.) relatively less often – which makes sense given that coding is still what we spend the most time on.
+
+  - key: usage.ai_generated_code_type.takeaway.ai2025
+    t: |
+      The most commonly generated code type proved to be helper functions, followed by frontend components, both of which are fairly self-contained, making them good candidates for code generation. 
+
+      Many are also using AI to add documentation or comments to existing code, which is an unexpected use case.
+
+  - key: usage.ai_personal_expenses.takeaway.ai2025
+    t: |
+      I'm not sure where AI companies are getting the cash to run their server farms, but one thing's for sure – it's not from individual developers, with a majority of respondents not currently spending any of their own money on AI tools and services.
+
+  - key: usage.ai_company_expenses.takeaway.ai2025
+    t: |
+      Interestingly, company expenses follow a horseshoe pattern, with companies not spending anything on AI – unless they're spending over $5000! Whether this pricing model will prove sustainable for AI companies will remain to be seen.
+
+      Note that respondents also pointed out in freeform comments that they might not always have access to this information.
+
+  - key: usage.industry_sector.takeaway.ai2025
+    t: |
+      Don't hesitate to use our built-in **Query Builder** on any *other* chart to filter these survey results according to any specific industry sector.
+
+  - key: usage.ai_running_locally.takeaway.ai2025
+    t: |
+      Many respondents have already tried running their own AI models locally, despite the difficulties involved, and many others are interesting in trying. 
+
+      This could become a key differentiator for new models, as this shows a strong demand for being more in control of your AI tools.
+
+  - key: usage.ai_pain_points.takeaway.ai2025
+    t: |
+      Poor overall code quality ranked first when it comes to AI pain points.
+
+  - key: usage.ai_missing_features.takeaway.ai2025
+    t: |
+      todo
+
+  - key: usage.ai_happiness.takeaway.ai2025
+    t: |
+      todo
+
+  # resources
+
+  - key: sections.resources.description.ai2025
+    t: todo
+
+  # opinions
+
+  - key: sections.opinions.description.ai2025
+    t: todo
+
+  - key: opinions.integral_workflow.takeaway.ai2025
+    t: |
+      Even though AI tools aren't perfect by any means, there's a strong concensus among respondents that they have already become an integral part of their daily coding workflow.
+
+  - key: opinions.more_productive.takeaway.ai2025
+    t: |
+      Similarly, a majority of respondents agree that AI tools have successfully made them more productive.
+
+  - key: opinions.ai_reliance_worse_developers.takeaway.ai2025
+    t: |
+      Yet this productivity gain today may come at a cost tommorrow: excessive reliance on AI tools may well end up lowering the overall skill level of the entire industry!
+
+  - key: opinions.job_security_threat.takeaway.ai2025
+    t: |
+      In any case, the average respondent isn't worried about AI coming for their job – time will tell if this is confidence or hubris.
+
+  - key: opinions.existential_risk.takeaway.ai2025
+    t: |
+      Respondents were split on the topic of AI safety, with many (myself included) not quite sure yet whether AI really poses a risk to humanity or not.
+
+  - key: opinions.reach_agi.takeaway.ai2025
+    t: |
+      “AGI” is a nebulous target that it often touted as being “just around the corner”. But overall, respondents remained somewhat skeptical that it would be reached within the near future.
