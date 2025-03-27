@@ -30,7 +30,7 @@ translations:
 
       We hope you find the resulting report as interesting as we did!
 
-      *Note that this survey should not be confused with: [The State of AI Report](xxx), *
+      *Note that this survey is not affiliated with [The State of AI Report](https://www.stateof.ai/)*
 
       <span class="conclusion__byline">– Sacha Greif</span>
 
@@ -236,3 +236,22 @@ translations:
   - key: opinions.reach_agi.takeaway.ai2025
     t: |
       “AGI” is a nebulous target that it often touted as being “just around the corner”. But overall, respondents remained somewhat skeptical that it would be reached within the near future.
+
+  # conclusion
+
+  - key: conclusion.ai2025.ashok_gelal.bio
+    t: Developer and Founder, [Msty](https://msty.app/)
+
+  - key: conclusion.ai2025.ashok_gelal
+    t: |
+      Just like many of us, I was very skeptical of AI at first. Was AI a real game-changer, or just another fad like NFTs, Crypto, Web3, and so many others?
+
+      Then OpenAI came out with ChatGPT. And when, shortly after, my 7th-grader niece mentioned their teacher was making plans to use it in the classroom, I knew something was different this time around. 
+
+      And for a while there I thought OpenAI would run away with the whole market – but man, am I glad to be wrong! 
+
+      Recent reasoning models from DeepSeek, mind-blowing image generative capabilities from Goolge Gemini, MCP Tools from Anthropic, etc. show that this is just the beginning, and that AI innovation is happening at an unprecedented pace. 
+
+      As someone making an app on top of these models, I am super excited to see where this is all going to take us. Will AI replace us? I'm not sure. But I believe those of us who learn how to use it will definitely have an edge. 
+
+      I wasn't around for the original Internet boom, so I am not going to sit this one out. Now excuse me, I need to check out the just-announced Deepseek-V3 model that is supposed to be faster, cheaper, and better than anything else out there!
