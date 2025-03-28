@@ -863,6 +863,8 @@ translations:
   # other
   - key: blocks.freeform
     t: Freeform
+  - key: blocks.multiple
+    t: Multiple
 
   # Reading List
   - key: features.reading_list
@@ -919,6 +921,8 @@ translations:
     t: "{count} responses"
   - key: charts.facet_respondents
     t: "({count} respondents)"
+  - key: charts.facet_detail
+    t: "({count} responses out of {totalRespondents} respondents)"
 
   - key: charts.average.used
     t: “Used” average
@@ -1079,7 +1083,12 @@ translations:
   - key: charts.freeform_data
     t: Freeform Data
   - key: charts.freeform_data.description
-    t: Data gathered through a freeform text field
+    t: Respondents typed their answers using a freeform text field
+
+  - key: charts.multiple_data
+    t: Multiple Choice
+  - key: charts.multiple_data.description
+    t: Respondents could submit more than one answer for this question
 
   - key: charts.tick.links
     t: Links
