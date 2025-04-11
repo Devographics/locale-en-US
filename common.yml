@@ -572,7 +572,7 @@ translations:
 
   # opinions
   - key: options.opinions.0
-    t: Disagree Strongly
+    t: Strongly Disagree
   - key: options.opinions.1
     t: Disagree
   - key: options.opinions.2
@@ -580,7 +580,7 @@ translations:
   - key: options.opinions.3
     t: Agree
   - key: options.opinions.4
-    t: Agree Strongly
+    t: Strongly Agree
 
   # age
   - key: options.age.range_less_than_10

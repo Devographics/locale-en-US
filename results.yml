@@ -1944,6 +1944,16 @@ translations:
     t: >
       Average: **{value}**
 
+  - key: charts.median.marker
+    t: >
+      Median: **{value}**
+
+  - key: charts.marker.toggle.average
+    t: Toggle median
+
+  - key: charts.marker.toggle.median
+    t: Toggle average
+
   - key: charts.filter_by
     t: >
       Filter by:
@@ -1996,6 +2006,9 @@ translations:
       automated and manual data processing.
   - key: answers.report_abuse
     t: Report this answer
+
+  - key: answers.alphabetical
+    t: Alphabetical Order
 
   - key: answers.length
     t: Answer Length

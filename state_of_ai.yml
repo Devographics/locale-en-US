@@ -32,8 +32,11 @@ translations:
 
   - key: tools.models_experience
     t: Models Experience & Sentiment
+
   - key: tools.models_others
     t: Other Models
+  - key: tools.models_others.question
+    t: What other models are you currently using?
 
   - key: tools.models_pain_points
     t: Model Providers Pain Points
@@ -46,14 +49,10 @@ translations:
       - models.models_pain_points.question
       - ai_pain_points.models_pain_points.question
 
-  - key: options.ai_pain_points.hallucinations
-    t: Hallucinations
-  - key: options.ai_pain_points.inaccurate_incorrect_results
-    t: Inaccurate/incorrect results
   - key: options.ai_pain_points.context_limitations
-    t: Limited context
+    t: Context & memory limitations
   - key: options.ai_pain_points.high_cost
-    t: High cost
+    t: High monetary cost
   - key: options.ai_pain_points.slow_to_return_results
     t: Slow response speed
   - key: options.ai_pain_points.poor_generated_code_quality
@@ -74,6 +73,48 @@ translations:
     t: Overconfidence
   - key: options.ai_pain_points.overly_verbose_results
     t: Overly verbose answers
+  - key: options.ai_pain_points.hallucinations_inaccuracies
+    t: Hallucination & inaccuracies
+  - key: options.ai_pain_points.code_generation_issues
+    t: Poor generated code quality
+  - key: options.ai_pain_points.lack_of_understanding
+    t: Lack of prompt understanding
+  - key: options.ai_pain_points.poor_response_quality
+    t: Poor response quality
+  - key: options.ai_pain_points.prompt_engineering_difficulty
+    t: Difficulties enginering prompts
+  - key: options.ai_pain_points.slow_response_time
+    t: Slow response time
+  - key: options.ai_pain_points.outdated_knowledge
+    t: Outdated knowledge
+  - key: options.ai_pain_points.limited_reasoning_ability
+    t: Limited reasoning ability
+  - key: options.ai_pain_points.overly_verbose_responses
+    t: Overly verbose responses
+  - key: options.ai_pain_points.bad_ui_ux
+    t: Poor UI/UX
+  - key: options.ai_pain_points.tool_integration_issues
+    t: Tool integration issues
+  - key: options.ai_pain_points.intrusive_suggestions
+    t: Intrusive or distracting suggestions
+  - key: options.ai_pain_points.code_modification_problems
+    t: Bad at modifying code
+  - key: options.ai_pain_points.tool_setup_issues
+    t: Tool setup issues
+  - key: options.ai_pain_points.overrated_hype
+    t: Overrated
+  - key: options.ai_pain_points.stuck_in_loops
+    t: Stuck in loops
+  - key: options.ai_pain_points.poor_suggestions
+    t: Poor suggestions
+  - key: options.ai_pain_points.lack_of_codebase_knowledge
+    t: Lack of codebase awareness
+  - key: options.ai_pain_points.limited_usefulness
+    t: Limited usefuleness
+  - key: options.ai_pain_points.free_plan_limitations
+    t: Free plans limitations
+  - key: options.ai_pain_points.ethical_concerns
+    t: Ethical concerns
 
   - key: options.ai_pain_points.cursor_pain_points
     t: Cursor issues
@@ -87,8 +128,11 @@ translations:
 
   - key: tools.coding_assistants_experience
     t: Coding Assistants Experience & Sentiment
+
   - key: tools.coding_assistants_others
     t: Other Coding Assistants
+  - key: tools.coding_assistants_others.question
+    t: What other coding assistants are you currently using?
 
   - key: tools.coding_assistants_pain_points
     t: Coding Assistants Pain Points
@@ -110,8 +154,11 @@ translations:
 
   - key: tools.code_generation_experience
     t: Code Generation Experience & Sentiment
+
   - key: tools.code_generation_others
     t: Other Code Generation Tools
+  - key: tools.code_generation_others.question
+    t: What other code generation tools are you currently using?
 
   - key: tools.code_generation_pain_points
     t: Code Generation Pain Points
@@ -133,11 +180,14 @@ translations:
 
   - key: tools.ides_experience
     t: IDEs Experience & Sentiment
+
   - key: tools.ides_others
     t: Other IDEs
+  - key: tools.ides_others.question
+    t: What other IDEs are you currently using?
 
   - key: tools.ides_pain_points
-    t: Coding Assistants Pain Points
+    t: IDEs Pain Points
     aliases:
       - ides.ides_pain_points
       - ai_pain_points.ides_pain_points
@@ -156,8 +206,11 @@ translations:
 
   - key: tools.image_generation_experience
     t: Image Generation Experience & Sentiment
+
   - key: tools.image_generation_others
     t: Other Image Generation Tools
+  - key: tools.image_generation_others.question
+    t: What other image generation tools are you currently using?
 
   # ai_programming_languages
 
@@ -206,16 +259,16 @@ translations:
     aliases:
       - tools.ai_browser_apis.question
 
-  # ai_pain_points_others
+  # ai_tools_others
 
-  - key: other_tools.ai_pain_points_others
+  - key: other_tools.ai_tools_others
     t: Other Tools
     aliases:
       - tools.ai_pain_points_others
-  - key: other_tools.ai_pain_points_others.question
+  - key: other_tools.ai_tools_others.question
     t: What other AI tools not mentioned so far do you use?
     aliases:
-      - tools.ai_pain_points_others.question
+      - tools.ai_tools_others.question
 
   # ai_generated_code_balance
 
@@ -244,6 +297,19 @@ translations:
     t: "|"
   - key: options.ai_generated_code_balance.8
     t: 100% AI
+
+  # - key: options.ai_generated_code_balance.1.short
+  #   t: 12.5%
+  # - key: options.ai_generated_code_balance.2.short
+  #   t: 25%
+  # - key: options.ai_generated_code_balance.3.short
+  #   t: 37.5%
+  # - key: options.ai_generated_code_balance.5.short
+  #   t: 62.5%
+  # - key: options.ai_generated_code_balance.6.short
+  #   t: 75%
+  # - key: options.ai_generated_code_balance.7.short
+  #   t: 87.5%
 
   # ai_generated_code_refactoring
 
@@ -690,12 +756,37 @@ translations:
   - key: usage.ai_missing_features.question
     t: What capabilities do you feel are currently missing from AI tools?
 
+  - key: options.ai_missing_features.larger_context_window
+    t: Larger context window
+  - key: options.ai_missing_features.large_codebase_support
+    t: Larger codebases support
+  - key: options.ai_missing_features.up_to_date_knowledge
+    t: Up-to-date knowledge
+  - key: options.ai_missing_features.better_accuracy
+    t: Better accuracy
+  - key: options.ai_missing_features.self_evaluation
+    t: Self-evaluation
+  - key: options.ai_missing_features.higher_intelligence
+    t: Higher intelligence
+  - key: options.ai_missing_features.system_integration
+    t: Better tool integration
+  - key: options.ai_missing_features.truthfulness
+    t: Truthfulness
+  - key: options.ai_missing_features.user_interaction
+    t: Better UI/UX
+  - key: options.ai_missing_features.customization
+    t: More customization
+
   # ai_happiness
 
   - key: usage.ai_happiness
     t: Happiness
+    aliases:
+      - happiness.ai_happiness
   - key: usage.ai_happiness.question
     t: How happy are you with the current general state of AI tools for web development?
+    aliases:
+      - happiness.ai_happiness.question
 
   # existential_risk
 

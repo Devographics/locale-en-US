@@ -18,19 +18,25 @@ translations:
   - key: introduction.ai2025
     t: |
 
-      Does napping help with jetlag? What's the best denim brand for me? Where should I eat tonight? 
+      Does napping help with jetlag? What soldering iron should I buy? Where should I eat tonight? 
 
-      Like many I've experimented with entrusting life's small – and sometimes not-so-small – decisions to AI, with some success. But what about *writing code*? Is AI ready to take over, or should we hold on to our keyboards just a little bit longer?
+      Like many, I've started entrusting life's small – and sometimes not-so-small – questions to AI. But what about *writing code*? Is AI ready to take over, or should we hold on to our keyboards just a little bit longer?
 
-      Now sure, open any social media app and you'll find no shortage of developers willing to tell you all about how they routinely “vibe code” a whole app before breakfast. 
+      Now open your favorite social media app and you'll find no shortage of developers willing to tell you all about how they routinely “vibe code” a whole app before breakfast. 
 
-      Yet many questions still remain: How much are developers spending on AI? Which tools are the most useful? And what are developer's biggest pain points when it comes to actually leveraging AI to develop web apps?
+      Yet many questions still remain: 
 
-      This first ever State of Web Dev AI survey answers all these questions and much more. What's more, we tried to also poll developers who still have their reservations about AI, in order to paint a more accurate picture of the current State of the AI ecosystem.
+
+      - How much are developers spending on AI? 
+      - Which tools are the most useful? 
+      - And what are developer's biggest pain points when it comes to actually leveraging AI to develop web apps?
+
+
+      This first ever **State of Web Dev AI** survey answers all these questions and much more. What's more, we tried to also poll developers who still have their reservations about AI, in order to paint a more accurate picture of the current State of the AI ecosystem.
 
       We hope you find the resulting report as interesting as we did!
 
-      *Note that this survey is not affiliated with [The State of AI Report](https://www.stateof.ai/)*
+      *Note that this survey is not affiliated with [The State of AI Report](https://www.stateof.ai/).*
 
       <span class="conclusion__byline">– Sacha Greif</span>
 
@@ -71,7 +77,9 @@ translations:
 
   - key: ai_pain_points.models_pain_points.takeaway.ai2025
     t: |
-      Hallucinations
+      **Hallucinations & inaccuracies** were by far the biggest pain point with AI models reported by respondents, which makes sense as these tools lose all utility if their output can't be relied on. 
+
+      The lack of ability to **handle larger contexts** and keep data in memory was also a big issue, especially when it comes to dealing with large, real-world codebases.
 
   # ides
 
@@ -87,7 +95,7 @@ translations:
 
   - key: ai_pain_points.ides_pain_points.takeaway.ai2025
     t: |
-      A **limited context window** is the main thing currently preventing web developers from using dedicated IDEs to code, followed by the **high cost** associated with AI IDEs.
+      **Context & memory limitations** were the main thing currently preventing web developers from using dedicated IDEs to code, followed by too many **intrusive suggestions** as well as the **high cost** associated with AI IDEs.
 
   # coding_assistants
 
@@ -101,7 +109,9 @@ translations:
 
   - key: ai_pain_points.coding_assistants_pain_points.takeaway.ai2025
     t: |
-      Just like for IDEs, these tools' **limited context window** tops the list of pain points.
+      Once again **hallucinations and inaccuracies** prove to be a big obstacle to wider adoption.
+
+      And just like for IDEs, coding assistants having **limited context window** was also a major issue.
 
   # code_generation
 
@@ -114,7 +124,7 @@ translations:
 
   - key: ai_pain_points.code_generation_pain_points.takeaway.ai2025
     t: |
-      TODO
+      Code generation tools seem to generate **poor quality code** that often just doesn't work as intended, or at all.
 
   # other_tools
 
@@ -140,7 +150,8 @@ translations:
   # usage
 
   - key: sections.usage.description.ai2025
-    t: todo
+    t: |
+      How developers use AI.
 
   - key: usage.ai_uses.takeaway.ai2025
     t: As expected in a developer survey, **code generation** ranked as the most common AI usage. On the other hand, even though **image generation** was the original use case for generative AI, only 38% of respondents stated using it.
@@ -197,21 +208,23 @@ translations:
 
   - key: usage.ai_missing_features.takeaway.ai2025
     t: |
-      todo
+      How developers are learning about AI.
 
   - key: usage.ai_happiness.takeaway.ai2025
     t: |
-      todo
+      Despite the various pain points highlighted by the survey, respondents were overall quite positive on the state of AI for web development in 2025.
+    aliases:
+      - happiness.ai_happiness.takeaway.ai2025
 
   # resources
 
   - key: sections.resources.description.ai2025
-    t: todo
+    t: How developers are learning about AI
 
   # opinions
 
   - key: sections.opinions.description.ai2025
-    t: todo
+    t: Asking deeper questions
 
   - key: opinions.integral_workflow.takeaway.ai2025
     t: |
@@ -254,4 +267,50 @@ translations:
 
       As someone making an app on top of these models, I am super excited to see where this is all going to take us. Will AI replace us? I'm not sure. But I believe those of us who learn how to use it will definitely have an edge. 
 
-      I wasn't around for the original Internet boom, so I am not going to sit this one out. Now excuse me, I need to check out the just-announced Deepseek-V3 model that is supposed to be faster, cheaper, and better than anything else out there!
+      I wasn't around for the original Internet boom, so I am not going to sit this one out. Now excuse me, as I need to check out a just-announced new model that is supposed to be faster, cheaper, and better than anything else out there!
+
+  ###########################################################################
+  # Sponsors
+  ###########################################################################
+
+  - key: sponsors.google_chrome.description
+    t: Thanks to the Google Chrome team for supporting our work.
+
+  - key: sponsors.tokyodev.description
+    t: Find your dream developer job in Japan today.
+
+  ###########################################################################
+  # FAQ/About
+  ###########################################################################
+
+  - key: about.content
+    t: |
+      The 2025 State of Web Dev AI survey ran from February 10 to March 10 2025, and collected 4,181 responses. The results were published on April 15, 2025. The survey is run by [Devographics](https://devographics.com/), with help from invited domain experts and open-source contributors. 
+
+      ### Survey Goals
+
+      This survey was created to identify upcoming trends in terms of using AI for web development, in order to help developers make better technological choices. 
+
+      ### Survey Design
+
+      The survey was designed in collaboration with the community, with an open feedback period where the survey outline was discussed [on GitHub](https://github.com/Devographics/surveys/issues/278). 
+
+      All survey questions were optional. 
+
+      ### Survey Audience
+
+      The survey was openly accessible online and respondents were not filtered or selected in any way. Respondents were primarily a mix of respondents from past Devographics surveys such as [State of JS](https://stateofjs.com/), [State of CSS](https://stateofcss.com/), etc. (alerted through a dedicated mailing list) and social media traffic. 
+
+      Although the survey was open to all developers regardless of whether they use AI or not, the topic of the survey by itself is likely to have biased the respondent set towards developers who do have an interest in AI. 
+
+      It should also be taken as a **snapshot of a specific subset of developers**, and is not meant to speak for the entire ecosystem. 
+
+      ### Project Funding
+
+      Funding from this project comes from sponsorships from our partners.
+
+      Any contribution or sponsorship is greatly appreciated. we would especially like to work closely with more browser vendors, since they play such a central role in the web ecosystem.  
+
+      ### Technical Overview
+
+      You can find a more in-depth technical overview of how the surveys are run [here](https://dev.to/sachagreif/how-the-devographics-surveys-are-run-2023-edition-1p6a).
