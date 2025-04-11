@@ -264,7 +264,7 @@ translations:
   - key: other_tools.ai_tools_others
     t: Other Tools
     aliases:
-      - tools.ai_pain_points_others
+      - tools.ai_tools_others
   - key: other_tools.ai_tools_others.question
     t: What other AI tools not mentioned so far do you use?
     aliases:
@@ -369,6 +369,35 @@ translations:
     t: Variable renaming
   - key: options.ai_code_refactoring_reasons.improving_readability
     t: Poor readability
+
+  - key: options.ai_code_refactoring_reasons.faulty_code
+    t: Faulty code
+  - key: options.ai_code_refactoring_reasons.hallucinations_inaccuracies
+    aliasFor: options.ai_pain_points.hallucinations_inaccuracies
+  - key: options.ai_code_refactoring_reasons.code_generation_issues
+    aliasFor: options.ai_pain_points.poor_generated_code
+  - key: options.ai_code_refactoring_reasons.poor_generated_code_style
+    t: Poor code style
+  - key: options.ai_code_refactoring_reasons.not_matching_requirements
+    t: Not matching requirements
+  - key: options.ai_code_refactoring_reasons.codebase_compatibility
+    t: Incompatible with codebase
+  - key: options.ai_code_refactoring_reasons.context_limitations
+    t: Lack of context
+  - key: options.ai_code_refactoring_reasons.incomplete_implementation
+    t: Incomplete code
+  - key: options.ai_code_refactoring_reasons.over_engineering
+    t: Over-engineering
+  - key: options.ai_code_refactoring_reasons.gaining_better_understanding
+    t: Gaining a better understanding
+  - key: options.ai_code_refactoring_reasons.outdated_knowledge
+    t: Outdated code
+  - key: options.ai_code_refactoring_reasons.excessive_comments
+    t: Excessive comments
+  - key: options.ai_code_refactoring_reasons.code_readability
+    t: Poor readability
+  - key: options.ai_code_refactoring_reasons.phantom_api_usage
+    t: Using made-up APIs
 
   # ai_personal_expenses
 
@@ -552,6 +581,13 @@ translations:
   - key: options.ai_generated_code_type.tests
     t: Tests
 
+  - key: options.ai_generated_code_type.configuration_code
+    t: Configuration code
+  - key: options.ai_generated_code_type.boilerplate_code
+    t: Boilerplate code
+  - key: options.ai_generated_code_type.database_queries
+    t: Database queries
+
     # ai_uses
 
   - key: usage.ai_uses
@@ -678,6 +714,11 @@ translations:
     t: Learning new skills or researching a topic.
     aliases:
       - options.ai_browser_apis.learning_research.description
+
+  - key: options.ai_uses.no_browser_ai_apis
+    t: None
+    aliases:
+      - options.ai_browser_apis.no_browser_ai_apis
 
   # ai_pain_points
   - key: usage.ai_pain_points

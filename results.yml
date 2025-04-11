@@ -403,8 +403,12 @@ translations:
 
   - key: user_metadata.created_at_date
     t: Responses Over Time
+    aliases:
+      - _user_metadata.created_at_date
   - key: user_metadata.created_at_date.description
     t: Chronological breakdown of when responses were collected.
+    aliases:
+      - _user_metadata.created_at_date.description
 
   - key: user_metadata.authmode
     t: Authentication
@@ -2035,4 +2039,4 @@ translations:
   - key: tools.cardinalities
     t: Number of Items
   - key: tools.cardinalities.description
-    t: How many items in this category respondends have used (or heard of).
+    t: How many items in this category respondents have used (or heard of).
