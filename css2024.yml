@@ -44,7 +44,7 @@ translations:
 
       New CSS on the other hand is an approach that embraces Subgrid, `:has()`, variables, container queries, and the many new and exciting CSS features introduced in recent years to not only do away with extra tooling, but even start taking on tasks that previously required complex JavaScript workarounds. 
 
-      This is all possible thanks to a renewed comittment by browser vendors to, you know, actually *make this stuff work* – and I can't shake the feeling that we've barely scratched the surface of everything New CSS can offer. 
+      This is all possible thanks to a renewed commitment by browser vendors to, you know, actually *make this stuff work* – and I can't shake the feeling that we've barely scratched the surface of everything New CSS can offer. 
 
       <span class="conclusion__byline">– Sacha Greif</span>
 
@@ -228,7 +228,7 @@ translations:
 
   - key: usage.usage_type.takeaway.css2024
     t: >
-      Whether you build websites profesionally or just dabble, there's no wrong way to use CSS!
+      Whether you build websites professionally or just dabble, there's no wrong way to use CSS!
 
   - key: usage.design_methodology.takeaway.css2024
     t: >
@@ -265,7 +265,7 @@ translations:
 
   - key: usage.state_of_the_web_happiness.takeaway.css2024
     t: >
-      While we do love to complain about the state of thigns, it turns out happiness levels have remained surprisingly constent over the years.
+      While we do love to complain about the state of things, it turns out happiness levels have remained surprisingly constant over the years.
 
   - key: usage.state_of_css_happiness.takeaway.css2024
     t: >
