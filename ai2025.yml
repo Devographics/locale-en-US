@@ -279,6 +279,9 @@ translations:
   - key: sponsors.tokyodev.description
     t: Find your dream developer job in Japan today.
 
+  - key: sponsors.neon.description
+    t: Unleash cutting-edge AI applications with Postgres.
+
   ###########################################################################
   # FAQ/About
   ###########################################################################

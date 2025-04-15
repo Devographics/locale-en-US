@@ -633,90 +633,154 @@ translations:
   - key: options.left_right.8
     t: Far Right
 
-  - key: worldview.policies
-    t: Policies
-  - key: worldview.policies.question
-    t: How strongly do you agree or disagree about implementing these policy proposals?
+  # policies
 
-  - key: options.policies.ubi
-    t: Universal basic income
-  - key: options.policies.ubi.description
-    t: Government-provided minimum income for all citizens
+  # - key: worldview.policies
+  #   t: Policies
+  # - key: worldview.policies.question
+  #   t: How strongly do you agree or disagree about implementing these policy proposals?
 
-  - key: options.policies.free_trade
-    t: Free trade
-  - key: options.policies.free_trade.description
-    t: Free trade across countries with minimal restrictions.
+  # - key: options.policies.ubi
+  #   t: Universal basic income
+  # - key: options.policies.ubi.description
+  #   t: Government-provided minimum income for all citizens
 
-  - key: options.policies.universal_health_care
-    t: Universal health care
-  - key: options.policies.universal_health_care.description
-    t: Free access to health care regardless of personal wealth.
+  # - key: options.policies.free_trade
+  #   t: Free trade
+  # - key: options.policies.free_trade.description
+  #   t: Free trade across countries with minimal restrictions.
 
-  - key: options.policies.open_borders
-    t: Open borders
-  - key: options.policies.open_borders.description
-    t: Free movement of people between countries.
+  # - key: options.policies.universal_health_care
+  #   t: Universal health care
+  # - key: options.policies.universal_health_care.description
+  #   t: Free access to health care regardless of personal wealth.
 
-  - key: options.policies.drug_legalization
-    t: Drug decriminalization
-  - key: options.policies.drug_legalization.description
-    t: Reduced or eliminated control or penalties for most drugs.
+  # - key: options.policies.open_borders
+  #   t: Open borders
+  # - key: options.policies.open_borders.description
+  #   t: Free movement of people between countries.
 
-  - key: options.policies.hate_speech_regulations
-    t: Hate speech regulations
-  - key: options.policies.hate_speech_regulations.description
-    t: Criminal penalties for some forms of offensive speech.
+  # - key: options.policies.drug_legalization
+  #   t: Drug decriminalization
+  # - key: options.policies.drug_legalization.description
+  #   t: Reduced or eliminated control or penalties for most drugs.
 
-  - key: options.policies.affirmative_action
-    t: Affirmative action
-  - key: options.policies.affirmative_action.description
-    t: Increased opportunities for specific disadvantaged groups.
+  # - key: options.policies.hate_speech_regulations
+  #   t: Hate speech regulations
+  # - key: options.policies.hate_speech_regulations.description
+  #   t: Criminal penalties for some forms of offensive speech.
 
-  - key: options.policies.separation_church_state
-    t: Separation of church and state
-  - key: options.policies.separation_church_state.description
-    t: Ensuring government does not favor one religion over another.
+  # - key: options.policies.affirmative_action
+  #   t: Affirmative action
+  # - key: options.policies.affirmative_action.description
+  #   t: Increased opportunities for specific disadvantaged groups.
 
-  - key: options.policies.progressive_taxation
-    t: High marginal tax rates
-  - key: options.policies.progressive_taxation.description
-    t: Taxing the top income earners at higher rates.
+  # - key: options.policies.separation_church_state
+  #   t: Separation of church and state
+  # - key: options.policies.separation_church_state.description
+  #   t: Ensuring government does not favor one religion over another.
 
-  - key: options.policies.lgbtq_equality
-    t: Pro-LGBTQ policies
-  - key: options.policies.lgbtq_equality.description
-    t: Policies aimed at improving the lives of LGBTQ individuals (same-sex marriage, etc.).
+  # - key: options.policies.progressive_taxation
+  #   t: High marginal tax rates
+  # - key: options.policies.progressive_taxation.description
+  #   t: Taxing the top income earners at higher rates.
 
-  - key: options.policies.reduced_government_size
-    t: Reduced government size
-  - key: options.policies.reduced_government_size.description
-    t: Reducing the size of the government and expanding the private sector.
+  # - key: options.policies.lgbtq_equality
+  #   t: Pro-LGBTQ policies
+  # - key: options.policies.lgbtq_equality.description
+  #   t: Policies aimed at improving the lives of LGBTQ individuals (same-sex marriage, etc.).
 
-  - key: options.policies.dei_initiatives
-    t: DEI initiatives
-  - key: options.policies.dei_initiatives.description
-    t: Initiatives aimed at increasing an organization's diversity and inclusivity.
+  # - key: options.policies.reduced_government_size
+  #   t: Reduced government size
+  # - key: options.policies.reduced_government_size.description
+  #   t: Reducing the size of the government and expanding the private sector.
 
-  - key: options.policies.business_regulation
-    t: Business regulation
-  - key: options.policies.business_regulation.description
-    t: Policies aimed at regulating how companies operate.
+  # - key: options.policies.dei_initiatives
+  #   t: DEI initiatives
+  # - key: options.policies.dei_initiatives.description
+  #   t: Initiatives aimed at increasing an organization's diversity and inclusivity.
 
-  - key: options.policies.interventionism
-    t: Foreign interventionism
-  - key: options.policies.interventionism.description
-    t: Becoming involved in the internal affairs of other countries.
+  # - key: options.policies.business_regulation
+  #   t: Business regulation
+  # - key: options.policies.business_regulation.description
+  #   t: Policies aimed at regulating how companies operate.
 
-  - key: options.policies.climate_action
-    t: Climate action
-  - key: options.policies.climate_action.description
-    t: Policies aimed at reducing global warming (driving bans, restrictions on cars, etc.).
+  # - key: options.policies.interventionism
+  #   t: Foreign interventionism
+  # - key: options.policies.interventionism.description
+  #   t: Becoming involved in the internal affairs of other countries.
 
-  - key: options.policies.politics_free_workplace
-    t: Politics-free workplace
-  - key: options.policies.politics_free_workplace.description
-    t: Banning political topics in the workplace.
+  # - key: options.policies.climate_action
+  #   t: Climate action
+  # - key: options.policies.climate_action.description
+  #   t: Policies aimed at reducing global warming (driving bans, restrictions on cars, etc.).
+
+  # - key: options.policies.politics_free_workplace
+  #   t: Politics-free workplace
+  # - key: options.policies.politics_free_workplace.description
+  #   t: Banning political topics in the workplace.
+
+  # - key: worldview.policies_statements
+  #   t: Political Viewpoints
+  # - key: worldview.policies_statements.question
+  #   t: How strongly do you agree or disagree with the following statements?
+
+  # - key: options.policies_statements.ubi
+  #   t: All citizens should receive a government-provided universal basic income.
+
+  # - key: options.policies_statements.free_trade
+  #   t: There should be minimal restrictions to trade between countries.
+
+  # - key: options.policies_statements.universal_health_care
+  #   t: Everybody should have access to free access to health care regardless of wealth.
+
+  # - key: options.policies_statements.open_borders
+  #   t: Borders should be open to people fleeing war or poverty.
+
+  # - key: options.policies_statements.drug_legalization
+  #   t: Most drugs should be legal for personal usage.
+
+  # - key: options.policies_statements.hate_speech_regulations
+  #   t: Some forms of hate speech should be against the law.
+
+  # - key: options.policies_statements.affirmative_action
+  #   t: Historically disadvantaged groups should receive special opportunities.
+
+  # - key: options.policies_statements.separation_church_state
+  #   t: Government should not favor one religion over another.
+
+  # - key: options.policies_statements.progressive_taxation
+  #   t: Top income earners should be taxed at very high rates.
+
+  # - key: options.policies_statements.lgbtq_equality
+  #   t: Same-sex couples should be able to get married.
+
+  # - key: options.policies_statements.reduced_government_size
+  #   t: Government size should generally be reduced in favor of the private sector.
+
+  # - key: options.policies_statements.dei_initiatives
+  #   t: Increasing diversity and inclusivity in organizations is important.
+
+  # - key: options.policies_statements.business_regulation
+  #   t: Companies should be able to operate with minimal regulations.
+
+  # - key: options.policies_statements.interventionism
+  #   t: Becoming involved in the internal affairs of other countries is sometimes necessary.
+
+  # - key: options.policies_statements.climate_action
+  #   t: Strong action (car bans, driving restrictions, etc.) is needed to combat climate change.
+
+  # - key: options.policies_statements.politics_free_workplace
+  #   t: Workplaces should ban the discussion of political topics.
+
+  # - key: options.policies_statements.gender_spectrum
+  #   t: Children should be taught that gender is a spectrum.
+
+  # - key: options.policies_statements.cultural_diversity
+  #   t: Cultural and racial diversity is overall a net positive for a country.
+
+  # - key: options.policies_statements.individual_rights
+  #   t: It's sometimes necessary to sacrifice indivdual rights to preserve law and order.
 
   # - key: options.policies.ai_regulation
   #   t: AI regulations
