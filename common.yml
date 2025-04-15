@@ -294,6 +294,8 @@ translations:
 
   - key: opinions.opinions_intro
     t: For the following questions, let us know how much you agree with each statement.
+    aliases:
+      - worldview.opinions_intro
 
   - key: sections.other_tools.title
     t: Other Tools
@@ -877,7 +879,7 @@ translations:
   # Race & Ethnicity
 
   - key: options.race_ethnicity.white_european
-    t: White
+    t: White/Caucasian
   - key: options.race_ethnicity.south_asian
     t: South Asian
   - key: options.race_ethnicity.south_east_asian
@@ -891,7 +893,7 @@ translations:
   - key: options.race_ethnicity.black_african
     t: Black or of African descent
   - key: options.race_ethnicity.multiracial
-    t: Multiracial
+    t: Multiracial/Multiethnic
   - key: options.race_ethnicity.biracial
     t: Biracial
   - key: options.race_ethnicity.native_american_islander_australian
@@ -941,17 +943,37 @@ translations:
   - key: options.disability_status.na
     t: 🚫 None
   - key: options.disability_status.visual_impairments
-    t: >
-      Visual impairments (such as: blindness, color blindness, etc.)
+    t: Visual impairments
+  - key: options.disability_status.visual_impairments.description
+    t: Blindness, color blindness, etc.
   - key: options.disability_status.hearing_impairments
-    t: >
-      Hearing impairments (such as: deafness, tinnitus, etc.)
+    t: Hearing impairments
+  - key: options.disability_status.hearing_impairments.description
+    t: Deafness, tinnitus, etc.
   - key: options.disability_status.mobility_impairments
-    t: >
-      Mobility impairments (such as: arthritis, carpal tunnel, etc.)
+    t: Mobility impairments
+  - key: options.disability_status.mobility_impairments.description
+    t: Arthritis, carpal tunnel, etc.
   - key: options.disability_status.cognitive_impairments
-    t: >
-      Cognitive impairments (such as: anxiety, dyslexia, ADHD, etc.)
+    t: Cognitive impairments
+  - key: options.disability_status.cognitive_impairments.description
+    t: Anxiety, dyslexia, ADHD, etc.
+
+  - key: options.disability_status.neurodivergent_conditions
+    t: Neurodivergent conditions
+  - key: options.disability_status.neurodivergent_conditions.description
+    t: ADHD, Autism Spectrum Disorder, dyslexia, etc.
+
+  - key: options.disability_status.mental_health_conditions
+    t: Mental health conditions
+  - key: options.disability_status.mental_health_conditions.description
+    t: Anxiety, depression, PTSD, etc.
+
+  - key: options.disability_status.chronic_illnesses
+    t: Chronic illness
+  - key: options.disability_status.chronic_illnesses.description
+    t: Diabetes, autoimmune disorders, etc.
+
   - key: options.disability_status.not_listed
     t: >
       Not Listed
@@ -1333,6 +1355,15 @@ translations:
   - key: options.employment_status.retired
     t: Retired
 
+  - key: options.employment_status.company_employee
+    t: Company employee
+  - key: options.employment_status.student
+    t: Student
+  - key: options.employment_status.unemployed
+    t: Unemployed
+  - key: options.employment_status.ceo_founder
+    t: CEO/Founder/Entrepreneur
+
   # bracket
   - key: options.bracket.round1
     t: Round 1 wins
@@ -1513,7 +1544,7 @@ translations:
   - key: user_info.years_of_experience
     t: Years of Experience
   - key: user_info.years_of_experience.question
-    t: How long have you been working or studying in web development, in years?
+    t: How many years have you been working in or studying web development?
 
   # company size
   - key: user_info.company_size
@@ -1591,7 +1622,7 @@ translations:
       Which of the following disabilities do you experience?
   - key: user_info.disability_status.prompt
     t: >
-      Please check all that apply. Note that this can include temporary disabilities or injuries.
+      Note that this can include temporary disabilities or injuries.
 
   # disability status (other)
   - key: user_info.disability_status.others

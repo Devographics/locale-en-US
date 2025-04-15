@@ -10,3 +10,22 @@ translations:
       Welcome to this first ever State of Devs survey, where we ask about everything that's *not* code. 
 
       As usual, every question is optional, so feel free to skip any that you don't feel comfortable answering. That being said we certainly hope you'll see value in this survey, and we can't wait to get to know you better!
+
+  # FAQ
+
+  - key: faq.how_long_will_survey_take_devs2025
+    t: How long will this survey take me?
+  - key: faq.how_long_will_survey_take_devs2025.description
+    t: >
+      This survey should take about 15 minutes to complete. Note that all questions are optional.
+
+  - key: faq.results_released_devs2025
+    t: When will the results be released?
+  - key: faq.results_released_devs2025.description
+    t: The survey will run from April 15 to May 15, 2025, and the survey results will be released shortly after.
+
+  - key: faq.survey_design_devs2025
+    t: How was this survey designed?
+  - key: faq.survey_design_devs2025.description
+    t: >
+      This survey was designed as the results of an [open design process](https://github.com/Devographics/surveys/issues/279) involving the web development community.

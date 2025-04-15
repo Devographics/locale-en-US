@@ -23,7 +23,7 @@ translations:
     t: Hidden
 
   - key: general.pick_up_to
-    t: Pick up to {limit} items.
+    t: Check up to {limit} items.
 
   - key: general.privacy_policy
     t: Privacy Policy
@@ -89,16 +89,37 @@ translations:
   - key: years.years
     t: years
 
-  - key: likert.option.0
+  - key: likert.happiness.option.0
     t: Very Unhappy
-  - key: likert.option.1
+  - key: likert.happiness.option.1
     t: Unhappy
-  - key: likert.option.2
+  - key: likert.happiness.option.2
     t: Neutral
-  - key: likert.option.3
+  - key: likert.happiness.option.3
     t: Happy
-  - key: likert.option.4
+  - key: likert.happiness.option.4
     t: Very Happy
+
+  - key: likert.agreement.option.0
+    t: Strongly Disagree
+    aliases:
+      - likert.option.0
+  - key: likert.agreement.option.1
+    t: Disagree
+    aliases:
+      - likert.option.1
+  - key: likert.agreement.option.2
+    t: Neutral
+    aliases:
+      - likert.option.2
+  - key: likert.agreement.option.3
+    t: Agree
+    aliases:
+      - likert.option.3
+  - key: likert.agreement.option.4
+    t: Strongly Agree
+    aliases:
+      - likert.option.4
 
   - key: general.numeric_input.invalid_input
     t: Please make sure you enter a valid number.
@@ -109,6 +130,10 @@ translations:
     t: years old
   - key: general.numeric_input.unit.hours
     t: hours
+
+  - key: general.check_all
+    t: >
+      Check all that apply.
 
   ###########################################################################
   # Errors & Messages

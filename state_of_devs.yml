@@ -60,10 +60,10 @@ translations:
 
   # how_many_jobs
   - key: career.how_many_jobs
-    t: Job Count
+    t: Employer Count
   - key: career.how_many_jobs.question
-    t: How many companies have you worked for up to now?
-  - key: career.how_many_jobs.question.prompt
+    t: How many employers have you worked for up to now?
+  - key: career.how_many_jobs.prompt
     t: Only including programming jobs.
 
   # career_issues
@@ -72,6 +72,16 @@ translations:
     t: Workplace Issues
   - key: career.career_issues.question
     t: Which of these workplace issues have you experienced throughout your professional career?
+
+  - key: career.career_issues.commentPrompt
+    t: |
+      Please tell us more about the specific issues you've encountered if you'd like to – just make sure to leave out 
+      any information that could be used to identify you or your company.
+
+  - key: options.career_issues.harassment
+    t: Harassment
+  - key: options.career_issues.harassment.description
+    t: Unwelcome behavior that creates a hostile work environment.
 
   - key: options.career_issues.sexual_harassment
     t: Sexual harassment
@@ -93,25 +103,30 @@ translations:
   - key: options.career_issues.race_discrimination.description
     t: Being discriminated against based on your race.
 
+  - key: options.career_issues.discrimination
+    t: Discrimination
+  - key: options.career_issues.discrimination.description
+    t: Being discriminated against based on personal characteristics.
+
   - key: options.career_issues.mental_health_issues
     t: Mental health issues
   - key: options.career_issues.mental_health_issues.description
-    t: Workplace-related mental health issues such as stress or anxiety.
+    t: Workplace-induced mental health issues such as stress or anxiety.
 
   - key: options.career_issues.excessive_overtime
-    t: Excessive overtime
+    t: Work-life balance issues
   - key: options.career_issues.excessive_overtime.description
-    t: Excessive overtime and other work-life-balance issues.
+    t: Excessive overtime, lack of work-life boundaries, etc.
 
   - key: options.career_issues.underpaid_work
-    t: Underpaid work
+    t: Unfair wages or salary
   - key: options.career_issues.underpaid_work.description
     t: Insufficient salary or income.
 
   - key: options.career_issues.burnout
     t: Burnout
   - key: options.career_issues.burnout.description
-    t: Lack of motivation or depression related to work issues.
+    t: Feeling overwhelmed with work, leading to lack of motivation or depression.
 
   - key: options.career_issues.job_insecurity
     t: Job insecurity
@@ -122,6 +137,79 @@ translations:
     t: Bad management
   - key: options.career_issues.bad_management.description
     t: Overall bad work environment due to poor management practices.
+
+  # discrimination_issues
+
+  - key: career.discrimination_issues
+    t: Discrimination
+  - key: career.discrimination_issues.question
+    t: Have you ever felt discriminated against in the workplace based on any of the following factors?
+
+  - key: options.discrimination_issues.gender
+    t: Gender or gender identity
+  - key: options.discrimination_issues.sexual_orientation
+    t: Sexual orientation
+  - key: options.discrimination_issues.race
+    t: Race
+  - key: options.discrimination_issues.religion
+    t: Religion
+  - key: options.discrimination_issues.age
+    t: Age
+  - key: options.discrimination_issues.political_views
+    t: Political views
+  - key: options.discrimination_issues.caregiving_status
+    t: Caregiving status (pregnancy, childcare, etc.)
+  - key: options.discrimination_issues.disability
+    t: Disabilities
+
+  - key: career.discrimination_issues.commentPrompt
+    aliasFor: career.career_issues.commentPrompt
+
+  # negative_impacts
+
+  - key: career.negative_impacts
+    t: Negative Impact
+  - key: career.negative_impacts.question
+    t: Which of these steps have you had to undertake as a result of  workplace issues?
+
+  - key: options.negative_impacts.changing_appearance
+    t: Changing your appearance
+
+  - key: options.negative_impacts.changing_behavior
+    t: Changing the way you speak or act
+
+  - key: options.negative_impacts.reported_someone
+    t: Reporting someone to management or HR
+
+  - key: options.negative_impacts.isolating_yourself
+    t: Isolating yourself from colleagues
+
+  - key: options.negative_impacts.internal_transfer
+    t: Asking to be transferred to another department
+
+  - key: options.negative_impacts.time_off
+    t: Taking time off or going on leave
+
+  - key: options.negative_impacts.quitting_job
+    t: Quitting a job
+
+  - key: options.negative_impacts.shifting_careers
+    t: Shifting careers
+
+  - key: options.negative_impacts.seeking_counseling
+    t: Seeking therapy or counseling
+
+  - key: options.negative_impacts.engaging_legal_counsel
+    t: Engaging legal counsel
+
+  - key: options.negative_impacts.scaling_back
+    t: Scaling back your career or going part-time
+
+  - key: options.negative_impacts.taking_medicine
+    t: Taking medication (for stress, depression, etc.)
+
+  - key: career.negative_impacts.commentPrompt
+    aliasFor: career.career_issues.commentPrompt
 
   # past_year_conferences
 
@@ -159,6 +247,20 @@ translations:
     t: More than 15
     aliases:
       - options.past_year_meetups_events.range_more_than_15
+
+  # laid_off
+
+  - key: career.laid_off
+    t: Layoffs
+  - key: career.laid_off.question
+    t: Have you ever been laid off?
+
+  - key: options.laid_off.yes_past_year
+    t: Yes, during the past 12 months
+  - key: options.laid_off.yes_before
+    t: Yes, sometimes before that
+  - key: options.laid_off.no
+    t: I've never been laid off
 
   # WORKPLACE
 
@@ -209,7 +311,7 @@ translations:
     t: What are the negative aspects of the working environment at your current employer?
 
   - key: options.workplace_difficulties.coworker_relations
-    t: Coworkers relations
+    t: Relationships with coworkers
   - key: options.workplace_difficulties.coworker_relations.description
     t: Harassment, poor communication, etc.
 
@@ -244,7 +346,7 @@ translations:
     t: Insufficient compensation
 
   - key: options.workplace_difficulties.training
-    t: Training
+    t: Training & professional development
   - key: options.workplace_difficulties.training.description
     t: Lack of training and development
 
@@ -253,7 +355,7 @@ translations:
   - key: workplace.workplace_perks
     t: Workplace Perks
   - key: workplace.workplace_perks.question
-    t: What are the positive aspects of the working environment at your current employer?
+    t: What do you enjoy about your current workplace?
 
   - key: options.workplace_perks.coworker_relations
     aliasFor: options.workplace_difficulties.coworker_relations
@@ -295,6 +397,52 @@ translations:
   - key: options.workplace_perks.training.description
     t: Company-provided training and skill development
 
+  # job_finding_application_count
+
+  - key: workplace.job_finding_application_count
+    t: Applications
+  - key: workplace.job_finding_application_count.question
+    t: How many positions did you apply to before finding your current jobs?
+
+  - key: options.job_finding_application_count.range_0
+    t: None (did not apply)
+  - key: options.job_finding_application_count.range_1
+    t: 1
+  - key: options.job_finding_application_count.range_2_5
+    t: 2-5
+  - key: options.job_finding_application_count.range_5_10
+    t: 5-10
+  - key: options.job_finding_application_count.range_10_50
+    t: 10-50
+  - key: options.job_finding_application_count.range_50_100
+    t: 50-100
+  - key: options.job_finding_application_count.range_over_100
+    t: 100+
+
+  # job_finding_methods
+
+  - key: workplace.job_finding_methods
+    t: Job Finding
+  - key: workplace.job_finding_methods.question
+    t: How did you find your current job?
+
+  - key: options.job_finding_methods.job_board
+    t: Job board
+  - key: options.job_finding_methods.direct_application
+    t: Direct application to the company
+  - key: options.job_finding_methods.recruiter
+    t: Recruiter
+  - key: options.job_finding_methods.personal_network
+    t: Personal network
+  - key: options.job_finding_methods.referral
+    t: Referral
+  - key: options.job_finding_methods.social_media
+    t: Social media (LinkedIn, X, etc.)
+  - key: options.job_finding_methods.internal_transfer
+    t: Internal promotion or transfer
+  - key: options.job_finding_methods.open_source_community
+    t: Open source or community involvement
+
   # - key: workplace.how_much_can_you_be_yourself_at_work
   #   t:
 
@@ -305,6 +453,8 @@ translations:
     t: Mobile OS
   - key: technology.mobile_os.question
     t: Which mobile OS do you use most?
+  # - key: technology.mobile_os.prompt
+  #   t: Including work use and personal use.
 
   - key: options.mobile_os.ios
     t: iOS
@@ -318,6 +468,8 @@ translations:
     t: Desktop OS
   - key: technology.desktop_os.question
     t: Which desktop OS do you use most?
+  # - key: technology.desktop_os.question
+  #   aliasFor: technology.mobile_os.prompt
 
   - key: options.desktop_os.mac_os
     t: macOS
@@ -342,7 +494,7 @@ translations:
   - key: technology.productivity_apps
     t: Productivity Apps
   - key: technology.productivity_apps.question
-    t: Which productivity app do you use regularly?
+    t: Which productivity apps do you use regularly?
 
   # chat_apps
   - key: technology.chat_apps
@@ -355,6 +507,27 @@ translations:
     t: Social Media
   - key: technology.social_media.question
     t: Which social media sites do you use regularly?
+
+  - key: technology.open_source_involvement
+    t: Open Source
+
+  - key: technology.open_source_involvement.question
+    t: How have you been involved with open source software over your career?
+
+  - key: options.open_source_involvement.regular_use
+    t: I've used open source software
+  - key: options.open_source_involvement.code_contribution
+    t: I've contributed code to open source projects
+  - key: options.open_source_involvement.documentation
+    t: I've contributed documentation or other non-code assets
+  - key: options.open_source_involvement.submit_issues
+    t: I've submitted issues or bug reports
+  - key: options.open_source_involvement.created_projects
+    t: I've created or maintained open source projects
+  - key: options.open_source_involvement.documentation
+    t: I've financially supported open source projects
+  - key: options.open_source_involvement.na
+    t: No involvement
 
   # health
 
@@ -396,7 +569,7 @@ translations:
   - key: health.sleep_quantity
     t: Sleep Quantity
   - key: health.sleep_quantity.question
-    t: How much hours of sleep do you get per night, on average?
+    t: On average, how many hours do you sleep per night?
 
   - key: options.sleep_quantity.range_5_or_less
     t: 5 or fewer
@@ -437,6 +610,8 @@ translations:
     t: Sleep mask
   - key: options.sleep_measures.avoid_screens
     t: Avoiding screens before bedtime
+  - key: options.sleep_measures.screen_dimming
+    t: Dimming screens before bedtime
   - key: options.sleep_measures.earplugs
     t: Earplugs
   - key: options.sleep_measures.sleeping_pills
@@ -449,7 +624,7 @@ translations:
   - key: worldview.left_right
     t: Left vs Right
   - key: worldview.left_right.question
-    t: Where do you place yourself on the left vs right political axis?
+    t: Where do you place yourself on the left vs right economical axis?
 
   - key: options.left_right.0
     t: Far Left
@@ -458,10 +633,93 @@ translations:
   - key: options.left_right.8
     t: Far Right
 
+  - key: worldview.policies
+    t: Policies
+  - key: worldview.policies.question
+    t: How strongly do you agree or disagree about implementing these policy proposals?
+
+  - key: options.policies.ubi
+    t: Universal basic income
+  - key: options.policies.ubi.description
+    t: Government-provided minimum income for all citizens
+
+  - key: options.policies.free_trade
+    t: Free trade
+  - key: options.policies.free_trade.description
+    t: Free trade across countries with minimal restrictions.
+
+  - key: options.policies.universal_health_care
+    t: Universal health care
+  - key: options.policies.universal_health_care.description
+    t: Free access to health care regardless of personal wealth.
+
+  - key: options.policies.open_borders
+    t: Open borders
+  - key: options.policies.open_borders.description
+    t: Free movement of people between countries.
+
+  - key: options.policies.drug_legalization
+    t: Drug decriminalization
+  - key: options.policies.drug_legalization.description
+    t: Reduced or eliminated control or penalties for most drugs.
+
+  - key: options.policies.hate_speech_regulations
+    t: Hate speech regulations
+  - key: options.policies.hate_speech_regulations.description
+    t: Criminal penalties for some forms of offensive speech.
+
+  - key: options.policies.affirmative_action
+    t: Affirmative action
+  - key: options.policies.affirmative_action.description
+    t: Increased opportunities for specific disadvantaged groups.
+
+  - key: options.policies.separation_church_state
+    t: Separation of church and state
+  - key: options.policies.separation_church_state.description
+    t: Ensuring government does not favor one religion over another.
+
+  - key: options.policies.progressive_taxation
+    t: High marginal tax rates
+  - key: options.policies.progressive_taxation.description
+    t: Taxing the top income earners at higher rates.
+
+  - key: options.policies.lgbtq_equality
+    t: Pro-LGBTQ policies
+  - key: options.policies.lgbtq_equality.description
+    t: Policies aimed at improving the lives of LGBTQ individuals (same-sex marriage, etc.).
+
+  - key: options.policies.reduced_government_size
+    t: Reduced government size
+  - key: options.policies.reduced_government_size.description
+    t: Reducing the size of the government and expanding the private sector.
+
+  - key: options.policies.dei_initiatives
+    t: DEI initiatives
+  - key: options.policies.dei_initiatives.description
+    t: Initiatives aimed at increasing an organization's diversity and inclusivity.
+
+  - key: options.policies.business_regulation
+    t: Business regulation
+  - key: options.policies.business_regulation.description
+    t: Policies aimed at regulating how companies operate.
+
+  - key: options.policies.interventionism
+    t: Foreign interventionism
+  - key: options.policies.interventionism.description
+    t: Foreign military or diplomatic operations aimed at protecting democracy or human rights.
+
+  - key: options.policies.climate_action
+    t: Climate action
+  - key: options.policies.climate_action.description
+    t: Policies aimed at reducing global warming (driving bans, restrictions on cars, etc.).
+
+  # - key: options.policies.ai_regulation
+  #   t: AI regulations
+
   - key: worldview.global_issues
     t: Global Issues
   - key: worldview.global_issues.question
-    t: What do you consider to be the top global issues facing the world today?
+    t: What global issues are currently most concerning to you?
 
   - key: options.global_issues.climate_change
     t: Climate change
@@ -480,7 +738,7 @@ translations:
   - key: options.global_issues.rising_authoritarianism
     t: Rising authoritarianism
   - key: options.global_issues.rising_intolerance
-    t: Rising intolerence
+    t: Rising intolerance
   - key: options.global_issues.erosion_traditional_values
     t: Erosion of traditional values
   - key: options.global_issues.globalization
@@ -488,18 +746,18 @@ translations:
   - key: options.global_issues.lack_of_free_speech
     t: Lack of free speech
 
-  # companies_opinion
+  # # companies_opinion
 
-  - key: worldview.companies_opinion
-    t: Companies
-  - key: worldview.companies_opinion.question
-    t: What's your opinion of the following companies?
+  # - key: worldview.companies_opinion
+  #   t: Companies
+  # - key: worldview.companies_opinion.question
+  #   t: What's your opinion of the following companies?
 
   # happiness_factors
   - key: worldview.happiness_factors
     t: Happiness Factors
   - key: worldview.happiness_factors.description
-    t: What are the most important factors for your own personal happiness?
+    t: Which factors most influence your own personal happiness?
 
   - key: options.happiness_factors.health
     t: Good health
@@ -523,17 +781,39 @@ translations:
     t: Religion and/or spirituality
 
   # overall_happiness
+
   - key: worldview.overall_happiness
     t: Overall Happiness
   - key: worldview.overall_happiness.question
     t: Overall, how happy are you these days?
+
+  # personal_hope
+
+  - key: worldview.personal_hope
+    t: Personal Hope
+  - key: worldview.personal_hope.question
+    t: I feel hopeful about myself and my family's future
+
+  # country_hope
+
+  - key: worldview.country_hope
+    t: Country Hope
+  - key: worldview.country_hope.question
+    t: I feel hopeful about my country's future
+
+  # world_hope
+
+  - key: worldview.world_hope
+    t: World Hope
+  - key: worldview.world_hope.question
+    t: I feel hopeful about the world's future
 
   # hobbies
 
   - key: hobbies.physical_activity
     t: Physical Activity
   - key: hobbies.physical_activity.question
-    t: Which of the following physical activites do you practice regularly? (once a week or more)
+    t: Which of the following physical activites do you practice regularly?
 
   - key: options.physical_activity.climbing
     t: Climbing
@@ -557,13 +837,13 @@ translations:
     t: Soccer
   - key: options.physical_activity.biking
     t: Biking
-  - key: options.physical_activity.hiking
-    t: Hiking
+  - key: options.physical_activity.hiking_walking
+    t: Hiking/walking
 
   - key: hobbies.physical_activity_frequency
     t: Physical Activity Frequency
   - key: hobbies.physical_activity_frequency.question
-    t: On average, how many days a week do you exercise?
+    t: Typically, how many days a week do you exercise?
 
   - key: options.physical_activity_frequency.0
     t: 0
@@ -585,7 +865,7 @@ translations:
   - key: hobbies.hobbies
     t: Hobbies
   - key: hobbies.hobbies.question
-    t: What hobbies do you have?
+    t: What are your hobbies?
 
   - key: options.hobbies.woodworking
     t: Woodworking/DIY
@@ -607,6 +887,10 @@ translations:
     t: Gardening
   - key: options.hobbies.camping
     t: Camping
+  - key: options.hobbies.sports_exercise
+    t: Sports/exercise
+  - key: options.hobbies.movies_tv
+    t: Movies/TV
 
   # hobbies_frequency
 
@@ -631,7 +915,7 @@ translations:
   - key: hobbies.video_game_platforms
     t: Video Game Platforms
   - key: hobbies.video_game_platforms.question
-    t: Which video game platforms do you play on, if any?
+    t: Which video game platforms do you play on?
 
   - key: options.video_game_platforms.nintendo_switch
     t: Switch
@@ -652,19 +936,84 @@ translations:
   - key: options.video_game_platforms.retro_emulation_console
     t: Retro emulation consoles
 
-  # video_games
+  # favorite_video_games
 
-  - key: hobbies.video_games
-    t: Video Games
-  - key: hobbies.video_games.question
-    t: What are your top three favorite video games you've played in the past 12 months?
+  - key: hobbies.favorite_video_games
+    t: Favorite Video Games
+  - key: hobbies.favorite_video_games.question
+    t: What have been some of your favorite video games recently?
+  - key: hobbies.favorite_video_games.prompt
+    t: Games you've played during the past 12 months.
+
+  # favorite_musical_artists
+
+  - key: hobbies.favorite_musical_artists
+    t: Favorite Music
+  - key: hobbies.favorite_musical_artists.question
+    t: What have been some of your favorite musical artists recently?
+  - key: hobbies.favorite_musical_artists.prompt
+    t: Artists you've listened to during the past 12 months.
+
+  # favorite_movies
+
+  - key: hobbies.favorite_movies
+    t: Favorite Movies
+  - key: hobbies.favorite_movies.question
+    t: What have been some of your favorite movies recently?
+  - key: hobbies.favorite_movies.prompt
+    t: Movies you've seen during the past 12 months.
+
+  # favorite_tv
+
+  - key: hobbies.favorite_tv
+    t: Favorite TV Shows
+  - key: hobbies.favorite_tv.question
+    t: What have been some of your favorite TV shows recently?
+  - key: hobbies.favorite_tv.prompt
+    t: TV/streaming shows you've seen during the past 12 months.
+
+    # musical_genres
+
+  - key: hobbies.musical_genres
+    t: Music
+  - key: hobbies.musical_genres.question
+    t: What are your favorite musical genres?
+
+  - key: options.musical_genres.rock
+    t: Rock
+  - key: options.musical_genres.hip_hop
+    t: Hip Hop
+  - key: options.musical_genres.pop
+    t: Pop
+  - key: options.musical_genres.edm
+    t: EDM
+  - key: options.musical_genres.country
+    t: Country
+  - key: options.musical_genres.classical
+    t: Classical
+  - key: options.musical_genres.jazz
+    t: Jazz
+  - key: options.musical_genres.latin
+    t: Latin
+  - key: options.musical_genres.soul
+    t: Soul
+  - key: options.musical_genres.funk
+    t: Funk
+  - key: options.musical_genres.reggae
+    t: Reggae
+  - key: options.musical_genres.metal
+    t: Metal
+  - key: options.musical_genres.kpop
+    t: K-pop
+  - key: options.musical_genres.soundtracks
+    t: Soundtracks
 
   # user_info
 
   - key: user_info.number_of_kids
     t: Number of Kids
   - key: user_info.number_of_kids.question
-    t: How many children do you have, if any?
+    t: How many children do you have?
 
   - key: user_info.relationship_status
     t: Relationship Status
@@ -677,3 +1026,23 @@ translations:
     t: In a relationship
   - key: options.relationship_status.its_complicated
     t: It's complicated
+
+  # FAQ
+
+  - key: faq.who_should_take_survey_devs
+    t: Who should take this survey?
+  - key: faq.who_should_take_survey_devs.description
+    t: >
+      This survey is for anybody who works or studies as a developer, programmer, or engineer, no matter their experience level or background.
+
+  - key: faq.survey_goals_devs
+    t: What are the goals of this survey?
+  - key: faq.survey_goals_devs.description
+    t: >
+      The goals of this survey are to gain a fuller picture of the developer ecosystem beyond purely technical trends.
+
+  - key: faq.data_used_devs
+    t: How will the collected data be used?
+  - key: faq.data_used_devs.description
+    t: >
+      A detailed report based on the data collected will be published and made freely accessible. Additionally, the full dataset will also be available for free [on demand](https://discord.gg/2E7bbgnrJJ).
