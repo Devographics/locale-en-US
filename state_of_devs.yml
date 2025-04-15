@@ -706,12 +706,17 @@ translations:
   - key: options.policies.interventionism
     t: Foreign interventionism
   - key: options.policies.interventionism.description
-    t: Foreign military or diplomatic operations aimed at protecting democracy or human rights.
+    t: Becoming involved in the internal affairs of other countries.
 
   - key: options.policies.climate_action
     t: Climate action
   - key: options.policies.climate_action.description
     t: Policies aimed at reducing global warming (driving bans, restrictions on cars, etc.).
+
+  - key: options.policies.politics_free_workplace
+    t: Politics-free workplace
+  - key: options.policies.politics_free_workplace.description
+    t: Banning political topics in the workplace.
 
   # - key: options.policies.ai_regulation
   #   t: AI regulations
