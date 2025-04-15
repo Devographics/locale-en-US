@@ -909,9 +909,9 @@ translations:
   - key: options.physical_activity.hiking_walking
     t: Hiking/walking
 
-  - key: hobbies.physical_activity_frequency
-    t: Physical Activity Frequency
-  - key: hobbies.physical_activity_frequency.question
+  - key: health.physical_activity_frequency
+    t: Exercise Frequency
+  - key: health.physical_activity_frequency.question
     t: Typically, how many days a week do you exercise?
 
   - key: options.physical_activity_frequency.0
