@@ -64,7 +64,7 @@ translations:
   - key: career.how_many_jobs.question
     t: How many employers have you worked for up to now?
   - key: career.how_many_jobs.prompt
-    t: Only including programming jobs.
+    t: Only including developer jobs.
 
   # career_issues
 
@@ -119,7 +119,7 @@ translations:
     t: Excessive overtime, lack of work-life boundaries, etc.
 
   - key: options.career_issues.underpaid_work
-    t: Unfair wages or salary
+    t: Insufficient wages
   - key: options.career_issues.underpaid_work.description
     t: Insufficient salary or income.
 
@@ -282,7 +282,7 @@ translations:
   - key: options.remote_work_policy.up_to_employee.description
     t: Employees can choose whether to work remotely or in the office.
   - key: options.remote_work_policy.fully_remote
-    t: Fully remote
+    t: Exclusively remote
   - key: options.remote_work_policy.fully_remote.description
     t: All employees work completely remotely.
   - key: options.remote_work_policy.na
@@ -402,7 +402,7 @@ translations:
   - key: workplace.job_finding_application_count
     t: Applications
   - key: workplace.job_finding_application_count.question
-    t: How many positions did you apply to before finding your current jobs?
+    t: How many positions did you apply to before getting your current job?
 
   - key: options.job_finding_application_count.range_0
     t: None (did not apply)
@@ -436,8 +436,10 @@ translations:
     t: Personal network
   - key: options.job_finding_methods.referral
     t: Referral
+  - key: options.job_finding_methods.linkedin
+    t: LinkedIn
   - key: options.job_finding_methods.social_media
-    t: Social media (LinkedIn, X, etc.)
+    t: Other social media (Facebook, X, etc.)
   - key: options.job_finding_methods.internal_transfer
     t: Internal promotion or transfer
   - key: options.job_finding_methods.open_source_community
@@ -856,26 +858,33 @@ translations:
   - key: worldview.overall_happiness.question
     t: Overall, how happy are you these days?
 
-  # personal_hope
+  # # personal_hope
 
-  - key: worldview.personal_hope
-    t: Personal Hope
-  - key: worldview.personal_hope.question
-    t: I feel hopeful about myself and my family's future
+  # - key: worldview.personal_hope
+  #   t: Personal Hope
+  # - key: worldview.personal_hope.question
+  #   t: I feel hopeful about myself and my family's future
 
-  # country_hope
+  # # country_hope
 
-  - key: worldview.country_hope
-    t: Country Hope
-  - key: worldview.country_hope.question
-    t: I feel hopeful about my country's future
+  # - key: worldview.country_hope
+  #   t: Country Hope
+  # - key: worldview.country_hope.question
+  #   t: I feel hopeful about my country's future
 
-  # world_hope
+  # # world_hope
 
-  - key: worldview.world_hope
-    t: World Hope
-  - key: worldview.world_hope.question
-    t: I feel hopeful about the world's future
+  # - key: worldview.world_hope
+  #   t: World Hope
+  # - key: worldview.world_hope.question
+  #   t: I feel hopeful about the world's future
+
+  # relocation
+
+  - key: worldview.relocation
+    t: Relocation
+  - key: worldview.relocation.question
+    t: If you had the opportunity to live in another country for a few years, where would you like to go?
 
   # hobbies
 

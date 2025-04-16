@@ -23,7 +23,7 @@ translations:
     t: Hidden
 
   - key: general.pick_up_to
-    t: Check up to {limit} items.
+    t: Pick up to {limit} items.
 
   - key: general.privacy_policy
     t: Privacy Policy

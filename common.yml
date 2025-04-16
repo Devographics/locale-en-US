@@ -1544,7 +1544,9 @@ translations:
   - key: user_info.years_of_experience
     t: Years of Experience
   - key: user_info.years_of_experience.question
-    t: How many years have you been working in or studying web development?
+    t: How many years of experience do you have as a developer?
+  - key: user_info.years_of_experience.prompt
+    t: Whether as a professional, student, hobbyist, etc.
 
   # company size
   - key: user_info.company_size
@@ -1556,7 +1558,7 @@ translations:
   - key: user_info.yearly_salary
     t: Yearly Income
   - key: user_info.yearly_salary.question
-    t: What is your yearly gross (pre-tax) income in U.S. dollar?
+    t: What is your yearly gross (pre-tax) income in U.S. dollars?
 
   # job title
   - key: user_info.job_title
