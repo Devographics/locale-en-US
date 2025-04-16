@@ -1560,6 +1560,19 @@ translations:
   - key: user_info.yearly_salary.question
     t: What is your yearly gross (pre-tax) income in U.S. dollars?
 
+  # income_evolution
+  - key: user_info.income_evolution
+    t: Income Evolution
+  - key: user_info.income_evolution.question
+    t: How has your total income evolved over the past 12 months?
+
+  - key: options.income_evolution.increased
+    t: Increased
+  - key: options.income_evolution.stayed_same
+    t: Stayed the same
+  - key: options.income_evolution.decreased
+    t: Decreased
+
   # job title
   - key: user_info.job_title
     t: Job Title

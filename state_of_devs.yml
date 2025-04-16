@@ -64,7 +64,7 @@ translations:
   - key: career.how_many_jobs.question
     t: How many employers have you worked for up to now?
   - key: career.how_many_jobs.prompt
-    t: Only including developer jobs.
+    t: Only including salaried developer positions.
 
   # career_issues
 
@@ -510,9 +510,57 @@ translations:
   - key: technology.social_media.question
     t: Which social media sites do you use regularly?
 
+  # community_involvement
+
+  - key: technology.community_involvement
+    t: Community Involvement
+  - key: technology.community_involvement.question
+    t: Which of these methods do you use to stay involved with the developer community?
+
+  - key: options.community_involvement.meetups
+    t: Local meetups
+  - key: options.community_involvement.conferences
+    t: Conferences
+  - key: options.community_involvement.forums
+    t: Online platforms (GitHub, Stack Overflow, etc.)
+  - key: options.community_involvement.chatrooms
+    t: Online chatrooms (Discord, Slack, etc.)
+  - key: options.community_involvement.social_media
+    t: Social media
+  - key: options.community_involvement.newsletters
+    t: Newsletters
+  - key: options.community_involvement.videos
+    t: Videos (YouTube, etc.)
+  - key: options.community_involvement.streaming
+    t: Streaming (Twitch, etc.)
+  - key: options.community_involvement.podcasts
+    t: Podcasts
+
+  # community_contributions
+
+  - key: technology.community_contributions
+    t: Community Contributions
+  - key: technology.community_contributions.question
+    t: Which of these methods have you used over the past 12 months to contribute to the community?
+
+  - key: options.community_contributions.conference
+    t: Attended a meetup or conference
+  - key: options.community_contributions.talk
+    t: Gave a talk
+  - key: options.community_contributions.blog_post
+    t: Wrote a blog post
+  - key: options.community_contributions.answer_question
+    t: Answered a question or issue
+  - key: options.community_contributions.financial_support
+    t: Financially supported a developer or project
+  - key: options.community_contributions.event_organization
+    t: Organized an event
+  - key: options.community_contributions.open_source_contribution
+    t: Contributed to open-source software
+
+  # open_source_involvement
   - key: technology.open_source_involvement
     t: Open Source
-
   - key: technology.open_source_involvement.question
     t: How have you been involved with open source software over your career?
 
