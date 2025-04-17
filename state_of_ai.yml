@@ -53,10 +53,6 @@ translations:
     t: Context & memory limitations
   - key: options.ai_pain_points.high_cost
     t: High monetary cost
-  - key: options.ai_pain_points.slow_to_return_results
-    t: Slow response speed
-  - key: options.ai_pain_points.poor_generated_code_quality
-    t: Poor generated code quality
   - key: options.ai_pain_points.outdated_information
     t: Outdated information
   - key: options.ai_pain_points.misunderstanding_prompt
@@ -71,8 +67,6 @@ translations:
     t: Overly generic answers
   - key: options.ai_pain_points.overconfidence
     t: Overconfidence
-  - key: options.ai_pain_points.overly_verbose_results
-    t: Overly verbose answers
   - key: options.ai_pain_points.hallucinations_inaccuracies
     t: Hallucination & inaccuracies
   - key: options.ai_pain_points.code_generation_issues
