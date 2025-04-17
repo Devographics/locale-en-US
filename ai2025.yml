@@ -1,5 +1,9 @@
 locale: en-US
 translations:
+  - key: general.ai2025.devs2025_banner
+    t: >
+      Announcing a new developer survey for everything that's *not* code: health, hobbies, career, and more! →
+
   - key: general.ai2025.survey_intro
     t: |
 
