@@ -1734,7 +1734,7 @@ translations:
   - key: user_info.missing_questions
     t: Missing Questions
   - key: user_info.missing_questions.question
-    t: Were there any other questions you wish the survey would've asked?
+    t: What other questions do you wish the survey would've asked, if any?
 
   # how can we improve the survey?
   - key: user_info.how_can_we_improve

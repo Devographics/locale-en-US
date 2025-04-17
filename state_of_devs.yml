@@ -450,6 +450,8 @@ translations:
     t: Internal promotion or transfer
   - key: options.job_finding_methods.open_source_community
     t: Open source or community involvement
+  - key: options.job_finding_methods.company_founder
+    t: Founded the company or self-employed
 
   # - key: workplace.how_much_can_you_be_yourself_at_work
   #   t:
