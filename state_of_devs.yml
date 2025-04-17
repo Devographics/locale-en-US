@@ -75,7 +75,9 @@ translations:
 
   - key: career.career_issues.commentPrompt
     t: |
-      Please tell us more about the specific issues you've encountered if you'd like to – just make sure to leave out 
+      Please tell us more about the specific issues you've encountered if you'd like to. 
+
+      ⚠️ WARNING: your comment **will be made public**, so please make sure to leave out 
       any information that could be used to identify you or your company.
 
   - key: options.career_issues.harassment
@@ -143,7 +145,7 @@ translations:
   - key: career.discrimination_issues
     t: Discrimination
   - key: career.discrimination_issues.question
-    t: Have you ever felt discriminated against in the workplace based on any of the following factors?
+    t: Have you ever experienced discrimination in the workplace based on any of the following factors?
 
   - key: options.discrimination_issues.gender
     t: Gender or gender identity
@@ -152,15 +154,19 @@ translations:
   - key: options.discrimination_issues.race
     t: Race
   - key: options.discrimination_issues.religion
-    t: Religion
+    t: Religion or spiritual beliefs
   - key: options.discrimination_issues.age
     t: Age
   - key: options.discrimination_issues.political_views
-    t: Political views
+    t: Political beliefs or affiliations
   - key: options.discrimination_issues.caregiving_status
-    t: Caregiving status (pregnancy, childcare, etc.)
+    t: Caregiving responsibilities
+  - key: options.discrimination_issues.caregiving_status.description
+    t: Such as pregnancy, parenting, elder care, etc.
   - key: options.discrimination_issues.disability
     t: Disabilities
+  - key: options.discrimination_issues.disability.description
+    t: Including physical, mental, or neurodivergent conditions.
 
   - key: career.discrimination_issues.commentPrompt
     aliasFor: career.career_issues.commentPrompt
@@ -170,43 +176,43 @@ translations:
   - key: career.negative_impacts
     t: Negative Impact
   - key: career.negative_impacts.question
-    t: Which of these steps have you had to undertake as a result of  workplace issues?
+    t: Have you taken any of the following actions in response to workplace issues?
 
   - key: options.negative_impacts.changing_appearance
-    t: Changing your appearance
+    t: Changed your appearance or the way you dress
 
   - key: options.negative_impacts.changing_behavior
-    t: Changing the way you speak or act
+    t: Changed the way you speak, behave, or express yourself
 
   - key: options.negative_impacts.reported_someone
-    t: Reporting someone to management or HR
+    t: Reported the issue to management or Human Resources
 
   - key: options.negative_impacts.isolating_yourself
-    t: Isolating yourself from colleagues
+    t: Avoided or distanced yourself from colleagues
 
   - key: options.negative_impacts.internal_transfer
-    t: Asking to be transferred to another department
+    t: Requested a transfer to another team or department
 
   - key: options.negative_impacts.time_off
-    t: Taking time off or going on leave
+    t: Taken a leave of absence or time off work
 
   - key: options.negative_impacts.quitting_job
-    t: Quitting a job
+    t: Resigned from a job
 
   - key: options.negative_impacts.shifting_careers
-    t: Shifting careers
+    t: Changed careers or industries
 
   - key: options.negative_impacts.seeking_counseling
-    t: Seeking therapy or counseling
+    t: Sought therapy, counseling, or mental health support
 
   - key: options.negative_impacts.engaging_legal_counsel
-    t: Engaging legal counsel
+    t: Consulted with legal counsel
 
   - key: options.negative_impacts.scaling_back
-    t: Scaling back your career or going part-time
+    t: Reduced your work hours or taken a less demanding role
 
   - key: options.negative_impacts.taking_medicine
-    t: Taking medication (for stress, depression, etc.)
+    t: Taken medication for stress, anxiety, depression, etc.
 
   - key: career.negative_impacts.commentPrompt
     aliasFor: career.career_issues.commentPrompt
