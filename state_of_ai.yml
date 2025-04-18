@@ -109,6 +109,8 @@ translations:
     t: Free plans limitations
   - key: options.ai_pain_points.ethical_concerns
     t: Ethical concerns
+  - key: options.ai_pain_points.slow_performance
+    t: Slow performance
 
   - key: options.ai_pain_points.cursor_pain_points
     t: Cursor issues
@@ -713,6 +715,17 @@ translations:
     t: None
     aliases:
       - options.ai_browser_apis.no_browser_ai_apis
+
+  - key: options.ai_uses.code_assistance
+    t: Code review & assistance
+  - key: options.ai_uses.search_information_gathering
+    t: Search & information gathering
+  - key: options.ai_uses.text_processing
+    t: Text processing
+  - key: options.ai_uses.not_using
+    t: Not currently using
+  - key: options.ai_uses.data_manipulation_processing
+    t: Data processing
 
   # ai_pain_points
   - key: usage.ai_pain_points
