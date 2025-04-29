@@ -904,7 +904,7 @@ translations:
   - key: resources.ai_podcasts
     t: Podcasts
   - key: resources.ai_podcasts.question
-    t: Which podcasts do you listen to learn about AI?
+    t: Which podcasts do you listen to in order to learn about AI?
 
   # video_creators
 
