@@ -1114,11 +1114,34 @@ translations:
   - key: options.design_methodology.design_in_css
     t: I implement my own designs directly in CSS
 
+  # baseline_awareness
+  - key: usage.baseline_awareness
+    t: Baseline Awareness
+  - key: usage.baseline_awareness.question
+    t: How familiar are you with the Web Platform Baseline indicator?
+
+  - key: options.baseline_awareness.never_heard
+    t: I've never heard about it
+  - key: options.baseline_awareness.heard_not_sure
+    t: I've heard about it but I'm not quite sure what it is
+  - key: options.baseline_awareness.know_what_it_is
+    t: I roughly know what it is
+  - key: options.baseline_awareness.know_three_stages
+    t: I know what the three Baseline stages are
+  - key: options.baseline_awareness.actively_use_it
+    t: I regularly rely on it in my research or tooling
+
   # favorite_new_feature
   - key: usage.favorite_new_features
     t: Favorite New Feature
   - key: usage.favorite_new_features.question
     t: What are your favorite new CSS features that you started using this year?
+
+  # gamechanger_feature
+  - key: usage.gamechanger_feature
+    t: Game-changing Feature
+  - key: usage.gamechanger_feature.question
+    t: Over the past 5 years, which feature has had the biggest impact on how you write CSS?
 
   ###########################################################################
   # Resources

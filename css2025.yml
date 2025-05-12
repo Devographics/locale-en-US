@@ -1,4 +1,42 @@
 locale: en-US
 translations:
-  - key: foo
-    t: bar
+  - key: general.css2025.survey_intro
+    t: |
+
+      There is only one item on my CSS wishlist for 2025: a slower pace!
+
+      After years of rapid innovation, now feels like the right time for browser vendors to take a beat to consolidate, fix browser inconsistencies, and let the rest of us catch up.  
+
+      After all, we might've heard about subgrid, `:has()`, scroll-driven animations, and all the other recent CSS improvements – but how many of us can say that we've actually used all these features, let alone mastered them?
+
+      This is why this year's survey will be so interesting. It'll be a chance to see which of the past few year's new CSS additions have already been adopted by the community, and which ones are still on our to-do list. 
+
+      So once again, please join me for this year's State of CSS!
+
+  - key: features.features_intro_css2025
+    aliasFor: features.features_intro_css2024
+
+  ###########################################################################
+  # FAQ/About
+  ###########################################################################
+
+  - key: faq.how_long_will_survey_take_css2025
+    aliasFor: faq.how_long_will_survey_take_css2024
+  - key: faq.how_long_will_survey_take_css2025.description
+    aliasFor: faq.how_long_will_survey_take_css2024.description
+
+  - key: faq.learn_more_css2025
+    t: Where can I learn more?
+  - key: faq.learn_more_css2025.description
+    t: You can learn more about this survey in [our announcement post](https://dev.to/sachagreif/the-2024-state-of-css-survey-is-now-open-4o5h).
+
+  - key: faq.survey_design_css2025
+    t: How was this survey designed?
+  - key: faq.survey_design_css2025.description
+    t: >
+      This survey was designed as the results of an [open design process](https://github.com/Devographics/surveys/issues/289) involving browser vendors and the web development community.
+
+  - key: faq.results_released_css2025
+    t: When will the results be released?
+  - key: faq.results_released_css2025.description
+    t: The survey will run from June 1 to July 1, 2025, and the survey results will be released shortly after.
