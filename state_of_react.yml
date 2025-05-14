@@ -122,6 +122,15 @@ translations:
 
   # features
 
+  - key: features.main_apis_ratios
+    t: Main APIs Over Time
+
+  - key: features.hooks_ratios
+    t: Hooks Over Time
+
+  - key: features.new_apis_ratios
+    t: New APIs Over Time
+
   - key: features.main_apis_pain_points
     t: Main APIs Pain Points
   - key: features.main_apis_pain_points.question
