@@ -97,15 +97,17 @@ translations:
   - key: ratios.awareness
     aliasFor: options.experience_ranking.awareness
   - key: ratios.retention
-    t: Retention
+    t: Satisfaction
   - key: ratios.positivity
     t: Positivity
   - key: ratios.positivityRelative
     t: Positivity
+  - key: ratios.appreciation
+    t: Appreciation
 
   - key: ratios.interest.description
     t: >
-      Proportion of **positive sentiment** among respondents having **heard about** an item
+      Proportion of **positive sentiment** among respondents having **heard about** an item and expressed a sentiment
   - key: ratios.usage.description
     t: >
       Proportion of respondents **having used** an item
@@ -114,13 +116,16 @@ translations:
       Proportion of respondents **having heard about or used** an item
   - key: ratios.retention.description
     t: >
-      Proportion of **positive sentiment** among respondents having **used** an item
+      Proportion of **positive sentiment** among respondents having **used** an item and expressed a sentiment
   - key: ratios.positivity.description
     t: >
       Proportion of **positive sentiment** among all respondents
   - key: ratios.positivityRelative.description
     t: >
-      Proportion of **positive sentiment** among respondents who expressed a sentiment.
+      Proportion of **positive sentiment** among all respondents who expressed a sentiment.
+  - key: ratios.appreciation.description
+    t: >
+      Gap between **interest** (**positive sentiment** among “heard of it” respondents) and **satisfaction** (**positive sentiment** among “used it” respondents), in percentage points.
 
   - key: modes.rank
     t: Rank
@@ -1978,19 +1983,19 @@ translations:
 
   - key: charts.multiexp.cell_group_tooltip.experience
     t: >
-      **{value}%** of respondents answered "**{answer}**"
+      **{count}** respondents (**{value}%**) answered "**{answer}**"
 
   - key: charts.multiexp.cell_group_tooltip.sentiment
     t: >
-      **{value}%** of respondents had a **{answer}** sentiment
+      **{count}** respondents (**{value}%**) had a **{answer}** sentiment
 
   - key: charts.multiexp.cell_tooltip
     t: >
-      **{value}%** of respondents answered "**{experience}**" and had a **{sentiment}** sentiment
+      **{count}** respondents (**{value}%**) answered "**{experience}**" and had a **{sentiment}** sentiment
 
   - key: charts.multiexp.cell_tooltip_neutral
     t: >
-      **{value}%** of respondents answered "**{experience}**" and did not pick any sentiment
+      **{count}** respondents (**{value}%**) answered "**{experience}**" and did not pick any sentiment
 
   ###########################################################################
   # Raw Freeform Answers

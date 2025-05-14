@@ -30,21 +30,29 @@ translations:
   # sections
   - key: sections.main_apis.title
     t: Main APIs
+    aliases:
+      - features.main_apis
   - key: sections.main_apis.description
     t: Stable, established React features
 
   - key: sections.hooks.title
     t: Hooks
+    aliases:
+      - features.hooks
   - key: sections.hooks.description
     t: React's built-in hooks
 
   - key: sections.new_apis.title
     t: New Features
+    aliases:
+      - features.new_apis
   - key: sections.new_apis.description
     t: Newly-introduced or experimental APIs & features
 
   - key: sections.component_libraries.title
     t: Component Libraries
+    aliases:
+      - tools.component_libraries
   - key: sections.component_libraries.description
     t: The building blocks of your front-end
 
@@ -55,16 +63,22 @@ translations:
 
   - key: sections.state_management.title
     t: State Management
+    aliases:
+      - tools.state_management
   - key: sections.state_management.description
     t: Libraries for managing application state
 
   - key: sections.data_loading.title
     t: Data Loading
+    aliases:
+      - tools.data_loading
   - key: sections.data_loading.description
     t: Utilities for loading and managing data
 
   - key: sections.back_end_infrastructure.title
     t: Back-End & Infrastructure
+    aliases:
+      - tools.back_end_infrastructure
   - key: sections.back_end_infrastructure.description
     t: Bundling & serving your app
 
