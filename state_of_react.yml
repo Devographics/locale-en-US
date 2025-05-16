@@ -133,18 +133,30 @@ translations:
 
   - key: features.main_apis_pain_points
     t: Main APIs Pain Points
+    aliases:
+      - react_pain_points.main_apis_pain_points
   - key: features.main_apis_pain_points.question
     t: What pain points have you encountered related to the APIs mentioned above?
+    aliases:
+      - react_pain_points.main_apis_pain_points.question
 
   - key: features.hooks_pain_points
     t: Hooks Pain Points
+    aliases:
+      - react_pain_points.hooks_pain_points
   - key: features.hooks_pain_points.question
     t: What pain points have you encountered with hooks?
+    aliases:
+      - react_pain_points.hooks_pain_points.question
 
   - key: features.new_apis_pain_points
     t: New APIs Pain Points
+    aliases:
+      - react_pain_points.new_apis_pain_points
   - key: features.new_apis_pain_points.question
     t: What pain points have you encountered related to new APIs?
+    aliases:
+      - react_pain_points.new_apis_pain_points.question
 
   # main features
   - key: features.fragment.description
@@ -290,8 +302,12 @@ translations:
 
   - key: tools.component_libraries_pain_points
     t: Component Pain Points
+    aliases:
+      - react_pain_points.component_libraries_pain_points
   - key: tools.component_libraries_pain_points.question
     t: What pain points have you encountered related to working with components?
+    aliases:
+      - react_pain_points.component_libraries_pain_points.question
 
   # - key: tools.ui_libraries_happiness
   #   t: Happiness
@@ -305,8 +321,12 @@ translations:
 
   - key: tools.state_management_pain_points
     t: State Management Pain Points
+    aliases:
+      - react_pain_points.state_management_pain_points
   - key: tools.state_management_pain_points.question
     t: What pain points have you encountered related to state management?
+    aliases:
+      - react_pain_points.state_management_pain_points.question
 
   # - key: tools.state_management_happiness
   #   t: Happiness
@@ -320,8 +340,12 @@ translations:
 
   - key: tools.data_loading_pain_points
     t: Data Loading Pain Points
+    aliases:
+      - react_pain_points.data_loading_pain_points
   - key: tools.data_loading_pain_points.question
     t: What pain points have you encountered related to data loading?
+    aliases:
+      - react_pain_points.data_loading_pain_points.question
 
   # - key: tools.data_loading_happiness
   #   t: Happiness
@@ -343,8 +367,12 @@ translations:
 
   - key: tools.back_end_infrastructure_pain_points
     t: Back-End Pain Points
+    aliases:
+      - react_pain_points.back_end_infrastructure_pain_points
   - key: tools.back_end_infrastructure_pain_points.question
     t: What pain points have you encountered related to back-end and infrastructure?
+    aliases:
+      - react_pain_points.back_end_infrastructure_pain_points.question
 
   - key: tools.testing
     t: Testing Libraries
@@ -609,8 +637,12 @@ translations:
 
   - key: usage.usage_pain_points
     t: Other Pain Points
+    aliases:
+      - react_pain_points.usage_pain_points
   - key: usage.usage_pain_points.question
     t: Any other React pain points that you would like to mention?
+    aliases:
+      - react_pain_points.usage_pain_points.question
 
   # new features
   - key: usage.new_features
@@ -707,3 +739,111 @@ translations:
     t: People
   - key: resources.people_react.question
     t: Who do you read, follow, or just want to highlight in the React community?
+
+  # pain points
+
+  - key: react_pain_points.end_to_end_type_safety
+    t: End-to-end type safety
+  - key: react_pain_points.create_react_app_issues
+    t: Create React App issues
+
+  - key: react_pain_points.webpack_issues
+    t: Webpack issues
+
+  - key: react_pain_points.firebase_issues
+    t: Firebase issues
+
+  - key: react_pain_points.pricing_issues
+    t: High costs
+
+  - key: react_pain_points.aws_issues
+    t: AWS Issues
+
+  - key: react_pain_points.graphql_issues
+    t: GraphQL Issues
+
+  - key: react_pain_points.css_in_js_issues
+    t: CSS-in-JS issues
+
+  - key: react_pain_points.tailwind_issues
+    t: Tailwind issues
+
+  - key: react_pain_points.mui_issues
+    t: MUI issues
+
+  - key: react_pain_points.styled_components_issues
+    t: Styled Components issues
+
+  - key: react_pain_points.prop_drilling
+    t: Prop drilling
+
+  - key: react_pain_points.caching
+    t: Caching
+
+  - key: react_pain_points.graphql_issues
+    t: GraphQL issues
+
+  - key: react_pain_points.apollo_issues
+    t: Apollo issues
+
+  - key: react_pain_points.optimistic_updates
+    t: Optimistic updates
+
+  - key: react_pain_points.cancelling_requests
+    t: Unable to cancel requests
+
+  - key: react_pain_points.rules_of_hooks
+    t: Rules of hooks
+
+  - key: react_pain_points.hooks_disallowed_conditional_logic
+    t: Disallowed conditional logic
+
+  - key: react_pain_points.excessive_rerendering
+    t: Excessive rerendering
+
+  - key: react_pain_points.dependency_arrays
+    t: Dependency arrays
+
+  - key: react_pain_points.context_api
+    t: Context API
+
+  - key: react_pain_points.context_api_rerendering
+    t: Excessive context re-renderings
+
+  - key: react_pain_points.react_lack_of_signals
+    t: Lack of signals
+
+  - key: react_pain_points.excessive_rerendering
+    t: Excessive re-renderings
+    aliases:
+      - react_pain_points.excesssive_rerendering
+
+  - key: react_pain_points.nextjs_issues
+    t: Next.js issues
+
+  - key: react_pain_points.vercel_issues
+    t: Vercel issues
+
+  - key: react_pain_points.hooks_issues
+    t: Hooks issues
+
+  - key: react_pain_points.redux_issues
+    t: Redux issues
+
+  - key: react_pain_points.mobx_issues
+    t: MobX issues
+
+  - key: react_pain_points.global_state_management
+    t: Global state management
+
+  - key: react_pain_points.synchronization_issues
+    t: Synchronization issues
+
+  - key: react_pain_points.reactivity_issues
+    t: Reactivity issues
+
+  - key: react_pain_points.side_effects_issues
+    t: Side effects issues
+
+  - key: react_pain_points.cache_issues
+    t: Cache issues

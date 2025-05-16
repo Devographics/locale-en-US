@@ -973,9 +973,9 @@ translations:
   - key: charts.axis_legends.interest_percentage
     t: Interest %
   - key: charts.axis_legends.satisfaction_percentage
-    t: Retention %
+    t: Satisfaction %
   - key: charts.axis_legends.retention_percentage
-    t: Retention %
+    t: Satisfaction %
   - key: charts.axis_legends.usage_percentage
     t: Usage %
   - key: charts.axis_legends.awareness_percentage
