@@ -76,6 +76,10 @@ translations:
     t: Spanish-Language
   - key: tabs.outreach
     t: Outreach
+  - key: tabs.men_vs_non_men
+    t: Men vs Non-Men
+  - key: tabs.white_vs_non_white
+    t: White vs Non-White
 
   ###########################################################################
   # Options
@@ -805,6 +809,8 @@ translations:
     t: GraphQL Query
   - key: export.export_filters
     t: Filters Code
+  - key: export.debug
+    t: Debug
 
   - key: custom_data.heading
     t: Custom Chart
@@ -1155,6 +1161,33 @@ translations:
     t: "Sentiment: "
   - key: comments.filter.all
     t: All
+  - key: comments.filter.clear
+    t: Clear
+
+  - key: comment.like.description
+    t: Like this comment
+
+  - key: comments.filter.by_keyword
+    t: Top Keywords
+  - key: comments.filter.by_keyword.description
+    t: Filter based on top keywords mentioned in comments.
+  - key: comments.filter.by_search
+    t: Search
+  - key: comments.filter.by_search.description
+    t: Search using a custom keyword.
+  - key: comments.filter.by_answer
+    t: Selected Answer
+  - key: comments.filter.by_answer.description
+    t: Filter based on the answers selected by respondents.
+
+  - key: comments.filter.by_experience
+    t: Experience
+  - key: comments.filter.by_experience.description
+    t: Filter based on respondent's experience with the main item.
+  - key: comments.filter.by_sentiment
+    t: Sentiment
+  - key: comments.filter.by_sentiment.description
+    t: Filter based on respondent's sentiments about the main item.
 
   ###########################################################################
   # Sharing

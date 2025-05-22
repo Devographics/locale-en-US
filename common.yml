@@ -1364,6 +1364,9 @@ translations:
   - key: options.employment_status.ceo_founder
     t: CEO/Founder/Entrepreneur
 
+  - key: options.employment_status.freelance.short
+    t: Freelancer/self-employed
+
   # bracket
   - key: options.bracket.round1
     t: Round 1 wins
@@ -1537,16 +1540,26 @@ translations:
   # age
   - key: user_info.age
     t: Age
+    aliases:
+      - health.age
   - key: user_info.age.question
     t: How old are you, in years?
+    aliases:
+      - health.age.question
 
   # years of experience
   - key: user_info.years_of_experience
     t: Years of Experience
+    aliases:
+      - career.years_of_experience
   - key: user_info.years_of_experience.question
     t: How many years of experience do you have as a developer?
+    aliases:
+      - career.years_of_experience.question
   - key: user_info.years_of_experience.prompt
     t: Whether as a professional, student, hobbyist, etc.
+    aliases:
+      - career.years_of_experience.prompt
 
   # company size
   - key: user_info.company_size
@@ -1557,8 +1570,12 @@ translations:
   # salary ranges
   - key: user_info.yearly_salary
     t: Yearly Income
+    aliases:
+      - workplace.yearly_salary
   - key: user_info.yearly_salary.question
     t: What is your yearly gross (pre-tax) income in U.S. dollars?
+    aliases:
+      - workplace.yearly_salary.question
 
   # income_evolution
   - key: user_info.income_evolution
@@ -1701,8 +1718,12 @@ translations:
   # degree
   - key: user_info.higher_education_degree
     t: Higher Education Degree
+    aliases:
+      - career.higher_education_degree
   - key: user_info.higher_education_degree.question
     t: Do you have a higher education degree?
+    aliases:
+      - career.higher_education_degree.question
 
   # completion
   - key: user_info.completion_stats

@@ -1170,11 +1170,7 @@ translations:
   - key: options.baseline_awareness.heard_not_sure
     t: I've heard about it but I'm not quite sure what it is
   - key: options.baseline_awareness.know_what_it_is
-    t: I roughly know what it is
-  - key: options.baseline_awareness.know_three_stages
-    t: I know what the three Baseline stages are
-  - key: options.baseline_awareness.actively_use_it
-    t: I regularly rely on it in my research or tooling
+    t: I know exactly what it is
 
   # favorite_new_feature
   - key: usage.favorite_new_features

@@ -66,6 +66,22 @@ translations:
   - key: career.how_many_jobs.prompt
     t: Only including salaried developer positions.
 
+  - key: options.how_many_jobs.range_1
+    t: 1
+  - key: options.how_many_jobs.range_2
+    t: 2
+  - key: options.how_many_jobs.range_3
+    t: 3
+  - key: options.how_many_jobs.range_4
+    t: 4
+  - key: options.how_many_jobs.range_5
+    t: 5
+  - key: options.how_many_jobs.range_6_10
+    t: 6-10
+  - key: options.how_many_jobs.range_11_20
+    t: 11-20
+  - key: options.how_many_jobs.range_over_20
+    t: Over 20
   # career_issues
 
   - key: career.career_issues
@@ -180,39 +196,63 @@ translations:
 
   - key: options.negative_impacts.changing_appearance
     t: Changed your appearance or the way you dress
+  - key: options.negative_impacts.changing_appearance.short
+    t: Changed appearance
 
   - key: options.negative_impacts.changing_behavior
     t: Changed the way you speak, behave, or express yourself
+  - key: options.negative_impacts.changing_behavior.short
+    t: Changed behavior
 
   - key: options.negative_impacts.reported_someone
     t: Reported the issue to management or Human Resources
+  - key: options.negative_impacts.reported_someone.short
+    t: Reported issue to HR
 
   - key: options.negative_impacts.isolating_yourself
     t: Avoided or distanced yourself from colleagues
+  - key: options.negative_impacts.isolating_yourself.short
+    t: Avoided colleagues
 
   - key: options.negative_impacts.internal_transfer
     t: Requested a transfer to another team or department
+  - key: options.negative_impacts.internal_transfer.short
+    t: Requested transfer
 
   - key: options.negative_impacts.time_off
     t: Taken a leave of absence or time off work
+  - key: options.negative_impacts.time_off.short
+    t: Taken time off
 
   - key: options.negative_impacts.quitting_job
     t: Resigned from a job
+  - key: options.negative_impacts.quitting_job.short
+    t: Resigned
 
   - key: options.negative_impacts.shifting_careers
     t: Changed careers or industries
+  - key: options.negative_impacts.shifting_careers.short
+    t: Changed careers
 
   - key: options.negative_impacts.seeking_counseling
     t: Sought therapy, counseling, or mental health support
+  - key: options.negative_impacts.seeking_counseling.short
+    t: Sought therapy
 
   - key: options.negative_impacts.engaging_legal_counsel
     t: Consulted with legal counsel
+  - key: options.negative_impacts.engaging_legal_counsel.short
+    t: Legal counsel
 
   - key: options.negative_impacts.scaling_back
     t: Reduced your work hours or taken a less demanding role
+  - key: options.negative_impacts.scaling_back.short
+    t: Reduced work hours
 
   - key: options.negative_impacts.taking_medicine
     t: Taken medication for stress, anxiety, depression, etc.
+  - key: options.negative_impacts.taking_medicine.short
+    t: Taken medication
 
   - key: career.negative_impacts.commentPrompt
     aliasFor: career.career_issues.commentPrompt
@@ -911,8 +951,12 @@ translations:
 
   - key: worldview.overall_happiness
     t: Overall Happiness
+    aliases:
+      - happiness.overall_happiness
   - key: worldview.overall_happiness.question
     t: Overall, how happy are you these days?
+    aliases:
+      - happiness.overall_happiness.question
 
   # # personal_hope
 
