@@ -761,6 +761,9 @@ translations:
   - key: tools.css_frameworks.prompt
     t: Frameworks or libraries that give you pre-made components or styles.
 
+  - key: options.css_frameworks.custom_framework
+    t: Custom/in-house framework
+
   - key: tools.css_in_js
     t: CSS-in-JS
   - key: tools.css_in_js.question
@@ -780,8 +783,6 @@ translations:
     aliasFor: sections.pre_post_processors_others.title
   - key: other_tools.pre_post_processors_freeform
     aliasFor: sections.pre_post_processors_others.title
-  - key: options.pre_post_processors.na
-    t: None
 
   - key: tools.pre_post_processors
     aliasFor: sections.pre_post_processors.title
@@ -796,8 +797,6 @@ translations:
     t: Other Utilities
   - key: tools_others.utilities.others.description
     t: Other utilities (freeform field).
-  - key: options.utilities.na
-    t: None
 
   - key: tools.utilities
     aliasFor: tools_others.utilities

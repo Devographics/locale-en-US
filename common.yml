@@ -214,7 +214,7 @@ translations:
       {surveyName} survey
   - key: general.share_text
     t: >
-      This year's {surveyName} survey is now open! {link}
+      Go take the {surveyName} survey if you have a minute! {link}
 
   # forms
   - key: forms.select_option
@@ -1254,6 +1254,17 @@ translations:
     t: Newsletters
   - key: options.first_steps.events
     t: Events
+
+  # web_platform_resources
+
+  - key: resources.web_platform_resources
+    t: Web Platform Resources
+    aliases:
+      - other_tools.web_platform_resources
+  - key: resources.web_platform_resources.question
+    t: Which of these resources do you consult to stay informed about web platform features?
+    aliases:
+      - other_tools.web_platform_resources.question
 
   # learning methods
 

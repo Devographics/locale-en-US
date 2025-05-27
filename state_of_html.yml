@@ -966,19 +966,6 @@ translations:
     t: 100% JS
 
   ###########################################################################
-  # Resources
-  ###########################################################################
-
-  - key: resources.web_platform_resources
-    t: Web Platform Resources
-    aliases:
-      - other_tools.web_platform_resources
-  - key: resources.web_platform_resources.question
-    t: Which of these resources do you consult to stay informed about web platform features?
-    aliases:
-      - other_tools.web_platform_resources.question
-
-  ###########################################################################
   # Opinions
   ###########################################################################
 

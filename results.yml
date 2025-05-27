@@ -1167,6 +1167,11 @@ translations:
   - key: comment.like.description
     t: Like this comment
 
+  - key: comments.filter.show
+    t: Show Filters
+  - key: comments.filter.hide
+    t: Hide Filters
+
   - key: comments.filter.by_keyword
     t: Top Keywords
   - key: comments.filter.by_keyword.description
@@ -1178,7 +1183,7 @@ translations:
   - key: comments.filter.by_answer
     t: Selected Answer
   - key: comments.filter.by_answer.description
-    t: Filter based on the answers selected by respondents.
+    t: Filter based on the answer(s) selected by respondents.
 
   - key: comments.filter.by_experience
     t: Experience
