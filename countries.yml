@@ -162,6 +162,8 @@ translations:
     t: United Arab Emirates
   - key: options.country.GBR
     t: United Kingdom
+  - key: options.country.SCT # not a country but still adding it
+    t: Scotland
   - key: options.country.USA
     t: USA
   - key: options.country.VEN

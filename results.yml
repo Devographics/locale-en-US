@@ -449,6 +449,104 @@ translations:
   - key: user_metadata.os.description
     t: What OS version was used to take the survey.
 
+  # job_info
+
+  - key: options.job_title.ceo
+    t: CEO
+  - key: options.job_title.co_founder
+    t: Founder/Co-Founder
+  - key: options.job_title.consultant
+    t: Consultant
+  - key: options.job_title.student
+    t: Student
+  - key: options.job_title.freelancer
+    t: Freelancer
+  - key: options.job_title.cto
+    t: CTO
+  - key: options.job_title.engineering_manager
+    t: Engineering Manager
+  - key: options.job_title.director_of_engineering
+    t: Director of Engineering
+  - key: options.job_title.software_development_manager
+    t: Software Development Manager
+  # head
+  - key: options.job_title.head_of_engineering
+    t: Head of Engineering
+  - key: options.job_title.head_of_development
+    t: Head of Development
+  - key: options.job_title.head_of_product
+    t: Head of Product
+  # architect
+  - key: options.job_title.software_architect
+    t: Software Architect
+  - key: options.job_title.solution_architect
+    t: Solution Architect
+  - key: options.job_title.frontend_architect
+    t: Frontend Architect
+  # lead
+  - key: options.job_title.technical_lead
+    t: Technical Lead
+  - key: options.job_title.frontend_lead
+    t: Frontend Lead
+  - key: options.job_title.lead
+    t: Lead
+  # engineer
+  - key: options.job_title.software_engineer
+    t: Software Engineer
+  - key: options.job_title.frontend_engineer
+    t: Frontend Engineer
+  - key: options.job_title.backend_engineer
+    t: Backend Engineer
+  - key: options.job_title.fullstack_engineer
+    t: Fullstack Engineer
+  - key: options.job_title.junior_engineer
+    t: Junior Engineer
+  - key: options.job_title.senior_engineer
+    t: Senior Engineer
+  - key: options.job_title.lead_engineer
+    t: Lead Engineer
+  - key: options.job_title.systems_engineer
+    t: Systems Engineer
+  # developer
+  - key: options.job_title.developer
+    t: Developer
+  - key: options.job_title.frontend_developer
+    t: Frontend Developer
+  - key: options.job_title.backend_developer
+    t: Backend Developer
+  - key: options.job_title.fullstack_developer
+    t: Fullstack Developer
+  - key: options.job_title.junior_developer
+    t: Junior Developer
+  - key: options.job_title.senior_developer
+    t: Senior Developer
+  - key: options.job_title.lead_developer
+    t: Lead Developer
+  # programmer
+  - key: options.job_title.programmer
+    t: Programmer
+  - key: options.job_title.senior_programmer
+    t: Senior Programmer
+  # manager
+  - key: options.job_title.manager
+    t: Manager
+  - key: options.job_title.project_manager
+    t: Project Manager
+  - key: options.job_title.product_manager
+    t: Product Manager
+  - key: options.job_title.computer_scientist
+    t: Computer Scientist
+  - key: options.job_title.creative_technologist
+    t: Creative Technologist
+  - key: options.job_title.data_scientist
+    t: Data Scientist
+  - key: options.job_title.designer
+    t: Designer
+  - key: options.job_title.head_of_design
+    t: Head of Design
+  - key: options.job_title.head_of_technology
+    t: Head of Technology
+
   ###########################################################################
   # Locales
   ###########################################################################

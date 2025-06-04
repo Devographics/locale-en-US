@@ -11,6 +11,21 @@ translations:
 
       As usual, every question is optional, so feel free to skip any that you don't feel comfortable answering. Also please note that the resulting dataset will be made available publicly. All that being said we certainly hope you'll see value in this survey, and we can't wait to get to know you better!
 
+  - key: introduction.devs2025
+    t: |
+
+      “These questions feel really personal”. ”This is going to be too controversial”. “You should stick to programming surveys”.
+
+      This is some of the initial feedback I got when I first floated the idea of running a developer survey entirely dedicated to workplace issues, health, hobbies, and other topics unrelated to code. 
+
+      Yet I'm glad I went ahead. This survey's 8,717 respondents are proof that it struck a chord with the developer community – and the much higher participation rate from women in particular (compared to previous surveys) shows that there was demand for something that focused on these less-discussed issues.
+
+      While you browse the data, make sure to also check out the many comments (<span class="icon-inline icon-inline-comment"/> icon) left by respondents as they took the survey, in which they share their personal stories and thoughts in much more detail.
+
+      With all this out of the way, please enjoy the results from the first ever State of Devs survey!
+
+      <span class="conclusion__byline">– Sacha Greif</span>
+
   # FAQ
 
   - key: faq.how_long_will_survey_take_devs2025

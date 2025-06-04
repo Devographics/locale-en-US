@@ -885,7 +885,7 @@ translations:
   - key: options.race_ethnicity.south_east_asian
     t: South East Asian
   - key: options.race_ethnicity.hispanic_latin
-    t: Hispanic or Latino/Latina/Latinx
+    t: Hispanic or Latin
   - key: options.race_ethnicity.east_asian
     t: East Asian
   - key: options.race_ethnicity.middle_eastern
@@ -1044,6 +1044,8 @@ translations:
     t: Testing Tools (Axe, Lighthouse, etc.)
   - key: options.form_factors.vision_simulator
     t: Altered Vision Simulator (color blindness, etc.)
+  - key: options.form_factors.pdf_export
+    t: PDF Export
 
   # Industry Sector
   - key: options.industry_sector.ecommerce
@@ -1377,6 +1379,8 @@ translations:
 
   - key: options.employment_status.freelance.short
     t: Freelancer/self-employed
+  - key: options.employment_status.professor
+    t: Professor
 
   # bracket
   - key: options.bracket.round1

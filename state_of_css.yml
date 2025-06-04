@@ -245,6 +245,8 @@ translations:
     t: Emails
   - key: options.what_do_you_use_css_for.printed_documents
     t: Printed documents
+  - key: options.what_do_you_use_css_for.pdf_documents
+    t: PDF documents
   - key: options.what_do_you_use_css_for.desktop_apps
     t: Desktop apps
 
@@ -953,6 +955,36 @@ translations:
   - key: opinions.enjoy_writing_css.title
     t: Enjoyment
 
+  - key: usage.css_pace_of_change
+    t: Pace of Change
+  - key: usage.css_pace_of_change.question
+    t: How well are you generally able to keep up with new CSS features, such as those mentioned in this survey?
+
+  - key: options.css_pace_of_change.1
+    t: I haven't learned about or tried out most features
+  # - key: options.css_pace_of_change.0.description
+  # t: I haven't learned about or tried out most features
+
+  - key: options.css_pace_of_change.2
+    t: I've learned about some of the features; but haven't tried them out
+  # - key: options.css_pace_of_change.1.description
+  # t: I've learned about some of the features; but haven't tried them out
+
+  - key: options.css_pace_of_change.3
+    t: I've learned about and tried out some of the features
+  # - key: options.css_pace_of_change.2.description
+  # t: I've learned about and tried out some of the features
+
+  - key: options.css_pace_of_change.4
+    t: I've learned about most of the features and tried out some of them
+  # - key: options.css_pace_of_change.3.description
+  # t: I've learned about most of the features and tried out some of them
+
+  - key: options.css_pace_of_change.5
+    t: I've learned about and tried out most of the features
+  # - key: options.css_pace_of_change.4.description
+  #   t: I've learned about and tried out most of the features
+
   # Browser interoperability question
   - key: opinions_others.browser_interoperability_features.others
     t: Browser Incompatibilities
@@ -1127,6 +1159,7 @@ translations:
   - key: css_missing_features.css_missing_features_matchups.description
     t: Which feature would you most like to be able to use in CSS today? Percentage of rounds won by left-hand item against top-side item.
 
+  # usage
   - key: usage.css_js_balance
     t: CSS vs JavaScript Balance
   - key: usage.css_js_balance.question
@@ -1162,14 +1195,18 @@ translations:
   - key: usage.baseline_awareness
     t: Baseline Awareness
   - key: usage.baseline_awareness.question
-    t: How familiar are you with the Web Platform Baseline indicator?
+    t: Quiz time! Web Platform Baseline is…
 
-  - key: options.baseline_awareness.never_heard
-    t: I've never heard about it
-  - key: options.baseline_awareness.heard_not_sure
-    t: I've heard about it but I'm not quite sure what it is
-  - key: options.baseline_awareness.know_what_it_is
-    t: I know exactly what it is
+  - key: options.baseline_awareness.text_formatting
+    t: A set of new text layout features
+  - key: options.baseline_awareness.performance_testing_tool
+    t: An in-browser performance testing tool
+  - key: options.baseline_awareness.supported_apis
+    t: A set of web features and APIs supported by all major browsers
+  - key: options.baseline_awareness.code_examples
+    t: A set of code examples to reuse across projects
+  - key: options.baseline_awareness.no_idea
+    t: I have no idea
 
   # favorite_new_feature
   - key: usage.favorite_new_features

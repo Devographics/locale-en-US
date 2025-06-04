@@ -156,6 +156,9 @@ translations:
   - key: options.career_issues.bad_management.description
     t: Overall bad work environment due to poor management practices.
 
+  - key: options.career_issues.boredom
+    t: Boredom
+
   # discrimination_issues
 
   - key: career.discrimination_issues
@@ -183,6 +186,11 @@ translations:
     t: Disabilities
   - key: options.discrimination_issues.disability.description
     t: Including physical, mental, or neurodivergent conditions.
+
+  - key: options.discrimination_issues.country_citizenship
+    t: Country of origin
+  - key: options.discrimination_issues.appearance_body
+    t: Physical appearance or characteristics
 
   - key: career.discrimination_issues.commentPrompt
     aliasFor: career.career_issues.commentPrompt
@@ -310,6 +318,21 @@ translations:
 
   # WORKPLACE
 
+  - key: workplace.company_size
+    aliasFor: user_info.company_size
+  - key: workplace.company_size.question
+    aliasFor: user_info.company_size.question
+
+  - key: workplace.job_title
+    aliasFor: user_info.job_title
+  - key: workplace.job_title.question
+    aliasFor: user_info.job_title.question
+
+  - key: workplace.income_evolution
+    aliasFor: user_info.income_evolution
+  - key: workplace.income_evolution.question
+    aliasFor: user_info.income_evolution.question
+
   - key: workplace.remote_work_policy
     t: Remote Work
   - key: workplace.remote_work_policy.question
@@ -341,10 +364,34 @@ translations:
   - key: workplace.work_hours_per_week.question
     t: In a typical week, how many hours do you work?
 
+  - key: options.work_hours_per_week.range_under_30
+    t: Under 30
+  - key: options.work_hours_per_week.range_31_35
+    t: 31-35
+  - key: options.work_hours_per_week.range_36_40
+    t: 36-40
+  - key: options.work_hours_per_week.range_41_45
+    t: 41-45
+  - key: options.work_hours_per_week.range_46_50
+    t: 46-50
+  - key: options.work_hours_per_week.range_over_50
+    t: Over 50
+
   - key: workplace.job_happiness
     t: Job Happiness
   - key: workplace.job_happiness.question
     t: How happy are you with your current job?
+
+  - key: options.job_happiness.0
+    aliasFor: options.happiness.0
+  - key: options.job_happiness.1
+    aliasFor: options.happiness.1
+  - key: options.job_happiness.2
+    aliasFor: options.happiness.2
+  - key: options.job_happiness.3
+    aliasFor: options.happiness.4
+  - key: options.job_happiness.4
+    aliasFor: options.happiness.4
 
   # - key: workplace.job_ai_threat
   #   t: a
@@ -396,6 +443,15 @@ translations:
   - key: options.workplace_difficulties.training.description
     t: Lack of training and development
 
+  - key: options.workplace_difficulties.bad_management
+    t: Poor management
+  - key: options.workplace_difficulties.in_person_work
+    t: In-person work requirements
+  - key: options.workplace_difficulties.lack_of_human_contact
+    t: Lack of human contact
+  - key: options.workplace_difficulties.bureaucracy
+    t: Excessive bureaucracy
+
     # workplace_perks
 
   - key: workplace.workplace_perks
@@ -442,6 +498,9 @@ translations:
     aliasFor: options.workplace_difficulties.training
   - key: options.workplace_perks.training.description
     t: Company-provided training and skill development
+
+  - key: options.workplace_perks.remote_work_benefit
+    t: Remote work benefits
 
   # job_finding_application_count
 
@@ -492,6 +551,17 @@ translations:
     t: Open source or community involvement
   - key: options.job_finding_methods.company_founder
     t: Founded the company or self-employed
+
+  - key: options.job_finding_methods.contacted_by_company
+    t: Founded the company or self-employed
+  - key: options.job_finding_methods.internship
+    t: Internship
+  - key: options.job_finding_methods.through_university
+    t: Through university
+  - key: options.job_finding_methods.merger_acquisition
+    t: Merger or acquisition
+  - key: options.job_finding_methods.career_fair
+    t: Career fair
 
   # - key: workplace.how_much_can_you_be_yourself_at_work
   #   t:
@@ -584,6 +654,11 @@ translations:
   - key: options.community_involvement.podcasts
     t: Podcasts
 
+  - key: options.community_involvement.blogs_websites
+    t: Blogs & websites
+  - key: options.community_involvement.rss_feeds
+    t: RSS feeds
+
   # community_contributions
 
   - key: technology.community_contributions
@@ -605,6 +680,9 @@ translations:
     t: Organized an event
   - key: options.community_contributions.open_source_contribution
     t: Contributed to open-source software
+
+  - key: options.community_contributions.mentoring
+    t: Mentoring
 
   # open_source_involvement
   - key: technology.open_source_involvement
@@ -663,6 +741,11 @@ translations:
   - key: options.health_issues.headaches
     t: Headaches & migraines
 
+  - key: options.health_issues.gastrointestinal_issues
+    t: Gastrointestinal issues
+  - key: options.health_issues.high_blood_pressure
+    t: High blood pressure
+
   # sleep_quantity
   - key: health.sleep_quantity
     t: Sleep Quantity
@@ -716,6 +799,31 @@ translations:
     t: Sleeping pills
   - key: options.sleep_measures.supplements
     t: Supplements
+
+  - key: options.sleep_measures.exercise
+    t: Excercise
+  - key: options.sleep_measures.meditation_relaxation
+    t: Meditation and relaxation
+  - key: options.sleep_measures.sleep_environment
+    t: Good sleep environment
+  - key: options.sleep_measures.noise_machine
+    t: Noise machine
+  - key: options.sleep_measures.cpap_machine
+    t: CPAP machine
+  - key: options.sleep_measures.cannabis_cbd
+    t: Cannabis or CBD
+  - key: options.sleep_measures.reading_books
+    t: Reading
+  - key: options.sleep_measures.sound_therapy
+    t: Sound Therapy
+  - key: options.sleep_measures.better_sleep_schedule
+    t: Better sleep schedule
+  - key: options.sleep_measures.audiobooks_podcasts
+    t: Audiobooks or podcasts
+  - key: options.sleep_measures.music
+    t: Music
+  - key: options.sleep_measures.controlling_light_exposure
+    t: Controlling light exposure
 
   # worldview
 
@@ -913,6 +1021,15 @@ translations:
   - key: options.global_issues.lack_of_free_speech
     t: Lack of free speech
 
+  - key: options.global_issues.war_and_conflict
+    t: War & conflict
+  - key: options.global_issues.gaza_israel_conflict
+    t: Gaza conflict
+  - key: options.global_issues.trump
+    t: Trump
+  - key: options.global_issues.lgbtq_rights
+    t: LGBTQ rights
+
   # # companies_opinion
 
   # - key: worldview.companies_opinion
@@ -946,6 +1063,13 @@ translations:
     t: Living environment
   - key: options.happiness_factors.religion_spirituality
     t: Religion and/or spirituality
+
+  - key: options.happiness_factors.pets
+    t: Pets
+  - key: options.happiness_factors.exercise
+    t: Exercise
+  - key: options.happiness_factors.freedom
+    t: Freedom
 
   # overall_happiness
 
@@ -1018,6 +1142,23 @@ translations:
   - key: options.physical_activity.hiking_walking
     t: Hiking/walking
 
+  - key: options.physical_activity.dancing
+    t: Dancing
+  - key: options.physical_activity.basket_ball
+    t: Basket-ball
+  - key: options.physical_activity.badminton
+    t: Badminton
+  - key: options.physical_activity.pilates
+    t: Pilates
+  - key: options.physical_activity.volleyball
+    t: Volleyball
+  - key: options.physical_activity.rowing
+    t: Rowing
+  - key: options.physical_activity.padel
+    t: Padel
+  - key: options.physical_activity.skiing
+    t: Skiing
+
   - key: health.physical_activity_frequency
     t: Exercise Frequency
   - key: health.physical_activity_frequency.question
@@ -1069,6 +1210,23 @@ translations:
     t: Sports/exercise
   - key: options.hobbies.movies_tv
     t: Movies/TV
+
+  - key: options.hobbies.programming
+    t: Programming
+  - key: options.hobbies.photography
+    t: Photography
+  - key: options.hobbies.hiking_walking
+    t: Hiking or walking
+  - key: options.hobbies.writing
+    t: Writing
+  - key: options.hobbies.travel
+    t: Travel
+  - key: options.hobbies.dancing
+    t: Dancing
+  - key: options.hobbies.3d_printing
+    t: 3D-printing
+  - key: options.hobbies.language_learning
+    t: Language learning
 
   # hobbies_frequency
 
