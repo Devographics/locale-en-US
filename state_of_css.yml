@@ -95,9 +95,9 @@ translations:
   - key: sections.colors.description
     t: Color-related features.
 
-  - key: features.typography_pain_points
+  - key: features.colors_pain_points
     t: Colors Pain Points
-  - key: features.typography_pain_points.question
+  - key: features.colors_pain_points.question
     t: What are your top CSS pain points related to handling colors?
 
   - key: sections.javascript_apis.title
@@ -111,7 +111,7 @@ translations:
     t: Other CSS features.
 
   - key: features.other_features_pain_points
-    t: Typography Pain Points
+    t: Other Features Pain Points
   - key: features.other_features_pain_points.question
     t: What are your top CSS pain points related to the features mentioned above?
 
