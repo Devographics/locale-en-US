@@ -44,3 +44,37 @@ translations:
   - key: faq.survey_design_devs2025.description
     t: >
       This survey was designed as the results of an [open design process](https://github.com/Devographics/surveys/issues/279) involving the web development community.
+
+  ###########################################################################
+  # Takeaways
+  ###########################################################################
+
+  - key: career.discrimination_issues.takeaway.devs2025
+    t: |
+      While we often think of discrimination in terms of gender or race, the most common reported factor was actually age, something that eventually affects all of us. 
+
+      Breaking down the data by age range reveals that age discrimination becomes especially prevalent after 50 years old.
+
+  - key: career.negative_impacts.takeaway.devs2025
+    t: |
+      Among all respondents, non-confrontational approaches such as avoiding colleagues, changing your behavior, or even resigning were the most common coping strategies in response to workplace issues. 
+
+      The data also clearly shows the impact of gender, with women and non-binary respondents as a whole suffering each negative impact at a higher rate than men.
+
+      Race and ethnicity on the other hand did not seem to have a similarly clear-cut impact. In fact, slightly *fewer* non-white respondents reported having resigned or sought therapy due to workplace issues – although further research would be needed to determine if this is because they didn't feel that need; or because they did but weren't in a position to do so.
+
+  - key: workplace.job_title.takeaway.devs2025
+    t: |
+      As seen in other surveys, being an engineer is correlated with higher income compared to “just” being a developer.
+
+  - key: workplace.income_evolution.takeaway.devs2025
+    t: |
+      Despite fears of an industry downturn, only 9% of respondents reported having seen their income decrease over the past year. 
+
+      Interestingly, the larger the respondents' company, the more likely they were to report an income increase.
+
+  - key: workplace.job_finding_application_count.takeaway.devs2025
+    t: |
+      While respondents needed a median of 4 job applications to find their current job overall, that number decreased as respondents' years of experience went up. 
+
+      That being said, a slight increase was present at the higher end of the experience curve, which could be explained by age discrimination, or by out-of-date skills making the job search harder.

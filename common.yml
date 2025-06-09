@@ -1096,8 +1096,10 @@ translations:
     t: Automotive
   - key: options.industry_sector.agriculture
     t: Agriculture
-  - key: options.industry_sector.transportation
+  - key: options.industry_sector.transport
     t: Transportation
+    aliases:
+      - options.industry_sector.transportation
   - key: options.industry_sector.manufacturing
     t: Manufacturing
 

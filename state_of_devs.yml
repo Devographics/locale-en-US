@@ -505,7 +505,7 @@ translations:
   # job_finding_application_count
 
   - key: workplace.job_finding_application_count
-    t: Applications
+    t: Number of Applications
   - key: workplace.job_finding_application_count.question
     t: How many positions did you apply to before getting your current job?
 

@@ -13,8 +13,15 @@ translations:
 
       So once again, please join me for this year's State of CSS!
 
+  ###########################################################################
+  # Charts
+  ###########################################################################
+
   - key: features.features_intro_css2025
     aliasFor: features.features_intro_css2024
+
+  - key: features.all_features
+    t: All Features
 
   ###########################################################################
   # FAQ/About

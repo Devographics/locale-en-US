@@ -395,6 +395,41 @@ translations:
   - key: options.css_missing_features.css_toggle.description
     t: A way to associate a "toggleable value" with an element
 
+  - key: features.layout_features_ratios
+    t: Layout Features Over Time
+  - key: features.layout_features_ratios.short
+    t: Features Over Time
+
+  - key: features.shapes_graphics_features_ratios
+    t: Math Features Over Time
+  - key: features.shapes_graphics_ratios.short
+    aliasFor: features.layout_features_ratios.short
+
+  - key: features.colors_ratios
+    t: Math Features Over Time
+  - key: features.colors_ratios.short
+    aliasFor: features.layout_features_ratios.short
+
+  - key: features.interactions_ratios
+    t: Math Features Over Time
+  - key: features.interactions_ratios.short
+    aliasFor: features.layout_features_ratios.short
+
+  - key: features.typography_ratios
+    t: Math Features Over Time
+  - key: features.typography_ratios.short
+    aliasFor: features.layout_features_ratios.short
+
+  - key: features.math_features_ratios
+    t: Math Features Over Time
+  - key: features.math_features_ratios.short
+    aliasFor: features.layout_features_ratios.short
+
+  - key: features.other_features_ratios
+    t: Math Features Over Time
+  - key: features.other_features_ratios.short
+    aliasFor: features.layout_features_ratios.short
+
   ###########################################################################
   # Features
   ###########################################################################

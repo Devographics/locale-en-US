@@ -80,6 +80,8 @@ translations:
     t: Men vs Non-Men
   - key: tabs.white_vs_non_white
     t: White vs Non-White
+  - key: tabs.by_age
+    t: By Age
 
   ###########################################################################
   # Options
