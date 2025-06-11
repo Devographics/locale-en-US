@@ -1,6 +1,6 @@
 locale: en-US
 translations:
-  - key: general.devs2025.survey_intro
+  - key: technology.general.devs2025.survey_intro
     t: |
 
       2025 is a weird time to be a developer. AI is changing the way we work, we're dealing with mass layoffs, and there's an ongoing political vibe shift in some corners of the tech community. 
@@ -11,7 +11,7 @@ translations:
 
       As usual, every question is optional, so feel free to skip any that you don't feel comfortable answering. Also please note that the resulting dataset will be made available publicly. All that being said we certainly hope you'll see value in this survey, and we can't wait to get to know you better!
 
-  - key: introduction.devs2025
+  - key: technology.introduction.devs2025
     t: |
 
       “These questions feel really personal”. ”This is going to be too controversial”. “You should stick to programming surveys”.
@@ -28,20 +28,20 @@ translations:
 
   # FAQ
 
-  - key: faq.how_long_will_survey_take_devs2025
+  - key: technology.faq.how_long_will_survey_take_devs2025
     t: How long will this survey take me?
-  - key: faq.how_long_will_survey_take_devs2025.description
+  - key: technology.faq.how_long_will_survey_take_devs2025.description
     t: >
       This survey should take about 15 minutes to complete. Note that all questions are optional.
 
-  - key: faq.results_released_devs2025
+  - key: technology.faq.results_released_devs2025
     t: When will the results be released?
-  - key: faq.results_released_devs2025.description
+  - key: technology.faq.results_released_devs2025.description
     t: The survey will run from April 15 to May 15, 2025, and the survey results will be released shortly after.
 
-  - key: faq.survey_design_devs2025
+  - key: technology.faq.survey_design_devs2025
     t: How was this survey designed?
-  - key: faq.survey_design_devs2025.description
+  - key: technology.faq.survey_design_devs2025.description
     t: >
       This survey was designed as the results of an [open design process](https://github.com/Devographics/surveys/issues/279) involving the web development community.
 
@@ -49,32 +49,151 @@ translations:
   # Takeaways
   ###########################################################################
 
-  - key: career.discrimination_issues.takeaway.devs2025
+  # career
+
+  - key: technology.career.years_of_experience.takeaway.devs2025
     t: |
-      While we often think of discrimination in terms of gender or race, the most common reported factor was actually age, something that eventually affects all of us. 
+      More experience is correlated with a higher salary – up to a point. Past 30 years of experience, median income starts falling back down again.
+
+  - key: technology.career.higher_education_degree.takeaway.devs2025
+    t: |
+      Having a degree will result in higher income, but interestingly enough it doesn't necessarily have to be related to programming.
+
+  - key: technology.career.how_many_jobs.takeaway.devs2025
+    t: |
+      Respondents have worked for 4.2 employers on average. And while having worked for more employers is associated with a higher income, that correlation disappears when controlling for years of experience, which would indicate that there is no advantage to switching jobs more frequently.
+
+  - key: technology.career.employment_status.takeaway.devs2025
+    t: |
+      While freelancers and independent contractors earn less than full-time employees, it was surprising to see that being an entrepreneur does not result in an income increase.
+
+  - key: technology.career.career_issues.takeaway.devs2025
+    t: |
+      It's clear that the top three issues reported here are all interconnected: bad management leads to work-life balance issues, which then leads to burnout. 
+
+      Gender does seem to have an impact on career issues, with women and non-binary respondents experiencing every issue at a higher rate, especially when it came to mental health issues.
+
+  - key: technology.career.discrimination_issues.takeaway.devs2025
+    t: |
+      While we often think of discrimination in terms of gender or race, the most common reported factor is actually age, something that eventually affects all of us. 
 
       Breaking down the data by age range reveals that age discrimination becomes especially prevalent after 50 years old.
 
-  - key: career.negative_impacts.takeaway.devs2025
+  - key: technology.career.negative_impacts.takeaway.devs2025
     t: |
-      Among all respondents, non-confrontational approaches such as avoiding colleagues, changing your behavior, or even resigning were the most common coping strategies in response to workplace issues. 
+      Among all respondents, non-confrontational approaches such as avoiding colleagues, changing your behavior, or even resigning are the most common coping strategies in response to workplace issues. 
 
       The data also clearly shows the impact of gender, with women and non-binary respondents as a whole suffering each negative impact at a higher rate than men.
 
-      Race and ethnicity on the other hand did not seem to have a similarly clear-cut impact. In fact, slightly *fewer* non-white respondents reported having resigned or sought therapy due to workplace issues – although further research would be needed to determine if this is because they didn't feel that need; or because they did but weren't in a position to do so.
+      Race and ethnicity on the other hand do not seem to have a similarly clear-cut impact. In fact, slightly *fewer* non-white respondents reported having resigned or sought therapy due to workplace issues – although further research would be needed to determine if this is because they didn't feel that need; or because they did but weren't in a position to act on it.
 
-  - key: workplace.job_title.takeaway.devs2025
+  - key: technology.career.laid_off.takeaway.devs2025
     t: |
-      As seen in other surveys, being an engineer is correlated with higher income compared to “just” being a developer.
+      Despite talks of a tech downturn, the majority of respondents have still never been laid off.
 
-  - key: workplace.income_evolution.takeaway.devs2025
+      When ranking by country seeing the most layoffs, the U.S. with its employer-friendly labor laws tops the ranking; while countries such as France and Japan appear towards the bottom of the list.
+
+  # workplace
+
+  - key: technology.workplace.company_size.takeaway.devs2025
     t: |
-      Despite fears of an industry downturn, only 9% of respondents reported having seen their income decrease over the past year. 
+      It should come as no surprise, that larger companies have the means to pay higher salaries. Not only that, but respondent income is much more likely to have increased over the past year if they worked for a big company.
 
-      Interestingly, the larger the respondents' company, the more likely they were to report an income increase.
+  - key: technology.workplace.job_title.takeaway.devs2025
+    t: |
+      As seen in other surveys, carrying the engineer title is correlated with higher income compared to being “just” a developer.
 
-  - key: workplace.job_finding_application_count.takeaway.devs2025
+      Another point worth noting: on aggregate, frontend jobs feature more gender diversity than other positions.
+
+  - key: technology.workplace.yearly_income.takeaway.devs2025
+    t: |
+      The U.S. continues to offer much higher salaries compared to the rest of the world.
+
+  - key: technology.workplace.income_evolution.takeaway.devs2025
+    t: |
+      Despite fears of an industry downturn, only 9% of respondents reported having seen their income decrease over the past year.
+
+  - key: technology.workplace.job_finding_application_count.takeaway.devs2025
     t: |
       While respondents needed a median of 4 job applications to find their current job overall, that number decreased as respondents' years of experience went up. 
 
       That being said, a slight increase was present at the higher end of the experience curve, which could be explained by age discrimination, or by out-of-date skills making the job search harder.
+
+  - key: technology.workplace.job_finding_methods.takeaway.devs2025
+    t: |
+      Having a more personal connection to the company when applying (as opposed to going through a job board or social media) is associated with a higher income. 
+
+      The one exception is being hired through open-source work, which is associated with the same income levels as more direct methods such as recruiters or referrals.
+
+  - key: technology.workplace.remote_work_policy.takeaway.devs2025
+    t: |
+      The lack of remote work is correlated with both lower median income and lower job satisfaction.
+
+  - key: technology.workplace.work_hours_per_week.takeaway.devs2025
+    t: |
+      The more you work, the more you earn, at least up to a point. India is the hardest-working country with 45 median hours worked per week, while most other countries are all gathered around the 40-hour mark.
+
+  - key: technology.workplace.job_happiness.takeaway.devs2025
+    t: |
+      Developers are overall pretty happy with their job.
+
+  - key: technology.workplace.workplace_perks.takeaway.devs2025
+    t: |
+      Going against the stereotype of the asocial computer nerd, it turns out the thing that we value the most is actually each other, with relationships with coworkers coming in as the number one item developers enjoy about their workplace.
+
+  - key: technology.workplace.workplace_difficulties.takeaway.devs2025
+    t: |
+      At the end of the day, we all need to make a living, and poor compensation came in first as the top workplace issue developers are facing today.
+
+  # technology
+
+  # - key: technology.mobile_os.takeaway.devs2025
+  #   t: |
+  #     xxx
+
+  # - key: technology.desktop_os.takeaway.devs2025
+  #   t: |
+  #     xxx
+
+  # - key: technology.programming_languages.takeaway.devs2025
+  #   t: |
+  #     xxx
+
+  - key: technology.productivity_apps.takeaway.devs2025
+    t: |
+      When it comes to productivity apps, it's worth calling out **Obsidian**'s impressive showing, coming in 6th overall despite not even being part of the question's pre-defined options.
+
+      Some tools such as **Azure DevOps** and **Jira** skew towards being used at larger companies, while **Linear** and **Trello** are more popular among smaller organizations.
+
+      When looking at exclusively remote organizations,
+
+  - key: technology.chat_apps.takeaway.devs2025
+    t: |
+      I'm just as surprised as you are to discover **Google Chat** is still a thing, yet it came in 9th solely on the back of write-in answers.
+
+  - key: technology.social_media.takeaway.devs2025
+    t: |
+      Mastodon and Bluesky may be at the forefront of a new counter-cultural movement, but it turns out their users are also the kind that need to stretch every time they get up from a chair, and like to tell you about the days of dial-up and cassette tapes. 
+
+      TikTok on the other hand skews younger, which makes sense because you'd need a fresher body to even *attempt* some of those dances.
+
+  - key: technology.community_involvement.takeaway.devs2025
+    t: |
+      No surprise here, but video is the main way respondents keep up with the community. Sadly, in-person events remain fairly uncommon. 
+
+      And while RSS feeds were a popular write-in answer, the median age of these respondents does not presage well for the future of that particular technology.
+
+  - key: technology.community_contributions.takeaway.devs2025
+    t: |
+      It's nice to see that developers are finding ways to give back to the community.
+
+  - key: technology.open_source_involvement.takeaway.devs2025
+    t: |
+      While almost everybody having used open-source software is expected, seeing that close to half of all respondents have contributed code back to open-source projects is a very encouraging sign.
+
+  # health
+  - key: technology.health.gender_vs_health_issues.takeaway.devs2025
+    t: |
+      Poor sleep was the health issue most often reported by respondents, which might be related to the large role screens of all kinds play in our lives. 
+
+      Some issues such as mental health issues and migraines also affected women and non-binary respondents at a higher rate compared to the overall population.

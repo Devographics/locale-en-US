@@ -1666,12 +1666,18 @@ translations:
   # disability status
   - key: user_info.disability_status
     t: Disability Status
+    aliases:
+      - health.disability_status
   - key: user_info.disability_status.question
     t: >
       Which of the following disabilities do you experience?
+    aliases:
+      - health.disability_status.question
   - key: user_info.disability_status.prompt
     t: >
       Note that this can include temporary disabilities or injuries.
+    aliases:
+      - health.disability_status.prompt
 
   # disability status (other)
   - key: user_info.disability_status.others
