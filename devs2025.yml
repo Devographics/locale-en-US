@@ -1,6 +1,6 @@
 locale: en-US
 translations:
-  - key: technology.general.devs2025.survey_intro
+  - key: general.devs2025.survey_intro
     t: |
 
       2025 is a weird time to be a developer. AI is changing the way we work, we're dealing with mass layoffs, and there's an ongoing political vibe shift in some corners of the tech community. 
@@ -11,10 +11,10 @@ translations:
 
       As usual, every question is optional, so feel free to skip any that you don't feel comfortable answering. Also please note that the resulting dataset will be made available publicly. All that being said we certainly hope you'll see value in this survey, and we can't wait to get to know you better!
 
-  - key: technology.introduction.devs2025
+  - key: introduction.devs2025
     t: |
 
-      “These questions feel really personal”. ”This is going to be too controversial”. “You should stick to programming surveys”.
+      “These questions feel really personal”; ”This is going to be too controversial”; “You should stick to programming surveys”.
 
       This is some of the initial feedback I got when I first floated the idea of running a developer survey entirely dedicated to workplace issues, health, hobbies, and other topics unrelated to code. 
 
@@ -28,20 +28,20 @@ translations:
 
   # FAQ
 
-  - key: technology.faq.how_long_will_survey_take_devs2025
+  - key: faq.how_long_will_survey_take_devs2025
     t: How long will this survey take me?
-  - key: technology.faq.how_long_will_survey_take_devs2025.description
+  - key: faq.how_long_will_survey_take_devs2025.description
     t: >
       This survey should take about 15 minutes to complete. Note that all questions are optional.
 
-  - key: technology.faq.results_released_devs2025
+  - key: faq.results_released_devs2025
     t: When will the results be released?
-  - key: technology.faq.results_released_devs2025.description
+  - key: faq.results_released_devs2025.description
     t: The survey will run from April 15 to May 15, 2025, and the survey results will be released shortly after.
 
-  - key: technology.faq.survey_design_devs2025
+  - key: faq.survey_design_devs2025
     t: How was this survey designed?
-  - key: technology.faq.survey_design_devs2025.description
+  - key: faq.survey_design_devs2025.description
     t: >
       This survey was designed as the results of an [open design process](https://github.com/Devographics/surveys/issues/279) involving the web development community.
 
@@ -51,35 +51,37 @@ translations:
 
   # career
 
-  - key: technology.career.years_of_experience.takeaway.devs2025
+  - key: career.years_of_experience.takeaway.devs2025
     t: |
       More experience is correlated with a higher salary – up to a point. Past 30 years of experience, median income starts falling back down again.
 
-  - key: technology.career.higher_education_degree.takeaway.devs2025
+  - key: career.higher_education_degree.takeaway.devs2025
     t: |
       Having a degree will result in higher income, but interestingly enough it doesn't necessarily have to be related to programming.
 
-  - key: technology.career.how_many_jobs.takeaway.devs2025
+  - key: career.how_many_jobs.takeaway.devs2025
     t: |
       Respondents have worked for 4.2 employers on average. And while having worked for more employers is associated with a higher income, that correlation disappears when controlling for years of experience, which would indicate that there is no advantage to switching jobs more frequently.
 
-  - key: technology.career.employment_status.takeaway.devs2025
+  - key: career.employment_status.takeaway.devs2025
     t: |
-      While freelancers and independent contractors earn less than full-time employees, it was surprising to see that being an entrepreneur does not result in an income increase.
+      While freelancers and independent contractors earn less than full-time employees, it was surprising to see that becoming a founder or an entrepreneur does not result in a significant income increase.
 
-  - key: technology.career.career_issues.takeaway.devs2025
+      Company employees were also the group most likely to have seen their income grow over the past year.
+
+  - key: career.career_issues.takeaway.devs2025
     t: |
       It's clear that the top three issues reported here are all interconnected: bad management leads to work-life balance issues, which then leads to burnout. 
 
       Gender does seem to have an impact on career issues, with women and non-binary respondents experiencing every issue at a higher rate, especially when it came to mental health issues.
 
-  - key: technology.career.discrimination_issues.takeaway.devs2025
+  - key: career.discrimination_issues.takeaway.devs2025
     t: |
       While we often think of discrimination in terms of gender or race, the most common reported factor is actually age, something that eventually affects all of us. 
 
       Breaking down the data by age range reveals that age discrimination becomes especially prevalent after 50 years old.
 
-  - key: technology.career.negative_impacts.takeaway.devs2025
+  - key: career.negative_impacts.takeaway.devs2025
     t: |
       Among all respondents, non-confrontational approaches such as avoiding colleagues, changing your behavior, or even resigning are the most common coping strategies in response to workplace issues. 
 
@@ -87,7 +89,7 @@ translations:
 
       Race and ethnicity on the other hand do not seem to have a similarly clear-cut impact. In fact, slightly *fewer* non-white respondents reported having resigned or sought therapy due to workplace issues – although further research would be needed to determine if this is because they didn't feel that need; or because they did but weren't in a position to act on it.
 
-  - key: technology.career.laid_off.takeaway.devs2025
+  - key: career.laid_off.takeaway.devs2025
     t: |
       Despite talks of a tech downturn, the majority of respondents have still never been laid off.
 
@@ -95,53 +97,55 @@ translations:
 
   # workplace
 
-  - key: technology.workplace.company_size.takeaway.devs2025
+  - key: workplace.company_size.takeaway.devs2025
     t: |
       It should come as no surprise, that larger companies have the means to pay higher salaries. Not only that, but respondent income is much more likely to have increased over the past year if they worked for a big company.
 
-  - key: technology.workplace.job_title.takeaway.devs2025
+  - key: workplace.job_title.takeaway.devs2025
     t: |
       As seen in other surveys, carrying the engineer title is correlated with higher income compared to being “just” a developer.
 
       Another point worth noting: on aggregate, frontend jobs feature more gender diversity than other positions.
 
-  - key: technology.workplace.yearly_income.takeaway.devs2025
+  - key: workplace.yearly_income.takeaway.devs2025
     t: |
       The U.S. continues to offer much higher salaries compared to the rest of the world.
 
-  - key: technology.workplace.income_evolution.takeaway.devs2025
+  - key: workplace.income_evolution.takeaway.devs2025
     t: |
       Despite fears of an industry downturn, only 9% of respondents reported having seen their income decrease over the past year.
 
-  - key: technology.workplace.job_finding_application_count.takeaway.devs2025
+      Norway, Ireland, and South Africa-based respondents were the most likely to have seen their income increase.
+
+  - key: workplace.job_finding_application_count.takeaway.devs2025
     t: |
       While respondents needed a median of 4 job applications to find their current job overall, that number decreased as respondents' years of experience went up. 
 
       That being said, a slight increase was present at the higher end of the experience curve, which could be explained by age discrimination, or by out-of-date skills making the job search harder.
 
-  - key: technology.workplace.job_finding_methods.takeaway.devs2025
+  - key: workplace.job_finding_methods.takeaway.devs2025
     t: |
       Having a more personal connection to the company when applying (as opposed to going through a job board or social media) is associated with a higher income. 
 
       The one exception is being hired through open-source work, which is associated with the same income levels as more direct methods such as recruiters or referrals.
 
-  - key: technology.workplace.remote_work_policy.takeaway.devs2025
+  - key: workplace.remote_work_policy.takeaway.devs2025
     t: |
       The lack of remote work is correlated with both lower median income and lower job satisfaction.
 
-  - key: technology.workplace.work_hours_per_week.takeaway.devs2025
+  - key: workplace.work_hours_per_week.takeaway.devs2025
     t: |
       The more you work, the more you earn, at least up to a point. India is the hardest-working country with 45 median hours worked per week, while most other countries are all gathered around the 40-hour mark.
 
-  - key: technology.workplace.job_happiness.takeaway.devs2025
+  - key: workplace.job_happiness.takeaway.devs2025
     t: |
-      Developers are overall pretty happy with their job.
+      Developers are overall pretty happy with their job – provided they can endure the first 10 years, that is.
 
-  - key: technology.workplace.workplace_perks.takeaway.devs2025
+  - key: workplace.workplace_perks.takeaway.devs2025
     t: |
       Going against the stereotype of the asocial computer nerd, it turns out the thing that we value the most is actually each other, with relationships with coworkers coming in as the number one item developers enjoy about their workplace.
 
-  - key: technology.workplace.workplace_difficulties.takeaway.devs2025
+  - key: workplace.workplace_difficulties.takeaway.devs2025
     t: |
       At the end of the day, we all need to make a living, and poor compensation came in first as the top workplace issue developers are facing today.
 
@@ -173,7 +177,7 @@ translations:
 
   - key: technology.social_media.takeaway.devs2025
     t: |
-      Mastodon and Bluesky may be at the forefront of a new counter-cultural movement, but it turns out their users are also the kind that need to stretch every time they get up from a chair, and like to tell you about the days of dial-up and cassette tapes. 
+      Plotting social media apps against age reveals that Bluesky and Mastodon users probably need to stretch every time they get up from a chair, and like to reminisce about the days of dial-up and cassette tapes. 
 
       TikTok on the other hand skews younger, which makes sense because you'd need a fresher body to even *attempt* some of those dances.
 
@@ -181,15 +185,17 @@ translations:
     t: |
       No surprise here, but video is the main way respondents keep up with the community. Sadly, in-person events remain fairly uncommon. 
 
-      And while RSS feeds were a popular write-in answer, the median age of these respondents does not presage well for the future of that particular technology.
+      And while RSS feeds were a popular write-in answer, the median age of these respondents does not bode well for the future of that particular technology.
 
   - key: technology.community_contributions.takeaway.devs2025
     t: |
-      It's nice to see that developers are finding ways to give back to the community.
+      When looking at community involvement vs gender, it seems like women and non-binary respondents are less likely to engage in online spaces, but more likely to attend live events – which might point to a failure to build sufficiently inclusive online communities.
 
   - key: technology.open_source_involvement.takeaway.devs2025
     t: |
-      While almost everybody having used open-source software is expected, seeing that close to half of all respondents have contributed code back to open-source projects is a very encouraging sign.
+      While nearly half of respondents have contributed code to open-source projects, it turns out this figure hides a real gender divide, with **51%** of men having contributed code, but only **36%** of non-men respondents.
+
+      That delta is much smaller for actually *creating* an open-source project (29% vs 21%) – which could indicate that the issue is not open-source in itself, but rather feeling comfortable enough to join an existing project.
 
   # health
   - key: technology.health.gender_vs_health_issues.takeaway.devs2025
