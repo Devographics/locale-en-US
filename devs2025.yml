@@ -24,6 +24,8 @@ translations:
 
       With all this out of the way, please enjoy the results from the first ever State of Devs survey!
 
+      *Note: because of the amount of data involved, these results will be released in two parts. Please enjoy part 1 for now!*
+
       <span class="conclusion__byline">– Sacha Greif</span>
 
   # FAQ
@@ -48,6 +50,26 @@ translations:
   ###########################################################################
   # Takeaways
   ###########################################################################
+
+  # user_info
+
+  - key: user_info.gender.takeaway.devs2025
+    t: |
+      While a gender income gap is present in the data, it is most likely due to experience differences. Women have a median 8 years of professional experience vs 12 for men, and the gap disappears when looking at specific experience buckets.
+
+  - key: user_info.race_ethnicity.takeaway.devs2025
+    t: |
+      Looking at race & ethnicity data shows that non-white groups tend to skew younger, a recurring trend that is also present in other surveys.
+
+      It also highlights how different racial groups can have very different gender breakdowns.
+
+  - key: user_info.relationship_status.takeaway.devs2025
+    t: |
+      Most respondents find a life partner by the time they're in their thirties, although doing so seems much more of a challenge in some countries compared to others.
+
+  - key: user_info.number_of_kids.takeaway.devs2025
+    t: |
+      A majority of respondents do not have children, and those who do become parent tend to do so after 30.
 
   # career
 
@@ -203,3 +225,23 @@ translations:
       Poor sleep was the health issue most often reported by respondents, which might be related to the large role screens of all kinds play in our lives. 
 
       Some issues such as mental health issues and migraines also affected women and non-binary respondents at a higher rate compared to the overall population.
+
+  # other blocks
+
+  - key: tokyodev.relocation
+    t: |
+      Relocating to Japan doesn't just have to be a dream. TokyoDev's Developer’s Crash Course in Coming to Japan covers things like what it is like to work for a Japanese company, how much you can expect to make, what visas are available and how hard they are to obtain.
+
+  - key: sections.to_be_continued.title
+    t: To Be Continued…
+
+  - key: conclusion.devs2025.sacha_greif.bio
+    t: Data Mixologist @ Devographics
+
+  - key: conclusion.devs2025.sacha_greif
+    t: |
+      If I tell you we've barely explored *half* of the data collected through this survey, I think you'll understand why I had to split this report in two parts.
+
+      Still to come are sections about **health** (how many hours does the average developer sleep?), **hobbies** (what video game is the most popular?), and **worldview** (where would you relocate if you could choose to go anywhere?).
+
+      But don't worry – you won't have to wait too long to dive into the second part of this report. And if you want to make sure you don't miss it, leave your email below and we'll let you know as soon as it's out!

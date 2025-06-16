@@ -1107,8 +1107,12 @@ translations:
 
   - key: worldview.relocation
     t: Relocation
+    aliases:
+      - country.relocation
   - key: worldview.relocation.question
     t: If you had the opportunity to live in another country for a few years, where would you like to go?
+    aliases:
+      - country.relocation.question
 
   # hobbies
 
@@ -1351,6 +1355,19 @@ translations:
   - key: user_info.number_of_kids.question
     t: How many children do you have?
 
+  - key: options.number_of_kids.range_0
+    t: 0
+  - key: options.number_of_kids.range_1
+    t: 1
+  - key: options.number_of_kids.range_2
+    t: 2
+  - key: options.number_of_kids.range_3
+    t: 3
+  - key: options.number_of_kids.range_4
+    t: 4
+  - key: options.number_of_kids.range_over_5
+    t: 5 or more
+
   - key: user_info.relationship_status
     t: Relationship Status
   - key: user_info.relationship_status.question
@@ -1362,6 +1379,11 @@ translations:
     t: In a relationship
   - key: options.relationship_status.its_complicated
     t: It's complicated
+
+  - key: options.relationship_status.divorced_separated
+    t: Divorced or separated
+  - key: options.relationship_status.married
+    t: Married
 
   # FAQ
 
