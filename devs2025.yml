@@ -232,7 +232,7 @@ translations:
 
       Some issues such as mental health issues and migraines also affected women and non-binary respondents at a higher rate compared to the overall population.
 
-  # other blocks
+  # midpage sponsors blocks
 
   - key: tokyodev.relocation
     t: |
@@ -250,6 +250,14 @@ translations:
     t: |
       Want to upgrade your career? Deep-dive into JavaScript, React, Web performance, CSS, deploying websites, TypeScript, and functional programming to go from junior to senior today.
 
+  - key: storyblok.technologies
+    t: React? Vue? Astro? JS?
+
+  - key: storyblok.technologies.description
+    t: |
+      Doesn't matter, we speak JSON. Storyblok is a Headless CMS that works with all modern frameworks and platforms so you are completely free to choose the best option for your project. Get started in a matter of minutes!
+
+  # tbc
   - key: sections.to_be_continued.title
     t: To Be Continued…
 
