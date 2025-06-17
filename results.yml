@@ -2213,3 +2213,37 @@ translations:
     t: Number of Items
   - key: tools.cardinalities.description
     t: How many items in this category respondents have used.
+
+  ###########################################################################
+  # Sponsors
+  ###########################################################################
+
+  - key: sponsors.neon.description
+    t: Unleash cutting-edge AI applications with Postgres.
+
+  - key: sponsors.frontendmasters.description
+    t: Advance your skills with in-depth, modern front-end engineering courses.
+
+  - key: sponsors.polypane.description
+    t: The browser for ambitious devs. Build responsive, accessible and fast websites with ease.
+
+  - key: sponsors.nijibox.description
+    t: UX and Product Development consulting in the heart of Tokyo.
+
+  - key: sponsors.renderatl.description
+    t: The largest tech conference with a dedicated Design & CSS track.
+
+  - key: sponsors.google_chrome.description
+    t: Thanks to the Google Chrome team for supporting our work.
+
+  - key: sponsors.tokyodev.description
+    t: Find your dream developer job in Japan today.
+
+  - key: sponsors.gitnation.description
+    t: Learn the latest trends directly from early-adopters and tech authors.
+
+  - key: sponsors.algolia.description
+    t: Deploy fast and scalable AI search anywhere with Algolia's API-first design
+
+  - key: sponsors.storyblok.description
+    t: Make bigger, faster market impact with the CMS that gets out of your way.
