@@ -94,6 +94,8 @@ translations:
     t: Kenya
   - key: options.country.LTU
     t: Lithuania
+  - key: options.country.LVA
+    t: Latvia
   - key: options.country.LUX
     t: Luxembourg
   - key: options.country.MDA
@@ -158,6 +160,8 @@ translations:
     t: Uganda
   - key: options.country.UKR
     t: Ukraine
+  - key: options.country.URY
+    t: Uruguay
   - key: options.country.ARE
     t: United Arab Emirates
   - key: options.country.GBR

@@ -64,6 +64,8 @@ translations:
     t: By Degree
   - key: tabs.by_salary
     t: By Income
+  - key: tabs.by_salary_experience_fixed
+    t: vs. Income (Same Exp.)
   - key: tabs.by_gender
     t: By Gender
   - key: tabs.by_race_ethnicity

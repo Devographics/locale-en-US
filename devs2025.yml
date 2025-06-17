@@ -20,7 +20,7 @@ translations:
 
       Yet I'm glad I went ahead. This survey's 8,717 respondents are proof that it struck a chord with the developer community – and the much higher participation rate from women in particular (compared to previous surveys) shows that there was demand for something that focused on these less-discussed issues.
 
-      While you browse the data, make sure to also check out the many comments (<span class="icon-inline icon-inline-comment"/> icon) left by respondents as they took the survey, in which they share their personal stories and thoughts in much more detail.
+      While you browse the data, make sure to also check out the many comments (<span class="icon-inline icon-inline-comment">comment</span> icon) left by respondents as they took the survey, in which they share their personal stories and thoughts in much more detail.
 
       With all this out of the way, please enjoy the results from the first ever State of Devs survey!
 
@@ -53,13 +53,19 @@ translations:
 
   # user_info
 
+  - key: user_info.country.takeaway.devs2025
+    t: |
+      The median income gap among developers between the U.S. and other countries remain large, driven at least partly by high Silicon Valley salaries and cost of living.
+
   - key: user_info.gender.takeaway.devs2025
     t: |
-      While a gender income gap is present in the data, it is most likely due to experience differences. Women have a median 8 years of professional experience vs 12 for men, and the gap disappears when looking at specific experience buckets.
+      15% of women participation might feel small, but it's at least considerably higher than [other surveys](https://2024.stateofjs.com/en-US/demographics/#gender), which tend to hover around 6%. 
+
+      And while the data reveals a gender income gap, it could be due to a difference in median experience, since that gap is not present when looking at comparable experience levels.
 
   - key: user_info.race_ethnicity.takeaway.devs2025
     t: |
-      Looking at race & ethnicity data shows that non-white groups tend to skew younger, a recurring trend that is also present in other surveys.
+      Looking at race & ethnicity data shows that non-white groups tend to skew younger, a recurring trend that is also present in [other surveys](https://2024.stateofjs.com/en-US/demographics/#race_ethnicity).
 
       It also highlights how different racial groups can have very different gender breakdowns.
 
@@ -75,7 +81,7 @@ translations:
 
   - key: career.years_of_experience.takeaway.devs2025
     t: |
-      More experience is correlated with a higher salary – up to a point. Past 30 years of experience, median income starts falling back down again.
+      More experience is correlated with a higher salary – up to a point. Past 15 years of experience, the gains become relatively small.
 
   - key: career.higher_education_degree.takeaway.devs2025
     t: |
@@ -83,7 +89,7 @@ translations:
 
   - key: career.how_many_jobs.takeaway.devs2025
     t: |
-      Respondents have worked for 4.2 employers on average. And while having worked for more employers is associated with a higher income, that correlation disappears when controlling for years of experience, which would indicate that there is no advantage to switching jobs more frequently.
+      Respondents have worked for 4.2 employers on average. And while having worked for more employers is associated with a higher income, that correlation does become weaker when controlling for years of experience.
 
   - key: career.employment_status.takeaway.devs2025
     t: |
@@ -99,9 +105,9 @@ translations:
 
   - key: career.discrimination_issues.takeaway.devs2025
     t: |
-      While we often think of discrimination in terms of gender or race, the most common reported factor is actually age, something that eventually affects all of us. 
+      While we often think of discrimination in terms of gender or race, the most commonly reported factor is actually age, something that eventually affects all of us. 
 
-      Breaking down the data by age range reveals that age discrimination becomes especially prevalent after 50 years old.
+      Breaking down the top 5 causes of discrimination by age range reveals that age discrimination becomes especially prevalent after 50 years old.
 
   - key: career.negative_impacts.takeaway.devs2025
     t: |
@@ -125,7 +131,7 @@ translations:
 
   - key: workplace.job_title.takeaway.devs2025
     t: |
-      As seen in other surveys, carrying the engineer title is correlated with higher income compared to being “just” a developer.
+      As seen in [other surveys](https://2024.stateofjs.com/en-US/demographics/#job_title), carrying the engineer title is correlated with higher income compared to being “just” a developer.
 
       Another point worth noting: on aggregate, frontend jobs feature more gender diversity than other positions.
 
@@ -153,7 +159,7 @@ translations:
 
   - key: workplace.remote_work_policy.takeaway.devs2025
     t: |
-      The lack of remote work is correlated with both lower median income and lower job satisfaction.
+      The lack of remote work is correlated with both lower median income and lower job satisfaction (as expressed on a scale from 1 to 5).
 
   - key: workplace.work_hours_per_week.takeaway.devs2025
     t: |
@@ -230,7 +236,19 @@ translations:
 
   - key: tokyodev.relocation
     t: |
+      Find Work in Japan
+
+  - key: tokyodev.relocation.description
+    t: |
       Relocating to Japan doesn't just have to be a dream. TokyoDev's Developer’s Crash Course in Coming to Japan covers things like what it is like to work for a Japanese company, how much you can expect to make, what visas are available and how hard they are to obtain.
+
+  - key: frontendmasters.learning_path
+    t: |
+      Your Path to Becoming a Senior Web Developer
+
+  - key: frontendmasters.learning_path.description
+    t: |
+      Want to upgrade your career? Deep-dive into JavaScript, React, Web performance, CSS, deploying websites, TypeScript, and functional programming to go from junior to senior today.
 
   - key: sections.to_be_continued.title
     t: To Be Continued…

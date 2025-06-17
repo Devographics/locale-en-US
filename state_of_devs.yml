@@ -389,7 +389,7 @@ translations:
   - key: options.job_happiness.2
     aliasFor: options.happiness.2
   - key: options.job_happiness.3
-    aliasFor: options.happiness.4
+    aliasFor: options.happiness.3
   - key: options.job_happiness.4
     aliasFor: options.happiness.4
 
