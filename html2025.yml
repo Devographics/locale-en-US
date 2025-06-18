@@ -2,3 +2,14 @@ locale: en-US
 translations:
   - key: foo
     t: bar
+
+  - key: faq.survey_design_html2025
+    t: How was this survey designed?
+  - key: faq.survey_design_html2025.description
+    t: >
+      This survey was designed as the results of an [open design process](https://github.com/Devographics/surveys/issues/253) involving browser vendors and the web development community.
+
+  - key: faq.results_released_html2025
+    t: When will the results be released?
+  - key: faq.results_released_html2025.description
+    t: The survey will run from July 15 to August 15, 2025, and the survey results will be released around September 15, 2025.

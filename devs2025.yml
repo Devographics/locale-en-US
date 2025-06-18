@@ -61,7 +61,7 @@ translations:
     t: |
       15% of women participation might feel small, but it's at least considerably higher than [other surveys](https://2024.stateofjs.com/en-US/demographics/#gender), which tend to hover around 6%. 
 
-      And while the data reveals a gender income gap, it could be due to a difference in median experience, since that gap is not present when looking at comparable experience levels.
+      And while the data reveals a gender income gap, further research would be needed to conclude whether this is due to gender discrimination, or other correlated factors such as differences in experience levels.
 
   - key: user_info.race_ethnicity.takeaway.devs2025
     t: |
@@ -187,9 +187,9 @@ translations:
   #   t: |
   #     xxx
 
-  # - key: technology.programming_languages.takeaway.devs2025
-  #   t: |
-  #     xxx
+  - key: technology.programming_languages.takeaway.devs2025
+    t: |
+      While it might be tempting to learn Clojure, Elm, Ruby, or Scala given the income premium these languages seem to carry, it's important to also acknowledge that these language tend to be practiced by more experienced devs, which could account for the difference.
 
   - key: technology.productivity_apps.takeaway.devs2025
     t: |

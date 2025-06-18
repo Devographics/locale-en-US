@@ -1056,3 +1056,33 @@ translations:
     aliasFor: sections.accessibility.title
   - key: features.mobile_web_apps
     aliasFor: sections.mobile_web_apps.title
+
+  ###########################################################################
+  # FAQ
+  ###########################################################################
+
+  - key: faq.how_long_will_survey_take_html
+    t: How long will answering the survey take?
+  - key: faq.how_long_will_survey_take_html.description
+    t: >
+      Depending on how many questions you answer (all questions can be skipped),
+      filling out the survey should take around 10-15 minutes.
+
+  - key: faq.who_should_take_survey_html
+    t: Who should take this survey?
+  - key: faq.who_should_take_survey_html.description
+    t: >
+      This is an open survey for anybody who makes websites or web apps, whether regularly or occasionally, as part of their job, as a student, or just for fun!
+
+  - key: faq.data_used_html
+    t: How will this data be used?
+  - key: faq.data_used_html.description
+    t: >
+      All data collected will be released openly for any developer or company to consult.
+      Browser vendors also [use this data](https://web.dev/blog/interop-2024) to prioritize focus areas and inform their roadmaps.
+
+  - key: faq.survey_goals_html
+    t: What are the survey's goals?
+  - key: faq.survey_goals_html.description
+    t: >
+      The survey's goals are to measure awareness of new HTML features and browser APIs, and help developers keep track of how their usage is evolving.
