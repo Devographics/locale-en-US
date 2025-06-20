@@ -28,6 +28,10 @@ translations:
 
       <span class="conclusion__byline">– Sacha Greif</span>
 
+  - key: general.devs2025.css2025_banner
+    t: |
+      Take the State of CSS survey and test your CSS knowledge! →
+
   # FAQ
 
   - key: faq.how_long_will_survey_take_devs2025
