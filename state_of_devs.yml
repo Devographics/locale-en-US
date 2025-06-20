@@ -1416,6 +1416,8 @@ translations:
     t: vs. Income Evolution
   - key: tabs.vs_relationship_status
     t: vs. Relationship Status
+  - key: tabs.vs_number_of_kids
+    t: vs. Number of Kids
 
   # relocation countries
 
