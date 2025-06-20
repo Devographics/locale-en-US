@@ -1004,7 +1004,7 @@ translations:
   - key: opinions.browser_interoperability_is_obstacle
     t: Browser Interoperability
   - key: opinions.browser_interoperability_is_obstacle.question
-    t: The lack of browser interoperability is a major obstacle to web development
+    t: The lack of browser interoperability is currently a major obstacle to web development
 
   - key: options.browser_interoperability_is_obstacle.0
     aliasFor: options.opinions.0

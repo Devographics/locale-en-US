@@ -801,7 +801,7 @@ translations:
     t: Supplements
 
   - key: options.sleep_measures.exercise
-    t: Excercise
+    t: Exercise
   - key: options.sleep_measures.meditation_relaxation
     t: Meditation and relaxation
   - key: options.sleep_measures.sleep_environment
@@ -1384,6 +1384,10 @@ translations:
     t: Divorced or separated
   - key: options.relationship_status.married
     t: Married
+  - key: options.relationship_status.polyamorous
+    t: Polyamorous
+  - key: options.relationship_status.widowed
+    t: Widowed
 
   # FAQ
 
@@ -1404,3 +1408,186 @@ translations:
   - key: faq.data_used_devs.description
     t: >
       A detailed report based on the data collected will be published and made freely accessible. Additionally, the full dataset will also be available for free [on demand](https://discord.gg/2E7bbgnrJJ).
+
+  # tabs
+  - key: tabs.vs_sleep_quantity
+    t: vs. Sleep Quantity
+  - key: tabs.vs_income_evolution
+    t: vs. Income Evolution
+  - key: tabs.vs_relationship_status
+    t: vs. Relationship Status
+
+  # relocation countries
+
+  - key: options.relocation.AFG
+    aliasFor: options.country.AFG
+  - key: options.relocation.DZA
+    aliasFor: options.country.DZA
+  - key: options.relocation.ARG
+    aliasFor: options.country.ARG
+  - key: options.relocation.ARM
+    aliasFor: options.country.ARM
+  - key: options.relocation.AUS
+    aliasFor: options.country.AUS
+  - key: options.relocation.AUT
+    aliasFor: options.country.AUT
+  - key: options.relocation.BGD
+    aliasFor: options.country.BGD
+  - key: options.relocation.BEL
+    aliasFor: options.country.BEL
+  - key: options.relocation.BLR
+    aliasFor: options.country.BLR
+  - key: options.relocation.BIH
+    aliasFor: options.country.BIH
+  - key: options.relocation.BRA
+    aliasFor: options.country.BRA
+  - key: options.relocation.BGR
+    aliasFor: options.country.BGR
+  - key: options.relocation.CAN
+    aliasFor: options.country.CAN
+  - key: options.relocation.CRI
+    aliasFor: options.country.CRI
+  - key: options.relocation.HRV
+    aliasFor: options.country.HRV
+  - key: options.relocation.CHE
+    aliasFor: options.country.CHE
+  - key: options.relocation.CHL
+    aliasFor: options.country.CHL
+  - key: options.relocation.CHN
+    aliasFor: options.country.CHN
+  - key: options.relocation.COD
+    aliasFor: options.country.COD
+  - key: options.relocation.COL
+    aliasFor: options.country.COL
+  - key: options.relocation.CIV
+    aliasFor: options.country.CIV
+  - key: options.relocation.CYP
+    aliasFor: options.country.CYP
+  - key: options.relocation.CZE
+    aliasFor: options.country.CZE
+  - key: options.relocation.DEU
+    aliasFor: options.country.DEU
+  - key: options.relocation.GRC
+    aliasFor: options.country.GRC
+  - key: options.relocation.DNK
+    aliasFor: options.country.DNK
+  - key: options.relocation.EGY
+    aliasFor: options.country.EGY
+  - key: options.relocation.EST
+    aliasFor: options.country.EST
+  - key: options.relocation.ETH
+    aliasFor: options.country.ETH
+  - key: options.relocation.FIN
+    aliasFor: options.country.FIN
+  - key: options.relocation.FRA
+    aliasFor: options.country.FRA
+  - key: options.relocation.GEO
+    aliasFor: options.country.GEO
+  - key: options.relocation.GHA
+    aliasFor: options.country.GHA
+  - key: options.relocation.HKG
+    aliasFor: options.country.HKG
+  - key: options.relocation.HUN
+    aliasFor: options.country.HUN
+  - key: options.relocation.IND
+    aliasFor: options.country.IND
+  - key: options.relocation.IDN
+    aliasFor: options.country.IDN
+  - key: options.relocation.IRL
+    aliasFor: options.country.IRL
+  - key: options.relocation.ISL
+    aliasFor: options.country.ISL
+  - key: options.relocation.IRN
+    aliasFor: options.country.IRN
+  - key: options.relocation.IRQ
+    aliasFor: options.country.IRQ
+  - key: options.relocation.ITA
+    aliasFor: options.country.ITA
+  - key: options.relocation.ISR
+    aliasFor: options.country.ISR
+  - key: options.relocation.JPN
+    aliasFor: options.country.JPN
+  - key: options.relocation.KEN
+    aliasFor: options.country.KEN
+  - key: options.relocation.LTU
+    aliasFor: options.country.LTU
+  - key: options.relocation.LVA
+    aliasFor: options.country.LVA
+  - key: options.relocation.LUX
+    aliasFor: options.country.LUX
+  - key: options.relocation.MDA
+    aliasFor: options.country.MDA
+  - key: options.relocation.MEX
+    aliasFor: options.country.MEX
+  - key: options.relocation.MMR
+    aliasFor: options.country.MMR
+  - key: options.relocation.NPL
+    aliasFor: options.country.NPL
+  - key: options.relocation.MKD
+    aliasFor: options.country.MKD
+  - key: options.relocation.NOR
+    aliasFor: options.country.NOR
+  - key: options.relocation.NLD
+    aliasFor: options.country.NLD
+  - key: options.relocation.NGA
+    aliasFor: options.country.NGA
+  - key: options.relocation.NZL
+    aliasFor: options.country.NZL
+  - key: options.relocation.POL
+    aliasFor: options.country.POL
+  - key: options.relocation.PRT
+    aliasFor: options.country.PRT
+  - key: options.relocation.PAK
+    aliasFor: options.country.PAK
+  - key: options.relocation.PER
+    aliasFor: options.country.PER
+  - key: options.relocation.PHL
+    aliasFor: options.country.PHL
+  - key: options.relocation.ROU
+    aliasFor: options.country.ROU
+  - key: options.relocation.RUS
+    aliasFor: options.country.RUS
+  - key: options.relocation.SAU
+    aliasFor: options.country.SAU
+  - key: options.relocation.SRB
+    aliasFor: options.country.SRB
+  - key: options.relocation.SGP
+    aliasFor: options.country.SGP
+  - key: options.relocation.SVK
+    aliasFor: options.country.SVK
+  - key: options.relocation.SVN
+    aliasFor: options.country.SVN
+  - key: options.relocation.ZAF
+    aliasFor: options.country.ZAF
+  - key: options.relocation.KOR
+    aliasFor: options.country.KOR
+  - key: options.relocation.ESP
+    aliasFor: options.country.ESP
+  - key: options.relocation.SWE
+    aliasFor: options.country.SWE
+  - key: options.relocation.TWN
+    aliasFor: options.country.TWN
+  - key: options.relocation.TZA
+    aliasFor: options.country.TZA
+  - key: options.relocation.THA
+    aliasFor: options.country.THA
+  - key: options.relocation.TUR
+    aliasFor: options.country.TUR
+  - key: options.relocation.UGA
+    aliasFor: options.country.UGA
+  - key: options.relocation.UKR
+    aliasFor: options.country.UKR
+  - key: options.relocation.URY
+    aliasFor: options.country.URY
+  - key: options.relocation.ARE
+    aliasFor: options.country.ARE
+  - key: options.relocation.GBR
+    aliasFor: options.country.GBR
+  - key: options.relocation.SCT
+    aliasFor: options.country.SCT
+  - key: options.relocation.USA
+    aliasFor: options.country.USA
+  - key: options.relocation.VEN
+    aliasFor: options.country.VEN
+  - key: options.relocation.VNM
+    aliasFor: options.country.VNM

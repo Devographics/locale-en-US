@@ -3,6 +3,14 @@ translations:
   - key: foo
     t: bar
 
+  # - key: general.html2025.survey_intro
+  #   t: |
+  #     This might be the State of HTML, but this survey actually goes far beyond just HTML to encompass all areas of the web platform as a whole – and there is *a lot* to cover!
+
+  #     So as you might expect, designing a survey like this one always involves tough choices. This year, we decided to focus on new and upcoming features to help you stay up to date; as well as areas that browser vendors are most interested in.
+
+  #     This means that your answers might end up having a direct impact on the roadmap of the browser you're using right now. Which is why I'm so excited to open this third edition of the State of HTML survey!
+
   - key: faq.survey_design_html2025
     t: How was this survey designed?
   - key: faq.survey_design_html2025.description

@@ -53,6 +53,9 @@ translations:
 
   # user_info
 
+  - key: sections.user_info.description.devs2025
+    t: 8,717 developers took aprt in the first ever State of Devs survey.
+
   - key: user_info.country.takeaway.devs2025
     t: |
       The median income gap among developers between the U.S. and other countries remain large, driven at least partly by high Silicon Valley salaries and cost of living.
@@ -73,11 +76,16 @@ translations:
     t: |
       Most respondents find a life partner by the time they're in their thirties, although doing so seems much more of a challenge in some countries compared to others.
 
+      And when looking at gender, non-binary respondents are single at a much higher rate than either men or women.
+
   - key: user_info.number_of_kids.takeaway.devs2025
     t: |
       A majority of respondents do not have children, and those who do become parent tend to do so after 30.
 
   # career
+
+  - key: sections.career.description.devs2025
+    t: Your career and work experience up to now.
 
   - key: career.years_of_experience.takeaway.devs2025
     t: |
@@ -124,6 +132,9 @@ translations:
       When ranking by country seeing the most layoffs, the U.S. with its employer-friendly labor laws tops the ranking; while countries such as France and Japan appear towards the bottom of the list.
 
   # workplace
+
+  - key: sections.workplace.description.devs2025
+    t: Your current workplace.
 
   - key: workplace.company_size.takeaway.devs2025
     t: |
@@ -179,6 +190,9 @@ translations:
 
   # technology
 
+  - key: sections.workplace.description.devs2025
+    t: The apps, languages, and platforms you use.
+
   # - key: technology.mobile_os.takeaway.devs2025
   #   t: |
   #     xxx
@@ -226,11 +240,120 @@ translations:
       That delta is much smaller for actually *creating* an open-source project (29% vs 21%) – which could indicate that the issue is not open-source in itself, but rather feeling comfortable enough to join an existing project.
 
   # health
-  - key: technology.health.gender_vs_health_issues.takeaway.devs2025
+
+  - key: sections.health.description.devs2025
+    t: Health & fitness.
+
+  - key: health.age.takeaway.devs2025
+    t: |
+      Women and non-binary respondents tend to skew a little younger than men, when looking at median age by gender.
+
+  - key: health.disability_status.takeaway.devs2025
+    t: |
+      Looking at disabilities by age shows that while mental health and neurodivergent conditions are the most common issues, hearing loss becomes a problem once you hit 60.
+
+  - key: health.health_issues.takeaway.devs2025
     t: |
       Poor sleep was the health issue most often reported by respondents, which might be related to the large role screens of all kinds play in our lives. 
 
-      Some issues such as mental health issues and migraines also affected women and non-binary respondents at a higher rate compared to the overall population.
+      Some issues such as mental health issues and migraines also affected women and non-binary respondents at a higher rate compared to the overall population when looking at the top 6 health issues for each gender.
+
+  - key: health.sleep_quantity.takeaway.devs2025
+    t: |
+      As one might expect, having kids has a big impact on the number of sleep hours per night. Even though the median remains constant at 7, the answer distribution is shifted down towards 6 for respondents with one or more children. 
+
+      Age also has an impact, with older respondents tending to sleep less.
+
+  - key: health.sleep_measures.takeaway.devs2025
+    t: |
+      While respondents are trying a range of strategies to improve their sleep (consistent with “poor sleep” being reported as the number one overall health issue), these strategies do not seem to affect median hours of sleep per night. 
+
+      With sleep quantity being such a hard metric to nudge, it might be more effective to focus on sleep *quality* instead – although this is of course much trickier to measure accurately.
+
+  # worldview
+
+  - key: sections.worldview.description.devs2025
+    t: Worldview, politics, and current events.
+
+  - key: worldview.global_issues.takeaway.devs2025
+    t: |
+      **Climate change** is a big problem for the entire planet, but U.S.-based respondents also highlighted **rising authoritarianism**, while Ukraine-neighboring Poland is understandably worried about **geopolitical tensions**.
+
+      And while you might assume younger generations are more progressive, it's striking to see that this is not necessarily the case here, at least not regarding a few keys issue. 
+
+      Under-20 respondents were the most likely to state that **lack of free speech** and **erosion of traditional values** were major issues, while being the *least* likely to state that **rising intolerance** was one – all of which tends to align with modern conservative political viewpoints.
+
+      Older demographics also tended to be more concerned about **rising authoritarianism**, with over-40 age groups placing it as their top concern overall.
+
+  - key: worldview.happiness_factors.takeaway.devs2025
+    t: |
+      **Good health** may be the most important happiness factor globally, but India and Russia stand out for also valuing **career progress** quite highly.
+
+      When looking at demographic factors, non-binary respondents placed **hobbies** first and **family** much lower than men and women; and plotting happiness factors against age reveals that as respondents age, **friendships** and **hobbies** are often replaced with **family**.
+
+  - key: worldview.relocation.takeaway.devs2025
+    t: |
+      **Japan** tops the overall rankings of places developers would most like to relocate to, although breaking things down by respondent country reveals that respondents also tend to favor geographically close destinations or countries that share their language.
+
+  - key: worldview.overall_happiness.takeaway.devs2025
+    t: |
+      Respondents are overall relatively happy, but median happiness drops when respondents don't get enough (or get *too much*) sleep. 
+
+      And while absolute income does not seem to impact happiness, seeing an income *decrease* certainly does; and so does not being in a relatiomship.
+
+    aliases:
+      - happiness.overall_happiness.takeaway.devs2025
+
+  # hobbies
+
+  - key: sections.worldview.description.devs2025
+    t: Your other passions.
+
+  - key: hobbies.hobbies.takeaway.devs2025
+    t: |
+      It's no surprise that **video games** dominates the rankings in a developer survey – and a few respondents even wrote in **programming** as their favorite hobby.
+
+      Older respondents were more likely to pick **Movies/TV** over video games, and among the over-60 crowd **reading** actually came first.
+
+      The data also reveals that hobbies still follow gender lines: compared to men, women were much more likely to cite **arts and crafts**, and less likely to mention **video games**.
+
+  - key: hobbies.physical_activity.takeaway.devs2025
+    t: |
+      **Hiking/walking** and **strength training** are popular all around, but when looking at physical activites vs. gender **yoga** stands out as something women are much more likely to practice than men.
+
+  - key: hobbies.favorite_musical_artists.takeaway.devs2025
+    t: |
+      Who expected **Linkin Park** to be still kicking in 2025? 
+
+      Plotting artists by median age of respondents gives us a hint at what to listen to if we want to be blend in with our fellow kids (**Charli XCX**, **Twenty One Pilots**) and what to avoid at all cost (**Pink Floyd**).
+
+      There are also gender differences, with women and non-binary respondents preferring artists such as **Chappell Roan** and **Taylor Swift**.
+
+  - key: hobbies.favorite_movies.takeaway.devs2025
+    t: |
+      **Dune** leads the rankings here, a testament to the movie's status as a cinematic masterpiece.
+
+      Looking at gender-based lists, **Wicked** stands out as the number one among women and non-binary respondents.
+
+  - key: hobbies.favorite_tv.takeaway.devs2025
+    t: |
+      **Severance** will go down as a high point of TV storytelling, and its themes of work/life balance and workplace alienation clearly resonated with survey respondents.
+
+      Animation and especially Japanese shows such as **Frieren** and **Solo Leveling** are popular with younger respondents, but so are older sitcom classics such as **Friends** and **The Office**.
+
+      When looking at gender, the lists are fairly similar except for ninth place, featuring polar opposites **Reacher** and **The Handmaid's Tale**.
+
+  - key: hobbies.favorite_video_games.takeaway.devs2025
+    t: |
+      **Baldur's Gate 3** is known for featuring ridiculous amounts of content, and this is reflected by the fact that it ranked first here despite coming out in 2023.
+
+      It also turns out that **Stardew Valley** is a hit among women and non-binary respondents, coming in second despite not placing in the top 20 among men.
+
+  - key: hobbies.video_game_platforms.takeaway.devs2025
+    t: |
+      Despite macOS being [more prevalent](/en-US/technology/#desktop_os) among respondents as a main desktop option, **Windows** is still the dominant platform when it comes to gaming.
+
+      The younger generations are the ones most likely to play on PC, while older respondents tend to prefer the ease of use of consoles.
 
   # midpage sponsors blocks
 
