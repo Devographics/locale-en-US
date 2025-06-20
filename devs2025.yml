@@ -58,7 +58,7 @@ translations:
   # user_info
 
   - key: sections.user_info.description.devs2025
-    t: 8,717 developers took aprt in the first ever State of Devs survey.
+    t: 8,717 developers took part in the first ever State of Devs survey.
 
   - key: user_info.country.takeaway.devs2025
     t: |
