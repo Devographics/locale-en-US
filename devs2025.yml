@@ -256,6 +256,8 @@ translations:
     t: |
       Looking at disabilities by age shows that while mental health and neurodivergent conditions are the most common issues, hearing loss becomes more prevalent once you hit 60.
 
+      Some disabilities such as visual impairments are also more common among men, while mental health issues and chronic illnesses are over-represented among women.
+
   - key: health.health_issues.takeaway.devs2025
     t: |
       Poor sleep was the most commonly reported health issue among respondents, possibly linked to the large role screens of all kinds play in our lives.
@@ -264,9 +266,9 @@ translations:
 
   - key: health.sleep_quantity.takeaway.devs2025
     t: |
-      As one might expect, having kids significantly affects nightly sleep duration. Although the median remains at 7 hours, the distribution shifts down toward 6 for respondents with one or more children.
+      As expected, having kids does affect average sleep duration – although not as much as one might think.
 
-      Age also plays a role, with older respondents tending to sleep less.
+      Age also plays a role, with older respondents tending to sleep slightly less.
 
   - key: health.sleep_measures.takeaway.devs2025
     t: |
@@ -283,15 +285,17 @@ translations:
     t: |
       **Climate change** is a big problem for the entire planet, but U.S.-based respondents also highlighted **rising authoritarianism**, while Ukraine-neighboring Poland is understandably worried about **geopolitical tensions**.
 
-      And while you might assume younger generations are more progressive, it's striking to see that this is not necessarily the case here, at least not regarding a few keys issue. 
+      And while you might assume younger generations are more progressive, it's striking to see that this is not necessarily the case here, at least not regarding a few key issues. 
 
-      Under-20 respondents were the most likely to state that **lack of free speech** and **erosion of traditional values** were major issues, while being the *least* likely to state that **rising intolerance** was one – all of which tends to align with modern conservative political viewpoints.
+      Under-20 respondents are the most likely to state that **lack of free speech** and **erosion of traditional values** are major issues, while being the *least* likely to state that **rising intolerance** was one – all of which tends to align with modern conservative political viewpoints.
 
-      Older demographics also tended to be more concerned about **rising authoritarianism**, with over-40 age groups placing it as their top concern overall.
+      Older demographics also tend to be more concerned about **rising authoritarianism**, with over-40 age groups placing it as their top concern overall.
+
+      Finally, women are over-represented among respondents citing **healthcare access** as one of their top priorities, which again echoes ongoing political concerns especially in the U.S.
 
   - key: worldview.happiness_factors.takeaway.devs2025
     t: |
-      **Good health** may be the most important happiness factor globally, but India and Russia stand out for also valuing **career progress** quite highly.
+      **Good health** may be the most important happiness factor globally, but India and Russia stand out for also valuing **career progress** quite highly, as well as **wealth and material possessions** in the case of Russia.
 
       When looking at demographic factors, non-binary respondents placed **hobbies** first and **family** much lower than men and women; and plotting happiness factors against age reveals that as respondents age, **friendships** and **hobbies** are often replaced with **family**.
 

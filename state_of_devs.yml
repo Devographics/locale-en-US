@@ -359,6 +359,17 @@ translations:
   - key: options.remote_work_policy.na.description
     t: Solo worker
 
+  - key: options.remote_work_policy.depends_on_role
+    t: Depends on role
+  - key: options.remote_work_policy.mostly_remote
+    t: Mostly remote
+  - key: options.remote_work_policy.hybrid_remote_work
+    t: Hybrid
+  - key: options.remote_work_policy.freelance_self_employed
+    t: Freelancer/self-employed
+  - key: options.remote_work_policy.remote_based_on_distance
+    t: Based on distance from company
+
   - key: workplace.work_hours_per_week
     t: Work Hours
   - key: workplace.work_hours_per_week.question
