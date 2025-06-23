@@ -62,7 +62,7 @@ translations:
 
   - key: user_info.country.takeaway.devs2025
     t: |
-      The median income gap among developers between the U.S. and other countries remain large, driven at least partly by high Silicon Valley salaries and cost of living.
+      The median income gap among developers between the U.S. and other countries remains large, driven at least partly by high Silicon Valley salaries and cost of living.
 
   - key: user_info.gender.takeaway.devs2025
     t: |
@@ -84,7 +84,7 @@ translations:
 
   - key: user_info.number_of_kids.takeaway.devs2025
     t: |
-      A majority of respondents do not have children, and those who do become parent tend to do so after 30.
+      A majority of respondents do not have children, and those who do become parents tend to do so after 30.
 
   # career
 
@@ -142,7 +142,7 @@ translations:
 
   - key: workplace.company_size.takeaway.devs2025
     t: |
-      It should come as no surprise, that larger companies have the means to pay higher salaries. Not only that, but respondent income is much more likely to have increased over the past year if they worked for a big company.
+      It should come as no surprise that larger companies have the means to pay higher salaries. Not only that, but respondent income is much more likely to have increased over the past year if they worked for a big company.
 
   - key: workplace.job_title.takeaway.devs2025
     t: |
@@ -158,7 +158,7 @@ translations:
     t: |
       Despite fears of an industry downturn, only 9% of respondents reported having seen their income decrease over the past year.
 
-      Norway, Ireland, and South Africa-based respondents were the most likely to have seen their income increase.
+      Norway, Ireland, and South-Africa-based respondents were the most likely to have seen their income increase.
 
   - key: workplace.job_finding_application_count.takeaway.devs2025
     t: |
@@ -186,7 +186,7 @@ translations:
 
   - key: workplace.workplace_perks.takeaway.devs2025
     t: |
-      Going against the stereotype of the asocial computer nerd, it turns out the thing that we value the most is actually each other, with relationships with coworkers coming in as the number one item developers enjoy about their workplace.
+      Going against the stereotype of the asocial computer nerd, it turns out the thing that we value the most is actually each other; with relationships with coworkers coming in as the number one item developers enjoy about their workplace.
 
   - key: workplace.workplace_difficulties.takeaway.devs2025
     t: |
@@ -207,7 +207,7 @@ translations:
 
   - key: technology.programming_languages.takeaway.devs2025
     t: |
-      While it might be tempting to learn Clojure, Elm, Ruby, or Scala given the income premium these languages seem to carry, it's important to also acknowledge that these language tend to be practiced by more experienced devs, which could account for the difference.
+      While it might be tempting to learn Clojure, Elm, Ruby, or Scala given the income premium these languages seem to carry, it's important to also acknowledge that these languages tend to be practiced by more experienced devs, which could account for the difference.
 
   - key: technology.productivity_apps.takeaway.devs2025
     t: |
@@ -223,7 +223,7 @@ translations:
 
   - key: technology.social_media.takeaway.devs2025
     t: |
-      Plotting social media apps against age reveals that Bluesky and Mastodon users probably need to stretch every time they get up from a chair, and like to reminisce about the days of dial-up and cassette tapes. 
+      Plotting social media apps against age reveals that Bluesky and Mastodon users probably need to stretch every time they get up from a chair – or may like to reminisce about the days of dial-up and cassette tapes. 
 
       TikTok on the other hand skews younger, which makes sense because you'd need a fresher body to even *attempt* some of those dances.
 
@@ -250,29 +250,29 @@ translations:
 
   - key: health.age.takeaway.devs2025
     t: |
-      Women and non-binary respondents tend to skew a little younger than men, when looking at median age by gender.
+      Women and non-binary respondents tend to skew a little younger than men when looking at median age by gender.
 
   - key: health.disability_status.takeaway.devs2025
     t: |
-      Looking at disabilities by age shows that while mental health and neurodivergent conditions are the most common issues, hearing loss becomes a problem once you hit 60.
+      Looking at disabilities by age shows that while mental health and neurodivergent conditions are the most common issues, hearing loss becomes more prevalent once you hit 60.
 
   - key: health.health_issues.takeaway.devs2025
     t: |
-      Poor sleep was the health issue most often reported by respondents, which might be related to the large role screens of all kinds play in our lives. 
+      Poor sleep was the most commonly reported health issue among respondents, possibly linked to the large role screens of all kinds play in our lives.
 
-      Some issues such as mental health issues and migraines also affected women and non-binary respondents at a higher rate compared to the overall population when looking at the top 6 health issues for each gender.
+      Some issues—such as mental health conditions and migraines—also affected women and non-binary respondents at higher rates than the overall population when examining the top six health issues by gender.
 
   - key: health.sleep_quantity.takeaway.devs2025
     t: |
-      As one might expect, having kids has a big impact on the number of sleep hours per night. Even though the median remains constant at 7, the answer distribution is shifted down towards 6 for respondents with one or more children. 
+      As one might expect, having kids significantly affects nightly sleep duration. Although the median remains at 7 hours, the distribution shifts down toward 6 for respondents with one or more children.
 
-      Age also has an impact, with older respondents tending to sleep less.
+      Age also plays a role, with older respondents tending to sleep less.
 
   - key: health.sleep_measures.takeaway.devs2025
     t: |
-      While respondents are trying a range of strategies to improve their sleep (consistent with “poor sleep” being reported as the number one overall health issue), these strategies do not seem to affect median hours of sleep per night. 
+      Respondents are trying a range of strategies to improve their sleep (consistent with “poor sleep” being the most commonly reported health issue) but these efforts don’t appear to influence median nightly sleep duration.
 
-      With sleep quantity being such a hard metric to nudge, it might be more effective to focus on sleep *quality* instead – although this is of course much trickier to measure accurately.
+      With sleep quantity being such a hard metric to nudge, it might be more effective to focus on sleep *quality* instead – although this is of course much harder to measure accurately.
 
   # worldview
 
@@ -393,8 +393,40 @@ translations:
 
   - key: conclusion.devs2025.sacha_greif
     t: |
-      If I tell you we've barely explored *half* of the data collected through this survey, I think you'll understand why I had to split this report in two parts.
+      If I told you we've barely explored *half* of the data collected through this survey, I think you'll understand why I had to split this report into two parts.
 
-      Still to come are sections about **health** (how many hours does the average developer sleep?), **hobbies** (what video game is the most popular?), and **worldview** (where would you relocate if you could choose to go anywhere?).
+      Still to come are sections on **health** (how many hours does the average developer sleep?), **hobbies** (what video game is the most popular?), and **worldview** (where would you relocate if you could choose to go anywhere?).
 
-      But don't worry – you won't have to wait too long to dive into the second part of this report. And if you want to make sure you don't miss it, leave your email below and we'll let you know as soon as it's out!
+      But don't worry – you won't have to wait long to dive into the second part of this report. And if you want to make sure you don't miss it, leave your email below and we'll let you know as soon as it's out!
+
+  ###########################################################################
+  # FAQ/About
+  ###########################################################################
+
+  - key: about.content
+    t: |
+      The 2025 State of Devs survey ran from April 15 to May 15 2025, and collected 8,717 responses. The results were published on June 20, 2025. The survey is run by [Devographics](https://devographics.com/).
+
+      ### Survey Goals
+
+      This survey was created in an effort to learn more about the non-technical aspects of life as a developer. 
+
+      ### Survey Design
+
+      The survey was designed in collaboration with the community, with an open feedback period where the survey outline was discussed [on GitHub](https://github.com/Devographics/surveys/issues/279). 
+
+      All survey questions were optional. 
+
+      ### Survey Audience
+
+      The survey was openly accessible online and respondents were not filtered or selected in any way. Respondents were primarily a mix of respondents from past Devographics surveys such as [State of JS](https://stateofjs.com/), [State of CSS](https://stateofcss.com/), etc. (alerted through a dedicated mailing list) and social media traffic. 
+
+      This survey should also be taken as a **snapshot of a specific subset of developers**, and is not meant to speak for the entire ecosystem. 
+
+      ### Project Funding
+
+      Funding from this project comes from our partners, which are listed on the survey's homepage. 
+
+      ### Technical Overview
+
+      You can find an in-depth technical overview on how the surveys are run [here](https://dev.to/sachagreif/how-the-devographics-surveys-are-run-2023-edition-1p6a).

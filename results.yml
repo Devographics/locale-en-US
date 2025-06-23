@@ -2079,8 +2079,10 @@ translations:
 
   - key: charts.vs
     t: vs.
-  - key: charts.median
+  - key: charts.facet_median
     t: (median)
+  - key: charts.facet_average
+    t: (average)
 
   - key: charts.custom_variant
     t: Variant {index}
