@@ -84,7 +84,9 @@ translations:
 
   - key: user_info.number_of_kids.takeaway.devs2025
     t: |
-      A majority of respondents do not have children, and those who do become parents tend to do so after 30.
+      A majority of respondents do not have children, and those who do become parents tend to do relatively late in life. 
+
+      Women and non-binary respondents also had fewer kids on average compared to men.
 
   # career
 
