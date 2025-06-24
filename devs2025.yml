@@ -243,8 +243,6 @@ translations:
     t: |
       While nearly half of respondents have contributed code to open-source projects, it turns out this figure hides a real gender divide, with **51%** of men having contributed code, but only **36%** of non-men respondents.
 
-      That delta is much smaller for actually *creating* an open-source project (29% vs 21%) – which could indicate that the issue is not open-source in itself, but rather feeling comfortable enough to join an existing project.
-
   # health
 
   - key: sections.health.description.devs2025
