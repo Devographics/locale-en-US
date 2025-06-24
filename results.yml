@@ -1055,6 +1055,9 @@ translations:
   - key: charts.nth_percentile_value
     t: "{percentile}th percentile: {value}"
 
+  - key: charts.average_value
+    t: "Average: {value}"
+
   - key: charts.freeform_data_indicator
     t: (freeform answers)
   - key: charts.insufficient_data
@@ -2146,6 +2149,10 @@ translations:
   - key: charts.filtered_by_value
     t: >
       Filtered by “{value}”
+
+  - key: charts.toggle_view
+    t: >
+      Show:
 
   ###########################################################################
   # Multi Items Experience Chart
