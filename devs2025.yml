@@ -196,7 +196,7 @@ translations:
 
   # technology
 
-  - key: sections.workplace.description.devs2025
+  - key: sections.technology.description.devs2025
     t: The apps, languages, and platforms you use.
 
   # - key: technology.mobile_os.takeaway.devs2025
@@ -370,6 +370,44 @@ translations:
       While a majority of respondents came from our existing audience and mailing list, **Josh Comeau** mentioning the survey in his newsletter was also a big boost. 
 
       When looking at the gender breakdown for each source, [snowball sampling](https://github.com/Devographics/surveys/issues/258) proved quite effective at driving more women to participate in the survey, as was sponsoring creators such as [Cassidy Williams](https://cassidoo.co/), who featured the survey in her weekly newsletter.
+
+  # figures
+
+  - key: figure.figure_gender.devs2025
+    t: Percentage of women and non-binary respondents among those who specified their gender.
+
+  - key: figure.figure_career_issues_discrimination.devs2025
+    t: Difference in the percentage of men vs. women/non-binary respondents who reported experiencing discrimination throughout their career.
+
+  - key: figure.figure_discrimination_therapy.devs2025
+    t: Difference in the percentage of men vs. women/non-binary respondents who reported having sought therapy due to workplace issues.
+
+  - key: figure.figure_company_size_income_evolution.devs2025
+    t: Percentage of respondents working for large (1000+ employees) companies who saw their income increase over the past year.
+
+  - key: figure.figure_job_title_income.devs2025
+    t: Average salary difference between job titles containing 'engineer' and those containing 'developer'.
+
+  - key: figure.figure_yearly_salary_usa_world.devs2025
+    t: Difference between U.S. salary average and the rest of the world.
+
+  - key: figure.figure_job_finding_application_count.devs2025
+    t: Median number of job applications need by respondents to find their current job.
+
+  - key: figure.figure_remote_work_policy_happiness.devs2025
+    t: Difference in respondent's average job happiness (on a 5-point scale) between companies that allow remote work and those that don't.
+
+  - key: figure.figure_community_involvement.devs2025
+    t: Median age of RSS feed users (vs. 35 overall for survey respondents).
+
+  - key: figure.xxx.devs2025
+    t:
+
+  - key: figure.xxx.devs2025
+    t:
+
+  - key: figure.xxx.devs2025
+    t:
 
   # midpage sponsors blocks
 

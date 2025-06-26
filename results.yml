@@ -73,7 +73,7 @@ translations:
   - key: tabs.low_vs_high_income
     t: Low vs High Income
   - key: tabs.usa_vs_the_world
-    t: U.S.A. vs World
+    t: U.S. vs World
   - key: tabs.spanish
     t: Spanish-Language
   - key: tabs.outreach
@@ -84,6 +84,10 @@ translations:
     t: White vs Non-White
   - key: tabs.by_age
     t: By Age
+  - key: tabs.by_remote_work_policy
+    t: By Remote Work
+  - key: tabs.vs_job_happiness
+    t: vs. Job Happiness
 
   ###########################################################################
   # Options
