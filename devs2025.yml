@@ -115,7 +115,7 @@ translations:
     t: |
       It's clear that the top three issues reported here are all interconnected: bad management leads to work-life balance issues, which then leads to burnout. 
 
-      Gender does seem to have an impact on career issues, with women and non-binary respondents experiencing every issue at a higher rate, especially when it came to mental health issues.
+      Gender does seem to have an impact on career issues, with women and non-binary respondents experiencing every issue at a higher rate, especially when it comes to **discrimination** (35%) and **mental health issues** (62%).
 
   - key: career.discrimination_issues.takeaway.devs2025
     t: |
@@ -362,6 +362,14 @@ translations:
       Despite macOS being [more prevalent](/en-US/technology/#desktop_os) among respondents as a main desktop option, **Windows** is still the dominant platform when it comes to gaming.
 
       The younger generations are the ones most likely to play on PC, while older respondents tend to prefer the ease of use of consoles.
+
+  # metadata
+
+  - key: _user.metadata.source.takeaway.devs2025
+    t: |
+      While a majority of respondents came from our existing audience and mailing list, **Josh Comeau** mentioning the survey in his newsletter was also a big boost. 
+
+      When looking at the gender breakdown for each source, [snowball sampling](https://github.com/Devographics/surveys/issues/258) proved quite effective at driving more women to participate in the survey, as was sponsoring creators such as [Cassidy Williams](https://cassidoo.co/), who featured the survey in her weekly newsletter.
 
   # midpage sponsors blocks
 
