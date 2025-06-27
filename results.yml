@@ -88,6 +88,8 @@ translations:
     t: By Remote Work
   - key: tabs.vs_job_happiness
     t: vs. Job Happiness
+  - key: tabs.developers_engineers
+    t: Developers vs Engineers
 
   ###########################################################################
   # Options
@@ -325,10 +327,12 @@ translations:
     t: Language
     aliases:
       - user_metadata.locale
+      - _user_metadata.locale
   - key: user_info.locale.description
     t: The language respondents selected to fill out the survey.
     aliases:
       - user_metadata.locale.description
+      - _user_metadata.locale.description
 
   - key: user_info.source
     t: Source
@@ -406,15 +410,61 @@ translations:
 
   - key: user_metadata.past_surveys
     t: Previous Surveys
+    aliases:
+      - _user_metadata.past_surveys
   - key: user_metadata.past_surveys.description
     t: Previous Devographics surveys taken by respondents.
+    aliases:
+      - _user_metadata.past_surveys.description
   # - key: user_metadata.past_surveys.note
   #   t: Please note that this data does not include respondents taking the survey as guests.
 
+  - key: user_metadata.past_editions
+    t: Previous Editions
+    aliases:
+      - _user_metadata.past_editions
+  - key: user_metadata.past_editions.description
+    t: Previous editions of this survey taken by respondents.
+    aliases:
+      - _user_metadata.past_editions.description
+
+  - key: user_metadata.past_editions
+    t: Previous Editions
+    aliases:
+      - _user_metadata.past_editions
+  - key: user_metadata.past_editions.description
+    t: Previous editions of this survey taken by respondents.
+    aliases:
+      - _user_metadata.past_editions.description
+
+  # completion
+  - key: user_info.completion_stats
+    t: Survey Completion
+    aliases:
+      - _user_metadata.completion_stats
+  - key: user_info.completion_stats.description
+    t: The proportion of the survey filled out by respondents.
+    aliases:
+      - _user_metadata.completion_stats.description
+
+  # skipped
+  - key: user_info.skipped
+    t: Skipped Questions
+    aliases:
+      - _user_metadata.skipped
+  - key: user_info.skipped.description
+    t: Which questions were the most frequently skipped.
+    aliases:
+      - _user_metadata.skipped.description
+
   - key: user_metadata.past_same_survey_count
     t: Participation Count
+    aliases:
+      - _user_metadata.past_same_survey_count
   - key: user_metadata.past_same_survey_count.description
     t: How many times respondents have taken part in previous editions of this survey.
+    aliases:
+      - _user_metadata.past_same_survey_count.description
   # - key: user_metadata.past_same_survey_count.note
   #   aliasFor: user_metadata.past_surveys.note
 
@@ -429,8 +479,12 @@ translations:
 
   - key: user_metadata.authmode
     t: Authentication
+    aliases:
+      - _user_metadata.authmode
   - key: user_metadata.authmode.description
     t: Whether respondents signed in or filled out the survey as guests.
+    aliases:
+      - _user_metadata.authmode.description
 
   - key: options.authmode.anonymous
     t: Guest Account
@@ -439,23 +493,39 @@ translations:
 
   - key: user_metadata.device
     t: Device
+    aliases:
+      - _user_metadata.device
   - key: user_metadata.device.description
     t: What device was used to take the survey.
+    aliases:
+      - _user_metadata.device.description
 
   - key: user_metadata.browser
     t: Browser
+    aliases:
+      - _user_metadata.browser
   - key: user_metadata.browser.description
     t: What browser was used to take the survey.
+    aliases:
+      - _user_metadata.browser.description
 
   - key: user_metadata.version
     t: Browser Version
+    aliases:
+      - _user_metadata.version
   - key: user_metadata.version.description
     t: What browser version was used to take the survey.
+    aliases:
+      - _user_metadata.version.description
 
   - key: user_metadata.os
     t: OS
+    aliases:
+      - _user_metadata.os
   - key: user_metadata.os.description
     t: What OS version was used to take the survey.
+    aliases:
+      - _user_metadata.os.description
 
   # job_info
 
