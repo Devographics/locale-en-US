@@ -1045,7 +1045,9 @@ translations:
   - key: charts.facet_respondents
     t: "({count} respondents)"
   - key: charts.facet_detail
-    t: "({count} responses out of {totalRespondents} respondents)"
+    t: "({count} out of {totalRespondents} respondents)"
+  - key: charts.facet_detail_answers
+    t: "({count} out of {totalAnswers} answers)"
 
   - key: charts.average.used
     t: “Used” average
@@ -2107,6 +2109,9 @@ translations:
   - key: charts.metadata.respondents
     t: >
       **{value}** question respondents
+  - key: charts.metadata.answers
+    t: >
+      **{value}** question answers
   - key: charts.metadata.average
     t: >
       **{value}** mean (average) value

@@ -315,7 +315,7 @@ translations:
   # hobbies
 
   - key: sections.worldview.description.devs2025
-    t: Your other passions.
+    t: Worldview, politics, and current events.
 
   - key: hobbies.hobbies.takeaway.devs2025
     t: |
@@ -400,8 +400,20 @@ translations:
   - key: figure.figure_community_involvement.devs2025
     t: Median age of RSS feed users (vs. 35 overall for survey respondents).
 
-  - key: figure.xxx.devs2025
-    t:
+  - key: figure.figure_open_source_involvement.devs2025
+    t: Difference in the percentage of men vs. women/non-binary respondents who contribute open-source code.
+
+  - key: figure.figure_sleep_quantity.devs2025
+    t: Average number of hours respondents sleep per night.
+
+  - key: figure.figure_global_issues.devs2025
+    t: Percentage of U.S. respondents who cited rising authoritarianism as a concern.
+
+  - key: figure.figure_relocation_japan.devs2025
+    t: Number of respondents who cited Japan as a potential relocation destination.
+
+  - key: figure.figure_favorite_musical_artists_pink_floyd.devs2025
+    t: Median age of Pink Floyd listeners among respondents.
 
   - key: figure.xxx.devs2025
     t:
