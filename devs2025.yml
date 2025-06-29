@@ -448,7 +448,10 @@ translations:
     t: |
       Doesn't matter, we speak JSON. Storyblok is a Headless CMS that works with all modern frameworks and platforms so you are completely free to choose the best option for your project. Get started in a matter of minutes!
 
-  # tbc
+  ###########################################################################
+  # Conclusion
+  ###########################################################################
+
   - key: sections.to_be_continued.title
     t: To Be Continued…
 
@@ -462,6 +465,38 @@ translations:
       Still to come are sections on **health** (how many hours does the average developer sleep?), **hobbies** (what video game is the most popular?), and **worldview** (where would you relocate if you could choose to go anywhere?).
 
       But don't worry – you won't have to wait long to dive into the second part of this report. And if you want to make sure you don't miss it, leave your email below and we'll let you know as soon as it's out!
+
+  - key: conclusion.devs2025.anjana_vakil.bio
+    t: Freelance engineer, educator, and devrel consultant
+
+  - key: conclusion.devs2025.anjana_vakil
+    t: |
+      As software developers, we tend to think that what we do is about programming, performance, and pull requests. But ultimately, software is really about **people**. And people are complicated.
+
+      Most survey respondents reported being happy in their [lives](../worldview/#overall_happiness) & [jobs](../workplace/#job_happiness), but it’s certainly not all ponies and rainbows. Most have also had issues with [burnout](../career/#career_issues), work-life balance, or mental health, with many pointing to toxic workplace cultures and poor management as causes. Many folks have felt intense internal and external pressure to overwork, and a lack of control over working conditions. 
+
+      Many devs, including myself, have also experienced [discrimination](../career/#discrimination_issues) based on age, gender, sexuality, or disability. Overall, and especially for marginalized folks, there seem to be growing feelings of anxiety, powerlessness and isolation in our professional community.
+
+      At times, especially recently, I wonder: is there any hope? These survey results seem to underscore a lesson I’ve learned over and over in my decade-long tech career: There is only one way we can collectively combat these many problems, and build a better software industry: **Together**. 
+
+      In the current economic reality, many developers (and laborers in general) feel employers see them as expendable “resources” to be exploited, rather than intrinsically valuable teammates. **Collective action** is how we workers can counteract that power imbalance. Whether through formal mechanisms like unions and class-action lawsuits, or informal ones like discussing salaries, speaking up on social media, or filling out this very survey, we need to **connect with each other** to illuminate these issues and push for change.
+
+      There is no easy fix for the industry, nor the world, but the need to **prioritize the human element** seems more urgent than ever. It’s up to us, as individuals and as a community, to 10x our skills of empathy, communication, tolerance, and care. Programming is the easy part.
+
+  - key: conclusion.devs2025.josh_comeau.bio
+    t: Solo indie hacker
+
+  - key: conclusion.devs2025.josh_comeau
+    t: |
+      It’s no secret that the tech industry has been rocky for the past couple of years. It’s never been easy to get started as a software developer, but these days it can feel impossible; even developers with years of experience report that they’re struggling to find work.
+
+      And yet, these survey results suggest that things aren’t quite as bad as they seem. We’ve all seen the headlines about huge rounds of tech layoffs, but only a [small minority of developers](../career/#laid_off) report having been laid off in the past year (and this is true even for junior devs!). 
+
+      A majority of developers say [their salary increased in the past year](../workplace/#income_evolution), with only 9% saying their compensation was reduced. The median junior developer submitted [just 10 applications](../workplace/#job_finding_application_count) to land their current role. And only [14% of respondents](../workplace/#job_happiness) say that they’re unhappy or very unhappy with their job.
+
+      The tech industry still has major issues (for example, almost half of women/non-binary respondents report [facing discrimination](../career/#discrimination_issues) based on their gender or gender identity), so I’m not claiming that everything is great 😅. 
+
+      But the prevailing wisdom online is that software development is facing an existential threat from AI, that we’re in the process of being replaced by LLMs. And I think if that were true, these survey results would look very different.
 
   ###########################################################################
   # FAQ/About
