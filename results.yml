@@ -441,10 +441,12 @@ translations:
   - key: user_info.completion_stats
     t: Survey Completion
     aliases:
+      - user_metadata.completion_stats
       - _user_metadata.completion_stats
   - key: user_info.completion_stats.description
     t: The proportion of the survey filled out by respondents.
     aliases:
+      - user_metadata.completion_stats.description
       - _user_metadata.completion_stats.description
 
   # skipped
