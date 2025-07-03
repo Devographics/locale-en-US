@@ -450,6 +450,23 @@ translations:
   # Conclusion
   ###########################################################################
 
+  - key: sections.lola_odelola.title
+    t: “Redistributing Power and Profit”
+  - key: sections.lola_odelola.title.short
+    t: Lola Odelola
+  - key: sections.declan_chidlow.title
+    t: “There is No Future Without New Blood”
+  - key: sections.declan_chidlow.title.short
+    t: Declan Chidlow
+  - key: sections.josh_comeau.title
+    t: “Things Aren’t Quite as Bad as They Seem”
+  - key: sections.josh_comeau.title.short
+    t: Josh Comeau
+  - key: sections.anjana_vakil.title
+    t: “Software is Really About People”
+  - key: sections.anjana_vakil.title.short
+    t: Anjana Vakil
+
   - key: sections.to_be_continued.title
     t: To Be Continued…
 
@@ -495,6 +512,44 @@ translations:
       The tech industry still has major issues (for example, almost half of women/non-binary respondents report [facing discrimination](../career/#discrimination_issues) based on their gender or gender identity), so I’m not claiming that everything is great 😅. 
 
       But the prevailing wisdom online is that software development is facing an existential threat from AI, that we’re in the process of being replaced by LLMs. And I think if that were true, these survey results would look very different.
+
+  - key: conclusion.devs2025.declan_chidlow.bio
+    t: Front-end developer, designer, writer
+
+  - key: conclusion.devs2025.declan_chidlow
+    t: |
+      It is easy for an industry to be defined by the established, but there is no future without new blood.
+
+      Entering the industry is a tough gig. Another application. Another day. 1000+ applicants. AI video “interviews”. It is evident that job boards are little more than a numbers game, and that [network is what matters](../workplace/#job_finding_methods). The [number of applications](../workplace/#job_finding_application_count) required to land a job is highest for people with lesser experience, and I can only wonder if we'll see this tick up further as companies continue in their hamfisted attempts to replace juniors with AI.
+
+      They say good health is wasted on the youth. Speaking of juniors, it certainly [seems like it](../worldview/#happiness_factors), with the under-20-years-old demographic being the only not to cite “good health” as their main source of happiness. And developers seem to be a conscientious bunch, with our  [worldviews](../worldview/) indicating we do care about global issues.
+
+      Turning an eye to the metadata of responses, it seems developers are far more diverse in our [browser usage](../metadata/#browser) than the general populace. Chrome comes in at 36%, Firefox at 14%, Safari at 13%, and Edge at 2%. In contrast, [Statcounter](https://gs.statcounter.com/browser-market-share/) places worldwide usage at 68% for Chrome, 16% for Safari, 5% for Edge, and 2% for Firefox. A similar diversity can be seen in the assortment of [desktop operating systems used](../technology/#desktop_os), with macOS and Linux eating into Windows' usual market share.
+
+      In future surveys I would like to see responses from a more diverse pool and hear the experiences of lesser-represented groups, not least so I can learn from them. I'd also so love to see more geographical variation in responses, as the U.S. tends to dominate development discussion.
+
+      And from an industry standpoint, I dream of organisations looking at these surveys like a to-do list and putting focus on the outlined flaws.
+
+  - key: conclusion.devs2025.lola_odelola.bio
+    t: Software Engineer, founder of [Blackgirl.tech](https://blackgirl.tech/)
+
+  - key: conclusion.devs2025.lola_odelola
+    t: |
+      Reviewing the data for the State of Devs 2025 survey, a few data points struck me as interesting. I am a self-employed Black British-Nigerian cis woman, with ADHD and Cluster Headache, which is to say I cross a few intersections. This is the context I’m bringing to reading and interpreting this data.
+
+      Some of my experiences are echoed in the data. For instance, 21% of Black or African respondents reported [facing workplace discrimination](../career/#discrimination_issues), regardless of gender. This is something I’ve also experienced while working in both British and American companies, even in teams that appeared diverse on the surface.
+
+      That being said, collecting race and ethnicity data on a global scale is tricky because there are multiple understandings of race. It's important to know that I'm a Black Cis Woman but the "Black" becomes less meaningful if I'm in Nigeria, employed by a Nigerian company. 
+
+      Due to the discrimination I've experienced, I consider my self-employment an accommodation so that I can still get to do the work I care about in the safest environment possible.
+
+      But this comes with its own set of challenges, with 15% of self-employed respondents [reported a drop in income](../career/#employment_status) over the past year, and I’ve found myself in that group too.
+
+      This is all happening at a time when worker rights are under attack across the globe: while Western governments are trying to remove workplace protections (especially for those with disabilities), tech workers in the Global South are being exploited and underpaid by big tech companies. 
+
+      I hope to see this change through more collective worker action and alliance, where workers across roles shape the conditions of their labour and the products they build, redistributing power and profit in ways that are more just.
+
+      And in the future, collecting additional data on nationality could help provide more context beyond race–and so would improving the under-representation of African and South-Asian countries in the survey. This will all let us learn more about who holds power within global tech.
 
   ###########################################################################
   # FAQ/About
