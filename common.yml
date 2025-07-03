@@ -1054,6 +1054,8 @@ translations:
     t: News, Media, & Blogging
   - key: options.industry_sector.healthcare
     t: Healthcare
+    aliases:
+      - options.industry_sector.health_care
   - key: options.industry_sector.finance
     t: Finance
   - key: options.industry_sector.programming_tools
@@ -1112,7 +1114,9 @@ translations:
   - key: options.industry_sector.gaming
     t: Gaming
   - key: options.industry_sector.research
-    t: Research
+    t: Research & Science
+    aliases:
+      - options.industry_sector.science
   - key: options.industry_sector.law
     t: Law
   - key: options.industry_sector.non_profit
@@ -1165,6 +1169,14 @@ translations:
     t: Robotics
   - key: options.industry_sector.saas
     t: SaaS (Software as a Service)
+  - key: options.industry_sector.automation
+    t: Automation
+  - key: options.industry_sector.automation
+    t: Automation
+  - key: options.industry_sector.industrial
+    t: Industrial
+  - key: options.industry_sector.music
+    t: Music
 
   # tool evaluation
   - key: options.tool_evaluation.learning_curve_documentation

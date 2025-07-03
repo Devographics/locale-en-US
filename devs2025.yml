@@ -217,8 +217,6 @@ translations:
 
       Some tools such as **Azure DevOps** and **Jira** skew towards being used at larger companies, while **Linear** and **Trello** are more popular among smaller organizations.
 
-      When looking at exclusively remote organizations,
-
   - key: technology.chat_apps.takeaway.devs2025
     t: |
       I'm just as surprised as you are to discover **Google Chat** is still a thing, yet it came in 9th solely on the back of write-in answers.
