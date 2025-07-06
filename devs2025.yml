@@ -68,7 +68,7 @@ translations:
     t: |
       15% of women participation might feel small, but it's at least considerably higher than [other surveys](https://2024.stateofjs.com/en-US/demographics/#gender), which tend to hover around 6%. 
 
-      And while the data reveals a gender income gap, further research would be needed to conclude whether this is due to gender discrimination, or other correlated factors such as differences in experience levels.
+      And while the data reveals a gender income gap, further research would be needed to conclude whether this is due to gender discrimination, or other correlated factors.
 
   - key: user_info.race_ethnicity.takeaway.devs2025
     t: |
