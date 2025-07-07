@@ -1171,8 +1171,6 @@ translations:
     t: SaaS (Software as a Service)
   - key: options.industry_sector.automation
     t: Automation
-  - key: options.industry_sector.automation
-    t: Automation
   - key: options.industry_sector.industrial
     t: Industrial
   - key: options.industry_sector.music
@@ -1384,8 +1382,6 @@ translations:
 
   - key: options.employment_status.company_employee
     t: Company employee
-  - key: options.employment_status.student
-    t: Student
   - key: options.employment_status.unemployed
     t: Unemployed
   - key: options.employment_status.ceo_founder
