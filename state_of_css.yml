@@ -1085,6 +1085,11 @@ translations:
   - key: usage.css_pain_points_freeform
     aliasFor: usage.other_pain_points_freeform
 
+  - key: usage.css_general_pain_points
+    aliasFor: opinions_others.css_pain_points.others
+  - key: usage.css_general_pain_points.question
+    aliasFor: usage.other_pain_points_freeform
+
   - key: options.css_pain_points.na
     t: None
 
