@@ -27,11 +27,6 @@ translations:
   # Sections
   ###########################################################################
 
-  - key: sections.features.title
-    t: Features
-  - key: sections.features.description
-    t: Syntax, browser APIs, and other features.
-
   - key: sections.syntax.title
     t: Syntax
   - key: sections.syntax.description
