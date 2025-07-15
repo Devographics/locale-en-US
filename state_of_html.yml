@@ -74,6 +74,31 @@ translations:
   - key: sections.usage.description
     t: How you use HTML.
 
+  - key: sections.graphics_multimedia.title
+    t: Graphics & Multimedia
+  - key: sections.graphics_multimedia.description
+    t: Rendering graphics and animations.
+
+  - key: sections.performance.title
+    t: Performance
+  - key: sections.performance.description
+    t: Making your site run even faster.
+
+  - key: sections.security.title
+    t: Security
+  - key: sections.security.description
+    t: Securing your code against attackers.
+
+  - key: sections.system_capabilities.title
+    t: System Capabilities
+  - key: sections.system_capabilities.description
+    t: Accessing device and platform APIs.
+
+  - key: sections.other_tools.title
+    t: Other Tools
+  - key: sections.other_tools.description
+    t: Other web-platform-related tools.
+
   ###########################################################################
   # Features
   ###########################################################################
