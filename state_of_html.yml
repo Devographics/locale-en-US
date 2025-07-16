@@ -405,7 +405,7 @@ translations:
   - key: features.component_strategies
     t: Component Strategies
   - key: features.component_strategies.question
-    t: Which strategies do you use to implement components or avoid code duplication?
+    t: Which strategies do you use to implement components or otherwise reuse code?
 
   - key: options.component_strategies.server_side_templating
     t: Server-side templating
@@ -436,6 +436,11 @@ translations:
     t: Web Components Frameworks
   - key: options.component_strategies.web_components_frameworks.description
     t: Stencil, Lit, Polymer, etc.
+
+  - key: options.component_strategies.copy_paste
+    t: Copy-paste
+  - key: options.component_strategies.copy_paste.description
+    t: Copy-pasting code from internal or external sources.
 
   # reasons_for_not_using_web_components
 
@@ -1090,6 +1095,43 @@ translations:
     t: 50%–50%
   - key: options.html_css_js_balance.8
     t: 100% JS
+
+  # design_system_strategies
+  - key: usage.design_system_strategies
+    t: Design Systems
+
+  - key: usage.design_system_strategies.question
+    t: Do you use any of the following design system strategies to maintain UI consistency?
+
+  - key: options.design_system_strategies.elements_components
+    t: Elements/components
+  - key: options.design_system_strategies.elements_components.description
+    t: |
+      A library of reusable building blocks like buttons or dropdowns, implemented in any technology (e.g., React, Web Components, etc.).
+
+  - key: options.design_system_strategies.design_tokens
+    t: Design tokens
+  - key: options.design_system_strategies.design_tokens.description
+    t: |
+      Atomic variables for things like colors, spacing, and typography, e.g. `--color-accent-dark`, `--font-heading`, etc.
+
+  - key: options.design_system_strategies.utilities
+    t: Utilities
+  - key: options.design_system_strategies.utilities.description
+    t: |
+      Low-level CSS classes that apply a single, specific style or behavior, e.g. .`visually-hidden` , `.grid-2x2`, `.text-center`, etc.
+
+  - key: options.design_system_strategies.guidelines
+    t: Guidelines
+  - key: options.design_system_strategies.guidelines.description
+    t: |
+      Standards and best practices to maintain consistency and ensure certain goals are met (accessibility, usability, etc.).
+
+  - key: options.design_system_strategies.patterns
+    t: Patterns
+  - key: options.design_system_strategies.patterns.description
+    t: |
+      Copy-pastable higher-level arrangements of all of the above that solve common UI/UX problems, such as navigation bars, or even entire responsive page layouts.
 
   ###########################################################################
   # Opinions
