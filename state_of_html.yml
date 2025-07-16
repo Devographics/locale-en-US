@@ -400,6 +400,45 @@ translations:
   - key: features.making_web_components_pain_points.placeholder
     aliasFor: features.forms_pain_points.placeholder
 
+  # component_strategies
+
+  - key: features.component_strategies
+    t: Component Strategies
+  - key: features.component_strategies.question
+    t: Which strategies do you use to implement components or avoid code duplication?
+
+  - key: options.component_strategies.server_side_templating
+    t: Server-side templating
+  - key: options.component_strategies.server_side_templating.description
+    t: Twig, Pug, Nunjucks, etc.
+
+  - key: options.component_strategies.build_time_templating
+    t: Build-time templating
+  - key: options.component_strategies.build_time_templating.description
+    t: Astro, Jekyll, other static site generators, etc.
+
+  - key: options.component_strategies.client_side_templating
+    t: Client-side templating
+  - key: options.component_strategies.client_side_templating.description
+    t: DOM manipulation, jQuery, Handlebars, etc.
+
+  - key: options.component_strategies.component_based_frameworks
+    t: Component-based JavaScript Frameworks
+  - key: options.component_strategies.component_based_frameworks.description
+    t: React, Vue.js, Angular, etc.
+
+  - key: options.component_strategies.web_components
+    t: Web Components
+  - key: options.component_strategies.web_components.description
+    t: Web components without a framework.
+
+  - key: options.component_strategies.web_components_frameworks
+    t: Web Components Frameworks
+  - key: options.component_strategies.web_components_frameworks.description
+    t: Stencil, Lit, Polymer, etc.
+
+  # reasons_for_not_using_web_components
+
   - key: features.reasons_for_not_using_web_components
     t: Reasons for Not Using
   - key: features.reasons_for_not_using_web_components.question
