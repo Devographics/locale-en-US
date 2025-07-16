@@ -684,10 +684,16 @@ translations:
     t: Styling component parts (`::part()`)
 
   - key: features.svg_element
-    t: Inline SVG (`<svg>`)
+    t: |
+      `<svg>` (inline SVG)
 
   - key: features.math_element
-    t: Inline MathML (`<math>`)
+    t: |
+      `<math>` (inline MathML)
+
+  - key: features.mapviewer_element
+    t: |
+      `<mapviewer>` (inline MapML)
 
   - key: features.scoped_element_registries
     t: Scoped Custom Element Registries
@@ -718,9 +724,6 @@ translations:
 
   - key: features.customizable_select
     t: Customizable Select
-
-  - key: features.contenteditable_plaintext
-    t: "`plaintext-only` value for `contenteditable`"
 
   - key: features.dom_parts
     t: DOM Parts
