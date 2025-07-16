@@ -368,6 +368,22 @@ translations:
     t: |
       Pain point #{index}…
 
+  - key: features.reasons_for_not_using_web_components
+    t: Reasons for Not Using
+  - key: features.reasons_for_not_using_web_components.question
+    t: If you're *not* using web components currently, can you tell us why?
+
+  - key: options.reasons_for_not_using_web_components.not_interested
+    t: Not interested, or don't see the need for them
+  - key: options.reasons_for_not_using_web_components.no_chance
+    t: Interested, but haven't had a chance to use them yet
+  - key: options.reasons_for_not_using_web_components.negative_experience
+    t: Used them but had a negative experience
+  - key: options.reasons_for_not_using_web_components.use_frameworks_instead
+    t: Can accomplish the same thing using JS frameworks instead
+  - key: options.reasons_for_not_using_web_components.compatibility_issues
+    t: Want to use them but can't because of compatibility or support issues.
+
   # Accessibility
 
   # - key: features.accessibility_features
