@@ -205,8 +205,7 @@ translations:
       around interactive elements and behaviors (except forms), DOM manipulation, events, and related APIs.
 
   - key: features.interactivity_pain_points.placeholder
-    t: |
-      Pain point #{index}…
+    aliasFor: features.forms_pain_points.placeholder
 
   - key: features.interactivity_techniques
     t: Interactivity Methods
@@ -289,8 +288,43 @@ translations:
       Think of embedding (multimedia, iframes, SVG, etc), machine-readable data, internationalization & localization, security & privacy, performance etc.
       Missing features, browser incompatibilities, and other problems you face are all fair game.
   - key: features.content_pain_points.placeholder
+    aliasFor: features.forms_pain_points.placeholder
+
+  # Graphics & Multimedia
+
+  - key: features.graphics_pain_points
+    t: Graphics & Multimedia Pain Points
+  - key: features.graphics_pain_points.question
+    t: What are your pain points around generating and rendering graphics, sound, or video?
+  - key: features.graphics_pain_points.prompt
     t: |
-      Pain point #{index}…
+      Think of issues around generating graphics, using images, rendering animations, graphics performance, missing graphics primitives or APIs, video, etc.
+  - key: features.graphics_pain_points.placeholder
+    aliasFor: features.forms_pain_points.placeholder
+
+  # Performance
+
+  - key: features.performance_pain_points
+    t: Performance Pain Points
+  - key: features.performance_pain_points.question
+    t: What are your pain points around performance?
+  - key: features.performance_pain_points.prompt
+    t: |
+      TODO
+  - key: features.performance_pain_points.placeholder
+    aliasFor: features.forms_pain_points.placeholder
+
+  # Security
+
+  - key: features.security_pain_points
+    t: Security Pain Points
+  - key: features.security_pain_points.question
+    t: What are your pain points around security?
+  - key: features.security_pain_points.prompt
+    t: |
+      TODO
+  - key: features.security_pain_points.placeholder
+    aliasFor: features.forms_pain_points.placeholder
 
   # Content
 
@@ -354,8 +388,7 @@ translations:
   - key: features.using_web_components_pain_points.prompt
     t: Using Web Components that you or others have made. Missing features, browser incompatibilities, etc.
   - key: features.using_web_components_pain_points.placeholder
-    t: |
-      Pain point #{index}…
+    aliasFor: features.forms_pain_points.placeholder
 
   - key: features.making_web_components_pain_points
     t: Making Web Components Pain Points
@@ -365,8 +398,7 @@ translations:
     t: |
       What prevents you from creating the amazing components you envision? Missing features, browser incompatibilities, etc.
   - key: features.making_web_components_pain_points.placeholder
-    t: |
-      Pain point #{index}…
+    aliasFor: features.forms_pain_points.placeholder
 
   - key: features.reasons_for_not_using_web_components
     t: Reasons for Not Using
@@ -403,8 +435,7 @@ translations:
   - key: features.accessibility_pain_points.question
     t: What are your biggest pain points around web accessibility?
   - key: features.accessibility_pain_points.placeholder
-    t: |
-      Pain point #{index}…
+    aliasFor: features.forms_pain_points.placeholder
 
   - key: features.accessibility_disabilities
     t: User Disabilities
@@ -585,6 +616,18 @@ translations:
   - key: features.mobile_web_apps_pain_points.placeholder
     t: |
       Pain point #{index}
+
+  # System Capabilities
+
+  - key: features.system_capabilities_pain_points
+    t: System Capabilities Pain Points
+  - key: features.system_capabilities_pain_points.question
+    t: What are your pain points around accessing and using native system and platform capabilities?
+  - key: features.system_capabilities_pain_points.prompt
+    t: |
+      TODO
+  - key: features.system_capabilities_pain_points.placeholder
+    aliasFor: features.forms_pain_points.placeholder
 
   # other features
 
@@ -1049,6 +1092,22 @@ translations:
     t: Browser Interoperability
   - key: opinions.browser_interoperability_is_obstacle.question
     t: The lack of browser interoperability is currently a major obstacle to web development
+
+  - key: options.browser_interoperability_is_obstacle.0
+    aliasFor: options.opinions.0
+  - key: options.browser_interoperability_is_obstacle.1
+    aliasFor: options.opinions.1
+  - key: options.browser_interoperability_is_obstacle.2
+    aliasFor: options.opinions.2
+  - key: options.browser_interoperability_is_obstacle.3
+    aliasFor: options.opinions.3
+  - key: options.browser_interoperability_is_obstacle.4
+    aliasFor: options.opinions.4
+
+  - key: opinions.browser_interoperability_pace
+    t: Interoperability Pace
+  - key: opinions.browser_interoperability_pace.question
+    t: Over the past few years, new web features have become stable across browsers at a faster pace
 
   - key: options.browser_interoperability_is_obstacle.0
     aliasFor: options.opinions.0
