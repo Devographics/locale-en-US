@@ -22,6 +22,9 @@ translations:
 
       And as with previous years, your answers will have a direct impact on the roadmaps of browser vendors. So grab your beverage of choice, and get ready to fill out this year's State of HTML survey!
 
+  - key: features.features_intro_html2025
+    aliasFor: features.features_intro_html2024
+
   # - key: general.html2025.survey_intro
   #   t: |
   #     This might be the State of HTML, but this survey actually goes far beyond just HTML to encompass all areas of the web platform as a whole – and there is *a lot* to cover!

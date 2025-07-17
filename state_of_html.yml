@@ -402,9 +402,9 @@ translations:
 
   # component_strategies
 
-  - key: features.component_strategies
-    t: Component Strategies
-  - key: features.component_strategies.question
+  - key: usage.component_strategies
+    t: Code Reuse Strategies
+  - key: usage.component_strategies.question
     t: Which strategies do you use to implement components or otherwise reuse HTML code?
 
   - key: options.component_strategies.server_side_templating
