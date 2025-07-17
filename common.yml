@@ -2000,4 +2000,4 @@ translations:
     t: Widely Available
 
   - key: feature.experimental
-    t: Proposal and/or unsupported feature
+    t: Unsupported feature or proposal
