@@ -310,7 +310,7 @@ translations:
     t: What are your pain points around performance?
   - key: features.performance_pain_points.prompt
     t: |
-      TODO
+      Issues around accessing device capabilities, interacting with the file system, matching native app feature sets, etc.
   - key: features.performance_pain_points.placeholder
     aliasFor: features.forms_pain_points.placeholder
 
@@ -403,7 +403,7 @@ translations:
   # component_strategies
 
   - key: usage.component_strategies
-    t: Code Reuse Strategies
+    t: Code Reuse
   - key: usage.component_strategies.question
     t: Which strategies do you use to implement components or otherwise reuse HTML code?
 
@@ -669,7 +669,7 @@ translations:
     t: What are your pain points around accessing and using native system and platform capabilities?
   - key: features.system_capabilities_pain_points.prompt
     t: |
-      TODO
+      Issues around poor performance metrics, slow-loading pages, delayed rendering, janky animations or scrolling, etc.
   - key: features.system_capabilities_pain_points.placeholder
     aliasFor: features.forms_pain_points.placeholder
 
