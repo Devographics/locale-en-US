@@ -405,7 +405,7 @@ translations:
   - key: features.component_strategies
     t: Component Strategies
   - key: features.component_strategies.question
-    t: Which strategies do you use to implement components or otherwise reuse code?
+    t: Which strategies do you use to implement components or otherwise reuse HTML code?
 
   - key: options.component_strategies.server_side_templating
     t: Server-side templating
@@ -433,14 +433,14 @@ translations:
     t: Web components without a framework.
 
   - key: options.component_strategies.web_components_frameworks
-    t: Web Components Frameworks
+    t: Web Components libraries
   - key: options.component_strategies.web_components_frameworks.description
     t: Stencil, Lit, Polymer, etc.
 
   - key: options.component_strategies.copy_paste
     t: Copy-paste
   - key: options.component_strategies.copy_paste.description
-    t: Copy-pasting code from internal or external sources.
+    t: Copy-pasting snippets from internal or external sources.
 
   # reasons_for_not_using_web_components
 
@@ -1026,7 +1026,7 @@ translations:
   - key: usage.html_missing_elements
     t: Missing Elements
   - key: usage.html_missing_elements.question
-    t: If you could add 3 elements to HTML, what would they be?
+    t: If you could add new elements to HTML, what would they be?
   # - key: usage.html_missing_elements.description
   #   t: |
   #     If you use any component technologies, the components you find yourself reusing across multiple projects could be good candidates.
