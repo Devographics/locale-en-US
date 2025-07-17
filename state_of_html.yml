@@ -410,7 +410,7 @@ translations:
   - key: options.component_strategies.server_side_templating
     t: Server-side templating
   - key: options.component_strategies.server_side_templating.description
-    t: Twig, Pug, Nunjucks, etc.
+    t: Server-side templates generated through PHP, Node.js, etc.
 
   - key: options.component_strategies.build_time_templating
     t: Build-time templating
@@ -433,7 +433,7 @@ translations:
     t: Web components without a framework.
 
   - key: options.component_strategies.web_components_frameworks
-    t: Web Components libraries
+    t: Web Components helper libraries
   - key: options.component_strategies.web_components_frameworks.description
     t: Stencil, Lit, Polymer, etc.
 
@@ -1059,6 +1059,10 @@ translations:
     t: Progress Bar
   - key: options.html_missing_elements.skeleton_loading_placeholder
     t: Skeleton UI / Loading Placeholder
+
+  - key: options.html_missing_elements.sortable_list
+    t: Sortable Drag-and-Drop List
+
   - key: options.html_missing_elements.switch
     t: Switch / Toggle
   - key: options.html_missing_elements.tabs
@@ -1079,6 +1083,14 @@ translations:
     t: Icon
   - key: options.html_missing_elements.star_rating
     t: Star Rating
+  - key: options.html_missing_elements.html_include
+    t: HTML Include
+  - key: options.html_missing_elements.html_include.description
+    t: An element that includes content from another page inline in the document.
+  - key: options.html_missing_elements.range_slider
+    t: Range Slider
+  - key: options.html_missing_elements.range_slider.description
+    t: A slider with two handles, for selecting a range of numbers.
 
   - key: usage.html_pain_points_freeform
     t: Other Pain Points
@@ -1132,6 +1144,11 @@ translations:
   - key: options.design_system_strategies.patterns.description
     t: |
       Copy-pastable higher-level arrangements of all of the above that solve common UI/UX problems, such as navigation bars, or even entire responsive page layouts.
+
+  - key: usage.html_styling_issues
+    t: Styling Issues
+  - key: usage.html_styling_issues.question
+    t: Which elements do you struggle the most to style and customize?
 
   ###########################################################################
   # Opinions
