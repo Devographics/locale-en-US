@@ -1998,3 +1998,6 @@ translations:
     t: Newly Available
   - key: baseline.support.high
     t: Widely Available
+
+  - key: feature.experimental
+    t: Proposal and/or unsupported feature
