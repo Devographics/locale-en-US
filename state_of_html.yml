@@ -400,6 +400,71 @@ translations:
   - key: features.making_web_components_pain_points.placeholder
     aliasFor: features.forms_pain_points.placeholder
 
+  # web_components_common_pain_points
+
+  - key: features.web_components_common_pain_points
+    t: Pain Points
+  - key: features.web_components_common_pain_points.question
+    t: What are your main pain points around making and using web components?
+
+  - key: options.web_components_common_pain_points.complex_apis
+    t: Excessive complexity
+  - key: options.web_components_common_pain_points.complex_apis.description
+    t: Web Component APIs are painful to use/too low-level/too complex.
+
+  - key: options.web_components_common_pain_points.a11y_issues
+    t: Accessibility issues
+  - key: options.web_components_common_pain_points.a11y_issues.description
+    t: Focus management, ARIA, etc. are hard to implement.
+
+  - key: options.web_components_common_pain_points.i18n_issues
+    t: Localization/internationalization issues
+  - key: options.web_components_common_pain_points.i18n_issues.description
+    t: It's hard to make web components that can adapt to the page’s locale or whose text can be customized.
+
+  - key: options.web_components_common_pain_points.low_shadow_dom_specificity
+    t: Low shadow DOM CSS specificity
+  - key: options.web_components_common_pain_points.low_shadow_dom_specificity.description
+    t: |
+      E.g. `* { margin: 0 }` overrides any margin set via  `::slotted()` , `:host `, etc.
+
+  - key: options.web_components_common_pain_points.overly_strict_encapsulation
+    t: Overly strict style encapsulation
+  - key: options.web_components_common_pain_points.overly_strict_encapsulation.description
+    t: Styling shadow DOM from the outside (or vice versa) is too limited.
+
+  - key: options.web_components_common_pain_points.overreliance_on_js
+    t: Over-reliance on JavaScript
+  - key: options.web_components_common_pain_points.overreliance_on_js.description
+    t: JavaScript needs to be used too often.
+
+  - key: options.web_components_common_pain_points.poor_ssr_support
+    t: Poor SSR support
+  - key: options.web_components_common_pain_points.poor_ssr_support.description
+    t: Web Components are hard to properly server-render.
+
+  - key: options.web_components_common_pain_points.design_tokens_access
+    t: Accessing design tokens
+  - key: options.web_components_common_pain_points.design_tokens_access.description
+    t: Colors, fonts, spacing, etc. need to be communicated separately to each component.
+
+  - key: options.web_components_common_pain_points.native_element_extension
+    t: Extending native elements
+  - key: options.web_components_common_pain_points.native_element_extension.description
+    t: Native elements need to be recreated entirely to add one feature.
+
+  - key: options.web_components_common_pain_points.slotted_descendants_style
+    t: Slotted descendant styling
+  - key: options.web_components_common_pain_points.slotted_descendants_style.description
+    t: Slotted descendants cannot be styled (e.g. cannot do `::slotted(ul) > li`).
+
+  # web_components_other_pain_points
+
+  - key: features.web_components_other_pain_points
+    t: Other Pain Points
+  - key: features.web_components_other_pain_points.question
+    t: Any other pain points around making and using web components?
+
   # component_strategies
 
   - key: usage.component_strategies
@@ -1159,6 +1224,7 @@ translations:
       Copy-pastable higher-level arrangements of all of the above that solve common UI/UX problems, such as navigation bars, or even entire responsive page layouts.
 
   # html_styling_issues
+
   - key: usage.html_styling_issues
     t: Styling Issues
   - key: usage.html_styling_issues.question
