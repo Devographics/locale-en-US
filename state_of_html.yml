@@ -285,7 +285,7 @@ translations:
     t: What are your pain points around managing content in HTML?
   - key: features.content_pain_points.prompt
     t: |
-      Think of embedding (multimedia, iframes, SVG, etc), machine-readable data, internationalization & localization, security & privacy, performance etc.
+      Think of content elements (iframes, headings, tables, sections), machine-readable data, internationalization & localization,  etc.
       Missing features, browser incompatibilities, and other problems you face are all fair game.
   - key: features.content_pain_points.placeholder
     aliasFor: features.forms_pain_points.placeholder
