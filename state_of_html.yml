@@ -430,7 +430,7 @@ translations:
   - key: options.component_strategies.web_components
     t: Web Components
   - key: options.component_strategies.web_components.description
-    t: Web components without a framework.
+    t: Web Components (with or without a helper library).
 
   - key: options.component_strategies.web_components_frameworks
     t: Web Components helper libraries
