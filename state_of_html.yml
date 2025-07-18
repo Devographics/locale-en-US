@@ -405,7 +405,7 @@ translations:
   - key: features.web_components_common_pain_points
     t: Pain Points
   - key: features.web_components_common_pain_points.question
-    t: What are your main pain points around making and using web components?
+    t: What are your top pain points around making and using web components?
 
   - key: options.web_components_common_pain_points.complex_apis
     t: Excessive complexity
