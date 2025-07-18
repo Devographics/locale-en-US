@@ -310,7 +310,7 @@ translations:
     t: What are your pain points around performance?
   - key: features.performance_pain_points.prompt
     t: |
-      Issues around accessing device capabilities, interacting with the file system, matching native app feature sets, etc.
+      Issues around poor performance metrics, slow-loading pages, delayed rendering, janky animations or scrolling, etc.
   - key: features.performance_pain_points.placeholder
     aliasFor: features.forms_pain_points.placeholder
 
@@ -669,7 +669,7 @@ translations:
     t: What are your pain points around accessing and using native system and platform capabilities?
   - key: features.system_capabilities_pain_points.prompt
     t: |
-      Issues around poor performance metrics, slow-loading pages, delayed rendering, janky animations or scrolling, etc.
+      Issues around accessing device capabilities, interacting with the file system, matching native app feature sets, etc.
   - key: features.system_capabilities_pain_points.placeholder
     aliasFor: features.forms_pain_points.placeholder
 
