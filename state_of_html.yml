@@ -92,7 +92,7 @@ translations:
   - key: sections.system_capabilities.title
     t: System Capabilities
   - key: sections.system_capabilities.prompt
-    t: Accessing device and platform APIs.
+    t: Accessing device and system APIs.
 
   - key: sections.other_tools.title
     t: Other Tools
@@ -285,8 +285,7 @@ translations:
     t: What are your pain points around managing content in HTML?
   - key: features.content_pain_points.prompt
     t: |
-      Think of embedding (multimedia, iframes, SVG, etc), machine-readable data, internationalization & localization, security & privacy, performance etc.
-      Missing features, browser incompatibilities, and other problems you face are all fair game.
+      Think of content elements (iframes, headings, tables, sections), machine-readable data, internationalization & localization,  etc. Missing features, browser incompatibilities, and other problems you face are all fair game.
   - key: features.content_pain_points.placeholder
     aliasFor: features.forms_pain_points.placeholder
 
@@ -403,7 +402,7 @@ translations:
   # component_strategies
 
   - key: usage.component_strategies
-    t: Code Reuse
+    t: HTML Reuse
   - key: usage.component_strategies.question
     t: Which strategies do you use to implement components or otherwise reuse HTML code?
 
@@ -430,7 +429,7 @@ translations:
   - key: options.component_strategies.web_components
     t: Web Components
   - key: options.component_strategies.web_components.description
-    t: Web components without a framework.
+    t: Web components, with or without a helper library.
 
   - key: options.component_strategies.web_components_frameworks
     t: Web Components helper libraries
@@ -666,10 +665,10 @@ translations:
   - key: features.system_capabilities_pain_points
     t: System Capabilities Pain Points
   - key: features.system_capabilities_pain_points.question
-    t: What are your pain points around accessing native platform and device capabilities?
+    t: What are your pain points around accessing native system and device capabilities?
   - key: features.system_capabilities_pain_points.prompt
     t: |
-      Issues around accessing device capabilities, interacting with the file system, matching native app feature sets, etc.
+      Issues around accessing device or OS capabilities, interacting with the file system, matching native app feature sets, etc.
   - key: features.system_capabilities_pain_points.placeholder
     aliasFor: features.forms_pain_points.placeholder
 
@@ -1037,34 +1036,36 @@ translations:
     t: Accordion
   - key: options.html_missing_elements.alert
     t: Alert
+  - key: options.html_missing_elements.callout
+    t: Callout
   - key: options.html_missing_elements.calendar
     t: Calendar
   - key: options.html_missing_elements.carousel
     t: Carousel
   - key: options.html_missing_elements.combobox_autocomplete
-    t: Combobox / Autocomplete
+    t: Combobox/autocomplete
   - key: options.html_missing_elements.command_palette
     t: Command Palette
   - key: options.html_missing_elements.context_menu
-    t: Context Menu / Right-Click Menu
+    t: Context menu/right-click menu
   - key: options.html_missing_elements.datatable
     t: Data table
   - key: options.html_missing_elements.datatable.description
     t: Data table with sorting, filtering, etc.
   - key: options.html_missing_elements.dropdown_menu
-    t: Dropdown Menu
+    t: Dropdown menu
   - key: options.html_missing_elements.image_zoom
-    t: Image Zoom
+    t: Image zoom
   - key: options.html_missing_elements.progress_bar
-    t: Progress Bar
+    t: Progress bar
   - key: options.html_missing_elements.skeleton_loading_placeholder
-    t: Skeleton UI / Loading Placeholder
+    t: Skeleton UI/loading placeholder
 
   - key: options.html_missing_elements.sortable_list
-    t: Sortable Drag-and-Drop List
+    t: Sortable drag-and-drop list
 
   - key: options.html_missing_elements.switch
-    t: Switch / Toggle
+    t: Switch/toggle
   - key: options.html_missing_elements.tabs
     t: Tabs
   # - key: options.html_missing_elements.toast_message
@@ -1072,25 +1073,36 @@ translations:
   - key: options.html_missing_elements.tooltip
     t: Tooltip
   - key: options.html_missing_elements.offcanvas
-    t: Off-Canvas Area
+    t: Off-canvas (drawer) menu
   - key: options.html_missing_elements.spinner
-    t: Loading Spinner
+    t: Loading spinner
   - key: options.html_missing_elements.segmented_button
-    t: Segmented Button
+    t: Segmented button
   - key: options.html_missing_elements.scroll_area
-    t: Infinite Scroll
+    t: Infinite scroll
   - key: options.html_missing_elements.icon
     t: Icon
   - key: options.html_missing_elements.star_rating
-    t: Star Rating
+    t: Star rating
   - key: options.html_missing_elements.html_include
-    t: HTML Include
+    t: HTML include
   - key: options.html_missing_elements.html_include.description
     t: An element that includes content from another page inline in the document.
   - key: options.html_missing_elements.range_slider
-    t: Range Slider
+    t: Range slider
   - key: options.html_missing_elements.range_slider.description
     t: A slider with two handles, for selecting a range of numbers.
+
+  - key: options.html_missing_elements.charts
+    t: Charts/graphs
+  - key: options.html_missing_elements.rich_text_editor
+    t: Rich text editor
+  - key: options.html_missing_elements.rich_code_block
+    t: Rich code block
+  - key: options.html_missing_elements.footnotes
+    t: Footnotes/sidenotes
+  - key: options.html_missing_elements.maps
+    t: Maps
 
   - key: usage.html_pain_points_freeform
     t: Other Pain Points
@@ -1145,10 +1157,11 @@ translations:
     t: |
       Copy-pastable higher-level arrangements of all of the above that solve common UI/UX problems, such as navigation bars, or even entire responsive page layouts.
 
+  # html_styling_issues
   - key: usage.html_styling_issues
     t: Styling Issues
   - key: usage.html_styling_issues.question
-    t: Which elements do you struggle the most to style and customize?
+    t: Which elements do you struggle the most to style or visually customize?
 
   ###########################################################################
   # Opinions
@@ -1237,7 +1250,8 @@ translations:
   - key: opinions.validation_is_important
     t: HTML Validation
   - key: opinions.validation_is_important.question
-    t: Ensuring your HTML code is valid using linters or validators is important
+    t: |
+      Ensuring my HTML code is valid (using linters, validators, etc.) is important
 
   - key: options.validation_is_important.0
     aliasFor: options.opinions.0
