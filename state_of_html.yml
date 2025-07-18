@@ -26,77 +26,77 @@ translations:
 
   - key: sections.forms.title
     t: Forms
-  - key: sections.forms.description
+  - key: sections.forms.prompt
     t: Form-related elements and attributes
 
   - key: sections.interactivity.title
     t: Interactivity
-  - key: sections.interactivity.description
+  - key: sections.interactivity.prompt
     t: APIs that enable richer user interactions.
 
   - key: sections.web_components.title
     t: Web Components
-  - key: sections.web_components.description
+  - key: sections.web_components.prompt
     t: Making & using web components.
 
   - key: sections.content.title
     t: Content
-  - key: sections.content.description
+  - key: sections.content.prompt
     t: Embedding, multimedia, data, and other content-related features.
 
   - key: sections.external_content.title
     t: External Content
-  - key: sections.external_content.description
+  - key: sections.external_content.prompt
     t: Embedding external resources, and other multimedia APIs.
 
   - key: sections.accessibility.title
     t: Accessibility
-  - key: sections.accessibility.description
+  - key: sections.accessibility.prompt
     t: Making sites and apps accessible by all.
 
   - key: sections.mobile_web_apps.title
     t: Native Web Apps
-  - key: sections.mobile_web_apps.description
+  - key: sections.mobile_web_apps.prompt
     t: Authoring mobile and desktop-optimized web apps.
 
   - key: sections.other_features.title
     t: Other Features
-  - key: sections.other_features.description
+  - key: sections.other_features.prompt
     t: Other HTML elements & browser APIs.
 
   - key: sections.other_tools.title
     t: Other Tools
-  - key: sections.other_tools.description
+  - key: sections.other_tools.prompt
     t: Other tools you use as part of your work.
 
   - key: sections.usage.title
     t: Usage
-  - key: sections.usage.description
+  - key: sections.usage.prompt
     t: How you use HTML.
 
   - key: sections.graphics_multimedia.title
     t: Graphics & Multimedia
-  - key: sections.graphics_multimedia.description
+  - key: sections.graphics_multimedia.prompt
     t: Rendering graphics and animations.
 
   - key: sections.performance.title
     t: Performance
-  - key: sections.performance.description
+  - key: sections.performance.prompt
     t: Making your site run even faster.
 
   - key: sections.security.title
     t: Security
-  - key: sections.security.description
+  - key: sections.security.prompt
     t: Securing your code against attackers.
 
   - key: sections.system_capabilities.title
     t: System Capabilities
-  - key: sections.system_capabilities.description
+  - key: sections.system_capabilities.prompt
     t: Accessing device and platform APIs.
 
   - key: sections.other_tools.title
     t: Other Tools
-  - key: sections.other_tools.description
+  - key: sections.other_tools.prompt
     t: Other web-platform-related tools.
 
   ###########################################################################
@@ -295,7 +295,7 @@ translations:
   - key: features.graphics_pain_points
     t: Graphics & Multimedia Pain Points
   - key: features.graphics_pain_points.question
-    t: What are your pain points around generating and rendering graphics, sound, or video?
+    t: What are your pain points around using Canvas, SVG, WebGL, and other APIs for rendering graphics, sound, or video?
   - key: features.graphics_pain_points.prompt
     t: |
       Think of issues around generating graphics, using images, rendering animations, graphics performance, missing graphics primitives or APIs, video, etc.
@@ -310,7 +310,7 @@ translations:
     t: What are your pain points around performance?
   - key: features.performance_pain_points.prompt
     t: |
-      Issues around accessing device capabilities, interacting with the file system, matching native app feature sets, etc.
+      Issues around poor performance metrics, slow-loading pages, delayed rendering, janky animations or scrolling, etc.
   - key: features.performance_pain_points.placeholder
     aliasFor: features.forms_pain_points.placeholder
 
@@ -666,10 +666,10 @@ translations:
   - key: features.system_capabilities_pain_points
     t: System Capabilities Pain Points
   - key: features.system_capabilities_pain_points.question
-    t: What are your pain points around accessing and using native system and platform capabilities?
+    t: What are your pain points around accessing native platform and device capabilities?
   - key: features.system_capabilities_pain_points.prompt
     t: |
-      Issues around poor performance metrics, slow-loading pages, delayed rendering, janky animations or scrolling, etc.
+      Issues around accessing device capabilities, interacting with the file system, matching native app feature sets, etc.
   - key: features.system_capabilities_pain_points.placeholder
     aliasFor: features.forms_pain_points.placeholder
 
@@ -1232,6 +1232,22 @@ translations:
   - key: options.web_platform_right_direction.3
     aliasFor: options.opinions.3
   - key: options.web_platform_right_direction.4
+    aliasFor: options.opinions.4
+
+  - key: opinions.validation_is_important
+    t: HTML Validation
+  - key: opinions.validation_is_important.question
+    t: Ensuring your HTML code is valid using linters or validators is important
+
+  - key: options.validation_is_important.0
+    aliasFor: options.opinions.0
+  - key: options.validation_is_important.1
+    aliasFor: options.opinions.1
+  - key: options.validation_is_important.2
+    aliasFor: options.opinions.2
+  - key: options.validation_is_important.3
+    aliasFor: options.opinions.3
+  - key: options.validation_is_important.4
     aliasFor: options.opinions.4
 
   ###########################################################################
