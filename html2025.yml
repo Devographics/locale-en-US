@@ -12,15 +12,15 @@ translations:
 
       Frontend development is the craft of creating good-looking, accessible, and readable websites. 
 
-      And on top of that it's the art of architecturing complex apps with hundreds of components, complex state, and advanced data querying and caching. 
+      And on top of that it's also the art of architecturing complex apps with hundreds of components, complex state, and advanced data querying and caching. 
 
-      But *also*, it's how you display 3D graphics, read and write to the filesystem, handle security issues, and improve performance. 
+      But it's *also* how you display 3D graphics, read and write to the filesystem, handle security issues, and improve performance. 
 
-      With the web platform's ever-growing list of responsibilities, it makes more sense than ever to have a survey dedicated to HTML and all other web platform APIs, now in its third consecutive year. 
+      So with the web platform's ever-growing list of responsibilities, it makes more sense than ever to have this survey dedicated to HTML and all other web platform APIs, now in its third consecutive year. 
 
-      And to help us find our way through the fog, none other than web superstar [Lea Verou](https://lea.verou.me/) is back at the helm, having helped curate this year's questions. 
+      And to help us find our way through the fog, none other than web superstar [Lea Verou](https://lea.verou.me/) is back at the helm, having helped curate this year's questions–including 32 (!) new web platform features. 
 
-      And as with previous years, your answers will have a direct impact on the roadmaps of browser vendors. So grab your beverage of choice, and get ready to fill out this year's State of HTML survey!
+      And as with previous years, your answers will have a direct impact on the roadmaps of browser vendors. So once again, get ready to fill out this year's State of HTML survey!
 
   - key: features.features_intro_html2025
     aliasFor: features.features_intro_html2024
