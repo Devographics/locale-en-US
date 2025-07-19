@@ -295,10 +295,10 @@ translations:
   - key: features.graphics_pain_points
     t: Graphics & Multimedia Pain Points
   - key: features.graphics_pain_points.question
-    t: What are your pain points around using Canvas, SVG, WebGL, and other APIs for rendering graphics, sound, or video?
+    t: What are your pain points around rendering graphics, videos, animations, and other media?
   - key: features.graphics_pain_points.prompt
     t: |
-      Think of issues around generating graphics, using images, rendering animations, graphics performance, missing graphics primitives or APIs, video, etc.
+      Think of issues around using Canvas, SVG, WebGL, and other APIs for rendering graphics graphics, rendering animations, graphics performance, missing graphics primitives or APIs, etc.
   - key: features.graphics_pain_points.placeholder
     aliasFor: features.forms_pain_points.placeholder
 
@@ -743,8 +743,8 @@ translations:
   - key: features.foo_attribute
     t: "`{id}` attribute"
 
-  - key: features.slot_attribute
-    t: Named slot assignment
+  # - key: features.slot_attribute
+  #   t: Named slot assignment
 
   - key: features.landmark_elements
     t: Landmark elements
@@ -1165,10 +1165,12 @@ translations:
     t: Rich text editor
   - key: options.html_missing_elements.rich_code_block
     t: Rich code block
+  - key: options.html_missing_elements.rich_code_block.description
+    t: With syntax highlighting, code editing, copy button, etc.
   - key: options.html_missing_elements.footnotes
     t: Footnotes/sidenotes
   - key: options.html_missing_elements.maps
-    t: Maps
+    t: Map
 
   - key: usage.html_pain_points_freeform
     t: Other Pain Points
@@ -1229,6 +1231,9 @@ translations:
     t: Styling Issues
   - key: usage.html_styling_issues.question
     t: Which elements do you struggle the most to style or visually customize?
+
+  - key: options.html_styling_issues.validation_errors
+    t: Validation errors
 
   ###########################################################################
   # Opinions
@@ -1318,7 +1323,7 @@ translations:
     t: HTML Validation
   - key: opinions.validation_is_important.question
     t: |
-      Ensuring my HTML code is valid (using linters, validators, etc.) is important
+      Ensuring my HTML code passes validation is important
 
   - key: options.validation_is_important.0
     aliasFor: options.opinions.0
