@@ -1235,6 +1235,10 @@ translations:
   - key: options.html_styling_issues.validation_errors
     t: Validation errors
 
+  - key: options.html_styling_issues.fieldset_and_legend
+    t: |
+      `<fieldset>` and `<legend>`
+
   ###########################################################################
   # Opinions
   ###########################################################################
