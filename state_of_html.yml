@@ -1102,8 +1102,12 @@ translations:
     t: Accordion
   - key: options.html_missing_elements.alert
     t: Alert
+
   - key: options.html_missing_elements.callout
     t: Callout
+  - key: options.html_missing_elements.callout.description
+    t: Visually distinct text block for info messages, errors, warnings, etc.
+
   - key: options.html_missing_elements.calendar
     t: Calendar
   - key: options.html_missing_elements.carousel
