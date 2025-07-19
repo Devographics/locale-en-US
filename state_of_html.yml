@@ -434,14 +434,14 @@ translations:
     t: Styling shadow DOM from the outside (or vice versa) is too limited.
 
   - key: options.web_components_common_pain_points.overreliance_on_js
-    t: Over-reliance on JavaScript
+    t: Over-reliance on JavaScript & SSR issues
   - key: options.web_components_common_pain_points.overreliance_on_js.description
-    t: JavaScript needs to be used too often.
+    t: Unless server-side-rendered, Web Components need JavaScript to render even when not interactive.
 
-  - key: options.web_components_common_pain_points.poor_ssr_support
-    t: Poor SSR support
-  - key: options.web_components_common_pain_points.poor_ssr_support.description
-    t: Web Components are hard to properly server-render.
+  # - key: options.web_components_common_pain_points.poor_ssr_support
+  #   t: Poor SSR support
+  # - key: options.web_components_common_pain_points.poor_ssr_support.description
+  #   t: Web Components are hard to properly server-render.
 
   - key: options.web_components_common_pain_points.design_tokens_access
     t: Accessing design tokens
