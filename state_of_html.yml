@@ -426,7 +426,7 @@ translations:
     t: Low shadow DOM CSS specificity
   - key: options.web_components_common_pain_points.low_shadow_dom_specificity.description
     t: |
-      E.g. `* { margin: 0 }` overrides any margin set via  `::slotted()` , `:host `, etc.
+      E.g. `* { margin: 0 }` overrides any margin set via  `::slotted()` , `:host`, etc.
 
   - key: options.web_components_common_pain_points.overly_strict_encapsulation
     t: Overly strict style encapsulation
@@ -638,7 +638,7 @@ translations:
   - key: options.accessibility_techniques.meaningful_link_text
     t: Meaningful Link Text
   - key: options.accessibility_techniques.meaningful_link_text.description
-    t: Ensuring that link text makes sense out of context
+    t: Ensuring that link text makes sense out of context.
   - key: options.accessibility_techniques.form_control_label
     t: Form Control Labels
   - key: options.accessibility_techniques.form_control_label.description
