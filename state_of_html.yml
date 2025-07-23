@@ -464,6 +464,8 @@ translations:
     t: Other Pain Points
   - key: features.web_components_other_pain_points.question
     t: Any other pain points around making and using web components?
+  - key: features.web_components_other_pain_points.placeholder
+    aliasFor: features.forms_pain_points.placeholder
 
   # component_strategies
 
@@ -800,8 +802,8 @@ translations:
   - key: features.html_modules
     t: HTML Modules
 
-  - key: features.accordion_element
-    t: Exclusive accordion
+  # - key: features.accordion_element
+  #   t: Exclusive accordion
 
   - key: features.imperative_slot
     t: Imperative slot assignment
