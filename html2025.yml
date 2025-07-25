@@ -9,18 +9,33 @@ translations:
 
   - key: general.html2025.survey_intro
     t: |
+      In 2023, after the State of JS and State of CSS surveys had already been going on for a few years, we realized something was missing: what about the technology that brings it all together?
 
-      Frontend development is the craft of creating good-looking, accessible, and readable websites. 
+      After all, HTML now goes beyond tags and attributes, encompassing APIs for dynamic updates, rich embeds, performance hints, templating & components, and more. 
 
-      And on top of that it's also the art of architecturing complex apps with hundreds of components, complex state, and advanced data querying and caching. 
+      The first State of HTML, led by web superstar [Lea Verou](https://lea.verou.me/) broke all previous records for a new survey with 21,000 respondents, and introduced new UI paradigms that improved all future surveys. 
 
-      But it's *also* how you display 3D graphics, read and write to the filesystem, handle security issues, and improve performance. 
+      This year, with Lea back at the helm, we added ✨35 new features✨, and introduced two new sections: **Graphics & Multimedia** and **Performance**.
 
-      So with the web platform's ever-growing list of responsibilities, it makes more sense than ever to have this survey dedicated to HTML and all other web platform APIs, now in its third consecutive year. 
+      What's more, survey results will be taken in consideration by browser vendors when deciding on their roadmaps, so participating can help shape the future of the web! 
 
-      And to help us find our way through the fog, none other than web superstar [Lea Verou](https://lea.verou.me/) is back at the helm, having helped curate this year's questions–including 31 (!) new web platform features. 
+      Are you ready? Get, set, go!
 
-      And as with previous years, your answers will have a direct impact on the roadmaps of browser vendors. So once again, get ready to fill out this year's State of HTML survey!
+  # old intro
+  # - key: general.html2025.survey_intro
+  #   t: |
+
+  #     Frontend development is the craft of creating good-looking, accessible, and readable websites.
+
+  #     And on top of that it's also the art of architecturing complex apps with hundreds of components, complex state, and advanced data querying and caching.
+
+  #     But it's *also* how you display 3D graphics, read and write to the filesystem, handle security issues, and improve performance.
+
+  #     So with the web platform's ever-growing list of responsibilities, it makes more sense than ever to have this survey dedicated to HTML and all other web platform APIs, now in its third consecutive year.
+
+  #     And to help us find our way through the fog, none other than web superstar [Lea Verou](https://lea.verou.me/) is back at the helm, having helped curate this year's questions–including 31 (!) new web platform features.
+
+  #     And as with previous years, your answers will have a direct impact on the roadmaps of browser vendors. So once again, get ready to fill out this year's State of HTML survey!
 
   - key: features.features_intro_html2025
     aliasFor: features.features_intro_html2024
