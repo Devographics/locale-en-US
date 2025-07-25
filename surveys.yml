@@ -299,6 +299,10 @@ translations:
     t: >
       Save items here using the "+" button, and you'll get a list of links to learn more about them at the end of the survey.
 
+  - key: readinglist.description2
+    t: >
+      Items you're interested are saved here, and you'll get a list of links to learn more about them at the end of the survey.
+
   - key: readinglist.empty
     t: >
       You don't have any items in your reading list.
