@@ -55,7 +55,7 @@ translations:
   - key: accounts.sign_in
     t: Log in
   - key: accounts.switch_to_sign_up
-    t: Don't have an account ? Sign up
+    t: Don't have an account? Sign up
   - key: accounts.switch_to_sign_in
     t: Already have an account? Log in
   - key: accounts.sign_out
