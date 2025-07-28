@@ -1378,22 +1378,48 @@ translations:
 
   - key: features.layout
     aliasFor: sections.layout.title
+  - key: features.layout.description
+    aliasFor: sections.layout.description
+
   - key: features.shapes_graphics
     aliasFor: sections.shapes_graphics.title
+  - key: features.shapes_graphics.description
+    aliasFor: sections.shapes_graphics.description
+
   - key: features.interactions
     aliasFor: sections.interactions.title
+  - key: features.interactions.description
+    aliasFor: sections.interactions.description
+
   - key: features.typography
     aliasFor: sections.typography.title
+  - key: features.typography.description
+    aliasFor: sections.typography.description
+
   - key: features.accessibility
     aliasFor: sections.accessibility.title
+  - key: features.accessibility.description
+    aliasFor: sections.accessibility.description
+
   - key: features.other_features
     aliasFor: sections.other_features.title
+  - key: features.other_features.description
+    aliasFor: sections.other_features.description
+
   - key: features.colors
     aliasFor: sections.colors.title
+  - key: features.colors.description
+    aliasFor: sections.colors.description
+
   - key: features.selectors
     aliasFor: sections.selectors.title
+  - key: features.selectors.description
+    aliasFor: sections.selectors.description
+
   - key: features.math_features
     aliasFor: sections.math_features.title
+  - key: features.math_features.description
+    aliasFor: sections.math_features.description
 
   # CSS
 

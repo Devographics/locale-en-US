@@ -1323,6 +1323,34 @@ translations:
   - key: charts.show_neutral_sentiment
     t: Show neutral
 
+  # subsets filtering
+
+  - key: charts.subsets.presets
+    t: Presets
+
+  - key: charts.subsets.top_items
+    t: Top Items
+  - key: charts.subsets.top_items.description
+    t: Highlight items that scored the highest in the current year
+
+  - key: charts.subsets.bottom_items
+    t: Bottom Items
+  - key: charts.subsets.bottom_items.description
+    t: Highlight items that scored the lowest in the current year
+
+  - key: charts.subsets.largest_increase
+    t: Largest Increase
+  - key: charts.subsets.largest_increase.description
+    t: Highlight items that saw the largest increase from first to last year
+
+  - key: charts.subsets.largest_decrease
+    t: Largest Decrease
+  - key: charts.subsets.largest_decrease.description
+    t: Highlight items that saw the largest decrease from first to last year
+
+  - key: charts.subsets.sections
+    t: Sections
+
   ###########################################################################
   # Comments
   ###########################################################################
