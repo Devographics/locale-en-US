@@ -220,6 +220,107 @@ translations:
   - key: sections.resources_css.description
     t: What CSS resources do you consult?
 
+  - key: features.pain_points
+    t: Pain Points
+
+  - key: features.all_features
+    t: All Features
+
+  - key: features.features_ratios_over_time
+    t: Features Over Time
+
+  ###########################################################################
+  # Other Tools
+  ###########################################################################
+
+  - key: sections.other_tools.title
+    t: Other Tools
+  - key: sections.other_tools.description
+    t: Other CSS-related tools.
+
+  ###########################################################################
+  # Pain Points
+  ###########################################################################
+
+  # layout
+  - key: features.flexbox_issues
+    t: Flexbox issues
+  - key: features.height_issues
+    t: Height issues
+  - key: features.overflow_issues
+    t: Overflow issues
+  - key: features.positioning_issues
+    t: Positioning issues
+  - key: features.alignment_issues
+    t: Alignment issues
+  - key: features.centering_issues
+    t: Centering issues
+  - key: features.hard_to_memorize
+    t: Remembering correct syntax
+  - key: features.z_index_issues
+    t: Z-index issues
+  - key: features.scrolling_issues
+    t: Scrolling issues
+  - key: features.table_layouts_issues
+    t: Table layout issues
+
+    # shapes & graphics
+  - key: features.shape_issues
+    t: Shape drawing issues
+  - key: features.svg_issues
+    t: SVG issues
+  - key: features.gradient_issues
+    t: Gradient issues
+    aliases:
+      - features.gradients_issues
+
+    # colors
+  - key: features.theming_issues
+    t: Theming issues
+  - key: features.contrast_issues
+    t: Contrast issues
+  - key: features.dark_mode_issues
+    t: Dark mode issues
+  - key: features.color_spaces_issues
+    t: Color spaces issues
+  - key: features.color_variables_issues
+    t: Color variables issues
+  - key: features.color_manipulation_issues
+    t: Color manipulation issues
+  - key: features.color_syntax_issues
+    t: Color syntax issues
+  - key: features.new_color_spaces_adoption_issues
+    t: Slow adoption of new color spaces
+
+  # interactions
+  - key: features.scrolling_issues
+    t: Scrolling issues
+  - key: features.scrollbar_issues
+    t: Scrollbar issues
+
+  # typography
+  - key: features.line_height_issues
+    t: |
+      `line-height` issues
+  - key: features.font_sizing_issues
+    t: Font sizing issues
+
+  # math
+  - key: features.handling_units
+    t: Handling units
+  - key: features.math_is_hard
+    t: Math difficulties
+  - key: features.lack_of_random_function
+    t: |
+      Lack of `random()` function
+
+  # other_features
+  # - key: features.
+  #   t:
+
+  - key: features.excessive_tailwind_use
+    t: Excessive Tailwind Use
+
   ###########################################################################
   # Options
   ###########################################################################
@@ -354,7 +455,7 @@ translations:
   - key: options.css_missing_features.parent_selector.description
     t: The ability to target a parent element based on its children.
   - key: options.css_missing_features.browser_support
-    t: Browser Support
+    aliasFor: features.browser_support
   - key: options.css_missing_features.browser_support.description
     t: Better browser support for existing features.
   - key: options.css_missing_features.mixins
@@ -432,41 +533,6 @@ translations:
     t: CSS Toggle
   - key: options.css_missing_features.css_toggle.description
     t: A way to associate a "toggleable value" with an element
-
-  - key: features.layout_features_ratios
-    t: Layout Features Over Time
-  - key: features.layout_features_ratios.short
-    t: Features Over Time
-
-  - key: features.shapes_graphics_features_ratios
-    t: Math Features Over Time
-  - key: features.shapes_graphics_ratios.short
-    aliasFor: features.layout_features_ratios.short
-
-  - key: features.colors_ratios
-    t: Math Features Over Time
-  - key: features.colors_ratios.short
-    aliasFor: features.layout_features_ratios.short
-
-  - key: features.interactions_ratios
-    t: Math Features Over Time
-  - key: features.interactions_ratios.short
-    aliasFor: features.layout_features_ratios.short
-
-  - key: features.typography_ratios
-    t: Math Features Over Time
-  - key: features.typography_ratios.short
-    aliasFor: features.layout_features_ratios.short
-
-  - key: features.math_features_ratios
-    t: Math Features Over Time
-  - key: features.math_features_ratios.short
-    aliasFor: features.layout_features_ratios.short
-
-  - key: features.other_features_ratios
-    t: Math Features Over Time
-  - key: features.other_features_ratios.short
-    aliasFor: features.layout_features_ratios.short
 
   ###########################################################################
   # Features
@@ -838,6 +904,8 @@ translations:
 
   - key: options.css_frameworks.custom_framework
     t: Custom/in-house framework
+    aliases:
+      - tools.custom_framework
 
   - key: tools.css_in_js
     t: CSS-in-JS
@@ -1098,6 +1166,9 @@ translations:
     aliasFor: features.cascade_layers
   - key: options.css_interoperability_features.scrollbar
     t: Scrollbar styling
+
+  - key: options.css_interoperability_features.safari_unsupported_features
+    t: Safari issues
 
   - key: options.css_interoperability_features.na
     t: None

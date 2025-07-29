@@ -20,8 +20,107 @@ translations:
   - key: features.features_intro_css2025
     aliasFor: features.features_intro_css2024
 
-  - key: features.all_features
-    t: All Features
+  ###########################################################################
+  # Sections Introductions
+  ###########################################################################
+
+  - key: sections.user_info.description.css2025
+    t: |
+      This year's survey reached **5,506** developers throughout the world.
+
+  - key: sections.features.description.css2025
+    t: |
+      It's no secret that CSS is adding new features at a record rate – which is why we ended up asking about no less than *50* of them this year!
+
+  - key: sections.tools.css2025
+    t: Libraries & Tools
+
+  - key: sections.tools.description.css2025
+    t: |
+      Despite the many capabilities unlocked by CSS's new features, developers still rely on tooling and libraries to support their workflow, at least for now.
+
+  - key: sections.usage.description.css2025
+    t: |
+      No matter how you use CSS, the data shows that making sure your code works across all browsers is still a concern, especially for newer features such as `:has()`.
+
+  - key: sections.resources.description.css2025
+    t: |
+      Rest assured: with the amount of new CSS features coming out, we won't run out of material for CSS blog posts, podcasts, videos, and courses anytime soon!
+
+  ###########################################################################
+  # Takeaways
+  ###########################################################################
+
+  # - key: user_info.country.takeaway.css2025
+  #   t: >
+  #     The survey remains U.S.-centric, but European countries continue
+
+  - key: features.all_features.takeaway.css2025
+    t: >
+      Of all the features included in the survey, `:has()` is both the most-used and the most-loved one. Also worth pointing out: **Subgrid** gets second place in the most-loved rankings, while `aspect-ratio` is #2 in usage and #3 in sentiment.
+
+
+      After **Subgrid**, `line-clamp` got the most comments, many of them from respondents with a negative opinion of the feature.
+
+
+      The least-used features were `sibling-count` and `sibling-index`, which makes sense since their browser support is still very new and limited. 
+
+
+      Finally, the least-loved feature overall was **Trigonometric Functions**, mostly due to the “trigonometry” part.
+
+  - key: features.features_ratios_over_time.takeaway.css2025
+    t: >
+      Looking at trends over time and in context paints quite an interesting picture. The feature with the single largest year-over-year usage increase is `text-wrap: pretty`, while the one with the largest *awareness* increase is `light-dark()`.
+
+
+      **Color functions** also stand out for placing towards the bottom of the chart in terms of usage, which might mean they haven't yet found their audience.
+
+
+      Finally, the Appreciation tab lets us look at the difference in positivity between respondents interested in a feature and those who have actually used it. **Anchor positioning** shows a **-12%** drop-off, which could mean that the API isn't as user-friendly as people expect.
+
+  - key: features.layout_pain_points.takeaway.css2025
+    t: >
+      While **Grid** is undeniably powerful, that power also comes with a steep learning curve that can turn using this fairly complex feature into a real pain point. 
+
+
+      Further down the rankings, dealing with height, overflow, positioning, and alignment still all prove to be common issues for CSS developers.
+
+  - key: features.shapes_graphics_pain_points.takeaway.css2025
+    t: >
+      Now that we're fairly comfortable with rectangles, we've started looking towards the wider world of triangles, circles, and polygons. Sadly drawing these **complex shapes** remains tough with CSS only. 
+
+
+      Which is why many of us resort to **SVG**–which is not without its own issues.
+
+  - key: features.colors_pain_points.takeaway.css2025
+    t: >
+      Many respondents would like CSS to go beyond the light/dark dichotomy, and actually provide more tools for managing full-fledged theming, as well as do a better job ensuring proper **contrast** when picking colors.  
+
+
+      And while new color spaces such as `oklch()` are certainly powerful, they also come with their own range of issues.
+
+  - key: features.interactions_pain_points.takeaway.css2025
+    t: >
+      While many of us are waiting for better browser support for **scroll-driven animations**, others are pointing out potential **accessibility issues** with new interaction patterns such as **carousels**.
+
+
+      Another common pain point was the difficulty of “animating to `auto`”, something that is thankfully [now possible](https://developer.chrome.com/docs/css-ui/animate-to-height-auto)!
+
+  - key: features.typography_pain_points.takeaway.css2025
+    t: >
+      Controlling vertical text alignment (a.k.a. **leading**) in the browser has been an issue for as long as I can remember. Thankfully `text-box-edge` and `text-box-trim` promise to give us more granular tools to properly set type online.
+
+  - key: features.math_features_pain_points.takeaway.css2025
+    t: >
+      Many respondents has gripes about `calc()`, especially when it comes to handling units inside calculations.
+
+  - key: features.other_features_pain_points.takeaway.css2025
+    t: >
+      No surprise here, but **Browser Support** remains the top pain point for the CSS features mentioned in this section.
+
+  - key: features.reading_list.takeaway.css2025
+    t: >
+      Little-known `::target-text` (only 82% of respondents had never heard of it) tops the Reading List rankings of the features respondents were most curious about.
 
   ###########################################################################
   # FAQ/About

@@ -112,8 +112,6 @@ translations:
   - key: sections.tools.description
     t: Other JavaScript tools
 
-  - key: sections.other_tools.title
-    t: Other Tools
   - key: sections.other_tools.description
     t: For these tools & technologies, just check the ones that you use regularly.
 

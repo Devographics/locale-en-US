@@ -64,11 +64,6 @@ translations:
   - key: sections.other_features.prompt
     t: Other HTML elements & browser APIs.
 
-  - key: sections.other_tools.title
-    t: Other Tools
-  - key: sections.other_tools.prompt
-    t: Other tools you use as part of your work.
-
   - key: sections.usage.title
     t: Usage
   - key: sections.usage.prompt
@@ -94,8 +89,6 @@ translations:
   - key: sections.system_capabilities.prompt
     t: Accessing device and system APIs.
 
-  - key: sections.other_tools.title
-    t: Other Tools
   - key: sections.other_tools.prompt
     t: Other web-platform-related tools.
 
