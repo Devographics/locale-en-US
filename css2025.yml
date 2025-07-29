@@ -122,6 +122,81 @@ translations:
     t: >
       Little-known `::target-text` (only 82% of respondents had never heard of it) tops the Reading List rankings of the features respondents were most curious about.
 
+  # other_tools
+
+  - key: tools.css_frameworks.takeaway.css2025
+    t: >
+      Tailwind tops the framework rankings, although many also use a custom or in-house framework. 
+
+
+      That being said, it's also worth nothing that **47%** of survey respondents either don't use a framework, or skipped the question altogether.
+
+  - key: tools.css_in_js.takeaway.css2025
+    t: >
+      **CSS Modules**' fairly light touch continues to prove popular, while **Styled Components** still holds on at number two.
+
+  - key: tools.pre_post_processors.takeaway.css2025
+    t: >
+      **Sass** is still number one, but pre-processor usage overall is slowly decreasing as CSS itself adopts more and more of their features.
+
+  - key: tools.utilities.takeaway.css2025
+    t: >
+      Using **Prettier** is a safe bet for any developer–but the list below contains many other lesser-known tools that are also worth checking out.
+
+  - key: tools.browsers.takeaway.css2025
+    t: >
+      When it comes to browsers, the big four are the big four for a reason, and they maintained almost identical usage numbers compared to last year.
+
+  # usage
+
+  - key: usage.form_factors.takeaway.css2025
+    t: >
+      todo
+
+  - key: usage.what_do_you_use_css_for.takeaway.css2025
+    t: >
+      todo
+
+  - key: usage.industry_sector.takeaway.css2025
+    t: >
+      todo
+
+  - key: usage.css_interoperability_features.takeaway.css2025
+    t: >
+      todo
+
+  - key: usage.css_missing_features.takeaway.css2025
+    t: >
+      todo
+
+  - key: usage.css_general_pain_points.takeaway.css2025
+    t: >
+      todo
+
+  - key: usage.favorite_new_features.takeaway.css2025
+    t: >
+      todo
+
+  - key: usage.gamechanger_feature.takeaway.css2025
+    t: >
+      todo
+
+  - key: usage.baseline_awareness.takeaway.css2025
+    t: >
+      todo
+
+  - key: usage.css_pace_of_change.takeaway.css2025
+    t: >
+      todo
+
+  - key: usage.state_of_the_web_happiness.takeaway.css2025
+    t: >
+      todo
+
+  - key: usage.state_of_css_happiness.takeaway.css2025
+    t: >
+      todo
+
   ###########################################################################
   # FAQ/About
   ###########################################################################
