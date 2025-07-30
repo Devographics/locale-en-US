@@ -13,6 +13,22 @@ translations:
 
       So once again, please join me for this year's State of CSS!
 
+  - key: introduction.css2025
+    t: |
+      <span class="first-letter">O</span>ne could be forgiven for being slow to adopt all these new-fangled CSS features. After all, do we really need them? And even if we do, do they even work reliably across browsers?
+
+
+      But as Baseline indicators turn to green one after the other, and satisfaction with new functions and properties remains high, even the most reluctant among us might have to admit that features such as `:has()`, `aspect-ratio`, and Cascade Layers have all earned their spot in our stylesheets. 
+
+
+      The only question is *when*. Too soon, and you'll run head-first into early-adopter pain points. Too late, and you'll miss out on time-saving improvements.
+
+
+      Thankfully there is now a robust ecosystem of tools and resources dedicated to answering this question–starting with this very survey!
+
+
+      <span class="conclusion__byline">– Sacha Greif</span>
+
   ###########################################################################
   # Charts
   ###########################################################################
@@ -63,10 +79,10 @@ translations:
       After **Subgrid**, `line-clamp` got the most comments, many of them from respondents with a negative opinion of the feature.
 
 
-      The least-used features were `sibling-count` and `sibling-index`, which makes sense since their browser support is still very new and limited. 
+      The least-used features were `sibling-count` and `sibling-index`, which makes sense since their browser support is still very new and limited. And the least-loved feature overall was **Trigonometric Functions**… no doubt due to the “trigonometry” part!
 
 
-      Finally, the least-loved feature overall was **Trigonometric Functions**, mostly due to the “trigonometry” part.
+      Finally, be sure to filter by **“Widely Available” Baseline Status** to see what features are available to use right now!
 
   - key: features.features_ratios_over_time.takeaway.css2025
     t: >
@@ -151,23 +167,29 @@ translations:
 
   - key: usage.form_factors.takeaway.css2025
     t: >
-      todo
+      While testing environments don't show much change year over year, it's encouraging to see a small increase in respondents testing with keyboard-only and screen readers.
 
   - key: usage.what_do_you_use_css_for.takeaway.css2025
     t: >
-      todo
+      While CSS started its life as a document layout system, it's now clear that interactive apps represent its primary use case–a fact that has been no doubt driving the language's recent evolution.
 
   - key: usage.industry_sector.takeaway.css2025
     t: >
-      todo
+      Many of us are building tools destined to be used internally within the developer community, which makes it much easier to adopt new features without worrying as much about browser compatibility.
 
   - key: usage.css_interoperability_features.takeaway.css2025
     t: >
-      todo
+      Not only did **Anchor Positioning** keep its number one spot, but the percentage of respondents citing it almost doubled.
+
+
+      The **View Transition API** also climbed to number 3, while **Container style queries** gained a whopping **11 spots** in the rankings.
+
+
+      On the other hand, **CSS Nesting** and `:has()` both lost ground, which makes sense since these features are now supported in all major browsers.
 
   - key: usage.css_missing_features.takeaway.css2025
     t: >
-      todo
+      **Mixins** are still the feature developers wish for the most, closely followed by **Masonry Layout**. Both have long been possible using workarounds such as pre-processors or JavaScript, but it would be nice to see them natively supported in CSS!
 
   - key: usage.css_general_pain_points.takeaway.css2025
     t: >
@@ -175,27 +197,92 @@ translations:
 
   - key: usage.favorite_new_features.takeaway.css2025
     t: >
-      todo
+      While `:has()` is still number one, it did lose a bit of ground, as the **View Transition API** and especially **Anchor Positioning** (which gained 8 spots) start seeing wider adoption.
 
   - key: usage.gamechanger_feature.takeaway.css2025
     t: >
-      todo
+      Every new CSS feature has its use, but only a few of them are real game-changers. It turns out **Grid**, `:has()`, and **CSS Nesting** are the features that most changed how we write CSS in recent years.
 
   - key: usage.baseline_awareness.takeaway.css2025
     t: >
-      todo
+      We wanted to see how familiar respondents are with the Baseline browser compatibility indicator (which you can see in use throughout these very survey results!).
+
+
+      Despite our clever traps in the form of fake answers, the vast majority of you successfuly negotiated the question!
 
   - key: usage.css_pace_of_change.takeaway.css2025
     t: >
-      todo
+      Adopting a new feature is usually a multi-stage process: first, you hear about it a few times over the course of months or years, until you form a solid idea of what it does. Then, you might try it out on an experimental side project, before finally adopting it in production. 
+
+
+      This chart shows that most of us are squarely in the middle of this journey, having learned about and tried out only part of the feature set presented in this survevy.
 
   - key: usage.state_of_the_web_happiness.takeaway.css2025
     t: >
-      todo
+      Happiness with the web has been fairly stable over the past years, neither going up or down.
 
   - key: usage.state_of_css_happiness.takeaway.css2025
     t: >
-      todo
+      On the other hand, happiness with CSS specifically shows a clear upwards trend in recent years, which happens to align nicely with the language's own rapid pace of improvement.
+
+  # resources
+  - key: resources.podcasts.takeaway.css2025
+    t: >
+      **Syntax** still rules the podcast landscape, and it even found a way to add a sizable **+8%** listeners! 
+
+
+      Honorable mentions go to **Kevin Powell's podcast** and **Podrocket**, both of which gained 4 places.
+
+  - key: resources.video_creators.takeaway.css2025
+    t: >
+      **Kevin Powell** has carved out a niche as the CSS king of YouTube, but creators with a more generalist focus such as **Theo** and **The Primeagen** are hot on his heels. 
+
+
+      **Syntax** is also continuing its successful transition to video, gaining **5%** and **5 ranks** compared to last year.
+
+  - key: resources.people.takeaway.css2025
+    t: >
+      **Josh**, **Kevin**, **Adam**, and **Una** continue to dominate the top of the CSS influencer rankings–as shown by the fact that you knew who I was talking about without even mentioning their last names.
+
+  - key: resources.web_platform_resources.takeaway.css2025
+    t: >
+      **MDN** is a wonderful free resource to learn about CSS, but it's by no means the only one, as shown by this short list of useful links.
+
+  - key: resources.other_surveys.takeaway.css2025
+    t: >
+      TODO
+
+  ###########################################################################
+  # Awards
+  ###########################################################################
+
+  - key: award.most_used_feature_award.comment
+    t: |
+      With {value}% usage, `:has*()` has been widely adopted by the community!
+
+  - key: award.least_used_feature_award.comment
+    t: |
+      With only {value}% usage, `sibling-count` is still far from mainstream.
+
+  - key: award.most_loved_feature_award.comment
+    t: |
+      With {value}% of respondents having a positive impression of `:has()`, it takes the top spot in our rankings.
+
+  - key: award.most_hated_feature_award.comment
+    t: |
+      Only {value}% of respondents truly hate trigonometry, yet that's enough to put **Trigonometric Functions** dead last in terms of being loved :(
+
+  - key: award.largest_awareness_progression_award.comment
+    t: |
+      Compared to last year, {value}% more respondents are no longer in the dark about `light-dark()`!
+
+  - key: award.largest_usage_progression_award.comment
+    t: |
+      With a {value}% usage increase, `text-wrap: pretty` is doing pretty, pre-tttttyyyy good!
+
+  - key: award.most_commented_feature_award.comment
+    t: |
+      **Subgrid** got over {value} comments, in part because it appeared early on in the survey, but also because it's definitely a praise-worthy feature!
 
   ###########################################################################
   # FAQ/About
@@ -221,3 +308,55 @@ translations:
     t: When will the results be released?
   - key: faq.results_released_css2025.description
     t: The survey will run from June 1 to July 1, 2025, and the survey results will be released shortly after.
+
+  - key: about.content
+    t: >
+      The 2025 State of CSS survey ran from June 1 to July 1 2025, and collected 5,506 responses. The survey is run by [Devographics](https://www.devographics.com/), with help from a team of open-source contributors and consultants. 
+
+
+      The State of CSS logo and t-shirt were designed and animated by [Christopher Kirk-Nielsen](http://chriskirknielsen.com/).
+
+
+      ### Survey Goals
+
+      This survey was created to identify upcoming trends in the web development ecosystem in order to help developers make technological choices. 
+
+
+      As such, this survey is focused on anticipating what's coming over the next few years rather than analyzing what's popular now, which is why the features or technologies that are currently most widespread are not always included. 
+
+
+      Additionally, survey data is also used by browser vendors to prioritize features and inform initiatives such as [Interop 2025](https://web.dev/blog/interop-2025).
+
+
+      ### Survey Design
+
+      This survey was designed collaboratively [on GitHub](https://github.com/Devographics/surveys/issues/245).
+
+      ### Survey Audience
+
+      The survey was openly accessible online and respondents were not filtered or selected in any way. Respondents were primarily a mix of respondents from past surveys (alerted through a dedicated mailing list) and social media traffic. 
+
+      ### Project Funding
+
+      Apart from t-shirt sales, funding from this project comes from a variety of sources:
+
+      - Our partner [Frontend Masters](https://frontendmasters.com/) sponsors the survey in exchange for featuring relevant links to their courses at the bottom of each page.
+
+      - The [Google Chrome](https://www.google.com/chrome/) team set aside a sponsoring budget this year to help design and run the survey.
+
+      - [TokyoDev](https://www.tokyodev.com/) is also sponsoring the survey on an ongoing basis. 
+
+      ### Technical Overview
+
+      You can find a more in-depth technical overview of how the surveys are run [here](https://dev.to/sachagreif/how-the-devographics-surveys-are-run-2023-edition-1p6a). Our code is [open-source](https://github.com/Devographics/Monorepo/). 
+
+      ### Feedback
+
+
+      - [Report a technical issue](https://github.com/Devographics/Monorepo/issues)
+
+      - [Make a suggestion for next year](https://github.com/Devographics/surveys/issues/249)
+
+      - [Other non-technical issues](https://github.com/Devographics/surveys/issues)
+
+      - [Join our Discord](https://discord.gg/tuWRUWVyJs)

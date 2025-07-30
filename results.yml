@@ -1323,6 +1323,20 @@ translations:
   - key: charts.show_neutral_sentiment
     t: Show neutral
 
+  # other bucket
+  - key: charts.other_bucket.percents.positive
+    t: |
+      +{value}% higher compared to last survey
+  - key: charts.other_bucket.percents.negative
+    t: |
+      -{value}% lower compared to last survey
+  - key: charts.other_bucket.ranks.positive
+    t: |
+      +{value} ranks gained
+  - key: charts.other_bucket.ranks.negative
+    t: |
+      -{value} ranks lost
+
   # subsets filtering
 
   - key: charts.subsets.presets
@@ -1614,6 +1628,21 @@ translations:
     t: Most Loved Feature
   - key: award.most_loved_feature_award.description
     t: Awarded to the feature with the highest proportion of positive opinions.
+
+  - key: award.most_hated_feature_award.title
+    t: Most Hated Feature
+  - key: award.most_hated_feature_award.description
+    t: Awarded to the feature with the highest proportion of negative opinions.
+
+  - key: award.largest_awareness_progression_award.title
+    t: Largest Awareness Increase
+  - key: award.largest_awareness_progression_award.description
+    t: Awarded to the feature with the largest year-over-year awareness increase.
+
+  - key: award.largest_usage_progression_award.title
+    t: Largest Usage Increase
+  - key: award.largest_usage_progression_award.description
+    t: Awarded to the feature with the largest year-over-year usage increase.
 
   ###########################################################################
   # Hints
@@ -2260,6 +2289,13 @@ translations:
   - key: charts.filtered_by_value
     t: >
       Filtered by “{value}”
+
+  - key: charts.filter_by.sections
+    t: |
+      Category:
+  - key: charts.filter_by.baseline
+    t: |
+      Baseline Status:
 
   - key: charts.toggle_view
     t: >

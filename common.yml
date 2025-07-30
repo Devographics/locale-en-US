@@ -1988,10 +1988,23 @@ translations:
     t: Learn more
   - key: baseline.support.false
     t: Limited Availability
+  - key: baseline.support.false.description
+    t: Only supported in some browsers.
+
   - key: baseline.support.low
     t: Newly Available
+  - key: baseline.support.low.description
+    t: Supported in all four major browsers.
+
   - key: baseline.support.high
     t: Widely Available
+  - key: baseline.support.high.description
+    t: 30 months since becoming newly available.
+
+  - key: baseline.support.unknown
+    t: Unknown
+  - key: baseline.support.unknown.description
+    t: No Baseline data available.
 
   - key: feature.experimental
     t: Unsupported feature or proposal
