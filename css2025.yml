@@ -258,27 +258,27 @@ translations:
 
   - key: award.most_used_feature_award.comment
     t: |
-      With {value}% usage, `:has*()` has been widely adopted by the community!
+      With {value} usage, `:has()` has been widely adopted by the community!
 
   - key: award.least_used_feature_award.comment
     t: |
-      With only {value}% usage, `sibling-count` is still far from mainstream.
+      With only {value} usage, `sibling-count` is still far from mainstream.
 
   - key: award.most_loved_feature_award.comment
     t: |
-      With {value}% of respondents having a positive impression of `:has()`, it takes the top spot in our rankings.
+      With {value} of respondents having a positive impression of `:has()`, it takes the top spot in our rankings.
 
   - key: award.most_hated_feature_award.comment
     t: |
-      Only {value}% of respondents truly hate trigonometry, yet that's enough to put **Trigonometric Functions** dead last in terms of being loved :(
+      Only {value} of respondents truly hate trigonometry, yet that's enough to put **Trigonometric Functions** dead last in terms of being loved :(
 
   - key: award.largest_awareness_progression_award.comment
     t: |
-      Compared to last year, {value}% more respondents are no longer in the dark about `light-dark()`!
+      Compared to last year, {value} more respondents are no longer in the dark about `light-dark()`!
 
   - key: award.largest_usage_progression_award.comment
     t: |
-      With a {value}% usage increase, `text-wrap: pretty` is doing pretty, pre-tttttyyyy good!
+      With a {value} usage increase, `text-wrap: pretty` is doing pretty, pretty good!
 
   - key: award.most_commented_feature_award.comment
     t: |

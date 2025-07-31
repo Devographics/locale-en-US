@@ -1202,6 +1202,13 @@ translations:
   - key: options.css_pain_points.na
     t: None
 
+  - key: options.css_general_pain_points.layout_and_positioning_issues
+    t: Layout & positioning
+  - key: options.css_general_pain_points.excessive_tailwind_use
+    t: Excessive Tailwind usage
+  - key: options.css_general_pain_points.hard_to_memorize
+    t: Hard-to-remember syntax
+
   # Missing Features
   - key: opinions.css_missing_features
     t: What do you feel is currently missing from CSS?
