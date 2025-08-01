@@ -193,7 +193,7 @@ translations:
 
   - key: usage.css_general_pain_points.takeaway.css2025
     t: >
-      todo
+      **Browser Support** may still be the dominant CSS pain point in 2025, but the fact that only a relatively small 10% of question respondents mentioned it is a testament to recent improvements in this domain.
 
   - key: usage.favorite_new_features.takeaway.css2025
     t: >
@@ -311,7 +311,7 @@ translations:
 
   - key: about.content
     t: >
-      The 2025 State of CSS survey ran from June 1 to July 1 2025, and collected 5,506 responses. The survey is run by [Devographics](https://www.devographics.com/), with help from a team of open-source contributors and consultants. 
+      The 2025 State of CSS survey ran from June 1 to July 15 2025, and collected 5,506 responses. The survey is run by [Devographics](https://www.devographics.com/), with help from a team of open-source contributors and consultants. 
 
 
       The State of CSS logo and t-shirt were designed and animated by [Christopher Kirk-Nielsen](http://chriskirknielsen.com/).
