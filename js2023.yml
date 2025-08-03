@@ -370,7 +370,7 @@ translations:
   # FAQ/About
   ###########################################################################
 
-  - key: about.content
+  - key: about.content.js2023
     t: |
       The 2023 State of JavaScript survey ran from November 22 to December 12 2023, and collected 23,540 responses. The results were published on June 20, 2024. The survey is run by [Devographics](https://devographics.com/), a collective consisting of me ([Sacha Greif](https://sachagreif.com/)) and [Eric Burel](https://www.lbke.fr/), as well as invited experts and open-source contributors. 
 

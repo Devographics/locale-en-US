@@ -557,7 +557,7 @@ translations:
   # FAQ/About
   ###########################################################################
 
-  - key: about.content
+  - key: about.content.devs2025
     t: |
       The 2025 State of Devs survey ran from April 15 to May 15 2025, and collected 8,717 responses. The results were published on June 20, 2025. The survey is run by [Devographics](https://devographics.com/).
 

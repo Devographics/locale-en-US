@@ -355,7 +355,7 @@ translations:
   # FAQ/About
   ###########################################################################
 
-  - key: about.content
+  - key: about.content.js2024
     t: |
       The 2024 State of JavaScript survey ran from November 13 to December 10 2024, and collected 14,015 responses. The results were published on December 16, 2024. The survey is run by [Devographics](https://devographics.com/), a collective consisting of me ([Sacha Greif](https://sachagreif.com/)) and [Eric Burel](https://www.lbke.fr/), as well as invited experts and open-source contributors. 
 

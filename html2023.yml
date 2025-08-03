@@ -157,7 +157,7 @@ translations:
   # About
   ###########################################################################
 
-  - key: about.content
+  - key: about.content.html2023
     t: |
       The 2023 State of HTML survey ran from September 19 to October 19 2023, and collected 20,904 responses. 
 

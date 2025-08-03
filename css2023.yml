@@ -450,7 +450,7 @@ translations:
   # FAQ/About
   ###########################################################################
 
-  - key: about.content
+  - key: about.content.css2023
     t: >
       The 2023 State of CSS survey ran from June 15 to July 15 2023, and collected 9,108 responses. The survey is run by [Devographics](https://www.devographics.com/), with help from a team of open-source contributors and consultants. 
 

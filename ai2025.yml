@@ -290,7 +290,7 @@ translations:
   # FAQ/About
   ###########################################################################
 
-  - key: about.content
+  - key: about.content.ai2025
     t: |
       The 2025 State of Web Dev AI survey ran from February 10 to March 10 2025, and collected 4,181 responses. The results were published on April 15, 2025. The survey is run by [Devographics](https://devographics.com/), with help from invited domain experts and open-source contributors. 
 

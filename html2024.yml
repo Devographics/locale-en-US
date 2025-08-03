@@ -491,7 +491,7 @@ translations:
     t: >
       The survey's goals are to measure awareness of new HTML features and browser APIs, and help developers keep track of how their usage is evolving.
 
-  - key: about.content
+  - key: about.content.html2024
     t: |
       The 2024 State of HTML survey ran from September 12 to November 5 2024, and collected 5,402 responses. 
 

@@ -291,7 +291,7 @@ translations:
   # FAQ/About
   ###########################################################################
 
-  - key: about.content
+  - key: about.content.graphql2022
     t: >
       The 2022 State of GraphQL survey ran from June 15, 2022 to July 15, 2022, and collected 3,094 responses. The survey is primarily run by me, [Sacha Greif](https://sachagreif.com/), with help from a team of open-source contributors and consultants. 
 

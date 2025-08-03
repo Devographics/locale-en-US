@@ -467,7 +467,7 @@ translations:
   - key: faq.results_released_react2023.description
     t: The survey will run from October 27 to November 15, and the survey results will be released shortly after that.
 
-  - key: about.content
+  - key: about.content.react2023
     t: |
       The 2023 State of React survey ran from October 27 to November 15 2023, and collected 13,003 responses. The results were published on July 20, 2024. The survey is run by [Devographics](https://devographics.com/), a collective consisting of me ([Sacha Greif](https://sachagreif.com/)) and [Eric Burel](https://www.lbke.fr/), as well as invited experts and open-source contributors. 
 

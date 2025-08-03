@@ -309,7 +309,7 @@ translations:
   - key: faq.results_released_css2025.description
     t: The survey will run from June 1 to July 1, 2025, and the survey results will be released shortly after.
 
-  - key: about.content
+  - key: about.content.css2025
     t: >
       The 2025 State of CSS survey ran from June 1 to July 15 2025, and collected 5,506 responses. The survey is run by [Devographics](https://www.devographics.com/), with help from a team of open-source contributors and consultants. 
 

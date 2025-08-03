@@ -493,7 +493,7 @@ translations:
   - key: faq.results_released_css2024.description
     t: The survey will run from August 17 to September 7, 2024, and the survey results will be released shortly after.
 
-  - key: about.content
+  - key: about.content.css2024
     t: >
       The 2024 State of CSS survey ran from August 17 to September 12 2024, and collected 9,704 responses. The survey is run by [Devographics](https://www.devographics.com/), with help from a team of open-source contributors and consultants. 
 

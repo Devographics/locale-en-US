@@ -670,7 +670,7 @@ translations:
   - key: faq.results_released_react2024.description
     t: The survey will run from October 19 to November 19, and the survey results will be released shortly after that.
 
-  - key: about.content
+  - key: about.content.react2024
     t: |
       The 2024 State of React survey ran from October 19 to November 19 2024, and collected 7,870 responses. The results were published on February 10, 2025. The survey is run by [Devographics](https://devographics.com/). 
 
