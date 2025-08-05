@@ -193,7 +193,7 @@ translations:
   # Picks
   ###########################################################################
 
-  - key: picks.my_pick
+  - key: picks.my_pick.graphql2022
     t: "My 2022 Pick: "
   - key: picks.intro
     t: We asked members of the GraphQL community to share their “pick of the year”

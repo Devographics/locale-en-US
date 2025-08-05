@@ -360,3 +360,104 @@ translations:
       - [Other non-technical issues](https://github.com/Devographics/surveys/issues)
 
       - [Join our Discord](https://discord.gg/tuWRUWVyJs)
+
+  ###########################################################################
+  # Picks
+  ###########################################################################
+
+  - key: picks.my_pick.css2025
+    t: "My 2025 Pick: "
+  - key: picks.intro
+    t: We asked members of the CSS community to share their “pick of the year”
+
+  # https://linear-easing-generator.netlify.app/
+  - key: picks.josh_comeau.name
+    t: |
+      `linear()` Easing Generator
+  - key: picks.josh_comeau.bio
+    t: Indie developer and educator
+  - key: picks.josh_comeau.description
+    t: |
+      Description: The `linear()` timing function has quickly become one of my favourite modern features, and this lovely tool makes it easy to quickly generate CSS springs from JS logic!
+
+  # https://developer.mozilla.org/en-US/docs/Web/CSS/if
+  - key: picks.ahmad_shadeed.name
+    t: |
+      `if()`
+  - key: picks.ahmad_shadeed.bio
+    t: Design Engineer, Author of [debuggingcss.com](https://debuggingcss.com)
+  - key: picks.ahmad_shadeed.description
+    t: |
+      Combined with `:has()` and style queries, `if()` will help us do even more conditional stuff in CSS.
+
+  # https://developer.mozilla.org/en-US/docs/Web/CSS/text-wrap
+  - key: picks.kilian_valkhof.name
+    t: |
+      `text-wrap: balance;`
+  - key: picks.kilian_valkhof.bio
+    t: Creator of [Polypane](https://polypane.app/)
+  - key: picks.kilian_valkhof.description
+    t: |
+      I can’t remember the last time a new CSS property was introduced that I could just add to any stylesheet new and old. It’s a little magic one liner that makes your titles much nicer with zero downsides. Add it to your css resets!
+
+    # https://codepen.io/thebabydino/pen/LEExpVg
+  - key: picks.ana_tudor.name
+    t: Combining features
+  - key: picks.ana_tudor.bio
+    t: CSS Mad Scientist
+  - key: picks.ana_tudor.description
+    t: |
+      My pick not as much a single feature that changes things, as it is the way multiple features can be used together.
+
+      For example, subgrid + the new `corner-shape` (or the `shape()` clip-path function) to get content-dependant shapes with concave roundings that aren't necessarily circular.
+
+  # https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Values_and_Units/Using_CSS_math_functions
+  - key: picks.amit_sheen.name
+    t: CSS Math Functions
+  - key: picks.amit_sheen.bio
+    t: Web Developer & Creative Coder
+  - key: picks.amit_sheen.description
+    t: |
+      Math is the language of the universe, of life itself, and without it, we wouldn’t be able to describe, measure, or build anything with clarity. 
+
+      So the fact that we can now use these functions natively in CSS only strengthens our capabilities and opens up a whole world of new possibilities.
+
+  # https://miocene.io/
+  - key: picks.sacha_greif.name
+    t: Julia Miocene
+  - key: picks.sacha_greif.bio
+    t: Maintainer, State of CSS
+  - key: picks.sacha_greif.description
+    t: |
+      When you spend days on end debugging a layout or styling forms, it's easy to forget that front end coding can also be enjoyed for its own sake. Julia's amazing work is a great reminder of the joy and creativity that can be found in CSS, if you just take the time to look.
+
+  # https://developer.mozilla.org/en-US/docs/Web/API/View_Transition_API
+  - key: picks.julia_miocene.name
+    t: View Transition API
+  - key: picks.julia_miocene.bio
+    t: Product Designer, UX Engineer, Pure CSS Animator
+  - key: picks.julia_miocene.description
+    t: |
+      My pick of the year is the View Transition API. It helped me get rid of JS code and complex animation tricks. Now I can animate generated content and user interactions with ease ✨
+
+  # - key: picks.xxx.name
+  #   t:
+  # - key: picks.xxx.bio
+  #   t:
+  # - key: picks.xxx.description
+  #   t: |
+
+  # - key: picks.xxx.name
+  #   t:
+  # - key: picks.xxx.bio
+  #   t:
+  # - key: picks.xxx.description
+  #   t: |
+
+  - key: frontendmasters.learning_path
+    t: |
+      Your Path to Becoming a Senior Web Developer
+
+  - key: frontendmasters.learning_path.description
+    t: |
+      Want to upgrade your career? Deep-dive into JavaScript, React, Web performance, CSS, deploying websites, TypeScript, and functional programming to go from junior to senior today.

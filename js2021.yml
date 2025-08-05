@@ -197,7 +197,7 @@ translations:
   # Picks
   ###########################################################################
 
-  - key: picks.my_pick
+  - key: picks.my_pick.js2021
     t: "My 2021 Pick: "
   - key: picks.intro
     t: We asked members of the JavaScript community to share their “pick of the year”
