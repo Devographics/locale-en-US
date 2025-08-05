@@ -1,5 +1,9 @@
 locale: en-US
 translations:
+  - key: general.css2025.html2025_banner
+    t: |
+      Take the State of HTML survey and help shape the future of the web! →
+
   - key: general.css2025.survey_intro
     t: |
 
@@ -440,12 +444,15 @@ translations:
     t: |
       My pick of the year is the View Transition API. It helped me get rid of JS code and complex animation tricks. Now I can animate generated content and user interactions with ease ✨
 
-  # - key: picks.xxx.name
-  #   t:
-  # - key: picks.xxx.bio
-  #   t:
-  # - key: picks.xxx.description
-  #   t: |
+  # https://modern-fluid-typography.vercel.app/
+  - key: picks.ana_rodrigues.name
+    t: |
+      Font Clamp Generators
+  - key: picks.ana_rodrigues.bio
+    t: Front-end developer at [Hactar.is](https://hactar.is/)
+  - key: picks.ana_rodrigues.description
+    t: |
+      My pick of the year is all the font clamp generators that people have been creating and sharing. What’s great about them is that they are all so different so it accommodates different learning styles. Especially, if reading documentation alone doesn’t help understanding how something works.
 
   # - key: picks.xxx.name
   #   t:
@@ -461,3 +468,37 @@ translations:
   - key: frontendmasters.learning_path.description
     t: |
       Want to upgrade your career? Deep-dive into JavaScript, React, Web performance, CSS, deploying websites, TypeScript, and functional programming to go from junior to senior today.
+
+  # figures
+
+  - key: figure.figure_has_usage.css2025
+    t: Percentage of respondents who have used `:has()`.
+
+  - key: figure.figure_light_dark_awareness.css2025
+    t: Year-over-year increase in respondents who had heard about `light-dark()`.
+
+  ###########################################################################
+  # Conclusion
+  ###########################################################################
+
+  - key: conclusion.css2025.amit_sheen
+    t: |
+
+      <span class="first-line">This is not the CSS we used to know (and that's a good thing).</span>
+
+      Looking through the survey results, it's clear that CSS is no longer “just” a styling language. It has made a fundamental shift in direction, taking on a larger role when it comes to layouts, motion, compatibility, and of course, accessibility. This shift helps redefine CSS’s identity not as a legacy styling language, but as a modern, expressive toolset that is finally getting the recognition it deserves.
+
+      This shift has changed how we write CSS. Interactive web apps have overtaken static pages as the primary use case, native language features are replacing many framework and preprocessor abstractions, and the broader support across browsers has given developers the confidence to explore new capabilities. People are more willing to experiment now, testing features soon after they appear because they trust that improvements in standards and tooling will make adoption smoother.
+
+      Another emblem of this transformation, one that the survey did not dwell on, is the newly redesigned CSS logo. For me it represents the start of a new chapter: the language has shed the number three from its badge and with it the notion of being anchored to a past version. In its place is a fresh, modern mark that signals confidence and readiness to move toward a brighter future.
+
+      Even with that sense of renewal, the survey also reminds us where CSS still falls short. Despite the progress, many respondents still struggle with complex layout issues and the speed of change, and say that controlling height, overflow and alignment can be frustrating. There is a clear appetite for features like mixins, masonry layout and conditional logic that would bring more of the conveniences of preprocessors into the language itself. And while browser differences no longer dominate the complaint list, they have not disappeared entirely, so there is still work to do.
+
+      Alongside those challenges, the survey highlights several successes. The `:has` selector, container queries and `subgrid` have moved from wish lists to everyday practice, and respondents rank them among the most loved features. New initiatives such as the Baseline indicator and the Interop project have boosted confidence that new capabilities will mature quickly, making early adoption feel less risky. That growing trust in the language and its ecosystem helps explain why satisfaction with CSS keeps climbing even as overall happiness with web technologies has held steady.
+
+      Looking ahead, this moment feels like a beginning rather than an end. The survey shows a community that is ready to adopt new tools, eager to address remaining gaps and confident that the language will keep evolving. If we carry that curiosity and collaboration forward, CSS will continue to grow in ways we can barely imagine today and the next survey will reflect an even richer landscape.
+
+      If 2025 was about stabilizing the impossible, 2026 may be about realizing long‑awaited dreams. For those who love CSS, there has never been a better time to experiment, learn and help shape what comes next.
+
+  - key: conclusion.css2025.amit_sheen.bio
+    t: Web Developer & Creative Coder
