@@ -433,7 +433,7 @@ translations:
     t: Maintainer, State of CSS
   - key: picks.sacha_greif.description
     t: |
-      When you spend days on end debugging a layout or styling forms, it's easy to forget that front end coding can also be enjoyed for its own sake. Julia's amazing work is a great reminder of the joy and creativity that can be found in CSS, if you just take the time to look.
+      When you spend days on end debugging a layout or styling forms, it's easy to forget that front-end coding can also be enjoyed for its own sake. Julia's amazing work is a great reminder of the joy and creativity that can be found in CSS, if you just take the time to look for it.
 
   # https://developer.mozilla.org/en-US/docs/Web/API/View_Transition_API
   - key: picks.julia_miocene.name
