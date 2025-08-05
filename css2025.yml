@@ -469,13 +469,21 @@ translations:
     t: |
       Want to upgrade your career? Deep-dive into JavaScript, React, Web performance, CSS, deploying websites, TypeScript, and functional programming to go from junior to senior today.
 
-  # figures
+  ###########################################################################
+  # Figures
+  ###########################################################################
 
   - key: figure.figure_has_usage.css2025
     t: Percentage of respondents who have used `:has()`.
 
   - key: figure.figure_light_dark_awareness.css2025
-    t: Year-over-year increase in respondents who had heard about `light-dark()`.
+    t: Year-over-year percentage increase in respondents who had heard about `light-dark()`.
+
+  - key: figure.figure_css_in_js.css2025
+    t: Percentage of survey respondents who use a CSS-in-JS library.
+
+  - key: figure.figure_anchor_positioning.css2025
+    t: Year-over-year percentage increase in respondents who wish they could use Anchor Positioning.
 
   ###########################################################################
   # Conclusion
