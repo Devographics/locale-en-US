@@ -146,7 +146,7 @@ translations:
 
   - key: tools.css_frameworks.takeaway.css2025
     t: >
-      Tailwind tops the framework rankings, although many also use a custom or in-house framework. 
+      Tailwind tops the framework rankings, and it seems to appeal to slightly less experienced developers (10 years of median experience), while more experienced respondents use a custom or in-house framework (15 years of median experience). 
 
 
       That being said, it's also worth nothing that **47%** of survey respondents either don't use a framework, or skipped the question altogether.
@@ -172,6 +172,9 @@ translations:
   - key: usage.form_factors.takeaway.css2025
     t: >
       While testing environments don't show much change year over year, it's encouraging to see a small increase in respondents testing with keyboard-only and screen readers.
+
+
+      It's also interesting to note that when comparing with company size, larger companies tend to test using screen readers at a higher rate.
 
   - key: usage.what_do_you_use_css_for.takeaway.css2025
     t: >
@@ -212,7 +215,7 @@ translations:
       We wanted to see how familiar respondents are with the Baseline browser compatibility indicator (which you can see in use throughout these very survey results!).
 
 
-      Despite our clever traps in the form of fake answers, the vast majority of you successfuly negotiated the question!
+      Despite our clever traps in the form of fake answers, the vast majority of you successfuly negotiated the question! Younger respondents in particular showed higher awareness of Baseline, no doubt due to the recent Baseline integration in Fortnite (…just kidding).
 
   - key: usage.css_pace_of_change.takeaway.css2025
     t: >
@@ -246,7 +249,7 @@ translations:
 
   - key: resources.people.takeaway.css2025
     t: >
-      **Josh**, **Kevin**, **Adam**, and **Una** continue to dominate the top of the CSS influencer rankings–as shown by the fact that you knew who I was talking about without even mentioning their last names.
+      **Josh**, **Kevin**, **Adam**, and **Una** continue to dominate the top of the CSS influencer rankings–as shown by the fact that you knew who I was talking about without me even mentioning their last names.
 
   - key: resources.web_platform_resources.takeaway.css2025
     t: >
@@ -254,7 +257,7 @@ translations:
 
   - key: resources.other_surveys.takeaway.css2025
     t: >
-      TODO
+      While respondents mostly participate in the other “State of” surveys as well as the **Stack Overflow** survey, the **JetBrains Developer Ecosystem Survey** is also worth knowing about.
 
   ###########################################################################
   # Awards
@@ -454,12 +457,24 @@ translations:
     t: |
       My pick of the year is all the font clamp generators that people have been creating and sharing. What’s great about them is that they are all so different so it accommodates different learning styles. Especially, if reading documentation alone doesn’t help understanding how something works.
 
-  # - key: picks.xxx.name
-  #   t:
-  # - key: picks.xxx.bio
-  #   t:
-  # - key: picks.xxx.description
-  #   t: |
+  # https://piccalil.li/blog/
+  - key: picks.saron_yitbarek.name
+    t: Picalilli
+  - key: picks.saron_yitbarek.bio
+    t: Web Evangelist at Apple
+  - key: picks.saron_yitbarek.description
+    t: |
+      I've been following Piccalili for a while and I love that they have free technical articles alongside more in-depth paid courses so you can pick what flavor of learning you're up for. And as a business, they're so thoughtful about understanding the web community and making ethical business decisions that allow them to do great work without feeling icky about how they make money.
+
+  # https://developer.mozilla.org/en-US/docs/Web/CSS/color_value/light-dark
+  - key: picks.sara_joy.name
+    t: |
+      The `light-dark()` Function
+  - key: picks.sara_joy.bio
+    t: Front End Developer
+  - key: picks.sara_joy.description
+    t: |
+      Once using `color-scheme` in CSS, using `light-dark()` to declare colors based upon whether light or dark mode is currently in use feels like a no-brainer. I'm currently enjoying following [this discussion thread](https://github.com/w3c/csswg-drafts/issues/10577) about what further logic we may use in the future, to query color-scheme and change CSS conditionally.
 
   - key: frontendmasters.learning_path
     t: |

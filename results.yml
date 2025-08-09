@@ -84,12 +84,18 @@ translations:
     t: White vs Non-White
   - key: tabs.by_age
     t: By Age
+  - key: tabs.vs_age
+    t: vs. Age
   - key: tabs.by_remote_work_policy
     t: By Remote Work
   - key: tabs.vs_job_happiness
     t: vs. Job Happiness
   - key: tabs.developers_engineers
     t: Developers vs Engineers
+  - key: tabs.by_os
+    t: By Operating System
+  - key: tabs.vs_company_size
+    t: vs. Company Size
 
   ###########################################################################
   # Options
