@@ -2412,3 +2412,6 @@ translations:
 
   - key: sponsors.jetbrains.description
     t: A rich suite of tools that provide an exceptional developer experience.
+
+  - key: sponsors.webstorm.description
+    t: Enjoy more productive coding with the JavaScript IDE that has everything you need.
