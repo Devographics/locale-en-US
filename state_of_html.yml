@@ -11,10 +11,10 @@ translations:
       While web developers tend to focus on JavaScript and CSS, none of what we do would be possible without HTML acting as the foundation.
 
       It has long seemed like HTML wasn't evolving, but things may be changing.
-      New elements like `<selectlist>` are on the horizon, cool new features like popovers,
-      and a swath of related browser APIs (Web Components, PWAs, etc.).
+      New elements, new features,
+      and new browser APIs are now being added to the web platform on a yearly basis. 
 
-      Building on the success of [State of JS](http://stateofjs.com/) and [State of CSS](https://stateofcss.com/), we introduce **State of HTML**;
+      So building on the success of [State of JS](http://stateofjs.com/) and [State of CSS](https://stateofcss.com/), it only made sense to add the **State of HTML** survey;
       the last missing piece that completes the trilogy, so we can track the evolution of the web platform as a whole.
 
   - key: general.state_of_html.description
