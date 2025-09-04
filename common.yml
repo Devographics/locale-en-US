@@ -1700,6 +1700,7 @@ translations:
   - key: user_info.email.note
     t: >
       We do not store any personal data, so after you fill in your email address we will use it to generate a unique anonymized identifier and then delete the address itself from our records.
+
   - key: user_info.country
     t: Country or Region
   - key: user_info.country.question
