@@ -208,6 +208,36 @@ translations:
       I have used {usage_count} features, and knew {awareness_count} more,
       placing me in the top {rank}% of all respondents.
       Can you beat my score? {shareUrl}
+
+  # survey finish page
+
+  - key: finish.copy
+    t: Copy
+  - key: finish.copied
+    t: Copied!
+
+  - key: finish.goal_heading
+    t: Help us reach our goal!
+
+  - key: finish.goal_heading.description
+    t: This year, we'd like to get a least **{count} survey responses** to make our data even more representative and accurate.
+
+  - key: finish.goal_currently
+    t: >
+      Currently:
+
+  - key: finish.goal_responses
+    t: responses
+
+  - key: finish.share_colleagues
+    t: 1. Share with your friends or colleagues
+
+  - key: finish.share_colleagues.description
+    t: Share on Slack, Discord, Teams, etc.
+
+  - key: finish.share_social
+    t: 2. Share on social media
+
   # share
   - key: general.share_subject
     t: >
