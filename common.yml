@@ -217,23 +217,27 @@ translations:
     t: Copied!
 
   - key: finish.goal_heading
-    t: Help us reach our goal!
+    t: Thanks for taking the survey! But we still need your help…
 
   - key: finish.goal_heading.description
-    t: This year, we'd like to get a least **{count} survey responses** to make our data even more representative and accurate.
+    t: This year, we'd like to get a least **{count} survey responses** to make our data even more representative and unlock new insights.
 
   - key: finish.goal_currently
     t: >
       Currently:
 
+  - key: finish.goal_goal
+    t: >
+      Goal:
+
   - key: finish.goal_responses
     t: responses
 
   - key: finish.share_colleagues
-    t: 1. Share with your friends or colleagues
+    t: 1. Share with friends and colleagues
 
   - key: finish.share_colleagues.description
-    t: Share on Slack, Discord, Teams, etc.
+    t: Post it on Slack, Discord, Teams, or anywhere your developer friends hang out.
 
   - key: finish.share_social
     t: 2. Share on social media
