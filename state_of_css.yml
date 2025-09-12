@@ -220,15 +220,6 @@ translations:
   - key: sections.resources_css.description
     t: What CSS resources do you consult?
 
-  - key: features.pain_points
-    t: Pain Points
-
-  - key: features.all_features
-    t: All Features
-
-  - key: features.features_ratios_over_time
-    t: Features Over Time
-
   ###########################################################################
   # Other Tools
   ###########################################################################

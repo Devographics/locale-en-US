@@ -135,9 +135,6 @@ translations:
 
   # features
 
-  - key: features.all_features
-    t: Features
-
   - key: features.all_features.takeaway.css2024
     t: >
       Filter Effects (`blur()`, `contrast()`, etc.) were the unexpected most-used CSS feature of 2024, with 75.4% of respondents having used them; with the `:has()` selector a close second with 72.8%. 

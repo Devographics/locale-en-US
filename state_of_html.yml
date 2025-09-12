@@ -71,6 +71,8 @@ translations:
 
   - key: sections.graphics_multimedia.title
     t: Graphics & Multimedia
+    aliases:
+      - features.graphics_multimedia
   - key: sections.graphics_multimedia.prompt
     t: Rendering graphics and animations.
 
@@ -86,6 +88,8 @@ translations:
 
   - key: sections.system_capabilities.title
     t: System Capabilities
+    aliases:
+      - features.system_capabilities
   - key: sections.system_capabilities.prompt
     t: Accessing device and system APIs.
 
@@ -396,7 +400,7 @@ translations:
   # web_components_common_pain_points
 
   - key: features.web_components_common_pain_points
-    t: Pain Points
+    t: Web Components Pain Points
   - key: features.web_components_common_pain_points.question
     t: What are your top pain points around making and using web components?
 
@@ -454,7 +458,7 @@ translations:
   # web_components_other_pain_points
 
   - key: features.web_components_other_pain_points
-    t: Other Pain Points
+    t: Other Web Components Pain Points
   - key: features.web_components_other_pain_points.question
     t: Any other pain points around making and using web components?
   - key: features.web_components_other_pain_points.placeholder
@@ -587,13 +591,21 @@ translations:
 
   - key: features.accessibility_screenreaders
     t: Screen Readers
+    aliases:
+      - accessibility.accessibility_screenreaders
   - key: features.accessibility_screenreaders.question
     t: Which screen readers do you use for accessibility testing?
+    aliases:
+      - accessibility.accessibility_screenreaders.question
 
   - key: features.accessibility_techniques
     t: Other Accessibility Techniques
+    aliases:
+      - accessibility.accessibility_techniques
   - key: features.accessibility_techniques.question
     t: What other techniques are part of your regular accessibility strategy?
+    aliases:
+      - accessibility.accessibility_techniques.question
 
   - key: options.accessibility_techniques.tabindex
     t: |
