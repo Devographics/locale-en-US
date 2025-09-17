@@ -697,6 +697,44 @@ translations:
   - key: tools.meta_frameworks_pain_points.question
     t: What pain points have you encountered when using meta-frameworks?
 
+  # back-end frameworks
+
+  - key: tools.back_end_frameworks_ratios
+    t: Back-end Frameworks Ratios Over Time
+  - key: tools.back_end_frameworks_ratios.short
+    aliasFor: tools.ratios
+
+  - key: tools.back_end_frameworks_experience
+    t: Back-end Frameworks Experience & Sentiment
+  - key: tools.back_end_frameworks_experience.short
+    aliasFor: tools.experience
+
+  - key: toolsback_end_frameworks_work
+    aliasFor: tools.tools_work
+  - key: tools.back_end_frameworks_work.question
+    aliasFor: tools.tools_work.question
+
+  - key: tools.back_end_frameworks.others
+    t: Other Back-end Frameworks
+  - key: tools.back_end_frameworks.others.short
+    aliasFor: tools.others
+  - key: tools.back_end_frameworks_others
+    aliasFor: tools.meta_frameworks.others
+
+  - key: tools.back_end_frameworks_happiness
+    t: Back-end Frameworks Happiness
+  - key: tools.mback_end_frameworks_happiness.short
+    aliasFor: charts.axis_legends.happiness
+  - key: tools.back_end_frameworks_happiness.question
+    t: On a scale of 0 (very unhappy) to 4 (very happy), how happy are you with the current state of back-end frameworks?
+
+  - key: tools.back_end_frameworks_pain_points
+    t: Back-end Frameworks Pain Points
+  - key: tools.back_end_frameworks_pain_points.short
+    aliasFor: tools.pain_points
+  - key: tools.back_end_frameworks_pain_points.question
+    t: What pain points have you encountered when using back-end frameworks?
+
   # testing
 
   - key: tools.testing_ratios
