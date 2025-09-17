@@ -1813,6 +1813,25 @@ translations:
   - key: user_info.how_can_we_improve.question
     t: How else could we improve this survey?
 
+  # why_did_you_take_the_survey
+  - key: user_info.why_did_you_take_the_survey
+    t: Survey Motivation
+  - key: user_info.why_did_you_take_the_survey.question
+    t: Why did you take this survey?
+
+  - key: options.why_did_you_take_the_survey.stay_informed
+    t: To stay informed and keep up with the ecosystem.
+  - key: options.why_did_you_take_the_survey.interested_in_data
+    t: I'm interested in the resulting data and trends.
+  - key: options.why_did_you_take_the_survey.help_with_representation
+    t: To help make the dataset more representative.
+  - key: options.why_did_you_take_the_survey.for_fun
+    t: Out of curiosity or just for fun.
+  - key: options.why_did_you_take_the_survey.affect_change
+    t: To make my voice heard and influence the developer ecosystem.
+  - key: options.why_did_you_take_the_survey.gauge_my_knowledge
+    t: To gauge my own current knowledge.
+
   ###########################################################################
   # Usage
   ###########################################################################

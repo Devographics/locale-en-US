@@ -950,6 +950,8 @@ translations:
   - key: tools.data_visualization
     t: Data Visualization
   - key: tools.data_visualization.question
+    t: Which data visualization libraries do you use?
+  - key: tools.data_visualization.prompt
     t: Libraries that help with charts and other data visualizations.
   - key: tools.data_visualization.others
     t: Other Data Visualization Libraries
@@ -957,6 +959,8 @@ translations:
   - key: tools.graphics_animation
     t: Graphics & Animations
   - key: tools.graphics_animation.question
+    t: Which graphics & animation libraries do you use?
+  - key: tools.graphics_animation.prompt
     t: Libraries dedicated to graphics and animation.
   - key: tools.graphics_animation.others
     t: Other Graphics & Animations Libraries
@@ -1033,6 +1037,8 @@ translations:
 
   - key: tools.backend_frameworks
     aliasFor: sections.back_end_frameworks.title
+  - key: tools.backend_frameworks.question
+    t: Which back-end frameworks do you use?
   - key: tools.backend_frameworks.description
     t: Frameworks for generating APIs and managing back-ends
   - key: tools.backend_frameworks.others
@@ -1165,24 +1171,24 @@ translations:
   - key: options.js_ts_balance.8
     t: 100% TS
 
-  - key: options.js_ts_balance.0.description
-    aliasFor: options.slider.0.description
-  - key: options.js_ts_balance.1.description
-    aliasFor: options.slider.1.description
-  - key: options.js_ts_balance.2.description
-    aliasFor: options.slider.2.description
-  - key: options.js_ts_balance.3.description
-    aliasFor: options.slider.3.description
-  - key: options.js_ts_balance.4.description
-    aliasFor: options.slider.4.description
-  - key: options.js_ts_balance.5.description
-    aliasFor: options.slider.5.description
-  - key: options.js_ts_balance.6.description
-    aliasFor: options.slider.6.description
-  - key: options.js_ts_balance.7.description
-    aliasFor: options.slider.7.description
-  - key: options.js_ts_balance.8.description
-    aliasFor: options.slider.8.description
+  # - key: options.js_ts_balance.0.description
+  #   aliasFor: options.slider.0.description
+  # - key: options.js_ts_balance.1.description
+  #   aliasFor: options.slider.1.description
+  # - key: options.js_ts_balance.2.description
+  #   aliasFor: options.slider.2.description
+  # - key: options.js_ts_balance.3.description
+  #   aliasFor: options.slider.3.description
+  # - key: options.js_ts_balance.4.description
+  #   aliasFor: options.slider.4.description
+  # - key: options.js_ts_balance.5.description
+  #   aliasFor: options.slider.5.description
+  # - key: options.js_ts_balance.6.description
+  #   aliasFor: options.slider.6.description
+  # - key: options.js_ts_balance.7.description
+  #   aliasFor: options.slider.7.description
+  # - key: options.js_ts_balance.8.description
+  #   aliasFor: options.slider.8.description
 
   # ai_generated_code_balance
 
@@ -1302,6 +1308,19 @@ translations:
   - key: options.native_types_proposal.no_types
     t: I would not like to see them implemented
 
+  - key: options.native_types_proposal.runtime_types
+    t: Runtime types
+  - key: options.native_types_proposal.runtime_types.description
+    t: Types that are parsed at runtime by the browser.
+  - key: options.native_types_proposal.type_annotations
+    t: Type annotations
+  - key: options.native_types_proposal.type_annotations.description
+    t: Compiler-level TypeScript-like type annotations that get stripped during bundling.
+  - key: options.native_types_proposal.jsdoc_types
+    t: JSDoc-like types
+  - key: options.native_types_proposal.jsdoc_types.description
+    t: JSDoc-like types written as code comments.
+
   - key: usage.js_new_features
     t: New Proposals
   - key: usage.js_new_features.question
@@ -1334,7 +1353,14 @@ translations:
     t: I would like JavaScript to be my main programming language
 
   - key: opinions.js_ecosystem_changing_to_fast
+    t: Pace of Change
+  - key: opinions.js_ecosystem_changing_to_fast.question
     t: The JavaScript ecosystem is changing too fast
+
+  - key: opinions.prefer_no_build_step
+    t: Build Step
+  - key: opinions.prefer_no_build_step.question
+    t: I would prefer using JavaScript with no build step
 
   - key: opinions_others.missing_from_js.others
     t: What do you feel is currently missing from JavaScript?
