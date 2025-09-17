@@ -294,8 +294,8 @@ translations:
   # JS missing features
   - key: options.currently_missing_from_js.static_typing
     t: Static Typing
-  - key: options.currently_missing_from_js.static_typing.description
-    t: Native runtime typing; or TypeScript-style type-as-comments
+  # - key: options.currently_missing_from_js.static_typing.description
+  #   t: Native runtime typing; or TypeScript-style type-as-comments
   - key: options.currently_missing_from_js.standard_library
     t: Standard Library
   - key: options.currently_missing_from_js.standard_library.description
@@ -1301,7 +1301,7 @@ translations:
     aliases:
       - features.native_types_proposal
   - key: usage.native_types_proposal.question
-    t: How would you like to see native types implemented in JavaScript?
+    t: How would you like to see types implemented natively in JavaScript?
     aliases:
       - features.native_types_proposal.question
 
