@@ -1298,8 +1298,12 @@ translations:
 
   - key: usage.native_types_proposal
     t: Native Types
+    aliases:
+      - features.native_types_proposal
   - key: usage.native_types_proposal.question
     t: How would you like to see native types implemented in JavaScript?
+    aliases:
+      - features.native_types_proposal.question
 
   - key: options.native_types_proposal.typescript_like_types
     t: As similar to TypeScript as possible
@@ -1323,15 +1327,25 @@ translations:
 
   - key: usage.js_new_features
     t: New Proposals
+    aliases:
+      - features.js_new_features
   - key: usage.js_new_features.question
     t: Which of these active JavaScript proposals are you most excited about?
+    aliases:
+      - features.js_new_features.question
   - key: usage.js_new_features.prompt
     t: Based on current State 2.7 & Stage 3 [TC39 ECMAScript proposals](https://github.com/tc39/proposals).
+    aliases:
+      - features.js_new_features.prompt
 
   - key: usage.js_missing_features
     t: Missing Features
+    aliases:
+      - features.js_missing_features
   - key: usage.js_missing_features.question
     t: Which of these features do you feel are currently missing from JavaScript?
+    aliases:
+      - features.js_missing_features.question
 
   ###########################################################################
   # Opinions
@@ -1419,11 +1433,14 @@ translations:
 
   - key: usage.top_currently_missing_from_js
     t: Missing Features
-  - key: usage.top_currently_missing_from_js.question
-    aliasFor: opinions.currently_missing_from_js
+    aliases:
+      - features.top_currently_missing_from_js
 
   - key: opinions.currently_missing_from_js
     t: What do you feel is currently missing from JavaScript?
+    aliases:
+      - usage.top_currently_missing_from_js.question
+      - features.top_currently_missing_from_js.question
   - key: opinions.currently_missing_from_js.description
     t: For each matchup, pick the feature you'd most like to be able to use in JavaScript today.
   - key: opinions_others.currently_missing_from_js.others
