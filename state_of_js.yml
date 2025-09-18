@@ -1406,13 +1406,21 @@ translations:
 
   - key: opinions.js_ecosystem_changing_to_fast
     t: Pace of Change
+    aliases:
+      - usage.js_ecosystem_changing_to_fast
   - key: opinions.js_ecosystem_changing_to_fast.question
     t: The JavaScript ecosystem is changing too fast
+    aliases:
+      - usage.js_ecosystem_changing_to_fast.question
 
   - key: opinions.prefer_no_build_step
     t: Build Step
+    aliases:
+      - usage.prefer_no_build_step
   - key: opinions.prefer_no_build_step.question
     t: I would prefer using JavaScript with no build step
+    aliases:
+      - usage.prefer_no_build_step.question
 
   - key: opinions_others.missing_from_js.others
     t: What do you feel is currently missing from JavaScript?
@@ -1513,6 +1521,16 @@ translations:
     t: Features Missing From JavaScript (Matchups)
   - key: currently_missing_from_js.currently_missing_from_js_matchups.description
     t: Which feature would you most like to be able to use in JavaScript today? Percentage of rounds won by left-hand item against top-side item.
+
+  # js_pace_of_change
+  - key: usage.js_pace_of_change
+    t: Pace of Change
+    aliases:
+      - features.js_pace_of_change
+  - key: usage.js_pace_of_change.question
+    t: How well are you generally able to keep up with new JavaScript features, such as those mentioned in this survey?
+    aliases:
+      - features.js_pace_of_change.question
 
   ###########################################################################
   # Resources

@@ -1094,26 +1094,36 @@ translations:
 
   - key: options.css_pace_of_change.1
     t: I haven't learned about or tried out most features
+    aliases:
+      - options.js_pace_of_change.1
   # - key: options.css_pace_of_change.0.description
   # t: I haven't learned about or tried out most features
 
   - key: options.css_pace_of_change.2
     t: I've learned about some of the features; but haven't tried them out
+    aliases:
+      - options.js_pace_of_change.2
   # - key: options.css_pace_of_change.1.description
   # t: I've learned about some of the features; but haven't tried them out
 
   - key: options.css_pace_of_change.3
     t: I've learned about and tried out some of the features
+    aliases:
+      - options.js_pace_of_change.3
   # - key: options.css_pace_of_change.2.description
   # t: I've learned about and tried out some of the features
 
   - key: options.css_pace_of_change.4
     t: I've learned about most of the features and tried out some of them
+    aliases:
+      - options.js_pace_of_change.4
   # - key: options.css_pace_of_change.3.description
   # t: I've learned about most of the features and tried out some of them
 
   - key: options.css_pace_of_change.5
     t: I've learned about and tried out most of the features
+    aliases:
+      - options.js_pace_of_change.5
   # - key: options.css_pace_of_change.4.description
   #   t: I've learned about and tried out most of the features
 

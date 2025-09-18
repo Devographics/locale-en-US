@@ -1,4 +1,53 @@
 locale: en-US
 translations:
-  - key: foo
-    t: bar
+  ###########################################################################
+  # General
+  ###########################################################################
+
+  - key: finish.share_message.js2025
+    t: The State of JS 2025 survey is now open! {link}
+
+  - key: general.results.description
+    t: The 2025 edition of the annual survey about the latest trends in the JavaScript ecosystem.
+
+  ###########################################################################
+  # Survey Intro
+  ###########################################################################
+
+  - key: general.js2025.survey_intro
+    t: >
+      JavaScript, you OK? You've barely created any new front-end frameworks this year.
+
+
+      After a decade of rapid iteration, it seems clear that the ecosystem has stabilized over the last few years. For example, did you know that “newcomer” Svelte is *9 years old*? Which, in JavaScript framework years, is basically ancient!
+
+
+      Instead, the main battle has moved to the realm of meta-frameworks, with Astro making a serious attempt at Next.js's crown – while over in build-tool land, it seems only a matter of time until Vite overtakes webpack. 
+
+
+      Or maybe something else entirely will appear out of the Rust ecosystem and suddenly take over, bringing a premature end to our well-deserved era of peace and quiet.  
+
+
+      Whatever happens, one thing's for sure: you can help us figure it all out by taking this year's State of JavaScript survey!
+
+  ###########################################################################
+  # Survey FAQ
+  ###########################################################################
+
+  - key: faq.how_long_will_survey_take_js2025
+    t: How long will answering the survey take?
+  - key: faq.how_long_will_survey_take_js2025.description
+    t: >
+      Depending on how many questions you answer (all questions can be skipped),
+      filling out the survey should take around 15-20 minutes.
+
+  - key: faq.survey_design_js2025
+    t: How was this survey designed?
+  - key: faq.survey_design_js2025.description
+    t: >
+      This survey was designed as the results of an [open design process](https://github.com/Devographics/surveys/issues/307) involving browser vendors and the web development community.
+
+  - key: faq.results_released_js2025
+    t: When will the results be released?
+  - key: faq.results_released_js2025.description
+    t: The survey will run from October 1 to November 1, 2025, and the survey results will be released shortly after.
