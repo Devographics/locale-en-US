@@ -131,8 +131,6 @@ translations:
     aliasFor: sections.meta_frameworks.title
   - key: tools.testing
     aliasFor: sections.testing.title
-  - key: tools.mobile_desktop
-    aliasFor: sections.mobile_desktop.title
   - key: tools.build_tools
     aliasFor: sections.build_tools.title
   - key: tools.monorepo_tools
@@ -997,7 +995,7 @@ translations:
   - key: tools.graphics_animation
     t: Graphics & Animations
   - key: tools.graphics_animation.question
-    t: Which graphics & animation libraries do you use?
+    t: Which graphics & animation libraries do you regularly use?
   - key: tools.graphics_animation.prompt
     t: Libraries dedicated to graphics and animation.
   - key: tools.graphics_animation.others
@@ -1165,6 +1163,16 @@ translations:
     aliases:
       - other_tools.hosting.question
 
+  - key: tools.mobile_desktop
+    aliasFor: sections.mobile_desktop.title
+  - key: tools.mobile_desktop.question
+    t: Which of these mobile or desktop app frameworks do you regularly use?
+
+  - key: tools.monorepo_tools
+    aliasFor: sections.monorepo_tools.title
+  - key: tools.monorepo_tools.question
+    t: Which of these monorepo tools do you regularly use?
+
   ###########################################################################
   # Usage
   ###########################################################################
@@ -1285,6 +1293,61 @@ translations:
     t: "|"
   - key: options.compiled_code_balance.8
     t: 100% Compiled
+
+  # build_step_advantages
+  - key: usage.build_step_advantages
+    t: Build Step Advantages
+  - key: usage.build_step_advantages.question
+    t: What do you feel are the main advantages resulting from using a build step?
+  - key: usage.build_step_advantages.prompt
+    t: Any code bundling, minifying, etc., as opposed to code directly executed by the browser.
+
+  - key: options.build_step_advantages.types
+    t: Static typing
+  - key: options.build_step_advantages.types.description
+    t: TypeScript, etc.
+
+  - key: options.build_step_advantages.developer_experience
+    t: Better development experience
+  - key: options.build_step_advantages.developer_experience.description
+    t: Hot Module Reloading, etc.
+
+  - key: options.build_step_advantages.transpilation
+    t: Template/component transpilation
+  - key: options.build_step_advantages.transpilation.description
+    t: JSX, Vue components, Svelte components, etc.
+
+  - key: options.build_step_advantages.bundling
+    t: Bundling
+  - key: options.build_step_advantages.bundling.description
+    t: Bundling multiple files into a single payload.
+
+  - key: options.build_step_advantages.optimization
+    t: Code optimization
+  - key: options.build_step_advantages.optimization.description
+    t: Minification, tree-shaking, code splitting, etc.
+
+  - key: options.build_step_advantages.compatibility
+    t: Browser compatibility
+  - key: options.build_step_advantages.compatibility.description
+    t: Polyfills, shims, etc.
+
+  - key: options.build_step_advantages.assets
+    t: Asset processing
+  - key: options.build_step_advantages.assets.description
+    t: Handling non-JS assets such as CSS, images, etc.
+
+  - key: options.build_step_advantages.linting
+    t: Linting
+  - key: options.build_step_advantages.linting.description
+    t: Enforcing linters, formatters, etc.
+
+  - key: options.build_step_advantages.environment_support
+    t: Environment management
+  - key: options.build_step_advantages.environment_support.description
+    t: Support for environment variables, different configurations, etc.
+
+  # edge_runtimes
 
   - key: tools.edge_runtimes
     t: JavaScript Edge/Serverless Runtimes

@@ -1902,7 +1902,7 @@ translations:
   - key: resources.courses
     t: Courses & Training Material
   - key: resources.courses.question
-    t: Which course or other material (videos, books, etc.) have you used?
+    t: Which courses or training material (videos, books, etc.) have you used to learn JavaScript?
   - key: options.courses.na
     t: 🚫 None
   - key: resources.courses.placeholder
