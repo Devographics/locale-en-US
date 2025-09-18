@@ -150,6 +150,10 @@ translations:
       The next couple sections focus on the **libraries** and **frameworks** that make up 
       the JavaScript ecosystem. Let us know what you're excited about!
 
+  - key: tools.back_end_frameworks_intro
+    t: >
+      We're bringing back the back-end frameworks section this year!
+
   ###########################################################################
   # Options
   ###########################################################################
@@ -926,6 +930,8 @@ translations:
   - key: tools.build_tools.others.description
     t: Other answers (freeform field).
 
+  # non_js_languages
+
   - key: tools.non_js_languages
     t: Non-JavaScript Languages
   - key: tools.non_js_languages.question
@@ -936,6 +942,16 @@ translations:
     t: Other Languages
   - key: tools.non_js_languages.others.description
     t: Other answers (freeform field).
+
+  # non_js_languages_features
+
+  - key: tools.non_js_languages_features
+    t: Non-JavaScript Features
+  - key: tools.non_js_languages_features.question
+    t: Which features from other programming languages do you wish JavaScript/TypeScript would adopt?
+  - key: tools.non_js_languages_features.prompt
+    t: >
+      When possible, specify both the language and the feature, e.g. “Rust: pattern matching”
 
   - key: tools.javascript_flavors
     t: JavaScript Flavors
