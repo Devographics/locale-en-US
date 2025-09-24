@@ -296,8 +296,8 @@ translations:
   # JS missing features
   - key: options.currently_missing_from_js.static_typing
     t: Static Typing
-  # - key: options.currently_missing_from_js.static_typing.description
-  #   t: Native runtime typing; or TypeScript-style type-as-comments
+  - key: options.currently_missing_from_js.static_typing.description
+    t: Any kind of native static typing.
   - key: options.currently_missing_from_js.standard_library
     t: Standard Library
   - key: options.currently_missing_from_js.standard_library.description
@@ -1610,6 +1610,17 @@ translations:
     t: How well are you generally able to keep up with new JavaScript features, such as those mentioned in this survey?
     aliases:
       - features.js_pace_of_change.question
+
+  - key: options.js_pace_of_change.1
+    aliasFor: options.css_pace_of_change.1
+  - key: options.js_pace_of_change.2
+    aliasFor: options.css_pace_of_change.2
+  - key: options.js_pace_of_change.3
+    aliasFor: options.css_pace_of_change.3
+  - key: options.js_pace_of_change.4
+    aliasFor: options.css_pace_of_change.4
+  - key: options.js_pace_of_change.5
+    aliasFor: options.css_pace_of_change.5
 
   ###########################################################################
   # Resources
