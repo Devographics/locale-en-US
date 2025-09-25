@@ -652,7 +652,7 @@ translations:
   - key: tools.front_end_frameworks_happiness.short
     aliasFor: charts.axis_legends.happiness
   - key: tools.front_end_frameworks_happiness.question
-    t: On a scale of 0 (very unhappy) to 4 (very happy), how happy are you with the current state of front-end frameworks?
+    t: On a scale of 1 (very unhappy) to 5 (very happy), how happy are you with the current state of front-end frameworks?
 
   - key: tools.front_end_frameworks_pain_points
     t: Front-end Frameworks Pain Points
@@ -690,7 +690,7 @@ translations:
   - key: tools.meta_frameworks_happiness.short
     aliasFor: charts.axis_legends.happiness
   - key: tools.meta_frameworks_happiness.question
-    t: On a scale of 0 (very unhappy) to 4 (very happy), how happy are you with the current state of meta-frameworks?
+    t: On a scale of 1 (very unhappy) to 5 (very happy), how happy are you with the current state of meta-frameworks?
 
   - key: tools.meta_frameworks_pain_points
     t: Meta-Frameworks Pain Points
@@ -728,7 +728,7 @@ translations:
   - key: tools.mback_end_frameworks_happiness.short
     aliasFor: charts.axis_legends.happiness
   - key: tools.back_end_frameworks_happiness.question
-    t: On a scale of 0 (very unhappy) to 4 (very happy), how happy are you with the current state of back-end frameworks?
+    t: On a scale of 1 (very unhappy) to 5 (very happy), how happy are you with the current state of back-end frameworks?
 
   - key: tools.back_end_frameworks_pain_points
     t: Back-end Frameworks Pain Points
@@ -764,7 +764,7 @@ translations:
   - key: tools.testing_happiness.short
     aliasFor: charts.axis_legends.happiness
   - key: tools.testing_happiness.question
-    t: On a scale of 0 (very unhappy) to 4 (very happy), how happy are you with the current state of testing tools?
+    t: On a scale of 1 (very unhappy) to 5 (very happy), how happy are you with the current state of testing tools?
 
   - key: tools.testing_pain_points
     t: Testing Tools Pain Points
@@ -800,7 +800,7 @@ translations:
   - key: tools.mobile_desktop_happiness.short
     aliasFor: charts.axis_legends.happiness
   - key: tools.mobile_desktop_happiness.question
-    t: On a scale of 0 (very unhappy) to 4 (very happy), how happy are you with the current state of mobile & desktop tools?
+    t: On a scale of 1 (very unhappy) to 5 (very happy), how happy are you with the current state of mobile & desktop tools?
 
   - key: tools.mobile_desktop_pain_points
     t: Mobile & Desktop Tools Pain Points
@@ -836,7 +836,7 @@ translations:
   - key: tools.build_tools_happiness.short
     aliasFor: charts.axis_legends.happiness
   - key: tools.build_tools_happiness.question
-    t: On a scale of 0 (very unhappy) to 4 (very happy), how happy are you with the current state of build tools?
+    t: On a scale of 1 (very unhappy) to 5 (very happy), how happy are you with the current state of build tools?
 
   - key: tools.build_tools_pain_points
     t: Build Tools Pain Points
@@ -872,7 +872,7 @@ translations:
   - key: tools.monorepo_tools_happiness.short
     aliasFor: charts.axis_legends.happiness
   - key: tools.monorepo_tools_happiness.question
-    t: On a scale of 0 (very unhappy) to 4 (very happy), how happy are you with the current state of monorepo tools?
+    t: On a scale of 1 (very unhappy) to 5 (very happy), how happy are you with the current state of monorepo tools?
 
   - key: tools.monorepo_tools_pain_points
     t: Monorepo Tools Pain Points
