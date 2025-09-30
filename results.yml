@@ -34,6 +34,11 @@ translations:
   - key: results.ongoing_survey
     t: Open Now
 
+  - key: general.previous_editions
+    t: Previous Editions
+  - key: general.other_surveys
+    t: Other Surveys
+
   ###########################################################################
   # Tabs
   ###########################################################################
@@ -1465,6 +1470,9 @@ translations:
   - key: share.twitter
     t: Share on Twitter
   - key: share.bluesky
+    t: Share on Bluesky
+  - key: share.mastodon
+    t: Share on Mastodon
   - key: share.facebook
     t: Share on Facebook
   - key: share.linkedin
