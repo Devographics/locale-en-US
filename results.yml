@@ -34,10 +34,14 @@ translations:
   - key: results.ongoing_survey
     t: Open Now
 
+  - key: general.other_editions
+    t: Other Editions
   - key: general.previous_editions
     t: Previous Editions
   - key: general.other_surveys
     t: Other Surveys
+  - key: general.all_editions
+    t: View more…
 
   ###########################################################################
   # Tabs
