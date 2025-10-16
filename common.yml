@@ -2061,4 +2061,4 @@ translations:
     t: No Baseline data available.
 
   - key: feature.experimental
-    t: Unsupported feature or proposal
+    t: Currently unsupported feature or proposal

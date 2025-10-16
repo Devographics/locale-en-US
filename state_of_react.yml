@@ -552,6 +552,8 @@ translations:
     t: 17.x
   - key: options.react_version.react_v18x
     t: 18.x
+  - key: options.react_version.react_v19x
+    t: 19.x
   - key: options.react_version.react_canary
     t: Canary
   - key: options.react_version.not_sure
@@ -643,6 +645,54 @@ translations:
     t: Any other React pain points that you would like to mention?
     aliases:
       - react_pain_points.usage_pain_points.question
+
+  - key: usage.meta_involvement_opinion
+    t: Meta Involvement
+  - key: usage.meta_involvement_opinion.question
+    t: How would you describe your feelings towards Meta's involvement with the React community?
+
+  - key: options.meta_involvement_opinion.0
+    t: Very negative
+  - key: options.meta_involvement_opinion.1
+    t: Negative
+  - key: options.meta_involvement_opinion.2
+    t: Neutral
+  - key: options.meta_involvement_opinion.3
+    t: Positive
+  - key: options.meta_involvement_opinion.4
+    t: Very positive
+
+  - key: usage.vercel_involvement_opinion
+    t: Vercel Involvement
+  - key: usage.vercel_involvement_opinion.question
+    t: How would you describe your feelings towards Vercel's involvement with the React community?
+
+  - key: options.vercel_involvement_opinion.0
+    aliasFor: options.meta_involvement_opinion.0
+  - key: options.vercel_involvement_opinion.1
+    aliasFor: options.meta_involvement_opinion.1
+  - key: options.vercel_involvement_opinion.2
+    aliasFor: options.meta_involvement_opinion.2
+  - key: options.vercel_involvement_opinion.3
+    aliasFor: options.meta_involvement_opinion.3
+  - key: options.vercel_involvement_opinion.4
+    aliasFor: options.meta_involvement_opinion.4
+
+  - key: usage.react_foundation_involvement_opinion
+    t: React Foundation Involvement
+  - key: usage.react_foundation_involvement_opinion.question
+    t: How would you describe your feelings towards the React Foundation's involvement with the React community?
+
+  - key: options.react_foundation_involvement_opinion.0
+    aliasFor: options.meta_involvement_opinion.0
+  - key: options.react_foundation_involvement_opinion.1
+    aliasFor: options.meta_involvement_opinion.1
+  - key: options.react_foundation_involvement_opinion.2
+    aliasFor: options.meta_involvement_opinion.2
+  - key: options.react_foundation_involvement_opinion.3
+    aliasFor: options.meta_involvement_opinion.3
+  - key: options.react_foundation_involvement_opinion.4
+    aliasFor: options.meta_involvement_opinion.4
 
   # new features
   - key: usage.new_features
@@ -847,3 +897,32 @@ translations:
 
   - key: react_pain_points.cache_issues
     t: Cache issues
+
+  ###########################################################################
+  # FAQ/About
+  ###########################################################################
+
+  - key: faq.data_used_react
+    t: How will this data be used?
+  - key: faq.data_used_react.description
+    t: >
+      All data collected will be released openly for anybody to consult. Developers or companies may use it to prioritize focus areas and inform their roadmaps.
+
+  - key: faq.survey_goals_react
+    t: What are the survey's goals?
+  - key: faq.survey_goals_react.description
+    t: >
+      The survey's goals are to measure awareness and popularity of React APIs, as well as libraries in the React ecosystem.
+
+  - key: faq.who_should_take_survey_react
+    t: Who should take this survey?
+  - key: faq.who_should_take_survey_react.description
+    t: >
+      This is an open survey for anybody who uses React, whether regularly or occasionally, as part of their job, as a student, or just for fun!
+
+  - key: faq.how_long_will_survey_take_react
+    t: How long will answering the survey take?
+  - key: faq.how_long_will_survey_take_react.description
+    t: >
+      Depending on how many questions you answer (all questions are optional),
+      filling out the survey should take around 15-20 minutes.

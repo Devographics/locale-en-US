@@ -1,4 +1,55 @@
 locale: en-US
 translations:
-  - key: foo
-    t: bar
+  ###########################################################################
+  # General
+  ###########################################################################
+
+  - key: general.results.description
+    t: The 2025 edition of the annual survey about the latest trends in the React ecosystem.
+
+  ###########################################################################
+  # Introduction
+  ###########################################################################
+
+  - key: general.react2025.survey_intro
+    t: |
+      Given that it originally came out of a company whose motto was “move fast and break things”, it's ironic that React's approach could be summarized as “slow and steady”.
+
+      The React team has done a remarkable team of evolving the framework into its current modern state, progressively introducing innovations like Server Components and then letting the community adopt them (or not!) at its own pace.
+
+      This year, it's time for the long-awaited Compiler to make its official debut. And things are also moving on the administrative front, with the recently-introduced React foundation.
+
+      So whether you're on the cutting edge of new React features, or adopting innovations are a slower pace, join us once again to figure out where React is going by taking this year's State of React survey.
+
+  - key: features.features_intro.react2025
+    t: |
+      Welcome to the survey! This first part is all about sharing your experience with various React features:
+
+
+      - **Never heard of it**: it's your first time seeing this – or you've heard of it but have no idea what it does. 
+
+      - **Heard of it**: you've read or learned about this, but haven't actually used it yet. 
+
+      - **Used it**: you've used this at least once, even if it was just to play around. 
+
+
+      By the way, if you want to tell us more about any of your choices, just click that little "comment" icon!
+
+  - key: tools.tools_intro.react2025
+    t: |
+      This next part of the survey is all about the various libraries and frameworks that make up the React ecosystem.
+
+  ###########################################################################
+  # FAQ/About
+  ###########################################################################
+
+  - key: faq.survey_design_react2025
+    t: How was this survey designed?
+  - key: faq.survey_design_react2025.description
+    t: >
+      The survey was designed with input from the community through an [open feedback thread](https://github.com/Devographics/surveys/issues/262).
+
+  - key: faq.results_released_react2025
+    t: When will the results be released?
+  - key: faq.results_released_react2025.description
+    t: The survey will run from October 25 to November 25, and the survey results will be released shortly after that.
