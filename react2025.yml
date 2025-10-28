@@ -17,9 +17,9 @@ translations:
 
       The React team has done a remarkable team of evolving the framework into its current modern state, progressively introducing innovations like Server Components and then letting the community adopt them (or not!) at its own pace.
 
-      This year, it's time for the long-awaited Compiler to make its official debut. And things are also moving on the administrative front, with the recently-introduced React foundation.
+      This year, it's time for the long-awaited Compiler to make its official debut. And things are also moving on the administrative front, with the recently-introduced [React foundation](https://react.dev/blog/2025/10/07/introducing-the-react-foundation).
 
-      So whether you're on the cutting edge of new React features, or adopting innovations are a slower pace, join us once again to figure out where React is going by taking this year's State of React survey.
+      So whether you're on the cutting edge of new React features, or adopting innovations are a slower pace, join us once again to figure out where React is going by taking this year's State of React survey!
 
   - key: features.features_intro.react2025
     t: |

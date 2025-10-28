@@ -1348,12 +1348,18 @@ translations:
     t: Show neutral
 
   # other bucket
-  - key: charts.other_bucket.percents.positive
+  - key: charts.other_bucket.previous_edition.percents.positive
     t: |
       +{value}% higher compared to last survey
-  - key: charts.other_bucket.percents.negative
+  - key: charts.other_bucket.previous_edition.percents.negative
     t: |
       -{value}% lower compared to last survey
+  - key: charts.other_bucket.left_hand_chart.percents.positive
+    t: |
+      +{value}% higher compared to left-hand chart
+  - key: charts.other_bucket.left_hand_chart.percents.negative
+    t: |
+      -{value}% lower compared to left-hand chart
   - key: charts.other_bucket.ranks.positive
     t: |
       +{value} ranks gained

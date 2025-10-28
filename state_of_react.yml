@@ -649,7 +649,7 @@ translations:
   - key: usage.meta_involvement_opinion
     t: Meta Involvement
   - key: usage.meta_involvement_opinion.question
-    t: How would you describe your feelings towards Meta's involvement with the React community?
+    t: How would you describe your feelings towards Meta's involvement with React?
 
   - key: options.meta_involvement_opinion.0
     t: Very negative
@@ -665,7 +665,7 @@ translations:
   - key: usage.vercel_involvement_opinion
     t: Vercel Involvement
   - key: usage.vercel_involvement_opinion.question
-    t: How would you describe your feelings towards Vercel's involvement with the React community?
+    t: How would you describe your feelings towards Vercel's involvement with React?
 
   - key: options.vercel_involvement_opinion.0
     aliasFor: options.meta_involvement_opinion.0
@@ -681,7 +681,7 @@ translations:
   - key: usage.react_foundation_involvement_opinion
     t: React Foundation Involvement
   - key: usage.react_foundation_involvement_opinion.question
-    t: How would you describe your feelings towards the React Foundation's involvement with the React community?
+    t: How would you describe your feelings towards the React Foundation's involvement with React?
 
   - key: options.react_foundation_involvement_opinion.0
     aliasFor: options.meta_involvement_opinion.0
