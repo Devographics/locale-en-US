@@ -1354,10 +1354,10 @@ translations:
   - key: charts.other_bucket.previous_edition.percents.negative
     t: |
       -{value}% lower compared to last survey
-  - key: charts.other_bucket.left_hand_chart.percents.positive
+  - key: charts.other_bucket.different_serie.percents.positive
     t: |
       +{value}% higher compared to left-hand chart
-  - key: charts.other_bucket.left_hand_chart.percents.negative
+  - key: charts.other_bucket.different_serie.percents.negative
     t: |
       -{value}% lower compared to left-hand chart
   - key: charts.other_bucket.ranks.positive
@@ -2368,7 +2368,7 @@ translations:
       {count} answers matching “{name}”
   - key: answers.description
     t: |
-      These freeform answers were matched to the **{name}** keyword through a combination of
+      These freeform answers were matched to the **{name}** topic through a combination of
       automated and manual data processing.
   - key: answers.report_abuse
     t: Report this answer
