@@ -355,7 +355,7 @@ translations:
       - user_metadata.source
       - _user_metadata.source
   - key: user_info.source.description
-    t: How respondents found out about the survey
+    t: How respondents found out about the survey.
     aliases:
       - user_metadata.source.description
       - _user_metadata.source.description
