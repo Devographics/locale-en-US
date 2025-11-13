@@ -849,11 +849,19 @@ translations:
       - Velocity formula = (most recent opinion - oldest opinion) + (most recent usage) - (oldest usage)
       - A positive velocity means the usage and/or positive opinions have increased over time.
 
+  # tools_ratios_over_time
+
+  - key: tools.tools_ratios_over_time
+    t: Ratios over Time
+    aliases:
+      - libraries.tools_ratios_over_time
+
   # tools quadrant
   - key: blocks.tools_quadrant
     t: Retention vs Usage
-  - key: tools.scatterplot_overview
-    aliasFor: blocks.tools_quadrant
+    aliases:
+      - tools.scatterplot_overview
+      - libraries.scatterplot_overview
   - key: blocks.tools_quadrant.description
     t: |
       This chart shows each technology's **retention ratio** over its total **user count**.
@@ -1434,7 +1442,11 @@ translations:
   - key: comments.filter.by_keyword
     t: Top Keywords
   - key: comments.filter.by_keyword.description
-    t: Filter based on top keywords mentioned in comments.
+    t: Filter based on top keywords mentioned.
+  - key: comments.filter.by_token
+    t: Other Topics
+  - key: comments.filter.by_token.description
+    t: Filter based on other topics mentioned.
   - key: comments.filter.by_search
     t: Search
   - key: comments.filter.by_search.description

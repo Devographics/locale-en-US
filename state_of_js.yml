@@ -127,6 +127,8 @@ translations:
 
   - key: tools.front_end_frameworks
     aliasFor: sections.front_end_frameworks.title
+  - key: tools.back_end_frameworks
+    aliasFor: sections.back_end_frameworks.title
   - key: tools.meta_frameworks
     aliasFor: sections.meta_frameworks.title
   - key: tools.testing
@@ -627,6 +629,8 @@ translations:
 
   - key: tools.front_end_frameworks_ratios
     t: Front-end Frameworks Ratios Over Time
+    aliases:
+      - front_end_frameworks.front_end_frameworks_ratios
   - key: tools.front_end_frameworks_ratios.short
     aliasFor: tools.ratios
 
@@ -642,6 +646,8 @@ translations:
 
   - key: tools.front_end_frameworks.others
     t: Other Front-end Frameworks
+    aliases:
+      - front_end_frameworks.front_end_frameworks_others
   - key: tools.front_end_frameworks.others.short
     aliasFor: tools.others
   - key: tools.front_end_frameworks_others
@@ -649,6 +655,8 @@ translations:
 
   - key: tools.front_end_frameworks_happiness
     t: Front-end Frameworks Happiness
+    aliases:
+      - front_end_frameworks.front_end_frameworks_happiness
   - key: tools.front_end_frameworks_happiness.short
     aliasFor: charts.axis_legends.happiness
   - key: tools.front_end_frameworks_happiness.question
@@ -656,6 +664,8 @@ translations:
 
   - key: tools.front_end_frameworks_pain_points
     t: Front-end Frameworks Pain Points
+    aliases:
+      - front_end_frameworks.front_end_frameworks_pain_points
   - key: tools.front_end_frameworks_pain_points.short
     aliasFor: tools.pain_points
   - key: tools.front_end_frameworks_pain_points.question
@@ -665,6 +675,8 @@ translations:
 
   - key: tools.meta_frameworks_ratios
     t: Meta-Frameworks Ratios Over Time
+    aliases:
+      - meta_frameworks.meta_frameworks_ratios
   - key: tools.meta_frameworks_ratios.short
     aliasFor: tools.ratios
 
@@ -680,6 +692,8 @@ translations:
 
   - key: tools.meta_frameworks.others
     t: Other Meta-Frameworks
+    aliases:
+      - meta_frameworks.meta_frameworks_others
   - key: tools.meta_frameworks.others.short
     aliasFor: tools.others
   - key: tools.meta_frameworks_others
@@ -687,6 +701,8 @@ translations:
 
   - key: tools.meta_frameworks_happiness
     t: Meta-Frameworks Happiness
+    aliases:
+      - meta_frameworks.meta_frameworks_happiness
   - key: tools.meta_frameworks_happiness.short
     aliasFor: charts.axis_legends.happiness
   - key: tools.meta_frameworks_happiness.question
@@ -694,6 +710,8 @@ translations:
 
   - key: tools.meta_frameworks_pain_points
     t: Meta-Frameworks Pain Points
+    aliases:
+      - meta_frameworks.meta_frameworks_pain_points
   - key: tools.meta_frameworks_pain_points.short
     aliasFor: tools.pain_points
   - key: tools.meta_frameworks_pain_points.question
@@ -703,6 +721,8 @@ translations:
 
   - key: tools.back_end_frameworks_ratios
     t: Back-end Frameworks Ratios Over Time
+    aliases:
+      - back_end_frameworks.back_end_frameworks_ratios
   - key: tools.back_end_frameworks_ratios.short
     aliasFor: tools.ratios
 
@@ -718,6 +738,8 @@ translations:
 
   - key: tools.back_end_frameworks.others
     t: Other Back-end Frameworks
+    aliases:
+      - back_end_frameworks.back_end_frameworks_others
   - key: tools.back_end_frameworks.others.short
     aliasFor: tools.others
   - key: tools.back_end_frameworks_others
@@ -725,6 +747,8 @@ translations:
 
   - key: tools.back_end_frameworks_happiness
     t: Back-end Frameworks Happiness
+    aliases:
+      - back_end_frameworks.back_end_frameworks_happiness
   - key: tools.mback_end_frameworks_happiness.short
     aliasFor: charts.axis_legends.happiness
   - key: tools.back_end_frameworks_happiness.question
@@ -732,6 +756,8 @@ translations:
 
   - key: tools.back_end_frameworks_pain_points
     t: Back-end Frameworks Pain Points
+    aliases:
+      - back_end_frameworks.back_end_frameworks_pain_points
   - key: tools.back_end_frameworks_pain_points.short
     aliasFor: tools.pain_points
   - key: tools.back_end_frameworks_pain_points.question
@@ -741,6 +767,8 @@ translations:
 
   - key: tools.testing_ratios
     t: Testing Tools Ratios Over Time
+    aliases:
+      - testing.testing_ratios
   - key: tools.testing_ratios.short
     aliasFor: tools.ratios
 
@@ -756,11 +784,15 @@ translations:
 
   - key: tools.testing_others
     t: Other Testing Tools
+    aliases:
+      - testing.testing_others
   - key: tools.testing_others.short
     aliasFor: tools.others
 
   - key: tools.testing_happiness
     t: Testing Tools Happiness
+    aliases:
+      - testing.testing_happiness
   - key: tools.testing_happiness.short
     aliasFor: charts.axis_legends.happiness
   - key: tools.testing_happiness.question
@@ -768,6 +800,8 @@ translations:
 
   - key: tools.testing_pain_points
     t: Testing Tools Pain Points
+    aliases:
+      - testing.testing_pain_points
   - key: tools.testing_pain_points.short
     aliasFor: tools.pain_points
   - key: tools.testing_pain_points.question
@@ -813,6 +847,8 @@ translations:
 
   - key: tools.build_tools_ratios
     t: Build Tools Ratios Over Time
+    aliases:
+      - build_tools.build_tools_ratios
   - key: tools.build_tools_ratios.short
     aliasFor: tools.ratios
 
@@ -828,11 +864,15 @@ translations:
 
   - key: tools.build_tools_others
     t: Other Build Tools
+    aliases:
+      - build_tools.build_tools_others
   - key: tools.build_tools.short
     t: Build Tools
 
   - key: tools.build_tools_happiness
     t: Build Tools Happiness
+    aliases:
+      - build_tools.build_tools_happiness
   - key: tools.build_tools_happiness.short
     aliasFor: charts.axis_legends.happiness
   - key: tools.build_tools_happiness.question
@@ -840,6 +880,8 @@ translations:
 
   - key: tools.build_tools_pain_points
     t: Build Tools Pain Points
+    aliases:
+      - build_tools.build_tools_pain_points
   - key: tools.build_tools_pain_points.short
     aliasFor: tools.pain_points
   - key: tools.build_tools_pain_points.question
@@ -947,11 +989,17 @@ translations:
 
   - key: tools.non_js_languages_features
     t: Non-JavaScript Features
+    aliases:
+      - other_tools.non_js_languages_features
   - key: tools.non_js_languages_features.question
     t: Which features from other programming languages do you wish JavaScript/TypeScript would adopt?
+    aliases:
+      - other_tools.non_js_languages_features.question
   - key: tools.non_js_languages_features.prompt
     t: >
       When possible, specify both the language and the feature, e.g. “Rust: pattern matching”
+    aliases:
+      - other_tools.non_js_languages_features.prompt
 
   - key: tools.javascript_flavors
     t: JavaScript Flavors
@@ -1181,13 +1229,21 @@ translations:
 
   - key: tools.mobile_desktop
     aliasFor: sections.mobile_desktop.title
+  - key: other_tools.mobile_desktop
+    aliasFor: sections.mobile_desktop.title
   - key: tools.mobile_desktop.question
     t: Which of these mobile or desktop app frameworks do you regularly use?
+    aliases:
+      - other_tools.mobile_desktop.question
 
   - key: tools.monorepo_tools
     aliasFor: sections.monorepo_tools.title
+  - key: other_tools.monorepo_tools
+    aliasFor: sections.monorepo_tools.title
   - key: tools.monorepo_tools.question
     t: Which of these monorepo tools do you regularly use?
+    aliases:
+      - other_tools.monorepo_tools.question
 
   ###########################################################################
   # Usage
@@ -1651,3 +1707,12 @@ translations:
     t: How will this data be used?
   - key: faq.data_used_js.description
     t: All data collected will be released publicly. It will then become a resources both for developers, who consult it to inform their technological choices, and browser vendors, who use it to prioritize focus areas and inform their roadmaps.
+
+  ###########################################################################
+  # Tabs
+  ###########################################################################
+
+  - key: tabs.top_features
+    t: Top Features
+  - key: tabs.top_languages
+    t: Top Languages
