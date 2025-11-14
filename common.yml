@@ -306,6 +306,9 @@ translations:
   # Sections
   ###########################################################################
 
+  - key: sections.overview.title
+    t: Overview
+
   - key: sections.user_info.title
     t: About You
   - key: sections.user_info.description

@@ -761,6 +761,9 @@ translations:
   - key: tools.technology
     t: Technology
 
+  - key: tools.all_sections
+    t: All Sections
+
   ###########################################################################
   # Blocks
   ###########################################################################

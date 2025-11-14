@@ -1001,6 +1001,12 @@ translations:
     aliases:
       - other_tools.non_js_languages_features.prompt
 
+  - key: other_tools.non_js_languages_features_top_features
+    t: Non-JavaScript Features
+
+  - key: other_tools.non_js_languages_features_top_languages
+    t: Non-JavaScript Features by Language
+
   - key: tools.javascript_flavors
     t: JavaScript Flavors
   - key: tools.javascript_flavors.question
@@ -1419,6 +1425,12 @@ translations:
   - key: options.build_step_advantages.environment_support.description
     t: Support for environment variables, different configurations, etc.
 
+  - key: options.build_step_advantages.all_of_the_above
+    t: All of the above
+
+  - key: options.build_step_advantages.no_advantages
+    t: No advantages
+
   # edge_runtimes
 
   - key: tools.edge_runtimes
@@ -1497,6 +1509,9 @@ translations:
     t: JSDoc-like types
   - key: options.native_types_proposal.jsdoc_types.description
     t: JSDoc-like types written as code comments.
+
+  - key: options.native_types_proposal.no_opinion
+    t: No opinion
 
   - key: usage.js_new_features
     t: New Proposals

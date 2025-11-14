@@ -51,3 +51,37 @@ translations:
     t: When will the results be released?
   - key: faq.results_released_js2025.description
     t: The survey will run from October 1 to November 1, 2025, and the survey results will be released shortly after.
+
+  ###########################################################################
+  # Overview
+  ###########################################################################
+
+  - key: overview_1_frontend_fatigue.js2025
+    t: |
+      ### 1. Front-end Frameworks
+      ## Front-end Fatigue
+
+  - key: overview_2_whats_next.js2025
+    t: |
+      ### 2. Meta Frameworks
+      ## What's Next?
+
+  - key: overview_3_back_in_business.js2025
+    t: |
+      ### 3. Back-end Frameworks
+      ## Back in Business
+
+  - key: overview_4_build_it.js2025
+    t: |
+      ### 4. Build Tools
+      ## Build it and They Will Come
+
+  - key: overview_5_static_typing.js2025
+    t: |
+      ### 5. Language
+      ## Static Shock
+
+  - key: overview_6_other_languages.js2025
+    t: |
+      ### 6. Ecosystem
+      ## Multilingual Movement
