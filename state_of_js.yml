@@ -661,6 +661,8 @@ translations:
     aliasFor: charts.axis_legends.happiness
   - key: tools.front_end_frameworks_happiness.question
     t: On a scale of 1 (very unhappy) to 5 (very happy), how happy are you with the current state of front-end frameworks?
+    aliases:
+      - front_end_frameworks.front_end_frameworks_happiness.question
 
   - key: tools.front_end_frameworks_pain_points
     t: Front-end Frameworks Pain Points

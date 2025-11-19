@@ -58,30 +58,29 @@ translations:
 
   - key: overview_1_frontend_fatigue.js2025
     t: |
-      ### 1. Front-end Frameworks
-      ## Front-end Fatigue
+      Front-end Frameworks
 
   - key: overview_2_whats_next.js2025
     t: |
-      ### 2. Meta Frameworks
-      ## What's Next?
+      Meta Frameworks
 
   - key: overview_3_back_in_business.js2025
     t: |
-      ### 3. Back-end Frameworks
-      ## Back in Business
+      Back-end Frameworks
 
   - key: overview_4_build_it.js2025
     t: |
-      ### 4. Build Tools
-      ## Build it and They Will Come
+      Build Tools
 
   - key: overview_5_static_typing.js2025
     t: |
-      ### 5. Language
-      ## Static Shock
+      Static Typing
 
   - key: overview_6_other_languages.js2025
     t: |
-      ### 6. Ecosystem
-      ## Multilingual Movement
+      Other Languages
+
+  - key: overview_7_conclusion.js2025
+    t: |
+      ### Now Open
+      ## State of React 2025
