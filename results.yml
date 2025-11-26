@@ -716,6 +716,18 @@ translations:
   - key: features.pain_points
     t: Pain Points
 
+  - key: features.pain_points.default
+    t: Most commonly reported pain points overall.
+
+  - key: features.pain_points.limitations
+    t: Pain points related to being unable to achieve a goal due to feature or platform limitations.
+
+  - key: features.pain_points.interop
+    t: Pain points related to poor browser support or other browser/platform incompatibilities.
+
+  - key: features.pain_points.features
+    t: Pain points corresponding to specific web platform features.
+
   - key: features.all_features
     t: All Features
 
@@ -2213,6 +2225,15 @@ translations:
     aliasFor: filters.series.show_default
   - key: filters.options.showDefaultSeries.description
     t: Show the default (unfiltered) data series when using Grid mode
+
+  - key: filters.bucketsFilter.eq
+    t: Items that are “{value}”
+  - key: filters.bucketsFilter.in
+    t: Items that are one of “{value}”
+  - key: filters.bucketsFilter.nin
+    t: Items that are not one of “{value}”
+  - key: filters.bucketsFilter.hasTags
+    t: Items tagged “{value}”
 
   ###########################################################################
   # Chart Controls
