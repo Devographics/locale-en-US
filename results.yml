@@ -106,6 +106,15 @@ translations:
   - key: tabs.vs_company_size
     t: vs. Company Size
 
+  - key: tabs.all_pain_points
+    t: All Pain Points
+  - key: tabs.limitations
+    t: Limitations
+  - key: tabs.browser_support
+    t: Browser Support
+  - key: tabs.features
+    t: Features
+
   ###########################################################################
   # Options
   ###########################################################################
