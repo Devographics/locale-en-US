@@ -1429,6 +1429,16 @@ translations:
     t: |
       Sections:
 
+  - key: charts.nested_toggle
+    t: |
+      View:
+  - key: charts.nested_toggle.nested
+    t: |
+      Nested
+  - key: charts.nested_toggle.flat
+    t: |
+      Flat
+
   ###########################################################################
   # Comments
   ###########################################################################
