@@ -21,6 +21,44 @@ translations:
     t: The annual developer survey about the web platform
 
   ###########################################################################
+  # Tshirt
+  ###########################################################################
+
+  - key: sections.tshirt.title
+    t: T-shirt
+
+  - key: sections.tshirt.description
+    t: |
+      ## Support the Survey With the State of HTML T-Shirt
+
+      Do you miss the the good old days of the mid-90s, when HTML was king and VHS tape covers featured futuristic, colorful artwork? 
+
+      The bad news is that even with 2024's technology, you can't yet go back in time to relive those glory days. But what you *can* do is wear this awesome original retro t-shirt, designed by none other than the talented Christopher Kirk-Nielsen.
+
+  - key: tshirt.about
+    t: About the T-shirt
+
+  - key: tshirt.description
+    t: |
+      We use a high-quality, super-soft tri-blend shirt with a slim fit printed by our partners at Cotton Bureau.
+
+  - key: tshirt.getit
+    t: Get It
+
+  - key: tshirt.price
+    t: USD $32 + shipping
+
+  - key: tshirt.designer.heading
+    t: About the Designer
+
+  - key: tshirt.designer.name
+    t: Christopher Kirk-Nielsen
+
+  - key: tshirt.designer.bio
+    t: |
+      Originally from France but now based in the United States, Chris is not just an amazing front-end developer, but also a talented illustrator who specializes in retro visuals. In fact, we encourage you to also check out his [other t-shirt designs](https://chriskirknielsen.com/designs)!
+
+  ###########################################################################
   # Sections
   ###########################################################################
 
