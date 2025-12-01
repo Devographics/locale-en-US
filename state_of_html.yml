@@ -64,23 +64,39 @@ translations:
 
   - key: sections.forms.title
     t: Forms
+    aliases:
+      - features.forms
   - key: sections.forms.prompt
     t: Form-related elements and attributes
+    aliases:
+      - features.forms.description
 
   - key: sections.interactivity.title
     t: Interactivity
+    aliases:
+      - features.interactivity
   - key: sections.interactivity.prompt
     t: APIs that enable richer user interactions.
+    aliases:
+      - features.interactivity.description
 
   - key: sections.web_components.title
     t: Web Components
+    aliases:
+      - features.web_components
   - key: sections.web_components.prompt
     t: Making & using web components.
+    aliases:
+      - features.web_components.description
 
   - key: sections.content.title
     t: Content
+    aliases:
+      - features.content
   - key: sections.content.prompt
     t: Embedding, multimedia, data, and other content-related features.
+    aliases:
+      - features.content.description
 
   - key: sections.external_content.title
     t: External Content
@@ -89,8 +105,13 @@ translations:
 
   - key: sections.accessibility.title
     t: Accessibility
+    aliases:
+      - features.accessibility
   - key: sections.accessibility.prompt
     t: Making sites and apps accessible by all.
+    aliases:
+      - features.accessibility.description
+      - sections.accessibility.description
 
   - key: sections.mobile_web_apps.title
     t: Native Web Apps
@@ -113,11 +134,17 @@ translations:
       - features.graphics_multimedia
   - key: sections.graphics_multimedia.prompt
     t: Rendering graphics and animations.
+    aliases:
+      - features.graphics_multimedia.description
 
   - key: sections.performance.title
     t: Performance
+    aliases:
+      - features.performance
   - key: sections.performance.prompt
     t: Making your site run even faster.
+    aliases:
+      - features.performance.description
 
   - key: sections.security.title
     t: Security
@@ -130,6 +157,8 @@ translations:
       - features.system_capabilities
   - key: sections.system_capabilities.prompt
     t: Accessing device and system APIs.
+    aliases:
+      - features.system_capabilities.description
 
   - key: sections.other_tools.prompt
     t: Other web-platform-related tools.
@@ -1453,19 +1482,6 @@ translations:
       which **features** of HTML (and related APIs) you know about.
 
       By the way, if you want to learn more about any item in the survey, you can add it to your reading list by clicking its little "+" icon!
-
-  - key: features.forms
-    aliasFor: sections.forms.title
-  - key: features.interactivity
-    aliasFor: sections.interactivity.title
-  - key: features.content
-    aliasFor: sections.content.title
-  - key: features.web_components
-    aliasFor: sections.web_components.title
-  - key: features.accessibility
-    aliasFor: sections.accessibility.title
-  - key: features.mobile_web_apps
-    aliasFor: sections.mobile_web_apps.title
 
   ###########################################################################
   # FAQ
