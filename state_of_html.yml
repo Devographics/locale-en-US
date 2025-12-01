@@ -123,13 +123,19 @@ translations:
 
   - key: features.forms_pain_points
     t: Forms Pain Points
+    aliases:
+      - forms.forms_pain_points
   - key: features.forms_pain_points.question
     t: What are your pain points around HTML forms?
+    aliases:
+      - forms.forms_pain_points.question
   - key: features.forms_pain_points.prompt
     t: |
       Think of the various form controls (e.g. `<input>`, `<textarea>`, `<select>`, `<button>` etc.),
       behaviors (e.g. validation, autocomplete), handling forms via JS, editing APIs (e.g. `contentEditable`) etc.
       Anything that bothers you is fair game — browser support, missing features, styling, etc.
+    aliases:
+      - forms.forms_pain_points.prompt
   - key: features.forms_pain_points.placeholder
     t: |
       Pain point #{index}…
@@ -194,12 +200,18 @@ translations:
 
   - key: features.interactivity_pain_points
     t: Interactivity Pain Points
+    aliases:
+      - interactivity.interactivity_pain_points
   - key: features.interactivity_pain_points.question
     t: What are your pain points around dynamic HTML changes?
+    aliases:
+      - interactivity.interactivity_pain_points.question
   - key: features.interactivity_pain_points.prompt
     t: |
       Browser incompatibilities or lack of support, missing features, and other problems you face
       around interactive elements and behaviors (except forms), DOM manipulation, events, and related APIs.
+    aliases:
+      - interactivity.interactivity_pain_points.prompt
 
   - key: features.interactivity_pain_points.placeholder
     aliasFor: features.forms_pain_points.placeholder
@@ -278,12 +290,18 @@ translations:
 
   - key: features.content_pain_points
     t: Content Pain Points
+    aliases:
+      - content.content_pain_points
   - key: features.content_pain_points.question
     t: What are your pain points around managing content in HTML?
+    aliases:
+      - content.content_pain_points.question
   - key: features.content_pain_points.prompt
     t: |
       Think of content elements (iframes, headings, tables, sections), machine-readable data, internationalization & localization, etc.
       Missing features, browser incompatibilities, and other problems you face are all fair game.
+    aliases:
+      - content.content_pain_points.prompt
   - key: features.content_pain_points.placeholder
     aliasFor: features.forms_pain_points.placeholder
 
@@ -291,11 +309,17 @@ translations:
 
   - key: features.graphics_pain_points
     t: Graphics & Multimedia Pain Points
+    aliases:
+      - graphics_multimedia.graphics_pain_points
   - key: features.graphics_pain_points.question
     t: What are your pain points around rendering graphics, videos, animations, and other media?
+    aliases:
+      - graphics_multimedia.graphics_pain_points.question
   - key: features.graphics_pain_points.prompt
     t: |
       Think of issues around using Canvas, SVG, WebGL, and other APIs for rendering graphics graphics, rendering animations, graphics performance, missing graphics primitives or APIs, etc.
+    aliases:
+      - graphics_multimedia.graphics_pain_points.prompt
   - key: features.graphics_pain_points.placeholder
     aliasFor: features.forms_pain_points.placeholder
 
@@ -303,11 +327,17 @@ translations:
 
   - key: features.performance_pain_points
     t: Performance Pain Points
+    aliases:
+      - performance.performance_pain_points
   - key: features.performance_pain_points.question
     t: What are your pain points around performance?
+    aliases:
+      - performance.performance_pain_points.question
   - key: features.performance_pain_points.prompt
     t: |
       Issues around poor performance metrics, slow-loading pages, delayed rendering, janky animations or scrolling, etc.
+    aliases:
+      - performance.performance_pain_points.prompt
   - key: features.performance_pain_points.placeholder
     aliasFor: features.forms_pain_points.placeholder
 
@@ -315,11 +345,17 @@ translations:
 
   - key: features.security_pain_points
     t: Security Pain Points
+    aliases:
+      - security.security_pain_points
   - key: features.security_pain_points.question
     t: What are your pain points around security?
+    aliases:
+      - security.security_pain_points.question
   - key: features.security_pain_points.prompt
     t: |
       TODO
+    aliases:
+      - security.security_pain_points.prompt
   - key: features.security_pain_points.placeholder
     aliasFor: features.forms_pain_points.placeholder
 
@@ -401,8 +437,12 @@ translations:
 
   - key: features.web_components_common_pain_points
     t: Web Components Pain Points
+    aliases:
+      - web_components.web_components_common_pain_points
   - key: features.web_components_common_pain_points.question
     t: What are your top pain points around making and using web components?
+    aliases:
+      - web_components.web_components_common_pain_points.question
 
   - key: options.web_components_common_pain_points.complex_apis
     t: Excessive complexity
@@ -459,7 +499,11 @@ translations:
 
   - key: features.web_components_other_pain_points
     t: Other Web Components Pain Points
+    aliases:
+      - web_components.web_components_other_pain_points
   - key: features.web_components_other_pain_points.question
+    aliases:
+      - web_components.web_components_other_pain_points.question
     t: Any other pain points around making and using web components?
   - key: features.web_components_other_pain_points.placeholder
     aliasFor: features.forms_pain_points.placeholder
@@ -540,8 +584,12 @@ translations:
 
   - key: features.accessibility_pain_points
     t: Accessibility Pain Points
+    aliases:
+      - accessibility.accessibility_pain_points
   - key: features.accessibility_pain_points.question
     t: What are your biggest pain points around web accessibility?
+    aliases:
+      - accessibility.accessibility_pain_points.question
   - key: features.accessibility_pain_points.placeholder
     aliasFor: features.forms_pain_points.placeholder
 
@@ -737,11 +785,17 @@ translations:
 
   - key: features.system_capabilities_pain_points
     t: System Capabilities Pain Points
+    aliases:
+      - system_capabilities.system_capabilities_pain_points
   - key: features.system_capabilities_pain_points.question
     t: What are your pain points around accessing native system and device capabilities?
+    aliases:
+      - system_capabilities.system_capabilities_pain_points.question
   - key: features.system_capabilities_pain_points.prompt
     t: |
       Issues around accessing device or OS capabilities, interacting with the file system, matching native app feature sets, etc.
+    aliases:
+      - system_capabilities.system_capabilities_pain_points.prompt
   - key: features.system_capabilities_pain_points.placeholder
     aliasFor: features.forms_pain_points.placeholder
 

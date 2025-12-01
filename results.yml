@@ -726,16 +726,16 @@ translations:
     t: Pain Points
 
   - key: features.pain_points.default
-    t: Top pain points overall.
+    t: Top pain point topics overall.
 
   - key: features.pain_points.limitations
-    t: Top pain points related to being unable to achieve a goal due to feature or platform limitations.
+    t: Top pain point topics related to being unable to achieve a goal due to feature or platform limitations.
 
   - key: features.pain_points.interop
-    t: Top pain points related to poor browser support or other browser/platform incompatibilities.
+    t: Top pain point topics related to poor browser support or other browser/platform incompatibilities.
 
   - key: features.pain_points.features
-    t: Top pain points corresponding to specific web platform features.
+    t: Top pain point topics corresponding to specific web platform features.
 
   - key: features.all_features
     t: All Features
