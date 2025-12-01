@@ -1121,7 +1121,7 @@ translations:
     t: Limited Functionality
   - key: usage.html_functionality_features.question
     t: Which existing HTML features or browser APIs are you unable to use for other reasons (and why)?
-  - key: usage.html_functionality_features.description
+  - key: usage.html_functionality_features.prompt
     t: |
       Existing HTML features that you often have to recreate or augment using JS.
   # - key: usage.html_functionality_features.description
@@ -1399,15 +1399,15 @@ translations:
   - key: opinions.browser_interoperability_pace.question
     t: Over the past few years, new web features have become stable across browsers at a faster pace
 
-  - key: options.browser_interoperability_is_obstacle.0
+  - key: options.browser_interoperability_pace.0
     aliasFor: options.opinions.0
-  - key: options.browser_interoperability_is_obstacle.1
+  - key: options.browser_interoperability_pace.1
     aliasFor: options.opinions.1
-  - key: options.browser_interoperability_is_obstacle.2
+  - key: options.browser_interoperability_pace.2
     aliasFor: options.opinions.2
-  - key: options.browser_interoperability_is_obstacle.3
+  - key: options.browser_interoperability_pace.3
     aliasFor: options.opinions.3
-  - key: options.browser_interoperability_is_obstacle.4
+  - key: options.browser_interoperability_pace.4
     aliasFor: options.opinions.4
 
   - key: opinions.web_platform_right_direction
