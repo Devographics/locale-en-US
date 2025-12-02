@@ -50,3 +50,79 @@ translations:
     t: When will the results be released?
   - key: faq.results_released_html2025.description
     t: The survey will run from July 15 to August 15, 2025, and the survey results will be released around September 15, 2025.
+
+  ###########################################################################
+  # Takeaways
+  ###########################################################################
+
+  # usage
+
+  - key: usage.html_interoperability_features.takeaway.html2025
+    t: |
+      TODO html_interoperability_features
+
+  - key: usage.html_functionality_features.takeaway.html2025
+    t: |
+      TODO html_functionality_features
+
+  - key: usage.html_missing_elements.takeaway.html2025
+    t: |
+      This year again **datatable** is the most requested new element. While it would certainly be nice to have built-in filtering, sorting, searching, etc. capabilities, it doesn't seem like something that will become a reality anytime soon. 
+
+      On the other hand, progress is being made on other long-awaited features such as a native **switch** element, which explains its drop in the rankings.
+
+  - key: usage.html_styling_issues.takeaway.html2025
+    t: |
+      It will be no surprise that form inputs top the list of hardest elements to style. Thankfully, [customizable select elements](https://developer.chrome.com/blog/a-customizable-select) are in the works, even though [browser support](https://web-platform-dx.github.io/web-features-explorer/features/customizable-select/) is still lagging.
+
+  - key: usage.component_strategies.takeaway.html2025
+    t: |
+      It's hard to dispute that JavaScript components have become the dominant paradigm of building UIs on the web. And yes, dealing with all these competing front-end frameworks can be messy–but it's a mess we know (and maybe even love?), a fact that makes it tough for web components to gain ground beyond fourth place.
+
+  - key: usage.design_system_strategies.takeaway.html2025
+    t: |
+      Design systems have become a requirement for most large-scale projects, and that fact is reflected in the popularity of all these various approaches.
+
+  - key: usage.html_css_js_balance.takeaway.html2025
+    t: |
+      As shown in the “Component Strategies” chart above, JavaScript is the de facto vessel for a lot of the HTML code we produce. Which explains why we spend so much time writing it!
+
+  - key: usage.what_do_you_use_html_for.takeaway.html2025
+    t: |
+      While the average survey respondents mainly works on dynamic web apps, many of us also spend time creating blogs or other text-heavy sites, harkening back to HTML's roots as a document-oriented language.
+
+  - key: usage.html_pain_points_freeform.takeaway.html2025
+    t: |
+      TODO html_pain_points_freeform
+
+  # opinions
+
+  - key: opinions.accessibility_is_valued.takeaway.html2025
+    t: |
+      Given that lack of workplace buy-in is often cited as an obstacle to proper accessibility practices, it's nice to see that among survey respondents at least, things seem to be getting better, with both “agree” bars increasing compared to last year.
+
+  - key: opinions.validation_is_important.takeaway.html2025
+    t: |
+      It's easy to forget about HTML validation when dealing with the chaos of modern web development. But respondents agree that it remains an important part of the process.
+
+  - key: opinions.keeping_informed_is_challenging.takeaway.html2025
+    t: |
+      Despite great initiatives like [Baseline](https://web-platform-dx.github.io/web-features/), [keeping up with the web platform](https://css-tricks.com/how-to-keep-up-with-new-css-features/) remains a challenge. Hopefully this survey helps at least a little!
+
+  - key: opinions.keeping_informed_is_challenging.takeaway.html2025
+    t: |
+      Despite great initiatives like [Baseline](https://web-platform-dx.github.io/web-features/), [keeping up with the web platform](https://css-tricks.com/how-to-keep-up-with-new-css-features/) remains a challenge. Hopefully this survey helps at least a little!
+
+  - key: opinions.browser_interoperability_is_obstacle.takeaway.html2025
+    t: |
+      It's not easy being a browser vendor in 2025. Developers complain about platform stagnation, so you introduce new features and APIs… only for developers to now complain about the lack of cross-browser support!
+
+      This is why [Interop](https://web.dev/blog/interop-2025) has become a key part of the process over the past couple years. It gives browser vendors a chance to coordinate on feature compatibility, and avoid having all their hard work ruined by poor interoperability.
+
+  - key: opinions.browser_interoperability_pace.takeaway.html2025
+    t: |
+      The results of those interoperability efforts are reflected in this chart, with **75%** of respondents agreeing that things are moving at a faster pace than before.
+
+  - key: opinions.web_platform_right_direction.takeaway.html2025
+    t: |
+      Similarly, **77%** of respondents have a positive opinion of the web platform's overall direction.

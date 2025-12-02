@@ -164,6 +164,57 @@ translations:
     t: Other web-platform-related tools.
 
   ###########################################################################
+  # Other Section Content
+  ###########################################################################
+
+  - key: features.all_features.description
+    t: |
+      This chart recaps all of the survey's feature questions. The main bars represent a respondent's experience; and they are then further subdivided according to that respondent's sentiment. You can change the grouping to alternate between both. 
+
+
+      Note that you can also find a more specific breakdown of the same data in each feature sub-section.
+
+  - key: features.forms_features
+    t: Forms Experience & Sentiment
+    aliases:
+      - forms.forms_features
+
+  - key: features.interactivity_features
+    t: Interactivity Experience & Sentiment
+    aliases:
+      - interactivity.interactivity_features
+
+  - key: features.content_features
+    t: Content Experience & Sentiment
+    aliases:
+      - content.content_features
+
+  - key: features.web_components_features
+    t: Web Components Experience & Sentiment
+    aliases:
+      - web_components.web_components_features
+
+  - key: features.accessibility_features
+    t: Accessibility Experience & Sentiment
+    aliases:
+      - accessibility.accessibility_features
+
+  - key: features.system_capabilities_features
+    t: System Capabilities Experience & Sentiment
+    aliases:
+      - system_capabilities.system_capabilities_features
+
+  - key: features.performance_features
+    t: Performance Experience & Sentiment
+    aliases:
+      - performance.performance_features
+
+  - key: features.graphics_multimedia_features
+    t: Graphics & Multimedia Experience & Sentiment
+    aliases:
+      - graphics_multimedia.graphics_multimedia_features
+
+  ###########################################################################
   # Features
   ###########################################################################
 
