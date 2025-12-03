@@ -52,6 +52,16 @@ translations:
     t: The survey will run from July 15 to August 15, 2025, and the survey results will be released around September 15, 2025.
 
   ###########################################################################
+  # Figures
+  ###########################################################################
+
+  - key: figure.figure_lazy_loading_usage.html2025
+    t: Proportion of respondents having used **lazy loading**, the most-used feature among those with the “Newly Available” Baseline status.
+
+  - key: figure.figure_content_security_usage.html2025
+    t: Largest year-over-year usage increase, for **Content-Security Policy**.
+
+  ###########################################################################
   # Takeaways
   ###########################################################################
 

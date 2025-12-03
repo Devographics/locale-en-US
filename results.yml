@@ -1401,6 +1401,10 @@ translations:
 
   # subsets filtering
 
+  - key: charts.subsets.filters
+    t: |
+      Filters:
+
   - key: charts.subsets.presets
     t: |
       Presets:
