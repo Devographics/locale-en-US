@@ -114,6 +114,8 @@ translations:
     t: Browser Support
   - key: tabs.features
     t: Features
+  - key: tabs.all_topics
+    t: All Topics
 
   ###########################################################################
   # Options
@@ -731,7 +733,7 @@ translations:
   - key: features.pain_points.limitations
     t: Top pain point topics related to being unable to achieve a goal due to feature or platform limitations.
 
-  - key: features.pain_points.interop
+  - key: features.pain_points.interop_issues
     t: Top pain point topics related to poor browser support or other browser/platform incompatibilities.
 
   - key: features.pain_points.features
