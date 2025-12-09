@@ -132,6 +132,10 @@ translations:
     t: Graphics & Multimedia
     aliases:
       - features.graphics_multimedia
+  - key: sections.graphics_multimedia.title.short
+    t: Graphics
+    aliases:
+      - features.graphics_multimedia.short
   - key: sections.graphics_multimedia.prompt
     t: Rendering graphics and animations.
     aliases:
@@ -214,6 +218,10 @@ translations:
     aliases:
       - graphics_multimedia.graphics_multimedia_features
 
+  - key: features.graphics_multimedia_features.short
+    t: Graphics Experience & Sentiment
+    aliases:
+      - graphics_multimedia.graphics_multimedia_features.short
   ###########################################################################
   # Features
   ###########################################################################
@@ -429,6 +437,10 @@ translations:
     t: Graphics & Multimedia Pain Points
     aliases:
       - graphics_multimedia.graphics_pain_points
+  - key: features.graphics_pain_points.short
+    t: Graphics Pain Points
+    aliases:
+      - graphics_multimedia.graphics_pain_points.short
   - key: features.graphics_pain_points.question
     t: What are your pain points around rendering graphics, videos, animations, and other media?
     aliases:

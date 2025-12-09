@@ -1470,6 +1470,8 @@ translations:
     t: All
   - key: comments.filter.clear
     t: Clear
+  - key: comments.filter.no_items
+    t: No items.
 
   - key: comment.like.description
     t: Like this comment

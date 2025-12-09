@@ -61,6 +61,9 @@ translations:
   - key: figure.figure_content_security_usage.html2025
     t: Largest year-over-year usage increase, for **Content-Security Policy**.
 
+  - key: figure.figure_forms_features.html2025
+    t: Number of comments on the most-commented feature, **datalist**.
+
   ###########################################################################
   # Takeaways
   ###########################################################################
