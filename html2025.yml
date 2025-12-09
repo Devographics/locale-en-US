@@ -84,31 +84,52 @@ translations:
     t: |
       Browser devtools have seen a huge jump in usage compared to last year's results, seeing them overtake Lighthouse to become the lead accessibility testing tool.
 
-  - key: xxx.takeaway.html2025
+  - key: forms.forms_features.takeaway.html2025
     t: |
       TODO
-  - key: xxx.takeaway.html2025
+  - key: forms.forms_pain_points.takeaway.html2025
     t: |
       TODO
-  - key: xxx.takeaway.html2025
+  - key: graphics_multimedia.graphics_multimedia_features.takeaway.html2025
     t: |
       TODO
-  - key: xxx.takeaway.html2025
+  - key: graphics_multimedia.graphics_multimedia_pain_points.takeaway.html2025
     t: |
       TODO
-  - key: xxx.takeaway.html2025
+  - key: content.content_features.takeaway.html2025
     t: |
       TODO
-  - key: xxx.takeaway.html2025
+  - key: content.content_pain_points.takeaway.html2025
     t: |
       TODO
-  - key: xxx.takeaway.html2025
+  - key: interactivity.interactivity_features.takeaway.html2025
     t: |
       TODO
-  - key: xxx.takeaway.html2025
+  - key: interactivity.interactivity_pain_points.takeaway.html2025
     t: |
       TODO
-  - key: xxx.takeaway.html2025
+  - key: performance.performance_features.takeaway.html2025
+    t: |
+      TODO
+  - key: performance.performance_pain_points.takeaway.html2025
+    t: |
+      TODO
+  - key: web_components.web_components_features.takeaway.html2025
+    t: |
+      TODO
+  - key: web_components.web_components_pain_points.takeaway.html2025
+    t: |
+      TODO
+  - key: system_capabilities.system_capabilities_features.takeaway.html2025
+    t: |
+      TODO
+  - key: system_capabilities.system_capabilities_pain_points.takeaway.html2025
+    t: |
+      TODO
+  - key: accessibility.accessibility_features.takeaway.html2025
+    t: |
+      TODO
+  - key: accessibility.accessibility_pain_points.takeaway.html2025
     t: |
       TODO
   # usage
