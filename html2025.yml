@@ -68,11 +68,53 @@ translations:
   # Takeaways
   ###########################################################################
 
-  # usage
+  - key: accessibility.accessibility_techniques.takeaway.html2025
+    t: |
+      While things like alt text or proper heading hierarchy have become second nature to most front-end developers, newer tools like the `prefers-` set of media queries have yet to truly become mainstream.
 
+  - key: accessibility.accessibility_disabilities.takeaway.html2025
+    t: |
+      It's nice to see that beyond accounting for users with vision impairments, more developers are also taking atypical color vision and mobility impairments into account compared to last year.
+
+  - key: accessibility.accessibility_screenreaders.takeaway.html2025
+    t: |
+      Once again, easily accessible tools like VoiceOver or the Chrome DevTools win over more specialized options. Although many developers still don't use screen readers of any kind (also note that 39% of survey respondents skipped the question altogether).
+
+  - key: accessibility.accessibility_tools.takeaway.html2025
+    t: |
+      Browser devtools have seen a huge jump in usage compared to last year's results, seeing them overtake Lighthouse to become the lead accessibility testing tool.
+
+  - key: xxx.takeaway.html2025
+    t: |
+      TODO
+  - key: xxx.takeaway.html2025
+    t: |
+      TODO
+  - key: xxx.takeaway.html2025
+    t: |
+      TODO
+  - key: xxx.takeaway.html2025
+    t: |
+      TODO
+  - key: xxx.takeaway.html2025
+    t: |
+      TODO
+  - key: xxx.takeaway.html2025
+    t: |
+      TODO
+  - key: xxx.takeaway.html2025
+    t: |
+      TODO
+  - key: xxx.takeaway.html2025
+    t: |
+      TODO
+  - key: xxx.takeaway.html2025
+    t: |
+      TODO
+  # usage
   - key: usage.html_interoperability_features.takeaway.html2025
     t: |
-      TODO html_interoperability_features
+      There's always a bit of lag between the state of the web platform and actual real-world adoption, so it shouldn't come as a surprise that the **Popover API** still tops the rankings. But make no mistake, this feature now officially has the "Newly Available" Baseline status, meaning using it across browser should be much less of an issue going forward.
 
   - key: usage.html_functionality_features.takeaway.html2025
     t: |

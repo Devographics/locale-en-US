@@ -711,6 +711,8 @@ translations:
       - accessibility.accessibility_tools
   - key: features.accessibility_tools.question
     t: What tools do you use for accessibility testing?
+    aliases:
+      - accessibility.accessibility_tools.question
 
   - key: features.accessibility_pain_points
     t: Accessibility Pain Points
@@ -729,6 +731,8 @@ translations:
       - accessibility.accessibility_disabilities
   - key: features.accessibility_disabilities.question
     t: What kind of user disabilities do you account for when making websites?
+    aliases:
+      - accessibility.accessibility_disabilities.question
 
   - key: options.accessibility_disabilities.hearing_impairments
     t: Hearing impairments
