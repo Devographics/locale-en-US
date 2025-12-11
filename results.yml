@@ -2467,6 +2467,20 @@ translations:
     t: How many items in this category respondents have used.
 
   ###########################################################################
+  # Highlight (learn this next)
+  ###########################################################################
+
+  - key: highlight.heading
+    t: |
+      Learn this next:
+
+  - key: highlight.description
+    t: We're highlighting up-and-coming features or libraries we think you should know about.
+
+  - key: highlight.resources
+    t: Useful Resources
+
+  ###########################################################################
   # Sponsors
   ###########################################################################
 

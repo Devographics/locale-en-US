@@ -65,6 +65,16 @@ translations:
     t: Number of comments on the most-commented feature, **datalist**.
 
   ###########################################################################
+  # Highlights
+  ###########################################################################
+
+  - key: highlight.customizable_select.html2025
+    t: |
+      **Customizable Select** may not currently be widely supported, yet it's a feature worth knowing about. While only used by **7.1%** of respondents, **89%** of developers who *have* used it report a positive experience. 
+
+      And given that the `<select/>` element has always been a challenge to style, being able to finally customize it to your needs without resorting to JavaScript-based hacks is a welcome improvement!
+
+  ###########################################################################
   # Takeaways
   ###########################################################################
 
