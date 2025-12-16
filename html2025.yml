@@ -74,6 +74,44 @@ translations:
 
       And given that the `<select/>` element has always been a challenge to style, being able to finally customize it to your needs without resorting to JavaScript-based hacks is a welcome improvement!
 
+  - key: highlight.jpeg_xl.html2025
+    t: |
+      After the "JIF/GIF" pronunciation fiasco and the confusingly-named "PNG" ("pee-en-gee"? "ping"?), whoever's in charge of image format nomenclature decided to keep things simple this time: take the already-popular JPEG and add an “XL” to it to make it cooler. 
+
+      But not bigger though, as contrary to their name JPEG XL images are actually *smaller* than boring old JPEG–while somehow also being backwards-compatible with it. Don't ask me how that works.
+
+  - key: highlight.hidden_until_found.html2025
+    t: |
+      Did you know that browsers can now play hide-and-seek? The `hidden="until-found"` attribute lets you hide an element until the user triggers it, by (for example) clicking an anchor link pointing to it.
+
+      Right now the feature is definitely in its “hidden” state, with **79.4%** of respondents having never even heard about it before. And browser support is still sparse (looking at you, Safari!). But once interoperability improves, it might just turn out to be worth adding to your toolbelt.
+
+  - key: highlight.popover_api.html2025
+    t: |
+      The **Popover API** is “Newly Available” as of this year, meaning it's now supported in all four major browsers. Which makes this the perfect time to learn how it can help you get rid of hacky JavaScript code, and replace it with a nice declarative API!
+
+  - key: highlight.blocking_render.html2025
+    t: |
+      Those of us who give a FOUC (Flash of Unstyled Content) about controlling how websites load will be happy to learn about `blocking="render"`. As it name implies, this attribute can make a `<link>`, `<script>` or `<style>` tag block the page's rendering until they're fully loaded.
+
+      Browser support isn't quite there yet–but it's definitely something that will make web loading UX much smoother once it becomes widely supported.
+
+  - key: highlight.shadow_dom.html2025
+    t: |
+      TODO
+
+  - key: highlight.payment_request_api.html2025
+    t: |
+      “My favorite carrot cake recipe? Sure, I'll tell you! But first, can I interest you in a new mattress? Or maybe some shoes?”. 
+
+      Ads can seem like an inescapable part of the web, especially when you're trying to bake a new pastry. But the **PaymentRequest API** could be the first step towards making browser-integrated micro-payments a reality. And that fact alone makes it worth keeping an eye on.
+
+  - key: highlight.search_element.html2025
+    t: |
+      The `<search>` element is one of those easy wins that take very little effort to add to your list of best practices. Step 1: use it to denote any search field in your apps. Step 2: well that's it really!
+
+      And now that it's supported in all four major browsers, there's really no reason not to be using it.
+
   ###########################################################################
   # Takeaways
   ###########################################################################
