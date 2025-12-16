@@ -288,7 +288,7 @@ translations:
   ###########################################################################
 
   - key: conclusion.html2025.lea_verou.bio
-    t: Speaker, Author, Web Architecture Consultant
+    t: Speaker, Author, Award-Winning Web Architecture Consultant
   - key: conclusion.html2025.lea_verou
     t: >
       We often expect that the flashiest features would attract the most developer interest. Things like AI-powered APIs, 3D/XR/AR, or device APIs. Yet year after year, what rises to the top is anything but fancy. Almost… mundane: Dropdowns. Comboboxes. Popovers. Dialogs. Form validation. Loading and saving files. Templating. Safely displaying user-generated content. Icons.
