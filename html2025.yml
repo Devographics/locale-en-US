@@ -98,7 +98,9 @@ translations:
 
   - key: highlight.element_internals.html2025
     t: |
-      The **ElementInternals API** recently became widely available, which makes it a perfect complement to existing web components features.
+      If you write web components, you must have often needed to specify custom pseudo-classes, default ARIA parameters, or to make a component behave like a regular form element?
+
+      **ElementInternals** does all that, and more! The best part? It’s Widely Available, supported by all browsers since 2023!
 
   - key: highlight.payment_request_api.html2025
     t: |
