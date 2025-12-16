@@ -96,9 +96,9 @@ translations:
 
       Browser support isn't quite there yet–but it's definitely something that will make web loading UX much smoother once it becomes widely supported.
 
-  - key: highlight.shadow_dom.html2025
+  - key: highlight.element_internals.html2025
     t: |
-      TODO
+      The **ElementInternals API** recently became widely available, which makes it a perfect complement to existing web components features.
 
   - key: highlight.payment_request_api.html2025
     t: |
