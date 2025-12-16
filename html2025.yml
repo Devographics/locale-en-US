@@ -289,6 +289,8 @@ translations:
   # Conclusion
   ###########################################################################
 
+  - key: conclusion.html2025.lea_verou.name
+    t: Dr Lea Verou
   - key: conclusion.html2025.lea_verou.bio
     t: Speaker, Author, Award-Winning Web Architecture Consultant
   - key: conclusion.html2025.lea_verou
