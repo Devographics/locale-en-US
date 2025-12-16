@@ -291,37 +291,34 @@ translations:
     t: W3C Technical Architecture Group Member & MIT CSAIL Researcher
   - key: conclusion.html2025.lea_verou
     t: >
-      We tend to expect that fancier features like AI-powered APIs, augmented reality, or device APIs will attract the most developer interest. And yet time after time, what gets mentioned in surveys like this are rather mundane features like dropdowns, comboboxes, popovers, dialogs, or form validation. 
+      We often expect that the flashiest features would attract the most developer interest. Things like AI-powered APIs, 3D/XR/AR, or device APIs. Yet year after year, what rises to the top is anything but fancy. Almost… mundane: Dropdowns. Comboboxes. Popovers. Dialogs. Form validation. Loading and saving files. Templating. Safely displaying user-generated content. Icons.
 
+      ### Making APIs Usable
 
-      Despite recent advances, building professional interactive UIs still requires cobbling together numerous third-party solutions, even for things that are run-of-the-mill in proprietary platforms.
+      “But — many of these already exist!” you might object. They do — but when built-in UI can’t be customized or styled, it is effectively unusable. Developers are forced to recreate it anyway.
 
+      Once that penny drops, it explains most of the survey results. It explains why **Customizable Select** topped the charts. Why low-level primitives like popovers and invokers are so well-received. Why **SVG** and **drawing HTML on canvas** ranked far above AR/VR. Even why **extending built-in elements** emerged as such a major Web Components pain point.
 
-      While APIs that solve everyday problems trump APIs with a high coolness factor every single time, for those fundamental APIs, needs run deep. Shipping high-level HTML elements that make simple things easy is not enough — developers want exposed, customizable, stylable primitives so that complex things are also possible. Otherwise, the element is as good as nonexistent, as they have to recreate it anyway.
+      After all: how many times can you rebuild a button or dropdown before losing your mind? And how confident are you that you got it right?
 
+      As a result, building professional interactive UIs still requires cobbling together numerous third-party solutions, even for things that are routine in proprietary platforms.
 
-      This is evident throughout the survey: by the high positive sentiment around customizable select and low-level interactive features (popover, invokers), the number of pain points around styling & customization across multiple questions, even the lack of extensible built-in elements being the top concrete Web Components pain point.
+      ### Lagging Change
 
+      This finding is not new. In [the first State of HTML](https://2023.stateofhtml.com/), we already saw how critical styling and customization were, especially around forms. This year’s deeper analysis confirms it hasn’t changed — in fact, the signal is louder.
 
-      Customizable select in particular topped so many charts, it can be crowned Big State of HTML 2025 Winner. 🏆 <select> has been known for years as the most hated HTML form control due to the lack of customization. Simply being able to see light at the end of the tunnel is exciting — even if poor interop reduces utility.
+      But things *have* changed for the better! Features that were being discussed in 2023 have now shipped in major browsers. Others that were impractical back then—like the **Popover API**—are now universally supported.
 
+      And yet, Popover still tops browser support complaints. Why? While the pace of implementation has accelerated, collective perception lags behind. It now takes longer for developers to trust support than for browsers to ship it!
 
-      Looking back to 2023, the overall theme has not changed much: styling and customization was still the biggest longing. Our methodology did evolve a lot this year, which only gave us even more data points that confirm it.
+      ### The Impact of LLMs
 
+      The rise of AI-generated code is a contributing factor. LLMs are surprisingly well-versed in modern web platform features, and *could* have helped move the community forwards, but are overly conservative in what they recommend. In practice, this may even be *slowing* adoption! How to fix this at scale remains an open question. Meanwhile, explicit browser support instructions do help, and who knows, if enough devs do this, the problem may even fix itself.
 
-      The specifics however, could have changed. Popover API is now Baseline, and yet it still was the most prominent interop pain point. Either the community at large have not yet realized that Popover has swiftly moved from future to present (in which case, I've got news for you!) or it’s still seen as early. Possibly a bit of both.
+      ### Looking Ahead
 
+      Looking ahead, the future looks bright. Many of the pain points highlighted are actively being worked on, and in some cases already shipping. Even extensible built-ins, previously considered a dead end, is seeing potential progress through the early stage work around custom attributes. 
 
-      The rise of AI-generated code is a contributing factor. AI could have been helping move the community forwards since LLMs are surprisingly well-versed in modern web platform features. Instead, they have been tuned to lean so conservative in terms of browser support, they may even have slowed down the adoption of new features! It is still an open question how to fix this at scale. Meanwhile, explicit browser support instructions do help, and who knows, if enough devs do this, the problem may even fix itself.
+      All these primitives point in the same direction: a web platform that is steadily becoming more flexible, more expressive, and more aligned with how developers actually build UIs.
 
-
-      Looking ahead, the future looks bright. Many of the longstanding pain points highlighted here are no longer theoretical — they are actively being worked on, and in some cases already shipping (e.g. command invokers shipped in Safari as this was being written, making them soon-to-be-Baseline!).
-
-
-      Even extensible built-ins, previously considered a dead end, is seeing potential progress through the (still very early stage) work around custom attributes.
-
-
-      Customizable select, popovers, invokers, and lower-level interactivity all point in the same direction: a web platform that is steadily becoming more flexible, more expressive, and more aligned with how developers actually build UIs.
-
-
-      Progress on the Web is rarely dramatic, but it is cumulative. Each new primitive reduces the need for workarounds, libraries, and fragile hacks. And when those fundamentals fall into place, the impact will be felt everywhere — quietly, yet pervasively.
+      Progress on the Web is rarely dramatic, but it is cumulative. Each new primitive reduces the need for workarounds, libraries, and fragile hacks. And when those fundamentals fall into place, the impact will be felt everywhere.
