@@ -744,6 +744,11 @@ translations:
 
   - key: features.features_ratios_over_time
     t: Features Over Time
+  - key: features.features_ratios_over_time.description
+    t: |
+      This chart shows a breakdown of feature trends over the years, organized alongisde six key ratios that are themselves based on experience and sentiment data. 
+
+      You can then isolate a sub-segment of the entire feature set, whether by restricting features to a specific section, or by highlighting top/bottom items, or even items with the largest year-over-year increase or decrease for any given metric.
 
   - key: features.learn_more
     t: Learn More (MDN)
