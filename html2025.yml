@@ -11,13 +11,13 @@ translations:
     t: |
       In 2023, after the State of JS and State of CSS surveys had already been going on for a few years, we realized something was missing: what about the technology that brings it all together?
 
-      After all, HTML now goes beyond tags and attributes, encompassing APIs for dynamic updates, rich embeds, performance hints, templating & components, and more. 
+      After all, HTML now goes beyond tags and attributes, encompassing APIs for dynamic updates, rich embeds, performance hints, templating & components, and more.
 
-      The first State of HTML, led by web superstar [Lea Verou](https://lea.verou.me/) broke all previous records for a new survey with 21,000 respondents, and introduced new UI paradigms that improved all future surveys. 
+      The first State of HTML, led by web superstar [Lea Verou](https://lea.verou.me/) broke all previous records for a new survey with 21,000 respondents, and introduced new UI paradigms that improved all future surveys.
 
       This year, with Lea back at the helm, we added ✨35 new features✨, and introduced two new sections: **Graphics & Multimedia** and **Performance**.
 
-      What's more, as with previous editions, this year's results will be taken in consideration by browser vendors when deciding on their roadmaps, so participating can help shape the future of the web! 
+      What's more, as with previous editions, this year's results will be taken in consideration by browser vendors when deciding on their roadmaps, so participating can help shape the future of the web!
 
       Are you ready? Get, set, go!
 
@@ -26,13 +26,13 @@ translations:
 
   - key: introduction.html2025
     t: |
-      If you want to get an idea of how capable the web platform has gotten over the past few years, look no further than the list of categories covered in this survey. 
+      If you want to get an idea of how capable the web platform has gotten over the past few years, look no further than the list of categories covered in this survey.
 
       Forms, graphics, performance features, methods of interacting with various system and device APIs, accessibility… It's a wonder anybody is able to keep track of it all!
 
-      Thankfully at least one person is: [Lea Verou](https://lea.verou.me/), who after designing the original version of the survey in 2023, joined us again this year to give it an update. 
+      Thankfully at least one person is: [Lea Verou](https://lea.verou.me/), who after designing the original version of the survey in 2023, joined us again this year to give it an update.
 
-      And together, one of the areas we focused on this year was analyzing the vast quantity of freeform answers collected around various pain point areas. 
+      And together, one of the areas we focused on this year was analyzing the vast quantity of freeform answers collected around various pain point areas.
 
       You'll now be able to dig deeper into categorized data, as well as access (and search through) respondents' original answers.
 
@@ -70,7 +70,7 @@ translations:
 
   - key: highlight.customizable_select.html2025
     t: |
-      **Customizable Select** may not currently be widely supported, yet it's a feature worth knowing about. While only used by **7.1%** of respondents, **89%** of developers who *have* used it report a positive experience. 
+      **Customizable Select** may not currently be widely supported, yet it's a feature worth knowing about. While only used by **7.1%** of respondents, **89%** of developers who *have* used it report a positive experience.
 
       And given that the `<select/>` element has always been a challenge to style, being able to finally customize it to your needs without resorting to JavaScript-based hacks is a welcome improvement!
 
@@ -96,64 +96,71 @@ translations:
 
   - key: forms.forms_features.takeaway.html2025
     t: |
-      TODO
+      Once more we see that developers yearn the most for the most basic of UI building blocks like autocomplete (datalist) and dropdowns (customizable select), as long as they are customizable and can be tailored to their needs.
+
   - key: forms.forms_pain_points.takeaway.html2025
     t: |
-      TODO
+      Styling & customization of generated form control UI is the big longing with nearly **half** of pain points being about it!
+
   - key: graphics_multimedia.graphics_multimedia_features.takeaway.html2025
     t: |
-      TODO
+      JPEG XL and drawing elements on canvas the two limited availability features that elicited the most developer interest, whereas more complex areas like XR/AR solicited the least interest, showing once more that devs are far more interested in primitives that make their daily lives easier, rather than "cool"
   - key: graphics_multimedia.graphics_multimedia_pain_points.takeaway.html2025
     t: |
-      TODO
+      SVG has always been the the dark horse of the Web, chronically neglected by browser vendors, yet being used on nearly every website. It is therefore no surprise that it dominates here, with a quarter of pain points being about it.
   - key: content.content_features.takeaway.html2025
     t: |
-      TODO
+      Both the most liked and most disliked features were security-related: the Sanitizer API drew the most interest, while CSP topped the frustration list. This contrast highlights how security mechanisms that reduce friction and integrate cleanly with existing workflows are welcomed, while those that impose rigid policies, demand meticulous configuration, or break previously working code can generate resentment.
   - key: content.content_pain_points.takeaway.html2025
     t: |
-      TODO
+      The data paints a very clear picture: By far the most pressing content point is **HTML reuse**, both across pages, and within the same page. Even though this is already possible through build tools, it appears there is large demand for a platform-native feature.
   - key: interactivity.interactivity_features.takeaway.html2025
     t: |
-      TODO
+      There is huge demand for simple but customizable, declarative primitives for common things, as evidenced by the proportion of positive sentiment for every single HTML feature here.
   - key: interactivity.interactivity_pain_points.takeaway.html2025
     t: |
       TODO
   - key: performance.performance_features.takeaway.html2025
     t: |
-      TODO
+      It's loud and clear: the DX of `srcset` and `sizes` could use improvement! Both ends of the spectrum are around it, with `srcset`/`sizes` itself topping the frustration list, and `sizes="auto` being the most liked feature — because it alleviates some of this pain.
   - key: performance.performance_pain_points.takeaway.html2025
     t: |
       TODO
   - key: web_components.web_components_features.takeaway.html2025
     t: |
-      TODO
+      Once again we see declarative solutions prevailing, with declarative custom elements topping the interest charts.
   - key: web_components.web_components_pain_points.takeaway.html2025
     t: |
-      TODO
+      We know that extending built-in elements is a long requested feature, and these results validate it, as it is the top concrete pain point topic here (after the more abstract ones around complexity, reliance on JS, and accessibility).
+  - key: web_components.web_components_other_pain_points.takeaway.html2025
+    t: |
+      While the predefined responses make it hard to compare with previous years, the same themes are still present: high cognitive overhread, falling short when compared to framework components, and Shadow DOM being more of a problem than a solution.
   - key: system_capabilities.system_capabilities_features.takeaway.html2025
     t: |
-      TODO
+      Opening and saving a file is one of the most basic app capabilities, and yet until recently was unattainable for web apps — until the File System Access API.
+      It is therefore no surprise that it topped the chart of positive sentiment.
+      On the other hand, device APIs such as WebUSB, Web Bluetooth, or WebNFC collected the least interest, verifying once more that the features that gather the most interest are those that solve basic, common problems.
   - key: system_capabilities.system_capabilities_pain_points.takeaway.html2025
     t: |
-      TODO
+      The data paints a very vivid picture: the top pain point here is neither ergonomics, nor limitations, but interop, and more specifically, a vendor that developers see as obstructing a large number.
   - key: accessibility.accessibility_features.takeaway.html2025
     t: |
       TODO
   - key: accessibility.accessibility_pain_points.takeaway.html2025
     t: |
-      TODO
+      While there are technical gaps when it comes to accessibility (e.g. cross-root ARIA), a recurring theme whenever we ask about it is that the main pain points are around the *humans* involved with issues around workplace priorities, education, and cognitive overhead topping the list.
   # usage
   - key: usage.html_interoperability_features.takeaway.html2025
     t: |
-      There's always a bit of lag between the state of the web platform and actual real-world adoption, so it shouldn't come as a surprise that the **Popover API** still tops the rankings. But make no mistake, this feature now officially has the "Newly Available" Baseline status, meaning using it across browser should be much less of an issue going forward.
+      Popover topped this chart, despite Popover API being Baseline 2024. Popovers are such a big pain point that anchor positioning, a CSS feature (!) was second, despite being explicitly out of scope for this survey.
 
   - key: usage.html_functionality_features.takeaway.html2025
     t: |
-      TODO html_functionality_features
+      Form controls and other interactive elements are once again those perceived as most limiting. With customizable select out of the way, it looks like perhaps date pickers should be the next target.
 
   - key: usage.html_missing_elements.takeaway.html2025
     t: |
-      This year again **datatable** is the most requested new element. While it would certainly be nice to have built-in filtering, sorting, searching, etc. capabilities, it doesn't seem like something that will become a reality anytime soon. 
+      This year again **datatable** is the most requested new element. While it would certainly be nice to have built-in filtering, sorting, searching, etc. capabilities, it doesn't seem like something that will become a reality anytime soon.
 
       On the other hand, progress is being made on other long-awaited features such as a native **switch** element, which explains its drop in the rankings.
 
