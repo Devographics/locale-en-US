@@ -132,7 +132,7 @@ translations:
     t: |
       **JPEG XL** and **ctx.drawElement()** were the two new features that garnered the most positive sentiment, whereas more complex areas like augmented or extended reality APIs didn't score as high–showing once more that devs are first and foremost interested in primitives that make their daily lives easier.
 
-  - key: graphics_multimedia.graphics_multimedia_pain_points.takeaway.html2025
+  - key: graphics_multimedia.graphics_pain_points.takeaway.html2025
     t: |
       SVG has always been the the dark horse of the Web, chronically neglected by browser vendors, yet being used on nearly every website. It is therefore no surprise that it dominates here, with a quarter of pain points being about it.
 
