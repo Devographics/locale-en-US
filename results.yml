@@ -1662,9 +1662,9 @@ translations:
     t: Awarded to the technology with the largest year-over-year usage progression.
 
   - key: award.tool_retention_award.title
-    t: Highest Retention
+    t: Highest Satisfaction
   - key: award.tool_retention_award.description
-    t: Awarded to the technology with the highest percentage of returning users.
+    t: Awarded to the technology with the highest percentage of satisfied users.
 
   - key: award.tool_satisfaction_award.title
     aliasFor: award.tool_retention_award.title

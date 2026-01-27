@@ -34,11 +34,17 @@ translations:
     t: >
       When the long-awaited Nintendo Switch 2 recently came out, it had been eight years since the original Switch. 
 
+
       Can you imagine what that must've been like for those poor game developers? Eight long years having to develop for the same platform, with no new APIs, no new capabilities, no new bugs, no new versions that break your build… Those poor souls!
+
 
       Thankfully that's something *we* won't ever have to worry about, as the JavaScript gods continue to make sure that each successive year brings its new share of probl… I mean, *innovations*!
 
+
       So join me once more to review these survey results and look back at 2025 had in store for us all.
+
+
+      <span class="conclusion__byline">– Sacha Greif</span>
 
   ###########################################################################
   # Survey FAQ
@@ -121,31 +127,35 @@ translations:
 
       This change led to a much more library-focused list, compared to previous years which included more features.
 
-  - key: tools.all_tools_experience.takeaway.js2025
+  - key: libraries.all_tools_experience.takeaway.js2025
     t: >
       **Vite** has been the most-loved library for a few years now, but it has now overtaken **React** to also become the #2 most-used item, and seems ready to take the top spot next year. 
 
+
       Meanwhile, while **Next.js** is the 13th most-loved project, it's also the 5th most-hated, and generated the most comments overall–which goes to show just how polarizing the framework can be.
 
-  - key: tools.tools_arrows.takeaway.js2025
+  - key: libraries.tools_arrows.takeaway.js2025
     t: >
       JavaScript libraries commonly display a "boomerang" pattern over time: boosted by early positivity (line goes right), usage increases (line shoots up), but users then get confronted with more edge cases and real-world issues, and opinions can become more negative (line veers left).
 
+
       This means any project that moves to the right (such as **Vue.js**) or even just stays vertical (such as **Astro**) is worth paying attention to!
 
-  - key: tools.tier_list.takeaway.js2025
+  - key: libraries.tier_list.takeaway.js2025
     t: >
       By having a satisfaction ratio above 90%, **Hono** and **Bun** make a well-deserved entrance into the S-tier this year.
 
-  - key: tools.tools_ratios_over_time.takeaway.js2025
+  - key: libraries.tools_ratios_over_time.takeaway.js2025
     t: >
       The prize for largest relative usage increase goes to **Vitest** and **Playwright**, which both gained **14** percentage points year-over-year. 
 
+
       Meanwhile, **Rolldown** saw a huge increase in name recognition, going from **33%%* to **51%** awareness. And when looking at satisfaction, **Next.js** experienced the largest drop, going from **68%** to **55%**.
+
 
       Finally, it's also interesting to see that both **Preact** and **React** fare much better among respondents who have actually used them than those who have merely heard about the libraries (as shown in the Appreciation tab).
 
-  - key: tools.scatterplot_overview.takeaway.js2025
+  - key: libraries.scatterplot_overview.takeaway.js2025
     t: >
       With this year's inclusion of back-end frameworks, **Express** has joined **Vite**, **React**, and **Jest** in the coveted top-right quadrant. But **Vue.js**, **Storybook**, and **Vitest** are not far behind!
 
@@ -155,7 +165,9 @@ translations:
     t: >
       For all the talk of the front-end ecosystem being in constant turmoil, things have been remarkably stable over the past year, with no change in usage rankings apart from **Alpine.js** and **HTMX** switching places.
 
+
       The same is true when looking at satisfaction, with the exception of **Qwik** continuing to lose ranks.
+
 
       Another place where that lack of new hype is apparent is the Interest tab, with no framework apart from **Solid** and **Preact** gaining ground since last year.
 
@@ -173,7 +185,10 @@ translations:
 
   - key: front_end_frameworks.front_end_frameworks_pain_points.takeaway.js2025
     t: >
-      TODO
+      Being the dominant framework also means **React** tops the list of things front-end developers are struggling with. 
+
+
+      Other recurring issues include poor performance, state management, and just the sheer complexity of the modern front-end ecosystem.
 
   # meta_frameworks
 
@@ -181,11 +196,13 @@ translations:
     t: >
       **Next.js** keeps on gaining ground and dominating the meta-framework category, yet paradoxically, it's also losing satisfaction at the exact same time. This is not a good sign, as its satisfaction ratio now has a **39%** gap with leader **Astro**.
 
+
       And one look at the Awareness chart is enough to see how dangerous of a competitor Astro really is, going from virtually unknown to serious contender in the span of just a few years.
 
   - key: meta_frameworks.meta_frameworks_others.takeaway.js2025
     t: >
       Many respondents questioned the absence of **TanStack Start** from the options offered in the survey. The reason is simply that at survey launch, the framework wasn't out of beta yet!
+
 
       Thankfully respondents were able to rectify this omission by mentioning the project in the “other meta-frameworks” field, a clear signal that TanStack Start is going to make a very strong entrance in next year's ”official” rankings.
 
@@ -199,13 +216,17 @@ translations:
 
   - key: meta_frameworks.front_end_frameworks_pain_points.takeaway.js2025
     t: >
-      TODO
+      By their nature, meta-frameworks straddle the gap between client and server, which leads to a lot of complex issues. 
+
+
+      And while **Next.js** offers quite a few ways to address those issues, the downside of all that power is that its learning curve and overall developer experience can sometimes suffer.
 
   # back_end_frameworks
 
   - key: back_end_frameworks.back_end_frameworks_ratios.takeaway.js2025
     t: >
       After three years of absence from the survey, it was high time we checked back on back-end frameworks. And no surprise here, **Express** is still the leader in terms of usage, even if **Next** is progressing at a nice clip.
+
 
       But things are more interesting when switching to the Satisfactiont tab, where the top three projects (**Hono**, **Nitro**, and **ElysiaJS**) are all new entrants, making this once of the most exciting categories to watch in years to come.
 
@@ -219,13 +240,17 @@ translations:
 
   - key: back_end_frameworks.back_end_frameworks_pain_points.takeaway.js2025
     t: >
-      TODO
+      While **Express* is still widely used *15 years* after its initial release, some are starting to wish the back-end ecosystem would move on to more modern alternatives. 
+
+
+      This is especially true when it comes to providing typesafe, TypeScript-compatible APIs, which is something that venerable framework was never meant to do.
 
   # testing
 
   - key: testing.testing_ratios.takeaway.js2025
     t: >
       While **Jest** has long enjoyed a comfortable spot as the most-used testing tool, **Vitest** is climbing the ranks so fast that it wouldn't be surprising to see it overtake it in the upcoming year, especially with Jest's satisfaction ratio trending down. 
+
 
       Meanwhile, **Storybook** is an interesting case study in a project trying its best to address its users' frustrations. It's still showing a slight satisfaction loss compared to last year, but the rate of decline has slowed, and things might start looking up soon.
 
@@ -243,7 +268,7 @@ translations:
 
   - key: testing.testing_pain_points.takeaway.js2025
     t: >
-      TODO
+      **Mocking** remains a major pain point for developers, with **configuration** and setup not far behind.
 
   # build_tools
 
@@ -251,9 +276,12 @@ translations:
     t: >
       I really thought this would be the year **Vite** finally overtakes **webpack** to claim the spot of most-used build tools, but it looks like this might have to wait one more year. 
 
+
       **Turbopack** is also showing a lot of progress in terms of usage, no doubt benefiting from being bundled with Next.js. That being said, similar to Next.js its satisfaction ratio is quite worrying.
 
+
       **Rolldown** on the other hand has gained satisfaction, and also comes first in terms of interest.
+
 
       Finally, **Bun** is doing quite well across all categories, which is quite an achievement for such a new and ambitious project.
 
@@ -271,7 +299,7 @@ translations:
 
   - key: build_tools.build_tools_pain_points.takeaway.js2025
     t: >
-      TODO
+      While Vite has certainly made things better, **configuration** and setup remain the most pressing issue when it comes to build tools.
 
     # other_tools
 
@@ -293,7 +321,7 @@ translations:
 
   - key: other_tools.hosting.takeaway.js2025
     t: >
-      **Vercel** has done a pretty amazing job of establishing itself as a serious hosting option, second only to **AWS**, despite the company's polarizing reputation.
+      Despite the company's sometimes-polarizing reputation, **Vercel** has done a pretty amazing job of establishing itself as a serious hosting option, second only to **AWS**.
 
   - key: other_tools.edge_runtimes.takeaway.js2025
     t: >
@@ -318,6 +346,7 @@ translations:
   - key: other_tools.non_js_languages_features_top_features.takeaway.js2025
     t: >
       This year we also asked respondents which *features* they would like to see adopted in JavaScript, while also specifying the language that feature came from.
+
 
       The second tab shows which languages appeared most frequently. And while **Rust** was only the 7th-most used language in the previous “Non-JavaScript Languages” chart, it came in first here, a testament to its outsized influenced on the JavaScript ecosystem.
 
@@ -353,7 +382,7 @@ translations:
 
   - key: usage.top_js_pain_points.takeaway.js2025
     t: >
-      TODO
+      We now have pretty much all the tools we need; the challenge is to know how to use them right.
 
   - key: usage.state_of_the_web_happiness.takeaway.js2025
     t: >
@@ -479,6 +508,31 @@ translations:
     t: |
       Observable lets you build interactive documents treating each block as a function that yields something. It's all async, super capable, fun as hell to make stuff in, and powers [Nerdy Notebook](http://nerdy.dev/notebook).
 
+  ###########################################################################
+  # Awards
+  ###########################################################################
+
+  - key: award.tool_usage_delta_award.comment
+    t: |
+      **Vitest** and **Playwright** both gained **{value}** usage among respondents.
+
+  - key: award.tool_satisfaction_award.comment
+    t: Vite takes the top spot, with **{value}** of users having a positive opinion about it.
+
+  - key: award.tool_interest_award.comment
+    t: Once again **Vitest** is the technology developers are most interested in, with a **{value}** interest ratio.
+
+  - key: award.most_write_ins_award.comment
+    t: With **{value}** mentions, Node version manager **fnm** proves once again that everything is better when written in Rust.
+
+  - key: award.most_commented_tool_award.comment
+    t: With **{value}** comments from respondents, **Next.js** is certainly not leaving people indifferent.
+
+  - key: award.most_loved_tool_award.comment
+    t: With **{value}** of all developers having a positive opinion of it, Vite once more gets the prize for most-loved technology!
+
+  - key: award.feature_adoption_delta_award.comment
+    t: With a **{value}** progression in 2022, **top-level await** has quickly become an integral part of JavaScript.
   ###########################################################################
   # Conclusion
   ###########################################################################
