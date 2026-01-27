@@ -30,6 +30,16 @@ translations:
 
       Whatever happens, one thing's for sure: you can help us figure it all out by taking this year's State of JavaScript survey!
 
+  - key: introduction.js2025
+    t: >
+      When the long-awaited Nintendo Switch 2 recently came out, it had been eight years since the original Switch. 
+
+      Can you imagine what that must've been like for those poor game developers? Eight long years having to develop for the same platform, with no new APIs, no new capabilities, no new bugs, no new versions that break your build… Those poor souls!
+
+      Thankfully that's something *we* won't ever have to worry about, as the JavaScript gods continue to make sure that each successive year brings its new share of probl… I mean, *innovations*!
+
+      So join me once more to review these survey results and look back at 2025 had in store for us all.
+
   ###########################################################################
   # Survey FAQ
   ###########################################################################
@@ -84,3 +94,418 @@ translations:
     t: |
       ### Now Open
       ## State of React 2025
+
+  ###########################################################################
+  # Takeaways
+  ###########################################################################
+
+  - key: features.js_new_features.takeaway.js2025
+    t: >
+      While **Temporal** still tops the rankings, excitement is down from last year, which makes sense as it has begun its transition from theoretical proposal to actually being implemented in Firefox.
+
+  - key: features.top_currently_missing_from_js.takeaway.js2025
+    t: >
+      No change in ranking in the top 5, but it's notable to see that interest in **Signals** did drop slightly compared to last year.
+
+  - key: features.native_types_proposal.takeaway.js2025
+    t: >
+      While 32% of respondents are hoping for in-browser **runtime types** support in JavaScript, if types are ever officially supported it seems much more likely to be through **TypeScript-like type annotations**, which came in at number one.
+
+  - key: features.js_pace_of_change.takeaway.js2025
+    t: >
+      This question's aim was to get a rough idea of how well respondents are keeping up with new features, and it shows that most of us struggle to learn about–let alone try out–new language features Hopefully this is something these survey results can help with!
+
+  - key: features.reading_list.takeaway.js2025
+    t: >
+      The **Reading List** lets respondents learn more about specific items post-survey, and this year we tweaked it to support auto-adding items based on survey answers, in addition to letting respondents select items manually.
+
+      This change led to a much more library-focused list, compared to previous years which included more features.
+
+  - key: tools.all_tools_experience.takeaway.js2025
+    t: >
+      **Vite** has been the most-loved library for a few years now, but it has now overtaken **React** to also become the #2 most-used item, and seems ready to take the top spot next year. 
+
+      Meanwhile, while **Next.js** is the 13th most-loved project, it's also the 5th most-hated, and generated the most comments overall–which goes to show just how polarizing the framework can be.
+
+  - key: tools.tools_arrows.takeaway.js2025
+    t: >
+      JavaScript libraries commonly display a "boomerang" pattern over time: boosted by early positivity (line goes right), usage increases (line shoots up), but users then get confronted with more edge cases and real-world issues, and opinions can become more negative (line veers left).
+
+      This means any project that moves to the right (such as **Vue.js**) or even just stays vertical (such as **Astro**) is worth paying attention to!
+
+  - key: tools.tier_list.takeaway.js2025
+    t: >
+      By having a satisfaction ratio above 90%, **Hono** and **Bun** make a well-deserved entrance into the S-tier this year.
+
+  - key: tools.tools_ratios_over_time.takeaway.js2025
+    t: >
+      The prize for largest relative usage increase goes to **Vitest** and **Playwright**, which both gained **14** percentage points year-over-year. 
+
+      Meanwhile, **Rolldown** saw a huge increase in name recognition, going from **33%%* to **51%** awareness. And when looking at satisfaction, **Next.js** experienced the largest drop, going from **68%** to **55%**.
+
+      Finally, it's also interesting to see that both **Preact** and **React** fare much better among respondents who have actually used them than those who have merely heard about the libraries (as shown in the Appreciation tab).
+
+  - key: tools.scatterplot_overview.takeaway.js2025
+    t: >
+      With this year's inclusion of back-end frameworks, **Express** has joined **Vite**, **React**, and **Jest** in the coveted top-right quadrant. But **Vue.js**, **Storybook**, and **Vitest** are not far behind!
+
+  # front_end_frameworks
+
+  - key: front_end_frameworks.front_end_frameworks_ratios.takeaway.js2025
+    t: >
+      For all the talk of the front-end ecosystem being in constant turmoil, things have been remarkably stable over the past year, with no change in usage rankings apart from **Alpine.js** and **HTMX** switching places.
+
+      The same is true when looking at satisfaction, with the exception of **Qwik** continuing to lose ranks.
+
+      Another place where that lack of new hype is apparent is the Interest tab, with no framework apart from **Solid** and **Preact** gaining ground since last year.
+
+  - key: front_end_frameworks.front_end_frameworks_others.takeaway.js2025
+    t: >
+      Setting aside **Astro**, which doesn't quite belong to the front-end framework category, and **Ember**, which has been around for a while now, the most exciting new entrant here has to be **Ripple**, taking on the tough job of being the new kind on the front-end block.
+
+  - key: front_end_frameworks.front_end_frameworks_cardinalities.takeaway.js2025
+    t: >
+      The average respondent has only used **2.6** different front-end frameworks over their career, again showing that the image of the burned-out web developer jumping from framework to framework on a monthly basis isn't quite accurate anymore.
+
+  - key: front_end_frameworks.front_end_frameworks_happiness.takeaway.js2025
+    t: >
+      While in slight decline, front-end happiness has been remarkably stable over the years.
+
+  - key: front_end_frameworks.front_end_frameworks_pain_points.takeaway.js2025
+    t: >
+      TODO
+
+  # meta_frameworks
+
+  - key: meta_frameworks.meta_frameworks_ratios.takeaway.js2025
+    t: >
+      **Next.js** keeps on gaining ground and dominating the meta-framework category, yet paradoxically, it's also losing satisfaction at the exact same time. This is not a good sign, as its satisfaction ratio now has a **39%** gap with leader **Astro**.
+
+      And one look at the Awareness chart is enough to see how dangerous of a competitor Astro really is, going from virtually unknown to serious contender in the span of just a few years.
+
+  - key: meta_frameworks.meta_frameworks_others.takeaway.js2025
+    t: >
+      Many respondents questioned the absence of **TanStack Start** from the options offered in the survey. The reason is simply that at survey launch, the framework wasn't out of beta yet!
+
+      Thankfully respondents were able to rectify this omission by mentioning the project in the “other meta-frameworks” field, a clear signal that TanStack Start is going to make a very strong entrance in next year's ”official” rankings.
+
+  - key: meta_frameworks.meta_frameworks_cardinalities.takeaway.js2025
+    t: >
+      Respondents haven't used that many different meta-frameworks, which is to be expected in a category still dominated by just one or two solutions.
+
+  - key: meta_frameworks.meta_frameworks_happiness.takeaway.js2025
+    t: >
+      It will be interesting to see if diminishing satisfaction with Next.js eventually translates into diminishing happiness overall, but so far at least that doesn't seem to be the case.
+
+  - key: meta_frameworks.front_end_frameworks_pain_points.takeaway.js2025
+    t: >
+      TODO
+
+  # back_end_frameworks
+
+  - key: back_end_frameworks.back_end_frameworks_ratios.takeaway.js2025
+    t: >
+      After three years of absence from the survey, it was high time we checked back on back-end frameworks. And no surprise here, **Express** is still the leader in terms of usage, even if **Next** is progressing at a nice clip.
+
+      But things are more interesting when switching to the Satisfactiont tab, where the top three projects (**Hono**, **Nitro**, and **ElysiaJS**) are all new entrants, making this once of the most exciting categories to watch in years to come.
+
+  - key: back_end_frameworks.back_end_frameworks_others.takeaway.js2025
+    t: >
+      **oRPC** offers typesafe APIs, which is a big selling point compared to traditional back-end solutions created before the TypeScript sea change.
+
+  - key: back_end_frameworks.back_end_frameworks_cardinalities.takeaway.js2025
+    t: >
+      Respondents tend to use relatively few back-end frameworks, which might be why **Express** remains so dominant: once you've picked a back-end, you're unlikely to go out of your way to try out new options.
+
+  - key: back_end_frameworks.back_end_frameworks_pain_points.takeaway.js2025
+    t: >
+      TODO
+
+  # testing
+
+  - key: testing.testing_ratios.takeaway.js2025
+    t: >
+      While **Jest** has long enjoyed a comfortable spot as the most-used testing tool, **Vitest** is climbing the ranks so fast that it wouldn't be surprising to see it overtake it in the upcoming year, especially with Jest's satisfaction ratio trending down. 
+
+      Meanwhile, **Storybook** is an interesting case study in a project trying its best to address its users' frustrations. It's still showing a slight satisfaction loss compared to last year, but the rate of decline has slowed, and things might start looking up soon.
+
+  - key: testing.testing_others.takeaway.js2025
+    t: >
+      While **Deno**'s test runner wasn't included in the survey's main options, it did come first in freeform mentions.
+
+  - key: testing.testing_cardinalities.takeaway.js2025
+    t: >
+      While other categories so far have hovered around 1-2 tools used, when it comes to testing respondents averaged a whopping **4.4**, a sign that people may still be looking for that perfect test runner, and that things are far from settled in this area.
+
+  - key: testing.testing_happiness.takeaway.js2025
+    t: >
+      Happiness remains stable, with a slight uptick over the past three years.
+
+  - key: testing.testing_pain_points.takeaway.js2025
+    t: >
+      TODO
+
+  # build_tools
+
+  - key: build_tools.build_tools_ratios.takeaway.js2025
+    t: >
+      I really thought this would be the year **Vite** finally overtakes **webpack** to claim the spot of most-used build tools, but it looks like this might have to wait one more year. 
+
+      **Turbopack** is also showing a lot of progress in terms of usage, no doubt benefiting from being bundled with Next.js. That being said, similar to Next.js its satisfaction ratio is quite worrying.
+
+      **Rolldown** on the other hand has gained satisfaction, and also comes first in terms of interest.
+
+      Finally, **Bun** is doing quite well across all categories, which is quite an achievement for such a new and ambitious project.
+
+  - key: build_tools.build_tools_others.takeaway.js2025
+    t: >
+      Once again respondents mentioned **Deno**, making a strong case to include it in the main survey options in 2026.
+
+  - key: build_tools.build_tools_cardinalities.takeaway.js2025
+    t: >
+      Similar to testing tools, respondents have been trying out quite a few different build tools. It remains to be seen if **Vite** will make this a thing of the past.
+
+  - key: build_tools.build_tools_happiness.takeaway.js2025
+    t: >
+      Build tools happiness remains stable.
+
+  - key: build_tools.build_tools_pain_points.takeaway.js2025
+    t: >
+      TODO
+
+    # other_tools
+
+  - key: other_tools.libraries.takeaway.js2025
+    t: >
+      **Zod** saw a lot of growth year-over-year. And since many of the libraries featured here focus on date management, it'll be interesting to see how this chart evovles as **Temporal** becomes better-supported across browsers.
+
+  - key: other_tools.graphics_animation.takeaway.js2025
+    t: >
+      **Chart.js** was a write-in result last year, and being included as an official option this survey rocketed it all the way up to first place.
+
+  - key: other_tools.utilities.takeaway.js2025
+    t: >
+      Every self-respecting JavaScript developer these days seems to be using **ESLint** and **Prettier**.
+
+  - key: other_tools.runtimes.takeaway.js2025
+    t: >
+      **Node.js** and browsers taking the top spots isn't a big shock, but **Bun**'s third place is a nice sign of the project's growth.
+
+  - key: other_tools.hosting.takeaway.js2025
+    t: >
+      **Vercel** has done a pretty amazing job of establishing itself as a serious hosting option, second only to **AWS**, despite the company's polarizing reputation.
+
+  - key: other_tools.edge_runtimes.takeaway.js2025
+    t: >
+      While **Cloudflare** was fifth in the hosting chart, it ranks just below **AWS Lambda** here, making it a serious contender in both spaces.
+
+  - key: other_tools.text_editors.takeaway.js2025
+    t: >
+      **VS Code** has long dominated the text editor ranks, but **Cursor** has somehow managed to outpace every other competitor thanks to its promise of AI-powered coding.
+
+  - key: other_tools.mobile_desktop.takeaway.js2025
+    t: >
+      **React Native** takes the lead here, but **Expo** and **Tauri** are also worth keeping an eye on!
+
+  - key: other_tools.monorepo_tools.takeaway.js2025
+    t: >
+      **pnpm** is the clear leader in the monorepo category.
+
+  - key: other_tools.non_js_languages.takeaway.js2025
+    t: >
+      When we're not writing JavaScript, most of us turn to **Python** and **PHP**.
+
+  - key: other_tools.non_js_languages_features_top_features.takeaway.js2025
+    t: >
+      This year we also asked respondents which *features* they would like to see adopted in JavaScript, while also specifying the language that feature came from.
+
+      The second tab shows which languages appeared most frequently. And while **Rust** was only the 7th-most used language in the previous “Non-JavaScript Languages” chart, it came in first here, a testament to its outsized influenced on the JavaScript ecosystem.
+
+  # usage
+
+  - key: usage.js_ts_balance.takeaway.js2025
+    t: >
+      The proportion of developers who write the entirety of their code in TypeScript keeps increasing, and may soon represent a majority of respondents.
+
+  - key: usage.compiled_code_balance.takeaway.js2025
+    t: >
+      A natural consequence of writing typed code (at least today) is depending on a build step, which is the case for the vast majority of us.
+
+  - key: usage.build_step_advantages.takeaway.js2025
+    t: >
+      If we *did* want to envision a build-less future, the first step would no doubt be native type support in JavaScript.
+
+  - key: usage.ai_generated_code_balance.takeaway.js2025
+    t: >
+      While respondents do not yet produce a majority of their code with AI, the balance is quickly shifting, with code being the result of AI output increasing from 20% to 29% year-over-year.
+
+  - key: usage.what_do_you_use_js_for.takeaway.js2025
+    t: >
+      Despite the ever-growing number of use cases for JavaScript, front-end develeopment remains the most common reason to use the language for now.
+
+  - key: usage.industry_sector.takeaway.js2025
+    t: >
+      Given the survey's focus on upcoming trends and early-stage features, it makes sense that its largest audience block would be developers building tools and products for other programmers.
+
+  - key: usage.js_app_patterns.takeaway.js2025
+    t: >
+      Modern JavaScript frameworks may now support a whole range of various rendering modes, but it turns out the simplest ones remain the most popular to this day.
+
+  - key: usage.top_js_pain_points.takeaway.js2025
+    t: >
+      TODO
+
+  - key: usage.state_of_the_web_happiness.takeaway.js2025
+    t: >
+      Happiness is once again stable.
+
+  - key: usage.state_of_js_happiness.takeaway.js2025
+    t: >
+      Happiness levels remain constant once again.
+
+  # resources
+
+  - key: resources.courses.takeaway.js2025
+    t: >
+      It's always interesting to see how independent developers such as **Wes Bos** and **Fireship** have managed to leverage their following into competing with much larger entities such as **Udemy** or **O'Reily**.
+
+  - key: resources.newsletters.takeaway.js2025
+    t: >
+      Newsletters lack the built-in sharing mechanisms of social media, so growing them can be quite tough. This explains why incumbents that have been around for a long time such as **JavaScript Weekly** and **CSS-Tricks** are still at the top of the rankings.
+
+  - key: resources.podcasts.takeaway.js2025
+    t: >
+      As the line between podcasts and video content becomes ever-blurrier, **Syntax** still maintains their spot as respondents' favorite programming-related audio source.
+
+  - key: resources.video_creators.takeaway.js2025
+    t: >
+      While these rankings can be very dependent on whether video creators shared the survey with their own audience or not, **Fireship**, **Theo**, and **The Primeagen** seem firmly entranched as the top three figures of programming YouTube.
+
+  - key: resources.people.takeaway.js2025
+    t: >
+      While **Midudev** has his own large video presence and other “famous” developers are associated with successful open-source projects, it's worth noting that **Josh Comeau**'s well-deserved success comes down almost entirely to the quality of his excellent blog, a throwback to a more old-school way of creating instructional content online.
+
+  - key: resources.other_surveys.takeaway.js2025
+    t: >
+      While filling out too many online surveys can do doubt lead to the dreaded “survey fatigue” (talk to your doctor!), when consumed in moderation they can still be a great tool to learn about the ecosystem.
+
+  ###########################################################################
+  # Picks
+  ###########################################################################
+
+  - key: picks.my_pick.js2025
+    t: "My 2025 Pick: "
+  - key: picks.intro
+    t: We asked members of the JavaScript community to share their “pick of the year”
+
+  - key: picks.aurora_scharff.name
+    t: |
+      Talk: Next.js at the speed of Bun
+  - key: picks.aurora_scharff.bio
+    t: Web Developer
+  - key: picks.aurora_scharff.description
+    t: |
+      My pick is Lydia Hallie's talk at Next.js Conf about Bun. They're working on super exciting things, and shes the best at explaining advanced topics :)
+
+  - key: picks.ankita_kulkarni.name
+    t: |
+      Delba Oliveira
+  - key: picks.ankita_kulkarni.bio
+    t: Tech Educator
+  - key: picks.ankita_kulkarni.description
+    t: |
+      My pick of the year is Delba Oliveira from the Next.js team. Her work across the ecosystem is remarkable. She has a rare ability to make complex topics feel simple while consistently delivering deeply practical guidance for modern Next.js, React and JS.
+
+  - key: picks.shaundai_person.name
+    t: |
+      Bree Hall
+  - key: picks.shaundai_person.bio
+    t: Senior Software Engineer at Netflix
+  - key: picks.shaundai_person.description
+    t: |
+      My pick is Bree Hall, she's been doing great work and we're lucky to have her as part of the community.
+
+  - key: picks.sam_selikoff.name
+    t: |
+      RSC Explorer
+  - key: picks.sam_selikoff.bio
+    t: Next.js team
+  - key: picks.sam_selikoff.description
+    t: |
+      Server Components extend the capabilities of server-rendered React by allowing you send not only inert HTML to the browser, but also data structures (objects, arrays, dates, maps), Promises (even recursive ones), new React trees (and their source code), and Server Function references. It's a serialization format, and Dan's RSC Explorer really helps you understand that.
+
+  - key: picks.sacha_greif.name
+    t: |
+      Kit Langton
+  - key: picks.sacha_greif.bio
+    t: Devographics surveys creator
+  - key: picks.sacha_greif.description
+    t: |
+      Kit's site is an awesome showcase of projects combining beautiful visuals, great functionality, and amazing content especially around [TypeScript](https://types.kitlangton.com/) and the [Effect](https://www.effect.institute/) library.
+
+  - key: picks.declan_chidlow.name
+    t: |
+      Web Origami
+  - key: picks.declan_chidlow.bio
+    t: Front-end developer, designer, writer
+  - key: picks.declan_chidlow.description
+    t: |
+      Describing itself as “a concise dialect of JavaScript expressions”, Web Origami is a project that hit its stride in 2025. It offers a remarkably intuitive way to transform data, build websites, and call JavaScript directly from the shell. It connects expressions and paths to enable powerful, intuitive data manipulation.
+
+  - key: picks.jenn_schiffer.name
+    t: |
+      The Atproto Dev Community
+  - key: picks.jenn_schiffer.bio
+    t: Reknowned candle-maker and karaoke professional
+  - key: picks.jenn_schiffer.description
+    t: |
+      I think the atproto dev community deserves a spotlight - one of the official SDKs is TypeScript! Also shout-out to [Jason Lengstorf](https://jason.energy/) and everyone else involved in [this](https://bsky.app/profile/codetv.dev/post/3lzgoi3nzh223).
+
+  - key: picks.michael_rambeau.name
+    t: |
+      SST
+  - key: picks.michael_rambeau.bio
+    t: Creator, [BestOfJS](https://bestofjs.org/)
+  - key: picks.michael_rambeau.description
+    t: |
+      I didn't know about SST just a year ago, but I started using it for a new work project and it's been fanstastic! It really deserves more exposure.
+
+  - key: picks.adam_argyle.name
+    t: |
+      Observable
+  - key: picks.adam_argyle.bio
+    t: Co-host, The CSS Podcast
+  - key: picks.adam_argyle.description
+    t: |
+      Observable lets you build interactive documents treating each block as a function that yields something. It's all async, super capable, fun as hell to make stuff in, and powers [Nerdy Notebook](http://nerdy.dev/notebook).
+
+  ###########################################################################
+  # Conclusion
+  ###########################################################################
+
+  - key: conclusion.js2025.daniel_roe
+    t: |
+      <span class="first-line">TypeScript has won.</span>
+
+      Not as a bundler &ndash; but as a language. Deno and Bun (have) supported it for a long time. And now, type stripping means you can write it natively in stable Node.js versions. If types as comments makes it, you'll even be able to write in the browser.
+
+      …and the day of Vite has come. This year, we saw Vite downloads surpass webpack's. And alongside it, Vitest usage has surged upwards. It seems like a good time to opt in to the new Vite toolchain, and 2026 promises to be the year that happens &ndash; with the stable release of Rolldown to power a new, faster Vite, as well as the promise of an all-in-one 'Vite+'.
+
+      Our tools are better than ever. Yet the existential question we are all asking is quite different: what about AI?
+
+      AI is poised to change how we consume documentation, write code, make architectural choices, and more. Companies are betting everything on new patterns of development. For the vast majority of us, coding agents are changing how we interface with our code.
+
+      Is that a good thing?
+
+      Apparently by the end of 2025, just under 30% of code was AI-generated. Cursor and Zed are surging in popularity, even if they are far from dethroning VSCode as the most-used IDE. And agent-based approaches, like Claude, Gemini and Copilot are growing quickly.
+
+      For those of us who are developers, knowing what 'good' looks like will be more important than ever, whatever tools we use. Keeping on top of new language features will be more important. As will knowing what libraries to build on, rather than vibe coding everything from scratch.
+
+      It's already possible to spin up a new project in a day &ndash; or migrate an existing project easily. That's a challenge for framework and library authors. We need to make sure our tools continue to serve developers. We can't count on inertia.
+
+      And that's a reason for all users to be optimistic.
+
+      Let's see what 2026 brings. I'm hoping it will be faster tools, better developer experience, and the power of technology acting as a force multiplier to augment our own agency and choices.
+
+  - key: conclusion.js2025.daniel_roe.bio
+    t: Developer, educator, and YouTuber

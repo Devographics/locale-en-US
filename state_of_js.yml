@@ -1458,6 +1458,9 @@ translations:
   - key: opinions.pick_of_the_year.description
     t: The name of a feature, library, website, person, etc. you want to highlight this year.
 
+  - key: picks.state_of_js.intro
+    t: We asked members of the JavaScript community to share their “pick of the year”
+
   - key: usage.industry_sector_js
     aliasFor: usage.industry_sector
   - key: usage.industry_sector_js.question
@@ -1733,3 +1736,41 @@ translations:
     t: Top Features
   - key: tabs.top_languages
     t: Top Languages
+
+  ###########################################################################
+  # Tshirt
+  ###########################################################################
+
+  - key: sections.tshirt.title
+    t: T-shirt
+
+  - key: sections.tshirt.description
+    t: |
+      ## Support the Survey With the State of JavaScript T-Shirt
+
+      Between the bad video quality, the bulky cassettes, and having to rewind, there's not much to miss about the VHS era. But one thing we *do* miss are the amazing 90s visuals that used to adorn blank VHS tapes. 
+
+      But now, thanks to the talented Christopher Kirk-Nielsen you can enjoy all this retro radness while also celebrating your love for JavaScript at the same time!
+
+  - key: tshirt.about
+    t: About the T-shirt
+
+  - key: tshirt.description
+    t: |
+      We use a high-quality, super-soft tri-blend shirt with a slim fit printed by our partners at Cotton Bureau.
+
+  - key: tshirt.getit
+    t: Get It
+
+  - key: tshirt.price
+    t: USD $32 + shipping
+
+  - key: tshirt.designer.heading
+    t: About the Designer
+
+  - key: tshirt.designer.name
+    t: Christopher Kirk-Nielsen
+
+  - key: tshirt.designer.bio
+    t: |
+      Originally from France but now based in the United States, Chris is not just an amazing front-end developer, but also a talented illustrator who specializes in retro visuals. In fact, we encourage you to also check out his [other t-shirt designs](https://chriskirknielsen.com/designs)!
