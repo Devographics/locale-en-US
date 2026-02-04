@@ -220,14 +220,10 @@ translations:
 
   # component libraries
 
-  - key: tools.component_libraries_experience
-    t: Component Libraries Experience & Sentiment
   - key: tools.component_libraries_experience.takeaway.react2024
     t: >
       **React Aria** and **Radix** lead the rankings in terms of positivity, proving that the headless approach to component libraries has a lot going for it.
 
-  - key: tools.component_libraries_ratios
-    t: Component Libraries Ratios Over Time
   - key: tools.component_libraries_ratios.takeaway.react2024
     t: >
       While **MUI** maintains in top rank in terms of usage, **shadcn/ui** is making huge gains, doubling from 20% to 42% in a year; as well as topping the positivity chart with 80%!
@@ -267,8 +263,6 @@ translations:
     t: >
       Beyond **useState**, the state management solution with the highest positivity ratio is **Zustand**. And while **Redux** still boasts a large userbase, it isn't quite as beloved.
 
-  - key: tools.state_management_ratios
-    t: State Management Ratios Over Time
   - key: tools.state_management_ratios.takeaway.react2024
     t: >
       **Zustand** confirms its lead in terms of positivity, with only the default **useState** scoring higher. It's also grown in terms of usage, going from 28% to 41% over the past year!
@@ -289,8 +283,6 @@ translations:
     t: >
       **TanStack Query** has been making waves for a while now, and it turns out its reputation is reflected in the data since it's the data loading method respondents felt the most positive about, right after the native `fetch` API.
 
-  - key: tools.data_loading_ratios
-    t: Data Loading Ratios Over Time
   - key: tools.data_loading_ratios.takeaway.react2024
     t: >
       **TanStack Query** continues its growth trajectory, both in terms of usage and positivity. The interest graph in particular reveals that –along with **tRPC**– it's pretty much the only data loading library that is still intriguing respondents today!
@@ -314,8 +306,6 @@ translations:
     t: >
       While you'll certainly have no trouble finding people complaining about **Next.js**, it still managed to top the positivity rankings for meta-frameworks, followed by **Remix** and **Astro**.
 
-  - key: tools.meta_frameworks_ratios
-    t: Meta-Frameworks Ratios Over Time
   - key: tools.meta_frameworks_ratios.takeaway.react2024
     t: >
       The only framework showing strong usage growth is **Astro**, going from 18% to 26%. Also worth noting that **TanStack Start** made a very strong debut at 81% interest and 90% retention!

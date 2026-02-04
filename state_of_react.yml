@@ -293,67 +293,120 @@ translations:
     t: >
       `useFormState` is a Hook that allows you to update state based on the result of a form action.
 
-  # tools
+  # component_libraries
 
   - key: tools.component_libraries_others
     t: Other Component Libraries
+    aliases:
+      - component_libraries.component_libraries_others
   - key: tools.component_libraries_others.question
     t: What other component libraries have you used?
+    aliases:
+      - component_libraries.component_libraries_others.question
+
+  - key: tools.component_libraries_experience
+    t: Component Libraries Experience & Sentiment
+    aliases:
+      - component_libraries.component_libraries_experience
+
+  - key: tools.component_libraries_ratios
+    t: Component Libraries Ratios Over Time
+    aliases:
+      - component_libraries.component_libraries_ratios
 
   - key: tools.component_libraries_pain_points
     t: Component Pain Points
     aliases:
       - react_pain_points.component_libraries_pain_points
+      - component_libraries.component_libraries_pain_points
   - key: tools.component_libraries_pain_points.question
     t: What pain points have you encountered related to working with components?
     aliases:
       - react_pain_points.component_libraries_pain_points.question
+      - component_libraries.component_libraries_pain_points.question
 
   # - key: tools.ui_libraries_happiness
   #   t: Happiness
   # - key: tools.ui_libraries_happiness.description
   #   t: How happy are you with the state of UI libraries?
 
+  # state_management
+
+  - key: tools.state_management_ratios
+    t: State Management Ratios Over Time
+    aliases:
+      - state_management.state_management_ratios
+
   - key: tools.state_management_others
     t: Other State Management Libraries
+    aliases:
+      - state_management.state_management_others
   - key: tools.state_management_others.question
     t: What other libraries have you used to manage state in your apps?
+    aliases:
+      - state_management.state_management_others.question
 
   - key: tools.state_management_pain_points
     t: State Management Pain Points
     aliases:
       - react_pain_points.state_management_pain_points
+      - state_management.state_management_pain_points
   - key: tools.state_management_pain_points.question
     t: What pain points have you encountered related to state management?
     aliases:
       - react_pain_points.state_management_pain_points.question
+      -
+      - state_management.state_management_pain_points.question
 
   # - key: tools.state_management_happiness
   #   t: Happiness
   # - key: tools.state_management_happiness.description
   #   t: How happy are you with the available state management libraries?
 
+  # data_loading
+
+  - key: tools.data_loading_ratios
+    t: Data Loading Ratios Over Time
+    aliases:
+      - data_loading.data_loading_ratios
+
   - key: tools.data_loading_others
     t: Other Data Loading Libraries
+    aliases:
+      - data_loading.data_loading_others
   - key: tools.data_loading_others.question
     t: What other libraries have you used for data loading?
+    aliases:
+      - data_loading.data_loading_others.question
 
   - key: tools.data_loading_pain_points
     t: Data Loading Pain Points
     aliases:
       - react_pain_points.data_loading_pain_points
+      - data_loading.data_loading_pain_points
   - key: tools.data_loading_pain_points.question
     t: What pain points have you encountered related to data loading?
     aliases:
       - react_pain_points.data_loading_pain_points.question
+      - data_loading.data_loading_pain_points.question
 
   # - key: tools.data_loading_happiness
   #   t: Happiness
   # - key: tools.data_loading_happiness.description
   #   t: How happy are you with the state of data loading libraries?
 
+  # back_end_infrastructure
+
+  - key: tools.meta_frameworks_ratios
+    t: Meta-Frameworks Ratios Over Time
+    aliases:
+      - back_end_infrastructure.meta_frameworks_ratios
+
   - key: tools.meta_frameworks_others
     t: Other Meta-Frameworks
+    aliases:
+      - back_end_infrastructure.meta_frameworks_others
+
   # - key: tools.meta_frameworks_happiness
   #   t: Happiness
   # - key: tools.meta_frameworks_happiness.description
@@ -369,10 +422,13 @@ translations:
     t: Back-End Pain Points
     aliases:
       - react_pain_points.back_end_infrastructure_pain_points
+      - back_end_infrastructure.back_end_infrastructure_pain_points
+
   - key: tools.back_end_infrastructure_pain_points.question
     t: What pain points have you encountered related to back-end and infrastructure?
     aliases:
       - react_pain_points.back_end_infrastructure_pain_points.question
+      - back_end_infrastructure.back_end_infrastructure_pain_points.question
 
   - key: tools.testing
     t: Testing Libraries
@@ -386,8 +442,13 @@ translations:
 
   - key: tools.mobile_development
     t: Mobile Development
+    aliases:
+      - other_tools.mobile_development
+
   - key: tools.mobile_development.question
     t: Which frameworks or libraries have you used for mobile development?
+    aliases:
+      - other_tools.mobile_development.question
 
   # - key: tools.mobile_development_others
   #   t: Other Mobile Development Tools
@@ -399,10 +460,14 @@ translations:
   # other tools
   - key: tools.form_libraries
     t: Form Libraries
+    aliases:
+      - component_libraries.form_libraries
   # - key: tools.form_libraries.description
   #   t: Libraries for generating and validating forms.
   - key: tools.form_libraries.question
     t: Which libraries have you used to manage forms?
+    aliases:
+      - component_libraries.form_libraries.question
   - key: options.form_libraries.na
     t: None
 
@@ -419,38 +484,59 @@ translations:
 
   - key: tools.build_tools
     t: Build Tools
+    aliases:
+      - back_end_infrastructure.build_tools
+
   # - key: tools.build_tools.description
   #   t: Build tools and bundlers.
   - key: tools.build_tools.question
     t: Which build tools and bundlers have you used?
+    aliases:
+      - back_end_infrastructure.build_tools.question
 
   - key: tools.animation_libraries
     t: Animation
+    aliases:
+      - component_libraries.animation_libraries
   # - key: tools.animation.description
   #   t: Libraries to help manage animations and transitions.
   - key: tools.animation_libraries.question
     t: Which animation libraries have you used?
+    aliases:
+      - component_libraries.animation_libraries.question
 
   - key: tools.auth
     t: Authentication
+    aliases:
+      - other_tools.auth
   # - key: tools.auth.description
   #   t: Libraries and services for managing authentication and accounts.
   - key: tools.auth.question
     t: Which libraries and services have you used to handle authentication?
+    aliases:
+      - other_tools.auth.question
 
   - key: tools.data_visualization_libraries
     t: Data Visualization
+    aliases:
+      - component_libraries.data_visualization_libraries
   # - key: tools.data_visualization.description
   #   t: Data visualization and graphics libraries.
   - key: tools.data_visualization_libraries.question
     t: Which data visualization and graphics libraries have you used?
+    aliases:
+      - component_libraries.data_visualization_libraries.question
 
   - key: tools.css_tools
     t: CSS Tools & Libraries
+    aliases:
+      - component_libraries.css_tools
   # - key: tools.css_tools.description
   #   t: CSS libraries, frameworks, and utilities you use to style your React app.
   - key: tools.css_tools.question
     t: Which libraries or frameworks have you used to style your React apps?
+    aliases:
+      - component_libraries.css_tools.question
 
   - key: tools.other_frontend_frameworks
     t: Other Front-end Frameworks
@@ -463,25 +549,44 @@ translations:
 
   - key: tools.hosting
     t: Hosting Services
+    aliases:
+      - back_end_infrastructure.hosting
+
   # - key: tools.hosting.description
   #   t: Services you use to host your React apps.
   - key: tools.hosting.question
     t: Which of these services have you used to host your React apps?
+    aliases:
+      - back_end_infrastructure.hosting.question
 
   - key: tools.backend_language
     t: Back-end Languages
+    aliases:
+      - back_end_infrastructure.backend_language
+
   - key: tools.backend_language.question
     t: Which language(s) are your back-end apps written in?
+    aliases:
+      - back_end_infrastructure.backend_language.question
 
   - key: tools.other_services
     t: Other Services
+    aliases:
+      - back_end_infrastructure.other_services
+
   - key: tools.other_services.question
     t: What other services have you used with your React apps?
+    aliases:
+      - back_end_infrastructure.other_services.question
 
   - key: tools.validation
     t: Schema & Validation Libraries
+    aliases:
+      - other_tools.validation
   - key: tools.validation.question
     t: Which libraries have you used for validating data against a schema?
+    aliases:
+      - other_tools.validation.question
 
   - key: tools.ai_tools
     t: AI Tools
@@ -490,8 +595,13 @@ translations:
 
   - key: tools.renderers
     t: React Renderers
+    aliases:
+      - other_tools.renderers
+
   - key: tools.renderers.question
     t: Which libraries have you used to render React to different platforms or environments?
+    aliases:
+      - other_tools.renderers.question
 
   - key: tools.other_tools
     t: Other Tools
