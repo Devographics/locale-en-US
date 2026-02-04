@@ -672,6 +672,8 @@ translations:
     aliasFor: tools.pain_points
   - key: tools.front_end_frameworks_pain_points.question
     t: What pain points have you encountered when using front-end frameworks?
+    aliases:
+      - front_end_frameworks.front_end_frameworks_pain_points.question
 
   # meta-frameworks
 
@@ -718,6 +720,8 @@ translations:
     aliasFor: tools.pain_points
   - key: tools.meta_frameworks_pain_points.question
     t: What pain points have you encountered when using meta-frameworks?
+    aliases:
+      - meta_frameworks.meta_frameworks_pain_points.question
 
   # back-end frameworks
 
@@ -751,7 +755,7 @@ translations:
     t: Back-end Frameworks Happiness
     aliases:
       - back_end_frameworks.back_end_frameworks_happiness
-  - key: tools.mback_end_frameworks_happiness.short
+  - key: tools.back_end_frameworks_happiness.short
     aliasFor: charts.axis_legends.happiness
   - key: tools.back_end_frameworks_happiness.question
     t: On a scale of 1 (very unhappy) to 5 (very happy), how happy are you with the current state of back-end frameworks?
@@ -760,10 +764,14 @@ translations:
     t: Back-end Frameworks Pain Points
     aliases:
       - back_end_frameworks.back_end_frameworks_pain_points
+
   - key: tools.back_end_frameworks_pain_points.short
     aliasFor: tools.pain_points
+
   - key: tools.back_end_frameworks_pain_points.question
     t: What pain points have you encountered when using back-end frameworks?
+    aliases:
+      - back_end_frameworks.back_end_frameworks_pain_points.question
 
   # testing
 
@@ -808,6 +816,8 @@ translations:
     aliasFor: tools.pain_points
   - key: tools.testing_pain_points.question
     t: What pain points have you encountered when using testing tools?
+    aliases:
+      - testing.testing_pain_points.question
 
   # mobile & desktop
 
@@ -844,6 +854,8 @@ translations:
     aliasFor: tools.pain_points
   - key: tools.mobile_desktop_pain_points.question
     t: What pain points have you encountered when using JavaScript to build mobile & desktop apps?
+    aliases:
+      - mobile_desktop.mobile_desktop_pain_points.question
 
   # build tools
 
@@ -888,6 +900,8 @@ translations:
     aliasFor: tools.pain_points
   - key: tools.build_tools_pain_points.question
     t: What pain points have you encountered when using build tools?
+    aliases:
+      - build_tools.build_tools_pain_points.question
 
   # monorepo tools
 
@@ -924,6 +938,8 @@ translations:
     aliasFor: tools.pain_points
   - key: tools.monorepo_tools_pain_points.question
     t: What pain points have you encountered when using monorepo tools?
+    aliases:
+      - monorepo_tools.monorepo_tools_pain_points.question
 
   ###########################################################################
   # Other Tools
