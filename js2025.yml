@@ -225,7 +225,7 @@ translations:
 
   - key: back_end_frameworks.back_end_frameworks_ratios.takeaway.js2025
     t: >
-      After three years of absence from the survey, it was high time we checked back on back-end frameworks. And no surprise here, **Express** is still the leader in terms of usage, even if **Next** is progressing at a nice clip.
+      After three years of absence from the survey, it was high time we checked back on back-end frameworks. And no surprise here, **Express** is still the leader in terms of usage, even if **Nest** is progressing at a nice clip.
 
 
       But things are more interesting when switching to the Satisfactiont tab, where the top three projects (**Hono**, **Nitro**, and **ElysiaJS**) are all new entrants, making this once of the most exciting categories to watch in years to come.
