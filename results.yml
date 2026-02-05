@@ -2484,7 +2484,7 @@ translations:
       Library Highlight:
 
   - key: highlight.description
-    t: We're highlighting up-and-coming features or libraries we think you should know about.
+    t: We're highlighting interesting features or libraries we think you should know about.
 
   - key: highlight.resources
     t: Useful Resources

@@ -50,7 +50,7 @@ translations:
     t: Newly-introduced or experimental APIs & features
 
   - key: sections.component_libraries.title
-    t: Component Libraries
+    t: UI Libraries
     aliases:
       - tools.component_libraries
   - key: sections.component_libraries.description
@@ -79,6 +79,10 @@ translations:
     t: Back-End & Infrastructure
     aliases:
       - tools.back_end_infrastructure
+  - key: sections.back_end_infrastructure.title.short
+    t: Back-End
+    aliases:
+      - tools.back_end_infrastructure.short
   - key: sections.back_end_infrastructure.description
     t: Bundling & serving your app
 
@@ -293,10 +297,18 @@ translations:
     t: >
       `useFormState` is a Hook that allows you to update state based on the result of a form action.
 
+  # libraries
+
+  - key: tools.all_tools_experience
+    t: Libraries Experience & Sentiment
+    aliases:
+      - libraries.all_tools_experience
+      - libraries.all_libraries
+
   # component_libraries
 
   - key: tools.component_libraries_others
-    t: Other Component Libraries
+    t: Other UI Libraries
     aliases:
       - component_libraries.component_libraries_others
   - key: tools.component_libraries_others.question
@@ -305,12 +317,12 @@ translations:
       - component_libraries.component_libraries_others.question
 
   - key: tools.component_libraries_experience
-    t: Component Libraries Experience & Sentiment
+    t: UI Libraries Experience & Sentiment
     aliases:
       - component_libraries.component_libraries_experience
 
   - key: tools.component_libraries_ratios
-    t: Component Libraries Ratios Over Time
+    t: UI Libraries Ratios Over Time
     aliases:
       - component_libraries.component_libraries_ratios
 

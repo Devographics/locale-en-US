@@ -509,6 +509,45 @@ translations:
       Observable lets you build interactive documents treating each block as a function that yields something. It's all async, super capable, fun as hell to make stuff in, and powers [Nerdy Notebook](http://nerdy.dev/notebook).
 
   ###########################################################################
+  # Highlights
+  ###########################################################################
+
+  - key: highlight.solid.html2025
+    t: |
+      **Solid** may only be used by 10% of respondents, but the fact that it's had the highest satisfaction for *five years running* should be enough to make us pay attention to what it's doing. 
+
+
+      What's more, Solid creator [Ryan Carniato](https://dev.to/ryansolid) has been in large part responsible for popularizing concepts such as **signals**, and is one of the best at [explaining the intricacies](https://dev.to/this-is-learning/javascript-frameworks-heading-into-2026-2hel) of other front end frameworks, too.
+
+  - key: highlight.astro.html2025
+    t: |
+      **Astro** has taken a good look at what other static site generators were doing, taken the best ideas, and discarded the rest. The result is a framework that both feels simple and powerful at the same time, and has the top satisfaction ranking as a result. 
+
+
+      And having recently [joined forces with Cloudflare](https://blog.cloudflare.com/astro-joins-cloudflare/), it's exciting to think about what the Astro team will show us next!
+
+  - key: highlight.elysia.html2025
+    t: |
+      There are many back-end frameworks around, but **Elysia** stands out as the only one being built on top of [Bun](https://bun.com/). 
+
+
+      Leveraging a brand new runtime can be a risky bet, but given Bun's own growing popularity it looks like that bet might pay off. If anything, it's certainly proving to be an interesting experiment!
+
+  - key: highlight.bun_test.html2025
+    t: |
+      After years of hoping for a more unified toolchain, it looks like JavaScript developers might finally be starting to get their wish. 
+
+
+      **Bun test** is just one example of a test runner being baked into the runtime, with [Node](https://nodejs.org/api/test.html) and [Deno](https://docs.deno.com/runtime/fundamentals/testing/) offering their own equivalents.
+
+  - key: highlight.rolldown.html2025
+    t: |
+      While the **Vite** team is mostly known for, well, Vite, it's also been quietly developing **Rolldown** as a faster, Rust-based bundler. 
+
+
+      And now that [Vite itself uses Rolldown](https://vite.dev/blog/announcing-vite8-beta), the project will no doubt take a central role in the build tool ecosystem.
+
+  ###########################################################################
   # Awards
   ###########################################################################
 
@@ -533,6 +572,7 @@ translations:
 
   - key: award.feature_adoption_delta_award.comment
     t: With a **{value}** progression in 2022, **top-level await** has quickly become an integral part of JavaScript.
+
   ###########################################################################
   # Conclusion
   ###########################################################################

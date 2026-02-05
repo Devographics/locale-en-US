@@ -53,3 +53,132 @@ translations:
     t: When will the results be released?
   - key: faq.results_released_react2025.description
     t: The survey will run from October 25 to November 25, and the survey results will be released shortly after that.
+
+  ###########################################################################
+  # Takeaways
+  ###########################################################################
+
+  - key: features.all_features.takeaway.react2025
+    t: |
+      While there aren't any major surprises here, it's interesting to note that **Server Components** and **Server Functions** are the third and fourth most disliked features respectively, which is troubling for a set of new APIs that was supposed to pave the way towards React's next big evolution towards a more complete full-stack framework.
+
+  - key: features.main_apis_ratios.takeaway.react2025
+    t: |
+      React is a mature library, and that translates into fairly predictable usage curves for its main APIs.
+
+  - key: features.hooks_ratios.takeaway.react2025
+    t: |
+      When it comes to hooks, [useId](https://react.dev/reference/react/useId) has been gaining adoption quickly. And while [useEffect](https://react.dev/reference/react/useEffect) is still one of the most-used hooks APIs, it's also the one with the lowest satifaction ratio, confirming many developers' issues with the hook's finicky reactivity model.
+
+  - key: features.new_apis_ratios.takeaway.react2025
+    t: |
+      While **Server Components** and **Server Functions** are both slowly growing in popularity, [Suspense](https://react.dev/reference/react/Suspense) is the new feature with the highest adoption rate. 
+
+
+      It also boasts a high satisfaction ratio, which sadly isn't the case for the aforementioned server APIs.
+
+  - key: features.main_apis_pain_points.takeaway.react2025
+    t: |
+      `forwardRef` has long been the bane of React developers, which is why seeing it [deprecated in React 19](https://react.dev/blog/2024/12/05/react-19#ref-as-a-prop) was such welcome news.
+
+  - key: features.hooks_pain_points.takeaway.react2025
+    t: |
+      Once again, React developers are coming through loud and clear with their annoyance at `useEffect`.
+
+  - key: features.new_apis_pain_points.takeaway.react2025
+    t: |
+      As foreshadowed by previous charts, respondents have their fair share of gripes with **Server Components**.
+
+  - key: features.reading_list.takeaway.react2025
+    t: |
+      The `<ViewTransition>` API may still only be available in React Canary, but it's already generating a lot of curiosity among respondents, along with `<Profiler>`.
+
+  - key: libraries.all_libraries.takeaway.react2025
+    t: |
+      **TanStack Query** garnered the most positive opinions overall, with **TanStack Start** not too far behind after **Zustand**, **shadcn/ui**, and **create-vite**.
+
+      And echoing recent results from the [State of JavaScript survey](https://2025.stateofjs.com/en-US/libraries/), **Next.js** was the most commented-on library here as well.
+
+  - key: libraries.tools_ratios_over_time.takeaway.react2025
+    t: |
+      **shadcn/ui** stands out as the project with the fastest rise in usage, going from 20% to 56% in two years.
+
+      Meanwhile, **TanStack Start** made big waves despite being a relatively new project, going from 55% to 81% awareness in just one year!
+
+  - key: component_libraries.component_libraries_ratios.takeaway.react2025
+    t: |
+      While **MUI** (a.k.a. Material UI) is still number one in terms of usage, **shadcn/ui** is growing fast and on the verge of overtaking it for the top spot.
+  - key: xxx.takeaway.react2025
+    t: |
+
+  - key: xxx.takeaway.react2025
+    t: |
+
+  - key: xxx.takeaway.react2025
+    t: |
+
+  - key: xxx.takeaway.react2025
+    t: |
+
+  - key: xxx.takeaway.react2025
+    t: |
+
+  - key: xxx.takeaway.react2025
+    t: |
+
+  - key: xxx.takeaway.react2025
+    t: |
+
+  - key: xxx.takeaway.react2025
+    t: |
+
+  - key: xxx.takeaway.react2025
+    t: |
+
+  - key: xxx.takeaway.react2025
+    t: |
+
+  - key: xxx.takeaway.react2025
+    t: |
+
+  - key: xxx.takeaway.react2025
+    t: |
+
+  - key: xxx.takeaway.react2025
+    t: |
+
+  - key: xxx.takeaway.react2025
+    t: |
+
+  - key: xxx.takeaway.react2025
+    t: |
+
+  - key: xxx.takeaway.react2025
+    t: |
+
+  - key: xxx.takeaway.react2025
+    t: |
+
+  - key: xxx.takeaway.react2025
+    t: |
+
+  - key: xxx.takeaway.react2025
+    t: |
+
+  - key: xxx.takeaway.react2025
+    t: |
+
+  - key: xxx.takeaway.react2025
+    t: |
+
+  - key: xxx.takeaway.react2025
+    t: |
+
+  - key: xxx.takeaway.react2025
+    t: |
+
+  - key: xxx.takeaway.react2025
+    t: |
+
+  - key: xxx.takeaway.react2025
+    t: |

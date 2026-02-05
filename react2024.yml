@@ -200,8 +200,6 @@ translations:
     t: |
       We reworked our charts to highlight not just developer experience, but *sentiment*. Be sure to explore these new grouping and sorting options to figure out which libraries get the most love… or the least!
 
-  - key: tools.all_tools_experience
-    t: Libraries Experience & Sentiment
   - key: tools.all_tools_experience.takeaway.react2024
     t: >
       Among React libraries and frameworks, **TanStack Query** and **Zustand** have overtaken **Next.js** to take the lead the way in terms of overall positivity.
