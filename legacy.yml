@@ -221,7 +221,7 @@ translations:
   - key: sections.resources.title
     t: Resources
   - key: sections.resources.description
-    t: What {topic} resources do you consult?
+    t: What resources do you consult?
 
   - key: sections.opinions.title
     t: Opinions
