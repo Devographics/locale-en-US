@@ -108,77 +108,253 @@ translations:
   - key: component_libraries.component_libraries_ratios.takeaway.react2025
     t: |
       While **MUI** (a.k.a. Material UI) is still number one in terms of usage, **shadcn/ui** is growing fast and on the verge of overtaking it for the top spot.
-  - key: xxx.takeaway.react2025
+
+  - key: component_libraries.component_libraries_cardinalities.takeaway.react2025
+    t: |
+      A big proportion of users don't use any component library at all–while at the same time, those who *do* use one are likely to have tried out multiple options. This suggests the space isn't quite settled yet, and that there's still room for new entrants to make their mark.
+
+  - key: component_libraries.component_libraries_others.takeaway.react2025
+    t: |
+      **Base UI** is another entrant in the very competitive space of headless UI libraries–in other words UI libraries that provide component behavior, but leave styling up to you. And with many **Radix** veterans as part of the team, it's definitely worth checking out if that's what you're after.
+
+  - key: component_libraries.animation_libraries.takeaway.react2025
+    t: |
+      Not every project needs fancy animations, but for those who do **Motion** has established itself as a serious option.
+
+  - key: component_libraries.data_visualization_libraries.takeaway.react2025
+    t: |
+      Despite not being a React-specific chart library, **Chart.js** still tops the rankings. 
+
+
+      Want to guess what library *we* use for the charts you see here? Trick question, they're all hand-coded from scratch!
+
+  - key: component_libraries.form_libraries.takeaway.react2025
+    t: |
+      Nobody likes dealing with forms, but when you can't help it **React Hook Forms** at least makes the whole thing a lot less painful.
+
+  - key: component_libraries.react_form_patterns.takeaway.react2025
+    t: |
+      The debate between controlled and uncontrolled form components isn't really one. Respondents mainly switch between either pattern; but if they need to pick then controlled forms are the clear winner.
+
+  - key: component_libraries.css_tools.takeaway.react2025
+    t: |
+      CSS-in-JS had its 15 minutes of fame, but the appearance of **Tailwind**, as well as the huge improvements in CSS itself in the last couple years, have put a big dent in its popularity.
+
+  - key: component_libraries.component_libraries_pain_points.takeaway.react2025
+    t: |
+      TODO
+
+  - key: state_management.state_management_ratios.takeaway.react2025
+    t: |
+      **Redux** and its successor **Redux Toolkit** have long been the most widespread state management solutions, but **Zustand** is gaining ground fast. And since it's also the most popular in terms of user satisfaction, it's fair to say it should be considered the leader in this category.
+
+  - key: state_management.state_management_cardinalities.takeaway.react2025
+    t: |
+      Many respondents do not use state management tools at all, showing that first-party APIs like `useState` or `useContext` can often be sufficient to get the job done.
+
+  - key: state_management.state_management_others.takeaway.react2025
+    t: |
+      While **TanStack Query** may be perceive as a data-querying library, the fact that it can also handle state management makes it a great addition to the category.
+
+  - key: state_management.state_management_pain_points.takeaway.react2025
+    t: |
+      TODO
+
+  - key: data_loading.data_loading_ratios.takeaway.react2025
+    t: |
+      **TanStack Query** may not yet be the most widespread data-loading library yet, but the fact that it's climbing fast while boasting the top satisfaction ratio make it an easy pick.
+
+  - key: data_loading.data_loading_cardinalities.takeaway.react2025.takeaway.react2025
+    t: |
+      Similar to state management, many respondents do not (yet) see the need to involve dedicated libraries when it comes to data loading.
+
+  - key: data_loading.data_loading_others.takeaway.react2025
+    t: |
+      The native `fetch` function can still do the job in a pinch!
+
+  - key: data_loading.data_loading_pain_points.takeaway.react2025
+    t: |
+      TODO
+
+  - key: back_end_infrastructure.meta_frameworks_ratios.takeaway.react2025
+    t: |
+      **TanStack Start** had barely been launched in 2024, and had just come out of beta in 2025, yet the framework is already gaining ground, building on the success of **TanStack Query** in the Data Loading category.
+
+
+      Said success will likely come at the expense of **Next.js**, which might remain the category leader for now, but has been experiencing a dangerous drop in satsifaction over the past couple years.
+
+  - key: back_end_infrastructure.meta_frameworks_ratios.note.react2025
+    t: |
+      We decided to add **React Router** to the chart since its [framework mode](https://reactrouter.com/start/modes) means it can now be used stand-alone as a meta-framework. 
+
+
+      But the fact that **Remix** is also on the chart is admittedly quite confusing, and will have to be reconsidered for the survey's next edition.
+
+  - key: back_end_infrastructure.back_end_infrastructure_cardinalities.takeaway.react2025
+    t: |
+      Once again many respondents are eschewing this entire category altogether.
+
+  - key: back_end_infrastructure.meta_frameworks_others.takeaway.react2025
+    t: |
+      **TanStack Router** is rouding out the TanStack trio with yet another nice showing here.
+
+  - key: back_end_infrastructure.build_tools.takeaway.react2025
+    t: |
+      For the first time in a “State of…” survey, **Vite** has dethroned **Webpack** as the number one build tool!
+
+  - key: back_end_infrastructure.hosting.takeaway.react2025
+    t: |
+      **Vercel** has done a remarkable job of beating the much larger **AWS**, at least among React users. Yet **Cloudflare** has been making serious moves towards the hosting market, and may soon come for both.
+
+  - key: back_end_infrastructure.other_services.takeaway.react2025
+    t: |
+      In addition to being a great error-tracking service, **Sentry** has also ensured a large marketshare through marketing moves such as acquiring the [Syntax](https://syntax.fm/) podcast.
+
+  - key: back_end_infrastructure.backend_language.takeaway.react2025
+    t: |
+      Even though Node.js has been around for quite a while now, it used to be the case that the back-end was pretty much up for grabs when it came to languages. But the tide has turned, and today it just makes sense to write full-stack JavaScript apps, especially when able to share types and code between both sides.
+
+  - key: back_end_infrastructure.back_end_infrastructure_pain_points.takeaway.react2025
+    t: |
+      Speaking of, ensuring **end-to-end typesafety** is actually the biggest obstacle respondents still struggle with on the back-end.
+
+  - key: tools.testing.takeaway.react2025
+    t: |
+      While **Vitest** is on the verge of establishing itself as the top testing solution for React, for now **Jest** is still number one.
+
+  - key: tools.renderers.takeaway.react2025
+    t: |
+      React may first and foremost be a web development library, but this chart is a nice reminder that it can actually be used in a lot more different contexts!
+
+  - key: tools.validation.takeaway.react2025
+    t: |
+      “Do you use a validation library?” ”Yup, **Zod**, it's a joy to use” “…wait, so which one do you use again?”
+
+  - key: tools.auth.takeaway.react2025
+    t: |
+      **Auth0** is notable in that it relies on a third-party service to handle auth for you, and that ease of use seems to have pushed it at the top of the rankings.
+
+  - key: tools.mobile_development.takeaway.react2025
+    t: |
+      **React Native** is still going strong and **Expo** just builds on top of that success to offer even more possibilities.
+
+  - key: usage.what_do_you_use_react_for.takeaway.react2025
+    t: |
+      It won't come as any surprise that most respondents still use React to build **web apps**. But the chart also shows that **design systems** are now an integral part of the web development process.
+
+  - key: usage.react_version.takeaway.react2025
+    t: |
+      While survey respondents tend to be more plugged in than the community at large, it's still notable to see that so many of them had already upgraded to React 19.
+
+  - key: usage.js_app_patterns.takeaway.react2025
+    t: |
+      While modern frameworks like Next.js offer granular rendering as one of their key selling points, it's important to note that most respondents still rely on the big three rendering patterns (SPA, SSR, and SSG).
+
+  - key: usage.new_features.takeaway.react2025
+    t: |
+      Most of us are excited for the **React Compiler**, which promises to improve performance without requiring any major effort on our part. 
+
+
+      Conversely, although **Server Components** can also help make web apps more performant, the fact that their roll-out has at times involved quite a few headaches for developers–combined with the feature already being a few years old at this point–explains the relative lack of excitement around them.
+
+  - key: react_pain_points.usage_pain_points.takeaway.react2025
+    t: |
+      TODO
+
+  - key: usage.meta_involvement_opinion.takeaway.react2025
+    t: |
+      Few tech companies have generated more drama throughout their history than Meta. Yet that hasn't translated in a negative view of the company's stewardship of React, with most respondents viewing the company in a neutral or positive way.
+
+  - key: usage.vercel_involvement_opinion.takeaway.react2025
+    t: |
+      This isn't quite true when it comes to Vercel, the other big player in the React ecosystem. 
+
+
+      While the majority is still neutral, negative opinions do outweigh positive ones, with respondents citing lock-in fears, a push for unwanted features, and the founder's controversial political stances as motivations for their negative outlook.
+
+  - key: usage.react_foundation_involvement_opinion.takeaway.react2025
+    t: |
+      In contrast to either Meta or Vercel, sentiment about the recently-announced [React Foundation](https://react.dev/blog/2025/10/07/introducing-the-react-foundation) is overwhelmingly positive, indicating that the community welcomes this move towards more open and neutral governance.
+
+  - key: usage.state_of_react.takeaway.react2025
+    t: |
+      While a slight downward trend in overall happiness can be observed, it's far too early to conclude whether it's something to worry about or just a blip in the data. You'll have to tune back in next year to find out!
+
+  - key: resources.learning_methods.takeaway.react2025
+    t: |
+      The new React docs are even better than the original, and that quality explains why they remain the best way to learn React.
+
+
+      But more and more, instead of consulting documentation directly, developers rely on AI tools to interface with it, a situation that is [already having unintended impacts](https://www.leanware.co/insights/tailwind-ai-crisis) on some projects.
+
+  - key: resources.blogs_news_magazines.takeaway.react2025
+    t: |
+      Sebastien Lorber's **This Week in React** gained two ranks since last survey to establish itself as the definitive React news source!
+
+  - key: resources.courses.takeaway.react2025
+    t: |
+      Despite larger entities like **Udemy** and **Frontend Masters** (who is a sponsor of this survey) topping the rankings, it's nice to see that individual teachers such as **Wes Bos** and Josh Comeau (with **The Joy of React**) can still make their mark.
+
+  - key: resources.podcasts.takeaway.react2025
+    t: |
+      As usual, **Syntax** reigns supreme in podcast-land. Yet many respondents don't listen to programming podcasts at all, possibly due to the growing popularity of YouTube developer content.
+
+  - key: resources.video_creators.takeaway.react2025
+    t: |
+      Thanks to frequent uploads covering all aspects of web development and AI news,**Theo** has managed to pull ahead and solidify his lead.
+
+  - key: resources.people.takeaway.react2025
+    t: |
+      In the age of omnipresent video content, it's nice to see that developers who opt for more traditional communication methods are still able to build a following.
+
+  - key: resources.other_surveys.takeaway.react2025
+    t: |
+      Given that the “State of…” surveys share a common mailing list, it makes sense that there's also a lot of overlap in their audiences.
+
+  # - key: xxx.takeaway.react2025
+  #   t: |
+
+  # - key: xxx.takeaway.react2025
+  #   t: |
+
+  # - key: xxx.takeaway.react2025
+  #   t: |
+
+  ###########################################################################
+  # Conclusion
+  ###########################################################################
+
+  - key: conclusion.react2025.aurora_scharff
     t: |
 
-  - key: xxx.takeaway.react2025
-    t: |
+      <span class="first-line">2025 was a big year for React.</span>
 
-  - key: xxx.takeaway.react2025
-    t: |
 
-  - key: xxx.takeaway.react2025
-    t: |
+      React 19 shipped in late 2024, and a lot of people were afraid React would be leaving the client behind. [Create-React-App was finally sunset](https://react.dev/blog/2025/02/14/sunsetting-create-react-app) in February after community pressure when it broke in React 19. By May, [Remix announced](https://remix.run/blog/wake-up-remix) that Remix 3 was moving away from React. Meanwhile [Dan Abramov](https://overreacted.io/) returned to bless us with his React Server Components blog posts and [RSC Explorer](https://rscexplorer.dev/), explaining the purpose behind RSCs and how they actually worked. 
 
-  - key: xxx.takeaway.react2025
-    t: |
 
-  - key: xxx.takeaway.react2025
-    t: |
+      Yet the question remained: where is React going?
 
-  - key: xxx.takeaway.react2025
-    t: |
 
-  - key: xxx.takeaway.react2025
-    t: |
+      React Conf in October answered that. The [React Foundation](https://react.dev/blog/2025/10/07/introducing-the-react-foundation) was announced to give React a home beyond any single company. [Compiler 1.0](https://react.dev/blog/2025/10/07/react-compiler-1) went stable so we can stop littering our code with `useMemo` and `useCallback`. React 19.2 shipped with `useEffectEvent` and `<Activity>`; while `<ViewTransition>` in React Canary is making smooth animations accessible to the rest of us. 
 
-  - key: xxx.takeaway.react2025
-    t: |
 
-  - key: xxx.takeaway.react2025
-    t: |
+      [Ricky Hanlon's async demo](https://www.youtube.com/watch?v=B_2E96URooA) brought together everything the team had been working on for years, and the [Async React Working Group](https://github.com/reactwg/async-react/discussions) is helping libraries catch up with the patterns. Clearly, client-side React isn't going anywhere.
 
-  - key: xxx.takeaway.react2025
-    t: |
 
-  - key: xxx.takeaway.react2025
-    t: |
+      After all, SPAs still outnumber SSR in production, with TanStack Query remaining the default for async state management, and TanStack Start emerging as a promising client-first alternative to Next.js. As an example, [T3 Chat recently migrated](https://x.com/theo/status/1997406196660400228) to leverage its SPA behaviors. 
 
-  - key: xxx.takeaway.react2025
-    t: |
 
-  - key: xxx.takeaway.react2025
-    t: |
+      Opinions on server-side are more divided, with the growing list of directives (`"use cache"`, `"use workflow"`) sparking debate and [great memes](https://x.com/DavidKPiano/status/1981470720166154567), while the [December CVE](https://react.dev/blog/2025/12/03/critical-security-vulnerability-in-react-server-components) reminded us RSCs are still maturing. On the server-first side, Next.js introduced [Cache Components](https://nextjs.org/docs/app/getting-started/cache-components) as an entirely new approach and [RedwoodSDK](https://rwsdk.com/) went all-in on RSC.
 
-  - key: xxx.takeaway.react2025
-    t: |
 
-  - key: xxx.takeaway.react2025
-    t: |
+      React has also become the default output when you prompt for UI. Andrej Karpathy coined ["vibe coding"](https://x.com/karpathy/status/1886192184808149383) in February, and tools like [v0](https://v0.app/), [Cursor](https://cursor.com/), [Lovable](https://lovable.dev/), and [Bolt.new](https://bolt.new/) made it a reality, empowering anyone to build apps and bring their visions to life with [shadcn/ui](https://ui.shadcn.com/) as the go-to. 
 
-  - key: xxx.takeaway.react2025
-    t: |
 
-  - key: xxx.takeaway.react2025
-    t: |
+      It's a lot to keep up with, but [Theo Browne](https://www.youtube.com/@t3dotgg) pivoted to AI to somehow cover it all to his ever-growing audience, and thankfully [This Week in React](https://thisweekinreact.com/) keeps landing in our inboxes. 
 
-  - key: xxx.takeaway.react2025
-    t: |
 
-  - key: xxx.takeaway.react2025
-    t: |
+      So even though 2025 had its share of chaos, React is still in a great place. I'm excited to ship faster than ever, and as someone in developer education, curious how AI reshapes the way we learn. Can't wait to see what's next!
 
-  - key: xxx.takeaway.react2025
-    t: |
-
-  - key: xxx.takeaway.react2025
-    t: |
-
-  - key: xxx.takeaway.react2025
-    t: |
-
-  - key: xxx.takeaway.react2025
-    t: |
-
-  - key: xxx.takeaway.react2025
-    t: |
+  - key: conclusion.react2025.aurora_scharff.bio
+    t: Software Engineer, React & Next.js Educator
