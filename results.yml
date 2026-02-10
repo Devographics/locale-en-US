@@ -444,6 +444,8 @@ translations:
       - _user_metadata.past_surveys.description
   - key: user_metadata.past_surveys.note
     t: Respondents taking the survey as guests shown as “no answer”.
+    aliases:
+      - _user_metadata.past_surveys.note
 
   - key: user_metadata.past_editions
     t: Previous Editions
