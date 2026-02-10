@@ -39,9 +39,9 @@ translations:
     t: |
       This next part of the survey is all about the various libraries and frameworks that make up the React ecosystem.
 
-  - key: introduction.react2024
+  - key: introduction.react2025
     t: |
-      <span class="first-letter">Y</span>ear after year, React bucks the trend of the ever-changing web development landscape by subbornly refusing to become obsolete and evolving with the times–and sometimes even ahead of them. 
+      <span class="first-letter">Y</span>ear after year, React bucks the trend of the ever-changing web development landscape by subbornly refusing to become obsolete, and evolving with the times–or sometimes even ahead of them. 
 
 
       And with generative AI's reliance on existing codebases in order to spew out new code, could React become even more entrenched and effectively become the first “forever framework”?
@@ -99,14 +99,20 @@ translations:
   - key: features.main_apis_pain_points.takeaway.react2025
     t: |
       `forwardRef` has long been the bane of React developers, which is why seeing it [deprecated in React 19](https://react.dev/blog/2024/12/05/react-19#ref-as-a-prop) was such welcome news.
+    aliases:
+      - react_pain_points.main_apis_pain_points.takeaway.react2025
 
   - key: features.hooks_pain_points.takeaway.react2025
     t: |
       Once again, React developers are coming through loud and clear with their annoyance at `useEffect`.
+    aliases:
+      - react_pain_points.hooks_pain_points.takeaway.react2025
 
   - key: features.new_apis_pain_points.takeaway.react2025
     t: |
       As foreshadowed by previous charts, respondents have their fair share of gripes with **Server Components**.
+    aliases:
+      - react_pain_points.new_apis_pain_points.takeaway.react2025
 
   - key: features.reading_list.takeaway.react2025
     t: |
@@ -161,7 +167,7 @@ translations:
 
   - key: component_libraries.component_libraries_pain_points.takeaway.react2025
     t: |
-      TODO
+      Developers seem to have a love/hate relationship with **Tailwind**, with some citing it as a pain point while others see it as the answer to their UI troubles.
 
   - key: state_management.state_management_ratios.takeaway.react2025
     t: |
@@ -177,7 +183,7 @@ translations:
 
   - key: state_management.state_management_pain_points.takeaway.react2025
     t: |
-      TODO
+      A good state management solutions must find a precarious balance: too limited, and it won't offer enough power to be adopted. Too complex, and developer experience will suffer.
 
   - key: data_loading.data_loading_ratios.takeaway.react2025
     t: |
@@ -193,7 +199,7 @@ translations:
 
   - key: data_loading.data_loading_pain_points.takeaway.react2025
     t: |
-      TODO
+      Caching is one of those things that *sounds* simple (just update the cache when something changes, right?), but always ends up quite tricky to master in practice. And it's certainly a concern when it comes to loading and managing data on the client.
 
   - key: back_end_infrastructure.meta_frameworks_ratios.takeaway.react2025
     t: |
@@ -278,7 +284,10 @@ translations:
 
   - key: react_pain_points.usage_pain_points.takeaway.react2025
     t: |
-      TODO
+      When it comes to performance, React has always adopted a bit of a “chef's choice” approach: just trust the framework to know best, and don't worry about managing every re-render.
+
+
+      Yet developers can quickly run into frustrating situations when they *do* need more granular control. So we can only hope the new [React Compiler](https://react.dev/learn/react-compiler) will help alleviate some of those pain points.
 
   - key: usage.meta_involvement_opinion.takeaway.react2025
     t: |
