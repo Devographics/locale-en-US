@@ -39,6 +39,25 @@ translations:
     t: |
       This next part of the survey is all about the various libraries and frameworks that make up the React ecosystem.
 
+  - key: introduction.react2024
+    t: |
+      <span class="first-letter">Y</span>ear after year, React bucks the trend of the ever-changing web development landscape by subbornly refusing to become obsolete and evolving with the times–and sometimes even ahead of them. 
+
+
+      And with generative AI's reliance on existing codebases in order to spew out new code, could React become even more entrenched and effectively become the first “forever framework”?
+
+
+      We won't know the answer to that question for a while, so until then the best we can do is to keep putting out surveys like this one to track where the ecosystem is going. 
+
+
+      And even though this edition had lower participation due to running late in the year, it still provided some interesting insights, and I can't wait for you to check them out!
+
+
+      *Please note that this in an unofficial survey unaffiliated with Meta, Vercel, the React team, or the React foundation.*
+
+
+      <span class="conclusion__byline">– Sacha Greif</span>
+
   ###########################################################################
   # FAQ/About
   ###########################################################################
@@ -342,7 +361,7 @@ translations:
       [Ricky Hanlon's async demo](https://www.youtube.com/watch?v=B_2E96URooA) brought together everything the team had been working on for years, and the [Async React Working Group](https://github.com/reactwg/async-react/discussions) is helping libraries catch up with the patterns. Clearly, client-side React isn't going anywhere.
 
 
-      After all, SPAs still outnumber SSR in production, with TanStack Query remaining the default for async state management, and TanStack Start emerging as a promising client-first alternative to Next.js. As an example, [T3 Chat recently migrated](https://x.com/theo/status/1997406196660400228) to leverage its SPA behaviors. 
+      After all, SPAs still outnumber SSR apps in production, with TanStack Query remaining the default for async state management, and TanStack Start emerging as a promising client-first alternative to Next.js. As an example, [T3 Chat recently migrated](https://x.com/theo/status/1997406196660400228) to leverage its SPA behaviors. 
 
 
       Opinions on server-side are more divided, with the growing list of directives (`"use cache"`, `"use workflow"`) sparking debate and [great memes](https://x.com/DavidKPiano/status/1981470720166154567), while the [December CVE](https://react.dev/blog/2025/12/03/critical-security-vulnerability-in-react-server-components) reminded us RSCs are still maturing. On the server-first side, Next.js introduced [Cache Components](https://nextjs.org/docs/app/getting-started/cache-components) as an entirely new approach and [RedwoodSDK](https://rwsdk.com/) went all-in on RSC.
@@ -351,10 +370,62 @@ translations:
       React has also become the default output when you prompt for UI. Andrej Karpathy coined ["vibe coding"](https://x.com/karpathy/status/1886192184808149383) in February, and tools like [v0](https://v0.app/), [Cursor](https://cursor.com/), [Lovable](https://lovable.dev/), and [Bolt.new](https://bolt.new/) made it a reality, empowering anyone to build apps and bring their visions to life with [shadcn/ui](https://ui.shadcn.com/) as the go-to. 
 
 
-      It's a lot to keep up with, but [Theo Browne](https://www.youtube.com/@t3dotgg) pivoted to AI to somehow cover it all to his ever-growing audience, and thankfully [This Week in React](https://thisweekinreact.com/) keeps landing in our inboxes. 
+      It's a lot to keep up with, but [Theo Browne](https://www.youtube.com/@t3dotgg) pivoted to AI and somehow covers it all to his ever-growing audience, and thankfully [This Week in React](https://thisweekinreact.com/) keeps landing in our inboxes. 
 
 
       So even though 2025 had its share of chaos, React is still in a great place. I'm excited to ship faster than ever, and as someone in developer education, curious how AI reshapes the way we learn. Can't wait to see what's next!
 
   - key: conclusion.react2025.aurora_scharff.bio
     t: Software Engineer, React & Next.js Educator
+
+  ###########################################################################
+  # About
+  ###########################################################################
+
+  - key: about.content.react2025
+    t: |
+      The 2025 State of React survey ran from November 19, 2025 to January 13, 2026, and collected 3,760 responses. The results were published on February 15, 2025. The survey is run by [Devographics](https://devographics.com/). 
+
+      The State of React logo and t-shirt were designed by [Christopher Kirk-Nielsen](http://chriskirknielsen.com/).
+
+      ### Survey Goals
+
+      This survey was created to identify upcoming trends in the React ecosystem in order to help developers make technological choices. 
+
+      As such, the survey is focused on anticipating what's coming over the next few years rather than analyzing what's popular now, which is why features or technologies may sometimes be omitted even if they are currently widespread 
+
+      It should also be taken as a **snapshot of a specific subset of developers**, and is not meant to speak for the entire React ecosystem. 
+
+      ### Survey Design
+
+      The survey was designed in part based on last year's survey, with an open feedback period where the survey outline was discussed [on GitHub](https://github.com/Devographics/surveys/issues/262). 
+
+      All survey questions were optional. 
+
+      ### Survey Audience
+
+      The survey was openly accessible online and respondents were not filtered or selected in any way. Respondents were primarily a mix of respondents from past surveys (alerted through a dedicated mailing list) and social media traffic. 
+
+      Note that frameworks, libraries, etc. were free to encourage their audience to participate in the survey and some of them did take advantage of this via banners, tweets, etc. A detailed breakdown of traffic sources is included in the Metadat section's "Sources" chart. 
+
+      ### Project Funding
+
+      Funding from this project comes from a variety of sources:
+
+      - **T-shirt sales**. 
+
+      - **Sponsored links**: the links to recommended resources at the bottom of each page are provided by our partner [Frontend Masters](https://frontendmasters.com/).
+
+      - **Direct Funding**: this year, [Google](https://www.google.com/), [GitNation](https://gitnation.com/), [Algolia](https://www.algolia.com/), [Storyblok](https://www.storyblok.com/), [JetBrains](https://www.jetbrains.com/webstorm/) and [TokyoDev](https://www.tokyodev.com/) funded my work on the surveys. 
+
+      Any contribution or sponsorship is greatly appreciated. We would especially like to work closely with more browser vendors, since they play such a central role in the web ecosystem.  
+
+      ### Technical Overview
+
+      You can find a more in-depth technical overview of how the surveys are run [here](https://dev.to/sachagreif/how-the-devographics-surveys-are-run-2023-edition-1p6a).
+
+      **Note: This is *not* an official React survey, and the survey team is not affiliated with Meta, Vercel, or the React team.**
+
+      ### Special Thanks
+
+      Special thanks to Paul McMahon, Marc Grabanski, and Sébastien Lorber.
