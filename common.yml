@@ -122,6 +122,8 @@ translations:
     t: Back-End Development
   - key: credits.survey_review
     t: Survey Review
+  - key: credits.conclusion
+    t: Conclusion
 
   # support
   - key: general.support_from
