@@ -603,3 +603,50 @@ translations:
 
   - key: conclusion.js2025.daniel_roe.bio
     t: Open source maintainer and founder, leading the Nuxt core team.
+
+  ###########################################################################
+  # FAQ/About
+  ###########################################################################
+
+  - key: about.content.js2025
+    t: |
+      The 2025 State of JavaScript survey ran from September 24 to November 10 2025, and collected 13,002 responses. The results were published on February 3, 2026. The survey is run by [Devographics](https://devographics.com/).
+
+      The State of JavaScript logo and t-shirt were designed by [Christopher Kirk-Nielsen](http://chriskirknielsen.com/).
+
+      ### Survey Goals
+
+      This survey was created to identify upcoming trends in the web development ecosystem in order to help developers make technological choices. 
+
+      As such, the survey is focused on anticipating what's coming over the next few years rather than analyzing what's popular now, which is why features or technologies may sometimes be omitted even if they are currently widespread 
+
+      It should also be taken as a **snapshot of a specific subset of developers**, and is not meant to speak for the entire ecosystem. 
+
+      ### Survey Design
+
+      The survey was designed in part based on last year's survey, with an open feedback period where the survey outline was discussed [on GitHub](https://github.com/Devographics/surveys/issues/255). 
+
+      All survey questions were optional. 
+
+      ### Survey Audience
+
+      The survey was openly accessible online and respondents were not filtered or selected in any way. Respondents were primarily a mix of respondents from past surveys (alerted through a dedicated mailing list) and social media traffic. 
+
+      Note that frameworks, libraries, etc. were free to encourage their audience to participate in the survey and some of them did take advantage of this via banners, tweets, etc. A detailed breakdown of traffic sources is included in the Metadata page's "Sources" chart. 
+
+      ### Project Funding
+
+      In addition to t-shirt sales, funding for the project comes from the following sponsors:
+
+      - [Google](https://www.google.com/chrome/?utm_source=stateofjs&utm_medium=website&utm_campaign=js2025)
+      - [TokyoDev](https://www.tokyodev.com/?utm_source=stateofjs&utm_medium=website&utm_campaign=js2025)
+      - [Frontend Masters](https://frontendmasters.com/?utm_source=stateofjs&utm_medium=website&utm_campaign=js2025)
+      - [Algolia](https://www.algolia.com/?utm_source=stateofjs&utm_medium=website&utm_campaign=js2025)
+      - [Storyblok](https://www.storyblok.com/?utm_source=stateofjs&utm_medium=website&utm_campaign=js2025)
+      - [JetBrains](https://www.jetbrains.com/webstorm/?utm_source=stateofjs&utm_medium=website&utm_campaign=js2025)
+
+      Any contribution or sponsorship is greatly appreciated. we would especially like to work closely with more browser vendors, since they play such a central role in the web ecosystem.  
+
+      ### Technical Overview
+
+      You can find a more in-depth technical overview of how the surveys are run [here](https://dev.to/sachagreif/how-the-devographics-surveys-are-run-2023-edition-1p6a).
