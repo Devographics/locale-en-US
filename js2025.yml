@@ -214,7 +214,7 @@ translations:
     t: >
       It will be interesting to see if diminishing satisfaction with Next.js eventually translates into diminishing happiness overall, but so far at least that doesn't seem to be the case.
 
-  - key: meta_frameworks.front_end_frameworks_pain_points.takeaway.js2025
+  - key: meta_frameworks.meta_frameworks_pain_points.takeaway.js2025
     t: >
       By their nature, meta-frameworks straddle the gap between client and server, which leads to a lot of complex issues. 
 
