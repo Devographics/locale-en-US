@@ -773,6 +773,8 @@ translations:
 
   - key: tools.all_items.experience
     t: Libraries Experience & Sentiment
+    aliases:
+      - libraries.all_tools_experience
 
   - key: tools.all_items.experience.short
     aliasFor: tools.experience

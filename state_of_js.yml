@@ -1615,13 +1615,21 @@ translations:
 
   - key: happiness.state_of_the_web
     t: Web Technologies Happiness
+    aliases:
+      - usage.state_of_the_web_happiness
   - key: happiness.state_of_the_web.question
     t: How happy are you with the general state of web technologies?
+    aliases:
+      - usage.state_of_the_web_happiness.question
 
   - key: happiness.state_of_js
     t: JavaScript Happiness
+    aliases:
+      - usage.state_of_js_happiness
   - key: happiness.state_of_js.question
     t: How happy are you with the general state of JavaScript?
+    aliases:
+      - usage.state_of_js_happiness.question
 
   # Pain Points
 
