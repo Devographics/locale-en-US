@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json.schemastore.org/prettierrc",
+  "endOfLine": "lf",
+  "useTabs": false,
+  "tabWidth": 2,
+  "printWidth": 80,
+  "overrides": [
+    {
+      "files": [
+        "*.yml",
+        "*.yaml"
+      ],
+      "options": {
+        "singleQuote": false,
+        "tabWidth": 2,
+        "useTabs": false,
+        "endOfLine": "lf",
+        "printWidth": 80,
+        "proseWrap": "preserve"
+      }
+    }
+  ]
+}
