@@ -444,8 +444,12 @@ translations:
 
   - key: tools.testing
     t: Testing Libraries
+    aliases:
+      - other_tools.testing
   - key: tools.testing.question
     t: Which libraries do you use to test your React apps?
+    aliases:
+      - other_tools.testing.question
 
   # - key: tools.testing_happiness
   #   t: Happiness
