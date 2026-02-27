@@ -180,6 +180,8 @@ translations:
     t: CSS Frameworks
   - key: sections.css_frameworks.description
     t: Frameworks and libraries that give you pre-made components or styles.
+    aliases:
+      - other_tools.css_frameworks
 
   - key: sections.css_frameworks_others.title
     t: Other CSS Frameworks
@@ -888,10 +890,16 @@ translations:
 
   - key: tools.css_frameworks
     t: CSS Frameworks
+    aliases:
+      - other_tools.css_frameworks
   - key: tools.css_frameworks.question
     t: Which CSS frameworks do you use?
+    aliases:
+      - other_tools.css_frameworks.question
   - key: tools.css_frameworks.prompt
     t: Frameworks or libraries that give you pre-made components or styles.
+    aliases:
+      - other_tools.css_frameworks.prompt
 
   - key: options.css_frameworks.custom_framework
     t: Custom/in-house framework
