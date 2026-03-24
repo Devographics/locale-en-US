@@ -977,7 +977,7 @@ translations:
   - key: options.ai_risks.cognitive_impact
     t: Negative cognitive impacts
   - key: options.ai_risks.cognitive_impact.description
-    t: a.k.a. “Stop thinking about it bro, just ask the AI!”
+    t: “Stop thinking about it bro, just use AI!”
 
   # OPINIONS
 
