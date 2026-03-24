@@ -23,6 +23,13 @@ translations:
     t: |
       This first part of the survey is all about which AI tools you use, or have heard about.
 
+  # risks_pain_points
+
+  - key: sections.risks_pain_points.title
+    t: Risks & Pain Points
+  - key: sections.risks_pain_points.prompt
+    t: Issues or risks related to AI use.
+
   # models
 
   - key: sections.models.title
@@ -115,6 +122,12 @@ translations:
   - key: options.ai_pain_points.cursor_pain_points
     t: Cursor issues
 
+  # tools.models_paid_for
+  - key: tools.models_paid_for
+    t: Paid Models
+  - key: tools.models_paid_for.question
+    t: Out of the models mentioned here, which one does you or your company actually pay for?
+
   # coding_assistants
 
   - key: sections.coding_assistants.title
@@ -140,6 +153,38 @@ translations:
     aliases:
       - coding_assistants.coding_assistants_pain_points.question
       - ai_pain_points.coding_assistants_pain_points.question
+
+  # coding_agents_assistants
+
+  - key: sections.coding_agents_assistants.title
+    t: Agents & Assistants
+  - key: sections.coding_agents_assistants.prompt
+    t: AI tools that help throughout the development process.
+
+  - key: tools.coding_agents_assistants_experience
+    t: Coding Agents/Assistants Experience & Sentiment
+
+  - key: tools.coding_agents_assistants_others
+    t: Other Coding Agents/Assistants
+  - key: tools.coding_agents_assistants_others.question
+    t: What other coding agents or assistants are you currently using?
+
+  - key: tools.coding_agents_assistants_pain_points
+    t: Coding Agents/Assistants Pain Points
+    aliases:
+      - coding_agents_assistants.coding_agents_assistants_pain_points
+      - ai_pain_points.coding_agents_assistants_pain_points
+  - key: tools.coding_agents_assistants_pain_points.question
+    t: Which pain points have you encountered when using coding agents or assistants?
+    aliases:
+      - coding_agents_assistants.coding_agents_assistants_pain_points.question
+      - ai_pain_points.coding_agents_assistants_pain_points.question
+
+  # tools.coding_agents_assistants_paid_for
+  - key: tools.coding_agents_assistants_paid_for
+    t: Paid Agents/Assistants
+  - key: tools.coding_agents_assistants_paid_for.question
+    t: Out of the agents & assistants mentioned here, which one does you or your company actually pay for?
 
   # code_generation
 
@@ -191,6 +236,18 @@ translations:
     t: Which pain points have you encountered when using AI-focused IDEs and editors?
     aliases:
       - ides.ides_pain_points.question
+
+  # ai_programming_languages
+
+  - key: other_tools.ai_programming_languages
+    t: Programming Languages
+    aliases:
+      - tools.ai_programming_languages
+  - key: other_tools.ai_programming_languages.question
+    t: Which programming language(s) do you use AI tools with?
+    aliases:
+      - tools.ai_programming_languages.question
+
       - ai_pain_points.ides_pain_points.question
 
   # image_generation
@@ -208,25 +265,44 @@ translations:
   - key: tools.image_generation_others.question
     t: What other image generation tools are you currently using?
 
-  # ai_programming_languages
-
-  - key: other_tools.ai_programming_languages
-    t: Programming Languages
-    aliases:
-      - tools.ai_programming_languages
-  - key: other_tools.ai_programming_languages.question
-    t: Which programming language(s) do you use AI tools with?
-    aliases:
-      - tools.ai_programming_languages.question
-
   - key: other_tools.image_generation
     t: Image Generation
     aliases:
       - tools.image_generation
   - key: other_tools.image_generation.question
-    t: Which AI tools or models do you use to generate images?
+    t: Which AI tools do you use to generate images?
     aliases:
       - tools.image_generation.question
+
+  # video_generation
+
+  - key: other_tools.video_generation
+    t: Video Generation
+  - key: other_tools.video_generation.question
+    t: Which AI tools do you use to generate videos?
+
+  # app_generation
+
+  - key: other_tools.app_generation
+    t: App Generation
+  - key: other_tools.app_generation.question
+    t: Which AI tools do you use to generate applications or websites?
+
+  # app_generation
+
+  - key: other_tools.code_review
+    t: Code Review
+  - key: other_tools.code_review.question
+    t: Which AI tools do you use to review code or pull requests?
+
+  # text_editors
+
+  - key: other_tools.text_editors
+    t: Text Editors
+  - key: other_tools.text_editors.question
+    t: Which text editor(s) do you regularly use?
+  - key: other_tools.text_editors.prompt
+    t: Including non-AI-powered text editors.
 
   # chatgpt
 
@@ -836,6 +912,75 @@ translations:
     aliases:
       - happiness.ai_happiness.question
 
+  # RISKS & PAIN POINTS
+
+  - key: usage.ai_risks
+    t: AI Risks
+  - key: usage.ai_risks.question
+    t: Which of these AI risks and issues are you most concerned about?
+
+  - key: options.ai_risks.militaristic_uses
+    t: Military use of AI
+  - key: options.ai_risks.militaristic_uses.description
+    t: Autonomous drones, AI decision making, etc.
+
+  - key: options.ai_risks.environmental_impact
+    t: Environmental impact
+  - key: options.ai_risks.environmental_impact.description
+    t: Rising energy costs, impact on global warming, etc.
+
+  - key: options.ai_risks.reaching_agi
+    t: AGI being reached
+  - key: options.ai_risks.reaching_agi.description
+    t: AI becomging self-aware and proving hostile to humans
+
+  - key: options.ai_risks.job_displacement
+    t: Job displacement
+  - key: options.ai_risks.job_displacement.description
+    t: Economic and social impacts of AI-related job loss
+
+  - key: options.ai_risks.security_issues
+    t: Security issues
+  - key: options.ai_risks.security_issues.description
+    t: Security issues and exploits in AI-generated code
+
+  - key: options.ai_risks.rising_costs
+    t: Rising AI costs
+  - key: options.ai_risks.rising_costs.description
+    t: Rising AI costs as AI companies try to recoup their investments
+
+  - key: options.ai_risks.entranched_stack_bias
+    t: Entranched stack bias
+  - key: options.ai_risks.entranched_stack_bias.description
+    t: AI bias towards generating code based on popular technologies
+
+  - key: options.ai_risks.open_source_disruption
+    t: Open-source disruption
+  - key: options.ai_risks.open_source_disruption.description
+    t: AI spam pull requests, slop code, funding being jeopardized, etc.
+
+  - key: options.ai_risks.ai_overuse
+    t: AI overuse
+  - key: options.ai_risks.ai_overuse.description
+    t: AI being overused even in products that don't need it
+
+  - key: options.ai_risks.copyright_ethics_issues
+    t: Copyright and ethics issues
+  - key: options.ai_risks.copyright_ethics_issues.description
+    t: Plagirism, unauthorized copying, unauthorized training, etc.
+
+  - key: options.ai_risks.slop_takeover
+    t: AI slop takeover
+  - key: options.ai_risks.slop_takeover.description
+    t: Bots and slop leading to lower-quality Internet content
+
+  - key: options.ai_risks.cognitive_impact
+    t: Negative cognitive impacts
+  - key: options.ai_risks.cognitive_impact.description
+    t: a.k.a. “Stop thinking about it bro, just ask the AI!”
+
+  # OPINIONS
+
   # existential_risk
 
   - key: opinions.existential_risk
@@ -885,6 +1030,18 @@ translations:
   - key: opinions.reach_agi.question
     t: We will reach AGI (”real”, thinking artificial intelligence) within the next 10 years
 
+  # ai_bubble_currently
+  - key: opinions.ai_bubble_currently
+    t: AI Bubble
+  - key: opinions.ai_bubble_currently.question
+    t: We're currently in an “AI bubble”
+
+  - key: opinions.ai_quality_improving
+    t: AI Improvements
+  - key: opinions.ai_quality_improving.question
+    t: The overall quality of AI tools is improving a lot year-over-year
+
+  # RESOURCES
   # courses
 
   - key: resources.ai_courses
