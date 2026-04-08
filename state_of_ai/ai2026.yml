@@ -7,9 +7,9 @@ translations:
   - key: general.ai2026.survey_intro
     t: |
 
-      We have been six months away from being replaced by AI for a few years now, and that means one of two things: either those doomsday prediction were overblown and will never come true; *or* they were right all along and programmers are closer than ever to joining [lamplighters](https://en.wikipedia.org/wiki/Lamplighter) in the dustbin of history. 
+      We have been six months away from being replaced by AI for a few years now, and that means one of two things: either those doomsday prediction were overblown and will never come true; *or* they were right all along and programmers are closer than ever to joining lamplighters and elevator operators in the dustbin of history. 
 
-      Or maybe the truth is somewhere in between, and our jobs will change but not quite disappear, while some of us adapt to the new status quo–and some of us finally fulfil our life-long dream of becoming woodworkers. 
+      Or maybe the truth is somewhere in between and our jobs will change but not quite disappear; while some of us adapt to the new status quo and some of us leave programming behind, finally fulfilling our life-long dream of becoming woodworkers. 
 
       In the meantime, all we can do is try our best with figuring where things stand, and that starts with taking this second edition of the State of Web Dev AI!
 
@@ -43,13 +43,13 @@ translations:
   - key: faq.results_released_ai2026
     t: When will the results be released?
   - key: faq.results_released_ai2026.description
-    t: The survey will run from February 10 to March 10, 2025, and the survey results will be released shortly after.
+    t: The survey will run from April 10 to May 10, 2026, and the survey results will be released shortly after.
 
   - key: faq.survey_design_ai2026
     t: How was this survey designed?
   - key: faq.survey_design_ai2026.description
     t: >
-      This survey was designed as the results of an [open design process](https://github.com/Devographics/surveys/issues/278) involving AI companies, browser vendors and the web development community.
+      This survey was designed as the results of an [open design process](https://github.com/Devographics/surveys/issues/285) involving AI companies, browser vendors and the web development community.
 
   ###########################################################################
   # Content

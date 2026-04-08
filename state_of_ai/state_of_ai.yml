@@ -74,8 +74,12 @@ translations:
     t: Overly generic answers
   - key: options.ai_pain_points.overconfidence
     t: Overconfidence
+
   - key: options.ai_pain_points.hallucinations_inaccuracies
     t: Hallucination & inaccuracies
+  - key: options.ai_pain_points.hallucinations_inaccuracies.description
+    t: Confidently generating invalid code
+
   - key: options.ai_pain_points.code_generation_issues
     t: Poor generated code quality
   - key: options.ai_pain_points.lack_of_understanding
@@ -114,8 +118,12 @@ translations:
     t: Limited usefuleness
   - key: options.ai_pain_points.free_plan_limitations
     t: Free plans limitations
+
   - key: options.ai_pain_points.ethical_concerns
     t: Ethical concerns
+  - key: options.ai_pain_points.ethical_concerns.description
+    t: Concerns about copyright, attribution, unauthorized training, etc.
+
   - key: options.ai_pain_points.slow_performance
     t: Slow performance
 
@@ -149,7 +157,7 @@ translations:
       - coding_assistants.coding_assistants_pain_points
       - ai_pain_points.coding_assistants_pain_points
   - key: tools.coding_assistants_pain_points.question
-    t: Which pain points have you encountered when using coding assistants?
+    t: Which pain points have you encountered when using coding agents or assistants?
     aliases:
       - coding_assistants.coding_assistants_pain_points.question
       - ai_pain_points.coding_assistants_pain_points.question
@@ -520,7 +528,7 @@ translations:
   - key: usage.ai_company_expenses.question
     t: How much does your company spend on AI tools per month (in USD)?
   - key: usage.ai_company_expenses.prompt
-    t: If working for yourself, feel free to skip this question.
+    t: Or if working for yourself, same answer as the last question.
 
   # ai_code_generation_frequency
 
@@ -803,11 +811,16 @@ translations:
   - key: options.ai_uses.data_manipulation_processing
     t: Data processing
 
+  - key: options.ai_uses.debugging
+    t: Debugging
+    aliases:
+      - options.ai_browser_apis.debugging
+
   # ai_pain_points
   - key: usage.ai_pain_points
     t: Pain Points
   - key: usage.ai_pain_points.question
-    t: What are your top pain points when it comes to using AI tools?
+    t: What are your top pain points when it comes to actually using AI tools?
 
   - key: options.ai_pain_points.misunderstood_prompt
     t: Prompt comprehension
@@ -882,24 +895,67 @@ translations:
 
   - key: options.ai_missing_features.larger_context_window
     t: Larger context window
+  - key: options.ai_missing_features.larger_context_window.description
+    t: Being able to keep more data in memory
+
   - key: options.ai_missing_features.large_codebase_support
     t: Larger codebases support
+  - key: options.ai_missing_features.large_codebase_support.description
+    t: Ability to work on complex codebases, monorepos, etc.
+
   - key: options.ai_missing_features.up_to_date_knowledge
     t: Up-to-date knowledge
-  - key: options.ai_missing_features.better_accuracy
-    t: Better accuracy
-  - key: options.ai_missing_features.self_evaluation
-    t: Self-evaluation
-  - key: options.ai_missing_features.higher_intelligence
-    t: Higher intelligence
+  - key: options.ai_missing_features.up_to_date_knowledge.description
+    t: Having access to the latest versions of libraries, documentation, etc.
+
   - key: options.ai_missing_features.system_integration
     t: Better tool integration
+  - key: options.ai_missing_features.system_integration.description
+    t: Better integration with systems, IDEs, environments, etc.
+
   - key: options.ai_missing_features.truthfulness
     t: Truthfulness
+  - key: options.ai_missing_features.truthfulness.description
+    t: Ability to trust the validity of AI output
+
   - key: options.ai_missing_features.user_interaction
-    t: Better UI/UX
+    t: Good UI/UX
+  - key: options.ai_missing_features.user_interaction.description
+    t: Better UI/UX in AI-generated interfaces
+
   - key: options.ai_missing_features.customization
     t: More customization
+  - key: options.ai_missing_features.customization.description
+    t: Being able to tweak AI behavior to your needs
+
+  - key: options.ai_missing_features.long_term_memory
+    t: Long-term memory
+  - key: options.ai_missing_features.long_term_memory.description
+    t: Keeping track of patterns and decisions over time
+
+  - key: options.ai_missing_features.high_level_planning
+    t: High-level planning
+  - key: options.ai_missing_features.high_level_planning.description
+    t: Being able to design systems and chose the right abstractions
+
+  - key: options.ai_missing_features.runtime_behavior_awareness
+    t: Awareness of runtime behavior
+  - key: options.ai_missing_features.runtime_behavior_awareness.description
+    t: Simulating what will happen when code actually runs
+
+  - key: options.ai_missing_features.ai_accountability
+    t: Accountability
+  - key: options.ai_missing_features.ai_accountability.description
+    t: Learning from mistakes and tracking their consequences
+
+  - key: options.ai_missing_features.better_accuracy
+    t: Better accuracy
+
+  - key: options.ai_missing_features.self_evaluation
+    t: Self-evaluation
+
+  - key: options.ai_missing_features.higher_intelligence
+    t: Higher intelligence
 
   # ai_happiness
 
@@ -917,7 +973,7 @@ translations:
   - key: usage.ai_risks
     t: AI Risks
   - key: usage.ai_risks.question
-    t: Which of these AI risks and issues are you most concerned about?
+    t: Which of these general AI risks and issues are you most concerned about?
 
   - key: options.ai_risks.militaristic_uses
     t: Military use of AI
@@ -977,7 +1033,7 @@ translations:
   - key: options.ai_risks.cognitive_impact
     t: Negative cognitive impacts
   - key: options.ai_risks.cognitive_impact.description
-    t: “Stop thinking about it bro, just use AI!”
+    t: Excessive AI use making users helpless without it
 
   # OPINIONS
 
@@ -1039,7 +1095,7 @@ translations:
   - key: opinions.ai_quality_improving
     t: AI Improvements
   - key: opinions.ai_quality_improving.question
-    t: The overall quality of AI tools is improving a lot year-over-year
+    t: The overall quality of AI tools has improved a lot year-over-year
 
   # RESOURCES
   # courses
