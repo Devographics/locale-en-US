@@ -23,7 +23,7 @@ translations:
     t: Hidden
 
   - key: general.pick_up_to
-    t: Pick up to {limit} items.
+    t: Select up to {limit} items.
 
   - key: general.privacy_policy
     t: Privacy Policy
@@ -301,7 +301,7 @@ translations:
 
   - key: readinglist.description2
     t: >
-      Items you're interested are saved here, and you'll get a list of links to learn more about them at the end of the survey.
+      Items you're interested in are saved here, and you'll get a list of links to learn more about them at the end of the survey.
 
   - key: readinglist.empty
     t: >

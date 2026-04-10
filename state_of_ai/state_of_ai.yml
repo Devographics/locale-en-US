@@ -667,6 +667,8 @@ translations:
     t: Boilerplate code
   - key: options.ai_generated_code_type.database_queries
     t: Database queries
+  - key: options.ai_generated_code_type.scripting
+    t: Scripting
 
     # ai_uses
 
@@ -731,7 +733,7 @@ translations:
       - options.ai_browser_apis.image_generation
 
   - key: options.ai_uses.image_generation.description
-    t: Generating an image based on a prompt
+    t: Generating an image based on a prompt.
     aliases:
       - options.ai_browser_apis.image_generation.description
 
@@ -776,7 +778,7 @@ translations:
       - options.ai_browser_apis.sentiment_analysis.description
 
   - key: options.ai_uses.caption_generation
-    t: Captions generation
+    t: Caption generation
     aliases:
       - options.ai_browser_apis.caption_generation
 
@@ -978,7 +980,7 @@ translations:
   - key: options.ai_risks.militaristic_uses
     t: Military use of AI
   - key: options.ai_risks.militaristic_uses.description
-    t: Autonomous drones, AI decision making, etc.
+    t: Autonomous drones, AI decision-making, etc.
 
   - key: options.ai_risks.environmental_impact
     t: Environmental impact
@@ -988,7 +990,7 @@ translations:
   - key: options.ai_risks.reaching_agi
     t: AGI being reached
   - key: options.ai_risks.reaching_agi.description
-    t: AI becomging self-aware and proving hostile to humans
+    t: AI becoming self-aware and proving hostile to humans
 
   - key: options.ai_risks.job_displacement
     t: Job displacement
@@ -1006,7 +1008,7 @@ translations:
     t: Rising AI costs as AI companies try to recoup their investments
 
   - key: options.ai_risks.entranched_stack_bias
-    t: Entranched stack bias
+    t: Entrenched stack bias
   - key: options.ai_risks.entranched_stack_bias.description
     t: AI bias towards generating code based on popular technologies
 
@@ -1023,12 +1025,12 @@ translations:
   - key: options.ai_risks.copyright_ethics_issues
     t: Copyright and ethics issues
   - key: options.ai_risks.copyright_ethics_issues.description
-    t: Plagirism, unauthorized copying, unauthorized training, etc.
+    t: Plagiarism, unauthorized copying, unauthorized training, etc.
 
   - key: options.ai_risks.slop_takeover
     t: AI slop takeover
   - key: options.ai_risks.slop_takeover.description
-    t: Bots and slop leading to lower-quality Internet content
+    t: Bots and slop leading to lower-quality internet content
 
   - key: options.ai_risks.cognitive_impact
     t: Negative cognitive impacts
@@ -1070,7 +1072,7 @@ translations:
   - key: opinions.ai_reliance_worse_developers
     t: AI Reliance
   - key: opinions.ai_reliance_worse_developers.question
-    t: Relying on AI tools will make for less skilled developers overall
+    t: Relying on AI tools will result in less skilled developers overall
 
   # interested_in_developing_tools
 
@@ -1084,7 +1086,7 @@ translations:
   - key: opinions.reach_agi
     t: AGI Reached
   - key: opinions.reach_agi.question
-    t: We will reach AGI (”real”, thinking artificial intelligence) within the next 10 years
+    t: We will reach AGI (“real”, thinking artificial intelligence) within the next 10 years
 
   # ai_bubble_currently
   - key: opinions.ai_bubble_currently
@@ -1095,7 +1097,7 @@ translations:
   - key: opinions.ai_quality_improving
     t: AI Improvements
   - key: opinions.ai_quality_improving.question
-    t: The overall quality of AI tools has improved a lot year-over-year
+    t: The overall quality of AI tools has improved significantly year-over-year
 
   # RESOURCES
   # courses
