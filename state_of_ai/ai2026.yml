@@ -13,28 +13,75 @@ translations:
 
       In the meantime, all we can do is try our best to figure out where things stand, and that starts with taking this second edition of the State of Web Dev AI survey!
 
-  - key: introduction.ai2026
+  - key: overview.intro.ai2026
     t: |
 
-      Does napping help with jetlag? What soldering iron should I buy? Where should I eat tonight? 
+      Whether you're pro- or anti-AI, I think most of us agree that AI is having a huge impact on our work as developers, and beyond that, on the world at large. 
 
-      Like many, I've started entrusting life's small – and sometimes not-so-small – questions to AI. But what about *writing code*? Is AI ready to take over, or should we hold on to our keyboards just a little bit longer?
+      The 2026 edition of the State of Web Dev AI survey provided a lot of fascinating material to study this impact, and while I certainly recommend checking out the full survey results at your own pace, here are four key trends to get started exploring the data.
 
-      Now open your favorite social media app and you'll find no shortage of developers willing to tell you all about how they routinely “vibe code” a whole app before breakfast. 
+  - key: overview.ai_adoption.ai2026
+    t: |
+      ## #1: Growing AI Adoption
 
-      Yet many questions still remain: 
+      It's important to acknowledge that open surveys such as this one can suffer from inherent selection bias. In other words, an AI-focused survey is probably more likely to be filled out by developers who already use and care about AI. 
 
+      With that caveat in mind, if we assume that the trends revealed here apply to the industry at large then AI-assisted coding's transition from an early-adopter experiment to a standard practice is now well underway.
 
-      - How much are developers spending on AI? 
-      - Which tools are the most useful? 
-      - And what are developer's biggest pain points when it comes to actually leveraging AI to develop web apps?
+      This becomes clear when looking at [the proportion of AI-generated code produced by respondents](/en-US/usage/#ai_generated_code_balance), which has jumped from **28%** on average in 2025 to **56%** this year, with the 75%+ segments seeing the highest growth (delta from the previous year shown by striped bar overlays).
 
+  - key: overview.ai_adoption2.ai2026
+    t: |
+      Similarly, respondents are also using AI much more often, with the percentage of respondents [stating they use AI “constantly”](/en-US/usage/#ai_code_generation_frequency) doubling year-over-year.
 
-      This first ever **State of Web Dev AI** survey answers all these questions and much more. What's more, we tried to also poll developers who still have their reservations about AI, in order to paint a more accurate picture of the current State of the AI ecosystem.
+  - key: overview.coding_agents.ai2026
+    t: |
+      ## #2: Claude Code & the Rise of Coding Agents
 
-      We hope you find the resulting report as interesting as we did!
+      This adoption is in large part driven by a new generation of coding agents and assistants, with **Claude Code** taking the lead when looking at [positive respondent sentiment regarding coding agents](/en-US/coding-agents-assistants/#coding_agents_assistants_experience).
 
-      *Note that this survey is not affiliated with [The State of AI Report](https://www.stateof.ai/) or the [Vercel State of AI survey](https://vercel.com/state-of-ai).*
+  - key: overview.coding_agents2.ai2026
+    t: |
+
+      These agents are emerging as a more convenient way to interact with LLMs, and potentially replacing chatbots, app generators, and other specialized tools.
+
+      As a consequence, despite **ChatGPT** having the edge in terms of sheer popularity, **Claude** is [the model that developers actually pay for the most](/en-US/models/#models_paid_for).
+
+  - key: overview.monetization.ai2026
+    t: |
+      ## #3: Race to Monetization 
+
+      Now that we've all gotten hooked on cheap AI subsidized by unprecedented VC funding rounds, our collective addiction is making it easier for AI labs to start raising prices. And this translates into a [clear increase in individual AI spend](/en-US/usage/#ai_personal_expenses) compared to last year.
+
+  - key: overview.monetization_2.ai2026
+    t: |
+      Only time will tell if this increased monetization will justify the current eye-popping AI company valuations, or if they instead mean we're in the midst of [an AI bubble](/en-US/opinions/#ai_bubble_currently). But either way, survey respondents certainly think that we are.
+
+  - key: overview.risk_factors.ai2026
+    t: |
+      ## #4: Increased Risk Factors
+
+      It would be irresponsible to talk about AI progress without also mentioning the many issues stemming from all these advances. 
+
+      There is a real risk that many of us will [lose our livelihood](/en-US/opinions/#job_security_threat) because of AI improvements. After all, whether AI can actually do our jobs or not, all that's required for developers to be replaced is that management *believes* it can.
+
+  - key: overview.risk_factors2.ai2026
+    t: |
+      But the list of [AI risks](/en-US/risks-pain-points/#ai_risks) does not stop there. 
+
+      Right now, armed forces throughout the world are working on autonomous drones and targeting systems that free them from the heavy responsibility of weighing the cost of human life; and all of this is of course happening against a backdrop of accelerating climate change made worse by AI's ever-increasing resource consumption.
+
+  - key: overview.risk_factors3.ai2026
+    t: |
+      Even if you discount these externalities, as we rely on AI more and more, it's hard to shake the feeling that maybe our new cyber-buddies aren't being fully truthful with us, with **hallucinations and inaccuracies**  being cited as the [most common AI pain points](/en-US/risks-pain-points/#ai_pain_points).
+
+  - key: overview.ai_future.ai2026
+    t: |
+      ## The AI Future Is Here Whether We Want It or Not
+
+      I'll be honest: I'm not sure where all this leaves us. But whether you think we should be embracing AI, fighting it, or maybe something in between, one thing's for sure: it's becoming increasingly difficult to ignore it. 
+
+      So if like me you haven't quite made up your mind on this complex topic, hopefully [these survey results](/en-US/models/) can be one more data point that will help you make more informed decisions–without having to ask ChatGPT first. 
 
       <span class="conclusion__byline">– Sacha Greif</span>
 
@@ -52,7 +99,7 @@ translations:
       This survey was designed as the results of an [open design process](https://github.com/Devographics/surveys/issues/285) involving AI companies, browser vendors and the web development community.
 
   ###########################################################################
-  # Content
+  # Content & Takeaways
   ###########################################################################
 
   # user_info
@@ -67,62 +114,51 @@ translations:
     t: |
       The foundation on which the entire ecosystem is built.
 
-  - key: tools.models_experience.takeaway.ai2026
+  - key: models.models_experience.takeaway.ai2026
     t: |
-      It should be no surprise that OpenAI's **ChatGPT** still benefits from its first-mover advantage and large mindshare, making it both the most-used (91.2%) and most-loved (53.1%) model provider. 
+      While **ChatGPT** is still the most-used model family, this year **Claude** is the one that garners the most positive sentiment–a preview of a theme that will echo throughout these survey results. 
 
-      But while it does possess a large lead in terms of usage, runner-up **Claude** is not very far behind in terms of positive sentiment with 45.9%.
+      On the other side of the spectrum **Grok** is the most-hated model, with many commenters opposing it on moral grounds alone due to its connection with Elon Musk and right-wing ideology.
 
-  - key: ai_pain_points.models_pain_points.takeaway.ai2026
+  - key: models.models_ratios.takeaway.ai2026
     t: |
-      **Hallucinations & inaccuracies** were by far the biggest pain point with AI models reported by respondents, which makes sense as these tools lose all utility if their output can't be relied on. 
+      **ChatGPT** is still the most-used model, but both **Claude** and **Gemini** have seen huge year-over-year progress. 
 
-      The lack of ability to **handle larger contexts** and keep data in memory was also a big issue, especially when it comes to dealing with large, real-world codebases.
+      Looking at satisfaction confirms the trend: **Claude** maintains its top position, and while **ChatGPT** is still second for now it's losing points at a worrying rate, while **Gemini** stands out as the one model that's actually *gained* percentage points since last year.
 
-  # ides
-
-  - key: sections.ides.description.ai2026
+  - key: models.models_others.takeaway.ai2026
     t: |
-      The AI-powered text editors of tomorrow.
+      Most other models cited here were not even part of last year's survey, and it's notable that the top three (**Kimi**, **GLM**, and **MiniMax**) are all being developed by companies based in China,indicating that the future of AI might not belong exclusively to Silicon Valley after all.
 
-  - key: tools.ides_experience.takeaway.ai2026
+  - key: models.cardinalities.takeaway.ai2026
     t: |
-      **Cursor** has a dominant awareness lead, with 82.2% of respondents having used it or heard of it, versus just 54.1% for runner-up Zed. 
+      The fact that the average respondent has used 4.2 [TODO] different models points to the fact that the AI space is very much still in flux, with users being more than willing to experiment and jump ship to new competitors if they should prove superior.
 
-      When looking at freeform comments left about Cursor, it seems like the main issue is actually its price, indicating that the market might have room for a cheaper alternative.
-
-  - key: ai_pain_points.ides_pain_points.takeaway.ai2026
+  - key: models.models_paid_for.takeaway.ai2026
     t: |
-      **Context & memory limitations** were the main thing currently preventing web developers from using dedicated IDEs to code, followed by too many **intrusive suggestions** as well as the **high cost** associated with AI IDEs.
+      Having the highest amount of positive sentiment was already a great win for **Claude**, but the fact that it also tops the list of the models people are actually paying for means Anthropic is definitely doing something right.
 
-  # coding_assistants
+  # coding_agents_assistants
 
-  - key: sections.coding_assistants.description.ai2026
+  - key: coding_agents_assistants.coding_agents_assistants_experience.takeaway.ai2026
     t: |
-      Your personal coding buddy.
+      Once again Claude shows a clear lead over the competition in terms of positive sentiment, with **Claude Code** topping the rankings even if **GitHub Copilot** technically has a larger user base.
 
-  - key: tools.coding_assistants_experience.takeaway.ai2026
+  - key: coding_agents_assistants.coding_agents_assistants_ratios.takeaway.ai2026
     t: |
-      While it's no surprise seeing **GitHub Copilot** top the usage and positive sentiment rankings, it's worth noting that **Supermaven** has the second highest amount of positive sentiment despite only ranking 4th in terms of usage. This kind of discrepancy is often the sign of a new rising star that could make waves in the year to come.
+      **Claude Code** and **OpenAI Codex** are neck-and-neck in terms of respondent satisfaction, but the Anthropic coding tool is actually used way more than its rival.
 
-  - key: ai_pain_points.coding_assistants_pain_points.takeaway.ai2026
+  - key: coding_agents_assistants.coding_agents_assistants_others.takeaway.ai2026
     t: |
-      Once again **hallucinations and inaccuracies** prove to be a big obstacle to wider adoption.
+      Given its popularity, **OpenCode** should probably have been part of the main survey options. But it makes up for that omission by establishing a comfortable lead over the competition here, with **Cursor** a close second.
 
-      And just like for IDEs, coding assistants having **limited context window** was also a major issue.
-
-  # code_generation
-
-  - key: sections.code_generation.description.ai2026
-    aliasFor: sections.code_generation.prompt
-
-  - key: tools.code_generation_experience.takeaway.ai2026
+  - key: coding_agents_assistants.cardinalities.takeaway.ai2026
     t: |
-      With Vercel's might behind it, **v0** has quickly established itself as the leader in this budding new industry sector. But StackBlitz' **Bolt** is not far behind, and certainly worth keeping an eye on.
+      With a younger and more limited space, it's not surprising that developers have still tried a relatively limited number of coding agents.
 
-  - key: ai_pain_points.code_generation_pain_points.takeaway.ai2026
+  - key: coding_agents_assistants.coding_agents_assistants_paid_for.takeaway.ai2026
     t: |
-      Code generation tools seem to generate **poor quality code** that often just doesn't work as intended, or at all.
+      Echoing results from the Models section, **Claude Code** also comes in first when it comes which coding assistants developers are willing to open their wallets for.
 
   # other_tools
 
@@ -131,19 +167,35 @@ translations:
 
   - key: other_tools.ai_programming_languages.takeaway.ai2026
     t: |
-      As expected for a surevy focusing on web development, AI tools wre most often used in conjunction with JavaScript and TypeScript.
+      Confirming a trend seen in other surveys, **TypeScript** is now the de facto programming language of the web, at least as far as AI is concerned.
 
   - key: other_tools.image_generation.takeaway.ai2026
     t: |
-      Being built into ChatGPT has proven to be a big advantage for **Dall-E**, as it takes the lead over established competitors such as **Stable Diffusion** and **Midjourney**.
+      **Nano Banana** is quite popular for image generation, but many respondents simply don't use these tools at all, in large part for ethical reasons. As one commenter put it succintly: “[AI image generators are] gross, immoral and resource intensive”.
 
-  - key: other_tools.ai_libraries_sdks.takeaway.ai2026
+  - key: other_tools.video_generation.takeaway.ai2026
     t: |
-      Between v0 and the **Vercel AI SDK**, Vercel has managed to perform quite well in the AI space, despite not having AI as its main focus.
+      With OpenAI shutting down **Sora** recently,  AI video generation seems to have fallen short of its promises, a trend confirmed here. As that same comments declared: “Even more gross.”
+
+  - key: other_tools.app_generation.takeaway.ai2026
+    t: |
+      There's no shortage of tools promising to generate an entire app based on a single prompt, but the rise of actual coding assistants is threatening to make that entire sector obsolete, at least when it comes to professional web developers.
+
+  - key: other_tools.code_review.takeaway.ai2026
+    t: |
+      As AI makes generating lines of codes by the thousands easier than ever, it might not be a bad idea to improve how we review all that code, and **CodeRabbit** is leading the effort here.
+
+  - key: other_tools.text_editors.takeaway.ai2026
+    t: |
+      While **Cursor** is still trying to demonstrate the benefits of a dedicated AI-optimized IDE, the majority of respondents still embrace **VS Code** as their editor of choice.
 
   - key: other_tools.ai_browser_apis.takeaway.ai2026
     t: |
-      AI models could very well become baked into our web browsers in the future – and if that happens, things like translating or summarizing content on the fly could be just an API call away.
+      Native browser support for AI features is an appealing idea, promising to speed up latency and potentially being more environmentally friendly, reducing the need for new datacenters.
+
+  - key: other_tools.ai_tools_others.takeaway.ai2026
+    t: |
+      **OpenCode** shows up once more in the top spot, while the much-hyped **OpenClaw** only takes fifth place [TODO].
 
   # usage
 
@@ -152,43 +204,36 @@ translations:
       How developers use AI.
 
   - key: usage.ai_uses.takeaway.ai2026
-    t: As expected in a developer survey, **code generation** ranked as the most common AI usage. On the other hand, even though **image generation** was the original use case for generative AI, only 38% of respondents stated using it.
+    t: |
+      While **code generation** still comes first, it's interesting to note that **code review** (a new option this year) has jumped straight to third place. After all, *someone* will eventually need to read through the 30k lines of codes the intern vibe-coded over the week-end…
 
   - key: usage.ai_generated_code_balance.takeaway.ai2026
-    t: Most of us aren't quite vibe coding just yet, with a majority of respondents (69%) generating less than 25% of their code through AI – and only a small minority (8%) generating more than 75% of it.
+    t: |
+      The difference with last year is striking here. Back then the average respondent was using AI sporadically to generate a small percentage of their code, but today that same developer is much more likely to rely on AI for the bulk of their coding.
 
   - key: usage.ai_generated_code_refactoring.takeaway.ai2026
-    t: Even when AI is used to generate code, a large majority (76%) of developers stated they have to refactor at least half of the outputted code before it's ready to be used.
+    t: |
+      Similarly, using AI-generated code without having to refactor it first is no longer the exception, with many respondents reporting only needing to refactor around 25% of AI output.
 
   - key: usage.ai_code_refactoring_reasons.takeaway.ai2026
     t: |
-      The top reasons for refactoring were cosmetic concerns such as poor readability, variable renaming, and excessive repetition. 
-
-      Many respondents also used the freeform “other answer” field to state that generated code often just didn't work as intended.
+      When respondents *do* need to refactor AI-generated code, the culprits tend to be **poor code style** and **hallucinations**. Interestingly, **variable renaming** does not seem to be as much of a factor anymore, pointing to the fact that LLMs are getting better at following instructions and learning from existing codebases.
 
   - key: usage.ai_code_generation_frequency.takeaway.ai2026
     t: |
-      This chart shows just how embedded AI has become in our daily workflows, with 46% of respondents using AI to generate code multiple times per day or more.
+      It seems clear that AI has become embedded in our work, with a majority of respondents using it multiple times per day, and a growing segment using it constantly.
 
   - key: usage.ai_other_tasks_frequency.takeaway.ai2026
     t: |
-      Compared to code generation, AI is used for other tasks (research, summarization, translation, etc.) relatively less often – which makes sense given that coding is still what we spend the most time on.
+      While the main focus of this survey is coding, other AI uses are also seeing increased used compared to last edition. After all if you trust AI with the main part of your job, it does seems logical to trust it with everything else, too.
 
   - key: usage.ai_generated_code_type.takeaway.ai2026
     t: |
-      The most commonly generated code type proved to be helper functions, followed by frontend components, both of which are fairly self-contained, making them good candidates for code generation. 
-
-      Many are also using AI to add documentation or comments to existing code, which is an unexpected use case.
+      Almost every type of generated code saw an increase compared to last survey, with tests in particular becoming a key reason to use AI.
 
   - key: usage.ai_personal_expenses.takeaway.ai2026
     t: |
-      I'm not sure where AI companies are getting the cash to run their server farms, but one thing's for sure – it's not from individual developers, with a majority of respondents not currently spending any of their own money on AI tools and services.
-
-  - key: usage.ai_company_expenses.takeaway.ai2026
-    t: |
-      Interestingly, company expenses follow a horseshoe pattern, with companies not spending anything on AI – unless they're spending over $5000! Whether this pricing model will prove sustainable for AI companies will remain to be seen.
-
-      Note that respondents also pointed out in freeform comments that they might not always have access to this information.
+      The proportion of respondents enjoying the benefits of AI without personally having to spend their hard-earned cash has dramatically shrunken year-over-year; while the **$100-$500** monthly spend demographic is seeing significant growth. This may be due to the rise of coding agents, which often carry heavier financial costs compared to simple chatbots.
 
   - key: usage.industry_sector.takeaway.ai2026
     t: |
@@ -196,28 +241,31 @@ translations:
 
   - key: usage.ai_running_locally.takeaway.ai2026
     t: |
-      Many respondents have already tried running their own AI models locally, despite the difficulties involved, and many others are interesting in trying. 
+      More and more respondents have tried local AI models, and while they aren't as powerful as their cloud-based cousins right now, there is strong potential for disruption as they provide a cheaper alternative to traditional frontier labs models.
 
-      This could become a key differentiator for new models, as this shows a strong demand for being more in control of your AI tools.
+  # risks_pain_points
 
-  - key: usage.ai_pain_points.takeaway.ai2026
+  - key: risks_pain_points.ai_risks.takeaway.ai2026
     t: |
-      Poor overall code quality ranked first when it comes to AI pain points.
+      The AI industry has never been shy about discussing the technology's potential for disaster, sadly stopping just short of actually, you know, *slowing down* for a minute. 
 
-  - key: usage.ai_missing_features.takeaway.ai2026
+      Said risks include **job displacement** as a top concern, but also AI's potential for **military use** as seen in recent conflicts, and of course the worrying **environmental impact** of AI in a world already threatened by climate change. 
+
+      Many commenters complained about being limited to selecting only three items. As one person put it: “It's kind of shocking how big this list of negative social impacts are when you put them all in one place.”
+
+  - key: risks_pain_points.ai_pain_points.takeaway.ai2026
     t: |
-      The main thing missing from today's models is the ability to keep entire codebases in memory, something that will prove key if AI tools are meant to help us maintain applications, and not just prototype them.
+      When it comes to issues with actually using AI, **Hallucinations** lead the pack. 
 
-  - key: usage.ai_happiness.takeaway.ai2026
+      What makes this issue uniquely frustrating is not just having to deal with incorrect results, but incorrect results confidently presented as *correct*, with the model having no awareness of its own potential for error.
+
+  - key: risks_pain_points.ai_missing_features.takeaway.ai2026
     t: |
-      Despite the various pain points highlighted by the survey, respondents were overall quite positive on the state of AI for web development in 2025.
-    aliases:
-      - happiness.ai_happiness.takeaway.ai2026
+      Confirming the previous question's results, **Truthfulness** is the leading missing feature. In an age where we're growing increasingly skeptical of our fellow humans' ability to distinguish fact from fiction, it'd be nice if our AI at least wouldn't gaslight us as well.
 
-  # resources
-
-  - key: sections.resources.description.ai2026
-    t: How developers are learning about AI
+  - key: risks_pain_points.ai_happiness.takeaway.ai2026
+    t: |
+      TODO
 
   # opinions
 
@@ -226,27 +274,37 @@ translations:
 
   - key: opinions.integral_workflow.takeaway.ai2026
     t: |
-      Even though AI tools aren't perfect by any means, there's a strong concensus among respondents that they have already become an integral part of their daily coding workflow.
+      We're way past the point where AI tools were a nice-to-have, take-it-or-leave-it addition to our daily workflows, with a majority respondents now relying on AI full stop.
 
   - key: opinions.more_productive.takeaway.ai2026
     t: |
-      Similarly, a majority of respondents agree that AI tools have successfully made them more productive.
+      Even more than last year, a majority of respondents agree that AI tools have made them significantly more productive.
 
   - key: opinions.ai_reliance_worse_developers.takeaway.ai2026
     t: |
-      Yet this productivity gain today may come at a cost tommorrow: excessive reliance on AI tools may well end up lowering the overall skill level of the entire industry!
+      Paradoxically, respondents are also well aware that reliance on AI will lead to poorer developer skills overall. But, as some commenters pointed out, AI itself might make up for that loss: “Less skilled yes. More capable on average also yes”.
 
   - key: opinions.job_security_threat.takeaway.ai2026
     t: |
-      In any case, the average respondent isn't worried about AI coming for their job – time will tell if this is confidence or hubris.
+      As respondents astutely pointed out, AI doesn't have to be able to replace you to be a threat to your job–all that's needed is that your boss thinks it can: the worry is that “AI companies can convince employers that AI can take my job, even if it can’t”.
 
   - key: opinions.existential_risk.takeaway.ai2026
     t: |
-      Respondents were split on the topic of AI safety, with many (myself included) not quite sure yet whether AI really poses a risk to humanity or not.
+      Digging into the comments paints a nuanced picture on the question if existential AI risk, with the concensus being that the main problem isn't really AI itself, but rather how we use it.
+
+  - key: opinions.ai_bubble_currently.takeaway.ai2026
+    t: |
+      Many respondents think we're currently in an AI bubble. But they also realize AI is here to stay, even after it eventually pops.
+
+  - key: opinions.ai_quality_improving.takeaway.ai2026
+    t: |
+      Despite frequent gripes about such-and-such model being *completely ruined* by a recent update, it seems like respondents agree overall that we're seeing steady progress in terms of AI tool quality.
 
   - key: opinions.reach_agi.takeaway.ai2026
     t: |
-      “AGI” is a nebulous target that it often touted as being “just around the corner”. But overall, respondents remained somewhat skeptical that it would be reached within the near future.
+      Depending on who you ask, we're either 6 months away from AGI, or we'll never reach it (as one comment put it, “LLMs are not the path to AGI. They never were.”)
+
+      Overall though, one gets the feeling that despite AI researcher's obsession with reaching that elusive goal, the rest of us would be quite content to keep using our current “dumb” AI for a while, if it means bulldozing a few less rainforests in the process.
 
   # conclusion
 
@@ -286,7 +344,7 @@ translations:
 
   - key: about.content.ai2026
     t: |
-      The 2025 State of Web Dev AI survey ran from February 10 to March 10 2025, and collected 4,181 responses. The results were published on April 15, 2025. The survey is run by [Devographics](https://devographics.com/), with help from invited domain experts and open-source contributors. 
+      The 2026 State of Web Dev AI survey ran from April 8 to April 30 2026, and collected 6,531 responses. The results were published on May 1, 2026. The survey is run by [Devographics](https://devographics.com/), with help from invited domain experts and open-source contributors. 
 
       ### Survey Goals
 
@@ -294,7 +352,7 @@ translations:
 
       ### Survey Design
 
-      The survey was designed in collaboration with the community, with an open feedback period where the survey outline was discussed [on GitHub](https://github.com/Devographics/surveys/issues/278). 
+      The survey was designed in collaboration with the community, with an open feedback period where the survey outline was discussed [on GitHub](https://github.com/Devographics/surveys/issues/285). 
 
       All survey questions were optional. 
 

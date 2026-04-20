@@ -39,11 +39,31 @@ translations:
 
   - key: tools.models_experience
     t: Models Experience & Sentiment
+    aliases:
+      - models.models_experience
+  - key: tools.models_experience.short
+    t: Experience & Sentiment
+    aliases:
+      - models.models_experience.short
+
+  - key: tools.models_ratios
+    t: Models Ratios Over Time
+    aliases:
+      - models.models_ratios
+  - key: tools.models_ratios.short
+    t: Ratios Over Time
+    aliases:
+      - models.models_ratios.short
 
   - key: tools.models_others
     t: Other Models
+    aliases:
+      - models.models_others
+
   - key: tools.models_others.question
     t: What other models are you currently using?
+    aliases:
+      - models.models_others.question
 
   - key: tools.models_pain_points
     t: Model Providers Pain Points
@@ -132,9 +152,14 @@ translations:
 
   # tools.models_paid_for
   - key: tools.models_paid_for
-    t: Paid Models
+    t: Paid Usage
+    aliases:
+      - models.models_paid_for
+
   - key: tools.models_paid_for.question
-    t: Out of the models mentioned here, which one does you or your company actually pay for?
+    t: Out of the models mentioned here, which one do you or your company actually pay for?
+    aliases:
+      - models.models_paid_for.question
 
   # coding_assistants
 
@@ -169,13 +194,40 @@ translations:
   - key: sections.coding_agents_assistants.prompt
     t: AI tools that help throughout the development process.
 
+  # coding_agents_assistants
+
   - key: tools.coding_agents_assistants_experience
     t: Coding Agents/Assistants Experience & Sentiment
+    aliases:
+      - coding_agents_assistants.coding_agents_assistants_experience
+
+  - key: tools.coding_agents_assistants_experience.short
+    t: Experience & Sentiment
+    aliases:
+      - coding_agents_assistants.coding_agents_assistants_experience.short
+
+  - key: tools.coding_agents_assistants_ratios
+    t: Coding Agents & Assistants Ratios Over Time
+    aliases:
+      - coding_agents_assistants.coding_agents_assistants_ratios
+
+  - key: tools.coding_agents_assistants_ratios.short
+    t: Ratios Over Time
+    aliases:
+      - coding_agents_assistants.coding_agents_assistants_ratios.short
 
   - key: tools.coding_agents_assistants_others
     t: Other Coding Agents/Assistants
+    aliases:
+      - coding_agents_assistants.coding_agents_assistants_others
   - key: tools.coding_agents_assistants_others.question
     t: What other coding agents or assistants are you currently using?
+    aliases:
+      - coding_agents_assistants.coding_agents_assistants_others.question
+  - key: tools.coding_agents_assistants_others.short
+    t: Other Agents/Assistants
+    aliases:
+      - coding_agents_assistants.coding_agents_assistants_others.short
 
   - key: tools.coding_agents_assistants_pain_points
     t: Coding Agents/Assistants Pain Points
@@ -190,9 +242,13 @@ translations:
 
   # tools.coding_agents_assistants_paid_for
   - key: tools.coding_agents_assistants_paid_for
-    t: Paid Agents/Assistants
+    t: Paid Usage
+    aliases:
+      - coding_agents_assistants.coding_agents_assistants_paid_for
   - key: tools.coding_agents_assistants_paid_for.question
-    t: Out of the agents & assistants mentioned here, which one does you or your company actually pay for?
+    t: Out of the agents & assistants mentioned here, which one do you or your company actually pay for?
+    aliases:
+      - coding_agents_assistants.coding_agents_assistants_paid_for.question
 
   # code_generation
 
@@ -484,9 +540,18 @@ translations:
   - key: usage.ai_personal_expenses
     t: Personal Expenses
   - key: usage.ai_personal_expenses.question
-    t: How much do you personally spend on AI tools per month (in USD)?
+    t: How much do the spend on AI tools per month (in USD)?
   - key: usage.ai_personal_expenses.prompt
     t: If working for yourself, include both personal and professional expenses.
+
+  # ai_personal_expenses BETTER VERSION, use that in 2026
+
+  # - key: usage.ai_personal_expenses
+  #   t: AI Expenses
+  # - key: usage.ai_personal_expenses.question
+  #   t: How much do the AI tools you use cost per month (in USD)?
+  # - key: usage.ai_personal_expenses.prompt
+  #   t: Either paid by yourself or by your company.
 
   - key: options.ai_personal_expenses.range_0
     t: $0
@@ -821,8 +886,12 @@ translations:
   # ai_pain_points
   - key: usage.ai_pain_points
     t: Pain Points
+    aliases:
+      - risks_pain_points.ai_pain_points
   - key: usage.ai_pain_points.question
     t: What are your top pain points when it comes to actually using AI tools?
+    aliases:
+      - risks_pain_points.ai_pain_points.question
 
   - key: options.ai_pain_points.misunderstood_prompt
     t: Prompt comprehension
@@ -892,8 +961,12 @@ translations:
 
   - key: usage.ai_missing_features
     t: Missing Features
+    aliases:
+      - risks_pain_points.ai_missing_features
   - key: usage.ai_missing_features.question
     t: What capabilities do you feel are currently missing from AI tools?
+    aliases:
+      - risks_pain_points.ai_missing_features.question
 
   - key: options.ai_missing_features.larger_context_window
     t: Larger context window
@@ -965,17 +1038,23 @@ translations:
     t: Happiness
     aliases:
       - happiness.ai_happiness
+      - risks_pain_points.ai_happiness
   - key: usage.ai_happiness.question
     t: How happy are you with the current general state of AI tools for web development?
     aliases:
       - happiness.ai_happiness.question
+      - risks_pain_points.ai_happiness.question
 
   # RISKS & PAIN POINTS
 
   - key: usage.ai_risks
     t: AI Risks
+    aliases:
+      - risks_pain_points.ai_risks
   - key: usage.ai_risks.question
     t: Which of these general AI risks and issues are you most concerned about?
+    aliases:
+      - risks_pain_points.ai_risks.question
 
   - key: options.ai_risks.militaristic_uses
     t: Military use of AI

@@ -162,10 +162,13 @@ translations:
       Proportion of **positive sentiment** among all respondents
   - key: ratios.positivityRelative.description
     t: >
-      Proportion of **positive sentiment** among all respondents who expressed a sentiment.
+      Proportion of **positive sentiment** among all respondents who expressed a sentiment, regardless of their experience with the item.
   - key: ratios.appreciation.description
     t: >
-      Gap between **interest** (**positive sentiment** among “heard of it” respondents) and **satisfaction** (**positive sentiment** among “used it” respondents), in percentage points.
+      Gap between **interest** (**positive sentiment** among “heard of it” respondents) and **satisfaction** (**positive sentiment** among “used it” respondents), in percentage points. 
+
+
+      In other words, how much more respondents enjoy an item after using it, compared to when they had only heard about it.
 
   - key: modes.rank
     t: Rank
