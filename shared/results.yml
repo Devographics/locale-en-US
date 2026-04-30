@@ -2543,4 +2543,4 @@ translations:
     t: The application monitoring platform loved by developers worldwide.
 
   - key: sponsors.clerk.description
-    t: Full stack auth and user management to let you launch faster and scale easier.
+    t: Full stack auth and user management that lets you launch faster and scale easier.
