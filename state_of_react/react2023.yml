@@ -134,7 +134,7 @@ translations:
       Note that some items such as `useState` and `fetch` were also included in order to provide a baseline, even though they're not libraries themselves.
 
   - key: tools.scatterplot_overview
-    t: Libraries Retention vs Usage
+    t: Libraries Satisfaction vs Usage
   - key: tools.scatterplot_overview.takeaway
     t: >
       Among libraries and frameworks, **Next.js** was the only item boasting both high retention and high usage. On the other hand, while even more respondents had used **Create React App**, a lot fewer were willing to keep using it going forward.

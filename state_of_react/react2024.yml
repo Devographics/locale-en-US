@@ -211,7 +211,7 @@ translations:
       Note that some items such as `useState` and `fetch` were also included as points of comparison, even though they're not libraries themselves.
 
   - key: tools.scatterplot_overview
-    t: Libraries Retention vs Usage
+    t: Libraries Satisfaction vs Usage
   - key: tools.scatterplot_overview.takeaway.react2024
     t: >
       Among libraries and frameworks, **Next.js** was still the only item boasting both high retention and high usage. That being said, **TanStack Query** does seem to be on the verge of crossing over into the >50% usage quadrant anytime now!

@@ -43,6 +43,9 @@ translations:
   - key: general.all_editions
     t: View more…
 
+  - key: general.view_full_results
+    t: View Full Results »
+
   ###########################################################################
   # Tabs
   ###########################################################################
@@ -896,7 +899,7 @@ translations:
 
   # tools quadrant
   - key: blocks.tools_quadrant
-    t: Retention vs Usage
+    t: Satisfaction vs Usage
     aliases:
       - tools.scatterplot_overview
       - libraries.scatterplot_overview
@@ -2535,3 +2538,9 @@ translations:
 
   - key: sponsors.webstorm.description
     t: Enjoy more productive coding with the JavaScript IDE that has everything you need.
+
+  - key: sponsors.sentry.description
+    t: The application monitoring platform loved by developers worldwide.
+
+  - key: sponsors.clerk.description
+    t: Full stack auth and user management to let you launch faster and scale easier.
