@@ -308,22 +308,28 @@ translations:
 
   # conclusion
 
-  - key: conclusion.ai2026.ashok_gelal.bio
-    t: Developer and Founder, [Msty](https://msty.app/)
+  - key: conclusion.ai2026.the_primeagen.bio
+    t: Programmer, entrepreneur, streamer, coffee-lover
 
-  - key: conclusion.ai2026.ashok_gelal
+  - key: conclusion.ai2026.the_primeagen
     t: |
-      Just like many of us, I was very skeptical of AI at first. Was AI a real game-changer, or just another fad like NFTs, Crypto, Web3, and so many others?
+      It's the best of times, it’s the worst of times. 
 
-      Then OpenAI came out with ChatGPT. And when, shortly after, my 7th-grader niece mentioned their teacher was making plans to use it in the classroom, I knew something was different this time around. 
+      Never has software been more approachable than today. As an example, if you find a new library, you can `git clone` it and ask for personalized tutorials based on the repo. Absolutely magic. If I had this when I was learning to code, I cannot imagine where I would be today.
 
-      And for a while there I thought OpenAI would run away with the whole market – but man, am I glad to be wrong! 
+      But all that glitters is not gold, and our professional future in software has never been more unclear. Layoffs across many large companies, [Dario](https://en.wikipedia.org/wiki/Dario_Amodei) proclaiming software is over on a regular basis, and a general feeling of doing more work than ever whilst being less satisfied than ever. 
 
-      Recent reasoning models from DeepSeek, mind-blowing image generative capabilities from Goolge Gemini, MCP Tools from Anthropic, etc. show that this is just the beginning, and that AI innovation is happening at an unprecedented pace. 
+      To make everything even more confusing, software quality feels like it's at its lowest point ever. I cannot use any major site without running into a bug, and the promise of unlimited high quality software touted in headlines and social media still feels deeply unmet.
 
-      As someone making an app on top of these models, I am super excited to see where this is all going to take us. Will AI replace us? I'm not sure. But I believe those of us who learn how to use it will definitely have an edge. 
+      This is what makes 2026 so interesting. The dust has not settled. The die is not cast. There is no definitive conclusion yet. The next couple years could be one of the most influential time in all of software engineering, and we all get to play a part in it.
 
-      I wasn't around for the original internet boom, so I am not going to sit this one out. Now excuse me, as I need to check out a just-announced new model that is supposed to be faster, cheaper, and better than anything else out there!
+      On a personal note the most fascinating part of this revolution is the role of personal discipline. Some of us press the easy button faster than we should, and I am guilty of it too because it is just so alluring. Never have I had something that is simultaneously so useful and so deadly. 
+
+      And on an even more personal note, part of me is sad. The profession I fell in love with is changing whether I want it to or not–and more importantly I have to change with it. Please do not confuse this with me saying “just prompt bro.”:  I am not declaring that software engineering is dead, far from it. I just feel that periods of headphones in, MiMo blasting, and 6 hours of unbroken coding simply just happen less, and are potentially just needed less.
+
+      I cannot look into the future and know what's next, but I can make one promise that always seems to be true for software: being competent is fun.
+
+      Interns, I love you all with the love of a CEO.
 
   ###########################################################################
   # Sponsors
@@ -368,7 +374,7 @@ translations:
 
       Funding from this project comes from sponsorships from our partners.
 
-      Any contribution or sponsorship is greatly appreciated. we would especially like to work closely with more browser vendors, since they play such a central role in the web ecosystem.  
+      Any contribution or sponsorship is greatly appreciated. we would especially like to work closely with more browser vendors, since they play such a central role in the web ecosystem. 
 
       ### Technical Overview
 
