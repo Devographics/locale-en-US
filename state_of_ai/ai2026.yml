@@ -265,7 +265,7 @@ translations:
 
   - key: risks_pain_points.ai_happiness.takeaway.ai2026
     t: |
-      TODO
+      Overall happiness with AI hasn't changed much since last year, another sign that developers might still be in a “wait and see” holding pattern.
 
   # opinions
 
@@ -309,7 +309,7 @@ translations:
   # conclusion
 
   - key: conclusion.ai2026.the_primeagen.bio
-    t: Programmer, entrepreneur, streamer, coffee producer
+    t: CEO of the Startup
 
   - key: conclusion.ai2026.the_primeagen
     t: |
