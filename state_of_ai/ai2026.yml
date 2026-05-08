@@ -106,7 +106,7 @@ translations:
 
   - key: sections.user_info.description.ai2026
     t: |
-      **4,181** respondents took part in this first edition of the State of Web Dev AI survey.
+      **7,258** respondents took part in this second edition of the State of Web Dev AI survey, a **73% increase** in participation year-over-year.
 
   # models
 
@@ -132,7 +132,7 @@ translations:
 
   - key: models.cardinalities.takeaway.ai2026
     t: |
-      The fact that the average respondent has used 4.2 [TODO] different models points to the fact that the AI space is very much still in flux, with users being more than willing to experiment and jump ship to new competitors if they should prove superior.
+      The fact that the average respondent has used **4** different models points to the fact that the AI space is very much still in flux, with users being more than willing to experiment and jump ship to new competitors if they should prove superior.
 
   - key: models.models_paid_for.takeaway.ai2026
     t: |
@@ -195,7 +195,7 @@ translations:
 
   - key: other_tools.ai_tools_others.takeaway.ai2026
     t: |
-      **OpenCode** shows up once more in the top spot, while the much-hyped **OpenClaw** only takes fifth place [TODO].
+      **OpenCode** shows up once more in the top spot, while the much-hyped **OpenClaw** only takes fourth place.
 
   # usage
 
@@ -348,7 +348,7 @@ translations:
 
   - key: about.content.ai2026
     t: |
-      The 2026 State of Web Dev AI survey ran from April 8 to April 30 2026, and collected 6,531 responses. The results were published on May 1, 2026. The survey is run by [Devographics](https://devographics.com/), with help from invited domain experts and open-source contributors. 
+      The 2026 State of Web Dev AI survey ran from April 8 to April 30 2026, and collected 7,258 responses. The results were published on May 1, 2026. The survey is run by [Devographics](https://devographics.com/), with help from invited domain experts and open-source contributors. 
 
       ### Survey Goals
 
