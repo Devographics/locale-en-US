@@ -547,6 +547,8 @@ translations:
     t: Faster manual operations
   - key: options.ai_code_refactoring_reasons.logic_and_edge_cases
     t: Edge case logic
+  - key: options.ai_code_refactoring_reasons.personal_preference_and_taste
+    t: Personal preference or taste
 
   # ai_personal_expenses
 
