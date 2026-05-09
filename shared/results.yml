@@ -2544,3 +2544,28 @@ translations:
 
   - key: sponsors.clerk.description
     t: Full stack auth and user management that lets you launch faster and scale easier.
+
+  # midpage sponsors blocks
+
+  - key: tokyodev.relocation
+    t: |
+      Find Work in Japan
+
+  - key: tokyodev.relocation.description
+    t: |
+      Relocating to Japan doesn't just have to be a dream. TokyoDev's Developer’s Crash Course in Coming to Japan covers things like what it is like to work for a Japanese company, how much you can expect to make, what visas are available and how hard they are to obtain.
+
+  - key: frontendmasters.learning_path
+    t: |
+      Your Path to Becoming a Senior Web Developer
+
+  - key: frontendmasters.learning_path.description
+    t: |
+      Want to upgrade your career? Deep-dive into JavaScript, React, Web performance, CSS, deploying websites, TypeScript, and functional programming to go from junior to senior today.
+
+  - key: storyblok.technologies
+    t: React? Vue? Astro? JS?
+
+  - key: storyblok.technologies.description
+    t: |
+      Doesn't matter, we speak JSON. Storyblok is a Headless CMS that works with all modern frameworks and platforms so you are completely free to choose the best option for your project. Get started in a matter of minutes!

@@ -535,6 +535,19 @@ translations:
   - key: options.ai_code_refactoring_reasons.phantom_api_usage
     t: Using made-up APIs
 
+  - key: options.ai_code_refactoring_reasons.architectural_issues
+    t: Architectural issues
+  - key: options.ai_code_refactoring_reasons.not_following_conventions
+    t: Not following conventions
+  - key: options.ai_code_refactoring_reasons.css_styling_issues
+    t: CSS & styling issues
+  - key: options.ai_code_refactoring_reasons.understanding_and_learning
+    t: Improving own understanding
+  - key: options.ai_code_refactoring_reasons.manual_speed_advantage
+    t: Faster manual operations
+  - key: options.ai_code_refactoring_reasons.logic_and_edge_cases
+    t: Edge case logic
+
   # ai_personal_expenses
 
   - key: usage.ai_personal_expenses
@@ -734,6 +747,10 @@ translations:
     t: Database queries
   - key: options.ai_generated_code_type.scripting
     t: Scripting
+  - key: options.ai_generated_code_type.all_of_the_above
+    t: All of the above
+    aliases:
+      - options.ai_risks.all_of_the_above
 
     # ai_uses
 
@@ -882,6 +899,24 @@ translations:
     t: Debugging
     aliases:
       - options.ai_browser_apis.debugging
+
+  - key: options.ai_uses.brainstorming
+    t: Brainstorming
+  - key: options.ai_uses.project_planning
+    t: Project planning
+  - key: options.ai_uses.personal_assistant_duties
+    t: Personal assistant duties
+  - key: options.ai_uses.workflow_automation
+    t: Workflow automation
+  - key: options.ai_uses.entertainment_and_gaming
+    t: Entertainment & gaming
+  - key: options.ai_uses.generating_documentation
+    t: Documentation generation
+
+  - key: options.ai_uses.ai_content_detection
+    t: AI-generated content detection
+    aliases:
+      - options.ai_browser_apis.ai_content_detection
 
   # ai_pain_points
   - key: usage.ai_pain_points
@@ -1032,6 +1067,15 @@ translations:
   - key: options.ai_missing_features.higher_intelligence
     t: Higher intelligence
 
+  - key: options.ai_missing_features.ui_visual_understanding
+    t: Visual understanding of UIs
+
+  - key: options.ai_missing_features.ethics
+    t: Ethics
+
+  - key: options.ai_missing_features.trust_transparency_accountability
+    t: Trust & transparency
+
   # ai_happiness
 
   - key: usage.ai_happiness
@@ -1115,6 +1159,9 @@ translations:
     t: Negative cognitive impacts
   - key: options.ai_risks.cognitive_impact.description
     t: Excessive AI use making users helpless without it
+
+  - key: options.ai_risks.high_cost
+    t: High costs
 
   # OPINIONS
 

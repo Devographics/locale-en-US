@@ -18,7 +18,7 @@ translations:
 
       Whether you're pro- or anti-AI, I think most of us agree that AI is having a huge impact on our work as developers, and beyond that, on the world at large. 
 
-      The 2026 edition of the State of Web Dev AI survey provided a lot of fascinating material to study this impact, and while I certainly recommend checking out the full survey results at your own pace, here are four key trends to get started exploring the data.
+      The 2026 edition of the State of Web Dev AI survey collected data from **7,258** developers, providing a lot of fascinating material to study this impact. And while I would certainly recommend checking out the full survey results at your own pace, here are four key trends to get started exploring the data.
 
   - key: overview.ai_adoption.ai2026
     t: |
@@ -51,7 +51,7 @@ translations:
     t: |
       ## #3: Race to Monetization 
 
-      Now that we've all gotten hooked on cheap AI subsidized by unprecedented VC funding rounds, our collective addiction is making it easier for AI labs to start raising prices. And this translates into a [clear increase in individual AI spend](/en-US/usage/#ai_personal_expenses) compared to last year.
+      Speaking of paying more: now that we've all gotten hooked on cheap AI subsidized by unprecedented VC funding rounds, our collective addiction is making it easier for AI labs to start raising prices. And this translates into a [clear increase in individual AI spend](/en-US/usage/#ai_personal_expenses) compared to last year.
 
   - key: overview.monetization_2.ai2026
     t: |
@@ -69,7 +69,7 @@ translations:
     t: |
       But the list of [AI risks](/en-US/risks-pain-points/#ai_risks) does not stop there. 
 
-      Right now, armed forces throughout the world are working on autonomous drones and targeting systems that free them from the heavy responsibility of weighing the cost of human life; and all of this is of course happening against a backdrop of accelerating climate change made worse by AI's ever-increasing resource consumption.
+      Right now, armed forces throughout the world are working on autonomous drones and targeting systems that could lead to diminished responsibility and accountability; and this is of course happening against a backdrop of ever-increasing AI resource consumption and accelerating climate change.
 
   - key: overview.risk_factors3.ai2026
     t: |
