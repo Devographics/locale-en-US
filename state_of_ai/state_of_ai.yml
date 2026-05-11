@@ -555,7 +555,7 @@ translations:
   - key: usage.ai_personal_expenses
     t: Personal Expenses
   - key: usage.ai_personal_expenses.question
-    t: How much do the spend on AI tools per month (in USD)?
+    t: How much do you spend on AI tools per month (in USD)?
   - key: usage.ai_personal_expenses.prompt
     t: If working for yourself, include both personal and professional expenses.
 

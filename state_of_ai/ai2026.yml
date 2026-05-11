@@ -99,6 +99,42 @@ translations:
       This survey was designed as the results of an [open design process](https://github.com/Devographics/surveys/issues/285) involving AI companies, browser vendors and the web development community.
 
   ###########################################################################
+  # Figures
+  ###########################################################################
+
+  - key: figure.figure_claude_use_increase.ai2026
+    t: |
+      Year-over-year percentage increase in Claude usage, the largest gain among all models.
+
+  - key: figure.figure_average_model_use.ai2026
+    t: |
+      Number of models the average respondent has used.
+
+  - key: figure.figure_claude_paying_users.ai2026
+    t: |
+      Percentage of question respondents who pay for Claude Code.
+
+  - key: figure.figure_ai_generated_code_balance.ai2026
+    t: |
+      Percentage of question respondents who stated the entirety of their coding output is now AI-generated.
+
+  - key: figure.figure_ai_code_generation_frequency.ai2026
+    t: |
+      Percentage of question respondents who use AI to generate code on a daily basis.
+
+  - key: figure.figure_ai_pain_points.ai2026
+    t: |
+      Percentage decrease in respondents who cited prompt comprehension as a pain point.
+
+  - key: figure.figure_integral_workflow.ai2026
+    t: |
+      Percentage of respondents who now consider AI an integral part of their workflow.
+
+  - key: figure.figure_reach_agi.ai2026
+    t: |
+      Percentage of respondents who think we'll reach AGI in the near future.
+
+  ###########################################################################
   # Content & Takeaways
   ###########################################################################
 
@@ -130,7 +166,7 @@ translations:
     t: |
       Most other models cited here were not even part of last year's survey, and it's notable that the top three (**Kimi**, **GLM**, and **MiniMax**) are all being developed by companies based in China,indicating that the future of AI might not belong exclusively to Silicon Valley after all.
 
-  - key: models.cardinalities.takeaway.ai2026
+  - key: models.models_cardinalities.takeaway.ai2026
     t: |
       The fact that the average respondent has used **4** different models points to the fact that the AI space is very much still in flux, with users being more than willing to experiment and jump ship to new competitors if they should prove superior.
 
@@ -152,7 +188,7 @@ translations:
     t: |
       Given its popularity, **OpenCode** should probably have been part of the main survey options. But it makes up for that omission by establishing a comfortable lead over the competition here, with **Cursor** a close second.
 
-  - key: coding_agents_assistants.cardinalities.takeaway.ai2026
+  - key: coding_agents_assistants.coding_agents_assistants_cardinalities.takeaway.ai2026
     t: |
       With a younger and more limited space, it's not surprising that developers have still tried a relatively limited number of coding agents.
 
@@ -205,7 +241,7 @@ translations:
 
   - key: usage.ai_uses.takeaway.ai2026
     t: |
-      While **code generation** still comes first, it's interesting to note that **code review** (a new option this year) has jumped straight to third place. After all, *someone* will eventually need to read through the 30k lines of codes the intern vibe-coded over the week-end…
+      While **code generation** still comes first, it's interesting to note that **code review** (a new option this year) has jumped straight to third place. After all, *someone* will eventually need to verify the 30k lines of codes someone vibe-coded over the week-end…
 
   - key: usage.ai_generated_code_balance.takeaway.ai2026
     t: |
@@ -234,6 +270,9 @@ translations:
   - key: usage.ai_personal_expenses.takeaway.ai2026
     t: |
       The proportion of respondents enjoying the benefits of AI without personally having to spend their hard-earned cash has dramatically shrunken year-over-year; while the **$100-$500** monthly spend demographic is seeing significant growth. This may be due to the rise of coding agents, which often carry heavier financial costs compared to simple chatbots.
+
+  - key: usage.ai_personal_expenses.note.ai2026
+    t: While the 2026 survey also included a question about company AI spend, its data wasn't usable because it didn't clearly state whether the question was about total company-wide spend, or per-employee spend.
 
   - key: usage.industry_sector.takeaway.ai2026
     t: |
