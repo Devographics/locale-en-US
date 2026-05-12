@@ -1546,24 +1546,6 @@ translations:
     t: "{siteTitle} Survey Results"
   - key: share.block.body
     t: "Here are some interesting survey results ({title}): {link}"
-  - key: share.twitter
-    t: Share on Twitter
-  - key: share.bluesky
-    t: Share on Bluesky
-  - key: share.mastodon
-    t: Share on Mastodon
-  - key: share.facebook
-    t: Share on Facebook
-  - key: share.linkedin
-    t: Share on LinkedIn
-  - key: share.email
-    t: Share by email
-  - key: share.image
-    t: Get image
-  - key: share.link
-    t: Link to section
-  - key: share.url
-    t: Copy link
   - key: share.close
     t: Close
 
