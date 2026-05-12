@@ -180,8 +180,6 @@ translations:
     t: CSS Frameworks
   - key: sections.css_frameworks.description
     t: Frameworks and libraries that give you pre-made components or styles.
-    aliases:
-      - other_tools.css_frameworks
 
   - key: sections.css_frameworks_others.title
     t: Other CSS Frameworks
@@ -1324,7 +1322,10 @@ translations:
   - key: css_missing_features.css_missing_features_matchups.description
     t: Which feature would you most like to be able to use in CSS today? Percentage of rounds won by left-hand item against top-side item.
 
-  # usage
+  ###########################################################################
+  # Usage
+  ###########################################################################
+
   - key: usage.css_js_balance
     t: CSS vs JavaScript Balance
   - key: usage.css_js_balance.question
@@ -1384,6 +1385,34 @@ translations:
     t: Game-changing Feature
   - key: usage.gamechanger_feature.question
     t: Over the past 5 years, which feature has had the biggest impact on how you write CSS?
+
+  # ai_generated_code_balance
+
+  - key: usage.css_ai_generated_code_balance
+    t: CSS AI Code Generation
+  - key: usage.css_ai_generated_code_balance.question
+    t: What proportion of the CSS code you produce is AI-generated?
+  - key: usage.css_ai_generated_code_balance.prompt
+    aliasFor: usage.ai_generated_code_balance.prompt
+
+  - key: options.css_ai_generated_code_balance.0
+    aliasFor: options.ai_generated_code_balance.0
+  - key: options.css_ai_generated_code_balance.1
+    aliasFor: options.ai_generated_code_balance.1
+  - key: options.css_ai_generated_code_balance.2
+    aliasFor: options.ai_generated_code_balance.2
+  - key: options.css_ai_generated_code_balance.3
+    aliasFor: options.ai_generated_code_balance.3
+  - key: options.css_ai_generated_code_balance.4
+    aliasFor: options.ai_generated_code_balance.4
+  - key: options.css_ai_generated_code_balance.5
+    aliasFor: options.ai_generated_code_balance.5
+  - key: options.css_ai_generated_code_balance.6
+    aliasFor: options.ai_generated_code_balance.6
+  - key: options.css_ai_generated_code_balance.7
+    aliasFor: options.ai_generated_code_balance.7
+  - key: options.css_ai_generated_code_balance.8
+    aliasFor: options.ai_generated_code_balance.8
 
   ###########################################################################
   # Resources

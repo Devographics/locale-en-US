@@ -417,22 +417,40 @@ translations:
 
   - key: options.ai_generated_code_balance.0
     t: 0% AI
+    aliases:
+      - options.css_ai_generated_code_balance.0
   - key: options.ai_generated_code_balance.1
     t: "|"
+    aliases:
+      - options.css_ai_generated_code_balance.1
   - key: options.ai_generated_code_balance.2
     t: "|"
+    aliases:
+      - options.css_ai_generated_code_balance.2
   - key: options.ai_generated_code_balance.3
     t: "|"
+    aliases:
+      - options.css_ai_generated_code_balance.3
   - key: options.ai_generated_code_balance.4
     t: "50%"
+    aliases:
+      - options.css_ai_generated_code_balance.4
   - key: options.ai_generated_code_balance.5
     t: "|"
+    aliases:
+      - options.css_ai_generated_code_balance.5
   - key: options.ai_generated_code_balance.6
     t: "|"
+    aliases:
+      - options.css_ai_generated_code_balance.6
   - key: options.ai_generated_code_balance.7
     t: "|"
+    aliases:
+      - options.css_ai_generated_code_balance.7
   - key: options.ai_generated_code_balance.8
     t: 100% AI
+    aliases:
+      - options.css_ai_generated_code_balance.8
 
   # - key: options.ai_generated_code_balance.1.short
   #   t: 12.5%

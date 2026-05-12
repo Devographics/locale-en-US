@@ -7,13 +7,13 @@ translations:
   - key: general.css2026.survey_intro
     t: |
 
-      There is only one item on my CSS wishlist for 2025: a slower pace!
+      Take a deep breath. Calm down. It's ok if you don't know every single new CSS property. The truth is, very few of us do. 
 
-      After years of rapid innovation, now feels like the right time for browser vendors to take a beat to consolidate, fix browser inconsistencies, and let the rest of us catch up.  
+      Look, one of this survey's goals has always been to help keep developers up to date on the latest and greatest CSS improvements. But the downside is that all this progress can sometimes feel overwhelming.
 
-      After all, we might've heard about subgrid, `:has()`, scroll-driven animations, and all the other recent CSS improvements – but how many of us can say that we've actually used all these features, let alone mastered them?
+      That’s why this year we made a conscious effort to reduce the number of features covered in the survey, focusing instead on the ones that matter most.
 
-      This is why this year's survey will be so interesting. It'll be a chance to see which of the past few year's new CSS additions have already been adopted by the community, and which ones are still on our to-do list. 
+      And especially in these times of AI-assisted code generation, maybe doing less—but doing it better—is how those of us who still insist on hand-coding our software can stay competitive. 
 
       So once again, please join me for this year's State of CSS!
 
