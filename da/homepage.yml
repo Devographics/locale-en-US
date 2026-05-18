@@ -1,0 +1,93 @@
+---
+locale: en-US
+translations:
+  - 
+    ###########################################################################
+    #Homepage
+    ###########################################################################
+    key: homepage.hand_coded
+    t: Hand-coded in Japan.
+  - 
+    key: homepage.leave_issue
+    t: Leave an issue
+  - 
+    key: homepage.get_in_touch
+    t: Get in touch
+  - 
+    key: homepage.made_by
+    t: 'The State of CSS is Made by:'
+  - 
+    key: homepage.previous_years
+    t: 'Previous Years:'
+  - 
+    key: homepage.intro
+    t: >
+      ## CSS is evolving faster than ever.
+      Flexbox, Grid, Multi-Column… To say nothing of whole new paradigms like CSS-in-JS.
+      So after the success of our annual [State Of JavaScript](https://stateofjs.com) survey, we’ve decided to take on the world of styles and selectors to help identify the latest trends… and try to bridge the ever-growing “great front-end divide”!
+  - 
+    key: homepage.take_survey
+    t: Take Survey
+  - 
+    key: homepage.view_results
+    t: View Results
+  - 
+    key: share.help_spread
+    t: Help Spread the Word!
+  - 
+    key: homepage.other_surveys
+    t: 'Other Surveys:'
+  - 
+    key: homepage.survey_open_now
+    t: Currently Open
+  - 
+    key: homepage.survey_preview
+    t: Preview Survey
+  - 
+    key: homepage.most_recent_survey
+    t: Most Recent
+  - 
+    key: homepage.current_survey
+    t: Current Survey
+  - 
+    key: homepage.past_surveys
+    t: Past Surveys
+  - 
+    key: homepage.view_questions
+    t: View Questions
+  - 
+    key: homepage.preview_questions
+    t: Preview Questions
+  - 
+    #newsletter
+    key: newsletter.stay_tuned
+    t: Don't Miss the Next Survey
+  - 
+    key: newsletter.leave_your_email
+    t: Leave us your email and we’ll let you know when the next survey takes place.
+  - 
+    key: newsletter.email
+    t: Your Email
+  - 
+    key: newsletter.submit
+    t: Notify Me
+  - 
+    #languages
+    key: languages.available_languages
+    t: 'Available languages:'
+  - 
+    key: languages.help_us_translate
+    t: Help us translate the survey in your language →
+  - 
+    #footer
+    key: homepage.made_by_devographics
+    aliasFor: general.made_by_devographics
+  - 
+    key: homepage.netlify_link
+    aliasFor: general.netlify_link
+  - 
+    key: homepage.leave_issue
+    aliasFor: general.leave_issue
+  - 
+    key: homepage.join_discord
+    aliasFor: general.join_discord
