@@ -241,7 +241,7 @@ translations:
 
   - key: usage.ai_uses.takeaway.ai2026
     t: |
-      While **code generation** still comes first, it's interesting to note that **code review** (a new option this year) has jumped straight to third place. After all, *someone* will eventually need to verify the 30k lines of codes someone vibe-coded over the week-end…
+      While **code generation** still comes first, it's interesting to note that **code review** (a new option this year) has jumped straight to third place. After all, those 30k lines of codes that got vibe-coded over the week-end will need to be double-checked at some point…
 
   - key: usage.ai_generated_code_balance.takeaway.ai2026
     t: |
