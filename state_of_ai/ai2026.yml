@@ -1,8 +1,8 @@
 locale: en-US
 translations:
-  - key: general.ai2026.devs2025_banner
+  - key: general.ai2026.css2026_banner
     t: >
-      Announcing a new developer survey for everything that's *not* code: health, hobbies, career, and more! →
+      Take the State of CSS 2026 survey and see what's new in CSS this year →
 
   - key: general.ai2026.survey_intro
     t: |
@@ -387,7 +387,7 @@ translations:
 
   - key: about.content.ai2026
     t: |
-      The 2026 State of Web Dev AI survey ran from April 8 to April 30 2026, and collected 7,258 responses. The results were published on May 1, 2026. The survey is run by [Devographics](https://devographics.com/), with help from invited domain experts and open-source contributors. 
+      The 2026 State of Web Dev AI survey ran from April 8 to May 8 2026, and collected 7,258 responses. The results were published on May 1, 2026. The survey is run by [Devographics](https://devographics.com/), with help from invited domain experts and open-source contributors. 
 
       ### Survey Goals
 

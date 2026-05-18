@@ -2482,6 +2482,18 @@ translations:
     t: Useful Resources
 
   ###########################################################################
+  # Download
+  ###########################################################################
+
+  - key: sections.download.title
+    t: |
+      Download Dataset
+
+  - key: sections.download.description
+    t: |
+      You can apply to receive the full CSV dataset for free by [joining our Discord group](https://discord.gg/2E7bbgnrJJ) and asking in the **#general** channel.
+
+  ###########################################################################
   # Sponsors
   ###########################################################################
 
