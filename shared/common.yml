@@ -352,6 +352,11 @@ translations:
   - key: sections.finish.description
     t: Finish the survey
 
+  - key: sections._external_data.title
+    t: External Data
+  - key: sections._external_data.description
+    t: Data from external sources
+
   ###########################################################################
   # Options
   ###########################################################################

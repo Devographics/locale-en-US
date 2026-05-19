@@ -1317,3 +1317,10 @@ translations:
     t: Who runs this survey?
   - key: faq.team.description
     t: This survey is run by the [Devographics](https://devographics.com/) team along with help from volunteers and the community.
+
+  ###########################################################################
+  # Variant Tabs
+  ###########################################################################
+
+  - key: tabs.by_claude_code_usage
+    t: Claude Code Usage

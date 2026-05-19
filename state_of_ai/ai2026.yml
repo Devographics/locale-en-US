@@ -247,6 +247,8 @@ translations:
     t: |
       The difference with last year is striking here. Back then the average respondent was using AI sporadically to generate a small percentage of their code, but today that same developer is much more likely to rely on AI for the bulk of their coding.
 
+      And as you'd expect, usage of a coding agent such as **Claude Code** is correlated with a higher proportion of AI-generated code.
+
   - key: usage.ai_generated_code_refactoring.takeaway.ai2026
     t: |
       Similarly, using AI-generated code without having to refactor it first is no longer the exception, with many respondents reporting only needing to refactor around 25% of AI output.
@@ -290,6 +292,8 @@ translations:
 
       Said risks include **job displacement** as a top concern, but also AI's potential for **military use** as seen in recent conflicts, and of course the worrying **environmental impact** of AI in a world already threatened by climate change. 
 
+      It's also interesting to note that women and non-men respondents overall were much more likely to worry about AI's environmental impact (**58%** vs **37%**).
+
       Many commenters complained about being limited to selecting only three items. As one person put it: “It's kind of shocking how big this list of negative social impacts are when you put them all in one place.”
 
   - key: risks_pain_points.ai_pain_points.takeaway.ai2026
@@ -329,7 +333,7 @@ translations:
 
   - key: opinions.existential_risk.takeaway.ai2026
     t: |
-      Digging into the comments paints a nuanced picture on the question if existential AI risk, with the concensus being that the main problem isn't really AI itself, but rather how we use it.
+      Digging into the comments paints a nuanced picture on the question of AI existential risk, with the consensus being that the main problem isn't really AI itself, but rather how we use it.
 
   - key: opinions.ai_bubble_currently.takeaway.ai2026
     t: |
@@ -345,7 +349,9 @@ translations:
 
       Overall though, one gets the feeling that despite AI researcher's obsession with reaching that elusive goal, the rest of us would be quite content to keep using our current “dumb” AI for a while, if it means bulldozing a few less rainforests in the process.
 
-  # conclusion
+  ###########################################################################
+  # Conclusion
+  ###########################################################################
 
   - key: conclusion.ai2026.the_primeagen.bio
     t: CEO of the Startup
