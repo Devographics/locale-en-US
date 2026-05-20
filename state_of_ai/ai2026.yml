@@ -247,7 +247,7 @@ translations:
     t: |
       The difference with last year is striking here. Back then the average respondent was using AI sporadically to generate a small percentage of their code, but today that same developer is much more likely to rely on AI for the bulk of their coding.
 
-      And as you'd expect, usage of a coding agent such as **Claude Code** is correlated with a higher proportion of AI-generated code.
+      While AI usage is up across the board, it's interesting to note that higher usage brackets are correlated with lower median years of programming experience. And as you'd expect, usage of a coding agent such as **Claude Code** is correlated with a higher proportion of AI-generated code.
 
   - key: usage.ai_generated_code_refactoring.takeaway.ai2026
     t: |
@@ -260,6 +260,8 @@ translations:
   - key: usage.ai_code_generation_frequency.takeaway.ai2026
     t: |
       It seems clear that AI has become embedded in our work, with a majority of respondents using it multiple times per day, and a growing segment using it constantly.
+
+      And the more frequently you use AI, the lower your median number of years of programming experience is likely to be.
 
   - key: usage.ai_other_tasks_frequency.takeaway.ai2026
     t: |
