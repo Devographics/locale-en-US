@@ -316,6 +316,46 @@ translations:
   - key: options.laid_off.no
     t: I've never been laid off
 
+  # job_security
+
+  - key: career.job_security
+    t: Job Security
+  - key: career.job_security.question
+    t: Within the next 5 years, how likely do you think it is that you are forced to switch jobs?
+  - key: career.career_security.prompt
+    t: If not applicable, consider any similarly major change to your activity while remaining a developer.
+
+  - key: options.job_security.0
+    t: Very unlikely
+  - key: options.job_security.1
+    t: Somewhat unlikely
+  - key: options.job_security.2
+    t: Neutral
+  - key: options.job_security.3
+    t: Somewhat likely
+  - key: options.job_security.4
+    t: Very likely
+
+  # career_security
+
+  - key: career.career_security
+    t: Career Security
+  - key: career.career_security.question
+    t: Within the next 5 years, how likely do you think it is that you are forced to switch careers?
+  - key: career.career_security.prompt
+    t: In other words, being unable to continue working as a developer.
+
+  - key: options.career_security.0
+    aliasFor: options.job_security.0
+  - key: options.career_security.1
+    aliasFor: options.job_security.1
+  - key: options.career_security.2
+    aliasFor: options.job_security.2
+  - key: options.career_security.3
+    aliasFor: options.job_security.3
+  - key: options.career_security.4
+    aliasFor: options.job_security.4
+
   # WORKPLACE
 
   - key: workplace.company_size
@@ -564,7 +604,7 @@ translations:
     t: Founded the company or self-employed
 
   - key: options.job_finding_methods.contacted_by_company
-    t: Founded the company or self-employed
+    t: Contacted by company
   - key: options.job_finding_methods.internship
     t: Internship
   - key: options.job_finding_methods.through_university
@@ -577,7 +617,98 @@ translations:
   # - key: workplace.how_much_can_you_be_yourself_at_work
   #   t:
 
-  # technology
+  ###########################################################################
+  # AI
+  ###########################################################################
+
+  # ai_generated_code_balance
+
+  - key: ai_usage.ai_generated_code_balance
+    aliasFor: usage.ai_generated_code_balance
+  - key: ai_usage.ai_generated_code_balance.question
+    aliasFor: usage.ai_generated_code_balance.question
+  - key: ai_usage.ai_generated_code_balance.prompt
+    aliasFor: usage.ai_generated_code_balance.prompt
+
+  - key: options.ai_generated_code_balance.0
+    aliasFor: options.ai_generated_code_balance.0
+  - key: options.ai_generated_code_balance.1
+    aliasFor: options.ai_generated_code_balance.1
+  - key: options.ai_generated_code_balance.2
+    aliasFor: options.ai_generated_code_balance.2
+  - key: options.ai_generated_code_balance.3
+    aliasFor: options.ai_generated_code_balance.3
+  - key: options.ai_generated_code_balance.4
+    aliasFor: options.ai_generated_code_balance.4
+  - key: options.ai_generated_code_balance.5
+    aliasFor: options.ai_generated_code_balance.5
+  - key: options.ai_generated_code_balance.6
+    aliasFor: options.ai_generated_code_balance.6
+  - key: options.ai_generated_code_balance.7
+    aliasFor: options.ai_generated_code_balance.7
+  - key: options.ai_generated_code_balance.8
+    aliasFor: options.ai_generated_code_balance.8
+
+  # ai_management_pressure
+
+  - key: ai_usage.ai_management_pressure
+    aliasFor: Pressure to Use AI
+  - key: ai_usage.ai_management_pressure.question
+    t: How much pressure do you feel from management to increase your AI usage?
+  - key: ai_usage.ai_management_pressure.prompt
+    t: If you do not work in a company, feel free to skip.
+
+  - key: options.ai_management_pressure.0
+    t: Negative pressure, AI use is discouraged
+
+  - key: options.ai_management_pressure.1
+    t: Neutral, no pressure at all
+
+  - key: options.ai_management_pressure.2
+    t: Some pressure, but it does not affect my behavior
+
+  - key: options.ai_management_pressure.3
+    t: Strong pressure, and I use AI more than I otherwise would as a result
+  - key: options.ai_management_pressure.3.description
+    t: |
+      Example: minimum AI usage quotas
+
+  # ai_sentiment
+
+  - key: ai_usage.ai_sentiment
+    aliasFor: AI Sentiment
+  - key: ai_usage.ai_sentiment.question
+    t: On a scale going from 100% negative to 100% positive, what is your overall opinion regarding AI?
+
+  - key: options.ai_sentiment.0
+    t: 100% negative
+  - key: options.ai_sentiment.1
+    aliasFor: options.ai_generated_code_balance.1
+  - key: options.ai_sentiment.2
+    aliasFor: options.ai_generated_code_balance.2
+  - key: options.ai_sentiment.3
+    aliasFor: options.ai_generated_code_balance.3
+  - key: options.ai_sentiment.4
+    t: 50/50 (neutral)
+  - key: options.ai_sentiment.5
+    aliasFor: options.ai_generated_code_balance.5
+  - key: options.ai_sentiment.6
+    aliasFor: options.ai_generated_code_balance.6
+  - key: options.ai_sentiment.7
+    aliasFor: options.ai_generated_code_balance.7
+  - key: options.ai_sentiment.9
+    t: 100% positive
+
+  # ai_risks
+
+  - key: ai_usage.ai_risks
+    aliasFor: usage.ai_risks
+  - key: ai_usage.ai_risks.question
+    aliasFor: usage.ai_risks.question
+
+  ###########################################################################
+  # Technology
+  ###########################################################################
 
   # mobile_os
   - key: technology.mobile_os
@@ -1015,16 +1146,22 @@ translations:
     t: Refugee & migration crisis
   - key: options.global_issues.economic_inequality
     t: Economic inequality
+  - key: options.global_issues.economic_inequality.description
+    t: Including housing access.
   - key: options.global_issues.healthcare_access
     t: Healthcare access
   - key: options.global_issues.geopolitical_tensions
     t: Geopolitical tensions
+  - key: options.global_issues.geopolitical_tensions.description
+    t: Including wars and armed conflicts.
   - key: options.global_issues.ai_threats
     t: AI threats
   - key: options.global_issues.rising_authoritarianism
     t: Rising authoritarianism
   - key: options.global_issues.rising_intolerance
     t: Rising intolerance
+  - key: options.global_issues.rising_intolerance.description
+    t: Including LGBTQ and trans issues.
   - key: options.global_issues.erosion_traditional_values
     t: Erosion of traditional values
   - key: options.global_issues.globalization
@@ -1040,6 +1177,54 @@ translations:
     t: Trump
   - key: options.global_issues.lgbtq_rights
     t: LGBTQ rights
+
+  # political_expression_at_work
+
+  - key: worldview.political_expression_at_work
+    t: Political Expression
+  - key: worldview.political_expression_at_work.question
+    t: How comfortable do you feel expressing political opinions at work?
+
+  - key: options.political_expression_at_work.0
+    t: Not comfortable at all
+  - key: options.political_expression_at_work.1
+    t: Slightly uncomfortable
+  - key: options.political_expression_at_work.2
+    t: Neutral
+  - key: options.political_expression_at_work.3
+    t: Mostly comfortable
+  - key: options.political_expression_at_work.4
+    t: Completely comfortable
+
+  # workers_union
+
+  - key: worldview.workers_union
+    t: Worker's Union
+  - key: worldview.workers_union.question
+    t: Are you currently a member of a worker's union or syndicate?
+
+  - key: options.workers_union.no_no_interest
+    t: No, and I have not interest in joining one
+  - key: options.workers_union.no_but_interested
+    t: No, but I'd like to join one
+  - key: options.workers_union.yes
+    t: "Yes"
+  - key: options.workers_union.na
+    t: Not applicable
+
+  # political_spectrum
+
+  - key: worldview.political_spectrum
+    t: Political Expression
+  - key: worldview.political_spectrum.question
+    t: Where do you place yourself on the left-wing/right-wing political spectrum?
+
+  - key: options.political_spectrum.0
+    t: Far-left
+  - key: options.political_spectrum.4
+    t: Center
+  - key: options.political_spectrum.8
+    t: Far-right
 
   # # companies_opinion
 
@@ -1081,6 +1266,33 @@ translations:
     t: Exercise
   - key: options.happiness_factors.freedom
     t: Freedom
+
+  - key: worldview.tech_industry_emotion
+    t: Tech Emotion
+  - key: worldview.tech_industry_emotion.question
+    t: Which emotions best describes how you currently feel about the tech industry?
+
+  - key: options.tech_industry_emotion.overwhelmed
+    t: Overwhelmed
+  - key: options.tech_industry_emotion.disillusioned
+    t: Disillusioned
+  - key: options.tech_industry_emotion.angry
+    t: Angry
+  - key: options.tech_industry_emotion.exhausted
+    t: Exhausted
+  - key: options.tech_industry_emotion.anxious
+    t: Anxious
+
+  - key: options.tech_industry_emotion.excited
+    t: Excited
+  - key: options.tech_industry_emotion.curious
+    t: Curious
+  - key: options.tech_industry_emotion.hopeful
+    t: Hopeful
+  - key: options.tech_industry_emotion.engaged
+    t: Engaged
+  - key: options.tech_industry_emotion.motivated
+    t: Motivated
 
   # overall_happiness
 
@@ -1286,6 +1498,41 @@ translations:
     t: Steamdeck
   - key: options.video_game_platforms.retro_emulation_console
     t: Retro emulation consoles
+
+  # favorite_beverages
+
+  - key: hobbies.favorite_beverages
+    t: Favorite Beverages
+  - key: hobbies.favorite_beverages.question
+    t: Apart from water, which of these do you drink regularly (once a week or more)?
+
+  - key: options.favorite_beverages.tea
+    t: Tea
+  - key: options.favorite_beverages.coffee
+    t: Coffee
+  - key: options.favorite_beverages.sports_energy_drinks
+    t: Sports or energy drinks
+  - key: options.favorite_beverages.soda
+    t: Soda or other soft drinks
+  - key: options.favorite_beverages.sparkling_water
+    t: Sparkling water
+  - key: options.favorite_beverages.fruit_juice
+    t: Juice or smoothies
+  - key: options.favorite_beverages.beer
+    t: Beer
+  - key: options.favorite_beverages.other_alcoholic_beverages
+    t: Other alcoholic beverages
+  - key: options.favorite_beverages.na
+    t: None
+
+  # favorite_books
+
+  - key: hobbies.favorite_books
+    t: Favorite Books
+  - key: hobbies.favorite_books.question
+    t: What have been some of your favorite books recently?
+  - key: hobbies.favorite_books.prompt
+    t: Books you've read during the past 12 months.
 
   # favorite_video_games
 

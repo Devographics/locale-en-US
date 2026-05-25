@@ -1751,6 +1751,35 @@ translations:
   - key: user_info.country.question
     t: Where do you currently reside?
 
+  # native_languages
+  - key: user_info.native_languages
+    t: What are your native languages?
+  - key: user_info.native_languages.question
+    t: Languages you grew up speaking.
+
+  # other_languages
+  - key: user_info.other_languages
+    t: What other languages do you speak?
+  - key: user_info.other_languages.question
+    t: Languages you learned to speak at a conversational level or higher.
+
+  # sexual_orientation
+  - key: user_info.sexual_orientation
+    t: Sexual Orientation
+  - key: user_info.sexual_orientation.question
+    t: What is your sexual orientation?
+  - key: user_info.sexual_orientation.prompt
+    t: Note that while this survey is completely anonymous, we still recommend skipping this question if disclosing this information publicly would put you at risk.
+
+  - key: options.sexual_orientation.heterosexual
+    t: Heterosexual/straight
+  - key: options.sexual_orientation.gay_or_lesbian
+    t: Gay or lesbian
+  - key: options.sexual_orientation.bisexual
+    t: Bisexual
+  - key: options.sexual_orientation.questioning
+    t: Questioning/unsure
+
   - key: user_info.github_username
     t: Your GitHub Username
   - key: user_info.github_username.description
