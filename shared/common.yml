@@ -1751,16 +1751,40 @@ translations:
   - key: user_info.country.question
     t: Where do you currently reside?
 
+  - key: user_info.country_of_origin
+    t: Country of Origin
+  - key: user_info.country_of_origin.question
+    t: Where were you born?
+
+  # migration_experience
+  - key: user_info.migration_experience
+    t: Migration Experience
+  - key: user_info.migration_experience.question
+    t: Were you born in your current country of residence?
+
+  - key: options.migration_experience.same_country
+    t: Yes
+  - key: options.migration_experience.same_country_immigrant_parents
+    t: Yes, to one or more immigrant parents
+  - key: options.migration_experience.different_country
+    t: No, in a different country
+  - key: options.migration_experience.different_country_immigrant_parents
+    t: No, in a different country to one or more immigrant parents
+
   # native_languages
   - key: user_info.native_languages
-    t: What are your native languages?
+    t: Native Languages
   - key: user_info.native_languages.question
+    t: What are your native languages?
+  - key: user_info.native_languages.prompt
     t: Languages you grew up speaking.
 
   # other_languages
   - key: user_info.other_languages
-    t: What other languages do you speak?
+    t: Other Languages
   - key: user_info.other_languages.question
+    t: What other languages do you speak?
+  - key: user_info.other_languages.prompt
     t: Languages you learned to speak at a conversational level or higher.
 
   # sexual_orientation

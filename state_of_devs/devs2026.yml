@@ -1,0 +1,590 @@
+locale: en-US
+translations:
+  - key: general.devs2026.survey_intro
+    t: |
+
+      2025 is a weird time to be a developer. AI is changing the way we work, we're dealing with mass layoffs, and there's an ongoing political vibe shift in some corners of the tech community. 
+
+      So while asking about your favorite JavaScript framework over and over again is all well and good, we thought it was time to take on the bigger questions to help make sense of the current moment: who are you? what do you do besides coding? and what do you believe and hope for?
+
+      Welcome to this first ever State of Devs survey, where we ask about everything that's *not* code. 
+
+      As usual, every question is optional, so feel free to skip any that you don't feel comfortable answering. Also please note that the resulting dataset will be made available publicly. All that being said we certainly hope you'll see value in this survey, and we can't wait to get to know you better!
+
+  - key: introduction.devs2026
+    t: |
+
+      “These questions feel really personal”; ”This is going to be too controversial”; “You should stick to programming surveys”.
+
+      This is some of the initial feedback I got when I first floated the idea of running a developer survey entirely dedicated to workplace issues, health, hobbies, and other topics unrelated to code. 
+
+      Yet I'm glad I went ahead. This survey's 8,717 respondents are proof that it struck a chord with the developer community – and the much higher participation rate from women in particular (compared to previous surveys) shows that there was demand for something that focused on these less-discussed issues.
+
+      While you browse the data, make sure to also check out the many comments (<span class="icon-inline icon-inline-comment">comment</span> icon) left by respondents as they took the survey, in which they share their personal stories and thoughts in much more detail.
+
+      With all this out of the way, please enjoy the results from the first ever State of Devs survey!
+
+      *Note: because of the amount of data involved, these results will be released in two parts. Please enjoy part 1 for now!*
+
+      <span class="conclusion__byline">– Sacha Greif</span>
+
+  - key: general.devs2026.css2025_banner
+    t: |
+      Take the State of CSS survey and test your CSS knowledge! →
+
+  # FAQ
+
+  - key: faq.how_long_will_survey_take_devs2026
+    t: How long will this survey take me?
+  - key: faq.how_long_will_survey_take_devs2026.description
+    t: >
+      This survey should take about 15 minutes to complete. Note that all questions are optional.
+
+  - key: faq.results_released_devs2026
+    t: When will the results be released?
+  - key: faq.results_released_devs2026.description
+    t: The survey will run from April 15 to May 15, 2025, and the survey results will be released shortly after.
+
+  - key: faq.survey_design_devs2026
+    t: How was this survey designed?
+  - key: faq.survey_design_devs2026.description
+    t: >
+      This survey was designed as the results of an [open design process](https://github.com/Devographics/surveys/issues/279) involving the web development community.
+
+  ###########################################################################
+  # Takeaways
+  ###########################################################################
+
+  # user_info
+
+  - key: sections.user_info.description.devs2026
+    t: 8,717 developers took part in the first ever State of Devs survey.
+
+  - key: user_info.country.takeaway.devs2026
+    t: |
+      The median income gap among developers between the U.S. and other countries remains large, driven at least partly by high Silicon Valley salaries and cost of living.
+
+  - key: user_info.gender.takeaway.devs2026
+    t: |
+      15% of women participation might feel small, but it's at least considerably higher than [other surveys](https://2024.stateofjs.com/en-US/demographics/#gender), which tend to hover around 6%. 
+
+      And while the data reveals a gender income gap, further research would be needed to conclude whether this is due to gender discrimination, or other correlated factors.
+
+  - key: user_info.race_ethnicity.takeaway.devs2026
+    t: |
+      Looking at race & ethnicity data shows that non-white groups tend to skew younger, a recurring trend that is also present in [other surveys](https://2024.stateofjs.com/en-US/demographics/#race_ethnicity).
+
+      It also highlights how different racial groups can have very different gender breakdowns.
+
+  - key: user_info.relationship_status.takeaway.devs2026
+    t: |
+      Most respondents find a life partner by the time they're in their thirties, although doing so seems much more of a challenge in some countries compared to others.
+
+      And when looking at gender, non-binary respondents are single at a much higher rate than either men or women.
+
+  - key: user_info.number_of_kids.takeaway.devs2026
+    t: |
+      A majority of respondents do not have children, and those who do become parents tend to do relatively late in life. 
+
+      Women and non-binary respondents also had fewer kids on average compared to men.
+
+  # career
+
+  - key: sections.career.description.devs2026
+    t: Your career and work experience up to now.
+
+  - key: career.years_of_experience.takeaway.devs2026
+    t: |
+      More experience is correlated with a higher salary – up to a point. Past 15 years of experience, the gains become relatively small.
+
+  - key: career.higher_education_degree.takeaway.devs2026
+    t: |
+      Having a degree will result in higher income, but interestingly enough it doesn't necessarily have to be related to programming.
+
+  - key: career.how_many_jobs.takeaway.devs2026
+    t: |
+      Respondents have worked for 4.2 employers on average. And while having worked for more employers is associated with a higher income, that correlation does become weaker when controlling for years of experience.
+
+  - key: career.employment_status.takeaway.devs2026
+    t: |
+      While freelancers and independent contractors earn less than full-time employees, it was surprising to see that becoming a founder or an entrepreneur does not result in a significant income increase.
+
+      Company employees were also the group most likely to have seen their income grow over the past year.
+
+  - key: career.career_issues.takeaway.devs2026
+    t: |
+      It's clear that the top three issues reported here are all interconnected: bad management leads to work-life balance issues, which then leads to burnout. 
+
+      Gender does seem to have an impact on career issues, with women and non-binary respondents experiencing every issue at a higher rate, especially when it comes to **discrimination** (35%) and **mental health issues** (62%).
+
+  - key: career.discrimination_issues.takeaway.devs2026
+    t: |
+      While we often think of discrimination in terms of gender or race, the most commonly reported factor is actually age, something that eventually affects all of us. 
+
+      Breaking down the top 5 causes of discrimination by age range reveals that age discrimination becomes especially prevalent after 50 years old.
+
+  - key: career.negative_impacts.takeaway.devs2026
+    t: |
+      Among all respondents, non-confrontational approaches such as avoiding colleagues, changing your behavior, or even resigning are the most common coping strategies in response to workplace issues. 
+
+      The data also clearly shows the impact of gender, with women and non-binary respondents as a whole suffering each negative impact at a higher rate than men.
+
+      Race and ethnicity on the other hand do not seem to have a similarly clear-cut impact. In fact, slightly *fewer* non-white respondents reported having resigned or sought therapy due to workplace issues – although further research would be needed to determine if this is because they didn't feel that need; or because they did but weren't in a position to act on it.
+
+  - key: career.laid_off.takeaway.devs2026
+    t: |
+      Despite talks of a tech downturn, the majority of respondents have still never been laid off.
+
+      When ranking by country seeing the most layoffs, the U.S. with its employer-friendly labor laws tops the ranking; while countries such as France and Japan appear towards the bottom of the list.
+
+  # workplace
+
+  - key: sections.workplace.description.devs2026
+    t: Your current workplace.
+
+  - key: workplace.company_size.takeaway.devs2026
+    t: |
+      It should come as no surprise that larger companies have the means to pay higher salaries. Not only that, but respondent income is much more likely to have increased over the past year if they worked for a big company.
+
+  - key: workplace.job_title.takeaway.devs2026
+    t: |
+      As seen in [other surveys](https://2024.stateofjs.com/en-US/demographics/#job_title), carrying the engineer title is correlated with higher income compared to being “just” a developer.
+
+      Another point worth noting: on aggregate, frontend jobs feature more gender diversity than other positions.
+
+  - key: workplace.yearly_income.takeaway.devs2026
+    t: |
+      The U.S. continues to offer much higher salaries compared to the rest of the world.
+
+  - key: workplace.income_evolution.takeaway.devs2026
+    t: |
+      Despite fears of an industry downturn, only 9% of respondents reported having seen their income decrease over the past year.
+
+      Norway, Ireland, and South-Africa-based respondents were the most likely to have seen their income increase.
+
+  - key: workplace.job_finding_application_count.takeaway.devs2026
+    t: |
+      While respondents needed a median of 4 job applications to find their current job overall, that number decreased as respondents' years of experience went up. 
+
+      That being said, a slight increase was present at the higher end of the experience curve, which could be explained by age discrimination, or by out-of-date skills making the job search harder.
+
+  - key: workplace.job_finding_methods.takeaway.devs2026
+    t: |
+      Having a more personal connection to the company when applying (as opposed to going through a job board or social media) is associated with a higher income. 
+
+      The one exception is being hired through open-source work, which is associated with the same income levels as more direct methods such as recruiters or referrals.
+
+  - key: workplace.remote_work_policy.takeaway.devs2026
+    t: |
+      The lack of remote work is correlated with both lower median income and lower job satisfaction (as expressed on a scale from 1 to 5).
+
+  - key: workplace.work_hours_per_week.takeaway.devs2026
+    t: |
+      The more you work, the more you earn, at least up to a point. India is the hardest-working country with 45 median hours worked per week, while most other countries are all gathered around the 40-hour mark.
+
+  - key: workplace.job_happiness.takeaway.devs2026
+    t: |
+      Developers are overall pretty happy with their job – provided they can endure the first 10 years, that is.
+
+  - key: workplace.workplace_perks.takeaway.devs2026
+    t: |
+      Going against the stereotype of the asocial computer nerd, it turns out the thing that we value the most is actually each other; with relationships with coworkers coming in as the number one item developers enjoy about their workplace.
+
+  - key: workplace.workplace_difficulties.takeaway.devs2026
+    t: |
+      At the end of the day, we all need to make a living, and poor compensation came in first as the top workplace issue developers are facing today.
+
+  # technology
+
+  - key: sections.technology.description.devs2026
+    t: The apps, languages, and platforms you use.
+
+  # - key: technology.mobile_os.takeaway.devs2026
+  #   t: |
+  #     xxx
+
+  # - key: technology.desktop_os.takeaway.devs2026
+  #   t: |
+  #     xxx
+
+  - key: technology.programming_languages.takeaway.devs2026
+    t: |
+      While it might be tempting to learn Clojure, Elm, Ruby, or Scala given the income premium these languages seem to carry, it's important to also acknowledge that these languages tend to be practiced by more experienced devs, which could account for the difference.
+
+  - key: technology.productivity_apps.takeaway.devs2026
+    t: |
+      When it comes to productivity apps, it's worth calling out **Obsidian**'s impressive showing, coming in 6th overall despite not even being part of the question's pre-defined options.
+
+      Some tools such as **Azure DevOps** and **Jira** skew towards being used at larger companies, while **Linear** and **Trello** are more popular among smaller organizations.
+
+  - key: technology.chat_apps.takeaway.devs2026
+    t: |
+      I'm just as surprised as you are to discover **Google Chat** is still a thing, yet it came in 9th solely on the back of write-in answers.
+
+  - key: technology.social_media.takeaway.devs2026
+    t: |
+      Plotting social media apps against age reveals that Bluesky and Mastodon users probably need to stretch every time they get up from a chair – or may like to reminisce about the days of dial-up and cassette tapes. 
+
+      TikTok on the other hand skews younger, which makes sense because you'd need a fresher body to even *attempt* some of those dances.
+
+  - key: technology.community_involvement.takeaway.devs2026
+    t: |
+      No surprise here, but video is the main way respondents keep up with the community. Sadly, in-person events remain fairly uncommon. 
+
+      And while RSS feeds were a popular write-in answer, the median age of these respondents does not bode well for the future of that particular technology.
+
+      When looking at gender dynamics, women and non-binary respondents are far less likely to rely on video content and participate in public online platforms-but more likely to take part in smaller-scale chatrooms and meetups.
+
+  - key: technology.community_contributions.takeaway.devs2026
+    t: |
+      When looking at community involvement vs gender, it seems like women and non-binary respondents are less likely to engage in online spaces, but more likely to attend live events – which might point to a failure to build sufficiently inclusive online communities.
+
+  - key: technology.open_source_involvement.takeaway.devs2026
+    t: |
+      While nearly half of respondents have contributed code to open-source projects, it turns out this figure hides a real gender divide, with **51%** of men having contributed code, but only **36%** of non-men respondents.
+
+  # health
+
+  - key: sections.health.description.devs2026
+    t: Health & fitness.
+
+  - key: health.age.takeaway.devs2026
+    t: |
+      Women and non-binary respondents tend to skew a little younger than men when looking at median age by gender.
+
+  - key: health.disability_status.takeaway.devs2026
+    t: |
+      Looking at disabilities by age shows that while mental health and neurodivergent conditions are the most common issues, hearing loss becomes more prevalent once you hit 60.
+
+      Some disabilities such as visual impairments are also more common among men, while mental health issues and chronic illnesses are over-represented among women.
+
+  - key: health.health_issues.takeaway.devs2026
+    t: |
+      Poor sleep was the most commonly reported health issue among respondents, possibly linked to the large role screens of all kinds play in our lives.
+
+      Some issues—such as mental health conditions and migraines—also affected women and non-binary respondents at higher rates than the overall population when examining the top six health issues by gender.
+
+  - key: health.sleep_quantity.takeaway.devs2026
+    t: |
+      As expected, having kids does affect average sleep duration – although not as much as one might think.
+
+      Age also plays a role, with older respondents tending to sleep slightly less.
+
+  - key: health.sleep_measures.takeaway.devs2026
+    t: |
+      Respondents are trying a range of strategies to improve their sleep (consistent with “poor sleep” being the most commonly reported health issue) but these efforts don’t appear to influence median nightly sleep duration.
+
+      With sleep quantity being such a hard metric to nudge, it might be more effective to focus on sleep *quality* instead – although this is of course much harder to measure accurately.
+
+  # worldview
+
+  - key: sections.worldview.description.devs2026
+    t: Worldview, politics, and current events.
+
+  - key: worldview.global_issues.takeaway.devs2026
+    t: |
+      **Climate change** is a big problem for the entire planet, but U.S.-based respondents also highlighted **rising authoritarianism**, while Ukraine-neighboring Poland is understandably worried about **geopolitical tensions**.
+
+      And while you might assume younger generations are more progressive, it's striking to see that this is not necessarily the case here, at least not regarding a few key issues. 
+
+      Under-20 respondents are the most likely to state that **lack of free speech** and **erosion of traditional values** are major issues, while being the *least* likely to state that **rising intolerance** was one – all of which tends to align with modern conservative political viewpoints.
+
+      Older demographics also tend to be more concerned about **rising authoritarianism**, with over-40 age groups placing it as their top concern overall.
+
+      Finally, women are over-represented among respondents citing **healthcare access** as one of their top priorities, which again echoes ongoing political concerns especially in the U.S.
+
+  - key: worldview.happiness_factors.takeaway.devs2026
+    t: |
+      **Good health** may be the most important happiness factor globally, but India and Russia stand out for also valuing **career progress** quite highly, as well as **wealth and material possessions** in the case of Russia.
+
+      When looking at demographic factors, non-binary respondents placed **hobbies** first and **family** much lower than men and women; and plotting happiness factors against age reveals that as respondents age, **friendships** and **hobbies** are often replaced with **family**.
+
+  - key: worldview.relocation.takeaway.devs2026
+    t: |
+      **Japan** tops the overall rankings of places developers would most like to relocate to, although breaking things down by respondent country reveals that respondents also tend to favor geographically close destinations or countries that share their language.
+
+  - key: worldview.overall_happiness.takeaway.devs2026
+    t: |
+      Respondents are overall relatively happy, but median happiness drops when respondents don't get enough (or get *too much*) sleep. 
+
+      And while absolute income does not seem to impact happiness, seeing an income *decrease* certainly does; and so does not being in a relatiomship.
+
+    aliases:
+      - happiness.overall_happiness.takeaway.devs2026
+
+  # hobbies
+
+  - key: sections.worldview.description.devs2026
+    t: Worldview, politics, and current events.
+
+  - key: hobbies.hobbies.takeaway.devs2026
+    t: |
+      It's no surprise that **video games** dominates the rankings in a developer survey – and a few respondents even wrote in **programming** as their favorite hobby.
+
+      Older respondents were more likely to pick **Movies/TV** over video games, and among the over-60 crowd **reading** actually came first.
+
+      The data also reveals that hobbies still follow gender lines: compared to men, women were much more likely to cite **arts and crafts**, and less likely to mention **video games**.
+
+  - key: hobbies.physical_activity.takeaway.devs2026
+    t: |
+      **Hiking/walking** and **strength training** are popular all around, but when looking at physical activites vs. gender **yoga** stands out as something women are much more likely to practice than men.
+
+  - key: hobbies.favorite_musical_artists.takeaway.devs2026
+    t: |
+      Who expected **Linkin Park** to be still kicking in 2025? 
+
+      Plotting artists by median age of respondents gives us a hint at what to listen to if we want to be blend in with our fellow kids (**Charli XCX**, **Twenty One Pilots**) and what to avoid at all cost (**Pink Floyd**).
+
+      There are also gender differences, with women and non-binary respondents preferring artists such as **Chappell Roan** and **Taylor Swift**.
+
+  - key: hobbies.favorite_movies.takeaway.devs2026
+    t: |
+      **Dune** leads the rankings here, a testament to the movie's status as a cinematic masterpiece.
+
+      Looking at gender-based lists, **Wicked** stands out as the number one among women and non-binary respondents.
+
+  - key: hobbies.favorite_tv.takeaway.devs2026
+    t: |
+      **Severance** will go down as a high point of TV storytelling, and its themes of work/life balance and workplace alienation clearly resonated with survey respondents.
+
+      Animation and especially Japanese shows such as **Frieren** and **Solo Leveling** are popular with younger respondents, but so are older sitcom classics such as **Friends** and **The Office**.
+
+      When looking at gender, the lists are fairly similar except for ninth place, featuring polar opposites **Reacher** and **The Handmaid's Tale**.
+
+  - key: hobbies.favorite_video_games.takeaway.devs2026
+    t: |
+      **Baldur's Gate 3** is known for featuring ridiculous amounts of content, and this is reflected by the fact that it ranked first here despite coming out in 2023.
+
+      It also turns out that **Stardew Valley** is a hit among women and non-binary respondents, coming in second despite not placing in the top 20 among men.
+
+  - key: hobbies.video_game_platforms.takeaway.devs2026
+    t: |
+      Despite macOS being [more prevalent](/en-US/technology/#desktop_os) among respondents as a main desktop option, **Windows** is still the dominant platform when it comes to gaming.
+
+      The younger generations are the ones most likely to play on PC, while older respondents tend to prefer the ease of use of consoles.
+
+  # metadata
+
+  - key: _user.metadata.source.takeaway.devs2026
+    t: |
+      While a majority of respondents came from our existing audience and mailing list, **Josh Comeau** mentioning the survey in his newsletter was also a big boost. 
+
+      When looking at the gender breakdown for each source, [snowball sampling](https://github.com/Devographics/surveys/issues/258) proved quite effective at driving more women to participate in the survey, as was sponsoring creators such as [Cassidy Williams](https://cassidoo.co/), who featured the survey in her weekly newsletter.
+    aliases:
+      - user.metadata.source.takeaway.devs2026
+
+  # figures
+
+  - key: figure.figure_gender.devs2026
+    t: Percentage of women and non-binary respondents among those who specified their gender.
+
+  - key: figure.figure_career_issues_discrimination.devs2026
+    t: Difference in the percentage of men vs. women/non-binary respondents who reported experiencing discrimination throughout their career.
+
+  - key: figure.figure_discrimination_therapy.devs2026
+    t: Difference in the percentage of men vs. women/non-binary respondents who reported having sought therapy due to workplace issues.
+
+  - key: figure.figure_company_size_income_evolution.devs2026
+    t: Percentage of respondents working for large (1000+ employees) companies who saw their income increase over the past year.
+
+  - key: figure.figure_job_title_income.devs2026
+    t: Average salary difference between job titles containing 'engineer' and those containing 'developer'.
+
+  - key: figure.figure_yearly_salary_usa_world.devs2026
+    t: Difference between U.S. salary average and the rest of the world.
+
+  - key: figure.figure_job_finding_application_count.devs2026
+    t: Median number of job applications need by respondents to find their current job.
+
+  - key: figure.figure_remote_work_policy_happiness.devs2026
+    t: Difference in respondent's average job happiness (on a 5-point scale) between companies that allow remote work and those that don't.
+
+  - key: figure.figure_community_involvement.devs2026
+    t: Median age of RSS feed users (vs. 35 overall for survey respondents).
+
+  - key: figure.figure_open_source_involvement.devs2026
+    t: Difference in the percentage of men vs. women/non-binary respondents who contribute open-source code.
+
+  - key: figure.figure_sleep_quantity.devs2026
+    t: Average number of hours respondents sleep per night.
+
+  - key: figure.figure_global_issues.devs2026
+    t: Percentage of U.S. respondents who cited rising authoritarianism as a concern.
+
+  - key: figure.figure_relocation_japan.devs2026
+    t: Number of respondents who cited Japan as a potential relocation destination.
+
+  - key: figure.figure_favorite_musical_artists_pink_floyd.devs2026
+    t: Median age of Pink Floyd listeners among respondents.
+
+  - key: figure.xxx.devs2026
+    t:
+
+  - key: figure.xxx.devs2026
+    t:
+
+  # midpage sponsors blocks
+
+  - key: tokyodev.relocation
+    t: |
+      Find Work in Japan
+
+  - key: tokyodev.relocation.description
+    t: |
+      Relocating to Japan doesn't just have to be a dream. TokyoDev's Developer’s Crash Course in Coming to Japan covers things like what it is like to work for a Japanese company, how much you can expect to make, what visas are available and how hard they are to obtain.
+
+  - key: frontendmasters.learning_path
+    t: |
+      Your Path to Becoming a Senior Web Developer
+
+  - key: frontendmasters.learning_path.description
+    t: |
+      Want to upgrade your career? Deep-dive into JavaScript, React, Web performance, CSS, deploying websites, TypeScript, and functional programming to go from junior to senior today.
+
+  - key: storyblok.technologies
+    t: React? Vue? Astro? JS?
+
+  - key: storyblok.technologies.description
+    t: |
+      Doesn't matter, we speak JSON. Storyblok is a Headless CMS that works with all modern frameworks and platforms so you are completely free to choose the best option for your project. Get started in a matter of minutes!
+
+  ###########################################################################
+  # Conclusion
+  ###########################################################################
+
+  - key: sections.lola_odelola.title
+    t: “Redistributing Power and Profit”
+  - key: sections.lola_odelola.title.short
+    t: Lola Odelola
+  - key: sections.declan_chidlow.title
+    t: “There is No Future Without New Blood”
+  - key: sections.declan_chidlow.title.short
+    t: Declan Chidlow
+  - key: sections.josh_comeau.title
+    t: “Things Aren’t Quite as Bad as They Seem”
+  - key: sections.josh_comeau.title.short
+    t: Josh Comeau
+  - key: sections.anjana_vakil.title
+    t: “Software is Really About People”
+  - key: sections.anjana_vakil.title.short
+    t: Anjana Vakil
+
+  - key: sections.to_be_continued.title
+    t: To Be Continued…
+
+  - key: conclusion.devs2026.sacha_greif.bio
+    t: Data Mixologist @ Devographics
+
+  - key: conclusion.devs2026.sacha_greif
+    t: |
+      If I told you we've barely explored *half* of the data collected through this survey, I think you'll understand why I had to split this report into two parts.
+
+      Still to come are sections on **health** (how many hours does the average developer sleep?), **hobbies** (what video game is the most popular?), and **worldview** (where would you relocate if you could choose to go anywhere?).
+
+      But don't worry – you won't have to wait long to dive into the second part of this report. And if you want to make sure you don't miss it, leave your email below and we'll let you know as soon as it's out!
+
+  - key: conclusion.devs2026.anjana_vakil.bio
+    t: Freelance engineer, educator, and devrel consultant
+
+  - key: conclusion.devs2026.anjana_vakil
+    t: |
+      As software developers, we tend to think that what we do is about programming, performance, and pull requests. But ultimately, software is really about **people**. And people are complicated.
+
+      Most survey respondents reported being happy in their [lives](../worldview/#overall_happiness) & [jobs](../workplace/#job_happiness), but it’s certainly not all ponies and rainbows. Most have also had issues with [burnout](../career/#career_issues), work-life balance, or mental health, with many pointing to toxic workplace cultures and poor management as causes. Many folks have felt intense internal and external pressure to overwork, and a lack of control over working conditions. 
+
+      Many devs, including myself, have also experienced [discrimination](../career/#discrimination_issues) based on age, gender, sexuality, or disability. Overall, and especially for marginalized folks, there seem to be growing feelings of anxiety, powerlessness and isolation in our professional community.
+
+      At times, especially recently, I wonder: is there any hope? These survey results seem to underscore a lesson I’ve learned over and over in my decade-long tech career: There is only one way we can collectively combat these many problems, and build a better software industry: **Together**. 
+
+      In the current economic reality, many developers (and laborers in general) feel employers see them as expendable “resources” to be exploited, rather than intrinsically valuable teammates. **Collective action** is how we workers can counteract that power imbalance. Whether through formal mechanisms like unions and class-action lawsuits, or informal ones like discussing salaries, speaking up on social media, or filling out this very survey, we need to **connect with each other** to illuminate these issues and push for change.
+
+      There is no easy fix for the industry, nor the world, but the need to **prioritize the human element** seems more urgent than ever. It’s up to us, as individuals and as a community, to 10x our skills of empathy, communication, tolerance, and care. Programming is the easy part.
+
+  - key: conclusion.devs2026.josh_comeau.bio
+    t: Solo indie hacker
+
+  - key: conclusion.devs2026.josh_comeau
+    t: |
+      It’s no secret that the tech industry has been rocky for the past couple of years. It’s never been easy to get started as a software developer, but these days it can feel impossible; even developers with years of experience report that they’re struggling to find work.
+
+      And yet, these survey results suggest that things aren’t quite as bad as they seem. We’ve all seen the headlines about huge rounds of tech layoffs, but only a [small minority of developers](../career/#laid_off) report having been laid off in the past year (and this is true even for junior devs!). 
+
+      A majority of developers say [their salary increased in the past year](../workplace/#income_evolution), with only 9% saying their compensation was reduced. The median junior developer submitted [just 10 applications](../workplace/#job_finding_application_count) to land their current role. And only [14% of respondents](../workplace/#job_happiness) say that they’re unhappy or very unhappy with their job.
+
+      The tech industry still has major issues (for example, almost half of women/non-binary respondents report [facing discrimination](../career/#discrimination_issues) based on their gender or gender identity), so I’m not claiming that everything is great 😅. 
+
+      But the prevailing wisdom online is that software development is facing an existential threat from AI, that we’re in the process of being replaced by LLMs. And I think if that were true, these survey results would look very different.
+
+  - key: conclusion.devs2026.declan_chidlow.bio
+    t: Front-end developer, designer, writer
+
+  - key: conclusion.devs2026.declan_chidlow
+    t: |
+      It is easy for an industry to be defined by the established, but there is no future without new blood.
+
+      Entering the industry is a tough gig. Another application. Another day. 1000+ applicants. AI video “interviews”. It is evident that job boards are little more than a numbers game, and that [network is what matters](../workplace/#job_finding_methods). The [number of applications](../workplace/#job_finding_application_count) required to land a job is highest for people with lesser experience, and I can only wonder if we'll see this tick up further as companies continue in their hamfisted attempts to replace juniors with AI.
+
+      They say good health is wasted on the youth. Speaking of juniors, it certainly [seems like it](../worldview/#happiness_factors), with the under-20-years-old demographic being the only not to cite “good health” as their main source of happiness. And developers seem to be a conscientious bunch, with our  [worldviews](../worldview/) indicating we do care about global issues.
+
+      Turning an eye to the metadata of responses, it seems developers are far more diverse in our [browser usage](../metadata/#browser) than the general populace. Chrome comes in at 36%, Firefox at 14%, Safari at 13%, and Edge at 2%. In contrast, [Statcounter](https://gs.statcounter.com/browser-market-share/) places worldwide usage at 68% for Chrome, 16% for Safari, 5% for Edge, and 2% for Firefox. A similar diversity can be seen in the assortment of [desktop operating systems used](../technology/#desktop_os), with macOS and Linux eating into Windows' usual market share.
+
+      In future surveys I would like to see responses from a more diverse pool and hear the experiences of lesser-represented groups, not least so I can learn from them. I'd also so love to see more geographical variation in responses, as the U.S. tends to dominate development discussion.
+
+      And from an industry standpoint, I dream of organisations looking at these surveys like a to-do list and putting focus on the outlined flaws.
+
+  - key: conclusion.devs2026.lola_odelola.bio
+    t: Software Engineer, founder of [Blackgirl.tech](https://blackgirl.tech/)
+
+  - key: conclusion.devs2026.lola_odelola
+    t: |
+      Reviewing the data for the State of Devs 2025 survey, a few data points struck me as interesting. I am a self-employed Black British-Nigerian cis woman, with ADHD and Cluster Headache, which is to say I cross a few intersections. This is the context I’m bringing to reading and interpreting this data.
+
+      Some of my experiences are echoed in the data. For instance, 21% of Black or African respondents reported [facing workplace discrimination](../career/#discrimination_issues), regardless of gender. This is something I’ve also experienced while working in both British and American companies, even in teams that appeared diverse on the surface.
+
+      That being said, collecting race and ethnicity data on a global scale is tricky because there are multiple understandings of race. It's important to know that I'm a Black Cis Woman but the "Black" becomes less meaningful if I'm in Nigeria, employed by a Nigerian company. 
+
+      Due to the discrimination I've experienced, I consider my self-employment an accommodation so that I can still get to do the work I care about in the safest environment possible.
+
+      But this comes with its own set of challenges, with 15% of self-employed respondents [reported a drop in income](../career/#employment_status) over the past year, and I’ve found myself in that group too.
+
+      This is all happening at a time when worker rights are under attack across the globe: while Western governments are trying to remove workplace protections (especially for those with disabilities), tech workers in the Global South are being exploited and underpaid by big tech companies. 
+
+      I hope to see this change through more collective worker action and alliance, where workers across roles shape the conditions of their labour and the products they build, redistributing power and profit in ways that are more just.
+
+      And in the future, collecting additional data on nationality could help provide more context beyond race–and so would improving the under-representation of African and South-Asian countries in the survey. This will all let us learn more about who holds power within global tech.
+
+  ###########################################################################
+  # FAQ/About
+  ###########################################################################
+
+  - key: about.content.devs2026
+    t: |
+      The 2025 State of Devs survey ran from April 15 to May 15 2025, and collected 8,717 responses. The results were published on June 20, 2025. The survey is run by [Devographics](https://devographics.com/).
+
+      ### Survey Goals
+
+      This survey was created in an effort to learn more about the non-technical aspects of life as a developer. 
+
+      ### Survey Design
+
+      The survey was designed in collaboration with the community, with an open feedback period where the survey outline was discussed [on GitHub](https://github.com/Devographics/surveys/issues/279). 
+
+      All survey questions were optional. 
+
+      ### Survey Audience
+
+      The survey was openly accessible online and respondents were not filtered or selected in any way. Respondents were primarily a mix of respondents from past Devographics surveys such as [State of JS](https://stateofjs.com/), [State of CSS](https://stateofcss.com/), etc. (alerted through a dedicated mailing list) and social media traffic. 
+
+      This survey should also be taken as a **snapshot of a specific subset of developers**, and is not meant to speak for the entire ecosystem. 
+
+      ### Project Funding
+
+      Funding from this project comes from our partners, which are listed on the survey's homepage. 
+
+      ### Technical Overview
+
+      You can find an in-depth technical overview on how the surveys are run [here](https://dev.to/sachagreif/how-the-devographics-surveys-are-run-2023-edition-1p6a).
+
+      ### Contact
+
+      The best way to get in touch is to [join our public Discord](https://discord.com/invite/zRDb35jfrt), or you can also [find me on Bluesky](https://bsky.app/profile/sachagreif.com).

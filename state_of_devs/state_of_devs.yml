@@ -42,6 +42,11 @@ translations:
   - key: sections.health.prompt
     t: Health & fitness.
 
+  - key: sections.ai_usage.title
+    t: AI
+  - key: sections.ai_usage.prompt
+    t: AI usage and concerns.
+
   - key: sections.worldview.title
     t: Worldview
   - key: sections.worldview.prompt
@@ -321,16 +326,16 @@ translations:
   - key: career.job_security
     t: Job Security
   - key: career.job_security.question
-    t: Within the next 5 years, how likely do you think it is that you are forced to switch jobs?
-  - key: career.career_security.prompt
-    t: If not applicable, consider any similarly major change to your activity while remaining a developer.
+    t: Within the next 5 years, how likely do you think it is that you will have to change jobs due to reasons beyond your control?
+  - key: career.job_security.prompt
+    t: Such as being let go. If not applicable, consider any similarly major change to your activity while remaining a developer.
 
   - key: options.job_security.0
     t: Very unlikely
   - key: options.job_security.1
     t: Somewhat unlikely
   - key: options.job_security.2
-    t: Neutral
+    t: Equally likely/unlikely
   - key: options.job_security.3
     t: Somewhat likely
   - key: options.job_security.4
@@ -341,9 +346,9 @@ translations:
   - key: career.career_security
     t: Career Security
   - key: career.career_security.question
-    t: Within the next 5 years, how likely do you think it is that you are forced to switch careers?
+    t: Within the next 5 years, how likely do you think it is that you will have to change careers due to reasons beyond your control?
   - key: career.career_security.prompt
-    t: In other words, being unable to continue working as a developer.
+    t: Such as being unable to continue working as a developer.
 
   - key: options.career_security.0
     aliasFor: options.job_security.0
@@ -496,6 +501,9 @@ translations:
 
   - key: options.workplace_difficulties.bad_management
     t: Poor management
+  - key: options.workplace_difficulties.bad_management.description
+    t: Bad management practices, incompetent management, etc.
+
   - key: options.workplace_difficulties.in_person_work
     t: In-person work requirements
   - key: options.workplace_difficulties.lack_of_human_contact
@@ -552,6 +560,33 @@ translations:
 
   - key: options.workplace_perks.remote_work_benefit
     t: Remote work benefits
+
+  # workplace_burnout
+  - key: workplace.workplace_burnout
+    t: Mental State
+  - key: workplace.workplace_burnout.question
+    t: Which of the following have you experienced recently?
+  - key: workplace.workplace_burnout.prompt
+    t: Within the past year or so
+
+  - key: options.workplace_burnout.emotionally_drained
+    t: Feeling emotionally drained at the end of the workday
+  - key: options.workplace_burnout.trouble_focusing
+    t: Having trouble focusing on tasks I used to enjoy
+  - key: options.workplace_burnout.reduced_motivation
+    t: Having reduced motivation or interest for work
+  - key: options.workplace_burnout.increased_cynicism
+    t: Feeling increasingly cynical about my work or industry
+  - key: options.workplace_burnout.increased_procrastination
+    t: Finding myself procrastinating more
+  - key: options.workplace_burnout.sleep_difficulties
+    t: Having trouble sleeping or irregular sleep patterns
+  - key: options.workplace_burnout.trouble_disconnecting
+    t: Having trouble disconnecting from work outside of work hours
+  - key: options.workplace_burnout.feel_less_effective
+    t: Feeling less effective at work
+  - key: options.workplace_burnout.reduced_sense_of_accomplishment
+    t: Having a reduced sense of accomplishment at work
 
   # job_finding_application_count
 
@@ -652,11 +687,11 @@ translations:
   # ai_management_pressure
 
   - key: ai_usage.ai_management_pressure
-    aliasFor: Pressure to Use AI
+    t: AI Pressure
   - key: ai_usage.ai_management_pressure.question
     t: How much pressure do you feel from management to increase your AI usage?
   - key: ai_usage.ai_management_pressure.prompt
-    t: If you do not work in a company, feel free to skip.
+    t: If you do not work for a company, feel free to skip.
 
   - key: options.ai_management_pressure.0
     t: Negative pressure, AI use is discouraged
@@ -696,7 +731,7 @@ translations:
     aliasFor: options.ai_generated_code_balance.6
   - key: options.ai_sentiment.7
     aliasFor: options.ai_generated_code_balance.7
-  - key: options.ai_sentiment.9
+  - key: options.ai_sentiment.8
     t: 100% positive
 
   # ai_risks
@@ -705,6 +740,66 @@ translations:
     aliasFor: usage.ai_risks
   - key: ai_usage.ai_risks.question
     aliasFor: usage.ai_risks.question
+
+  - key: options.ai_risks.militaristic_uses
+    aliasFor: options.ai_risks.militaristic_uses
+  - key: options.ai_risks.militaristic_uses.description
+    aliasFor: options.ai_risks.militaristic_uses.description
+
+  - key: options.ai_risks.environmental_impact
+    aliasFor: options.ai_risks.environmental_impact
+  - key: options.ai_risks.environmental_impact.description
+    aliasFor: options.ai_risks.environmental_impact.description
+
+  - key: options.ai_risks.reaching_agi
+    aliasFor: options.ai_risks.reaching_agi
+  - key: options.ai_risks.reaching_agi.description
+    aliasFor: options.ai_risks.reaching_agi.description
+
+  - key: options.ai_risks.job_displacement
+    aliasFor: options.ai_risks.job_displacement
+  - key: options.ai_risks.job_displacement.description
+    aliasFor: options.ai_risks.job_displacement.description
+
+  - key: options.ai_risks.security_issues
+    aliasFor: options.ai_risks.security_issues
+  - key: options.ai_risks.security_issues.description
+    aliasFor: options.ai_risks.security_issues.description
+
+  - key: options.ai_risks.rising_costs
+    aliasFor: options.ai_risks.rising_costs
+  - key: options.ai_risks.rising_costs.description
+    aliasFor: options.ai_risks.rising_costs.description
+
+  - key: options.ai_risks.entranched_stack_bias
+    aliasFor: options.ai_risks.entranched_stack_bias
+  - key: options.ai_risks.entranched_stack_bias.description
+    aliasFor: options.ai_risks.entranched_stack_bias.description
+
+  - key: options.ai_risks.open_source_disruption
+    aliasFor: options.ai_risks.open_source_disruption
+  - key: options.ai_risks.open_source_disruption.description
+    aliasFor: options.ai_risks.open_source_disruption.description
+
+  - key: options.ai_risks.ai_overuse
+    aliasFor: options.ai_risks.ai_overuse
+  - key: options.ai_risks.ai_overuse.description
+    aliasFor: options.ai_risks.ai_overuse.description
+
+  - key: options.ai_risks.copyright_ethics_issues
+    aliasFor: options.ai_risks.copyright_ethics_issues
+  - key: options.ai_risks.copyright_ethics_issues.description
+    aliasFor: options.ai_risks.copyright_ethics_issues.description
+
+  - key: options.ai_risks.slop_takeover
+    aliasFor: options.ai_risks.slop_takeover
+  - key: options.ai_risks.slop_takeover.description
+    aliasFor: options.ai_risks.slop_takeover.description
+
+  - key: options.ai_risks.cognitive_impact
+    aliasFor: options.ai_risks.cognitive_impact
+  - key: options.ai_risks.cognitive_impact.description
+    aliasFor: options.ai_risks.cognitive_impact.description
 
   ###########################################################################
   # Technology
@@ -1183,7 +1278,9 @@ translations:
   - key: worldview.political_expression_at_work
     t: Political Expression
   - key: worldview.political_expression_at_work.question
-    t: How comfortable do you feel expressing political opinions at work?
+    t: How comfortable do you feel expressing political opinions in a professional context?
+  - key: worldview.political_expression_at_work.prompt
+    t: Either in the workplace, or publicly on work-related social media, etc.
 
   - key: options.political_expression_at_work.0
     t: Not comfortable at all
@@ -1504,7 +1601,7 @@ translations:
   - key: hobbies.favorite_beverages
     t: Favorite Beverages
   - key: hobbies.favorite_beverages.question
-    t: Apart from water, which of these do you drink regularly (once a week or more)?
+    t: Which of these do you drink regularly (once a week or more)?
 
   - key: options.favorite_beverages.tea
     t: Tea
@@ -1523,7 +1620,7 @@ translations:
   - key: options.favorite_beverages.other_alcoholic_beverages
     t: Other alcoholic beverages
   - key: options.favorite_beverages.na
-    t: None
+    t: None (only water)
 
   # favorite_books
 
