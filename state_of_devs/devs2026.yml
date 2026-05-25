@@ -3,13 +3,13 @@ translations:
   - key: general.devs2026.survey_intro
     t: |
 
-      2025 is a weird time to be a developer. AI is changing the way we work, we're dealing with mass layoffs, and there's an ongoing political vibe shift in some corners of the tech community. 
+      Last year's first-ever State of Devs survey covered career, workplace, health, and even worldview issues that are often left unadressed in the developer community. 
 
-      So while asking about your favorite JavaScript framework over and over again is all well and good, we thought it was time to take on the bigger questions to help make sense of the current moment: who are you? what do you do besides coding? and what do you believe and hope for?
+      And it only made sense to follow up with this second edition about all the aspects of a developer's life that are *not* code, especially at a time where AI has started disrupting the very nature of our jobs. 
 
-      Welcome to this first ever State of Devs survey, where we ask about everything that's *not* code. 
+      So while there's still a human in the loop, let's leave aside libraries and frameworks and just check in: how are you doing, *really*?
 
-      As usual, every question is optional, so feel free to skip any that you don't feel comfortable answering. Also please note that the resulting dataset will be made available publicly. All that being said we certainly hope you'll see value in this survey, and we can't wait to get to know you better!
+      As usual, every question is optional, so feel free to skip any that you don't feel comfortable answering.
 
   - key: introduction.devs2026
     t: |

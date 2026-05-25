@@ -711,7 +711,7 @@ translations:
   # ai_sentiment
 
   - key: ai_usage.ai_sentiment
-    aliasFor: AI Sentiment
+    t: AI Sentiment
   - key: ai_usage.ai_sentiment.question
     t: On a scale going from 100% negative to 100% positive, what is your overall opinion regarding AI?
 
@@ -740,66 +740,6 @@ translations:
     aliasFor: usage.ai_risks
   - key: ai_usage.ai_risks.question
     aliasFor: usage.ai_risks.question
-
-  - key: options.ai_risks.militaristic_uses
-    aliasFor: options.ai_risks.militaristic_uses
-  - key: options.ai_risks.militaristic_uses.description
-    aliasFor: options.ai_risks.militaristic_uses.description
-
-  - key: options.ai_risks.environmental_impact
-    aliasFor: options.ai_risks.environmental_impact
-  - key: options.ai_risks.environmental_impact.description
-    aliasFor: options.ai_risks.environmental_impact.description
-
-  - key: options.ai_risks.reaching_agi
-    aliasFor: options.ai_risks.reaching_agi
-  - key: options.ai_risks.reaching_agi.description
-    aliasFor: options.ai_risks.reaching_agi.description
-
-  - key: options.ai_risks.job_displacement
-    aliasFor: options.ai_risks.job_displacement
-  - key: options.ai_risks.job_displacement.description
-    aliasFor: options.ai_risks.job_displacement.description
-
-  - key: options.ai_risks.security_issues
-    aliasFor: options.ai_risks.security_issues
-  - key: options.ai_risks.security_issues.description
-    aliasFor: options.ai_risks.security_issues.description
-
-  - key: options.ai_risks.rising_costs
-    aliasFor: options.ai_risks.rising_costs
-  - key: options.ai_risks.rising_costs.description
-    aliasFor: options.ai_risks.rising_costs.description
-
-  - key: options.ai_risks.entranched_stack_bias
-    aliasFor: options.ai_risks.entranched_stack_bias
-  - key: options.ai_risks.entranched_stack_bias.description
-    aliasFor: options.ai_risks.entranched_stack_bias.description
-
-  - key: options.ai_risks.open_source_disruption
-    aliasFor: options.ai_risks.open_source_disruption
-  - key: options.ai_risks.open_source_disruption.description
-    aliasFor: options.ai_risks.open_source_disruption.description
-
-  - key: options.ai_risks.ai_overuse
-    aliasFor: options.ai_risks.ai_overuse
-  - key: options.ai_risks.ai_overuse.description
-    aliasFor: options.ai_risks.ai_overuse.description
-
-  - key: options.ai_risks.copyright_ethics_issues
-    aliasFor: options.ai_risks.copyright_ethics_issues
-  - key: options.ai_risks.copyright_ethics_issues.description
-    aliasFor: options.ai_risks.copyright_ethics_issues.description
-
-  - key: options.ai_risks.slop_takeover
-    aliasFor: options.ai_risks.slop_takeover
-  - key: options.ai_risks.slop_takeover.description
-    aliasFor: options.ai_risks.slop_takeover.description
-
-  - key: options.ai_risks.cognitive_impact
-    aliasFor: options.ai_risks.cognitive_impact
-  - key: options.ai_risks.cognitive_impact.description
-    aliasFor: options.ai_risks.cognitive_impact.description
 
   ###########################################################################
   # Technology
