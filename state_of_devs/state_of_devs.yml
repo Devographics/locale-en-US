@@ -708,6 +708,13 @@ translations:
     t: |
       Example: minimum AI usage quotas
 
+  # job_security_threat
+
+  - key: ai_usage.job_security_threat
+    aliasFor: opinions.job_security_threat
+  - key: ai_usage.job_security_threat.question
+    aliasFor: opinions.job_security_threat.question
+
   # ai_sentiment
 
   - key: ai_usage.ai_sentiment
@@ -734,12 +741,41 @@ translations:
   - key: options.ai_sentiment.8
     t: 100% positive
 
+  # ai_mental_state (not used)
+  # - key: ai_usage.ai_mental_state
+  #   t: AI Mental State
+  # - key: ai_usage.ai_mental_state.question
+  #   t: How would you describe AI's overall impact on your mental state?
+
+  # - key: options.ai_mental_state.0
+  #   t: Very negative
+  # - key: options.ai_mental_state.1
+  #   t: Slightly negative
+  # - key: options.ai_mental_state.2
+  #   t: No impact
+  # - key: options.ai_mental_state.3
+  #   t: Slightly positive
+  # - key: options.ai_mental_state.4
+  #   t: Very positive
+
+  # ai_mental_state
+  - key: ai_usage.ai_mental_state
+    t: AI Mental State
+  - key: ai_usage.ai_mental_state.question
+    t: AI tools have had a positive impact overall on my mental state
+
   # ai_risks
 
   - key: ai_usage.ai_risks
     aliasFor: usage.ai_risks
   - key: ai_usage.ai_risks.question
     aliasFor: usage.ai_risks.question
+
+  # ai_outlook
+  - key: ai_usage.ai_outlook
+    t: AI Outlook
+  - key: ai_usage.ai_outlook.question
+    t: What is your general outlook regarding AI?
 
   ###########################################################################
   # Technology
@@ -1379,7 +1415,7 @@ translations:
   - key: hobbies.physical_activity
     t: Physical Activity
   - key: hobbies.physical_activity.question
-    t: Which of the following physical activites do you practice regularly?
+    t: Which of the following physical activites do you practice regularly, if any?
 
   - key: options.physical_activity.climbing
     t: Climbing
@@ -1671,7 +1707,7 @@ translations:
   - key: options.relationship_status.single
     t: Single
   - key: options.relationship_status.in_a_relationship
-    t: In a relationship
+    t: Married/in a relationship
   - key: options.relationship_status.its_complicated
     t: It's complicated
 

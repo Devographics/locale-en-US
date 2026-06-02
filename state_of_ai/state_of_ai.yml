@@ -413,7 +413,7 @@ translations:
   - key: usage.ai_generated_code_balance.question
     t: What proportion of the code you produce is AI-generated?
   - key: usage.ai_generated_code_balance.prompt
-    t: Including code copy-pasted from ChatGPT or other chatbots.
+    t: Including code copy-pasted from ChatGPT or other chatbots, or code co-written using AI tools.
 
   - key: options.ai_generated_code_balance.0
     t: 0% AI
