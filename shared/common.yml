@@ -1864,6 +1864,23 @@ translations:
   - key: user_info.did_you_run_into_technical_issues.question
     t: What technical issues did you run into while taking this survey, if any?
 
+  # survey_length
+  - key: user_info.survey_length
+    t: Survey Length
+  - key: user_info.survey_length.question
+    t: How did you feel about this survey's length?
+
+  - key: options.survey_length.0
+    t: Way too short
+  - key: options.survey_length.0
+    t: Slightly too short
+  - key: options.survey_length.0
+    t: Just right
+  - key: options.survey_length.0
+    t: Slightly too long
+  - key: options.survey_length.0
+    t: Way too long
+
   # missing questions
   - key: user_info.missing_questions
     t: Missing Questions

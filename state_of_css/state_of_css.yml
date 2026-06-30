@@ -886,6 +886,15 @@ translations:
   # Other Tools
   ###########################################################################
 
+  - key: tools.pre_post_processors
+    t: Pre-/Post-processors
+    aliases:
+      - other_tools.pre_post_processors
+  - key: tools.pre_post_processors.question
+    t: Which CSS pre-/post-processors do you use?
+    aliases:
+      - other_tools.pre_post_processors.question
+
   - key: tools.css_frameworks
     t: CSS Frameworks
     aliases:
@@ -906,81 +915,30 @@ translations:
 
   - key: tools.css_in_js
     t: CSS-in-JS
+    aliases:
+      - other_tools.css_in_js
   - key: tools.css_in_js.question
     t: Which CSS-in-JS libraries do you use?
-
-  - key: tools_others.pre_post_processors
-    aliasFor: sections.pre_post_processors.title
-  - key: other_tools.pre_post_processors
-    aliasFor: sections.pre_post_processors.title
-  - key: tools_others.pre_post_processors.question
-    t: Which pre- or post-processors do you regularly use?
-  - key: other_tools.pre_post_processors.description
-    aliasFor: tools_others.pre_post_processors.question
-  - key: tools_others.pre_post_processors.others
-    aliasFor: sections.pre_post_processors_others.title
-  - key: other_tools.pre_post_processors.others
-    aliasFor: sections.pre_post_processors_others.title
-  - key: other_tools.pre_post_processors_freeform
-    aliasFor: sections.pre_post_processors_others.title
-
-  - key: tools.pre_post_processors
-    aliasFor: sections.pre_post_processors.title
-  - key: tools.pre_post_processors.question
-    aliasFor: tools_others.pre_post_processors.question
+    aliases:
+      - other_tools.css_in_js.question
 
   - key: tools_others.utilities
     t: Utilities
+    aliases:
+      - other_tools.utilities
   - key: tools_others.utilities.question
     t: Which utilities or tools do you regularly use?
-  - key: tools_others.utilities.others
-    t: Other Utilities
-  - key: tools_others.utilities.others.description
-    t: Other utilities (freeform field).
-
-  - key: tools.utilities
-    aliasFor: tools_others.utilities
-  - key: tools.utilities.question
-    aliasFor: tools_others.utilities.question
-
-  - key: other_tools.utilities
-    aliasFor: tools_others.utilities
-  - key: other_tools.utilities.description
-    aliasFor: tools_others.utilities.question
-  - key: other_tools.utilities.others
-    aliasFor: tools_others.utilities.others
-  - key: other_tools.utilities.others.description
-    aliasFor: tools_others.utilities.others.description
-  - key: other_tools.utilities_freeform
-    aliasFor: tools_others.utilities.others
-
-  - key: tools.utilities
-    aliasFor: tools_others.utilities
-  - key: tools.utilities.question
-    aliasFor: tools_others.utilities.question
+    aliases:
+      - other_tools.utilities.question
 
   - key: tools_others.browsers
     t: Browsers
+    aliases:
+      - other_tools.browsers
   - key: tools_others.browsers.question
     t: Which browser(s) do you primarily work in during initial development?
-  - key: tools_others.browsers.others
-    t: Other Browsers
-  - key: tools_others.browsers.others.description
-    t: Other answers (freeform field).
-
-  - key: tools.browsers
-    aliasFor: tools_others.browsers
-  - key: tools.browsers.question
-    aliasFor: tools_others.browsers.question
-
-  - key: other_tools.browsers
-    aliasFor: tools_others.browsers
-  - key: other_tools.browsers.description
-    aliasFor: tools_others.browsers.question
-  - key: other_tools.browsers.others
-    aliasFor: tools_others.browsers.others
-  - key: other_tools.browsers.others.description
-    aliasFor: tools_others.browsers.others.description
+    aliases:
+      - other_tools.browsers.question
 
   ###########################################################################
   # Environments
@@ -1176,6 +1134,8 @@ translations:
 
   - key: options.css_interoperability_features.safari_unsupported_features
     t: Safari issues
+    aliases:
+      - options.css_missing_features.safari_unsupported_features
 
   - key: options.css_interoperability_features.na
     t: None

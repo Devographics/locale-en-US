@@ -77,29 +77,31 @@ translations:
 
   - key: features.all_features.takeaway.css2026
     t: >
-      Of all the features included in the survey, `:has()` is both the most-used and the most-loved one. Also worth pointing out: **Subgrid** gets second place in the most-loved rankings, while `aspect-ratio` is #2 in usage and #3 in sentiment.
+      `:has()`, `aspect-ratio`, and **CSS Nesting** are both the most-used and most-loved features mentioned in the survey.
 
 
-      After **Subgrid**, `line-clamp` got the most comments, many of them from respondents with a negative opinion of the feature.
+      Meanwhile, `line-clamp` once again got a lot of comments, most of them asking for a non-prefixed version of the feature. **CSS Nesting** also received its share of feedback, but unlike `line-clamp` almost all of it was positive. 
 
 
-      The least-used features were `sibling-count` and `sibling-index`, which makes sense since their browser support is still very new and limited. And the least-loved feature overall was **Trigonometric Functions**… no doubt due to the “trigonometry” part!
+      The least-used features were **Gap decorations** and `if()`, no doubt due to limited browser support. 
 
 
-      Finally, be sure to filter by **“Widely Available” Baseline Status** to see what features are available to use right now!
+      Speaking of browser support, one way to predict what CSS has in store for us is to look at the most-loved features with a “Limited Availability” [Baseline status](https://web.dev/baseline). In this case, both `calc-size()` and **Anchor Positioning** are being awaited with a lot of anticipation!
 
   - key: features.features_ratios_over_time.takeaway.css2026
     t: >
-      Looking at trends over time and in context paints quite an interesting picture. The feature with the single largest year-over-year usage increase is `text-wrap: pretty`, while the one with the largest *awareness* increase is `light-dark()`.
+      The fact that even with limited browser support, **Anchor Positioning** is still the item with the single largest year-over-year **usage** increase (**+15%**) goes to show how much developers have been waiting for this feature. 
 
 
-      **Color functions** also stand out for placing towards the bottom of the chart in terms of usage, which might mean they haven't yet found their audience.
+      Looking a **awareness**, the feature boasting the largest increase (**+22%**) is **sibling-count**, which will hopefully soon be supported in all major browsers. 
 
 
-      Finally, the Appreciation tab lets us look at the difference in positivity between respondents interested in a feature and those who have actually used it. **Anchor positioning** shows a **-12%** drop-off, which could mean that the API isn't as user-friendly as people expect.
+      It's also always interesting to look at items with low **appreciation**. For example, **contrast-color()**'s **-13%** ratio means that positivty among respondents who have actually used the feature is that much lower than the same metric among those that have merely heard about it.
 
   - key: features.layout_pain_points.takeaway.css2026
     t: >
+      TODO
+
       While **Grid** is undeniably powerful, that power also comes with a steep learning curve that can turn using this fairly complex feature into a real pain point. 
 
 
@@ -107,6 +109,7 @@ translations:
 
   - key: features.shapes_graphics_pain_points.takeaway.css2026
     t: >
+      TODO
       Now that we're fairly comfortable with rectangles, we've started looking towards the wider world of triangles, circles, and polygons. Sadly drawing these **complex shapes** remains tough with CSS only. 
 
 
@@ -114,6 +117,7 @@ translations:
 
   - key: features.colors_pain_points.takeaway.css2026
     t: >
+      TODO
       Many respondents would like CSS to go beyond the light/dark dichotomy, and actually provide more tools for managing full-fledged theming, as well as do a better job ensuring proper **contrast** when picking colors.  
 
 
@@ -121,6 +125,7 @@ translations:
 
   - key: features.interactions_pain_points.takeaway.css2026
     t: >
+      TODO
       While many of us are waiting for better browser support for **scroll-driven animations**, others are pointing out potential **accessibility issues** with new interaction patterns such as **carousels**.
 
 
@@ -128,105 +133,88 @@ translations:
 
   - key: features.typography_pain_points.takeaway.css2026
     t: >
+      TODO
       Controlling vertical text alignment (a.k.a. **leading**) in the browser has been an issue for as long as I can remember. Thankfully `text-box-edge` and `text-box-trim` promise to give us more granular tools to properly set type online.
 
   - key: features.math_features_pain_points.takeaway.css2026
     t: >
+      TODO
       Many respondents has gripes about `calc()`, especially when it comes to handling units inside calculations.
 
   - key: features.other_features_pain_points.takeaway.css2026
     t: >
+      TODO
       No surprise here, but **Browser Support** remains the top pain point for the CSS features mentioned in this section.
 
   - key: features.reading_list.takeaway.css2026
     t: >
-      Little-known `::target-text` (only 82% of respondents had never heard of it) tops the Reading List rankings of the features respondents were most curious about.
+      The Reading List lets respondents save items to learn about them after completing the survey. **Gap decorations** was saved by **55%** of all respondents, which makes sense as it promises to solve a common pain point that currently requires a lot of cumbersome workarounds.
 
   # other_tools
 
-  - key: tools.css_frameworks.takeaway.css2026
+  - key: other_tools.css_frameworks.takeaway.css2026
     t: >
-      Tailwind tops the framework rankings, and it seems to appeal to slightly less experienced developers (10 years of median experience), while more experienced respondents use a custom or in-house framework (15 years of median experience). 
+      The biggest threat to **Tailwind**'s crown may not be another CSS framework, but simply not framework at all. 
 
 
-      That being said, it's also worth nothing that **47%** of survey respondents either don't use a framework, or skipped the question altogether.
+      The fact that LLMs can easily generate ad-hoc design systems and component libraries is no doubt a contributing factor to this trend, not to mention CSS itself evolving to address many use cases that previously required using third-party frameworks.
 
-  - key: tools.css_in_js.takeaway.css2026
+  - key: other_tools.css_in_js.takeaway.css2026
     t: >
-      **CSS Modules**' fairly light touch continues to prove popular, while **Styled Components** still holds on at number two.
+      CSS-in-JS was never the most elegant idea, but it did fill a role at a time where CSS wasn't quite the language it is today. Its era may be over, but it did pave the way for what we have today–if only to show us what *not* to do.
 
-  - key: tools.pre_post_processors.takeaway.css2026
+  - key: other_tools.pre_post_processors.takeaway.css2026
     t: >
-      **Sass** is still number one, but pre-processor usage overall is slowly decreasing as CSS itself adopts more and more of their features.
+      Just like CSS-in-JS, pre-processor usage is declining and may soon be a thing of the past.
 
-  - key: tools.utilities.takeaway.css2026
+  - key: other_tools.utilities.takeaway.css2026
     t: >
-      Using **Prettier** is a safe bet for any developer–but the list below contains many other lesser-known tools that are also worth checking out.
+      It's always worth checking out this list of CSS utilities to see if you can't discover a nifty new tool to add to your workflow!
 
-  - key: tools.browsers.takeaway.css2026
+  - key: other_tools.browsers.takeaway.css2026
     t: >
-      When it comes to browsers, the big four are the big four for a reason, and they maintained almost identical usage numbers compared to last year.
+      Browser usage is one of these trends that remain surprisingly constant year-over-year, with virtually no change compared to the previous survey edition.
 
   # usage
 
   - key: usage.form_factors.takeaway.css2026
     t: >
-      While testing environments don't show much change year over year, it's encouraging to see a small increase in respondents testing with keyboard-only and screen readers.
+      Testing environments don't show much change compared to last year, with accessibility testing still not as common as it should be.
 
-
-      It's also interesting to note that when comparing with company size, larger companies tend to test using screen readers at a higher rate.
-
-  - key: usage.what_do_you_use_css_for.takeaway.css2026
+  - key: usage.css_ai_generated_code_balance.takeaway.css2026
     t: >
-      While CSS started its life as a document layout system, it's now clear that interactive apps represent its primary use case–a fact that has been no doubt driving the language's recent evolution.
+      What's fascinating about this chart is that it looks completely different from a similar question asked in the [State of AI](https://2026.stateofai.dev/en-US/usage/#ai_generated_code_balance) or [State of JS](https://2025.stateofjs.com/en-US/usage/#ai_generated_code_balance) surveys. 
 
-  - key: usage.industry_sector.takeaway.css2026
-    t: >
-      Many of us are building tools destined to be used internally within the developer community, which makes it much easier to adopt new features without worrying as much about browser compatibility.
+      Comments on this question point to the fact that AI isn't great at CSS just yet. Time will tell if this is just a temporary limitation, or if we will one day have AI so powerful it's even able to fully grasp how CSS grid layouts work.
 
   - key: usage.css_interoperability_features.takeaway.css2026
     t: >
-      Not only did **Anchor Positioning** keep its number one spot, but the percentage of respondents citing it almost doubled.
+      **Anchor Positioning** and the **View Transition API** are still the features respondents are refraining from using the most due to browser issues. 
 
 
-      The **View Transition API** also climbed to number 3, while **Container style queries** gained a whopping **11 spots** in the rankings.
-
-
-      On the other hand, **CSS Nesting** and `:has()` both lost ground, which makes sense since these features are now supported in all major browsers.
+      It's also interesting to note that **Container size queries** and **Grid** still show up in this chart, despite both having the **Widely Available** Baseline status.
 
   - key: usage.css_missing_features.takeaway.css2026
     t: >
-      **Mixins** are still the feature developers wish for the most, closely followed by **Masonry Layout**. Both have long been possible using workarounds such as pre-processors or JavaScript, but it would be nice to see them natively supported in CSS!
+      While we're still waiting for **Mixins** to make their way to CSS, browser vendors did address our pleas for **Masonry Layout**, last year's number two most-requested feature, in the form of the new `display: grid-lanes` syntax.
 
   - key: usage.css_general_pain_points.takeaway.css2026
     t: >
-      **Browser Support** may still be the dominant CSS pain point in 2025, but the fact that only a relatively small 10% of question respondents mentioned it is a testament to recent improvements in this domain.
+      **Browser Support** is still our top-most complaint, but the number of respondents citing **Excessive Complexity** (a long-time mainstay of the State of JavaScript survey) is increasing slightly. Is CSS getting too confusing for its own good…?
 
   - key: usage.favorite_new_features.takeaway.css2026
     t: >
-      While `:has()` is still number one, it did lose a bit of ground, as the **View Transition API** and especially **Anchor Positioning** (which gained 8 spots) start seeing wider adoption.
-
-  - key: usage.gamechanger_feature.takeaway.css2026
-    t: >
-      Every new CSS feature has its use, but only a few of them are real game-changers. It turns out **Grid**, `:has()`, and **CSS Nesting** are the features that most changed how we write CSS in recent years.
-
-  - key: usage.baseline_awareness.takeaway.css2026
-    t: >
-      We wanted to see how familiar respondents are with the Baseline browser compatibility indicator (which you can see in use throughout these very survey results!).
-
-
-      Despite our clever traps in the form of fake answers, the vast majority of you successfuly negotiated the question! Younger respondents in particular showed higher awareness of Baseline, no doubt due to the recent Baseline integration in Fortnite (…just kidding).
+      `:has()` may still be as awesome as ever, but with many developers having already used it for over a year, it has lost its “best new feature” crown to **Anchor Positioning**, which gained 4 ranks to take the top spot.
 
   - key: usage.css_pace_of_change.takeaway.css2026
     t: >
-      Adopting a new feature is usually a multi-stage process: first, you hear about it a few times over the course of months or years, until you form a solid idea of what it does. Then, you might try it out on an experimental side project, before finally adopting it in production. 
+      If you feel behind because you haven't used every single new CSS feature that's come out this year, don't. 
 
-
-      This chart shows that most of us are squarely in the middle of this journey, having learned about and tried out only part of the feature set presented in this survevy.
+      As this chart shows, most respondents are in in the middle of their feature adoption curves, having only learned about and tried out some of the features included in the survey.
 
   - key: usage.state_of_the_web_happiness.takeaway.css2026
     t: >
-      Happiness with the web has been fairly stable over the past years, neither going up or down.
+      Respondents were relatively happy with the state of web technologies in general, maintaining a 3.8 average on a 5-point scale.
 
   - key: usage.state_of_css_happiness.takeaway.css2026
     t: >
@@ -235,29 +223,26 @@ translations:
   # resources
   - key: resources.podcasts.takeaway.css2026
     t: >
-      **Syntax** still rules the podcast landscape, and it even found a way to add a sizable **+8%** listeners! 
-
-
-      Honorable mentions go to **Kevin Powell's podcast** and **Podrocket**, both of which gained 4 places.
+      **Syntax** somehow found a way to gain even more percentage points, despite already being the category leader.
 
   - key: resources.video_creators.takeaway.css2026
     t: >
-      **Kevin Powell** has carved out a niche as the CSS king of YouTube, but creators with a more generalist focus such as **Theo** and **The Primeagen** are hot on his heels. 
-
-
-      **Syntax** is also continuing its successful transition to video, gaining **5%** and **5 ranks** compared to last year.
+      **Kevin Powell** is still the king of this category. Interestingly, **The Primeagen** is a distant second despite CSS not really being part of the channel's regular topics. It's possible Prime's more measured takes on AI have found an echo among the AI-skeptic CSS crowd.
 
   - key: resources.people.takeaway.css2026
     t: >
-      **Josh**, **Kevin**, **Adam**, and **Una** continue to dominate the top of the CSS influencer rankings–as shown by the fact that you knew who I was talking about without me even mentioning their last names.
+      **Kevin**, **Josh**, **Adam**, **Una**, **Ahmad**, **Lea**, **Chris**… you know you're doing something right when you can be identified by your first name alone!
 
   - key: resources.web_platform_resources.takeaway.css2026
     t: >
-      **MDN** is a wonderful free resource to learn about CSS, but it's by no means the only one, as shown by this short list of useful links.
+      **CSS-Tricks** may have found success as a blog, but its Guides and Almanac sections are wonderful resources in their own right, which makes the website's third place here well-deserved.
 
   - key: resources.other_surveys.takeaway.css2026
     t: >
-      While respondents mostly participate in the other “State of” surveys as well as the **Stack Overflow** survey, the **JetBrains Developer Ecosystem Survey** is also worth knowing about.
+      Apart from the **State of HTML** survey, survey participation seems to be experiencing a downward trend across the board.
+
+
+      Could this be the result of a sudden survey saturation? To find out, stay tuned for our upcoming “State of Surveys” survey!
 
   ###########################################################################
   # Awards
@@ -488,17 +473,17 @@ translations:
   # Figures
   ###########################################################################
 
-  - key: figure.figure_has_usage.css2026
-    t: Percentage of respondents who have used `:has()`.
+  - key: figure.figure_total_features.css2026
+    t: Total number of features in this year's shortened survey, compared to 63 in 2025.
 
-  - key: figure.figure_light_dark_awareness.css2026
-    t: Year-over-year percentage increase in respondents who had heard about `light-dark()`.
+  - key: figure.figure_sibling_count_awareness.css2026
+    t: Year-over-year percentage increase in respondents who had heard about `sibling-count()`.
 
-  - key: figure.figure_css_in_js.css2026
-    t: Percentage of survey respondents who use a CSS-in-JS library.
+  - key: figure.figure_non_major_browsers.css2026
+    t: Percentage of survey respondents who reported having used a non-major browser.
 
-  - key: figure.figure_anchor_positioning.css2026
-    t: Year-over-year percentage increase in respondents who wish they could use Anchor Positioning.
+  - key: figure.figure_css_ai_generated_code_balance.css2026
+    t: Percentage of survey respondents who do not generate any CSS code using AI whatsoever.
 
   ###########################################################################
   # Conclusion

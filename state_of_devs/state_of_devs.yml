@@ -775,7 +775,32 @@ translations:
   - key: ai_usage.ai_outlook
     t: AI Outlook
   - key: ai_usage.ai_outlook.question
-    t: What is your general outlook regarding AI?
+    t: What else would you like to to add regarding your general outlook about AI?
+
+  # what_kind_keyboard
+  - key: workplace.keyboard
+    t: Keyboard
+  - key: workplace.keyboard.question
+    t: What keyboard do you use most for work?
+  - key: workplace.keyboard.prompt
+    t: Could be keyboard type, brand, model, etc.
+
+  # monitors
+  - key: workplace.monitors
+    t: Monitors
+  - key: workplace.monitors.question
+    t: How many monitors do you typically use when working?
+
+  - key: options.monitors.0
+    t: None
+  - key: options.monitors.1
+    t: 1
+  - key: options.monitors.2
+    t: 2
+  - key: options.monitors.3
+    t: 3
+  - key: options.monitors.4
+    t: 4 or more
 
   ###########################################################################
   # Technology
