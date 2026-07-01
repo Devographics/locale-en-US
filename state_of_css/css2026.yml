@@ -17,21 +17,112 @@ translations:
 
       So once again, please join us for this year's State of CSS!
 
-  - key: introduction.css2026
+  ###########################################################################
+  # Overview
+  ###########################################################################
+
+  - key: overview.introduction.css2026
     t: |
-      <span class="first-letter">O</span>ne could be forgiven for being slow to adopt all these new-fangled CSS features. After all, do we really need them? And even if we do, do they even work reliably across browsers?
+      <span class="first-letter">T</span>he CSS of 2026 would be unrecognizable to our distant ancestors from the early 2000s. 
 
 
-      But as Baseline indicators turn to green one after the other, and satisfaction with new functions and properties remains high, even the most reluctant among us might have to admit that features such as `:has()`, `aspect-ratio`, and Cascade Layers have all earned their spot in our stylesheets. 
+      Today, you can animate page transitions using CSS, create [masonry layouts](https://webkit.org/blog/17660/introducing-css-grid-lanes/), even [emulate a microprocessor](https://lyra.horse/x86css/)! And of course, you can [render Doom](https://cssdoom.wtf/) in CSS–and yes, you can now even [center `<div>`s](https://www.joshwcomeau.com/css/center-a-div/) in CSS as well!
 
 
-      The only question is *when*. Too soon, and you'll run head-first into early-adopter pain points. Too late, and you'll miss out on time-saving improvements.
+      To help you understand how this year's State of CSS survey results reflect this vibrant ecosystem, here is a quick overview of the most interesting trends.
+
+  - key: overview.1.css2026
+    t: |
+
+      ## The Year of Anchor Positioning
+
+      **Anchor Positioning**'s limited browser support makes it all the more remarkable that it came in first when asking respondents for their favorite new CSS feature.
+
+  - key: overview.2.css2026
+    t: |
+      ## Browser Support Issues
+
+      Anchor Positioning also ranked first when asking developers which CSS Features they'd like to use, but were avoiding because of browser support issues.
+
+  - key: overview.3.css2026
+    t: |
+      This points to a key issue of the CSS ecosystem: because of lagging browser support, enthusiasm for newly-announced features is often mitigated by the inability to use them in a real-world production context.
+
+      In addition to Anchor Positioning, a few other features such as **View Transitions**, or `if()` fall in that same bucket: CSS developers want these features, and it's now up to browser vendors to make sure they can be usable everywhere.
+
+      This is where initiatives such as [Interop](https://web.dev/blog/interop-2026) come in, and this year's edition will thankfully help improve support across the board for many of the survey's most-requested features.
+
+  - key: overview.4.css2026
+    t: |
+
+      ## Bucking the AI Trend
+
+      While the rest of the web development world has been entrusting more and more of its code to AI, CSS seems to remain a stronghold of manual coding, at least for now.
+
+  - key: overview.5.css2026
+    t: |
+
+      Most of the comments around this issue cited the fact that AI just isn't great at producing good CSS code yet, so it'll be interesting to see how things evolve going forward.
+
+      ## A Unique Language
+
+      More than any other web technology, CSS feels like its own wholly original thing, and it's been fascinating to see it evolve over decades into its modern incarnation. 
 
 
-      Thankfully there is now a robust ecosystem of tools and resources dedicated to answering this question–starting with this very survey!
+      This is just a tiny part of the data collected in this survey, so be sure to check out the full survey results to get the whole picture!  
 
 
       <span class="conclusion__byline">– Sacha Greif</span>
+
+  - key: overview.anchor_positioning_1.css2026
+    t: |
+
+      The story of CSS in 2026 can be told through four features. 
+
+      ## Anchor Positioning
+
+      Among the features with a “Limited Availability” [Baseline](https://web.dev/baseline) status (indicating they are not yet widely supported by major browsers), **Anchor Positioning** got the second highest positive sentiment, right after `calc-size()`, a strong indication that developers are eagerly awaiting its availability. 
+      ## display: grid-lanes
+
+
+      ## color-contrast()
+
+  - key: overview.ai_adoption.css2026
+    t: |
+      ## #1: Growing AI Adoption
+
+      It's important to acknowledge that open surveys such as this one can suffer from inherent selection bias. In other words, an AI-focused survey is probably more likely to be filled out by developers who already use and care about AI. 
+
+      With that caveat in mind, if we assume that the trends revealed here apply to the industry at large then AI-assisted coding's transition from an early-adopter experiment to a standard practice is now well underway.
+
+      This becomes clear when looking at [the proportion of AI-generated code produced by respondents](/en-US/usage/#ai_generated_code_balance), which has jumped from **28%** on average in 2025 to **54%** this year, with the 75%+ segments seeing the highest growth (delta from the previous year shown by striped bar overlays).
+
+  - key: overview.ai_adoption2.css2026
+    t: |
+      Similarly, respondents are also using AI much more often, with the percentage of respondents [stating they use AI “constantly”](/en-US/usage/#ai_code_generation_frequency) doubling year-over-year.
+
+  - key: overview.coding_agents.css2026
+    t: |
+      ## #2: Claude Code & the Rise of Coding Agents
+
+      This adoption is in large part driven by a new generation of coding agents and assistants, with **Claude Code** taking the lead when looking at [positive respondent sentiment regarding coding agents](/en-US/coding-agents-assistants/#coding_agents_assistants_experience).
+
+  - key: overview.coding_agents2.css2026
+    t: |
+
+      These agents are emerging as a more convenient way to interact with LLMs, and potentially replacing chatbots, app generators, and other specialized tools.
+
+      As a consequence, despite **ChatGPT** having the edge in terms of sheer popularity, **Claude** is [the model that developers actually pay for the most](/en-US/models/#models_paid_for).
+
+  - key: overview.monetization.css2026
+    t: |
+      ## #3: Race to Monetization 
+
+      Speaking of paying more: now that we've all gotten hooked on cheap AI subsidized by unprecedented VC funding rounds, our collective addiction is making it easier for AI labs to start raising prices. And this translates into a [clear increase in individual AI spend](/en-US/usage/#ai_personal_expenses) compared to last year.
+
+  - key: overview.monetization_2.css2026
+    t: |
+      Only time will tell if this increased monetization will justify the current eye-popping AI company valuations, or if they instead mean we're in the midst of [an AI bubble](/en-US/opinions/#ai_bubble_currently). But either way, survey respondents certainly think that we are.
 
   ###########################################################################
   # Charts
