@@ -543,10 +543,10 @@ translations:
   - key: features.flexbox_gap
     t: "`gap` property for flexbox"
 
-  - key: features.viewport_percentage_length_units
-    t: Small, Large, and Dynamic Viewport Units
-  - key: features.viewport_percentage_length_units.question
-    aliasFor: features.viewport_percentage_length_units
+  # - key: features.viewport_percentage_length_units
+  #   t: Small, Large, and Dynamic Viewport Units
+  # - key: features.viewport_percentage_length_units.question
+  #   aliasFor: features.viewport_percentage_length_units
   - key: features.at_container
     t: "`@container` Queries"
   - key: features.at_container.description

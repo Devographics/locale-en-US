@@ -184,7 +184,7 @@ translations:
       The fact that even with limited browser support, **Anchor Positioning** is still the item with the single largest year-over-year **usage** increase (**+15%**) goes to show how much developers have been waiting for this feature. 
 
 
-      Looking a **awareness**, the feature boasting the largest increase (**+22%**) is **sibling-count**, which will hopefully soon be supported in all major browsers. 
+      Looking a **awareness**, the feature boasting the largest increase (**+23%**) is **sibling-count**, which will hopefully soon be supported in all major browsers. 
 
 
       It's also always interesting to look at items with low **appreciation**. For example, **contrast-color()**'s **-13%** ratio means that positivty among respondents who have actually used the feature is that much lower than the same metric among those that have merely heard about it.
@@ -341,31 +341,31 @@ translations:
 
   - key: award.most_used_feature_award.comment
     t: |
-      With {value} usage, `:has()` has been widely adopted by the community!
+      With {value} usage, once again `:has()` is the feature with the highest usage!
 
   - key: award.least_used_feature_award.comment
     t: |
-      With only {value} usage, `sibling-count` is still far from mainstream.
+      With only {value} usage, **Gap decorations** have yet to become mainstream.
 
   - key: award.most_loved_feature_award.comment
     t: |
-      With {value} of respondents having a positive impression of `:has()`, it takes the top spot in our rankings.
+      With {value} of respondents having a positive impression of `:has()`, it once again takes the top spot in our rankings.
 
   - key: award.most_hated_feature_award.comment
     t: |
-      Only {value} of respondents truly hate trigonometry, yet that's enough to put **Trigonometric Functions** dead last in terms of being loved :(
+      Even though **Wide Gamut Colors** are a great feature, {value} of respondents still had a negative impression.
 
   - key: award.largest_awareness_progression_award.comment
     t: |
-      Compared to last year, {value} more respondents are no longer in the dark about `light-dark()`!
+      {value} more respondents know about `sibling-count()` compared to last year.
 
   - key: award.largest_usage_progression_award.comment
     t: |
-      With a {value} usage increase, `text-wrap: pretty` is doing pretty, pretty good!
+      **Anchor Positioning** may not be widely used yet, but with a {value} usage increase that's going to change soon!
 
   - key: award.most_commented_feature_award.comment
     t: |
-      **Subgrid** got over {value} comments, in part because it appeared early on in the survey, but also because it's definitely a praise-worthy feature!
+      `line-clamp` got {value} comments, many complaining about its prefixed syntax.
 
   ###########################################################################
   # FAQ/About

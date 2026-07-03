@@ -687,26 +687,26 @@ translations:
   # ai_management_pressure
 
   - key: ai_usage.ai_management_pressure
-    t: AI Pressure
+    t: AI Stance
   - key: ai_usage.ai_management_pressure.question
-    t: How much pressure do you feel from management to increase your AI usage?
+    t: What's your company's stance regarding AI usage?
   - key: ai_usage.ai_management_pressure.prompt
     t: If you do not work for a company, feel free to skip.
 
   - key: options.ai_management_pressure.0
-    t: Negative pressure, AI use is discouraged
+    t: My company discourages AI use
 
   - key: options.ai_management_pressure.1
-    t: Neutral, no pressure at all
+    t: My company is neutral towards AI
 
   - key: options.ai_management_pressure.2
-    t: Some pressure, but it does not affect my behavior
+    t: My company encourages AI use, but it does not affect my behavior
 
   - key: options.ai_management_pressure.3
-    t: Strong pressure, and I use AI more than I otherwise would as a result
+    t: My company encourages AI use, and I use AI more than I otherwise would as a result
   - key: options.ai_management_pressure.3.description
     t: |
-      Example: minimum AI usage quotas
+      Example: minimum AI usage quotas, token use leaderboard, etc.
 
   # job_security_threat
 
@@ -731,7 +731,7 @@ translations:
   - key: options.ai_sentiment.3
     aliasFor: options.ai_generated_code_balance.3
   - key: options.ai_sentiment.4
-    t: 50/50 (neutral)
+    t: Neutral
   - key: options.ai_sentiment.5
     aliasFor: options.ai_generated_code_balance.5
   - key: options.ai_sentiment.6
@@ -781,7 +781,7 @@ translations:
   - key: workplace.keyboard
     t: Keyboard
   - key: workplace.keyboard.question
-    t: What keyboard do you use most for work?
+    t: What kind of keyboard do typically use for work?
   - key: workplace.keyboard.prompt
     t: Could be keyboard type, brand, model, etc.
 

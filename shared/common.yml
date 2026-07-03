@@ -1660,6 +1660,64 @@ translations:
   - key: user_info.job_title.question
     t: What is your job title?
 
+  # work_areas
+  - key: user_info.work_areas
+    t: Work Areas
+  - key: user_info.work_areas.question
+    t: Which of these areas of software development are part of your day-to-day work?
+
+  - key: options.work_areas.web_dev
+    t: Web Development
+  - key: options.work_areas.native_dev
+    t: Native Development
+  - key: options.work_areas.infrastructure
+    t: Infrastructure
+  - key: options.work_areas.data_ai
+    t: Data/AI
+  - key: options.work_areas.other
+    t: Other Areas
+
+  - key: options.work_areas.front_end
+    t: Front-end Development
+  - key: options.work_areas.front_end_js
+    t: Front-end Development (JS/TS)
+  - key: options.work_areas.front_end_css
+    t: Front-end Development (CSS)
+  - key: options.work_areas.back_end
+    t: Back-end Development
+  - key: options.work_areas.mobile
+    t: Mobile Development
+  - key: options.work_areas.desktop
+    t: Desktop development
+  - key: options.work_areas.devops
+    t: DevOps
+  - key: options.work_areas.qa_testing
+    t: Quality Assurance and Testing
+  - key: options.work_areas.sre
+    t: Site Reliability Engineering (SRE)
+  - key: options.work_areas.data_engineering
+    t: Data Engineering & Processing
+  - key: options.work_areas.ai_llm
+    t: AI/LLM development & Machine Learning
+  - key: options.work_areas.security
+    t: Security
+  - key: options.work_areas.performance
+    t: Performance Optimization
+  - key: options.work_areas.embedded_software
+    t: Embedded Software
+  - key: options.work_areas.game_development
+    t: Game Development
+  - key: options.work_areas.systems_design
+    t: Systems Design & Architecture
+  - key: options.work_areas.devrel
+    t: Developer Relations (DevRel)
+  - key: options.work_areas.tooling
+    t: Developer Tools/Tooling
+  - key: options.work_areas.cloud
+    t: Cloud Infrastructure
+  - key: options.work_areas.accessibility
+    t: Accessibility Testing
+
   # javascript proficiency
   - key: user_info.javascript_proficiency
     t: JavaScript Proficiency
@@ -1868,18 +1926,18 @@ translations:
   - key: user_info.survey_length
     t: Survey Length
   - key: user_info.survey_length.question
-    t: How did you feel about this survey's length?
+    t: How do you feel about this survey's length?
 
   - key: options.survey_length.0
-    t: Way too short
-  - key: options.survey_length.0
-    t: Slightly too short
-  - key: options.survey_length.0
-    t: Just right
-  - key: options.survey_length.0
-    t: Slightly too long
-  - key: options.survey_length.0
-    t: Way too long
+    t: I would've answered a lot more questions
+  - key: options.survey_length.1
+    t: I would've answered a few more questions
+  - key: options.survey_length.2
+    t: It was just right
+  - key: options.survey_length.3
+    t: It was slightly too long
+  - key: options.survey_length.4
+    t: It was way too long
 
   # missing questions
   - key: user_info.missing_questions
