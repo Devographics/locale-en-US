@@ -43,13 +43,13 @@ translations:
   - key: faq.results_released_devs2026
     t: When will the results be released?
   - key: faq.results_released_devs2026.description
-    t: The survey will run from April 15 to May 15, 2025, and the survey results will be released shortly after.
+    t: The survey will run from July 5 to August 5, 2025, and the survey results will be released shortly after.
 
   - key: faq.survey_design_devs2026
     t: How was this survey designed?
   - key: faq.survey_design_devs2026.description
     t: >
-      This survey was designed as the results of an [open design process](https://github.com/Devographics/surveys/issues/279) involving the web development community.
+      This survey was designed as the results of an [open design process](https://github.com/Devographics/surveys/issues/288) involving the web development community.
 
   ###########################################################################
   # Takeaways
