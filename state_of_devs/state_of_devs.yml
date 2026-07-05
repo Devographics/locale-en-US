@@ -163,6 +163,8 @@ translations:
 
   - key: options.career_issues.boredom
     t: Boredom
+  - key: options.career_issues.boredom.description
+    t: Lack of motivation due to the contents of your work.
 
   # discrimination_issues
 
@@ -1469,8 +1471,8 @@ translations:
 
   - key: options.physical_activity.dancing
     t: Dancing
-  - key: options.physical_activity.basket_ball
-    t: Basket-ball
+  - key: options.physical_activity.basketball
+    t: Basketball
   - key: options.physical_activity.badminton
     t: Badminton
   - key: options.physical_activity.pilates
