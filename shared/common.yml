@@ -1674,6 +1674,8 @@ translations:
     t: Infrastructure
   - key: options.work_areas.data_ai
     t: Data/AI
+  - key: options.work_areas.management
+    t: Management
   - key: options.work_areas.other
     t: Other Areas
 
@@ -1692,13 +1694,17 @@ translations:
   - key: options.work_areas.devops
     t: DevOps
   - key: options.work_areas.qa_testing
-    t: Quality Assurance and Testing
+    t: Quality Assurance
   - key: options.work_areas.sre
     t: Site Reliability Engineering (SRE)
+  - key: options.work_areas.platform_engineering
+    t: Platform Engineering
   - key: options.work_areas.data_engineering
     t: Data Engineering & Processing
   - key: options.work_areas.ai_llm
-    t: AI/LLM development & Machine Learning
+    t: AI/LLM Application Engineering
+  - key: options.work_areas.machine_learning
+    t: Machine Learning
   - key: options.work_areas.security
     t: Security
   - key: options.work_areas.performance
@@ -1717,6 +1723,17 @@ translations:
     t: Cloud Infrastructure
   - key: options.work_areas.accessibility
     t: Accessibility Testing
+
+  - key: options.work_areas.people_management
+    t: People Management
+  - key: options.work_areas.technical_leadership
+    t: Technical Leadership
+  - key: options.work_areas.project_management
+    t: Project Management
+  - key: options.work_areas.product_management
+    t: Product Management
+  - key: options.work_areas.hiring_interviewing
+    t: Hiring/Interviewing
 
   # javascript proficiency
   - key: user_info.javascript_proficiency
