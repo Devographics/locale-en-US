@@ -65,8 +65,12 @@ translations:
 
   - key: features.layout_pain_points
     t: Layout Pain Points
+    aliases:
+      - pain_points.layout_pain_points
   - key: features.layout_pain_points.question
     t: What are your top CSS pain points related to layout?
+    aliases:
+      - pain_points.layout_pain_points.question
 
   - key: sections.shapes_graphics.title
     t: Shapes & Graphics
@@ -75,8 +79,12 @@ translations:
 
   - key: features.shapes_graphics_pain_points
     t: Shapes & Graphics Pain Points
+    aliases:
+      - pain_points.shapes_graphics_pain_points
   - key: features.shapes_graphics_pain_points.question
     t: What are your top CSS pain points related to shapes & graphics?
+    aliases:
+      - pain_points.shapes_graphics_pain_points.question
 
   - key: sections.interactions.title
     t: Interactions
@@ -85,8 +93,12 @@ translations:
 
   - key: features.interactions_pain_points
     t: Interactions Pain Points
+    aliases:
+      - pain_points.interactions_pain_points
   - key: features.interactions_pain_points.question
     t: What are your top CSS pain points related to interactions?
+    aliases:
+      - pain_points.interactions_pain_points.question
 
   - key: sections.typography.title
     t: Typography
@@ -95,8 +107,12 @@ translations:
 
   - key: features.typography_pain_points
     t: Typography Pain Points
+    aliases:
+      - pain_points.typography_pain_points
   - key: features.typography_pain_points.question
     t: What are your top CSS pain points related to typography?
+    aliases:
+      - pain_points.typography_pain_points.question
 
   - key: sections.animations_transforms.title
     t: Animations & Transforms
@@ -105,8 +121,12 @@ translations:
 
   - key: features.animations_transforms_pain_points
     t: Animations & Transforms Pain Points
+    aliases:
+      - pain_points.animations_transforms_pain_points
   - key: features.animations_transforms_pain_points.question
     t: What are your top CSS pain points related to animations & transforms?
+    aliases:
+      - pain_points.animations_transforms_pain_points.question
 
   - key: sections.accessibility.title
     t: Accessibility
@@ -115,8 +135,12 @@ translations:
 
   - key: features.accessibility_pain_points
     t: Accessibility Pain Points
+    aliases:
+      - pain_points.accessibility_pain_points
   - key: features.accessibility_pain_points.question
     t: What are your top CSS pain points related to accessibility?
+    aliases:
+      - pain_points.accessibility_pain_points.question
 
   - key: sections.media_queries.title
     t: Media Queries
@@ -135,8 +159,12 @@ translations:
 
   - key: features.colors_pain_points
     t: Colors Pain Points
+    aliases:
+      - pain_points.colors_pain_points
   - key: features.colors_pain_points.question
     t: What are your top CSS pain points related to handling colors?
+    aliases:
+      - pain_points.colors_pain_points.question
 
   - key: sections.javascript_apis.title
     t: JavaScript APIs
@@ -150,8 +178,12 @@ translations:
 
   - key: features.other_features_pain_points
     t: Other Features Pain Points
+    aliases:
+      - pain_points.other_features_pain_points
   - key: features.other_features_pain_points.question
     t: What are your top CSS pain points related to the features mentioned above?
+    aliases:
+      - pain_points.other_features_pain_points.question
 
   - key: sections.math_features.title
     t: Math
@@ -160,8 +192,12 @@ translations:
 
   - key: features.math_features_pain_points
     t: Math Features Pain Points
+    aliases:
+      - pain_points.math_features_pain_points
   - key: features.math_features_pain_points.question
     t: What are your top CSS pain points related to math features?
+    aliases:
+      - pain_points.math_features_pain_points.question
 
   - key: sections.units_selectors.title
     t: Units & Selectors
