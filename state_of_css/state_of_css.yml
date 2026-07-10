@@ -1452,6 +1452,9 @@ translations:
   - key: options.features_categories.math_features
     aliasFor: sections.math_features.title
 
+  - key: sections.pain_points.title
+    t: Pain Points
+
   - key: features.layout
     aliasFor: sections.layout.title
   - key: features.layout.description
