@@ -307,8 +307,6 @@ translations:
     t: Alignment issues
   - key: features.centering_issues
     t: Centering issues
-  - key: features.hard_to_memorize
-    t: Remembering correct syntax
   - key: features.z_index_issues
     t: Z-index issues
   - key: features.scrolling_issues
