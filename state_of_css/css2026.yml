@@ -189,53 +189,44 @@ translations:
 
       It's also always interesting to look at items with low **appreciation**. For example, **contrast-color()**'s **-13%** ratio means that positivty among respondents who have actually used the feature is that much lower than the same metric among those that have merely heard about it.
 
-  - key: features.layout_pain_points.takeaway.css2026
+  - key: pain_points.layout_pain_points.takeaway.css2026
     t: >
-      TODO
-
-      While **Grid** is undeniably powerful, that power also comes with a steep learning curve that can turn using this fairly complex feature into a real pain point. 
+      Similar to last year, **Grid** is the most frequently mentioned item when it comes to layout pain points. This is a reflection both of its increased usage (having now become the default CSS layout method for many developers), but also of its undeniable learning curve. 
 
 
-      Further down the rankings, dealing with height, overflow, positioning, and alignment still all prove to be common issues for CSS developers.
+      And while widespread **Subgrid** browser support is certainly welcome, that feature does add one more layer of complexity to an already-intricate layout system.
 
-  - key: features.shapes_graphics_pain_points.takeaway.css2026
+  - key: pain_points.shapes_graphics_pain_points.takeaway.css2026
     t: >
-      TODO
-      Now that we're fairly comfortable with rectangles, we've started looking towards the wider world of triangles, circles, and polygons. Sadly drawing these **complex shapes** remains tough with CSS only. 
+      CSS is getting better and better at letting us go beyond the rectangle and draw all kinds of fancy shapes without having to resort to Canvas or even SVG. 
 
 
-      Which is why many of us resort to **SVG**–which is not without its own issues.
+      The issue now is browser support: until all browsers implement these features, it'll be hard to convince developers to start using them.
 
-  - key: features.colors_pain_points.takeaway.css2026
+  - key: pain_points.colors_pain_points.takeaway.css2026
     t: >
-      TODO
-      Many respondents would like CSS to go beyond the light/dark dichotomy, and actually provide more tools for managing full-fledged theming, as well as do a better job ensuring proper **contrast** when picking colors.  
+      In recent years, CSS has given us many innovative ways to define colors. The challenge now seems to be finding ways to actually *use* this new rainbow of possibilities without turning our stylesheets into a mess of color theory math formulas. 
 
 
-      And while new color spaces such as `oklch()` are certainly powerful, they also come with their own range of issues.
+      This is where **Theming** comes in, especially as we move away from the binary light/dark duality, towards a conception of themes that also takes proper contrast and accessibility into account.
 
-  - key: features.interactions_pain_points.takeaway.css2026
+  - key: pain_points.interactions_pain_points.takeaway.css2026
     t: >
-      TODO
-      While many of us are waiting for better browser support for **scroll-driven animations**, others are pointing out potential **accessibility issues** with new interaction patterns such as **carousels**.
+      Just like with shapes and graphics, interactions and animations is another area where browser support is lagging a bit behind. 
 
 
-      Another common pain point was the difficulty of “animating to `auto`”, something that is thankfully [now possible](https://developer.chrome.com/docs/css-ui/animate-to-height-auto)!
+      **CSS Carousels** also generated some feedback, especially centered around **accessibility** concerns.
 
-  - key: features.typography_pain_points.takeaway.css2026
+  - key: pain_points.other_features_pain_points.takeaway.css2026
     t: >
-      TODO
-      Controlling vertical text alignment (a.k.a. **leading**) in the browser has been an issue for as long as I can remember. Thankfully `text-box-edge` and `text-box-trim` promise to give us more granular tools to properly set type online.
+      Besides being the top three most-mentioned features in this category, what **Cascade Layers**, **CSS Nesting**, and `if()` have in common is that they all have the potential to drastically change how we write CSS code. 
 
-  - key: features.math_features_pain_points.takeaway.css2026
-    t: >
-      TODO
-      Many respondents has gripes about `calc()`, especially when it comes to handling units inside calculations.
 
-  - key: features.other_features_pain_points.takeaway.css2026
+      Despite that, respondents were overall fairly enthusiatic about adopting them, mainly being held back by the lack of proper browser and tooling support.
+
+  - key: pain_points.css_general_pain_points.takeaway.css2026
     t: >
-      TODO
-      No surprise here, but **Browser Support** remains the top pain point for the CSS features mentioned in this section.
+      While **Browser issues** are once again very present in people's mind, it's worth noting how many respondents reported general **cognitive overload** issues, with many worrying about CSS becoming *excessively complex**. A very understandable worry given the language's high **speed of change**, and the rate at which new features have been added over the past few years.
 
   - key: features.reading_list.takeaway.css2026
     t: >
