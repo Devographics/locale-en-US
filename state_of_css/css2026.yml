@@ -571,10 +571,25 @@ translations:
   # Conclusion
   ###########################################################################
 
-  - key: conclusion.css2026.amit_sheen
+  - key: conclusion.css2026.sunkanmi_fafowora
     t: |
 
-      TODO
+      <span class="first-line">“What JavaScript used to do, CSS can now do.”</span> is a statement that bears some truth. CSS is growing into what it was supposed to be. Features that should’ve belonged in its presentation layer are now starting to come alive and take shape. 
 
-  - key: conclusion.css2026.amit_sheen.bio
-    t: Web Developer & Creative Coder
+
+      With features like View Transitions, color mixing, [mixins](https://groups.google.com/a/chromium.org/g/blink-dev/c/g0dSC7CvdlA/m/Wz30GgIZAwAJ?pli=1), and anchor positioning, the future of CSS is now making the impossible possible. To keep up with the pace of the industry, web developers need adaptability, an architectural-first mindset, a web-platform-first approach, and a passion for modern and accessible web development. CSS is ever-changing, and with AI’s help, it’s only going to ramp up from here. Let the new be modern, and the modern become obsolete. 
+
+
+      It’s an exciting adventure to see where CSS goes because even as we speak, new features are being discussed and proposed. [Declarative Web Haptics](https://github.com/w3c/csswg-drafts/issues/13728), [toggling custom states between states triggers](https://github.com/w3c/csswg-drafts/issues/13579), heck, even [I suggested a psuedo-selector called](https://github.com/w3c/csswg-drafts/issues/13198) `[::drag-image](https://github.com/w3c/csswg-drafts/issues/13198)` to style the after images of elements you drag on your screen. 
+
+
+      Developers don’t need to just keep up with new features; we need to understand and consider the browser support, progressive enhancement, and accessibility behind the ever-changing landscape of the language. Interoperability is an important step in producing a standard set of CSS features we can all enjoy; let’s not forget that.
+
+
+      The reason I’m even more excited is that I know CSS does not evolve on its own. It evolves through members of the CSSWG, browser vendors, and developer participation through CSSWG discussions on GitHub, our browser reports bugs, web-platform feedback, and surveys like State of CSS to discover what works and what doesn’t. 
+
+
+      The future of CSS in 2026 is a process of running through different experiments in what was impossible and impractical then, to become possible and ordinary for us, CSS developers. To both the old, new, and upcoming. I’m excited to see all the standards and features of today become ordinary tomorrow!
+
+  - key: conclusion.css2026.sunkanmi_fafowora.bio
+    t: Writer for [CSS-Tricks](https://css-tricks.com/) and creator of [CSS-Questions](https://css-questions.com/)

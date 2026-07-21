@@ -1315,7 +1315,7 @@ translations:
   # political_spectrum
 
   - key: worldview.political_spectrum
-    t: Political Expression
+    t: Political Spectrum
   - key: worldview.political_spectrum.question
     t: Where do you place yourself on the left-wing/right-wing political spectrum?
 
