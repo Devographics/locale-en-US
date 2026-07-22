@@ -1,0 +1,1051 @@
+---
+locale: en-US
+namespace: css
+translations:
+  - 
+    ###########################################################################
+    #General
+    ###########################################################################
+    key: general.state_of_css.intro
+    t: >
+      CSS is evolving faster than ever.
+
+      Flexbox, Grid, Multi-Column… To say nothing of whole new paradigms like CSS-in-JS.
+
+      So after the success of our annual State Of JavaScript survey, we’ve decided to take on the world of styles and selectors. We're hoping you’ll help us identify the latest trends, and figure out what tools to learn and use next!
+  - 
+    key: general.state_of_css.description
+    t: The annual developer survey about the latest trends in CSS
+  - 
+    ###########################################################################
+    #Sections
+    ###########################################################################
+    key: sections.layout.title
+    t: Layout
+  - 
+    key: sections.layout.description
+    t: How do you position elements on the screen?
+  - 
+    key: sections.shapes_graphics.title
+    t: Shapes & Graphics
+  - 
+    key: sections.shapes_graphics.description
+    t: Controlling the shape and display of elements.
+  - 
+    key: sections.interactions.title
+    t: Interactions
+  - 
+    key: sections.interactions.description
+    t: Controlling how the user interacts with the page.
+  - 
+    key: sections.typography.title
+    t: Typography
+  - 
+    key: sections.typography.description
+    t: Setting and laying out text.
+  - 
+    key: sections.animations_transforms.title
+    t: Animations & Transforms
+  - 
+    key: sections.animations_transforms.description
+    t: Animating and transforming elements.
+  - 
+    key: sections.accessibility.title
+    t: Accessibility
+  - 
+    key: sections.accessibility.description
+    t: Accessibility features and techniques.
+  - 
+    key: sections.media_queries.title
+    t: Media Queries
+  - 
+    key: sections.media_queries.description
+    t: Ways of adapting your site to the user's device or preferences.
+  - 
+    key: sections.selectors.title
+    t: Selectors
+  - 
+    key: sections.selectors.description
+    t: CSS selectors.
+  - 
+    key: sections.colors.title
+    t: Colors
+  - 
+    key: sections.colors.description
+    t: Color-related features.
+  - 
+    key: sections.javascript_apis.title
+    t: JavaScript APIs
+  - 
+    key: sections.javascript_apis.description
+    t: JavaScript APIs used to control or complement CSS.
+  - 
+    key: sections.other_features.title
+    t: Other Features
+  - 
+    key: sections.other_features.description
+    t: Other CSS features.
+  - 
+    key: sections.units_selectors.title
+    t: Units & Selectors
+  - 
+    key: sections.units_selectors.description
+    t: Test your knowledge of CSS units and selectors.
+  - 
+    key: sections.pre_post_processors.title
+    t: Pre-/Post-processors
+  - 
+    key: sections.pre_post_processors.description
+    t: Utilities that augment CSS.
+  - 
+    key: sections.pre_post_processors_others.title
+    t: Other Pre-/Post-processors
+  - 
+    key: sections.css_frameworks.title
+    t: CSS Frameworks
+  - 
+    key: sections.css_frameworks.description
+    t: Libraries that give you pre-made components and styles.
+  - 
+    key: sections.css_frameworks_others.title
+    t: Other CSS Frameworks
+  - 
+    key: sections.css_methodologies.title
+    t: CSS Methodologies
+  - 
+    key: sections.css_methodologies.description
+    t: Codified ways to write cleaner CSS.
+  - 
+    key: sections.css_methodologies_others.title
+    t: Other CSS Methodologies.
+  - 
+    key: sections.css_in_js.title
+    t: CSS-in-JS
+  - 
+    key: sections.css_in_js.description
+    t: Libraries that help integrate CSS into JavaScript code.
+  - 
+    key: sections.css_in_js_others.title
+    t: Other CSS-in-JS Libraries.
+  - 
+    key: sections.tools_others.title
+    t: Other Tools
+  - 
+    key: sections.tools_others.description
+    t: Other CSS tools.
+  - 
+    key: sections.environments.title
+    t: Environments
+  - 
+    key: sections.environments.description
+    t: Which environments and accessibility concerns do you consider when writing CSS?
+  - 
+    key: sections.usage_css.title
+    t: CSS Usage
+  - 
+    key: sections.usage_css.description
+    t: How you use CSS.
+  - 
+    ###########################################################################
+    #Options
+    ###########################################################################
+    #CSS for print
+    key: options.css_for_print.0
+    t: I (almost) never write print styles
+  - 
+    key: options.css_for_print.0.short
+    t: Never
+  - 
+    key: options.css_for_print.1
+    t: I occasionally write print styles
+  - 
+    key: options.css_for_print.1.short
+    t: Occasionally
+  - 
+    key: options.css_for_print.2
+    t: I write print styles as part of most projects
+  - 
+    key: options.css_for_print.2.short
+    t: Often
+  - 
+    key: options.css_for_print.3
+    t: I focus mainly on CSS for print
+  - 
+    key: options.css_for_print.3.short
+    t: Mainly
+  - 
+    #CSS for email
+    key: options.css_for_email.0
+    t: I (almost) never write CSS for email clients
+  - 
+    key: options.css_for_email.0.short
+    t: Never
+  - 
+    key: options.css_for_email.1
+    t: I occasionally write CSS for email clients
+  - 
+    key: options.css_for_email.1.short
+    t: Occasionally
+  - 
+    key: options.css_for_email.2
+    t: I write CSS for email clients as part of most projects
+  - 
+    key: options.css_for_email.2.short
+    t: Often
+  - 
+    key: options.css_for_email.3
+    t: I focus mainly on CSS for email clients
+  - 
+    key: options.css_for_email.3.short
+    t: Mainly
+  - 
+    #what do you use CSS for?
+    key: options.what_do_you_use_css_for.marketing_sites
+    t: Marketing sites & landing pages
+  - 
+    key: options.what_do_you_use_css_for.design_systems
+    t: Design systems
+  - 
+    key: options.what_do_you_use_css_for.blogs
+    t: Blogs or other text-heavy sites
+  - 
+    key: options.what_do_you_use_css_for.web_apps
+    t: Web apps
+  - 
+    key: options.what_do_you_use_css_for.mobile_apps
+    t: Mobile apps
+  - 
+    key: options.what_do_you_use_css_for.css_art
+    t: CSS art & illustrations
+  - 
+    key: options.what_do_you_use_css_for.emails
+    t: Emails
+  - 
+    key: options.what_do_you_use_css_for.printed_documents
+    t: Printed documents
+  - 
+    #CSS pain points
+    key: options.css_pain_points.browser_interoperability
+    t: Browser Compatibility
+  - 
+    key: options.css_pain_points.browser_interoperability.description
+    t: Differences between Chrome, Safari, Firefox, etc.
+  - 
+    key: options.css_pain_points.interactions
+    t: Interactions
+  - 
+    key: options.css_pain_points.interactions.description
+    t: Responding to user input or other events (scroll, hover, etc.).
+  - 
+    key: options.css_pain_points.architecture
+    t: Architecture & Maintenance
+  - 
+    key: options.css_pain_points.architecture.description
+    t: File organization, dead code elimination, refactoring, etc.
+  - 
+    key: options.css_pain_points.layout_positioning
+    t: Layout & Positioning
+  - 
+    key: options.css_pain_points.layout_positioning.description
+    t: Setting up layouts and making sure elements go where you want them to.
+  - 
+    key: options.css_pain_points.scoping_specificity
+    t: Scoping & Specificity
+  - 
+    key: options.css_pain_points.scoping_specificity.description
+    t: Dealing with the cascade, overriding styles, etc.
+  - 
+    key: options.css_pain_points.responsive_design
+    t: Responsive Design
+  - 
+    key: options.css_pain_points.responsive_design.description
+    t: Adapting layouts and designs for different form factors.
+  - 
+    key: options.css_pain_points.form_elements_styling
+    t: Form Elements Styling
+  - 
+    key: options.css_pain_points.form_elements_styling.description
+    t: Customizing how form elements look and behave.
+  - 
+    key: options.css_pain_points.performance_issues
+    t: Performance Issues
+  - 
+    key: options.css_pain_points.performance_issues.description
+    t: Dealing with scrolling jank, making animations smoother, etc.
+  - 
+    #CSS missing features (same as features section)
+    key: options.currently_missing_from_css.nesting
+    t: Nesting
+  - 
+    key: options.currently_missing_from_css.nesting.description
+    t: Being able to nest styles in native CSS.
+  - 
+    key: options.currently_missing_from_css.parent_selector
+    t: Parent Selector
+  - 
+    key: options.currently_missing_from_css.parent_selector.description
+    t: The ability to target a parent element based on its children.
+  - 
+    key: options.currently_missing_from_css.browser_support
+    t: Browser Support
+  - 
+    key: options.currently_missing_from_css.browser_support.description
+    t: Better browser support for existing features.
+  - 
+    key: options.currently_missing_from_css.mixins
+    t: Mixins
+  - 
+    key: options.currently_missing_from_css.mixins.description
+    t: Group and reuse definitions dynamically.
+  - 
+    key: options.currently_missing_from_css.color_functions
+    t: Color Functions
+  - 
+    key: options.currently_missing_from_css.color_functions.description
+    t: Functions for manipulating color values.
+  - 
+    key: options.currently_missing_from_css.container_queries
+    t: Container Queries
+  - 
+    key: options.currently_missing_from_css.container_queries.description
+    t: Being able to write styles based on the parent container's dimensions.
+  - 
+    key: options.currently_missing_from_css.scoping
+    t: Scoping
+  - 
+    key: options.currently_missing_from_css.scoping.description
+    t: The ability to be more specific about where your styles are applied.
+  - 
+    key: options.currently_missing_from_css.subgrid
+    t: Subgrid
+  - 
+    key: options.currently_missing_from_css.subgrid.description
+    t: Nesting deeper-level subgrids into a parent grid.
+  - 
+    ###########################################################################
+    #Features
+    ###########################################################################
+    #layout
+    key: features.grid
+    t: CSS Grid
+  - 
+    key: features.subgrid
+    t: Subgrid
+  - 
+    key: features.regions
+    t: CSS Regions
+  - 
+    key: features.flexbox
+    t: Flexbox
+  - 
+    key: features.multi_column
+    t: CSS Multi-Column
+  - 
+    key: features.writing_modes
+    t: CSS Writing Modes
+  - 
+    key: features.exclusions
+    t: CSS Exclusions
+  - 
+    key: features.position_sticky
+    t: '<code>position: sticky</code>'
+  - 
+    key: features.logical_properties
+    t: Logical Properties
+  - 
+    key: features.logical_properties.description
+    t: <code>margin-block-start</code>, <code>padding-inline-end</code>, etc.
+  - 
+    key: features.aspect_ratio
+    t: <code>aspect-ratio</code>
+  - 
+    key: features.content_visibility
+    t: <code>content-visibility</code>
+  - 
+    key: features.flexbox_gap
+    t: Gap property for flexbox
+  - 
+    key: features.break_rules
+    t: Break rules
+  - 
+    key: features.break_rules.description
+    t: <code>break-inside</code>, <code>break-before</code>, <code>break-after</code>
+  - 
+    key: features.at_container
+    t: Container Queries
+  - 
+    key: features.at_container.description
+    t: <code>@container</code> query
+  - 
+    #shapes & graphics
+    key: features.shapes
+    t: CSS Shapes
+  - 
+    key: features.object_fit
+    t: <code>object-fit</code>
+  - 
+    key: features.clip_path
+    t: <code>clip-path</code>
+  - 
+    key: features.masks
+    t: CSS Masks
+  - 
+    key: features.blend_modes
+    t: Blend Modes
+  - 
+    key: features.blend_modes.description
+    t: The <code>mix-blend-mode</code> property
+  - 
+    key: features.filter_effects
+    t: CSS Filter Effects
+  - 
+    key: features.backdrop_filter
+    t: <code>backdrop-filter</code>
+  - 
+    key: features.intrinsic_sizing
+    t: Intrinsic Sizing
+  - 
+    key: features.intrinsic_sizing.description
+    t: <code>min-content</code>, <code>max-content</code>, <code>fit-content</code>
+  - 
+    key: features.repeating_linear_gradient
+    t: <code>repeating-linear-gradient()</code>
+  - 
+    key: features.conic_gradient
+    t: <code>conic-gradient()</code>
+  - 
+    key: features.color_function
+    t: <code>color()</code>
+  - 
+    key: features.accent_color
+    t: <code>accent-color</code>
+  - 
+    #interactions
+    key: features.scroll_snap
+    t: CSS Scroll Snap
+  - 
+    key: features.overscroll_behavior
+    t: <code>overscroll-behavior</code>
+  - 
+    key: features.overflow_anchor
+    t: <code>overflow-anchor</code>
+  - 
+    key: features.touch_action
+    t: <code>touch-action</code>
+  - 
+    key: features.pointer_events
+    t: <code>pointer-events</code>
+  - 
+    key: features.scroll_timeline
+    t: <code>scroll-timeline</code>
+  - 
+    #typography
+    key: features.web_fonts
+    t: Web fonts (@font-face)
+  - 
+    key: features.variable_fonts
+    t: Variable fonts
+  - 
+    key: features.line_breaking
+    t: Line breaking properties
+  - 
+    key: features.line_breaking.description
+    t: <code>overflow-wrap</code>, <code>word-break</code>, <code>line-break</code>, <code>hyphens</code>
+  - 
+    key: features.font_variant
+    t: <code>font-variant-*</code>
+  - 
+    key: features.initial_letter
+    t: <code>initial-letter</code>
+  - 
+    key: features.font_variant_numeric
+    t: <code>font-variant-numeric</code>
+  - 
+    key: features.font_display
+    t: <code>font-display</code>
+  - 
+    key: features.line_clamp
+    t: <code>line-clamp</code>
+  - 
+    key: features.leading_trim
+    t: <code>leading-trim</code>
+  - 
+    key: features.direction
+    t: <code>direction</code>
+  - 
+    key: features.direction.description
+    t: Also includes <code>dir</code> HTML attribute.
+  - 
+    #animations & transforms
+    key: features.transitions
+    t: CSS Transitions
+  - 
+    key: features.transforms
+    t: CSS Transforms
+  - 
+    key: features.animations
+    t: CSS Animations
+  - 
+    key: features.perspective
+    t: <code>perspective</code>
+  - 
+    #media queries/accessibility
+    key: features.feature_support_queries
+    t: Feature Support Queries (<code>@supports</code>)
+  - 
+    key: features.prefers_reduced_motion
+    t: <code>prefers-reduced-motion</code>
+  - 
+    key: features.prefers_color_scheme
+    t: <code>prefers-color-scheme</code>
+  - 
+    key: features.color_gamut
+    t: <code>color-gamut</code>
+  - 
+    key: features.prefers_reduced_data
+    t: <code>prefers-reduced-data</code>
+  - 
+    key: features.tabindex
+    t: <code>tabindex</code> HTML attribute
+  - 
+    key: features.tabindex.description
+    t: <code>&lt;div tabindex="0"&gt;</code>
+  - 
+    key: features.color_contrast
+    t: <code>color-contrast()</code>
+  - 
+    key: features.color_scheme
+    t: <code>color-scheme</code>
+  - 
+    key: features.aria_attributes
+    t: ARIA HTML Attributes
+  - 
+    key: features.aria_attributes.description
+    t: <code>role</code>, <code>aria-label</code>, etc.
+  - 
+    #other features
+    key: features.variables
+    t: CSS Variables (Custom Properties)
+  - 
+    key: features.containment
+    t: CSS Containment
+  - 
+    key: features.will_change
+    t: <code>will-change</code>
+  - 
+    key: features.calc
+    t: <code>calc()</code>
+  - 
+    key: features.houdini
+    t: Houdini
+  - 
+    key: features.comparison_functions
+    t: CSS Comparison Functions
+  - 
+    key: features.comparison_functions.description
+    t: <code>min()</code>, <code>max()</code>, and <code>clamp()</code>
+  - 
+    key: features.at_property
+    t: Houdini Custom Properties
+  - 
+    key: features.at_property.description
+    t: <code>@property</code>
+  - 
+    key: features.at_layer
+    t: <code>@layer</code>
+  - 
+    key: features.content_visibility
+    t: <code>content-visibility</code>
+  - 
+    key: features.marker
+    t: <code>::marker</code> pseudo-element
+  - 
+    #missing features (see also options)
+    key: features.nesting
+    t: Nesting
+  - 
+    key: features.nesting.description
+    t: Being able to nest styles in native CSS.
+  - 
+    key: features.parent_selector
+    t: Parent Selector
+  - 
+    key: features.parent_selector.description
+    t: The ability to target a parent element based on its children.
+  - 
+    key: features.browser_support
+    t: Browser Support
+  - 
+    key: features.browser_support.description
+    t: Better browser support for existing features.
+  - 
+    key: features.mixins
+    t: Mixins
+  - 
+    key: features.mixins.description
+    t: Group and reuse definitions dynamically.
+  - 
+    key: features.color_functions
+    t: Color Functions
+  - 
+    key: features.color_functions.description
+    t: Functions for manipulating color values.
+  - 
+    key: features.container_queries
+    t: Container Queries
+  - 
+    key: features.container_queries.description
+    t: Being able to write styles based on the parent container's dimensions.
+  - 
+    key: features.scoping
+    t: Scoping
+  - 
+    key: features.scoping.description
+    t: The ability to be more specific about where your styles are applied.
+  - 
+    key: features.subgrid
+    t: Subgrid
+  - 
+    key: features.subgrid.description
+    t: Nesting deeper-level subgrids into a parent grid.
+  - 
+    ###########################################################################
+    #Units & Selectors
+    ###########################################################################
+    key: features_others.units
+    t: Units
+  - 
+    key: features_others.units.description
+    t: Which of these CSS units have you used?
+  - 
+    key: options.units.px
+    t: px
+  - 
+    key: options.units.pt
+    t: pt
+  - 
+    key: options.units.percent
+    t: '%'
+  - 
+    key: options.units.em
+    t: em
+  - 
+    key: options.units.rem
+    t: rem
+  - 
+    key: options.units.vh_vw
+    t: vh, vw
+  - 
+    key: options.units.vmin_vmax
+    t: vmin, vmax
+  - 
+    key: options.units.ch
+    t: ch
+  - 
+    key: options.units.ex
+    t: ex
+  - 
+    key: options.units.mm
+    t: mm
+  - 
+    key: options.units.cm
+    t: cm
+  - 
+    key: options.units.in
+    t: in
+  - 
+    key: features_others.pseudo_elements
+    t: Pseudo Elements
+  - 
+    key: features_others.pseudo_elements.description
+    t: Which of these CSS pseudo-elements have you used?
+  - 
+    key: options.pseudo_elements.before
+    t: '::before'
+  - 
+    key: options.pseudo_elements.after
+    t: '::after'
+  - 
+    key: options.pseudo_elements.first_line
+    t: '::first-line'
+  - 
+    key: options.pseudo_elements.first_letter
+    t: '::first-letter'
+  - 
+    key: options.pseudo_elements.selection
+    t: '::selection'
+  - 
+    key: options.pseudo_elements.placeholder
+    t: '::placeholder'
+  - 
+    key: options.pseudo_elements.marker
+    t: '::marker'
+  - 
+    key: options.pseudo_elements.backdrop
+    t: '::backdrop'
+  - 
+    key: features_others.combinators
+    t: Combinators
+  - 
+    key: features_others.combinators.description
+    t: Which of these combinations CSS selectors have you used?
+  - 
+    key: options.combinators.descendant
+    t: div span (descendant)
+  - 
+    key: options.combinators.child
+    t: div > span (child)
+  - 
+    key: options.combinators.next_sibling
+    t: div + div (next sibling)
+  - 
+    key: options.combinators.subsequent_sibling
+    t: div ~ div (subsequent sibling)
+  - 
+    key: features_others.tree_document_structure
+    t: Tree / Document Structure
+  - 
+    key: features_others.tree_document_structure.description
+    t: Which of these structure related CSS selectors have you used?
+  - 
+    key: options.tree_document_structure.root
+    t: :root
+  - 
+    key: options.tree_document_structure.empty
+    t: :empty
+  - 
+    key: options.tree_document_structure.not
+    t: ':not()'
+  - 
+    key: options.tree_document_structure.nth_child
+    t: ':nth-child()'
+  - 
+    key: options.tree_document_structure.nth_last_child
+    t: ':nth-last-child()'
+  - 
+    key: options.tree_document_structure.first_child
+    t: ':first-child'
+  - 
+    key: options.tree_document_structure.last_child
+    t: ':last-child'
+  - 
+    key: options.tree_document_structure.only_child
+    t: ':only-child'
+  - 
+    key: options.tree_document_structure.nth_of_type
+    t: ':nth-of-type()'
+  - 
+    key: options.tree_document_structure.nth_last_of_type
+    t: ':nth-last-of-type()'
+  - 
+    key: options.tree_document_structure.first_of_type
+    t: ':first-of-type'
+  - 
+    key: options.tree_document_structure.last_of_type
+    t: ':last-of-type'
+  - 
+    key: options.tree_document_structure.only_of_type
+    t: ':only-of-type'
+  - 
+    key: options.tree_document_structure.lang
+    t: ':lang()'
+  - 
+    key: options.tree_document_structure.is
+    t: ':is()'
+  - 
+    key: options.tree_document_structure.where
+    t: ':where()'
+  - 
+    key: options.tree_document_structure.has
+    t: ':has()'
+  - 
+    key: features_others.attributes
+    t: Attributes
+  - 
+    key: features_others.attributes.description
+    t: Which of these CSS attributes selectors have you used?
+  - 
+    key: options.attributes.presence
+    t: div[foo] (Presence)
+  - 
+    key: options.attributes.equality
+    t: div[foo="bar"] (Equality)
+  - 
+    key: options.attributes.starts_with
+    t: div[foo^="bar"] (Starts with)
+  - 
+    key: options.attributes.ends_with
+    t: div[foo$="bar"] (Ends with)
+  - 
+    key: options.attributes.contains_word
+    t: div[foo~="bar"] (Contains word)
+  - 
+    key: options.attributes.contains_substring
+    t: div[foo*="bar"] (Contains substring)
+  - 
+    key: features_others.links_urls
+    t: Links/URLs
+  - 
+    key: features_others.links_urls.description
+    t: Which of these links & URLs related CSS selectors have you used?
+  - 
+    key: options.links_urls.any_link
+    t: ':any-link'
+  - 
+    key: options.links_urls.link_visited
+    t: ':link and :visited'
+  - 
+    key: options.links_urls.local_link
+    t: ':local-link'
+  - 
+    key: options.links_urls.target
+    t: :target
+  - 
+    key: features_others.interaction
+    t: Interaction
+  - 
+    key: features_others.interaction.description
+    t: Which of these interaction CSS selectors have you used?
+  - 
+    key: options.interaction.hover
+    t: :hover
+  - 
+    key: options.interaction.active
+    t: :active
+  - 
+    key: options.interaction.focus
+    t: :focus
+  - 
+    key: options.interaction.focus_within
+    t: ':focus-within'
+  - 
+    key: options.interaction.focus_visible
+    t: ':focus-visible'
+  - 
+    key: features_others.form_controls
+    t: Form Controls
+  - 
+    key: features_others.form_controls.description
+    t: Which of these form related CSS selectors have you used?
+  - 
+    key: options.form_controls.enabled_disabled
+    t: ':enabled and :disabled'
+  - 
+    key: options.form_controls.read_only_write
+    t: ':read-only and :read-write'
+  - 
+    key: options.form_controls.placeholder_shown
+    t: ':placeholder-shown'
+  - 
+    key: options.form_controls.default
+    t: :default
+  - 
+    key: options.form_controls.checked
+    t: :checked
+  - 
+    key: options.form_controls.indeterminate
+    t: :indeterminate
+  - 
+    key: options.form_controls.valid_invalid
+    t: ':valid and :invalid'
+  - 
+    key: options.form_controls.user_invalid
+    t: ':user-invalid'
+  - 
+    key: options.form_controls.in_out_range
+    t: ':in-range and :out-of-range'
+  - 
+    key: options.form_controls.required_optional
+    t: ':required and :optional'
+  - 
+    ###########################################################################
+    #Environments
+    ###########################################################################
+    key: environments.browsers
+    t: Browsers
+  - 
+    key: environments.browsers.description
+    t: Which browsers do you test in?
+  - 
+    key: environments.form_factors
+    t: Testing Environments
+  - 
+    key: environments.form_factors.description
+    t: Which form factors or environments do you test on?
+  - 
+    key: environments.form_factors.others
+    t: Other Testing Environments
+  - 
+    key: environments.form_factors.others.description
+    t: Other form factors or environments you usually test on.
+  - 
+    key: environments.accessibility_features
+    t: Accessibility Features
+  - 
+    key: environments.accessibility_features.description
+    t: Which accessibility features do you usually implement?
+  - 
+    key: environments.accessibility_features.others
+    t: Other Accessibility Features
+  - 
+    key: environments.accessibility_features.others.description
+    t: Other accessibility features you usually implement
+  - 
+    key: environments.css_for_print
+    t: CSS for Print
+  - 
+    key: environments.css_for_print.description
+    t: Do you write print styles?
+  - 
+    key: environments.css_for_email
+    t: CSS for Email Clients
+  - 
+    key: environments.css_for_email.description
+    t: Do you write CSS for email clients?
+  - 
+    key: environments.what_do_you_use_css_for
+    t: What do you mainly use CSS for?
+  - 
+    key: environments.what_do_you_use_css_for.description
+    t: What kind of project do you usually use CSS for?
+  - 
+    key: environments.what_do_you_use_css_for.others
+    t: Other kinds of projects
+  - 
+    key: charts.axis_legends.css_for_print
+    t: Frequency
+  - 
+    key: charts.axis_legends.css_for_email
+    t: Frequency
+  - 
+    key: tools_others.tool_evaluation
+    t: Library Evaluation
+  - 
+    key: tools_others.tool_evaluation.description
+    t: For each matchup, pick the factor you prioritize when evaluating a new library.
+  - 
+    ###########################################################################
+    #Opinions
+    ###########################################################################
+    key: opinions.css_easy_to_learn
+    t: CSS is easy to learn
+  - 
+    key: opinions.css_easy_to_learn.title
+    t: Learning Curve
+  - 
+    key: opinions.css_evolving_slowly
+    t: CSS is evolving too slowly
+  - 
+    key: opinions.css_evolving_slowly.title
+    t: Rate of Change
+  - 
+    key: opinions.utility_classes_to_be_avoided
+    t: Utility (non-semantic) classes (.center, .large-text, etc.) should be avoided
+  - 
+    key: opinions.utility_classes_to_be_avoided.title
+    t: Non-Semantic Classes
+  - 
+    key: opinions.selector_nesting_to_be_avoided
+    t: Selector nesting (.foo .bar ul li {...}) should be avoided
+  - 
+    key: opinions.selector_nesting_to_be_avoided.title
+    t: Selector Nesting
+  - 
+    key: opinions.css_is_programming_language
+    t: CSS is a programming language
+  - 
+    key: opinions.css_is_programming_language.title
+    t: Programming Language
+  - 
+    key: opinions.enjoy_writing_css
+    t: I enjoy writing CSS
+  - 
+    key: opinions.enjoy_writing_css.title
+    t: Enjoyment
+  - 
+    #Browser interoperability question
+    key: opinions_others.browser_interoperability_features.others
+    t: Browser Incompatibilities
+  - 
+    key: opinions_others.browser_interoperability_features.others.description
+    t: >
+      Are there any CSS features you have difficulties using because of differences between browsers?
+  - 
+    #Pain Points
+    key: opinions.css_pain_points
+    t: CSS Pain Points
+  - 
+    key: opinions.css_pain_points.description
+    t: For each matchup, pick the aspect of CSS you struggle with the most.
+  - 
+    key: opinions_others.css_pain_points.others
+    t: Other CSS Pain Points
+  - 
+    #Missing Features
+    key: opinions.currently_missing_from_css
+    t: What do you feel is currently missing from CSS?
+  - 
+    key: opinions.currently_missing_from_css.description
+    t: For each matchup, pick the feature you'd most like to be able to use in CSS today.
+  - 
+    key: opinions_others.currently_missing_from_css.others
+    t: Other Missing Features
+  - 
+    #- key: opinions_others.currently_missing_from_css.others.note
+    #t: >
+    #These results were normalized based on the contents of a freeform field.
+    #To view the raw, unprocessed responses check out [whatsmissingfromcss.com](http://whatsmissingfromcss.com/).
+    key: opinions.sum_up_one_word_css
+    t: CSS in one word
+  - 
+    key: opinions.sum_up_one_word_css.description
+    t: How would you sum up your opinion of CSS in one word?
+  - 
+    key: happiness.pre_post_processors
+    t: How happy are you with the state of pre/post-processors?
+  - 
+    key: happiness.css_in_js
+    t: How happy are you with the state of CSS-in-JS libraries?
+  - 
+    key: happiness.css_frameworks
+    t: How happy are you with the state of CSS frameworks?
+  - 
+    key: happiness.state_of_the_web
+    t: How happy are you with the general state of web technologies?
+  - 
+    key: happiness.state_of_css
+    t: How happy are you with the general state of CSS?
+  - 
+    #pain points/currently missing (results)
+    key: css_pain_points.css_pain_points_wins
+    t: CSS Pain Points
+  - 
+    key: css_pain_points.css_pain_points_wins.description
+    t: Which aspect of CSS do you struggle with the most? Results are ranked by number of tournament rounds won.
+  - 
+    key: css_pain_points.css_pain_points_matchups
+    t: CSS Pain Points (Matchups)
+  - 
+    key: css_pain_points.css_pain_points_matchups.description
+    t: Which aspect of CSS do you struggle with the most? Percentage of rounds won by left-hand item against top-side item.
+  - 
+    key: currently_missing_from_css.currently_missing_from_css_wins
+    t: Features Missing From CSS
+  - 
+    key: currently_missing_from_css.currently_missing_from_css_wins.description
+    t: Which feature would you most like to be able to use in CSS today? Results are ranked by number of tournament rounds won.
+  - 
+    key: currently_missing_from_css.currently_missing_from_css_matchups
+    t: Features Missing From CSS (Matchups)
+  - 
+    key: currently_missing_from_css.currently_missing_from_css_matchups.description
+    t: Which feature would you most like to be able to use in CSS today? Percentage of rounds won by left-hand item against top-side item.
+  - 
+    ###########################################################################
+    #Resources
+    ###########################################################################
+    key: resources.first_steps_css
+    t: First Steps With CSS
+  - 
+    key: resources.first_steps_css.description
+    t: When first starting out, how did you initially learn CSS?
