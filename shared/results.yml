@@ -2538,6 +2538,9 @@ translations:
   - key: sponsors.clerk.description
     t: Full stack auth and user management that lets you launch faster and scale easier.
 
+  - key: sponsors.certificates_dev.description
+    t: Developer certifications built with the framework creators themselves.
+
   # midpage sponsors blocks
 
   - key: tokyodev.relocation
