@@ -1868,10 +1868,10 @@ translations:
   - key: user_info.sexual_orientation.question
     t: What is your sexual orientation?
   - key: user_info.sexual_orientation.prompt
-    t: Note that while this survey is completely anonymous, we still recommend skipping this question if disclosing this information publicly would put you at risk.
+    t: Note that while this survey is completely anonymous, we would still recommend skipping this question if sharing this information could put you at risk.
 
   - key: options.sexual_orientation.heterosexual
-    t: Heterosexual/straight
+    t: Straight/heterosexual
   - key: options.sexual_orientation.gay_or_lesbian
     t: Gay or lesbian
   - key: options.sexual_orientation.bisexual
