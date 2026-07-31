@@ -13,6 +13,15 @@ translations:
 
   - key: introduction.devs2026
     t: |
+      Over the past few years, many of our previously-held convictions seem to have been getting overturned at an alarming rate. 
+
+      Ideas such as the idea that AI would never be able to truly do a developer's job. That at its core, the tech community was all about progressive and humanistic values. Or that hardware costs always came down over time. 
+
+      And sure, the smartest among us may be feeling smug right now, saying they knew all along things would turn out this way. But that's little comfort when you still have to bear the consequences of these changes. 
+
+      ---
+
+
 
       “These questions feel really personal”; ”This is going to be too controversial”; “You should stick to programming surveys”.
 
@@ -62,28 +71,58 @@ translations:
 
   - key: user_info.country.takeaway.devs2026
     t: |
+      TODO
+
       The median income gap among developers between the U.S. and other countries remains large, driven at least partly by high Silicon Valley salaries and cost of living.
+
+  - key: user_info.country_of_origin.takeaway.devs2026
+    t: |
+      TODO
+
+  - key: user_info.migration_experience.takeaway.devs2026
+    t: |
+      TODO
+
+  - key: user_info.native_languages.takeaway.devs2026
+    t: |
+      TODO
+
+  - key: user_info.other_languages.takeaway.devs2026
+    t: |
+      TODO
 
   - key: user_info.gender.takeaway.devs2026
     t: |
+      TODO
+
       15% of women participation might feel small, but it's at least considerably higher than [other surveys](https://2024.stateofjs.com/en-US/demographics/#gender), which tend to hover around 6%. 
 
       And while the data reveals a gender income gap, further research would be needed to conclude whether this is due to gender discrimination, or other correlated factors.
 
+  - key: user_info.sexual_orientation.takeaway.devs2026
+    t: |
+      TODO
+
   - key: user_info.race_ethnicity.takeaway.devs2026
     t: |
+      TODO
+
       Looking at race & ethnicity data shows that non-white groups tend to skew younger, a recurring trend that is also present in [other surveys](https://2024.stateofjs.com/en-US/demographics/#race_ethnicity).
 
       It also highlights how different racial groups can have very different gender breakdowns.
 
   - key: user_info.relationship_status.takeaway.devs2026
     t: |
+      TODO
+
       Most respondents find a life partner by the time they're in their thirties, although doing so seems much more of a challenge in some countries compared to others.
 
       And when looking at gender, non-binary respondents are single at a much higher rate than either men or women.
 
   - key: user_info.number_of_kids.takeaway.devs2026
     t: |
+      TODO
+
       A majority of respondents do not have children, and those who do become parents tend to do relatively late in life. 
 
       Women and non-binary respondents also had fewer kids on average compared to men.
@@ -95,36 +134,52 @@ translations:
 
   - key: career.years_of_experience.takeaway.devs2026
     t: |
+      TODO
+
       More experience is correlated with a higher salary – up to a point. Past 15 years of experience, the gains become relatively small.
 
   - key: career.higher_education_degree.takeaway.devs2026
     t: |
+      TODO
+
       Having a degree will result in higher income, but interestingly enough it doesn't necessarily have to be related to programming.
 
   - key: career.how_many_jobs.takeaway.devs2026
     t: |
+      TODO
+
       Respondents have worked for 4.2 employers on average. And while having worked for more employers is associated with a higher income, that correlation does become weaker when controlling for years of experience.
 
   - key: career.employment_status.takeaway.devs2026
     t: |
+      TODO
+
       While freelancers and independent contractors earn less than full-time employees, it was surprising to see that becoming a founder or an entrepreneur does not result in a significant income increase.
 
       Company employees were also the group most likely to have seen their income grow over the past year.
 
   - key: career.career_issues.takeaway.devs2026
     t: |
+      TODO
+
       It's clear that the top three issues reported here are all interconnected: bad management leads to work-life balance issues, which then leads to burnout. 
 
       Gender does seem to have an impact on career issues, with women and non-binary respondents experiencing every issue at a higher rate, especially when it comes to **discrimination** (35%) and **mental health issues** (62%).
 
   - key: career.discrimination_issues.takeaway.devs2026
     t: |
+
+      TODO
+
       While we often think of discrimination in terms of gender or race, the most commonly reported factor is actually age, something that eventually affects all of us. 
 
       Breaking down the top 5 causes of discrimination by age range reveals that age discrimination becomes especially prevalent after 50 years old.
 
   - key: career.negative_impacts.takeaway.devs2026
     t: |
+
+      TODO
+
       Among all respondents, non-confrontational approaches such as avoiding colleagues, changing your behavior, or even resigning are the most common coping strategies in response to workplace issues. 
 
       The data also clearly shows the impact of gender, with women and non-binary respondents as a whole suffering each negative impact at a higher rate than men.
@@ -133,9 +188,22 @@ translations:
 
   - key: career.laid_off.takeaway.devs2026
     t: |
+
+      TODO
+
       Despite talks of a tech downturn, the majority of respondents have still never been laid off.
 
       When ranking by country seeing the most layoffs, the U.S. with its employer-friendly labor laws tops the ranking; while countries such as France and Japan appear towards the bottom of the list.
+
+  - key: career.job_security.takeaway.devs2026
+    t: |
+
+      TODO
+
+  - key: career.career_security.takeaway.devs2026
+    t: |
+
+      TODO
 
   # workplace
 
@@ -144,13 +212,24 @@ translations:
 
   - key: workplace.company_size.takeaway.devs2026
     t: |
+
+      TODO
+
       It should come as no surprise that larger companies have the means to pay higher salaries. Not only that, but respondent income is much more likely to have increased over the past year if they worked for a big company.
 
   - key: workplace.job_title.takeaway.devs2026
     t: |
+
+      TODO
+
       As seen in [other surveys](https://2024.stateofjs.com/en-US/demographics/#job_title), carrying the engineer title is correlated with higher income compared to being “just” a developer.
 
       Another point worth noting: on aggregate, frontend jobs feature more gender diversity than other positions.
+
+  - key: workplace.work_areas.takeaway.devs2026
+    t: |
+
+      TODO
 
   - key: workplace.yearly_income.takeaway.devs2026
     t: |
@@ -158,18 +237,28 @@ translations:
 
   - key: workplace.income_evolution.takeaway.devs2026
     t: |
+
+      TODO
+
       Despite fears of an industry downturn, only 9% of respondents reported having seen their income decrease over the past year.
 
       Norway, Ireland, and South-Africa-based respondents were the most likely to have seen their income increase.
 
   - key: workplace.job_finding_application_count.takeaway.devs2026
     t: |
+
+
+      TODO
+
       While respondents needed a median of 4 job applications to find their current job overall, that number decreased as respondents' years of experience went up. 
 
       That being said, a slight increase was present at the higher end of the experience curve, which could be explained by age discrimination, or by out-of-date skills making the job search harder.
 
   - key: workplace.job_finding_methods.takeaway.devs2026
     t: |
+
+      TODO
+
       Having a more personal connection to the company when applying (as opposed to going through a job board or social media) is associated with a higher income. 
 
       The one exception is being hired through open-source work, which is associated with the same income levels as more direct methods such as recruiters or referrals.
@@ -180,98 +269,114 @@ translations:
 
   - key: workplace.work_hours_per_week.takeaway.devs2026
     t: |
+
+      TODO
+
       The more you work, the more you earn, at least up to a point. India is the hardest-working country with 45 median hours worked per week, while most other countries are all gathered around the 40-hour mark.
 
   - key: workplace.job_happiness.takeaway.devs2026
     t: |
+
+      TODO
+
       Developers are overall pretty happy with their job – provided they can endure the first 10 years, that is.
 
   - key: workplace.workplace_perks.takeaway.devs2026
     t: |
+
+      TODO
+
       Going against the stereotype of the asocial computer nerd, it turns out the thing that we value the most is actually each other; with relationships with coworkers coming in as the number one item developers enjoy about their workplace.
 
   - key: workplace.workplace_difficulties.takeaway.devs2026
     t: |
+      TODO
+
       At the end of the day, we all need to make a living, and poor compensation came in first as the top workplace issue developers are facing today.
 
-  # technology
-
-  - key: sections.technology.description.devs2026
-    t: The apps, languages, and platforms you use.
-
-  # - key: technology.mobile_os.takeaway.devs2026
-  #   t: |
-  #     xxx
-
-  # - key: technology.desktop_os.takeaway.devs2026
-  #   t: |
-  #     xxx
-
-  - key: technology.programming_languages.takeaway.devs2026
+  - key: workplace.mental_state.takeaway.devs2026
     t: |
-      While it might be tempting to learn Clojure, Elm, Ruby, or Scala given the income premium these languages seem to carry, it's important to also acknowledge that these languages tend to be practiced by more experienced devs, which could account for the difference.
+      TODO
 
-  - key: technology.productivity_apps.takeaway.devs2026
+  - key: workplace.keyboard.takeaway.devs2026
     t: |
-      When it comes to productivity apps, it's worth calling out **Obsidian**'s impressive showing, coming in 6th overall despite not even being part of the question's pre-defined options.
+      TODO
 
-      Some tools such as **Azure DevOps** and **Jira** skew towards being used at larger companies, while **Linear** and **Trello** are more popular among smaller organizations.
-
-  - key: technology.chat_apps.takeaway.devs2026
+  - key: workplace.monitors.takeaway.devs2026
     t: |
-      I'm just as surprised as you are to discover **Google Chat** is still a thing, yet it came in 9th solely on the back of write-in answers.
+      TODO
 
-  - key: technology.social_media.takeaway.devs2026
+  # ai
+  - key: sections.ai_usage.description.devs2026
+    t: AI Views
+
+  - key: ai_usage.ai_generated_code_balance.takeaway.devs2026
     t: |
-      Plotting social media apps against age reveals that Bluesky and Mastodon users probably need to stretch every time they get up from a chair – or may like to reminisce about the days of dial-up and cassette tapes. 
+      TODO
 
-      TikTok on the other hand skews younger, which makes sense because you'd need a fresher body to even *attempt* some of those dances.
-
-  - key: technology.community_involvement.takeaway.devs2026
+  - key: ai_usage.ai_sentiment.takeaway.devs2026
     t: |
-      No surprise here, but video is the main way respondents keep up with the community. Sadly, in-person events remain fairly uncommon. 
+      TODO
 
-      And while RSS feeds were a popular write-in answer, the median age of these respondents does not bode well for the future of that particular technology.
-
-      When looking at gender dynamics, women and non-binary respondents are far less likely to rely on video content and participate in public online platforms-but more likely to take part in smaller-scale chatrooms and meetups.
-
-  - key: technology.community_contributions.takeaway.devs2026
+  - key: ai_usage.ai_risks.takeaway.devs2026
     t: |
-      When looking at community involvement vs gender, it seems like women and non-binary respondents are less likely to engage in online spaces, but more likely to attend live events – which might point to a failure to build sufficiently inclusive online communities.
+      TODO
 
-  - key: technology.open_source_involvement.takeaway.devs2026
+  - key: ai_usage.ai_management_pressure.takeaway.devs2026
     t: |
-      While nearly half of respondents have contributed code to open-source projects, it turns out this figure hides a real gender divide, with **51%** of men having contributed code, but only **36%** of non-men respondents.
+      TODO
+
+  - key: ai_usage.ai_mental_state.takeaway.devs2026
+    t: |
+      TODO
+
+  - key: ai_usage.ai_outlook.takeaway.devs2026
+    t: |
+      TODO
 
   # health
-
   - key: sections.health.description.devs2026
     t: Health & fitness.
 
   - key: health.age.takeaway.devs2026
     t: |
+
+      TODO
+
       Women and non-binary respondents tend to skew a little younger than men when looking at median age by gender.
 
   - key: health.disability_status.takeaway.devs2026
     t: |
+
+      TODO
+
       Looking at disabilities by age shows that while mental health and neurodivergent conditions are the most common issues, hearing loss becomes more prevalent once you hit 60.
 
       Some disabilities such as visual impairments are also more common among men, while mental health issues and chronic illnesses are over-represented among women.
 
   - key: health.health_issues.takeaway.devs2026
     t: |
+
+      TODO
+
       Poor sleep was the most commonly reported health issue among respondents, possibly linked to the large role screens of all kinds play in our lives.
 
       Some issues—such as mental health conditions and migraines—also affected women and non-binary respondents at higher rates than the overall population when examining the top six health issues by gender.
 
   - key: health.sleep_quantity.takeaway.devs2026
     t: |
+
+      TODO
+
       As expected, having kids does affect average sleep duration – although not as much as one might think.
 
       Age also plays a role, with older respondents tending to sleep slightly less.
 
   - key: health.sleep_measures.takeaway.devs2026
     t: |
+
+      TODO
+
       Respondents are trying a range of strategies to improve their sleep (consistent with “poor sleep” being the most commonly reported health issue) but these efforts don’t appear to influence median nightly sleep duration.
 
       With sleep quantity being such a hard metric to nudge, it might be more effective to focus on sleep *quality* instead – although this is of course much harder to measure accurately.
@@ -283,6 +388,9 @@ translations:
 
   - key: worldview.global_issues.takeaway.devs2026
     t: |
+
+      TODO
+
       **Climate change** is a big problem for the entire planet, but U.S.-based respondents also highlighted **rising authoritarianism**, while Ukraine-neighboring Poland is understandably worried about **geopolitical tensions**.
 
       And while you might assume younger generations are more progressive, it's striking to see that this is not necessarily the case here, at least not regarding a few key issues. 
@@ -293,18 +401,47 @@ translations:
 
       Finally, women are over-represented among respondents citing **healthcare access** as one of their top priorities, which again echoes ongoing political concerns especially in the U.S.
 
+  - key: worldview.political_expression_at_work.takeaway.devs2026
+    t: |
+
+      TODO
+
+  - key: worldview.workers_union.takeaway.devs2026
+    t: |
+
+      TODO
+
+  - key: worldview.political_spectrum.takeaway.devs2026
+    t: |
+
+      TODO
+
+  - key: worldview.tech_industry_emotion.takeaway.devs2026
+    t: |
+
+      TODO
+
   - key: worldview.happiness_factors.takeaway.devs2026
     t: |
+
+      TODO
+
       **Good health** may be the most important happiness factor globally, but India and Russia stand out for also valuing **career progress** quite highly, as well as **wealth and material possessions** in the case of Russia.
 
       When looking at demographic factors, non-binary respondents placed **hobbies** first and **family** much lower than men and women; and plotting happiness factors against age reveals that as respondents age, **friendships** and **hobbies** are often replaced with **family**.
 
   - key: worldview.relocation.takeaway.devs2026
     t: |
+
+      TODO
+
       **Japan** tops the overall rankings of places developers would most like to relocate to, although breaking things down by respondent country reveals that respondents also tend to favor geographically close destinations or countries that share their language.
 
   - key: worldview.overall_happiness.takeaway.devs2026
     t: |
+
+      TODO
+
       Respondents are overall relatively happy, but median happiness drops when respondents don't get enough (or get *too much*) sleep. 
 
       And while absolute income does not seem to impact happiness, seeing an income *decrease* certainly does; and so does not being in a relatiomship.
@@ -319,6 +456,9 @@ translations:
 
   - key: hobbies.hobbies.takeaway.devs2026
     t: |
+
+      TODO
+
       It's no surprise that **video games** dominates the rankings in a developer survey – and a few respondents even wrote in **programming** as their favorite hobby.
 
       Older respondents were more likely to pick **Movies/TV** over video games, and among the over-60 crowd **reading** actually came first.
@@ -327,38 +467,35 @@ translations:
 
   - key: hobbies.physical_activity.takeaway.devs2026
     t: |
+
+      TODO
+
       **Hiking/walking** and **strength training** are popular all around, but when looking at physical activites vs. gender **yoga** stands out as something women are much more likely to practice than men.
 
-  - key: hobbies.favorite_musical_artists.takeaway.devs2026
+  - key: hobbies.favorite_beverages.takeaway.devs2026
     t: |
-      Who expected **Linkin Park** to be still kicking in 2025? 
 
-      Plotting artists by median age of respondents gives us a hint at what to listen to if we want to be blend in with our fellow kids (**Charli XCX**, **Twenty One Pilots**) and what to avoid at all cost (**Pink Floyd**).
+      TODO
 
-      There are also gender differences, with women and non-binary respondents preferring artists such as **Chappell Roan** and **Taylor Swift**.
-
-  - key: hobbies.favorite_movies.takeaway.devs2026
+  - key: hobbies.favorite_books.takeaway.devs2026
     t: |
-      **Dune** leads the rankings here, a testament to the movie's status as a cinematic masterpiece.
 
-      Looking at gender-based lists, **Wicked** stands out as the number one among women and non-binary respondents.
-
-  - key: hobbies.favorite_tv.takeaway.devs2026
-    t: |
-      **Severance** will go down as a high point of TV storytelling, and its themes of work/life balance and workplace alienation clearly resonated with survey respondents.
-
-      Animation and especially Japanese shows such as **Frieren** and **Solo Leveling** are popular with younger respondents, but so are older sitcom classics such as **Friends** and **The Office**.
-
-      When looking at gender, the lists are fairly similar except for ninth place, featuring polar opposites **Reacher** and **The Handmaid's Tale**.
+      TODO
 
   - key: hobbies.favorite_video_games.takeaway.devs2026
     t: |
+
+      TODO
+
       **Baldur's Gate 3** is known for featuring ridiculous amounts of content, and this is reflected by the fact that it ranked first here despite coming out in 2023.
 
       It also turns out that **Stardew Valley** is a hit among women and non-binary respondents, coming in second despite not placing in the top 20 among men.
 
   - key: hobbies.video_game_platforms.takeaway.devs2026
     t: |
+
+      TODO
+
       Despite macOS being [more prevalent](/en-US/technology/#desktop_os) among respondents as a main desktop option, **Windows** is still the dominant platform when it comes to gaming.
 
       The younger generations are the ones most likely to play on PC, while older respondents tend to prefer the ease of use of consoles.
@@ -367,6 +504,9 @@ translations:
 
   - key: _user.metadata.source.takeaway.devs2026
     t: |
+
+      TODO
+
       While a majority of respondents came from our existing audience and mailing list, **Josh Comeau** mentioning the survey in his newsletter was also a big boost. 
 
       When looking at the gender breakdown for each source, [snowball sampling](https://github.com/Devographics/surveys/issues/258) proved quite effective at driving more women to participate in the survey, as was sponsoring creators such as [Cassidy Williams](https://cassidoo.co/), who featured the survey in her weekly newsletter.

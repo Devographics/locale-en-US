@@ -1249,6 +1249,8 @@ translations:
 
   - key: usage.css_missing_features
     t: Missing Features
+    aliases:
+      - usage.css_missing_features.short
   - key: usage.css_missing_features.question
     aliasFor: usage.missing_features_freeform
 
@@ -1257,6 +1259,9 @@ translations:
 
   - key: options.css_missing_features.na
     t: None
+
+  - key: features.missing_features.default
+    t: Top missing features overall.
 
   # - key: opinions_others.css_missing_features.others.note
   #   t: >

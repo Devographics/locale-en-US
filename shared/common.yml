@@ -1663,8 +1663,12 @@ translations:
   # work_areas
   - key: user_info.work_areas
     t: Work Areas
+    aliases:
+      - workplace.work_areas
   - key: user_info.work_areas.question
     t: Which of these areas of software development are part of your day-to-day work?
+    aliases:
+      - workplace.work_areas.question
 
   - key: options.work_areas.web_dev
     t: Web Development
