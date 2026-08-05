@@ -661,7 +661,7 @@ translations:
 
   # age 2
   - key: options.age.range_under_20
-    t: 19 years old and under
+    t: 19 years old or younger
   - key: options.age.range_20_29
     t: 20-29 years old
   - key: options.age.range_30_39
