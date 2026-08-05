@@ -1684,49 +1684,49 @@ translations:
     t: Other Areas
 
   - key: options.work_areas.front_end
-    t: Front-end Development
+    t: Front-end development
   - key: options.work_areas.front_end_js
-    t: Front-end Development (JS/TS)
+    t: Front-end development (JS/TS)
   - key: options.work_areas.front_end_css
-    t: Front-end Development (CSS)
+    t: Front-end development (CSS)
   - key: options.work_areas.back_end
-    t: Back-end Development
+    t: Back-end development
   - key: options.work_areas.mobile
-    t: Mobile Development
+    t: Mobile development
   - key: options.work_areas.desktop
     t: Desktop development
   - key: options.work_areas.devops
     t: DevOps
   - key: options.work_areas.qa_testing
-    t: Quality Assurance
+    t: Quality assurance
   - key: options.work_areas.sre
-    t: Site Reliability Engineering (SRE)
+    t: Site reliability engineering (SRE)
   - key: options.work_areas.platform_engineering
-    t: Platform Engineering
+    t: Platform engineering
   - key: options.work_areas.data_engineering
-    t: Data Engineering & Processing
+    t: Data engineering & processing
   - key: options.work_areas.ai_llm
-    t: AI/LLM Application Engineering
+    t: AI/LLM application engineering
   - key: options.work_areas.machine_learning
-    t: Machine Learning
+    t: Machine learning
   - key: options.work_areas.security
     t: Security
   - key: options.work_areas.performance
-    t: Performance Optimization
+    t: Performance optimization
   - key: options.work_areas.embedded_software
-    t: Embedded Software
+    t: Embedded software
   - key: options.work_areas.game_development
-    t: Game Development
+    t: Game development
   - key: options.work_areas.systems_design
-    t: Systems Design & Architecture
+    t: Systems design & architecture
   - key: options.work_areas.devrel
-    t: Developer Relations (DevRel)
+    t: Developer relations
   - key: options.work_areas.tooling
-    t: Developer Tools/Tooling
+    t: Developer tools/tooling
   - key: options.work_areas.cloud
-    t: Cloud Infrastructure
+    t: Cloud infrastructure
   - key: options.work_areas.accessibility
-    t: Accessibility Testing
+    t: Accessibility testing
 
   - key: options.work_areas.people_management
     t: People Management
@@ -2299,3 +2299,157 @@ translations:
 
   - key: feature.experimental
     t: Currently unsupported feature or proposal
+
+  ###########################################################################
+  # Locales
+  ###########################################################################
+
+  - key: options.locale.en-US
+    t: English
+    aliases:
+      - options.native_languages.english
+      - options.other_languages.english
+  - key: options.locale.ca-ES
+    t: Catalan
+    aliases:
+      - options.native_languages.catalan
+      - options.other_languages.catalan
+  - key: options.locale.es-ES
+    t: Spanish
+    aliases:
+      - options.native_languages.spanish
+      - options.other_languages.spanish
+  - key: options.locale.ru-RU
+    t: Russian
+    aliases:
+      - options.native_languages.russian
+      - options.other_languages.russian
+  - key: options.locale.fr-FR
+    t: French
+    aliases:
+      - options.native_languages.french
+      - options.other_languages.french
+  - key: options.locale.zh-Hant
+    t: Chinese (Traditional)
+  - key: options.locale.de-DE
+    t: German
+    aliases:
+      - options.native_languages.german
+      - options.other_languages.german
+  - key: options.locale.cs-CZ
+    t: Czech
+    aliases:
+      - options.native_languages.czech
+      - options.other_languages.czech
+  - key: options.locale.pt-PT
+    t: Portuguese
+    aliases:
+      - options.native_languages.portuguese
+      - options.other_languages.portuguese
+  - key: options.locale.pt-BR
+    t: Portuguese (Brazil)
+    aliases:
+      - options.native_languages.portuguese_brazil
+      - options.other_languages.portuguese_brazil
+  - key: options.locale.it-IT
+    t: Italian
+    aliases:
+      - options.native_languages.italian
+      - options.other_languages.italian
+  - key: options.locale.sv-SE
+    t: Swedish
+    aliases:
+      - options.native_languages.swedish
+      - options.other_languages.swedish
+  - key: options.locale.tr-TR
+    t: Turkish
+    aliases:
+      - options.native_languages.turkish
+      - options.other_languages.turkish
+  - key: options.locale.id-ID
+    t: Indonesian
+    aliases:
+      - options.native_languages.indonesian
+      - options.other_languages.indonesian
+  - key: options.locale.hi-IN
+    t: Hindi
+    aliases:
+      - options.native_languages.hindi
+      - options.other_languages.hindi
+  - key: options.locale.zh-Hans
+    t: Chinese (Simplified)
+  - key: options.locale.ja-JP
+    t: Japanese
+    aliases:
+      - options.native_languages.japanese
+      - options.other_languages.japanese
+  - key: options.locale.ua-UA
+    t: Ukrainian
+    aliases:
+      - options.native_languages.ukrainian
+      - options.other_languages.ukrainian
+  - key: options.locale.pl-PL
+    t: Polish
+    aliases:
+      - options.native_languages.polish
+      - options.other_languages.polish
+  - key: options.locale.fa-IR
+    t: Farsi
+    aliases:
+      - options.native_languages.farsi
+      - options.other_languages.farsi
+  - key: options.locale.nl-NL
+    t: Dutch
+    aliases:
+      - options.native_languages.dutch
+      - options.other_languages.dutch
+  - key: options.locale.ko-KR
+    t: Korean
+    aliases:
+      - options.native_languages.korean
+      - options.other_languages.korean
+  - key: options.locale.ro-RO
+    t: Romanian
+    aliases:
+      - options.native_languages.romanian
+      - options.other_languages.romanian
+  - key: options.locale.am-ET
+    t: Amharic
+    aliases:
+      - options.native_languages.amharic
+      - options.other_languages.amharic
+  - key: options.locale.ar-EG
+    t: Arabic
+    aliases:
+      - options.native_languages.arabic
+      - options.other_languages.arabic
+  - key: options.locale.el-GR
+    t: Greek
+    aliases:
+      - options.native_languages.greek
+      - options.other_languages.greek
+  - key: options.locale.gl-ES
+    t: Galician
+    aliases:
+      - options.native_languages.galician
+      - options.other_languages.galician
+  - key: options.locale.hr-HR
+    t: Croatian
+    aliases:
+      - options.native_languages.croatian
+      - options.other_languages.croatian
+  - key: options.locale.hu-HU
+    t: Hungarian
+    aliases:
+      - options.native_languages.hungarian
+      - options.other_languages.hungarian
+  - key: options.locale.sk-SK
+    t: Slovak
+    aliases:
+      - options.native_languages.slovak
+      - options.other_languages.slovak
+  - key: options.locale.vi-VN
+    t: Vietnamese
+    aliases:
+      - options.native_languages.vietnamese
+      - options.other_languages.vietnamese
