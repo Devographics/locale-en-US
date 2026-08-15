@@ -204,6 +204,7 @@ translations:
       The issue now is browser support: until all browsers implement these features, it'll be hard to convince developers to start using them.
 
   - key: pain_points.colors_pain_points.takeaway.css2026
+    t: >
       In recent years, CSS has given us many ways to define colors, with perceptually uniform polar color spaces like `oklch`, and features like relative colors, `light-dark()` or `contrast-color()` bringing closer the holy grail of UIs that can be dynamically recolored.
 
 
