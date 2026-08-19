@@ -9,17 +9,13 @@ translations:
 
   - key: general.html2026.survey_intro
     t: |
-      In 2023, after the State of JS and State of CSS surveys had already been going on for a few years, we realized something was missing: what about the technology that brings it all together?
+      Let's time-travel back to the early 2020s: JavaScript libraries rule the land, and it's not unheard of to see a developer install an entire framework just to show a modal window or submit a form.
 
-      After all, HTML now goes beyond tags and attributes, encompassing APIs for dynamic updates, rich embeds, performance hints, templating & components, and more. 
+      Yet just a few years later, we might already be entering a new era. After all, AI agents are now more than capable of hand-picking the best browser API for your specific need without having to import an entire framework; making the web platform's native features more relevant than ever. 
 
-      The first State of HTML, led by web superstar [Lea Verou](https://lea.verou.me/) broke all previous records for a new survey with 21,000 respondents, and introduced new UI paradigms that improved all future surveys. 
+      But even though AI is making us more productive, it's not making us any less busy. Which is why we've tried to keep this year's survey's length under control, removing quite a few features and questions to ensure you can fill it out in-between two Claude prompts!
 
-      This year, with Lea back at the helm, we added ✨35 new features✨, and introduced two new sections: **Graphics & Multimedia** and **Performance**.
-
-      What's more, as with previous editions, this year's results will be taken in consideration by browser vendors when deciding on their roadmaps, so participating can help shape the future of the web! 
-
-      Are you ready? Get, set, go!
+      And as always, this year's results will be taken in consideration by browser vendors to prioritize their roadmaps, meaning that your participation can help shape the future of the web.
 
   - key: features.features_intro_html2026
     aliasFor: features.features_intro_html2024
