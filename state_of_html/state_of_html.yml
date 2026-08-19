@@ -705,6 +705,24 @@ translations:
   # - key: features.accessibility_features.question
   #   t: Which of these accessibility features have you used?
 
+  # accessibility_ai_impact
+  - key: features.accessibility_ai_impact
+    t: AI Impact
+  - key: features.accessibility_ai_impact.question
+    t: In your experience, what kind of impact is AI-assisted coding having on web accessibility?
+
+  - key: options.accessibility_ai_impact.0
+    t: Strongly negative
+  - key: options.accessibility_ai_impact.1
+    t: Somewhat negative
+  - key: options.accessibility_ai_impact.2
+    t: Neutral/no impact
+  - key: options.accessibility_ai_impact.3
+    t: Somewhat positive
+  - key: options.accessibility_ai_impact.4
+    t: Strongly positive
+
+  # accessibility_tools
   - key: features.accessibility_tools
     t: Accessibility Tools
     aliases:
@@ -1376,6 +1394,7 @@ translations:
   - key: usage.html_pain_points_freeform.question
     t: Any other pain points around using HTML and related technologies?
 
+  # html_css_js_balance
   - key: usage.html_css_js_balance
     t: HTML/CSS vs JS/TS Balance
   - key: usage.html_css_js_balance.question
