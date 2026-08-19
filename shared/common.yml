@@ -1597,6 +1597,151 @@ translations:
   - key: tools.happiness.question
     t: How happy are you with the current state of things as it relates to the options listed above?
 
+  # ai_browser_apis
+
+  - key: other_tools.ai_browser_apis
+    t: Browser APIs
+    aliases:
+      - tools.ai_browser_apis
+      - usage.ai_browser_apis
+  - key: other_tools.ai_browser_apis.question
+    t: What AI APIs would you most like to see supported natively in browsers?
+    aliases:
+      - tools.ai_browser_apis.question
+      - usage.ai_browser_apis.question
+
+  - key: options.ai_uses.code_generation
+    t: Code generation
+    aliases:
+      - options.ai_browser_apis.code_generation
+
+  - key: options.ai_uses.code_generation.description
+    t: Generating or refactoring code based on a prompt.
+    aliases:
+      - options.ai_browser_apis.code_generation.description
+
+  - key: options.ai_uses.translation
+    t: Translation
+    aliases:
+      - options.ai_browser_apis.translation
+
+  - key: options.ai_uses.translation.description
+    t: Translating content from one language to another.
+    aliases:
+      - options.ai_browser_apis.translation.description
+
+  - key: options.ai_uses.language_detection
+    t: Language detection
+    aliases:
+      - options.ai_browser_apis.language_detection
+
+  - key: options.ai_uses.language_detection.description
+    t: Detecting the language a text is written in.
+    aliases:
+      - options.ai_browser_apis.language_detection.description
+
+  - key: options.ai_uses.summarization
+    t: Summarization
+    aliases:
+      - options.ai_browser_apis.summarization
+
+  - key: options.ai_uses.summarization.description
+    t: Summarizing a text or dataset into its main themes.
+    aliases:
+      - options.ai_browser_apis.summarization.description
+
+  - key: options.ai_uses.text_generation
+    t: Text generation
+    aliases:
+      - options.ai_browser_apis.text_generation
+
+  - key: options.ai_uses.text_generation.description
+    t: Generating a text based on a prompt.
+    aliases:
+      - options.ai_browser_apis.text_generation.description
+
+  - key: options.ai_uses.image_generation
+    t: Image generation
+    aliases:
+      - options.ai_browser_apis.image_generation
+
+  - key: options.ai_uses.image_generation.description
+    t: Generating an image based on a prompt.
+    aliases:
+      - options.ai_browser_apis.image_generation.description
+
+  - key: options.ai_uses.speech_generation
+    t: Speech generation
+    aliases:
+      - options.ai_browser_apis.speech_generation
+
+  - key: options.ai_uses.speech_generation.description
+    t: Generating speech based on a prompt or a text.
+    aliases:
+      - options.ai_browser_apis.speech_generation.description
+
+  - key: options.ai_uses.speech_recognition
+    t: Speech recognition
+    aliases:
+      - options.ai_browser_apis.speech_recognition
+
+  - key: options.ai_uses.speech_recognition.description
+    t: Transcribing recorded or real-time speech into text.
+    aliases:
+      - options.ai_browser_apis.speech_recognition.description
+
+  - key: options.ai_uses.computer_vision
+    t: Computer vision
+    aliases:
+      - options.ai_browser_apis.computer_vision
+
+  - key: options.ai_uses.computer_vision.description
+    t: Detecting items in a photo or video feed.
+    aliases:
+      - options.ai_browser_apis.computer_vision.description
+
+  - key: options.ai_uses.sentiment_analysis
+    t: Sentiment analysis
+    aliases:
+      - options.ai_browser_apis.sentiment_analysis
+
+  - key: options.ai_uses.sentiment_analysis.description
+    t: Classifying text data based on sentiment.
+    aliases:
+      - options.ai_browser_apis.sentiment_analysis.description
+
+  - key: options.ai_uses.caption_generation
+    t: Caption generation
+    aliases:
+      - options.ai_browser_apis.caption_generation
+
+  - key: options.ai_uses.caption_generation.description
+    t: Generating captions or subtitles for images or videos.
+    aliases:
+      - options.ai_browser_apis.caption_generation.description
+
+  - key: options.ai_uses.learning_research
+    t: Learning & research
+    aliases:
+      - options.ai_browser_apis.learning_research
+
+  - key: options.ai_uses.learning_research.description
+    t: Learning new skills or researching a topic.
+    aliases:
+      - options.ai_browser_apis.learning_research.description
+
+  - key: options.ai_uses.no_browser_ai_apis
+    t: 🚫 None
+    aliases:
+      - options.ai_browser_apis.no_browser_ai_apis
+      - options.ai_uses.na
+      - options.ai_browser_apis.na
+
+  - key: options.ai_uses.debugging
+    t: Debugging
+    aliases:
+      - options.ai_browser_apis.debugging
+
   ###########################################################################
   # Demographics (About You/User Info)
   ###########################################################################

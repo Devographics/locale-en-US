@@ -1438,6 +1438,33 @@ translations:
     t: |
       `<fieldset>` and `<legend>`
 
+  # progressive_enhancement_priority
+
+  - key: usage.progressive_enhancement_priority
+    t: Progressive Enhancement
+  - key: usage.progressive_enhancement_priority.question
+    t: In your typical work context, how important is it that the websites or web apps you build be able to function without JavaScript?
+
+  - key: options.progressive_enhancement_priority.not_a_concern
+    t: Not a concern
+  - key: options.progressive_enhancement_priority.not_a_concern.description
+    t: JavaScript is assumed enabled for all users at all times
+
+  - key: options.progressive_enhancement_priority.low_priority
+    t: Low priority
+  - key: options.progressive_enhancement_priority.low_priority.description
+    t: Best practices are followed, but no extra time is spent on no-JS functionality
+
+  - key: options.progressive_enhancement_priority.high_priority
+    t: High priority
+  - key: options.progressive_enhancement_priority.high_priority.description
+    t: Dedicated time is set aside for no-JS testing, refactoring, etc.
+
+  - key: options.progressive_enhancement_priority.required
+    t: Required
+  - key: options.progressive_enhancement_priority.required.description
+    t: Sites/apps are required to work without JavaScript enabled.
+
   ###########################################################################
   # Opinions
   ###########################################################################
