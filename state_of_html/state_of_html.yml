@@ -1394,6 +1394,34 @@ translations:
   - key: usage.html_pain_points_freeform.question
     t: Any other pain points around using HTML and related technologies?
 
+  # ai_generated_code_balance
+
+  - key: usage.ai_generated_code_balance
+    aliasFor: usage.ai_generated_code_balance
+  - key: usage.ai_generated_code_balance.question
+    aliasFor: usage.ai_generated_code_balance.question
+  - key: usage.ai_generated_code_balance.prompt
+    aliasFor: usage.ai_generated_code_balance.prompt
+
+  - key: options.ai_generated_code_balance.0
+    aliasFor: options.ai_generated_code_balance.0
+  - key: options.ai_generated_code_balance.1
+    aliasFor: options.ai_generated_code_balance.1
+  - key: options.ai_generated_code_balance.2
+    aliasFor: options.ai_generated_code_balance.2
+  - key: options.ai_generated_code_balance.3
+    aliasFor: options.ai_generated_code_balance.3
+  - key: options.ai_generated_code_balance.4
+    aliasFor: options.ai_generated_code_balance.4
+  - key: options.ai_generated_code_balance.5
+    aliasFor: options.ai_generated_code_balance.5
+  - key: options.ai_generated_code_balance.6
+    aliasFor: options.ai_generated_code_balance.6
+  - key: options.ai_generated_code_balance.7
+    aliasFor: options.ai_generated_code_balance.7
+  - key: options.ai_generated_code_balance.8
+    aliasFor: options.ai_generated_code_balance.8
+
   # html_css_js_balance
   - key: usage.html_css_js_balance
     t: HTML/CSS vs JS/TS Balance

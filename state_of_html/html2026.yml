@@ -9,11 +9,11 @@ translations:
 
   - key: general.html2026.survey_intro
     t: |
-      Let's time-travel back to the early 2020s: JavaScript libraries rule the land, and it's not unheard of to see a developer install an entire framework just to show a modal window or submit a form.
+      The eldest among you might remember the ancient times of the late 2020s, when JavaScript libraries ruled the land and it wasn't uncommon to see a developer install an entire front-end framework just to show a modal window or submit a form.
 
-      Yet just a few years later, we might already be entering a new era. After all, AI agents are now more than capable of hand-picking the best browser API for your specific need without having to import an entire framework; making the web platform's native features more relevant than ever. 
+      Yet just a few short years later, we're now in a whole new era. AI is outputting a lot–if not most–of our code, and agents are perfectly capable of hand-picking the best browser API for your specific need without having to import an entire framework. Which makes the web platform's native features more relevant than ever. 
 
-      But even though AI is making us more productive, it's not making us any less busy. Which is why we've tried to keep this year's survey's length under control, removing quite a few features and questions to ensure you can fill it out in-between two Claude prompts!
+      But even though AI is making us more productive, it's not making us any less busy. Which is why we've tried to keep this year's survey's length under control, removing quite a few features and questions to ensure you can fill it out in 15 minutes or less. 
 
       And as always, this year's results will be taken in consideration by browser vendors to prioritize their roadmaps, meaning that your participation can help shape the future of the web.
 

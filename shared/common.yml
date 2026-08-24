@@ -1874,15 +1874,39 @@ translations:
     t: Accessibility testing
 
   - key: options.work_areas.people_management
-    t: People Management
+    t: People management
   - key: options.work_areas.technical_leadership
-    t: Technical Leadership
+    t: Technical leadership
   - key: options.work_areas.project_management
-    t: Project Management
+    t: Project management
   - key: options.work_areas.product_management
-    t: Product Management
+    t: Product management
   - key: options.work_areas.hiring_interviewing
-    t: Hiring/Interviewing
+    t: Hiring/interviewing
+
+  - key: options.work_areas.design
+    t: Design
+  - key: options.work_areas.product_design
+    t: Product design
+  - key: options.work_areas.ui_ux_design
+    t: UI/UX design
+  - key: options.work_areas.user_research
+    t: User research
+  - key: options.work_areas.design_systems
+    t: Design systems
+
+  - key: options.work_areas.quality_assurance
+    t: Quality assurance
+  - key: options.work_areas.manual_testing
+    t: Manual testing
+  - key: options.work_areas.test_automation
+    t: Test automation
+  - key: options.work_areas.performance_testing
+    t: Performance testing
+  - key: options.work_areas.accessibility_testing
+    t: Accessibility testing
+  - key: options.work_areas.quality_engineering
+    t: Quality engineering
 
   # javascript proficiency
   - key: user_info.javascript_proficiency
