@@ -767,6 +767,8 @@ translations:
     t: GitHub
   - key: blocks.entity.twitter_link
     t: Twitter
+  - key: blocks.entity.x_link
+    t: X
   - key: blocks.entity.mastodon_link
     t: Mastodon
   - key: blocks.entity.blog_link
@@ -1467,6 +1469,8 @@ translations:
   - key: share.site.title
     t: Discover the {siteTitle} results
   - key: share.site.twitter_text
+    t: "Discover the {siteTitle} results {link}"
+  - key: share.site.x_text
     t: "Discover the {siteTitle} results {link}"
   - key: share.site.subject
     t: "{siteTitle} Survey Results"

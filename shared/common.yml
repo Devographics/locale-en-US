@@ -219,6 +219,8 @@ translations:
       For fairness, this percentage is calculated over only the {awareness_total} features you could express you knew
   - key: thanks.share_on_twitter
     t: Share on Twitter
+  - key: thanks.share_on_x
+    t: Share on X
   - key: thanks.share_score_message
     t: >
       I got a {score} points knowledge score on this year’s #{hashtag} survey!
@@ -228,6 +230,8 @@ translations:
 
   - key: share.twitter
     t: Share on Twitter
+  - key: share.x
+    t: Share on X
   - key: share.bluesky
     t: Share on Bluesky
   - key: share.mastodon
@@ -368,7 +372,9 @@ translations:
   - key: options.other
     t: Other…
   - key: options.other.placeholder
-    t: Other items not mentioned above, comma-separated
+    t: Other option not mentioned above
+  - key: options.other.placeholder.multiple
+    t: Other options not mentioned above, comma-separated
 
   # features
   - key: options.features.never_heard
@@ -1827,6 +1833,8 @@ translations:
     t: Management
   - key: options.work_areas.other
     t: Other Areas
+  - key: options.work_areas.software_engineering
+    t: Software Engineering
 
   - key: options.work_areas.front_end
     t: Front-end development
@@ -2051,21 +2059,6 @@ translations:
     t: Bisexual
   - key: options.sexual_orientation.questioning
     t: Questioning/unsure
-
-  - key: user_info.github_username
-    t: Your GitHub Username
-  - key: user_info.github_username.description
-    t: >
-      We might use GitHub usernames in the future to look at
-      repos and cross-reference publicly available information.
-
-  - key: user_info.twitter_username
-    t: Your Twitter Username
-  - key: user_info.twitter_username.description
-    t: >
-      We might use Twitter usernames in the future to look at
-      Twitter activity and cross-reference publicly available information
-       (such as the list of people you're following).
 
   - key: user_info.industry_sector
     t: Industry Sector
