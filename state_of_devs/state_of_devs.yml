@@ -727,19 +727,19 @@ translations:
   - key: options.ai_sentiment.0
     t: 100% negative
   - key: options.ai_sentiment.1
-    aliasFor: options.ai_generated_code_balance.1
+    t: Mostly negative
   - key: options.ai_sentiment.2
-    aliasFor: options.ai_generated_code_balance.2
+    t: Negative
   - key: options.ai_sentiment.3
-    aliasFor: options.ai_generated_code_balance.3
+    t: Slightly negative
   - key: options.ai_sentiment.4
     t: Neutral
   - key: options.ai_sentiment.5
-    aliasFor: options.ai_generated_code_balance.5
+    t: Slightly positive
   - key: options.ai_sentiment.6
-    aliasFor: options.ai_generated_code_balance.6
+    t: Positive
   - key: options.ai_sentiment.7
-    aliasFor: options.ai_generated_code_balance.7
+    t: Mostly positive
   - key: options.ai_sentiment.8
     t: 100% positive
 
@@ -1311,6 +1311,8 @@ translations:
     t: "Yes"
   - key: options.workers_union.na
     t: Not applicable
+    aliases:
+      - options.workers_union.na.short
 
   # political_spectrum
 
@@ -1321,8 +1323,20 @@ translations:
 
   - key: options.political_spectrum.0
     t: Far-left
+  - key: options.political_spectrum.1
+    t: Very left-wing
+  - key: options.political_spectrum.2
+    t: Left-wing
+  - key: options.political_spectrum.3
+    t: Center-left
   - key: options.political_spectrum.4
     t: Center
+  - key: options.political_spectrum.5
+    t: Center-right
+  - key: options.political_spectrum.6
+    t: Right-wing
+  - key: options.political_spectrum.7
+    t: Very right-wing
   - key: options.political_spectrum.8
     t: Far-right
 

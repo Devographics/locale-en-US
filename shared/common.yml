@@ -365,6 +365,25 @@ translations:
   # Options
   ###########################################################################
 
+  - key: options.0_100_scale.0
+    t: 0%
+  - key: options.0_100_scale.1
+    t: 12.5%
+  - key: options.0_100_scale.2
+    t: 25%
+  - key: options.0_100_scale.3
+    t: 37.5%
+  - key: options.0_100_scale.4
+    t: 50%
+  - key: options.0_100_scale.5
+    t: 62.5%
+  - key: options.0_100_scale.6
+    t: 75%
+  - key: options.0_100_scale.7
+    t: 87.5%
+  - key: options.0_100_scale.8
+    t: 100%
+
   - key: options.experience.title
     t: Experience
 
@@ -2108,8 +2127,12 @@ translations:
   # survey_length
   - key: user_info.survey_length
     t: Survey Length
+    aliases:
+      - _user_metadata.survey_length
   - key: user_info.survey_length.question
     t: How do you feel about this survey's length?
+    aliases:
+      - _user_metadata.survey_length.question
 
   - key: options.survey_length.0
     t: I would've answered a lot more questions

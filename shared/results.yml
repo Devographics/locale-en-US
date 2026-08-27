@@ -790,6 +790,13 @@ translations:
   - key: blocks.entity.bluesky_link
     t: Bluesky
 
+  - key: blocks.entity.wikipedia_link
+    t: Wikipedia
+  - key: blocks.entity.amazon_link
+    t: Buy on Amazon
+  - key: blocks.entity.amazon_link.affiliate
+    t: Affiliate link
+
   # people
   - key: blocks.people.name
     t: Name
@@ -1065,6 +1072,8 @@ translations:
     t: Freeform
   - key: blocks.multiple
     t: Multiple
+  - key: blocks.option_limit
+    t: Limited
 
   # Reading List
   - key: features.reading_list
@@ -1296,6 +1305,11 @@ translations:
     t: Multiple Choice
   - key: charts.multiple_data.description
     t: Respondents could submit more than one answer for this question
+
+  - key: charts.option_limit
+    t: Option Limit
+  - key: charts.option_limit.description
+    t: Respondents were limited to picking {limit} options for this question
 
   - key: charts.tick.links
     t: Links
