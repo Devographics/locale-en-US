@@ -2608,6 +2608,16 @@ translations:
     aliases:
       - options.native_languages.arabic
       - options.other_languages.arabic
+  - key: options.locale.af
+    t: Afrikaans
+    aliases:
+      - options.native_languages.afrikaans
+      - options.other_languages.afrikaans
+  - key: options.locale.cn
+    t: Chinese
+    aliases:
+      - options.native_languages.chinese
+      - options.other_languages.chinese
   - key: options.locale.el-GR
     t: Greek
     aliases:

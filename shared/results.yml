@@ -790,6 +790,8 @@ translations:
   - key: blocks.entity.bluesky_link
     t: Bluesky
 
+  - key: blocks.entity.steam_link
+    t: Steam
   - key: blocks.entity.wikipedia_link
     t: Wikipedia
   - key: blocks.entity.amazon_link
@@ -2237,7 +2239,7 @@ translations:
 
   - key: charts.order
     t: >
-      Sort order:
+      Sort order
 
   - key: charts.sort_by
     t: >
@@ -2342,7 +2344,7 @@ translations:
 
   - key: charts.toggle_view
     t: >
-      Show:
+      Show
 
   ###########################################################################
   # Multi Items Experience Chart

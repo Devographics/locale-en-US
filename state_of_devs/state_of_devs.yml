@@ -205,7 +205,7 @@ translations:
   # negative_impacts
 
   - key: career.negative_impacts
-    t: Negative Impact
+    t: Workplace Responses
   - key: career.negative_impacts.question
     t: Have you taken any of the following actions in response to workplace issues?
 
