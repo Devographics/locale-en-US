@@ -312,7 +312,7 @@ translations:
 
   - key: ai_usage.ai_generated_code_balance.takeaway.devs2026
     t: |
-      TODO
+      There might be small pockets of AI resistance here and there (see this year's [State of CSS](https://2026.stateofcss.com/en-US/usage/#css_ai_generated_code_balance) data), but in 2026 the median developer is firmly in the AI era, with developers who write almost all their code through AI representing the largest single segment.
 
   - key: ai_usage.ai_sentiment.takeaway.devs2026
     t: |

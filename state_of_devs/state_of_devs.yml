@@ -689,7 +689,7 @@ translations:
   # ai_management_pressure
 
   - key: ai_usage.ai_management_pressure
-    t: AI Stance
+    t: Company AI Stance
   - key: ai_usage.ai_management_pressure.question
     t: What's your company's stance regarding AI usage?
   - key: ai_usage.ai_management_pressure.prompt
@@ -723,6 +723,10 @@ translations:
     t: AI Sentiment
   - key: ai_usage.ai_sentiment.question
     t: On a scale going from 100% negative to 100% positive, what is your overall opinion regarding AI?
+  - key: ai_usage.ai_sentiment.lower
+    t: anti-AI
+  - key: ai_usage.ai_sentiment.higher
+    t: pro-AI
 
   - key: options.ai_sentiment.0
     t: 100% negative
@@ -1320,6 +1324,10 @@ translations:
     t: Political Spectrum
   - key: worldview.political_spectrum.question
     t: Where do you place yourself on the left-wing/right-wing political spectrum?
+  - key: worldview.political_spectrum.lower
+    t: to the left
+  - key: worldview.political_spectrum.higher
+    t: to the right
 
   - key: options.political_spectrum.0
     t: Far-left
@@ -1350,7 +1358,7 @@ translations:
   # happiness_factors
   - key: worldview.happiness_factors
     t: Happiness Factors
-  - key: worldview.happiness_factors.description
+  - key: worldview.happiness_factors.question
     t: Which factors most influence your own personal happiness?
 
   - key: options.happiness_factors.health

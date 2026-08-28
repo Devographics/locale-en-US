@@ -2434,6 +2434,96 @@ translations:
     t: Useful Resources
 
   ###########################################################################
+  # Correlations
+  ###########################################################################
+
+  - key: correlations.correlations_trigger
+    t: Found {count} correlations with other variables
+
+  - key: correlations.heading
+    t: |
+      Correlations for “{questionLabel}: {optionLabel}”
+
+  - key: correlations.note
+    t: |
+      For each pair of questions, we compare the answers of everyone who answered both and measure whether they move together, using [Spearman's rank correlation](https://en.wikipedia.org/wiki/Spearman%27s_rank_correlation_coefficient). Individual answers are also compared in a similar way (using the [phi coefficient](https://en.wikipedia.org/wiki/Phi_coefficient)). Only correlations above a minimum strength, and based on enough responses, are shown.
+
+      Please note that [correlation does not imply causation](https://en.wikipedia.org/wiki/Correlation_does_not_imply_causation), and these are raw associations generated automatically with no [controls for other factors](https://en.wikipedia.org/wiki/Confounding).
+
+  - key: correlations.takeaway.shape2
+    t: |
+      <span class="correlation-item-content-strength">{strengthLevelLabel}</span> correlation with respondents scoring <span class="correlation-item-content-direction">{directionLabel}</span> on the question “{questionLabel}”.
+
+  - key: correlations.takeaway.shape3
+    t: |
+      <span class="correlation-item-content-strength">{strengthLevelLabel}</span> <span class="correlation-item-content-direction">{directionLabel}</span> correlation with respondents who answered **{optionLabel}** to the question “{questionLabel}”
+
+  - key: correlations.strength_levels
+    t: Correlation Strength Levels
+
+  - key: correlations.strength_levels.description
+    t: Stronger correlations don't always mean better insights.
+
+  - key: correlations.strength.very_strong
+    t: Very strong
+  - key: correlations.strength.very_strong.description
+    t: Too strong for “normal” correlations and most likely tautological (e.g. “MacOS usage is correlated with being on desktop”).
+
+  - key: correlations.strength.strong
+    t: Strong
+  - key: correlations.strength.strong.description
+    t: Often a sign that a correlation is too obvious to be insightful (e.g. “living in Germany is correlated with speaking German”).
+
+  - key: correlations.strength.moderate
+    t: Moderate
+  - key: correlations.strength.moderate.description
+    t: May indicate an interesting correlation worth digging into!
+
+  - key: correlations.strength.weak
+    t: Weak
+  - key: correlations.strength.weak.description
+    t: Most likely not statistically significant.
+
+  - key: correlations.strength
+    t: Strength
+  - key: correlations.strength.description
+    t: How strong the correlation is
+
+  - key: correlations.direction
+    t: Direction
+  - key: correlations.strength.description
+    t: Whether the two variables move together or in opposite ways
+
+  - key: correlations.direction.positive
+    t: positive
+  - key: correlations.direction.negative
+    t: negative
+  - key: correlations.direction.lower
+    t: lower
+  - key: correlations.direction.higher
+    t: higher
+
+  - key: correlations.value
+    t: Value
+  - key: correlations.value.description
+    t: The correlation coefficient
+
+  - key: correlations.variable
+    t: Variable
+  - key: correlations.variable.description
+    t: Which variable is correlated
+
+  - key: correlations.sample_size
+    t: |
+      Sample size:
+  - key: correlations.variable.description
+    t: The sample size of the subset of respondents the correlation is based on
+
+  - key: correlations.respondents
+    t: |
+      {n} respondents
+
+  ###########################################################################
   # Download
   ###########################################################################
 
