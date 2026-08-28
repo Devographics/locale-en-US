@@ -2440,23 +2440,33 @@ translations:
   - key: correlations.correlations_trigger
     t: Found {count} correlations with other variables
 
-  - key: correlations.heading
+  - key: correlations.heading.direction
     t: |
-      Correlations for “{questionLabel}: {optionLabel}”
+      Correlations for scoring **{directionLabel}** on “{questionLabel}”
+
+  - key: correlations.heading.option
+    t: |
+      Correlations for answering **{optionLabel}** for “{questionLabel}”
 
   - key: correlations.note
     t: |
-      For each pair of questions, we compare the answers of everyone who answered both and measure whether they move together, using [Spearman's rank correlation](https://en.wikipedia.org/wiki/Spearman%27s_rank_correlation_coefficient). Individual answers are also compared in a similar way (using the [phi coefficient](https://en.wikipedia.org/wiki/Phi_coefficient)). Only correlations above a minimum strength, and based on enough responses, are shown.
+      Questions and individual answers are compared against one another using [Spearman's rank correlation](https://en.wikipedia.org/wiki/Spearman%27s_rank_correlation_coefficient). Only correlations above a minimum strength and based on enough responses are shown.
 
-      Please note that [correlation does not imply causation](https://en.wikipedia.org/wiki/Correlation_does_not_imply_causation), and these are raw associations generated automatically with no [controls for other factors](https://en.wikipedia.org/wiki/Confounding).
+      Please note that [correlation does not imply causation](https://en.wikipedia.org/wiki/Correlation_does_not_imply_causation), and these are automatically-generated raw associations with no [controls for other factors](https://en.wikipedia.org/wiki/Confounding). And with thousands of pairs compared, some correlations may also be [due to chance](https://en.wikipedia.org/wiki/Multiple_comparisons_problem).
 
-  - key: correlations.takeaway.shape2
+  - key: correlations.takeaway.with_question
     t: |
       <span class="correlation-item-content-strength">{strengthLevelLabel}</span> correlation with respondents scoring <span class="correlation-item-content-direction">{directionLabel}</span> on the question “{questionLabel}”.
+    aliases:
+      - correlations.takeaway.shape1
+      - correlations.takeaway.shape2
 
-  - key: correlations.takeaway.shape3
+  - key: correlations.takeaway.with_option
     t: |
       <span class="correlation-item-content-strength">{strengthLevelLabel}</span> <span class="correlation-item-content-direction">{directionLabel}</span> correlation with respondents who answered **{optionLabel}** to the question “{questionLabel}”
+    aliases:
+      - correlations.takeaway.shape3
+      - correlations.takeaway.shape4
 
   - key: correlations.strength_levels
     t: Correlation Strength Levels
@@ -2466,23 +2476,12 @@ translations:
 
   - key: correlations.strength.very_strong
     t: Very strong
-  - key: correlations.strength.very_strong.description
-    t: Too strong for “normal” correlations and most likely tautological (e.g. “MacOS usage is correlated with being on desktop”).
-
   - key: correlations.strength.strong
     t: Strong
-  - key: correlations.strength.strong.description
-    t: Often a sign that a correlation is too obvious to be insightful (e.g. “living in Germany is correlated with speaking German”).
-
   - key: correlations.strength.moderate
     t: Moderate
-  - key: correlations.strength.moderate.description
-    t: May indicate an interesting correlation worth digging into!
-
   - key: correlations.strength.weak
     t: Weak
-  - key: correlations.strength.weak.description
-    t: Most likely not statistically significant.
 
   - key: correlations.strength
     t: Strength
@@ -2491,13 +2490,21 @@ translations:
 
   - key: correlations.direction
     t: Direction
-  - key: correlations.strength.description
+  - key: correlations.direction.description
     t: Whether the two variables move together or in opposite ways
 
   - key: correlations.direction.positive
     t: positive
+  - key: correlations.direction.positive.description
+    t: |
+      **Positive correlation** (0 to 1): when variable A increase, variable B **increases**.
+
   - key: correlations.direction.negative
     t: negative
+  - key: correlations.direction.negative.description
+    t: |
+      **Negative correlation** (0 to -1): when variable A increase, variable B **decreases**.
+
   - key: correlations.direction.lower
     t: lower
   - key: correlations.direction.higher

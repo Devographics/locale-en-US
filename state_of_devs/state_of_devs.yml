@@ -1308,7 +1308,7 @@ translations:
     t: Are you currently a member of a worker's union or syndicate?
 
   - key: options.workers_union.no_no_interest
-    t: No, and I have not interest in joining one
+    t: No, and I have no interest in joining one
   - key: options.workers_union.no_but_interested
     t: No, but I'd like to join one
   - key: options.workers_union.yes
