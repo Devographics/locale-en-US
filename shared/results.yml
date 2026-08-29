@@ -2442,28 +2442,28 @@ translations:
 
   - key: correlations.heading.direction
     t: |
-      Correlations for scoring **{directionLabel}** on “{questionLabel}”
+      Correlations for scoring **{directionLabel}** on **“{questionLabel}”**
 
   - key: correlations.heading.option
     t: |
-      Correlations for answering **{optionLabel}** for “{questionLabel}”
+      Correlations for picking **“{optionLabel}”** for **“{questionLabel}”**
 
   - key: correlations.note
     t: |
-      Questions and individual answers are compared against one another using [Spearman's rank correlation](https://en.wikipedia.org/wiki/Spearman%27s_rank_correlation_coefficient). Only correlations above a minimum strength and based on enough responses are shown.
+      Questions and individual answers are compared against one another using [Spearman's rank correlation](https://en.wikipedia.org/wiki/Spearman%27s_rank_correlation_coefficient). Only correlations based on enough responses and above a minimum strength threshold are shown, and trivial correlations (e.g. “living in Spain is correlated with speaking Spanish”) may be automatically excluded. 
 
       Please note that [correlation does not imply causation](https://en.wikipedia.org/wiki/Correlation_does_not_imply_causation), and these are automatically-generated raw associations with no [controls for other factors](https://en.wikipedia.org/wiki/Confounding). And with thousands of pairs compared, some correlations may also be [due to chance](https://en.wikipedia.org/wiki/Multiple_comparisons_problem).
 
   - key: correlations.takeaway.with_question
     t: |
-      <span class="correlation-item-content-strength">{strengthLevelLabel}</span> correlation with respondents scoring <span class="correlation-item-content-direction">{directionLabel}</span> on the question “{questionLabel}”.
+      <span class="correlation-item-content-strength">{strengthLevelLabel}</span> correlation with respondents scoring <span class="correlation-item-content-direction">{directionLabel}</span> on the question **“{questionLabel}”**.
     aliases:
       - correlations.takeaway.shape1
       - correlations.takeaway.shape2
 
   - key: correlations.takeaway.with_option
     t: |
-      <span class="correlation-item-content-strength">{strengthLevelLabel}</span> <span class="correlation-item-content-direction">{directionLabel}</span> correlation with respondents who answered **{optionLabel}** to the question “{questionLabel}”
+      <span class="correlation-item-content-strength">{strengthLevelLabel}</span> <span class="correlation-item-content-direction">{directionLabel}</span> correlation with respondents who answered **“{optionLabel}”** to the question **“{questionLabel}”**
     aliases:
       - correlations.takeaway.shape3
       - correlations.takeaway.shape4
