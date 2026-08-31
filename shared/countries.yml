@@ -4,176 +4,349 @@ locale: en-US
 translations:
   - key: options.country.AFG
     t: Afghanistan
+    aliases:
+      - options.country_of_origin.AFG
   - key: options.country.DZA
     t: Algeria
+    aliases:
+      - options.country_of_origin.DZA
   - key: options.country.ARG
     t: Argentina
+    aliases:
+      - options.country_of_origin.ARG
   - key: options.country.ARM
     t: Armenia
+    aliases:
+      - options.country_of_origin.ARM
   - key: options.country.AUS
     t: Australia
+    aliases:
+      - options.country_of_origin.AUS
   - key: options.country.AUT
     t: Austria
+    aliases:
+      - options.country_of_origin.AUT
   - key: options.country.BGD
     t: Bangladesh
+    aliases:
+      - options.country_of_origin.BGD
   - key: options.country.BEL
     t: Belgium
+    aliases:
+      - options.country_of_origin.BEL
   - key: options.country.BLR
     t: Belarus
+    aliases:
+      - options.country_of_origin.BLR
   - key: options.country.BIH
     t: Bosnia and Herzegovina
+    aliases:
+      - options.country_of_origin.BIH
   - key: options.country.BRA
     t: Brazil
+    aliases:
+      - options.country_of_origin.BRA
   - key: options.country.BGR
     t: Bulgaria
+    aliases:
+      - options.country_of_origin.BGR
   - key: options.country.CAN
     t: Canada
+    aliases:
+      - options.country_of_origin.CAN
   - key: options.country.CRI
     t: Costa Rica
+    aliases:
+      - options.country_of_origin.CRI
   - key: options.country.HRV
     t: Croatia
+    aliases:
+      - options.country_of_origin.HRV
   - key: options.country.CHE
     t: Switzerland
+    aliases:
+      - options.country_of_origin.CHE
   - key: options.country.CHL
     t: Chile
+    aliases:
+      - options.country_of_origin.CHL
   - key: options.country.CHN
     t: China
+    aliases:
+      - options.country_of_origin.CHN
   - key: options.country.COD
     t: DR Congo
+    aliases:
+      - options.country_of_origin.COD
   - key: options.country.COL
     t: Colombia
+    aliases:
+      - options.country_of_origin.COL
   - key: options.country.CIV
     t: Côte d'Ivoire
+    aliases:
+      - options.country_of_origin.CIV
   - key: options.country.CYP
     t: Cyprus
+    aliases:
+      - options.country_of_origin.CYP
   - key: options.country.CZE
     t: Czechia
+    aliases:
+      - options.country_of_origin.CZE
   - key: options.country.DEU
     t: Germany
+    aliases:
+      - options.country_of_origin.DEU
   - key: options.country.GRC
     t: Greece
+    aliases:
+      - options.country_of_origin.GRC
   - key: options.country.DNK
     t: Denmark
+    aliases:
+      - options.country_of_origin.DNK
   - key: options.country.EGY
     t: Egypt
+    aliases:
+      - options.country_of_origin.EGY
   - key: options.country.EST
     t: Estonia
+    aliases:
+      - options.country_of_origin.EST
   - key: options.country.ETH
     t: Ethiopia
+    aliases:
+      - options.country_of_origin.ETH
   - key: options.country.FIN
     t: Finland
+    aliases:
+      - options.country_of_origin.FIN
   - key: options.country.FRA
     t: France
+    aliases:
+      - options.country_of_origin.FRA
   - key: options.country.GEO
     t: Georgia
+    aliases:
+      - options.country_of_origin.GEO
   - key: options.country.GHA
     t: Ghana
+    aliases:
+      - options.country_of_origin.GHA
   - key: options.country.HKG
     t: Hong Kong
+    aliases:
+      - options.country_of_origin.HKG
   - key: options.country.HUN
     t: Hungary
+    aliases:
+      - options.country_of_origin.HUN
   - key: options.country.IND
     t: India
+    aliases:
+      - options.country_of_origin.IND
   - key: options.country.IDN
     t: Indonesia
+    aliases:
+      - options.country_of_origin.IDN
   - key: options.country.IRL
     t: Ireland
+    aliases:
+      - options.country_of_origin.IRL
   - key: options.country.ISL
     t: Iceland
+    aliases:
+      - options.country_of_origin.ISL
   - key: options.country.IRN
     t: Iran
+    aliases:
+      - options.country_of_origin.IRN
   - key: options.country.IRQ
     t: Iraq
+    aliases:
+      - options.country_of_origin.IRQ
   - key: options.country.ITA
     t: Italy
+    aliases:
+      - options.country_of_origin.ITA
   - key: options.country.ISR
     t: Israel
+    aliases:
+      - options.country_of_origin.ISR
   - key: options.country.JPN
     t: Japan
+    aliases:
+      - options.country_of_origin.JPN
   - key: options.country.KEN
     t: Kenya
+    aliases:
+      - options.country_of_origin.KEN
   - key: options.country.LTU
     t: Lithuania
+    aliases:
+      - options.country_of_origin.LTU
   - key: options.country.LVA
     t: Latvia
+    aliases:
+      - options.country_of_origin.LVA
   - key: options.country.LUX
     t: Luxembourg
+    aliases:
+      - options.country_of_origin.LUX
   - key: options.country.MDA
     t: Moldova
+    aliases:
+      - options.country_of_origin.MDA
   - key: options.country.MEX
     t: Mexico
+    aliases:
+      - options.country_of_origin.MEX
   - key: options.country.MMR
     t: Myanmar
+    aliases:
+      - options.country_of_origin.MMR
   - key: options.country.NPL
     t: Nepal
+    aliases:
+      - options.country_of_origin.NPL
   - key: options.country.MKD
     t: North Macedonia
+    aliases:
+      - options.country_of_origin.MKD
   - key: options.country.NOR
     t: Norway
+    aliases:
+      - options.country_of_origin.NOR
   - key: options.country.NLD
     t: Netherlands
+    aliases:
+      - options.country_of_origin.NLD
   - key: options.country.NGA
     t: Nigeria
+    aliases:
+      - options.country_of_origin.NGA
   - key: options.country.NZL
     t: New Zealand
+    aliases:
+      - options.country_of_origin.NZL
   - key: options.country.POL
     t: Poland
+    aliases:
+      - options.country_of_origin.POL
   - key: options.country.PRT
     t: Portugal
+    aliases:
+      - options.country_of_origin.PRT
   - key: options.country.PAK
     t: Pakistan
+    aliases:
+      - options.country_of_origin.PAK
   - key: options.country.PER
     t: Peru
+    aliases:
+      - options.country_of_origin.PER
   - key: options.country.PHL
     t: Philippines
+    aliases:
+      - options.country_of_origin.PHL
   - key: options.country.ROU
     t: Romania
+    aliases:
+      - options.country_of_origin.ROU
   - key: options.country.RUS
     t: Russia
+    aliases:
+      - options.country_of_origin.RUS
   - key: options.country.SAU
     t: Saudi Arabia
+    aliases:
+      - options.country_of_origin.SAU
   - key: options.country.SRB
     t: Serbia
+    aliases:
+      - options.country_of_origin.SRB
   - key: options.country.SGP
     t: Singapore
+    aliases:
+      - options.country_of_origin.SGP
   - key: options.country.SVK
     t: Slovakia
+    aliases:
+      - options.country_of_origin.SVK
   - key: options.country.SVN
     t: Slovenia
+    aliases:
+      - options.country_of_origin.SVN
   - key: options.country.ZAF
     t: South Africa
+    aliases:
+      - options.country_of_origin.ZAF
   - key: options.country.KOR
     t: South Korea
+    aliases:
+      - options.country_of_origin.KOR
   - key: options.country.ESP
     t: Spain
+    aliases:
+      - options.country_of_origin.ESP
   - key: options.country.SWE
     t: Sweden
+    aliases:
+      - options.country_of_origin.SWE
   - key: options.country.TWN
     t: Taiwan
+    aliases:
+      - options.country_of_origin.TWN
   - key: options.country.TZA
     t: Tanzania
+    aliases:
+      - options.country_of_origin.TZA
   - key: options.country.THA
     t: Thailand
+    aliases:
+      - options.country_of_origin.THA
   - key: options.country.TUR
     t: Turkey
+    aliases:
+      - options.country_of_origin.TUR
   - key: options.country.UGA
     t: Uganda
+    aliases:
+      - options.country_of_origin.UGA
   - key: options.country.UKR
     t: Ukraine
+    aliases:
+      - options.country_of_origin.UKR
   - key: options.country.URY
     t: Uruguay
+    aliases:
+      - options.country_of_origin.URY
   - key: options.country.ARE
     t: United Arab Emirates
+    aliases:
+      - options.country_of_origin.ARE
   - key: options.country.GBR
     t: United Kingdom
+    aliases:
+      - options.country_of_origin.GBR
   - key: options.country.SCT # not a country but still adding it
     t: Scotland
+    aliases:
+      - options.country_of_origin.SCT
   - key: options.country.USA
     t: USA
+    aliases:
+      - options.country_of_origin.USA
   - key: options.country.VEN
     t: Venezuela
+    aliases:
+      - options.country_of_origin.VEN
   - key: options.country.VNM
     t: Vietnam
+    aliases:
+      - options.country_of_origin.VNM
+
 # from https://github.com/lukes/ISO-3166-Countries-with-Regional-Codes/blob/master/slim-3/slim-3.json
 
 # - name: Afghanistan

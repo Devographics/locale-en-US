@@ -2133,6 +2133,14 @@ translations:
     t: How do you feel about this survey's length?
     aliases:
       - _user_metadata.survey_length.question
+  - key: user_info.survey_length.lower
+    t: too short
+    aliases:
+      - _user_metadata.survey_length.lower
+  - key: user_info.survey_length.higher
+    t: too long
+    aliases:
+      - _user_metadata.survey_length.higher
 
   - key: options.survey_length.0
     t: I would've answered a lot more questions
