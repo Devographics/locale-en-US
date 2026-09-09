@@ -2448,6 +2448,11 @@ translations:
     t: |
       Correlations for picking **“{optionLabel}”** for **“{questionLabel}”**
 
+  - key: correlations.exclusions
+    t: "Excluded correlations: "
+  - key: correlations.exclusions.description
+    t: Some correlation pairs are manually filtered out when considered too obvious or not relevant.
+
   - key: correlations.note
     t: |
       Questions and individual answers are compared against one another using [Spearman's rank correlation](https://en.wikipedia.org/wiki/Spearman%27s_rank_correlation_coefficient). Only correlations based on enough responses and above a minimum strength threshold are shown, and trivial correlations (e.g. “living in Spain is correlated with speaking Spanish”) may be automatically excluded. 

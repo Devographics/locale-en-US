@@ -2656,3 +2656,51 @@ translations:
     aliases:
       - options.native_languages.vietnamese
       - options.other_languages.vietnamese
+
+  - key: options.locale.he-IL
+    t: Hebrew
+    aliases:
+      - options.native_languages.hebrew
+      - options.other_languages.hebrew
+
+  - key: options.locale.da-DK
+    t: Danish
+    aliases:
+      - options.native_languages.danish
+      - options.other_languages.danish
+
+  - key: options.locale.no-NO
+    t: Norwegian
+    aliases:
+      - options.native_languages.norwegian
+      - options.other_languages.norwegian
+
+  - key: options.locale.sr-RS
+    t: Serbian
+    aliases:
+      - options.native_languages.serbian
+      - options.other_languages.serbian
+
+  - key: options.locale.fi-FI
+    t: Finnish
+    aliases:
+      - options.native_languages.finnish
+      - options.other_languages.finnish
+
+  - key: options.locale.bg-BG
+    t: Bulgarian
+    aliases:
+      - options.native_languages.bulgarian
+      - options.other_languages.bulgarian
+
+  - key: options.locale.be-BY
+    t: Belarussian
+    aliases:
+      - options.native_languages.belarussian
+      - options.other_languages.belarussian
+
+  - key: options.locale.zh-mandarin
+    t: Mandarin Chinese
+    aliases:
+      - options.native_languages.mandarin
+      - options.other_languages.mandarin

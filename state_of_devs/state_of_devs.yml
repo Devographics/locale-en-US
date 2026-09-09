@@ -1798,6 +1798,12 @@ translations:
     t: vs. Relationship Status
   - key: tabs.vs_number_of_kids
     t: vs. Number of Kids
+  - key: tabs.by_work_hours
+    t: By Work Hours
+  - key: tabs.vs_country_of_origin
+    t: vs. Country of Origin
+  - key: tabs.vs_migration_experience
+    t: vs. Migration Experience
 
   # relocation countries
 

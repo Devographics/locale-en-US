@@ -157,7 +157,7 @@ translations:
   - key: accounts.create_account
     t: Continue with Account
   - key: accounts.create_account.description
-    t: Having an account lets you **access your own data in the future** and be notified when survey results are published.
+    t: Having an account lets you **access your own data in the future**.
   - key: accounts.create_account.note
     t: If you **already have an account** we will send you a magic log-in link by email.
   - key: accounts.create_account.action

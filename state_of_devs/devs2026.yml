@@ -71,61 +71,59 @@ translations:
 
   - key: user_info.country.takeaway.devs2026
     t: |
-      TODO
+      It's no secret that **U.S.** developers tend to earn higher salaries, and the data once again confirms this trend. 
 
-      The median income gap among developers between the U.S. and other countries remains large, driven at least partly by high Silicon Valley salaries and cost of living.
+      But while U.S. respondents earn a lot, they also work a lot. On the other hand, the **United Kingdom**, **Norway** and **Denmark** stand out as ranking in the top 10 for both highest income and fewest hours worked. 
+
+      Note that this year we additionally asked respondents for their country of *origin*, although no big differences were observed.
 
   - key: user_info.country_of_origin.takeaway.devs2026
     t: |
-      TODO
+      Respondents' country of origin tends to match their country of residence fairly closely.
 
   - key: user_info.migration_experience.takeaway.devs2026
     t: |
-      TODO
+      Looking at immigration experience reveals that respondents who have immigrant parents or are immigrants themselves tend to earn significantly more (although speculating on the causes of this correlation is beyond the scope of this survey).
+
+      And while **Japan** shows the highest immigration levels among respondents, this is almost certainly due to the survey failing to reach the native Japanese population more than to any real demographic trend. 
+
+      On the other hand, despite being known as “a nation of immigrants”, only 17% of respondents from the **U.S.** have immigrant roots, versus 22% overall.
 
   - key: user_info.native_languages.takeaway.devs2026
     t: |
-      TODO
+      When comparing the lists of native languages (tab 1) and languages learned later on (tab 2), one entry stands out: while only 20 respondents speak Japanese natively, 140 of them have learned it, reflecting the country's strong cultural pull.
 
-  - key: user_info.other_languages.takeaway.devs2026
-    t: |
-      TODO
+  # - key: user_info.other_languages.takeaway.devs2026
+  #   t: |
+  #     TODO
 
   - key: user_info.gender.takeaway.devs2026
     t: |
-      TODO
+      Looking at the data reveals that while most factors are not strongly correlated with gender, a few key areas definitely *are*. 
 
-      15% of women participation might feel small, but it's at least considerably higher than [other surveys](https://2024.stateofjs.com/en-US/demographics/#gender), which tend to hover around 6%. 
-
-      And while the data reveals a gender income gap, further research would be needed to conclude whether this is due to gender discrimination, or other correlated factors.
+      For example, men tend not to experience workplace discrimination as much, and are also much more likely to identify as straight/heterosexual.
 
   - key: user_info.sexual_orientation.takeaway.devs2026
     t: |
-      TODO
+      Sexual orientation is an area that lacks both data and representation in the developer community, and for that reason we decided to add it to the survey this year.
+
+      Straight/heterosexual respondents are more likely to identify as **right-wing**, and less likely to experience **neurodivergent conditions**, while both gay/lesbian and bisexual groups are more likely to be worried about **rising intolerance** as a global issue.
 
   - key: user_info.race_ethnicity.takeaway.devs2026
     t: |
-      TODO
+      As one might expect, race is strongly correlated with native language (note that Country and Country of Origin are automatically filtered out here).
 
-      Looking at race & ethnicity data shows that non-white groups tend to skew younger, a recurring trend that is also present in [other surveys](https://2024.stateofjs.com/en-US/demographics/#race_ethnicity).
-
-      It also highlights how different racial groups can have very different gender breakdowns.
+      Another correlation worth pointing out: **white** respondents are more likely to be older and have more years of programming experience, which has been a recurring finding since tracking this datapoint.
 
   - key: user_info.relationship_status.takeaway.devs2026
     t: |
-      TODO
-
-      Most respondents find a life partner by the time they're in their thirties, although doing so seems much more of a challenge in some countries compared to others.
-
-      And when looking at gender, non-binary respondents are single at a much higher rate than either men or women.
+      As one might expect, married respondents have more children–but not that much more. With an average of only **0.9** children, even married couples are far below the often-cited 2.1 children population replacement rate.
 
   - key: user_info.number_of_kids.takeaway.devs2026
     t: |
-      TODO
+      The global fertility collapse is in full display in this dataset, with families with 4 kids or more accounting for less than 2% of respondents.  
 
-      A majority of respondents do not have children, and those who do become parents tend to do relatively late in life. 
-
-      Women and non-binary respondents also had fewer kids on average compared to men.
+      One cause is that respondents are waiting to have children later in life (the average number of children in the 20-29 age bracket is a mere **0.07**), resulting in a much shorter window before the eventual biological cutoff.
 
   # career
 
