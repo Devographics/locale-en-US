@@ -660,6 +660,9 @@ translations:
   - key: options.job_title.head_of_technology
     t: Head of Technology
 
+  - key: options.job_title.principal_engineer
+    t: Principal Engineer
+
   ###########################################################################
   # Features
   ###########################################################################
@@ -1179,6 +1182,8 @@ translations:
     t: User Count
   - key: charts.axis_legends.users_average
     t: Average {axis}
+  - key: charts.axis_legends.average_value
+    t: Average {axis}
   - key: charts.axis_legends.interest_percentage
     t: Interest %
   - key: charts.axis_legends.satisfaction_percentage
@@ -1189,6 +1194,12 @@ translations:
     t: Usage %
   - key: charts.axis_legends.awareness_percentage
     t: Awareness %
+  - key: charts.axis_legends.r2
+    t: |
+      R2: {r2}
+  - key: charts.axis_legends.r2.description
+    t: |
+      R² (the coefficient of determination) measures how closely the points hug the trend line, from 0 (no relationship) to 1 (a perfect straight-line fit).
 
   - key: chart_units.interest_percentage
     aliasFor: charts.axis_legends.interest_percentage
@@ -2306,6 +2317,9 @@ translations:
   - key: charts.metadata.sort_desc
     t: >
       Sorted by **{value}**, **descending**
+  - key: charts.metadata.averageCardinality
+    t: >
+      Average number of options selected
 
   - key: charts.average.marker
     t: >
@@ -2440,13 +2454,22 @@ translations:
   - key: correlations.correlations_trigger
     t: Found {count} correlations with other variables
 
-  - key: correlations.heading.direction
+  # heading
+
+  # note: we need tu support a custom directionLabel for heading such as
+  # "correlation for scoring **to the right** on…"
+
+  - key: correlations.heading.trend
     t: |
-      Correlations for scoring **{directionLabel}** on **“{questionLabel}”**
+      Correlations for scoring <span class="correlation-direction">{directionLabel}</span> on **“{questionLabel}”**
 
   - key: correlations.heading.option
     t: |
       Correlations for picking **“{optionLabel}”** for **“{questionLabel}”**
+
+  - key: correlations.heading.cardinality
+    t: |
+      Correlations for selecting <span class="correlation-direction">more</span> items for **“{questionLabel}”**
 
   - key: correlations.exclusions
     t: "Excluded correlations: "
@@ -2461,23 +2484,62 @@ translations:
 
   - key: correlations.takeaway.with_question
     t: |
-      <span class="correlation-item-content-strength">{strengthLevelLabel}</span> correlation with respondents scoring <span class="correlation-item-content-direction">{directionLabel}</span> on the question **“{questionLabel}”**.
+      <span class="correlation-item-content-strength">{strengthLevelLabel}</span> correlation with respondents scoring <span class="correlation-direction">{directionLabel}</span> on the question **“{questionLabel}”**.
     aliases:
       - correlations.takeaway.shape1
       - correlations.takeaway.shape2
+      - correlations.takeaway.shape7
 
   - key: correlations.takeaway.with_option
     t: |
-      <span class="correlation-item-content-strength">{strengthLevelLabel}</span> <span class="correlation-item-content-direction">{directionLabel}</span> correlation with respondents who answered **“{optionLabel}”** to the question **“{questionLabel}”**
+      <span class="correlation-item-content-strength">{strengthLevelLabel}</span> <span class="correlation-direction">{directionLabel}</span> correlation with respondents who answered **“{optionLabel}”** to the question **“{questionLabel}”**
     aliases:
       - correlations.takeaway.shape3
       - correlations.takeaway.shape4
+      - correlations.takeaway.shape8
+
+  - key: correlations.takeaway.with_cardinality
+    t: |
+      <span class="correlation-item-content-strength">{strengthLevelLabel}</span> correlation with respondents selecting <span class="correlation-direction">{directionLabel}</span> items for the question **“{questionLabel}”**.
+    aliases:
+      - correlations.takeaway.shape5
+      - correlations.takeaway.shape6
+      - correlations.takeaway.shape9
+
+  - key: correlations.respondent_count.description
+    t: Based on a sample of {respondentCount} respondents having answered both questions
 
   - key: correlations.strength_levels
     t: Correlation Strength Levels
 
   - key: correlations.strength_levels.description
     t: Stronger correlations don't always mean better insights.
+
+  # option
+
+  - key: correlations.option.subheading
+    t: Selected “{optionLabel}”
+
+  # trend
+
+  - key: correlations.trend.subheading
+    t: Overall trend
+
+  # cardinality
+
+  - key: correlations.cardinality.subheading
+    t: Number of items selected
+  - key: correlations.cardinality.negative
+    t: fewer
+  - key: correlations.cardinality.positive
+    t: more
+
+  # strength
+
+  - key: correlations.strength
+    t: Strength
+  - key: correlations.strength.description
+    t: How strong the correlation is
 
   - key: correlations.strength.very_strong
     t: Very strong
@@ -2488,11 +2550,7 @@ translations:
   - key: correlations.strength.weak
     t: Weak
 
-  - key: correlations.strength
-    t: Strength
-  - key: correlations.strength.description
-    t: How strong the correlation is
-
+  # direction
   - key: correlations.direction
     t: Direction
   - key: correlations.direction.description

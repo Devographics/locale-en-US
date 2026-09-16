@@ -132,76 +132,55 @@ translations:
 
   - key: career.years_of_experience.takeaway.devs2026
     t: |
-      TODO
+      Junior developers did not participate in the survey as much this year around, with only 9% of respondents having 4 years of professional experience or less. 
 
-      More experience is correlated with a higher salary – up to a point. Past 15 years of experience, the gains become relatively small.
-
-  - key: career.higher_education_degree.takeaway.devs2026
-    t: |
-      TODO
-
-      Having a degree will result in higher income, but interestingly enough it doesn't necessarily have to be related to programming.
+      It will be interesting to see how this AI-native generation of developers evolves going forward, but for now at least the vast majority of respondents had their professional start in a pre-AI world.
 
   - key: career.how_many_jobs.takeaway.devs2026
     t: |
-      TODO
+      Looking at correlations for this question reveals a strong correlation for having worked for more employers, and reporting more workplace issues. 
 
-      Respondents have worked for 4.2 employers on average. And while having worked for more employers is associated with a higher income, that correlation does become weaker when controlling for years of experience.
+      While this could simply be due to respondents experiencing more issues over time, another factor could also be junior hires lacking the perspective to identify problematic behaviors in the first place.
 
   - key: career.employment_status.takeaway.devs2026
     t: |
-      TODO
-
-      While freelancers and independent contractors earn less than full-time employees, it was surprising to see that becoming a founder or an entrepreneur does not result in a significant income increase.
-
-      Company employees were also the group most likely to have seen their income grow over the past year.
+      While 53% of company employees have seen their income increase over the past year, freelancers on the other hand have not been so lucky, with only 32% of them seeing a positive evolution.
 
   - key: career.career_issues.takeaway.devs2026
     t: |
-      TODO
+      Apart from **job insecurity** itself, **discrimination** stands out as the issue most likely to make respondents think they'll have to change jobs in the near future. 
 
-      It's clear that the top three issues reported here are all interconnected: bad management leads to work-life balance issues, which then leads to burnout. 
-
-      Gender does seem to have an impact on career issues, with women and non-binary respondents experiencing every issue at a higher rate, especially when it comes to **discrimination** (35%) and **mental health issues** (62%).
+      It's also interesting to see how factors such as **gender** can affect workplace issues. For example, while men reported **4.2** different issues on average, women and non-binary respondents checked **4.8** items.
 
   - key: career.discrimination_issues.takeaway.devs2026
     t: |
+      **Age** is the most commonly reported discrimination factor, but looking at the additional comments left by respondents, it seems it can cut both ways: respondents mentioned both being overlooked for looking too young, and discounted for being too old.
 
-      TODO
+      It's also worth pointing out that discrimination can have many forms, and sometimes even pro-diversity initiatives can have negative impacts on the people they're meant to help. As one respondent pointed out, “beinging the token woman is exhausting. I'm expected to be in employer marketing material and provide opinions on all things DEI without compensation”.
 
-      While we often think of discrimination in terms of gender or race, the most commonly reported factor is actually age, something that eventually affects all of us. 
-
-      Breaking down the top 5 causes of discrimination by age range reveals that age discrimination becomes especially prevalent after 50 years old.
+      Finally, picking more items for this question is correlated with experiencing more **ongoing health issues**, which is another reminder that workplace issues do not happen in a vacuum.
 
   - key: career.negative_impacts.takeaway.devs2026
     t: |
 
-      TODO
+      While 33% of male respondents declared never having to take any action in response to workplace issues, that figure falls to 18% when looking at non-men. 
 
-      Among all respondents, non-confrontational approaches such as avoiding colleagues, changing your behavior, or even resigning are the most common coping strategies in response to workplace issues. 
-
-      The data also clearly shows the impact of gender, with women and non-binary respondents as a whole suffering each negative impact at a higher rate than men.
-
-      Race and ethnicity on the other hand do not seem to have a similarly clear-cut impact. In fact, slightly *fewer* non-white respondents reported having resigned or sought therapy due to workplace issues – although further research would be needed to determine if this is because they didn't feel that need; or because they did but weren't in a position to act on it.
+      Across the board, the most common responses are **avoiding colleagues**, **changing your own behavior**, or simply **resigning**. But no matter which strategy respondents adopted, these were all reported at higher rates among non-men.
 
   - key: career.laid_off.takeaway.devs2026
     t: |
 
-      TODO
-
-      Despite talks of a tech downturn, the majority of respondents have still never been laid off.
-
-      When ranking by country seeing the most layoffs, the U.S. with its employer-friendly labor laws tops the ranking; while countries such as France and Japan appear towards the bottom of the list.
+      While the majority of respondents have never been laid off, we can see affirmative responses slowly creep up compared to last year (with the usual caveat that this could also be due to the respondent pool chaning from year to year).
 
   - key: career.job_security.takeaway.devs2026
     t: |
 
-      TODO
+      While AI anxiety and industry burnout play a part here, for now at least traditional workplace issues are still the main factors making respondents worry for their jobs.
 
   - key: career.career_security.takeaway.devs2026
     t: |
 
-      TODO
+      Most respondents still consider a forced career change unlikely, which shows developers don't quite buy the narrative that they'll soon find themselves replaced with AI, and forced to work the land for their subsistence–at least not just yet.
 
   # workplace
 
@@ -211,66 +190,54 @@ translations:
   - key: workplace.company_size.takeaway.devs2026
     t: |
 
-      TODO
+      While working for larger companies remains correlated with earning more and seeing your income increase, it's also interesting to look at what happens when you don't work for a company at all. 
 
-      It should come as no surprise that larger companies have the means to pay higher salaries. Not only that, but respondent income is much more likely to have increased over the past year if they worked for a big company.
+      In addition to working fewer hours per week, freelancers also reported lower AI usage and more negative attitudes towards AI in general, pointing to a possible solution for those seeking an alternative path–at the cost of lower revenues.
 
   - key: workplace.job_title.takeaway.devs2026
     t: |
 
-      TODO
+      Carrying the “engineer” still comes with an income premium compared to being “just” a developer.
 
-      As seen in [other surveys](https://2024.stateofjs.com/en-US/demographics/#job_title), carrying the engineer title is correlated with higher income compared to being “just” a developer.
-
-      Another point worth noting: on aggregate, frontend jobs feature more gender diversity than other positions.
+      We can also see front-end development still makes up the bulk of the work, which makes sense given the web-centric focus of the survey's audience.
 
   - key: workplace.work_areas.takeaway.devs2026
     t: |
 
-      TODO
+      Plotting work areas against average yearly income and average years of experience reveals a fairly strong correlation between the two. 
 
-  - key: workplace.yearly_income.takeaway.devs2026
+      Yet a few areas (such as **AI** and **platform** engineering, and **hiring/interviewing**) sit above the trendline, meaning they correlate with higher incomes than what you'd normally expect to see.
+
+  - key: workplace.yearly_salary.takeaway.devs2026
     t: |
-      The U.S. continues to offer much higher salaries compared to the rest of the world.
+
+      The three strongest predictors of a high income continue to be having **more experience**, working for a **larger company**, and being located in the **U.S.**.
 
   - key: workplace.income_evolution.takeaway.devs2026
     t: |
 
-      TODO
-
-      Despite fears of an industry downturn, only 9% of respondents reported having seen their income decrease over the past year.
-
-      Norway, Ireland, and South-Africa-based respondents were the most likely to have seen their income increase.
+      While the U.S. does offer the highest salaries, it only ranks 11th when looking at countries with the highest proportion of *increasing* income. Instead, the top 10 is largely made up of Nordic countries and their neighbors, which could presage a reshuffle of the salary rankings in the coming years.
 
   - key: workplace.job_finding_application_count.takeaway.devs2026
     t: |
 
-
-      TODO
-
-      While respondents needed a median of 4 job applications to find their current job overall, that number decreased as respondents' years of experience went up. 
-
-      That being said, a slight increase was present at the higher end of the experience curve, which could be explained by age discrimination, or by out-of-date skills making the job search harder.
+      Finding a new job is always a challenge, but thankfully it's one that gets easier over the years, as more experienced developers needed fewer tries on average to get hired.
 
   - key: workplace.job_finding_methods.takeaway.devs2026
     t: |
 
-      TODO
+      Interestingly, the data shows that finding your job through open-source or community work leads to a 39% income premium compared to the overall median. 
 
-      Having a more personal connection to the company when applying (as opposed to going through a job board or social media) is associated with a higher income. 
-
-      The one exception is being hired through open-source work, which is associated with the same income levels as more direct methods such as recruiters or referrals.
+      And when it comes to effectiveness, generic job-finding methods such as LinkedIn or job boards require submitting more applications than going through your own personal network, or even applying to a company directly.
 
   - key: workplace.remote_work_policy.takeaway.devs2026
     t: |
-      The lack of remote work is correlated with both lower median income and lower job satisfaction (as expressed on a scale from 1 to 5).
+      Lack of remote work is correlated with both lower median income and lower job satisfaction. And larger organizations seem to have a harder time transitioning to remote work, with the median number of employees being only **35** when looking at fully-remote companies.
 
   - key: workplace.work_hours_per_week.takeaway.devs2026
     t: |
 
-      TODO
-
-      The more you work, the more you earn, at least up to a point. India is the hardest-working country with 45 median hours worked per week, while most other countries are all gathered around the 40-hour mark.
+      While working longer hours is correlated with a moderate income rise, looking at countries reveals 
 
   - key: workplace.job_happiness.takeaway.devs2026
     t: |
@@ -338,8 +305,7 @@ translations:
 
   - key: health.age.takeaway.devs2026
     t: |
-
-      TODO
+      Age is one of the key *confounding factors* in the dataset. In other words, it can make it seem like two other variables (such as “number of kids” and “yearly income”) have some kind of stronger relationship, when they are actually both downstream from a common root cause. 
 
       Women and non-binary respondents tend to skew a little younger than men when looking at median age by gender.
 

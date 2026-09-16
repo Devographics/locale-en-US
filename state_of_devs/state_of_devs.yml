@@ -416,6 +416,8 @@ translations:
     t: Freelancer/self-employed
   - key: options.remote_work_policy.remote_based_on_distance
     t: Based on distance from company
+  - key: options.remote_work_policy.work_from_home
+    t: Working from home
 
   - key: workplace.work_hours_per_week
     t: Work Hours
@@ -1804,6 +1806,8 @@ translations:
     t: vs. Country of Origin
   - key: tabs.vs_migration_experience
     t: vs. Migration Experience
+  - key: tabs.vs_job_security
+    t: vs. Job Security
 
   # relocation countries
 
