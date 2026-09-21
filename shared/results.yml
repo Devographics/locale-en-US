@@ -2319,7 +2319,7 @@ translations:
       Sorted by **{value}**, **descending**
   - key: charts.metadata.averageCardinality
     t: >
-      Average number of options selected
+      Respondents selected **{value}** options on average
 
   - key: charts.average.marker
     t: >
@@ -2484,7 +2484,7 @@ translations:
 
   - key: correlations.takeaway.with_question
     t: |
-      <span class="correlation-item-content-strength">{strengthLevelLabel}</span> correlation with respondents scoring <span class="correlation-direction">{directionLabel}</span> on the question **“{questionLabel}”**.
+      <span class="correlation-item-content-strength">{strengthLevelLabel}</span> correlation with scoring <span class="correlation-direction">{directionLabel}</span> for **“{questionLabel}”**.
     aliases:
       - correlations.takeaway.shape1
       - correlations.takeaway.shape2
@@ -2492,7 +2492,7 @@ translations:
 
   - key: correlations.takeaway.with_option
     t: |
-      <span class="correlation-item-content-strength">{strengthLevelLabel}</span> <span class="correlation-direction">{directionLabel}</span> correlation with respondents who answered **“{optionLabel}”** to the question **“{questionLabel}”**
+      <span class="correlation-item-content-strength">{strengthLevelLabel}</span> <span class="correlation-direction">{directionLabel}</span> correlation with selecting **“{optionLabel}”** for **“{questionLabel}”**
     aliases:
       - correlations.takeaway.shape3
       - correlations.takeaway.shape4
@@ -2500,7 +2500,7 @@ translations:
 
   - key: correlations.takeaway.with_cardinality
     t: |
-      <span class="correlation-item-content-strength">{strengthLevelLabel}</span> correlation with respondents selecting <span class="correlation-direction">{directionLabel}</span> items for the question **“{questionLabel}”**.
+      <span class="correlation-item-content-strength">{strengthLevelLabel}</span> correlation with selecting <span class="correlation-direction">{directionLabel}</span> items for **“{questionLabel}”**.
     aliases:
       - correlations.takeaway.shape5
       - correlations.takeaway.shape6

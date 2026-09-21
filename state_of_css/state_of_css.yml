@@ -1418,25 +1418,6 @@ translations:
   - key: usage.css_ai_generated_code_balance.prompt
     aliasFor: usage.ai_generated_code_balance.prompt
 
-  - key: options.css_ai_generated_code_balance.0
-    aliasFor: options.ai_generated_code_balance.0
-  - key: options.css_ai_generated_code_balance.1
-    aliasFor: options.ai_generated_code_balance.1
-  - key: options.css_ai_generated_code_balance.2
-    aliasFor: options.ai_generated_code_balance.2
-  - key: options.css_ai_generated_code_balance.3
-    aliasFor: options.ai_generated_code_balance.3
-  - key: options.css_ai_generated_code_balance.4
-    aliasFor: options.ai_generated_code_balance.4
-  - key: options.css_ai_generated_code_balance.5
-    aliasFor: options.ai_generated_code_balance.5
-  - key: options.css_ai_generated_code_balance.6
-    aliasFor: options.ai_generated_code_balance.6
-  - key: options.css_ai_generated_code_balance.7
-    aliasFor: options.ai_generated_code_balance.7
-  - key: options.css_ai_generated_code_balance.8
-    aliasFor: options.ai_generated_code_balance.8
-
   ###########################################################################
   # Resources
   ###########################################################################

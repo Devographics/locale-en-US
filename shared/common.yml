@@ -367,22 +367,54 @@ translations:
 
   - key: options.0_100_scale.0
     t: 0%
+    aliases:
+      - options.slider.0.description
   - key: options.0_100_scale.1
     t: 12.5%
+    aliases:
+      - options.slider.1.description
+      - options.ai_generated_code_balance.1
+      - options.css_ai_generated_code_balance.1
   - key: options.0_100_scale.2
     t: 25%
+    aliases:
+      - options.slider.2.description
+      - options.ai_generated_code_balance.2
+      - options.css_ai_generated_code_balance.2
   - key: options.0_100_scale.3
     t: 37.5%
+    aliases:
+      - options.slider.3.description
+      - options.ai_generated_code_balance.3
+      - options.css_ai_generated_code_balance.3
   - key: options.0_100_scale.4
     t: 50%
+    aliases:
+      - options.slider.4.description
+      - options.ai_generated_code_balance.4
+      - options.css_ai_generated_code_balance.4
   - key: options.0_100_scale.5
     t: 62.5%
+    aliases:
+      - options.slider.5.description
+      - options.ai_generated_code_balance.5
+      - options.css_ai_generated_code_balance.5
   - key: options.0_100_scale.6
     t: 75%
+    aliases:
+      - options.slider.6.description
+      - options.ai_generated_code_balance.6
+      - options.css_ai_generated_code_balance.6
   - key: options.0_100_scale.7
     t: 87.5%
+    aliases:
+      - options.slider.7.description
+      - options.ai_generated_code_balance.7
+      - options.css_ai_generated_code_balance.7
   - key: options.0_100_scale.8
     t: 100%
+    aliases:
+      - options.slider.8.description
 
   - key: options.experience.title
     t: Experience
@@ -616,37 +648,27 @@ translations:
   - key: options.happiness.4.short
     t: Very Happy
 
-  # slider
-  - key: options.slider.0.description
-    t: 0%
-  - key: options.slider.1.description
-    t: 12.5%
-  - key: options.slider.2.description
-    t: 25%
-  - key: options.slider.3.description
-    t: 37.5%
-  - key: options.slider.4.description
-    t: 50%
-  - key: options.slider.5.description
-    t: 62.5%
-  - key: options.slider.6.description
-    t: 75%
-  - key: options.slider.7.description
-    t: 87.5%
-  - key: options.slider.8.description
-    t: 100%
-
   # opinions
   - key: options.opinions.0
     t: Strongly Disagree
+    aliases:
+      - options.opinions.value_0
   - key: options.opinions.1
     t: Disagree
+    aliases:
+      - options.opinions.value_1
   - key: options.opinions.2
     t: Neutral
+    aliases:
+      - options.opinions.value_2
   - key: options.opinions.3
     t: Agree
+    aliases:
+      - options.opinions.value_3
   - key: options.opinions.4
     t: Strongly Agree
+    aliases:
+      - options.opinions.value_4
 
   # age
   - key: options.age.range_less_than_10

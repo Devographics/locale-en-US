@@ -565,6 +565,9 @@ translations:
   - key: options.workplace_perks.remote_work_benefit
     t: Remote work benefits
 
+  - key: options.workplace_perks.being_self_employed
+    t: Being self-employed
+
   # workplace_burnout
   - key: workplace.workplace_burnout
     t: Mental State
@@ -591,6 +594,9 @@ translations:
     t: Feeling less effective at work
   - key: options.workplace_burnout.reduced_sense_of_accomplishment
     t: Having a reduced sense of accomplishment at work
+
+  - key: options.workplace_burnout.ai_fatigue
+    t: AI fatigue
 
   # job_finding_application_count
 
@@ -668,25 +674,6 @@ translations:
     aliasFor: usage.ai_generated_code_balance.question
   - key: ai_usage.ai_generated_code_balance.prompt
     aliasFor: usage.ai_generated_code_balance.prompt
-
-  - key: options.ai_generated_code_balance.0
-    aliasFor: options.ai_generated_code_balance.0
-  - key: options.ai_generated_code_balance.1
-    aliasFor: options.ai_generated_code_balance.1
-  - key: options.ai_generated_code_balance.2
-    aliasFor: options.ai_generated_code_balance.2
-  - key: options.ai_generated_code_balance.3
-    aliasFor: options.ai_generated_code_balance.3
-  - key: options.ai_generated_code_balance.4
-    aliasFor: options.ai_generated_code_balance.4
-  - key: options.ai_generated_code_balance.5
-    aliasFor: options.ai_generated_code_balance.5
-  - key: options.ai_generated_code_balance.6
-    aliasFor: options.ai_generated_code_balance.6
-  - key: options.ai_generated_code_balance.7
-    aliasFor: options.ai_generated_code_balance.7
-  - key: options.ai_generated_code_balance.8
-    aliasFor: options.ai_generated_code_balance.8
 
   # ai_management_pressure
 
@@ -769,9 +756,12 @@ translations:
   # ai_mental_state
   - key: ai_usage.ai_mental_state
     t: AI Mental State
+    aliases:
+      - opinions.ai_mental_state
   - key: ai_usage.ai_mental_state.question
     t: AI tools have had a positive impact overall on my mental state
-
+    aliases:
+      - opinions.ai_mental_state.question
   # ai_risks
 
   - key: ai_usage.ai_risks
@@ -789,7 +779,7 @@ translations:
   - key: workplace.keyboard
     t: Keyboard
   - key: workplace.keyboard.question
-    t: What kind of keyboard do typically use for work?
+    t: What kind of keyboard do you typically use for work?
   - key: workplace.keyboard.prompt
     t: Could be keyboard type, brand, model, etc.
 
@@ -1394,7 +1384,7 @@ translations:
   - key: worldview.tech_industry_emotion
     t: Tech Emotion
   - key: worldview.tech_industry_emotion.question
-    t: Which emotions best describes how you currently feel about the tech industry?
+    t: Which emotions best describe how you currently feel about the tech industry?
 
   - key: options.tech_industry_emotion.overwhelmed
     t: Overwhelmed
@@ -1417,6 +1407,9 @@ translations:
     t: Engaged
   - key: options.tech_industry_emotion.motivated
     t: Motivated
+
+  - key: options.tech_industry_emotion.disappointed
+    t: Disappointed
 
   # overall_happiness
 
@@ -1578,6 +1571,10 @@ translations:
     t: 3D-printing
   - key: options.hobbies.language_learning
     t: Language learning
+  - key: options.hobbies.motorcycles
+    t: Motorcycles
+  - key: options.hobbies.game_development
+    t: Game development
 
   # hobbies_frequency
 
@@ -1808,6 +1805,8 @@ translations:
     t: vs. Migration Experience
   - key: tabs.vs_job_security
     t: vs. Job Security
+  - key: tabs.by_tech_emotion
+    t: By Emotion
 
   # relocation countries
 

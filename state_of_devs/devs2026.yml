@@ -237,39 +237,37 @@ translations:
   - key: workplace.work_hours_per_week.takeaway.devs2026
     t: |
 
-      While working longer hours is correlated with a moderate income rise, looking at countries reveals 
+      While it may look like working more means earning more, income varies much more due to other confounding factors (years of experience, company size, etc.) than due to sheer amount of time spent at work.
+
+      In fact, if we isolate U.S. developers with 10-14 years of experience in order to eliminate those factor's influence, we see that the correlation between work hours and salary all but disappears.
 
   - key: workplace.job_happiness.takeaway.devs2026
     t: |
 
-      TODO
-
-      Developers are overall pretty happy with their job – provided they can endure the first 10 years, that is.
+      While the majority of developers remain happy about their job, the data does show a slight increase in unhappy respondents compared to last year (white striped bars).
 
   - key: workplace.workplace_perks.takeaway.devs2026
     t: |
 
-      TODO
-
-      Going against the stereotype of the asocial computer nerd, it turns out the thing that we value the most is actually each other; with relationships with coworkers coming in as the number one item developers enjoy about their workplace.
+      Once again **coworker relationships**, **work-life balance**, and overall **working conditions** rank far higher than raw **compensation**.
 
   - key: workplace.workplace_difficulties.takeaway.devs2026
     t: |
-      TODO
+      **Poor management** was a write-in answer last year, and adding it as part of the official selectable items in this edition made it shoot straight to the top as the workplace difficulty respondents struggle with the most.
 
-      At the end of the day, we all need to make a living, and poor compensation came in first as the top workplace issue developers are facing today.
-
-  - key: workplace.mental_state.takeaway.devs2026
+  - key: workplace.workplace_burnout.takeaway.devs2026
     t: |
-      TODO
+      This question's response items were inspired by [common signs of burnout](https://www.mayoclinic.org/healthy-lifestyle/adult-health/in-depth/burnout/art-20046642), and with respondents selecting **4.5** items on average it's fair to say this is a problem that affects a lot of us.
 
   - key: workplace.keyboard.takeaway.devs2026
     t: |
-      TODO
+
+      Mechanical keyboards are having a bit of a moment, but many developers are still fine with the default laptop keyboard.
 
   - key: workplace.monitors.takeaway.devs2026
     t: |
-      TODO
+
+      Having two monitors may be the norm, but a sizeable minority still manages to survive with just one.
 
   # ai
   - key: sections.ai_usage.description.devs2026
@@ -281,19 +279,29 @@ translations:
 
   - key: ai_usage.ai_sentiment.takeaway.devs2026
     t: |
-      TODO
+
+      Reducing the AI question to a pro-/anti- spectrum might feel simplistic, but the resulting data still reveals interesting insights. 
+
+      For example, not only does how you feel about AI predict how you feel about tech overall, but it also carries a strong correlation with other factors such as where you stand on the **political spectrum**, with pro-AI respondents leaning more **right-wing**.
 
   - key: ai_usage.ai_risks.takeaway.devs2026
     t: |
-      TODO
+
+      **Environmental impact** tops the rankings when it comes to AI concerns, and just like other environmental issues it seems like it has become politicized, with a strong correlation with identifying as more left-wing.
 
   - key: ai_usage.ai_management_pressure.takeaway.devs2026
     t: |
-      TODO
+
+      Beyond AI's actual usefulness to developers, companies also play a big role in encouraging the technology's increased usage.
+
+      But this AI enthusiasm is not without downsides: being too heavy-handed with measures such as quotas or leaderboards can have negative consequences on **job happiness** and employee **mental state**.
 
   - key: ai_usage.ai_mental_state.takeaway.devs2026
     t: |
-      TODO
+
+      AI tools might make us more productive, but they don't seem to be making us happier. While many remain neutral, a sizeable chunk of respondents deplored a negative impact on their mental state, correlated with feeling **exhausted** and *disillusioned** about the tech industry overall. 
+
+      Meanwhile, the most prevalent emotions among those who report a positive mental impact was **curiosity**–although even within that group, feeling **overwhelmed** was still quite common.
 
   - key: ai_usage.ai_outlook.takeaway.devs2026
     t: |
@@ -307,43 +315,28 @@ translations:
     t: |
       Age is one of the key *confounding factors* in the dataset. In other words, it can make it seem like two other variables (such as “number of kids” and “yearly income”) have some kind of stronger relationship, when they are actually both downstream from a common root cause. 
 
-      Women and non-binary respondents tend to skew a little younger than men when looking at median age by gender.
+      One unexpected finding is that while older respondents tend to generate less of their code using AI, they also tend to view the technology more positively.
 
   - key: health.disability_status.takeaway.devs2026
     t: |
 
-      TODO
+      Gender and age have a big impact on the type of disabilities respondents experience, with **hearing impairments** and **chronic illness** becoming more common with age.
 
-      Looking at disabilities by age shows that while mental health and neurodivergent conditions are the most common issues, hearing loss becomes more prevalent once you hit 60.
-
-      Some disabilities such as visual impairments are also more common among men, while mental health issues and chronic illnesses are over-represented among women.
+      And confirming [other studies](https://www.bmj.com/content/385/bmj.q999), chronic illness is more present among women; while **neurodivergent conditions** and **mental health issues** are over-represented among non-binary respondents.
 
   - key: health.health_issues.takeaway.devs2026
     t: |
 
-      TODO
+      Poor sleep continues to be the top health issue affecting respondents.
 
-      Poor sleep was the most commonly reported health issue among respondents, possibly linked to the large role screens of all kinds play in our lives.
+      When looking at health issues across countries, the “healthiest” countries (based on the proportion of respondents who reported experiencing no health issues whatsoever) were Italy, Norway, and Switzerland.
 
-      Some issues—such as mental health conditions and migraines—also affected women and non-binary respondents at higher rates than the overall population when examining the top six health issues by gender.
+      But of course, what gets reported as a health issue or not can also be in part cultural, with for example only **8%** of Russia-based respondents reporting mental health issues, significantly lower than the 12% figure for all survey respondents.
 
   - key: health.sleep_quantity.takeaway.devs2026
     t: |
 
-      TODO
-
-      As expected, having kids does affect average sleep duration – although not as much as one might think.
-
-      Age also plays a role, with older respondents tending to sleep slightly less.
-
-  - key: health.sleep_measures.takeaway.devs2026
-    t: |
-
-      TODO
-
-      Respondents are trying a range of strategies to improve their sleep (consistent with “poor sleep” being the most commonly reported health issue) but these efforts don’t appear to influence median nightly sleep duration.
-
-      With sleep quantity being such a hard metric to nudge, it might be more effective to focus on sleep *quality* instead – although this is of course much harder to measure accurately.
+      While lack of sleep is a prevalent health issue, the actual number of sleep hours is remarkably consistent across the dataset, with **91%** of respondents sleeping between 6 and 8 hours per night, even if it does decrease slightly with age.
 
   # worldview
 
@@ -353,62 +346,59 @@ translations:
   - key: worldview.global_issues.takeaway.devs2026
     t: |
 
-      TODO
+      It's not surprise that European countries that just experienced one of the most violent heatwave ever felt in the region all cited **climate change** as a top concern. 
 
-      **Climate change** is a big problem for the entire planet, but U.S.-based respondents also highlighted **rising authoritarianism**, while Ukraine-neighboring Poland is understandably worried about **geopolitical tensions**.
+      Yet another big worry is **rising authoritarianism**, especially in countries such as Sweden, the U.S., France, and Germany which all have far-right parties close to (or in) power. 
 
-      And while you might assume younger generations are more progressive, it's striking to see that this is not necessarily the case here, at least not regarding a few key issues. 
+      Age also plays a role here, with younger respondents being more concerned about **geopolitical tensions**.
 
-      Under-20 respondents are the most likely to state that **lack of free speech** and **erosion of traditional values** are major issues, while being the *least* likely to state that **rising intolerance** was one – all of which tends to align with modern conservative political viewpoints.
-
-      Older demographics also tend to be more concerned about **rising authoritarianism**, with over-40 age groups placing it as their top concern overall.
-
-      Finally, women are over-represented among respondents citing **healthcare access** as one of their top priorities, which again echoes ongoing political concerns especially in the U.S.
+      And as expected, many of these issues follow a sharp political divide: worry about **climate change** drops sharply once you cross the centerline of the political spectrum, being instead replaced by things such as **geopolitical tensions**, the **erosion of traditional values**, and **lack of free speech**.
 
   - key: worldview.political_expression_at_work.takeaway.devs2026
     t: |
 
-      TODO
+      While free speech is protected in most countries, that doesn't always translate into feeling comfortable enough to express your opinions, as shown by the fact that the **U.S.** comes in 17th place here. 
+
+      What's also interesting is that right-wing respondents are overall less comfortable expressing their political opinions at work.
 
   - key: worldview.workers_union.takeaway.devs2026
     t: |
 
-      TODO
+      At a time where tech industry job security is being threatened by AI, worker's unions may offer a way to give employees some of the power back- although this idea seems far more popular on the left than on the right.
+
+      Looking at countries, **Sweden** stands out as the only country where a majority of respondents already belong to a union, while the **U.S.** actually comes in first when looking at respondents who are not currently part of an union, but would like to join one.
 
   - key: worldview.political_spectrum.takeaway.devs2026
     t: |
 
-      TODO
+      Reducing an individual's political leanings to a  left-right spectrum is admittedly a bit simplistic; furthermore, the exact same opinions may register as right-wing in one country, and left-wing in another.
+
+      But it's still interesting to see how respondents identify, and which factors are correlated with being more left-wing (worrying about rising intolerance and climate change) and right-wing (being concerned about the erosion of traditional values, and being pro-AI).
 
   - key: worldview.tech_industry_emotion.takeaway.devs2026
     t: |
 
-      TODO
+      Respondents are not feeling great about the tech industry in 2026, with negative emotions topping the list, chief among them **exhaustion** and *disillusionment**. 
+
+      And while **curiosity** does come in third overall, it's also correlated with other aspects of a respondent's worldview, such as being more pro-AI or leaning further to the right politically.
 
   - key: worldview.happiness_factors.takeaway.devs2026
     t: |
-
-      TODO
-
-      **Good health** may be the most important happiness factor globally, but India and Russia stand out for also valuing **career progress** quite highly, as well as **wealth and material possessions** in the case of Russia.
-
-      When looking at demographic factors, non-binary respondents placed **hobbies** first and **family** much lower than men and women; and plotting happiness factors against age reveals that as respondents age, **friendships** and **hobbies** are often replaced with **family**.
+      **Good health** remains the most important source of happiness worldwide. Age also reveals another pattern: as respondents get older, **friendships** and **hobbies** tend to give way to **family** as sources of happiness.
 
   - key: worldview.relocation.takeaway.devs2026
     t: |
 
-      TODO
+      **Japan** and **Canada** remain the most popular places respondents would like to move to if given the chance. 
 
-      **Japan** tops the overall rankings of places developers would most like to relocate to, although breaking things down by respondent country reveals that respondents also tend to favor geographically close destinations or countries that share their language.
+      The **U.S.**, long considered the most attractive destination for tech workers, only comes in 5th (when excluding respondents who already live there). Political factors might play a role, as shown by correlations with **right-wing leanings** and **pro-AI sentiment**.
 
   - key: worldview.overall_happiness.takeaway.devs2026
     t: |
 
-      TODO
+      At the end of the day, a lot of our happiness comes down to having a good, secure job, and being healthy, both physically and mentally. 
 
-      Respondents are overall relatively happy, but median happiness drops when respondents don't get enough (or get *too much*) sleep. 
-
-      And while absolute income does not seem to impact happiness, seeing an income *decrease* certainly does; and so does not being in a relatiomship.
+      Yet AI is threatening developers on both fronts, contributing to stress and exhaustion while putting job security in jeopardy, which translates into more unhappy respondents compared to 2025.
 
     aliases:
       - happiness.overall_happiness.takeaway.devs2026
@@ -421,48 +411,36 @@ translations:
   - key: hobbies.hobbies.takeaway.devs2026
     t: |
 
-      TODO
+      While we all say we should to read more, **women** and **over-60** respondents are two segments where the hobby actually comes in first. 
 
-      It's no surprise that **video games** dominates the rankings in a developer survey – and a few respondents even wrote in **programming** as their favorite hobby.
-
-      Older respondents were more likely to pick **Movies/TV** over video games, and among the over-60 crowd **reading** actually came first.
-
-      The data also reveals that hobbies still follow gender lines: compared to men, women were much more likely to cite **arts and crafts**, and less likely to mention **video games**.
+      Meanwhile, **video games** top the chart, followed by **movies and TV**.
 
   - key: hobbies.physical_activity.takeaway.devs2026
     t: |
 
-      TODO
+      When it comes to physical activity, looking at different countries reveals very different preferences. 
 
-      **Hiking/walking** and **strength training** are popular all around, but when looking at physical activites vs. gender **yoga** stands out as something women are much more likely to practice than men.
+      While 30% of **Israeli** respondents practice **strength training**, that number drops to 12% for **France**. Meanwhile, the relatively flat **Netherlands** still leads the rankings when it comes to **climbing**.
 
   - key: hobbies.favorite_beverages.takeaway.devs2026
     t: |
 
-      TODO
+      With one of the world's most popular programming languages named after a type of coffee, it's no surprise to see the popular beverage rank at the top.
 
   - key: hobbies.favorite_books.takeaway.devs2026
     t: |
 
-      TODO
+      **Dungeon Crawler Carl** is without a doubt the standout title from this year's rankings–but the whole list is worth checking out to find your next read!
 
   - key: hobbies.favorite_video_games.takeaway.devs2026
     t: |
 
-      TODO
-
-      **Baldur's Gate 3** is known for featuring ridiculous amounts of content, and this is reflected by the fact that it ranked first here despite coming out in 2023.
-
-      It also turns out that **Stardew Valley** is a hit among women and non-binary respondents, coming in second despite not placing in the top 20 among men.
+      **Clair Obscur: Expedition 33** earns a well-deserved first place to dethrone **Baldur's Gate 3** as this year's most popular game.
 
   - key: hobbies.video_game_platforms.takeaway.devs2026
     t: |
 
-      TODO
-
-      Despite macOS being [more prevalent](/en-US/technology/#desktop_os) among respondents as a main desktop option, **Windows** is still the dominant platform when it comes to gaming.
-
-      The younger generations are the ones most likely to play on PC, while older respondents tend to prefer the ease of use of consoles.
+      While **PC gaming** remains first, the **Switch** (both 1 and 2) continues to demonstrate impressive staying power.
 
   # metadata
 
