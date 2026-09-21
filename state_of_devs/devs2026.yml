@@ -533,61 +533,61 @@ translations:
 
   - key: conclusion.devs2026.miranda_heath
     t: |
-      ### “We Need to Talk about AI”
+      ### "We Need to Talk about AI"
 
 
       It is an uncertain time to be a developer.
 
 
-      Nearly half of this year's survey respondents had experienced [job insecurity and insufficient wages](../career/#career_issues). A quarter had been [laid off](../career/#laid_off) at some point in their career, and nearly 1 in 10 had been laid off within the last 9 months. *Over a quarter* anticipated needing to [change careers altogether](../career/#career_security)within the next 5 years. 
+      Nearly half of this year's survey respondents had experienced [job insecurity and insufficient wages](../career/#career_issues). A quarter had been [laid off](../career/#laid_off) at some point in their career, and nearly 1 in 10 had been laid off within the last 9 months. Over a quarter anticipated needing to [change careers](../career/#career_security) altogether within the next 5 years. 
 
 
-      This was the first Devographics survey to ask about developers' [mental state](../workplace/#workplace_burnout), and the results hint at some worrying changes in what it _feels like_ to be a software developer, too. Around two thirds of respondents had felt less motivated and more cynical recently. Around half had recently struggled to focus, procrastinated more, felt unusually drained, and felt less accomplished and effective at work.
-
-
-      These changes are all good indicators of burnout. 62% of developers reported having had [burnout at some point in their career](../career/#career_issues), the same proportion as in last years' survey. The fact that burnout continues to be common in software development is no reason to normalise it, however. 
-
-
-      Burnout can seriously impact people's health and wellbeing. This can also be seen in the data: developers who had experienced burnout were generally less happy, and more likely to have ongoing physical and mental health issues.
+      This was the first Devographics survey to ask about developers' [mental state](), and the results hint at some worrying changes in what it _feels like_ to be a software developer, too. Around two thirds of respondents had felt less motivated and more cynical recently. Around half had struggled to focus, procrastinated more, felt unusually drained, and felt less accomplished and effective at work.
 
 
       ---
 
 
-      On top of this, there is an elephant lurking at the back of the room---one that is likely playing a pivotal role in job insecurity, changes in developers' mental states and the ongoing risk of burnout. For the first time this year, Devographics asked developers to share their views on AI.
+      These changes are indicative of burnout: a state of exhaustion that occurs when work drains more of your energy than it sustains. 62% of developers reported having had [burnout](../career/#career_issues) at some point in their career, the same proportion as in last years' survey.
 
 
-      While [AI use was extremely prevalent](../ai/#ai_generated_code_balance),  [views towards AI were heavily polarised](../ai/#ai_sentiment), with 49% of respondents feeling positive towards it, and 42% feeling negative.
-
-
-      Our understanding of the psychological impact of AI coding is still emerging, but early evidence suggests prompting can [feel addictive](https://www.youtube.com/watch?v=iPUn1Fnfn0k&t=407s), heavy reliance on AI can [undermine learning](https://www.youtube.com/watch?v=DkhhE97Swmo&list=WL&index=3) and running agents in parallel can lead to a kind cognitive overload dubbed 'AI brainfry'. This is reflected in the survey data: nearly one half of participants felt AI had a [negative impact on their mental state](../ai/#ai_mental_state).
-
-
-      More than anything, it was clear that, when it comes to the impact of AI coding, developers want a conversation about it. Over 1500 participants chose to write something about their [outlook on AI](../ai/#ai_outlook). 
-
-
-      Common topics included the need to figure out how to use AI safely and effectively, how AI is making development work less rewarding, and how AI is driving unsustainable pressure to be more productive and unrealistic expectations from management.
+      The fact that burnout continues to be common in software development is no reason to normalise it, however. Burnout can seriously impact people's health and wellbeing. This can also be seen in the data: developers who had experienced burnout were generally less happy, and more likely to have ongoing physical and mental health issues.
 
 
       ---
 
 
-      And while it feels as if AI is changing too much too fast, some things in software development change frustratingly slowly. People who identify as female continue to be [far more likely to experience discrimination](../career/#discrimination_issues) at work. 
+      There is also an elephant lurking in the room, quietly fuelling the uncertainty. And for the first time this year, Devographics asked developers to share their views on it. I am, of course, talking about AI.
 
 
-      Troublingly, they are also [more likely to avoid colleagues, change behaviour or appearance, or even change careers](../career/#negative_impacts) in response to workplace issues. This suggests it is still the path of least resistance for women to mould, change or erase themselves to fit in with a workplace culture that disadvantages them, rather than expecting that industry to change. 
+      While AI use was [extremely prevalent](../ai/#ai_generated_code_balance), views towards AI were [heavily polarised](../ai/#ai_sentiment), with 49% of respondents feeling positive towards it, and 42% feeling negative.
 
 
-      Similarly, LGBT+ respondents and respondents with ADHD and autism described feeling a pressure to hide their identity at work. This kind of unfair treatment and pressure to mask your feelings put people at increased risk of burnout.
+      Our understanding of the psychological impact of AI coding is still developing, but early evidence suggests prompting can [feel addictive](https://www.youtube.com/watch?v=iPUn1Fnfn0k&t=407s), heavy reliance on AI can [undermine learning](https://www.youtube.com/watch?v=DkhhE97Swmo&list=WL&index=3) and running agents in parallel can lead to a state cognitive overload dubbed 'AI brainfry'. In line with this, nearly one half of respondents felt AI had a negative impact on their [mental state](../ai/#ai_mental_state).
+
+
+      Above all, it was clear that developers wanted to talk about the impact of AI on their profession. Over 1500 respondents chose to write something about their [outlook on AI](../ai/#ai_outlook). Common topics included the need to work our how to use AI safely and sensibly, how AI is making work less rewarding, and how AI is driving unsustainable expectations of productivity from management.
 
 
       ---
 
 
-      Being a developer right now might feel a little like being in the middle of a sandstorm. Strange winds are blowing and it is hard to see the path ahead. But if we keep a conversation going about the impact of AI, the parts of our work that give us joy and meaning, and how to stand up for them, maybe the landscape will look all the more beautiful once the dust settles.
+      And while it feels as if AI is changing too many things too fast, some things in software development change frustratingly slowly.
 
 
-      You can feel this the mostly strongly when you look at developers [attitude towards the tech industry](../worldview/#tech_industry_emotion). Working in an ever-changing and and uncertain industry can be exhausting. It can make us disillusioned. It can lead to anxiety, anger and overwhelm. But there is curiosity, hope, and excitement yet to be had.
+      People who identify as female continue to be far more likely to experience [discrimination](../career/#discrimination_issues) than their male colleagues. Troublingly, they are also more likely to [avoid colleagues, change their behaviour or appearance, or even change careers](../career/#negative_impacts) in response to workplace issues. This suggests it is still the path of least resistance for women to mould, change or erase themselves to fit in with a workplace culture that disadvantages them, rather than expecting that industry to change.
+
+
+      Similarly, LGBT+ respondents and respondents with ADHD and autism described feeling pressure to hide their identity at work. Unfair treatment and pressure to mask puts these groups at additional risk of burnout and its related harms.
+
+
+      ---
+
+
+      Being a developer right now might feel a little like being in the middle of a sandstorm. Strange winds are blowing, and it can be hard to see the path ahead. But if we keep a conversation going—if we continue to talk about the impact of AI, the parts of our work that give us joy and meaning, and how we can stand up for them—maybe the landscape will look all the more beautiful once the dust settles.
+
+
+      You can feel this the mostly strongly when looking developers' [attitudes towards the tech industry](../worldview/#tech_industry_emotion). Working in an ever-changing and and uncertain industry can be exhausting. It can make you feel disillusioned, anxious, angry, and overwhelmed. But with change comes possibility, and where there is possibility, there is curiosity, hope, and excitement yet to be had.
 
   ###########################################################################
   # FAQ/About
