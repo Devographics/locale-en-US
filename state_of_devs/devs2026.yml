@@ -13,27 +13,21 @@ translations:
 
   - key: introduction.devs2026
     t: |
-      Over the past few years, many of our previously-held convictions seem to have been getting overturned at an alarming rate. 
 
-      Ideas such as the idea that AI would never be able to truly do a developer's job. That at its core, the tech community was all about progressive and humanistic values. Or that hardware costs always came down over time. 
-
-      And sure, the smartest among us may be feeling smug right now, saying they knew all along things would turn out this way. But that's little comfort when you still have to bear the consequences of these changes. 
-
-      ---
+      This might be remember as the year when AI became too big to ignore. It's getting harder and harder to dismiss it as “smart autocorrect” or make fun of the spaghetti code it vibe-codes. And its influence is being felt in every layer of society. 
 
 
+      This is why I decided to dedicate an entire section to asking developers not just whether they're using AI, but how they *feel* about using AI–which is another matter altogether. 
 
-      “These questions feel really personal”; ”This is going to be too controversial”; “You should stick to programming surveys”.
 
-      This is some of the initial feedback I got when I first floated the idea of running a developer survey entirely dedicated to workplace issues, health, hobbies, and other topics unrelated to code. 
+      I also added a brand new feature: **correlations**, accessible through little red and yellow grid icons throughout the survey. These point the way towards interesting paths to dig further into the data, which you can then further explore using the **Query Builder**. 
 
-      Yet I'm glad I went ahead. This survey's 8,717 respondents are proof that it struck a chord with the developer community – and the much higher participation rate from women in particular (compared to previous surveys) shows that there was demand for something that focused on these less-discussed issues.
 
-      While you browse the data, make sure to also check out the many comments (<span class="icon-inline icon-inline-comment">comment</span> icon) left by respondents as they took the survey, in which they share their personal stories and thoughts in much more detail.
+      But of course, the usual warning applies: correlation is most definitely not causation, and the audience sampled by this survey might not always be representative of the entire developer population. 
 
-      With all this out of the way, please enjoy the results from the first ever State of Devs survey!
 
-      *Note: because of the amount of data involved, these results will be released in two parts. Please enjoy part 1 for now!*
+      With those caveat out of the way, please discover the 2026 State of Devs survey results!
+
 
       <span class="conclusion__byline">– Sacha Greif</span>
 
