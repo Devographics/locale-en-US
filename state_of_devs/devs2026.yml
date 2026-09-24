@@ -61,13 +61,12 @@ translations:
   - key: overview.devs2026.0
     t: |
       *This year's overview was contributed by [Miranda Heath](https://mirandaheath.website/), founding director and researcher at the [Software Stewardship Lab](https://stewardshiplab.org/).*
-
   - key: overview.devs2026.1
     t: >
       It is an uncertain time to be a developer.
 
 
-      Nearly half of this year's survey respondents had experienced [job insecurity and insufficient wages](../career/#career_issues). A quarter had been [laid off](../career/#laid_off) at some point in their career, and nearly 1 in 10 had been laid off within the last 9 months. Over a quarter anticipated needing to [change careers](../career/#career_security) altogether within the next 5 years.
+      Nearly half of this year's survey respondents had experienced job insecurity and insufficient wages. A quarter had been laid off at some point in their career, and nearly 1 in 10 had been laid off within the last 9 months. Over a quarter anticipated needing to change careers altogether within the next 5 years.
 
   - key: overview.devs2026.2
     t: >
@@ -75,11 +74,11 @@ translations:
       ## (Mental) State Management
 
 
-      This was the first Devographics survey to ask about developers' [mental state](), and the results hint at some worrying changes in what it _feels like_ to be a software developer, too. Around two thirds of respondents had felt less motivated and more cynical recently. Around half had struggled to focus, procrastinated more, felt unusually drained, and felt less accomplished and effective at work.
+      This was the first Devographics survey to ask about developers' mental state, and the results hint at some worrying changes in what it _feels like_ to be a software developer, too. Around two thirds of respondents had felt less motivated and more cynical recently. Around half had struggled to focus, procrastinated more, felt unusually drained, and felt less accomplished and effective at work.
 
   - key: overview.devs2026.3
     t: >
-      These changes are indicative of burnout: a state of exhaustion that occurs when work drains more of your energy than it sustains. 62% of developers reported having had [burnout](../career/#career_issues) at some point in their career, the same proportion as in last years' survey.
+      These changes are indicative of burnout: a state of exhaustion that occurs when work drains more of your energy than it sustains. 62% of developers reported having had burnout at some point in their career, the same proportion as in last years' survey.
 
   - key: overview.devs2026.4
     t: >
@@ -94,15 +93,15 @@ translations:
       There is also an elephant lurking in the room, quietly fuelling the uncertainty. And for the first time this year, Devographics asked developers to share their views on it. I am, of course, talking about AI.
 
 
-      While AI use was [extremely prevalent](../ai/#ai_generated_code_balance), views towards AI were [heavily polarised](../ai/#ai_sentiment), with 49% of respondents feeling positive towards it, and 42% feeling negative.
+      While AI use was extremely prevalent, views towards AI were heavily polarised, with 49% of respondents feeling positive towards it, and 42% feeling negative.
 
   - key: overview.devs2026.6
     t: >
-      Our understanding of the psychological impact of AI coding is still developing, but early evidence suggests prompting can [feel addictive](https://www.youtube.com/watch?v=iPUn1Fnfn0k&t=407s), heavy reliance on AI can [undermine learning](https://www.youtube.com/watch?v=DkhhE97Swmo&list=WL&index=3) and running agents in parallel can lead to a state cognitive overload dubbed 'AI brainfry'. In line with this, nearly one half of respondents felt AI had a negative impact on their [mental state](../ai/#ai_mental_state).
+      Our understanding of the psychological impact of AI coding is still developing, but early evidence suggests prompting can [feel addictive](https://www.youtube.com/watch?v=iPUn1Fnfn0k&t=407s), heavy reliance on AI can [undermine learning](https://www.youtube.com/watch?v=DkhhE97Swmo&list=WL&index=3) and running agents in parallel can lead to a state cognitive overload dubbed 'AI brainfry'. In line with this, nearly one half of respondents felt AI had a negative impact on their mental state.
 
   - key: overview.devs2026.7
     t: >
-      Above all, it was clear that developers wanted to talk about the impact of AI on their profession. Over 1500 respondents chose to write something about their [outlook on AI](../ai/#ai_outlook). Common topics included the need to work our how to use AI safely and sensibly, how AI is making work less rewarding, and how AI is driving unsustainable expectations of productivity from management.
+      Above all, it was clear that developers wanted to talk about the impact of AI on their profession. Over 1500 respondents chose to write something about their outlook on AI. Common topics included the need to work our how to use AI safely and sensibly, how AI is making work less rewarding, and how AI is driving unsustainable expectations of productivity from management.
 
   - key: overview.devs2026.8
     t: >
@@ -113,7 +112,7 @@ translations:
       And while it feels as if AI is changing too many things too fast, some things in software development change frustratingly slowly.
 
 
-      People who identify as female continue to be far more likely to experience [discrimination](../career/#discrimination_issues) than their male colleagues. Troublingly, they are also more likely to [avoid colleagues, change their behaviour or appearance, or even change careers](../career/#negative_impacts) in response to workplace issues. This suggests it is still the path of least resistance for women to mould, change or erase themselves to fit in with a workplace culture that disadvantages them, rather than expecting that industry to change.
+      People who identify as female continue to be far more likely to experience discrimination than their male colleagues. Troublingly, they are also more likely to avoid colleagues, change their behaviour or appearance, or even change careers in response to workplace issues. This suggests it is still the path of least resistance for women to mould, change or erase themselves to fit in with a workplace culture that disadvantages them, rather than expecting that industry to change.
 
 
       Similarly, LGBT+ respondents and respondents with ADHD and autism described feeling pressure to hide their identity at work. Unfair treatment and pressure to mask puts these groups at additional risk of burnout and its related harms.
@@ -128,7 +127,7 @@ translations:
 
   - key: overview.devs2026.10
     t: >
-      You can feel this the mostly strongly when looking developers' [attitudes towards the tech industry](../worldview/#tech_industry_emotion). Working in an ever-changing and and uncertain industry can be exhausting. It can make you feel disillusioned, anxious, angry, and overwhelmed. But with change comes possibility, and where there is possibility, there is curiosity, hope, and excitement yet to be had.
+      You can feel this the mostly strongly when looking developers' attitudes towards the tech industry. Working in an ever-changing and and uncertain industry can be exhausting. It can make you feel disillusioned, anxious, angry, and overwhelmed. But with change comes possibility, and where there is possibility, there is curiosity, hope, and excitement yet to be had!
 
   ###########################################################################
   # Takeaways
