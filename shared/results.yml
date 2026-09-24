@@ -2612,6 +2612,56 @@ translations:
       You can apply to receive the full CSV dataset for free by [joining our Discord group](https://discord.gg/2E7bbgnrJJ) and asking in the **#general** channel.
 
   ###########################################################################
+  # Help
+  ###########################################################################
+
+  - key: help.title
+    t: >
+      Feature Spotlight:
+
+  - key: help.description
+    t: Learn more about the survey's features
+
+  - key: help.correlations
+    t: Correlations
+
+  - key: help.correlations.description
+    t: >
+      These auto-generated scores help highlight whenever two items are correlated in the dataset, based on metrics such as:
+
+      - Scoring higher on a question
+      - Selecting more items for a question
+      - Selecting a specific answer
+
+  - key: help.query_builder
+    t: Query Builder
+
+  - key: help.query_builder.description
+    t: >
+      The query builder lets you add filters to the current chart to dynamically query the Devographics API and return a custom variant.
+
+  - key: help.export_data
+    t: Export Data
+
+  - key: help.export_data.description
+    t: >
+      You can export the raw JSON data used to generate the chart, or get the GraphQL query used to obtain the data in the first place.
+
+  - key: help.comments
+    t: Comments
+
+  - key: help.comments.description
+    t: >
+      During the survey, respondents had the option to give feedback on each question through a separate freeform comment field.
+
+  - key: help.freeform_answers
+    t: Freeform Answers
+
+  - key: help.freeform_answers.description
+    t: >
+      Answers for freeform textfield questions are matched to specific keywords (in this case **{topic}***) through a combination of automated and manual data processing.
+
+  ###########################################################################
   # Sponsors
   ###########################################################################
 

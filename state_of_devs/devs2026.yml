@@ -97,7 +97,7 @@ translations:
 
   - key: overview.devs2026.6
     t: >
-      Our understanding of the psychological impact of AI coding is still developing, but early evidence suggests prompting can [feel addictive](https://www.youtube.com/watch?v=iPUn1Fnfn0k&t=407s), heavy reliance on AI can [undermine learning](https://www.youtube.com/watch?v=DkhhE97Swmo&list=WL&index=3) and running agents in parallel can lead to a state cognitive overload dubbed 'AI brainfry'. In line with this, nearly one half of respondents felt AI had a negative impact on their mental state.
+      Our understanding of the psychological impact of AI coding is still developing, but early evidence suggests prompting can [feel addictive](https://www.youtube.com/watch?v=iPUn1Fnfn0k&t=407s), heavy reliance on AI can [undermine learning](https://www.youtube.com/watch?v=DkhhE97Swmo&list=WL&index=3) and running agents in parallel can lead to a state cognitive overload dubbed 'AI brainfry'. In line with this, nearly one half of respondents felt AI did not have a positive impact on their mental state.
 
   - key: overview.devs2026.7
     t: >
@@ -374,7 +374,12 @@ translations:
 
   - key: ai_usage.ai_outlook.takeaway.devs2026
     t: |
-      TODO
+
+      Respondent's freeform answers to this question fell roughly in five major categories: AI risks and impacts, AI uses, positive stances, negative stances, and neutral stances. 
+
+      Out of all these, the most prevalent theme was by far the **developer impact** AI risk, aggregating how developers are personally experiencing the consequences of AI. 
+
+      It was followed by general **anti-AI sentiment**, including things such as fear of an AI bubble and call for more regulation; and worries about **industry impact**, including all the ways the tech ecosystem has been shifting under the influence of AI.
 
   # health
   - key: sections.health.description.devs2026
@@ -539,10 +544,10 @@ translations:
     t: Percentage of respondents working for large (1000+ employees) companies who saw their income increase over the past year.
 
   - key: figure.figure_job_title_income.devs2026
-    t: Average salary difference between job titles containing 'engineer' and those containing 'developer'.
+    t: Median salary difference between job titles containing 'engineer' and those containing 'developer'.
 
   - key: figure.figure_yearly_salary_usa_world.devs2026
-    t: Difference between U.S. salary average and the rest of the world.
+    t: Median salary difference between the U.S. and the rest of the world.
 
   - key: figure.figure_job_finding_application_count.devs2026
     t: Median number of job applications need by respondents to find their current job.
