@@ -1483,6 +1483,9 @@ translations:
   - key: comments.filter.by_sentiment.description
     t: Filter based on respondent's sentiments about the main item.
 
+  - key: comments.download
+    t: Download Comments (JSON)
+
   ###########################################################################
   # Sharing
   ###########################################################################
@@ -2412,6 +2415,9 @@ translations:
   - key: answers.keyword_count
     t: |
       {count} results
+
+  - key: answers.download
+    t: Download Answers (JSON)
 
   ###########################################################################
   # Banners
