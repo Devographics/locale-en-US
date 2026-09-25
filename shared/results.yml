@@ -1484,7 +1484,14 @@ translations:
     t: Filter based on respondent's sentiments about the main item.
 
   - key: comments.download
-    t: Download Comments (JSON)
+    t: Download JSON
+    aliases:
+      - comments.filter.by_download
+
+  - key: comments.download.description
+    t: Download a JSON file containing these items.
+    aliases:
+      - comments.filter.by_download.description
 
   ###########################################################################
   # Sharing
@@ -2417,7 +2424,7 @@ translations:
       {count} results
 
   - key: answers.download
-    t: Download Answers (JSON)
+    t: Download Answers
 
   ###########################################################################
   # Banners
@@ -2660,6 +2667,27 @@ translations:
   - key: help.freeform_answers.description
     t: >
       Answers for freeform textfield questions are matched to specific keywords (in this case **{topic}**) through a combination of automated and manual data processing.
+
+  - key: help.boxplot
+    t: Boxplot Chart
+
+  - key: help.boxplot.description
+    t: >
+      Boxplot charts show the 10th, 25th, 50th (a.k.a. **median**), 75th, and 90th [percentiles](https://www.mathsisfun.com/data/percentiles.html) of a dataset. You can also use the built-in controls to show the **average** (or **mean**) instead.
+
+  - key: help.stacked_bar
+    t: Stacked Bar Chart
+
+  - key: help.stacked_bar.description
+    t: >
+      Stacked bar charts take a question, and then further break down each bar to show how that sub-group answered a different question. You can use the legend to toggle sorting and ordering.
+
+  - key: help.two_series_scatterplot
+    t: Scatterplot Chart
+
+  - key: help.two_series_scatterplot.description
+    t: >
+      Scatterplot charts take a set of items and then map them on a grid along with a [trend line](https://www.mathsisfun.com/definitions/trend-line.html), which each axis corresponding to a different variable.
 
   ###########################################################################
   # Sponsors
