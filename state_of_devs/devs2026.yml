@@ -608,6 +608,23 @@ translations:
   # Conclusion
   ###########################################################################
 
+  - key: conclusion.devs2026.sacha_greif.bio
+    t: Founder, Devographics
+
+  - key: conclusion.devs2026.sacha_greif
+    t: |
+
+      I am now entering my 11th straight year of running developer surveys, and looking back it seems almost quaint to think that the big questions that kept us up at time used to be whether to use React or Angular. 
+
+
+      But things have changed, and 2026 might be remembered as the year when AI became too big to ignore. It's getting harder and harder to dismiss it as “smart autocorrect”, and its influence is starting to make waves in every layer of society. In a way, this survey was an attempt at taking a snapshot of this very unique year. 
+
+
+      Yet there are some questions that a survey just can't answer. Will programmers still write code by hand 5 years from now? Will software engineering even exist as a profession? And will developers keep answering these surveys year after year?
+
+
+      For now at least, the best we can hope for is to keep finding joy in what we do, day after day. With that in mind, I hope to see you all again in 2027!
+
   - key: conclusion.devs2026.miranda_heath.bio
     t: Founding director and researcher at the [Software Stewardship Lab](https://stewardshiplab.org/)
 
