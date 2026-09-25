@@ -2659,7 +2659,7 @@ translations:
 
   - key: help.freeform_answers.description
     t: >
-      Answers for freeform textfield questions are matched to specific keywords (in this case **{topic}***) through a combination of automated and manual data processing.
+      Answers for freeform textfield questions are matched to specific keywords (in this case **{topic}**) through a combination of automated and manual data processing.
 
   ###########################################################################
   # Sponsors
