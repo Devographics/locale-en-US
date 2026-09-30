@@ -544,6 +544,11 @@ translations:
   - key: options.web_components_features.na
     t: <span aria-hidden="true">🚫</span> None of the above
 
+  - key: features.web_components_pain_points
+    t: Web Components Pain Points
+  - key: features.web_components_pain_points.question
+    t: What are your biggest pain points around creating or using web components?
+
   - key: features.using_web_components_pain_points
     t: Using Web Components Pain Points
   - key: features.using_web_components_pain_points.question
