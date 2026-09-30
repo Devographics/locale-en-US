@@ -350,6 +350,12 @@ translations:
     aliases:
       - sections._user_metadata.description
 
+  - key: sections.correlations.title
+    t: Correlations
+
+  - key: sections.correlations.description
+    t: Explore how different factors are correlated.
+
   ###########################################################################
   # User Info
   ###########################################################################
@@ -2485,7 +2491,7 @@ translations:
       Correlations for selecting <span class="correlation-direction">more</span> items for **“{questionLabel}”**
 
   - key: correlations.exclusions
-    t: "Excluded correlations: "
+    t: "Excluded: "
   - key: correlations.exclusions.description
     t: Some correlation pairs are manually filtered out when considered too obvious or not relevant.
 
@@ -2571,15 +2577,19 @@ translations:
 
   - key: correlations.direction.positive
     t: positive
+  - key: correlations.direction.positive.title
+    t: Positive Correlations
   - key: correlations.direction.positive.description
     t: |
-      **Positive correlation** (0 to 1): when variable A increase, variable B **increases**.
+      When variable A increase, variable B **increases**.
 
   - key: correlations.direction.negative
     t: negative
+  - key: correlations.direction.negative.title
+    t: Negative Correlations
   - key: correlations.direction.negative.description
     t: |
-      **Negative correlation** (0 to -1): when variable A increase, variable B **decreases**.
+      When variable A increase, variable B **decreases**.
 
   - key: correlations.direction.lower
     t: lower
@@ -2634,11 +2644,7 @@ translations:
 
   - key: help.correlations.description
     t: >
-      These auto-generated scores help highlight whenever two items are correlated in the dataset, based on metrics such as:
-
-      - Scoring higher on a question
-      - Selecting more items for a question
-      - Selecting a specific answer
+      These auto-generated scores help highlight whenever two items are correlated in the dataset, based on metrics such as scoring **higher** on a question, selecting **more items** for a question, or selecting a **specific answer**.
 
   - key: help.query_builder
     t: Query Builder
