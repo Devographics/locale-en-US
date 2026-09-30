@@ -762,6 +762,7 @@ translations:
     t: AI tools have had a positive impact overall on my mental state
     aliases:
       - opinions.ai_mental_state.question
+
   # ai_risks
 
   - key: ai_usage.ai_risks
@@ -774,6 +775,49 @@ translations:
     t: AI Outlook
   - key: ai_usage.ai_outlook.question
     t: What else would you like to to add regarding your general outlook about AI?
+
+  - key: options.ai_outlook.anti_ai_sentiment
+    t: Anti-AI sentiment
+  - key: options.ai_outlook.distrust_of_ai_leaders
+    t: Distrust of AI Leaders & Labs
+  - key: options.ai_outlook.wish_it_didnt_exist
+    t: Rejection / Wish It Didn't Exist
+  - key: options.ai_outlook.worker_solidarity_call
+    t: Calls for worker unionization and solidarity
+  - key: options.ai_outlook.regulation_and_guardrails
+    t: Regulation & Guardrails
+  - key: options.ai_outlook.speculative_bubble_and_hype
+    t: Speculative Bubble & Hype
+  - key: options.ai_outlook.bubble_burst_anticipation
+    t: Bubble Burst Anticipation
+  - key: options.ai_outlook.pro_ai_sentiment
+    t: Pro-AI sentiment
+  - key: options.ai_outlook.productivity_gains
+    t: Productivity Gains
+  - key: options.ai_outlook.useful_tool_for_specific_tasks
+    t: AI as a useful tool for specific tasks
+  - key: options.ai_outlook.augments_skilled_engineers
+    t: Augments already-skilled engineers
+  - key: options.ai_outlook.optimism_about_future
+    t: Optimism about AI's future potential
+  - key: options.ai_outlook.neutral_ai_sentiment
+    t: Neutral sentiment
+  - key: options.ai_outlook.inevitability
+    t: Inevitability
+  - key: options.ai_outlook.tool_framing
+    t: AI as Just a Tool
+  - key: options.ai_outlook.still_learning_navigating
+    t: Still Figuring It Out
+  - key: options.ai_outlook.not_using_ai
+    t: Not Using
+  - key: options.ai_outlook.agentic_workflows
+    t: Agentic Workflows & Tooling
+  - key: options.ai_outlook.skill_dependent_outcomes
+    t: Skill-Dependent Outcomes
+  - key: options.ai_outlook.terminology_imprecision
+    t: Terminology Imprecision
+  - key: options.ai_outlook.local_and_open_weight_models
+    t: Local & Open-Weight Models
 
   # what_kind_keyboard
   - key: workplace.keyboard

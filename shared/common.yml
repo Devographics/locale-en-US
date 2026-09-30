@@ -2285,8 +2285,84 @@ translations:
   - key: options.ai_risks.cognitive_impact.description
     t: Excessive AI use making users helpless without it
 
-  - key: options.ai_risks.high_cost
-    t: High costs
+  - key: options.ai_risks.ai_career_impact
+    t: AI Career Impact
+
+  - key: options.ai_risks.junior_pipeline_impact
+    t: Junior Pipeline & Education Impact
+  - key: options.ai_risks.career_change_consideration
+    t: Career Change / Leaving Industry
+  - key: options.ai_risks.role_shift_to_reviewer
+    t: Role Shift to Reviewer/Overseer
+
+  - key: options.ai_risks.ai_developer_impact
+    t: Developer impact
+
+  - key: options.ai_risks.skill_atrophy
+    t: Skill Atrophy & Deskilling
+  - key: options.ai_risks.loss_of_joy_in_coding
+    t: Loss of Joy & Meaning
+  - key: options.ai_risks.pace_of_change_anxiety
+    t: Pace of Change Anxiety
+  - key: options.ai_risks.unrealistic_productivity_expectations
+    t: Unrealistic Productivity Expectations
+  - key: options.ai_risks.mental_health_impact
+    t: Mental Health Impact
+  - key: options.ai_risks.discourse_fatigue
+    t: AI Discourse Fatigue
+  - key: options.ai_risks.moral_injury
+    t: Moral Injury
+
+  - key: options.ai_risks.ai_industry_impact
+    t: Industry impact
+
+  - key: options.ai_risks.economic_collapse
+    t: Economic Collapse
+  - key: options.ai_risks.concentration_of_power
+    t: Concentration of Power
+  - key: options.ai_risks.labor_exploitation
+    t: Labor Exploitation
+  - key: options.ai_risks.forced_adoption_by_management
+    t: Forced Adoption by Management
+  - key: options.ai_risks.management_misunderstanding
+    t: Management Misunderstanding
+  - key: options.ai_risks.vendor_lock_in
+    t: Vendor Lock-in & Dependency
+  - key: options.ai_risks.decline_in_human_collaboration
+    t: Decline in Human Collaboration
+  - key: options.ai_risks.decline_in_human_collaboration
+    t: Decline in Human Collaboration
+  - key: options.ai_risks.false_expertise
+    t: False Expertise
+
+  - key: options.ai_risks.ai_ethics_impact
+    t: Ethics impact
+  - key: options.ai_risks.creative_industries_impact
+    t: Creative Industries Impact
+  - key: options.ai_risks.social_polarization
+    t: Social Polarization
+  - key: options.ai_risks.ai_misinformation
+    t: Misinformation
+  - key: options.ai_risks.mass_surveillance
+    t: Mass Surveillance
+  - key: options.ai_risks.militaristic_uses
+    t: Military Uses
+
+  - key: options.ai_risks.ai_technical_impact
+    t: Technical impact
+
+  - key: options.ai_risks.code_review_burden
+    t: Review & Testing Burden
+  - key: options.ai_risks.correctness_and_hallucination
+    t: Correctness & Hallucination
+  - key: options.ai_risks.technical_debt_and_maintainability
+    t: Technical & Comprehension Debt
+  - key: options.ai_risks.increased_code_volume
+    t: Increased Code Volume
+  - key: options.ai_risks.non_determinism
+    t: Non-Determinism
+  - key: options.ai_risks.vibe_coding_and_prompt_engineering
+    t: Vibe Coding & Prompt Engineering
 
   ###########################################################################
   # Resources
