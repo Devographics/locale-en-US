@@ -31,9 +31,9 @@ translations:
 
       <span class="conclusion__byline">– Sacha Greif</span>
 
-  - key: general.devs2026.css2025_banner
+  - key: general.devs2026.html2026_banner
     t: |
-      Take the State of CSS survey and test your CSS knowledge! →
+      Take the State of HTML survey now to keep up with the web platform! →
 
   # FAQ
 

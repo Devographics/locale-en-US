@@ -1325,6 +1325,11 @@ translations:
   - key: worldview.political_expression_at_work.prompt
     t: Either in the workplace, or publicly on work-related social media, etc.
 
+  - key: worldview.political_expression_at_work.lower
+    t: less comfortable
+  - key: worldview.political_expression_at_work.higher
+    t: more comfortable
+
   - key: options.political_expression_at_work.0
     t: Not comfortable at all
   - key: options.political_expression_at_work.1
