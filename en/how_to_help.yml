@@ -1,0 +1,40 @@
+---
+locale: en-US
+translations:
+  - 
+    key: how_to_help.content
+    t: >
+      Although the State of JavaScript and CSS do earn some revenue, they still rely primarily on volunteer work. If you'd like to join the project and help out, here are a few things we always need help with.
+      ### Translation
+      The surveys are now translated in 20+ languages, but a lot of the translations are incomplete or out of date. If you'd like to help, [join our Discord](https://discord.gg/tuWRUWVyJs) and give your GitHub username in the **#translations** channel.
+      ### Outreach
+      It's no secret that audiences for developer surveys in general tend to skew male, white, and U.S.-based. If you'd like to help us balance things out a bit, we could definitely use your help!
+      Outreach efforts include things like reaching out to organizations focused on helping minoritized populations negotiate the tech world, submitting links to the survey to various online communities, emailing blogs or magazines about the survey, and generally trying to diversify the survey's audience. If you'd like to help, [join our Discord](https://discord.gg/tuWRUWVyJs)'s **#outreach** channel (feel free to mute every other channel if you'd like).
+      Specifically, we'd love some help reaching out to organizations focused on:
+
+      - BIPOC developers
+
+      - LGBTQ+ developers
+
+      - Women developers
+
+      - Developers with disabilities
+
+      - Developers in under-represented countries (China, Brazil, India, Japan, etc.)
+
+      ### Writing & Analysis
+      Even though we try and surface interesting insights every year, we know there is no way to cover everything in a single report. If you're a data scientist or just curious about tech trends, we would love to see your own spin on our data! This can be a great way to broaden the dialog around the survey, especially when it comes to highlighting under-represented communities like the ones mentioned above.
+      You can either use the chart customization feature (pencil icon next to some charts) and our [public GraphQL API](https://api.stateofjs.com/) to create new visualizations, or [join our Discord](https://discord.gg/tuWRUWVyJs) and get in touch to ask for the full JSON dataset.
+      ### Coding
+      The entirety of our codebases are open-source, and we welcome contributions. I suggest first [getting familiar with how the surveys are run](https://dev.to/sachagreif/how-the-state-of-js-css-surveys-are-run-4lnb), and then [dropping by the Discord](https://discord.gg/tuWRUWVyJs) to let me know what you'd like to work on.
+      #### A Note About Paid Work
+      I have talked mainly about volunteer work here but we also have a small budget to pay consultants or experts, and are working on finding partners to subsidize more work. More specifically, we prefer paying for tasks that:
+
+      - Are **limited in scope**, since the budget will probably be limited too.
+
+      - Require **special expertise** that would not be easily provided by volunteers.
+
+      - Are **self-contained** and don't require too much follow-up work since we might not have time to do it.
+
+      Good examples include: illustrations & branding work, usability or accessibility audits, data visualization work, outreach work, etc.
+      So although we can't promise much, if you'd like to contribute to the project but can't afford to work on a volunteer basis, don't hesitate to [join the Discord](https://discord.gg/tuWRUWVyJs) and get in touch!
