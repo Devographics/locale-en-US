@@ -675,6 +675,14 @@ translations:
   - key: ai_usage.ai_generated_code_balance.prompt
     aliasFor: usage.ai_generated_code_balance.prompt
 
+  - key: options.ai_generated_code_balance.0
+    aliasFor: options.ai_generated_code_balance.0
+
+  - key: options.ai_generated_code_balance.0
+    t: 0% AI
+  - key: options.ai_generated_code_balance.8
+    t: 100% AI
+
   # ai_management_pressure
 
   - key: ai_usage.ai_management_pressure
