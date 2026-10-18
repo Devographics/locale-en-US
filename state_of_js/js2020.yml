@@ -5,7 +5,7 @@ translations:
   # General
   ###########################################################################
 
-  - key: general.results.description
+  - key: general.results.description.js2020
     t: The annual survey about the latest trends in the JavaScript ecosystem.
 
   ###########################################################################
@@ -56,10 +56,7 @@ translations:
   # Tshirt
   ###########################################################################
 
-  - key: sections.tshirt.title
-    t: T-shirt
-
-  - key: sections.tshirt.description
+  - key: sections.tshirt.description.js2020
     t: |
       ## Support the survey and look good in the process!
 
@@ -73,107 +70,79 @@ translations:
       and maybe even strike up a conversation with other like-minded 
       JavaScript developers!
 
-  - key: tshirt.about
-    t: About the T-shirt
-
-  - key: tshirt.description
-    t: |
-      Printing and shipping is handled by [Cotton Bureau](https://cottonbureau.com/people/state-of-js). The design is printed on a premium Next Level black super-soft, tri-blend shirt.
-
-  - key: tshirt.getit
-    t: Get It
-
-  - key: tshirt.price
-    t: USD ${price} + shipping
-
   ###########################################################################
   # Sections Introductions
   ###########################################################################
 
-  - key: sections.user_info.description
+  - key: sections.user_info.description.js2020
     t: |
       This year's survey reached **23,765** people in **137** countries. For the first time this year,
       we were able to translate the survey questions in multiple languages thanks to an awesome team of volunteers.
 
-  - key: sections.features.description
+  - key: sections.features.description.js2020
     t: |
       While most respondents were aware of the majority of JavaScript features 
       mentioned in the survey, many still have yet to actually use most of them.
 
-  - key: sections.technologies.description
+  - key: sections.technologies.description.js2020
     t: |
       The typical new JavaScript library shows high retention but low usage, which can sometimes make
       selecting the right technology for your needs a bit tricky. This is where looking at
       the data can really help point you in the right direction.
 
-  - key: sections.javascript_flavors.description
+  - key: sections.javascript_flavors.description.js2020
     t: |
       The trend of “flavors” of JavaScript that compile down to standard code started all these
       years ago with CoffeeScript, but it's now clear that TypeScript is the uncontested leader in
       that category.
 
-  - key: sections.front_end_frameworks.description
+  - key: sections.front_end_frameworks.description.js2020
     t: |
       As usual React and Vue lead the pack, but Svelte is quickly establishing itself as a very 
       serious contender for the front-end crown.
 
-  - key: sections.datalayer.description
+  - key: sections.datalayer.description.js2020
     t: |
       While the datalayer space is still in constant movement, one thing seems clear: GraphQL and
       its related technologies are here to stay.
 
-  - key: sections.back_end_frameworks.description
+  - key: sections.back_end_frameworks.description.js2020
     t: |
       The back-end space is still very fragmented, but Express stands out as the one dominant
       tool, while Next.js maintains its high retention ratio.
 
-  - key: sections.testing.description
+  - key: sections.testing.description.js2020
     t: |
       The testing ecosystem keeps getting richer, with new entrants Testing Library and Playwright both
       scoring high marks on the retention index.
 
-  - key: sections.build_tools.description
+  - key: sections.build_tools.description.js2020
     t: |
       Just when it seemed like webpack's dominance had settled the debate, the build tools scene
       has again exploded with new entrants like Snowpack and esbuild, leading us to give it a full 
       section for the first time since 2017.
 
-  - key: sections.mobile_desktop.description
+  - key: sections.mobile_desktop.description.js2020
     t: |
       JavaScript is not just for the browser, and while Electron and React Native are the two 
       best-known names in this category, other solutions like Expo and Capacitor are also starting 
       to make waves.
 
-  - key: sections.other_tools.description
+  - key: sections.other_tools.description.js2020
     t: |
       The diversity and quantity of libraries, utilities, and other tools highlights how vast the JavaScript
       ecosystem has become, and for the first time this year we're also tracking JavaScript runtimes 
       such as Deno and Hermes.
 
-  - key: sections.resources.description
+  - key: sections.resources.description.js2020
     t: |
       Many great resources are listed here, and we're sure that you'll find at least a few new 
       blogs or podcasts to follow!
 
-  - key: sections.opinions.description
+  - key: sections.opinions.description.js2020
     t: |
       While things are generally looking good in JavaScript land, there does seem to be a bit of a
       come-down from the positivity high-point of 2018. Will the trend persist? Tune in next year to find out!
-
-  ###########################################################################
-  # Notes
-  ###########################################################################
-
-  - key: blocks.source.note
-    t: >
-
-      This chart aggregates a mix of referrers, URL parameters, and freeform answers. 
-
-      - State of JS: the [State of JS](https://stateofjs.com) mailing list; also matches `email`, `by email`, etc.
-
-      - State of CSS: the [State of CSS](https://stateofcss.com/) mailing list
-
-      - Work: matches `work`, `colleagues`, `coworkers`, etc.
 
   ###########################################################################
   # Awards
@@ -198,7 +167,7 @@ translations:
   # Conclusion
   ###########################################################################
 
-  - key: sections.conclusion.description
+  - key: sections.conclusion.description.js2020
     t: |
       Since ancient times, philosophers have pondered the Paradox of JavaScript: on one hand, you can't wait for exciting new language features and libraries that promise to make your developer experience so much better. 
 

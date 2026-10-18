@@ -4,11 +4,8 @@ translations:
   # General
   ###########################################################################
 
-  - key: general.results.description
+  - key: general.results.description.js2022
     t: The 2022 edition of the annual survey about the latest trends in the JavaScript ecosystem.
-
-  - key: general.livestream_announcement
-    t: Make sure to tune in for our [special survey results livestream](https://dev.to/sachagreif/state-of-javascript-2021-livestream-24a5) on February 22! (English)
 
   ###########################################################################
   # Introduction
@@ -36,125 +33,40 @@ translations:
       <span class="conclusion__byline">– Sacha Greif</span>
 
   ###########################################################################
-  # Tshirt
-  ###########################################################################
-
-  - key: sections.tshirt.title
-    t: T-shirt
-
-  - key: sections.tshirt.description
-    t: |
-      ## Support the Survey With the State of JavaScript T-Shirt
-
-      Between the bad video quality, the bulky cassettes, and having to rewind, there's not much to miss about the VHS era. But one thing we *do* miss are the amazing 90s visuals that used to adorn blank VHS tapes. 
-
-      But now, thanks to the talented Christopher Kirk-Nielsen you can enjoy all this retro radness while also celebrating your love for JavaScript at the same time!
-
-  - key: tshirt.about
-    t: About the T-shirt
-
-  - key: tshirt.description
-    t: |
-      We use a high-quality, super-soft tri-blend shirt with a slim fit printed by our partners at Cotton Bureau.
-
-  - key: tshirt.getit
-    t: Get It
-
-  - key: tshirt.price
-    t: USD $29 + shipping
-
-  - key: tshirt.designer.heading
-    t: About the Designer
-
-  - key: tshirt.designer.name
-    t: Christopher Kirk-Nielsen
-
-  - key: tshirt.designer.bio
-    t: |
-      Originally from France but now based in the United States, Chris is not just an amazing front-end developer, but also a talented illustrator who specializes in retro visuals. In fact, we encourage you to also check out his [other t-shirt designs](https://chriskirknielsen.com/designs)!
-
-  ###########################################################################
   # Sections
   ###########################################################################
 
-  - key: sections.user_info.description
+  - key: sections.user_info.description.js2022
     t: |
       This year, **39,471** respondents took part in the survey.
 
-  - key: sections.features.description
+  - key: sections.features.description.js2022
     t: |
       JavaScript may move fast, but it seems like JavaScript developers move even faster, as many relatively new features already show high adoption levels.
 
-  - key: sections.technologies.description
+  - key: sections.technologies.description.js2022
     t: |
       This year's results point to a high degree of fragmentation in the JavaScript world. But while this can sometimes cause headaches, all that competition does make for a very dynamic ecosystem.
 
-  - key: sections.tools_others.description
+  - key: sections.tools_others.description.js2022
     t: |
       Picking a technology can often come down to a series of tough choices between 
       competing priorities, and this year we tried to capture this process using a new bracket-style question format.
 
-  - key: sections.environments.description
+  - key: sections.environments.description.js2022
     t: |
       Accessibility has long been an after-thought when it comes to web development, but many developers
       are now realizing that it should in fact be the foundation on which everything else rests.
 
-  - key: sections.resources.description
+  - key: sections.resources.description.js2022
     t: |
       Highlighting blogs, podcasts, and sites was a good start, but this year we decided to go one step further
       and actually feature the people who make up the JavaScript community!
 
-  - key: sections.opinions.description
+  - key: sections.opinions.description.js2022
     t: |
       Whether it's pain points that hold you back today, or missing features that you hope to use
       tomorrow, this was your chance to vent and share your gripes with JavaScript!
-
-  ###########################################################################
-  # Charts
-  ###########################################################################
-
-  - key: options.features_categories.language
-    aliasFor: sections.language.title
-  - key: options.features_categories.browser_apis
-    aliasFor: sections.browser_apis.title
-  - key: options.features_categories.other_features
-    aliasFor: sections.other_features.title
-
-  - key: blocks.tools_quadrant.description
-    t: |
-      This chart shows each technology's **retention ratio** over its total **user count**.
-      It can be divided into four quadrants:
-
-        - **1**: Low usage, high retention. Technologies worth keeping an eye on.
-
-        - **2**: High usage, high retention. Safe technologies to adopt.
-
-        - **3**: Low usage, low retention. Technologies that are harder to recommend currently.
-
-        - **4**: High usage, low retention. Reassess these technologies if you're currently using them.
-
-  ###########################################################################
-  # Notes
-  ###########################################################################
-
-  - key: blocks.gender.note
-    t: |
-      If you're interested in learning more, we [wrote a blog post](https://dev.to/sachagreif/is-our-survey-biased-against-women-49oj) that addresses the survey's gender dynamics.
-
-  - key: blocks.css_missing_features.note
-    t: |
-      You can explore the full dataset of answers to this question in [this side project](https://whatsmissingfromcss.com/).
-
-  - key: blocks.source.note
-    t: >
-
-      This chart aggregates a mix of referrers, URL parameters, and freeform answers. 
-
-      - State of JS: the [State of JS](https://stateofjs.com) mailing list.
-
-      - State of CSS: the State of CSS mailing list; also matches `email`, `by email`, etc.
-
-      - Work: matches `work`, `colleagues`, `coworkers`, etc.
 
   ###########################################################################
   # Awards
@@ -482,24 +394,6 @@ translations:
   - key: picks.shaundai_person.description
     t: |
       Sarah continues to give back to the community through blog posts, public speaking, and most recently - her book "Engineering Management for the Rest of Us".
-
-  - key: picks.xxxx.name
-    t:
-  - key: picks.xxxx.bio
-    t:
-  - key: picks.xxxx.description
-    t: |
-
-  ###########################################################################
-  # Sponsors
-  ###########################################################################
-
-  - key: sponsors.frontendmasters.description
-    t: Advance your skills with in-depth, modern front-end engineering courses.
-  - key: sponsors.google_chrome.description
-    t: Thanks to the Google Chrome team for supporting our work.
-  - key: sponsors.renderatl.description
-    t: This is a tech conference focused on Front-End Engineering.
 
   ###########################################################################
   # FAQ/About

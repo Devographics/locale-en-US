@@ -7,7 +7,7 @@ translations:
   - key: finish.share_message.js2025
     t: The State of JS 2025 survey is now open! {link}
 
-  - key: general.results.description
+  - key: general.results.description.js2025
     t: The 2025 edition of the annual survey about the latest trends in the JavaScript ecosystem.
 
   ###########################################################################

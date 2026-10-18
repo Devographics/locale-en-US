@@ -49,10 +49,7 @@ translations:
   # Tshirt
   ###########################################################################
 
-  - key: sections.tshirt.title
-    t: T-shirt
-
-  - key: sections.tshirt.description
+  - key: sections.tshirt.description.css2020
     t: |
       ## Support the survey and look good in the process!
 
@@ -62,64 +59,48 @@ translations:
 
       So whether you're going to a conference, a job interview, or just work, this shirt will demonstrate your CSS mastery like no other garment can!
 
-  - key: tshirt.about
-    t: About the T-shirt
-
-  - key: tshirt.description
-    t: |
-      The shirt features the State of CSS logo along with snippets of the actual CSS code used to create each shape. Who knows, you might learn a thing or two!
-
-      We use a high-quality, super-soft tri-blend shirt with a slim fit. 
-      This shirt sizes small, so if you prefer a looser fit we recommend ordering one size up from what you usually wear (I'm wearing an M in the photos).
-
-  - key: tshirt.getit
-    t: Get It
-
-  - key: tshirt.price
-    t: USD $24 + shipping
-
   ###########################################################################
   # Sections Introductions
   ###########################################################################
 
-  - key: sections.user_info.description
+  - key: sections.user_info.description.css2020
     t: |
       This year's survey reached **11,492** people in **102** countries. For the first time this year,
       we were able to translate the survey questions in multiple languages thanks to an awesome team of volunteers.
 
-  - key: sections.features.description
+  - key: sections.features.description.css2020
     t: |
       CSS has seen a surge of new features in recent years, so as you'd expect adoption is
       lagging a bit behind as the community takes its time to absorb new properties.
 
-  - key: sections.units_selectors.description
+  - key: sections.units_selectors.description.css2020
     t: |
       We're willing to bet you'll find a few things you didn't know about in this section!
 
-  - key: sections.technologies.description
+  - key: sections.technologies.description.css2020
     t: |
       The CSS ecosystem is going through a renewal of sorts, as older mainstays like Bootstrap 
       now have to accomodate newer entrants like Tailwind CSS. To say nothing of the whole CSS-in-JS
       movement which, while it has yet to cross over to the CSS mainstream, is nonetheless quite dynamic.
 
-  - key: sections.other_tools.description
+  - key: sections.other_tools.description.css2020
     t: |
       No big surprises here, but it's worth highlighting the appearance of development-focused browsers
       like Polypane and Sizzy, which go a step further than traditional devtools.
 
-  - key: sections.environments.description
+  - key: sections.environments.description.css2020
     t: |
       One of CSS's core strengths is its ability to adapt to different environment, yet for a variety
       of reasons media like print and email remain unexplored by a majority of CSS developers. Might they
       turn out to be the next frontier of CSS…?
 
-  - key: sections.resources.description
+  - key: sections.resources.description.css2020
     t: |
       The “other answers” results in this section highlight the richness and diversity of the CSS community,
       and feature many outstanding blogs and podcasts which we are looking forward to officially adding
       to the survey next year!
 
-  - key: sections.opinions.description
+  - key: sections.opinions.description.css2020
     t: |
       These opinions paint a picture of a language getting more mature, but also more complex. And perhaps
       –at least while we struggle to keep up with the pace of change– a little less enjoyable?
@@ -128,24 +109,13 @@ translations:
   # Notes
   ###########################################################################
 
-  - key: blocks.gender.note
+  - key: blocks.gender.note.css2020
     t: |
       If you're interested in learning more, we [wrote a blog post](https://dev.to/sachagreif/is-our-survey-biased-against-women-49oj) that addresses the survey's gender dynamics.
 
   - key: blocks.css_missing_features.note
     t: |
       You can explore the full dataset of answers to this question in [this side project](https://whatsmissingfromcss.com/).
-
-  - key: blocks.source.note
-    t: >
-
-      This chart aggregates a mix of referrers, URL parameters, and freeform answers. 
-
-      - State of JS: the [State of JS](https://stateofjs.com) mailing list.
-
-      - State of CSS: the State of CSS mailing list; also matches `email`, `by email`, etc.
-
-      - Work: matches `work`, `colleagues`, `coworkers`, etc.
 
   ###########################################################################
   # Awards
@@ -170,7 +140,7 @@ translations:
   # Conclusion
   ###########################################################################
 
-  - key: sections.conclusion.description
+  - key: sections.conclusion.description.css2020
     t: |
       If a JavaScript developer writes a line of CSS code, are they now a CSS developer?
 

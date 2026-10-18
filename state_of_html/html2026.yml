@@ -4,7 +4,7 @@ translations:
   # General
   ###########################################################################
 
-  - key: general.results.description
+  - key: general.results.description.html2026
     t: The 2026 edition of the annual survey about the latest trends in the HTML ecosystem.
 
   - key: general.html2026.survey_intro
@@ -258,10 +258,6 @@ translations:
   - key: opinions.validation_is_important.takeaway.html2026
     t: |
       It's easy to forget about HTML validation when dealing with the chaos of modern web development. But respondents agree that it remains an important part of the process.
-
-  - key: opinions.keeping_informed_is_challenging.takeaway.html2026
-    t: |
-      Despite great initiatives like [Baseline](https://web-platform-dx.github.io/web-features/), [keeping up with the web platform](https://css-tricks.com/how-to-keep-up-with-new-css-features/) remains a challenge. Hopefully this survey helps at least a little!
 
   - key: opinions.keeping_informed_is_challenging.takeaway.html2026
     t: |

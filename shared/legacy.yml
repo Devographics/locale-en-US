@@ -46,7 +46,7 @@ translations:
     t: No surveys are currently closed.
   - key: general.preview_surveys
     t: Preview Surveys
-  - key: general.no_preview_surveys
+  - key: general.no_preview_surveys.legacy
     t: No surveys available to preview.
   - key: general.start_survey
     t: Start Survey »
@@ -110,7 +110,7 @@ translations:
     t: With Support From
 
   # footer
-  - key: general.privacy_policy
+  - key: general.privacy_policy.legacy
     t: Privacy Policy
   - key: general.leave_issue
     t: Questions? Found a bug? <a href="{link}" target="_blank">Leave an issue</a>.
@@ -210,13 +210,8 @@ translations:
 
   - key: sections.user_info.title
     t: About You
-  - key: sections.user_info.description
+  - key: sections.user_info.description.legacy
     t: Let's get to know the real you.
-
-  - key: sections.features.title
-    t: Features
-  - key: sections.features.description
-    t: Syntax, keywords, and other language features.
 
   - key: sections.resources.title
     t: Resources

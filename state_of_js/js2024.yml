@@ -4,7 +4,7 @@ translations:
   # General
   ###########################################################################
 
-  - key: general.results.description
+  - key: general.results.description.js2024
     t: The 2024 edition of the annual survey about the latest trends in the JavaScript ecosystem.
 
   ###########################################################################
@@ -120,25 +120,6 @@ translations:
     aliasFor: sections.browser_apis.title
   - key: options.features_categories.other_features
     aliasFor: sections.other_features.title
-
-  ###########################################################################
-  # Notes
-  ###########################################################################
-
-  - key: blocks.gender.note
-    t: |
-      If you're interested in learning more, we [wrote a blog post](https://dev.to/sachagreif/is-our-survey-biased-against-women-49oj) that addresses the survey's gender dynamics.
-
-  - key: blocks.source.note
-    t: >
-
-      This chart aggregates a mix of referrers, URL parameters, and freeform answers. 
-
-      - State of JS: the [State of JS](https://stateofjs.com) mailing list.
-
-      - State of CSS: the State of CSS mailing list; also matches `email`, `by email`, etc.
-
-      - Work: matches `work`, `colleagues`, `coworkers`, etc.
 
   ###########################################################################
   # Awards
@@ -296,22 +277,6 @@ translations:
   - key: picks.sebastien_lorber.description
     t: |
       The Rspack bundler is an almost drop-in replacement for Webpack. Implemented in Rust, it's much faster than Webpack and consumes less memory. All Webpack projects should try it out immediately, considering how easy it is to adopt!
-
-  ###########################################################################
-  # Sponsors
-  ###########################################################################
-
-  - key: sponsors.frontendmasters.description
-    t: Advance your skills with in-depth, modern front-end engineering courses.
-  - key: sponsors.google_chrome.description
-    t: Thanks to the Google Chrome team for supporting our work.
-  - key: sponsors.tokyodev.description
-    t: Find your dream developer job in Japan today.
-  - key: sponsors.renderatl.description
-    t: The tech conference focused on all things web.
-  - key: sponsors.gitnation.description
-    t: |
-      Learn the latest trends directly from early-adopters and tech authors at GitNation.com
 
   ###########################################################################
   # FAQ/About
@@ -550,10 +515,6 @@ translations:
   - key: tools.monorepo_tools_ratios.takeaway.js2024
     t: >
       Monorepos have yet to cross over into the mainstream of the web development ecosystem – yet for those who are brave enough to explore this new frontier, pnpm seems like the clear front-runner.
-
-  - key: tools.monorepo_tools_ratios.takeaway.js2024
-    t: >
-      Monorepos are still too hard to set up properly. And package management in itself is something that we still haven't gotten quite right… but then again, who has?
 
   - key: tools.monorepo_tools_work.takeaway.js2024
     t: >

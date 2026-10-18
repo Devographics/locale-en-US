@@ -476,14 +476,6 @@ translations:
     t: |
       Once using `color-scheme` in CSS, using `light-dark()` to declare colors based upon whether light or dark mode is currently in use feels like a no-brainer. I'm currently enjoying following [this discussion thread](https://github.com/w3c/csswg-drafts/issues/10577) about what further logic we may use in the future, to query color-scheme and change CSS conditionally.
 
-  - key: frontendmasters.learning_path
-    t: |
-      Your Path to Becoming a Senior Web Developer
-
-  - key: frontendmasters.learning_path.description
-    t: |
-      Want to upgrade your career? Deep-dive into JavaScript, React, Web performance, CSS, deploying websites, TypeScript, and functional programming to go from junior to senior today.
-
   ###########################################################################
   # Figures
   ###########################################################################

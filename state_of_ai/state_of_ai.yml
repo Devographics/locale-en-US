@@ -399,19 +399,45 @@ translations:
 
   - key: usage.ai_generated_code_balance
     t: AI Code Generation
+    contexts:
+      - state_of_js
+      - state_of_devs
   - key: usage.ai_generated_code_balance.question
     t: What proportion of the code you produce is AI-generated?
+    contexts:
+      - state_of_js
+      - state_of_devs
   - key: usage.ai_generated_code_balance.prompt
     t: Including code copy-pasted from ChatGPT or other chatbots, or code co-written using AI tools.
+    contexts:
+      - state_of_js
+      - state_of_devs
 
   - key: options.ai_generated_code_balance.0
     t: 0% AI
+    contexts:
+      - state_of_js
+      - state_of_devs
     aliases:
       - options.css_ai_generated_code_balance.0
   - key: options.ai_generated_code_balance.8
     t: 100% AI
+    contexts:
+      - state_of_js
+      - state_of_devs
     aliases:
       - options.css_ai_generated_code_balance.8
+
+  # ai_generated_code_reviewed_balance
+
+  - key: usage.ai_generated_code_reviewed_balance
+    t: AI Code Review
+    contexts:
+      - state_of_js
+  - key: usage.ai_generated_code_reviewed_balance.question
+    t: What proportion of AI-generated code do you manually review or read?
+    contexts:
+      - state_of_js
 
   # ai_generated_code_refactoring
 
@@ -1056,11 +1082,6 @@ translations:
     t: How will the data collected be used?
   - key: faq.data_used_ai.description
     t: The data collected will be used to publish a free online report, and the full dataset will also be available for free [on demand](https://discord.gg/2E7bbgnrJJ).
-
-  - key: faq.team
-    t: Who runs this survey?
-  - key: faq.team.description
-    t: This survey is run by the [Devographics](https://devographics.com/) team along with help from volunteers and the community.
 
   ###########################################################################
   # Variant Tabs

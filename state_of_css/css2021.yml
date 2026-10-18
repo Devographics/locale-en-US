@@ -4,7 +4,7 @@ translations:
   # Introduction
   ###########################################################################
 
-  - key: general.results.description
+  - key: general.results.description.css2021
     t: The 2021 edition of the annual survey about the latest trends in the CSS ecosystem.
 
   - key: introduction.css2021
@@ -26,37 +26,37 @@ translations:
   # Sections Introductions
   ###########################################################################
 
-  - key: sections.user_info.description
+  - key: sections.user_info.description.css2021
     t: |
       This year's survey reached **8,714** developers throughout the world.
 
-  - key: sections.features.description
+  - key: sections.features.description.css2021
     t: |
       CSS's dynamism shows no sign of stopping, as developers make an effort to adopt the current
       crop of new features while looking forward to even more innovation in the next few years.
 
-  - key: sections.technologies.description
+  - key: sections.technologies.description.css2021
     t: |
       With nearly 50% of respondents happily using one or more CSS-in-JS library, it's safe to say that
       the category has managed to carve out its niche. Maybe the two sides of the front-end world are 
       not so far apart after all?
 
-  - key: sections.tools_others.description
+  - key: sections.tools_others.description.css2021
     t: |
       Picking a technology can often come down to a series of tough choices between 
       competing priorities, and this year we tried to capture this process using a new bracket-style question format.
 
-  - key: sections.environments.description
+  - key: sections.environments.description.css2021
     t: |
       Accessibility has long been an after-thought when it comes to web development, but many developers
       are now realizing that it should in fact be the foundation on which everything else rests.
 
-  - key: sections.resources.description
+  - key: sections.resources.description.css2021
     t: |
       Highlighting blogs, podcasts, and sites is fine, but this year we decided to go one step further
       and actually feature the people who make up the CSS community themselves!
 
-  - key: sections.opinions.description
+  - key: sections.opinions.description.css2021
     t: |
       Whether it's pain points that hold you back today, or missing features that you hope to use
       tomorrow, this was your chance to vent and share your gripes with CSS!
@@ -81,29 +81,6 @@ translations:
     aliasFor: sections.media_queries.title
   - key: options.features_categories.other_features
     aliasFor: sections.other_features.title
-
-  ###########################################################################
-  # Notes
-  ###########################################################################
-
-  - key: blocks.gender.note
-    t: |
-      If you're interested in learning more, we [wrote a blog post](https://dev.to/sachagreif/is-our-survey-biased-against-women-49oj) that addresses the survey's gender dynamics.
-
-  - key: blocks.css_missing_features.note
-    t: |
-      You can explore the full dataset of answers to this question in [this side project](https://whatsmissingfromcss.com/).
-
-  - key: blocks.source.note
-    t: >
-
-      This chart aggregates a mix of referrers, URL parameters, and freeform answers. 
-
-      - State of JS: the [State of JS](https://stateofjs.com) mailing list.
-
-      - State of CSS: the State of CSS mailing list; also matches `email`, `by email`, etc.
-
-      - Work: matches `work`, `colleagues`, `coworkers`, etc.
 
   ###########################################################################
   # Awards
@@ -348,17 +325,6 @@ translations:
   #   t: |
   #       The media query to reduce motion, which helps avoid
   #       triggering dizziness and discomfort.
-
-  ###########################################################################
-  # Sponsors
-  ###########################################################################
-
-  - key: sponsors.frontendmasters.description
-    t: Advance your skills with in-depth, modern front-end engineering courses.
-  - key: sponsors.polypane.description
-    t: The browser for ambitious devs. Build responsive, accessible and fast websites with ease.
-  - key: sponsors.google_chrome.description
-    t: Thanks to the Google Chrome team for supporting our work.
 
   ###########################################################################
   # FAQ/About

@@ -104,6 +104,10 @@ translations:
 
   - key: sections.monorepo_tools.title
     t: Monorepo Tools
+    aliases:
+      - tools.monorepo_tools
+      - other_tools.monorepo_tools
+      - tools_others.monorepo_tools
   - key: sections.monorepo_tools.description
     t: Tools used to manage JavaScript monorepos.
 
@@ -135,8 +139,6 @@ translations:
     aliasFor: sections.testing.title
   - key: tools.build_tools
     aliasFor: sections.build_tools.title
-  - key: tools.monorepo_tools
-    aliasFor: sections.monorepo_tools.title
 
   ###########################################################################
   # Survey Help
@@ -430,70 +432,6 @@ translations:
   - key: options.what_do_you_use_js_for.prototyping
     t: Prototyping
 
-  # JS App Patterns
-
-  - key: options.js_app_patterns.single_page_app
-    t: Single Page Application (SPA)
-  - key: options.js_app_patterns.single_page_app.description
-    t: Apps that run entirely in the browser
-  - key: options.js_app_patterns.multiple_page_app
-    t: Multi-Page Application (MPA)
-  - key: options.js_app_patterns.multiple_page_app.description
-    t: Apps that run entirely on the server, with minimal client-side dynamic behavior
-  - key: options.js_app_patterns.static_site_generation
-    t: Static Site Generation (SSG)
-  - key: options.js_app_patterns.static_site_generation.description
-    t: Static content pre-rendered at build time, with or without a client-side dynamic element
-  - key: options.js_app_patterns.server_side_rendering
-    t: Server-Side Rendering (SSR)
-  - key: options.js_app_patterns.server_side_rendering.description
-    t: Dynamically rendering HTML content on the server on request, before rehydrating it on the client
-  - key: options.js_app_patterns.partial_hydration
-    t: Partial Hydration
-  - key: options.js_app_patterns.partial_hydration.description
-    t: Only hydrating some of your components on the client (e.g. React Server Components)
-  - key: options.js_app_patterns.progressive_rehydration
-    t: Progressive Hydration
-  - key: options.js_app_patterns.progressive_rehydration.description
-    t: Controlling the order of component hydration on the client
-  - key: options.js_app_patterns.islands_architecture
-    t: Islands Architecture
-  - key: options.js_app_patterns.islands_architecture.description
-    t: Isolated islands of dynamic behavior with multiple entry points in an otherwise static site (Astro, Eleventy)
-  - key: options.js_app_patterns.progressive_enhancement
-    t: Progressive Enhancement
-  - key: options.js_app_patterns.progressive_enhancement.description
-    t: Making sure an app is functional even without JavaScript
-  - key: options.js_app_patterns.incremental_static_generation
-    t: Incremental Static Generation
-  - key: options.js_app_patterns.incremental_static_generation.description
-    t: Being able to dynamically augment or modify a static site even after the initial build (Next.js ISR & on-demand revalidation, Gatsby DSG)
-  - key: options.js_app_patterns.streaming_ssr
-    t: Streaming SSR
-  - key: options.js_app_patterns.streaming_ssr.description
-    t: Breaking down server-rendered content in smaller streamed chunks
-  - key: options.js_app_patterns.resumability
-    t: Resumability
-  - key: options.js_app_patterns.resumability.description
-    t: Serializing framework state on the server so the client can resume execution with no duplicated code execution.
-  - key: options.js_app_patterns.edge_rendering
-    t: Edge Rendering
-  - key: options.js_app_patterns.edge_rendering.description
-    t: Altering rendered HTML at the edge before sending it on to the client
-  - key: options.js_app_patterns.partial_prerendering
-    t: Partial Prerendering
-  - key: options.js_app_patterns.partial_prerendering.description
-    t: Render a route with a static loading shell, while keeping some parts dynamic
-
-  - key: options.js_app_patterns.micro_frontend
-    t: Micro Frontend
-  - key: options.js_app_patterns.domain_driven_design
-    t: Domain-Driven Design
-  - key: options.js_app_patterns.serverless
-    t: Serverless
-  - key: options.js_app_patterns.pespa
-    t: PESPA
-
   ###########################################################################
   # Features
   ###########################################################################
@@ -681,11 +619,18 @@ translations:
     t: Meta-Frameworks Ratios Over Time
     aliases:
       - meta_frameworks.meta_frameworks_ratios
+      - back_end_infrastructure.meta_frameworks_ratios
+    contexts:
+      - state_of_react
   - key: tools.meta_frameworks_ratios.short
     aliasFor: tools.ratios
+    contexts:
+      - state_of_react
 
   - key: tools.meta_frameworks_experience
     t: Meta-Frameworks Experience & Sentiment
+    contexts:
+      - state_of_react
   - key: tools.meta_frameworks_experience.short
     aliasFor: tools.experience
 
@@ -1009,15 +954,18 @@ translations:
     t: Non-JavaScript Features
     aliases:
       - other_tools.non_js_languages_features
+      - tools_others.non_js_languages_features
   - key: tools.non_js_languages_features.question
     t: Which features from other programming languages do you wish JavaScript/TypeScript would adopt?
     aliases:
       - other_tools.non_js_languages_features.question
+      - tools_others.non_js_languages_features.question
   - key: tools.non_js_languages_features.prompt
     t: >
       When possible, specify both the language and the feature, e.g. “Rust: pattern matching”
     aliases:
       - other_tools.non_js_languages_features.prompt
+      - tools_others.non_js_languages_features.prompt
 
   - key: other_tools.non_js_languages_features_top_features
     t: Non-JavaScript Features
@@ -1082,8 +1030,12 @@ translations:
 
   - key: tools.graphics_animation
     t: Graphics & Animations
+    aliases:
+      - tools_others.graphics_animation
   - key: tools.graphics_animation.question
     t: Which graphics & animation libraries do you regularly use?
+    aliases:
+      - tools_others.graphics_animation.question
   - key: tools.graphics_animation.prompt
     t: Libraries dedicated to graphics and animation.
   - key: tools.graphics_animation.others
@@ -1091,12 +1043,18 @@ translations:
 
   - key: tools.data_fetching
     t: Data Fetching
+    aliases:
+      - tools_others.data_fetching
   - key: tools.data_fetching.question
     t: Libraries that manage data fetching and caching.
+    aliases:
+      - tools_others.data_fetching.question
   - key: tools.data_fetching.others
     t: Other Data Fetching Libraries
 
   - key: other_tools.libraries
+    aliasFor: tools.libraries
+  - key: tools_others.libraries
     aliasFor: tools.libraries
   - key: other_tools.libraries.description
     aliasFor: tools.libraries.question
@@ -1246,40 +1204,174 @@ translations:
     t: Hosting Services
     aliases:
       - other_tools.hosting
+      - tools_others.hosting
   - key: tools.hosting.question
     t: Which of these services have you used to host JavaScript apps?
     aliases:
       - other_tools.hosting.question
+      - tools_others.hosting.question
 
   - key: tools.mobile_desktop
     aliasFor: sections.mobile_desktop.title
   - key: other_tools.mobile_desktop
     aliasFor: sections.mobile_desktop.title
+  - key: tools_others.mobile_desktop
+    aliasFor: sections.mobile_desktop.title
   - key: tools.mobile_desktop.question
     t: Which of these mobile or desktop app frameworks do you regularly use?
     aliases:
       - other_tools.mobile_desktop.question
+      - tools_others.mobile_desktop.question
 
-  - key: tools.monorepo_tools
-    aliasFor: sections.monorepo_tools.title
-  - key: other_tools.monorepo_tools
-    aliasFor: sections.monorepo_tools.title
   - key: tools.monorepo_tools.question
     t: Which of these monorepo tools do you regularly use?
     aliases:
       - other_tools.monorepo_tools.question
+      - tools_others.monorepo_tools.question
 
   ###########################################################################
   # Usage
   ###########################################################################
 
+  # js_app_patterns
   - key: usage.js_app_patterns
     t: Application Patterns
+    contexts:
+      - state_of_react
   - key: usage.js_app_patterns.question
     t: Which of the following architecture and rendering patterns have you used **in the last year**?
+    contexts:
+      - state_of_react
   - key: usage.js_app_patterns.others
     t: Other App Patterns
+    contexts:
+      - state_of_react
 
+  # JS App Patterns
+
+  - key: options.js_app_patterns.single_page_app
+    t: Single Page Application (SPA)
+    contexts:
+      - state_of_react
+  - key: options.js_app_patterns.single_page_app.description
+    t: Apps that run entirely in the browser
+    contexts:
+      - state_of_react
+  - key: options.js_app_patterns.multiple_page_app
+    t: Multi-Page Application (MPA)
+    contexts:
+      - state_of_react
+  - key: options.js_app_patterns.multiple_page_app.description
+    t: Apps that run entirely on the server, with minimal client-side dynamic behavior
+    contexts:
+      - state_of_react
+  - key: options.js_app_patterns.static_site_generation
+    t: Static Site Generation (SSG)
+    contexts:
+      - state_of_react
+  - key: options.js_app_patterns.static_site_generation.description
+    t: Static content pre-rendered at build time, with or without a client-side dynamic element
+    contexts:
+      - state_of_react
+  - key: options.js_app_patterns.server_side_rendering
+    t: Server-Side Rendering (SSR)
+    contexts:
+      - state_of_react
+  - key: options.js_app_patterns.server_side_rendering.description
+    t: Dynamically rendering HTML content on the server on request, before rehydrating it on the client
+    contexts:
+      - state_of_react
+  - key: options.js_app_patterns.partial_hydration
+    t: Partial Hydration
+    contexts:
+      - state_of_react
+  - key: options.js_app_patterns.partial_hydration.description
+    t: Only hydrating some of your components on the client (e.g. React Server Components)
+    contexts:
+      - state_of_react
+  - key: options.js_app_patterns.progressive_rehydration
+    t: Progressive Hydration
+    contexts:
+      - state_of_react
+  - key: options.js_app_patterns.progressive_rehydration.description
+    t: Controlling the order of component hydration on the client
+    contexts:
+      - state_of_react
+  - key: options.js_app_patterns.islands_architecture
+    t: Islands Architecture
+    contexts:
+      - state_of_react
+  - key: options.js_app_patterns.islands_architecture.description
+    t: Isolated islands of dynamic behavior with multiple entry points in an otherwise static site (Astro, Eleventy)
+    contexts:
+      - state_of_react
+  - key: options.js_app_patterns.progressive_enhancement
+    t: Progressive Enhancement
+    contexts:
+      - state_of_react
+  - key: options.js_app_patterns.progressive_enhancement.description
+    t: Making sure an app is functional even without JavaScript
+    contexts:
+      - state_of_react
+  - key: options.js_app_patterns.incremental_static_generation
+    t: Incremental Static Generation
+    contexts:
+      - state_of_react
+  - key: options.js_app_patterns.incremental_static_generation.description
+    t: Being able to dynamically augment or modify a static site even after the initial build (Next.js ISR & on-demand revalidation, Gatsby DSG)
+    contexts:
+      - state_of_react
+  - key: options.js_app_patterns.streaming_ssr
+    t: Streaming SSR
+    contexts:
+      - state_of_react
+  - key: options.js_app_patterns.streaming_ssr.description
+    t: Breaking down server-rendered content in smaller streamed chunks
+    contexts:
+      - state_of_react
+  - key: options.js_app_patterns.resumability
+    t: Resumability
+    contexts:
+      - state_of_react
+  - key: options.js_app_patterns.resumability.description
+    t: Serializing framework state on the server so the client can resume execution with no duplicated code execution.
+    contexts:
+      - state_of_react
+  - key: options.js_app_patterns.edge_rendering
+    t: Edge Rendering
+    contexts:
+      - state_of_react
+  - key: options.js_app_patterns.edge_rendering.description
+    t: Altering rendered HTML at the edge before sending it on to the client
+    contexts:
+      - state_of_react
+  - key: options.js_app_patterns.partial_prerendering
+    t: Partial Prerendering
+    contexts:
+      - state_of_react
+  - key: options.js_app_patterns.partial_prerendering.description
+    t: Render a route with a static loading shell, while keeping some parts dynamic
+    contexts:
+      - state_of_react
+
+  - key: options.js_app_patterns.micro_frontend
+    t: Micro Frontend
+    contexts:
+      - state_of_react
+  - key: options.js_app_patterns.domain_driven_design
+    t: Domain-Driven Design
+    contexts:
+      - state_of_react
+  - key: options.js_app_patterns.serverless
+    t: Serverless
+    contexts:
+      - state_of_react
+  - key: options.js_app_patterns.pespa
+    t: PESPA
+    contexts:
+      - state_of_react
+
+      # what_do_you_use_js_for
   - key: usage.what_do_you_use_js_for
     t: Use Case
   - key: usage.what_do_you_use_js_for.question
@@ -1331,15 +1423,6 @@ translations:
   #   aliasFor: options.slider.7.description
   # - key: options.js_ts_balance.8.description
   #   aliasFor: options.slider.8.description
-
-  # ai_generated_code_balance
-
-  - key: usage.ai_generated_code_balance
-    t: AI Code Generation
-  - key: usage.ai_generated_code_balance.question
-    t: What proportion of the code you produce is AI-generated?
-  - key: usage.ai_generated_code_balance.prompt
-    t: Including code copy-pasted from ChatGPT or other chatbots, or code co-written using AI tools.
 
   # compiled_code_balance
 
@@ -1435,10 +1518,12 @@ translations:
     t: JavaScript Edge/Serverless Runtimes
     aliases:
       - other_tools.edge_runtimes
+      - tools_others.edge_runtimes
   - key: tools.edge_runtimes.question
     t: Which edge or serverless runtimes do you regularly use?
     aliases:
       - other_tools.edge_runtimes.question
+      - tools_others.edge_runtimes.question
   - key: tools.edge_runtimes.others
     t: Other Edge Runtimes
 
@@ -1519,7 +1604,7 @@ translations:
     aliases:
       - features.js_new_features
   - key: usage.js_new_features.question
-    t: Which of these active JavaScript proposals are you most excited about?
+    t: Which of these JavaScript features or proposals are you most excited about?
     aliases:
       - features.js_new_features.question
   - key: usage.js_new_features.prompt
@@ -1597,10 +1682,14 @@ translations:
     t: Web Technologies Happiness
     aliases:
       - usage.state_of_the_web_happiness
+    contexts:
+      - state_of_css
   - key: happiness.state_of_the_web.question
     t: How happy are you with the general state of web technologies?
     aliases:
       - usage.state_of_the_web_happiness.question
+    contexts:
+      - state_of_css
 
   - key: happiness.state_of_js
     t: JavaScript Happiness
@@ -1745,36 +1834,10 @@ translations:
   # Tshirt
   ###########################################################################
 
-  - key: sections.tshirt.title
-    t: T-shirt
-
-  - key: sections.tshirt.description
+  - key: sections.tshirt.description.state_of_js
     t: |
       ## Support the Survey With the State of JavaScript T-Shirt
 
       Between the bad video quality, the bulky cassettes, and having to rewind, there's not much to miss about the VHS era. But one thing we *do* miss are the amazing 90s visuals that used to adorn blank VHS tapes. 
 
       But now, thanks to the talented Christopher Kirk-Nielsen you can enjoy all this retro radness while also celebrating your love for JavaScript at the same time!
-
-  - key: tshirt.about
-    t: About the T-shirt
-
-  - key: tshirt.description
-    t: |
-      We use a high-quality, super-soft tri-blend shirt with a slim fit printed by our partners at Cotton Bureau.
-
-  - key: tshirt.getit
-    t: Get It
-
-  - key: tshirt.price
-    t: USD $32 + shipping
-
-  - key: tshirt.designer.heading
-    t: About the Designer
-
-  - key: tshirt.designer.name
-    t: Christopher Kirk-Nielsen
-
-  - key: tshirt.designer.bio
-    t: |
-      Originally from France but now based in the United States, Chris is not just an amazing front-end developer, but also a talented illustrator who specializes in retro visuals. In fact, we encourage you to also check out his [other t-shirt designs](https://chriskirknielsen.com/designs)!

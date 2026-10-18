@@ -4,11 +4,8 @@ translations:
   # General
   ###########################################################################
 
-  - key: general.results.description
+  - key: general.results.description.css2023
     t: The 2023 edition of the annual survey about the latest trends in the CSS ecosystem.
-
-  - key: general.css2022.js2022_banner
-    t: The State of JS 2022 survey is currently open, you can [go take it right now](https://survey.devographics.com/survey/state-of-js/2022?source=css2022)!
 
   - key: general.css2023.results_intro
     t: |
@@ -430,21 +427,6 @@ translations:
       The W3C's [CSS Working Group](https://www.w3.org/groups/wg/css) maintains the CSS spec, which is then implemented by browser vendors.
   - key: quiz.quiz_css_spec.description
     aliasFor: quiz.quiz_css_spec.question
-
-  ###########################################################################
-  # Sponsors
-  ###########################################################################
-
-  - key: sponsors.frontendmasters.description
-    t: Advance your skills with in-depth, modern front-end engineering courses.
-  - key: sponsors.polypane.description
-    t: The browser for ambitious devs. Build responsive, accessible and fast websites with ease.
-  - key: sponsors.nijibox.description
-    t: UX and Product Development consulting in the heart of Tokyo.
-  - key: sponsors.renderatl.description
-    t: The largest tech conference with a dedicated Design & CSS track.
-  - key: sponsors.google_chrome.description
-    t: Thanks to the Google Chrome team for supporting our work.
 
   ###########################################################################
   # FAQ/About

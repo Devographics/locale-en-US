@@ -377,19 +377,6 @@ translations:
       I cannot look into the future and know what's next, but I can make one promise that always seems to be true for software: being competent is fun.
 
   ###########################################################################
-  # Sponsors
-  ###########################################################################
-
-  - key: sponsors.google_chrome.description
-    t: Thanks to the Google Chrome team for supporting our work.
-
-  - key: sponsors.tokyodev.description
-    t: Find your dream developer job in Japan today.
-
-  - key: sponsors.neon.description
-    t: Unleash cutting-edge AI applications with Postgres.
-
-  ###########################################################################
   # FAQ/About
   ###########################################################################
 

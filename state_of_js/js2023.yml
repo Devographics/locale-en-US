@@ -4,7 +4,7 @@ translations:
   # General
   ###########################################################################
 
-  - key: general.results.description
+  - key: general.results.description.js2023
     t: The 2023 edition of the annual survey about the latest trends in the JavaScript ecosystem.
 
   ###########################################################################
@@ -29,72 +29,34 @@ translations:
       <span class="conclusion__byline">– Sacha Greif</span>
 
   ###########################################################################
-  # Tshirt
-  ###########################################################################
-
-  - key: sections.tshirt.title
-    t: T-shirt
-
-  - key: sections.tshirt.description
-    t: |
-      ## Support the Survey With the State of JavaScript T-Shirt
-
-      Between the bad video quality, the bulky cassettes, and having to rewind, there's not much to miss about the VHS era. But one thing we *do* miss are the amazing 90s visuals that used to adorn blank VHS tapes. 
-
-      But now, thanks to the talented Christopher Kirk-Nielsen you can enjoy all this retro radness while also celebrating your love for JavaScript at the same time!
-
-  - key: tshirt.about
-    t: About the T-shirt
-
-  - key: tshirt.description
-    t: |
-      We use a high-quality, super-soft tri-blend shirt with a slim fit printed by our partners at Cotton Bureau.
-
-  - key: tshirt.getit
-    t: Get It
-
-  - key: tshirt.price
-    t: USD $32 + shipping
-
-  - key: tshirt.designer.heading
-    t: About the Designer
-
-  - key: tshirt.designer.name
-    t: Christopher Kirk-Nielsen
-
-  - key: tshirt.designer.bio
-    t: |
-      Originally from France but now based in the United States, Chris is not just an amazing front-end developer, but also a talented illustrator who specializes in retro visuals. In fact, we encourage you to also check out his [other t-shirt designs](https://chriskirknielsen.com/designs)!
-
-  ###########################################################################
   # Sections
   ###########################################################################
 
-  - key: sections.user_info.description
+  - key: sections.user_info.description.js2023
     t: |
       This year, **23,540** respondents took part in the survey.
 
-  - key: sections.features.description
+  - key: sections.features.description.js2023
     t: |
       This year we put special emphasis on identifying developer pain points with JavaScript. As one might expect, the **lack of native typing** and **browser inconsistencies** led their respective charts, each affecting nearly a third of developers.
 
-  - key: sections.libraries.description
+  - key: sections.libraries.description.js2023
     t: |
       We reworked our charts to highlight not just developer experience, but *sentiment*. Be sure to explore these new grouping and sorting options to figure out which libraries get the most love… or the least!
 
-  - key: sections.other_tools.description
+  - key: sections.other_tools.description.js2023
     t: |
       While the JavaScript conversation often seems to boild down to which framework to pick, it's worth remembering that there's a whole galaxy of other tools, services, and platforms to explore beyond that!
 
-  - key: sections.usage.description
+  - key: sections.usage.description.js2023
     t: |
       Once again it seems like TypeScript has established itself as the default, at least among survey respondents. But apart from that, JavaScript usage remains as varied as ever!
 
-  - key: sections.resources.description
+  - key: sections.resources.description.js2023
     t: |
       Rather than provide predefined lists of options for survey respondents to pick from, we decided to simply offer raw text fields. This led to quite a few new entrants in this year's Resources section!
 
-  - key: sections.awards.description
+  - key: sections.awards.description.js2023
     t: |
       This year's awards were dominated by one very specific project… how quickly will you guess what it is?
 
@@ -108,25 +70,6 @@ translations:
     aliasFor: sections.browser_apis.title
   - key: options.features_categories.other_features
     aliasFor: sections.other_features.title
-
-  ###########################################################################
-  # Notes
-  ###########################################################################
-
-  - key: blocks.gender.note
-    t: |
-      If you're interested in learning more, we [wrote a blog post](https://dev.to/sachagreif/is-our-survey-biased-against-women-49oj) that addresses the survey's gender dynamics.
-
-  - key: blocks.source.note
-    t: >
-
-      This chart aggregates a mix of referrers, URL parameters, and freeform answers. 
-
-      - State of JS: the [State of JS](https://stateofjs.com) mailing list.
-
-      - State of CSS: the State of CSS mailing list; also matches `email`, `by email`, etc.
-
-      - Work: matches `work`, `colleagues`, `coworkers`, etc.
 
   ###########################################################################
   # Awards
@@ -353,18 +296,6 @@ translations:
   #   t:
   # - key: picks.xxxx.description
   #   t: |
-  ###########################################################################
-  # Sponsors
-  ###########################################################################
-
-  - key: sponsors.frontendmasters.description
-    t: Advance your skills with in-depth, modern front-end engineering courses.
-  - key: sponsors.google_chrome.description
-    t: Thanks to the Google Chrome team for supporting our work.
-  - key: sponsors.tokyodev.description
-    t: Find your dream developer job in Japan today.
-  - key: sponsors.renderatl.description
-    t: The tech conference focused on all things web.
 
   ###########################################################################
   # FAQ/About

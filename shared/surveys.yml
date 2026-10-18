@@ -9,8 +9,6 @@ translations:
   - key: general.description
     t: The State of JavaScript, State of CSS, State of HTML, and other developer surveys.
 
-  - key: general.no_preview_surveys
-    t: No surveys to preview
   - key: general.global_nav
     t: Global
   - key: general.survey_status_preview
@@ -25,8 +23,6 @@ translations:
   - key: general.pick_up_to
     t: Select up to {limit} items.
 
-  - key: general.privacy_policy
-    t: Privacy Policy
   - key: general.privacy_policy.description
     t: >
       ### 1. Data Collection

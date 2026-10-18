@@ -274,19 +274,6 @@ translations:
       I wasn't around for the original internet boom, so I am not going to sit this one out. Now excuse me, as I need to check out a just-announced new model that is supposed to be faster, cheaper, and better than anything else out there!
 
   ###########################################################################
-  # Sponsors
-  ###########################################################################
-
-  - key: sponsors.google_chrome.description
-    t: Thanks to the Google Chrome team for supporting our work.
-
-  - key: sponsors.tokyodev.description
-    t: Find your dream developer job in Japan today.
-
-  - key: sponsors.neon.description
-    t: Unleash cutting-edge AI applications with Postgres.
-
-  ###########################################################################
   # FAQ/About
   ###########################################################################
 

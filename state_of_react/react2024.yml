@@ -4,7 +4,7 @@ translations:
   # General
   ###########################################################################
 
-  - key: general.results.description
+  - key: general.results.description.react2024
     t: The 2024 edition of the annual survey about the latest trends in the React ecosystem.
 
   - key: general.react2024.ai2025_banner
@@ -58,42 +58,6 @@ translations:
       *Please note that this in an unofficial survey unaffiliated with Meta, Vercel, or the React team.*
 
       <span class="conclusion__byline">– Sacha Greif</span>
-
-  ###########################################################################
-  # Tshirt
-  ###########################################################################
-
-  - key: sections.tshirt.title
-    t: T-shirt
-
-  - key: sections.tshirt.description
-    t: |
-      ## Support the Survey With the official State of React T-Shirt
-
-      Is it a library? A framework? An unknown element on the verge of mutating into a dangerous, unstable entity? Whatever your feelings about React, you will find them reflected in this design that echoes anime and science-fiction.
-
-  - key: tshirt.about
-    t: About the T-shirt
-
-  - key: tshirt.description
-    t: |
-      We use a high-quality shirt printed by our partners at Cotton Bureau.
-
-  - key: tshirt.getit
-    t: Get It
-
-  - key: tshirt.price
-    t: USD $32 + shipping
-
-  - key: tshirt.designer.heading
-    t: About the Designer
-
-  - key: tshirt.designer.name
-    t: Christopher Kirk-Nielsen
-
-  - key: tshirt.designer.bio
-    t: |
-      Originally from France but now based in the United States, Chris is not just an amazing front-end developer, but also a talented illustrator who specializes in retro visuals. In fact, we encourage you to also check out his [other t-shirt designs](https://chriskirknielsen.com/designs)!
 
   ###########################################################################
   # Content
@@ -159,9 +123,6 @@ translations:
     t: |
       We asked respondents about their thoughts on **28** distinct features, from omnipresent hooks such as `useState`, to more niche APIs like `useDeferredValue`. Be sure to try and sort by “sentiment”!
 
-  - key: features.all_features
-    t: All Features
-
   - key: features.all_features.takeaway.react2024
     t: |
       This chart recaps all of the survey's feature questions. The main bars represent a respondent's experience; and they are then further subdivided according to that respondent's sentiment. You can change the grouping to alternate between both.
@@ -176,20 +137,14 @@ translations:
     t: >
       **25%** of respondents added at items to their reading list while taking the survey in order to learn more about them later. Here is a breakdown of their picks.
 
-  - key: features.main_apis_items
-    t: Main APIs Experience & Sentiment
   - key: features.main_apis_pain_points.takeaway.react2024
     t: >
       Just like last year, `forwardRef` and `memo` were the top pain points among the most common React APIs. With React 19 now out and promising to alleviate both issues, it'll be interesting to see what this chart looks like next year.
 
-  - key: features.hooks_items
-    t: Hooks Experience & Sentiment
   - key: features.hooks_pain_points.takeaway.react2024
     t: >
       `useEffect` is still the most problematic React hook, in large part due to having to manually manage dependency arrays.
 
-  - key: features.new_apis_items
-    t: New APIs Experience & Sentiment
   - key: features.new_apis_pain_points.takeaway.react2024
     t: >
       **React Server Components** and overall complexity are still the top pain points when it comes to taking advantage of React's newer features.
@@ -275,8 +230,6 @@ translations:
 
   # data loading
 
-  - key: tools.data_loading_experience
-    t: Data Loading Experience & Sentiment
   - key: tools.data_loading_experience.takeaway.react2024
     t: >
       **TanStack Query** has been making waves for a while now, and it turns out its reputation is reflected in the data since it's the data loading method respondents felt the most positive about, right after the native `fetch` API.
@@ -298,8 +251,6 @@ translations:
 
   # back-end infrastructure
 
-  - key: tools.meta_frameworks_experience
-    t: Meta-Frameworks Experience & Sentiment
   - key: tools.meta_frameworks_experience.takeaway.react2024
     t: >
       While you'll certainly have no trouble finding people complaining about **Next.js**, it still managed to top the positivity rankings for meta-frameworks, followed by **Remix** and **Astro**.
@@ -455,25 +406,6 @@ translations:
     aliasFor: sections.other_features.title
 
   ###########################################################################
-  # Notes
-  ###########################################################################
-
-  - key: blocks.gender.note
-    t: |
-      If you're interested in learning more, we [wrote a blog post](https://dev.to/sachagreif/is-our-survey-biased-against-women-49oj) that addresses the survey's gender dynamics.
-
-  - key: blocks.source.note
-    t: >
-
-      This chart aggregates a mix of referrers, URL parameters, and freeform answers. 
-
-      - State of JS: the [State of JS](https://stateofjs.com) mailing list.
-
-      - State of CSS: the State of CSS mailing list; also matches `email`, `by email`, etc.
-
-      - Work: matches `work`, `colleagues`, `coworkers`, etc.
-
-  ###########################################################################
   # Awards
   ###########################################################################
 
@@ -595,26 +527,6 @@ translations:
   #   t:
   # - key: picks.xxx.description
   #   t: |
-
-  ###########################################################################
-  # Sponsors
-  ###########################################################################
-
-  - key: sponsors.frontendmasters.description
-    t: Advance your skills with in-depth, modern front-end engineering courses.
-  - key: sponsors.google_chrome.description
-    t: Thanks to the Google Chrome team for supporting our work.
-  - key: sponsors.tokyodev.description
-    t: Find your dream developer job in Japan today.
-  - key: sponsors.renderatl.description
-    t: The tech conference focused on all things web.
-
-  - key: sponsors.gitnation.description
-    t: Learn the latest trends directly from early-adopters and tech authors at GitNation.com
-  - key: sponsors.reactsummit.description
-    t: The biggest React conference worldwide. Stay ahead of trends with 50+ speakers, network and party with 1,500 developers, enjoy the Amsterdam summer, and much more!
-  - key: sponsors.reactparis.description
-    t: The premier two-day, single-track React conference you don't need to miss in 2025.
 
   ###########################################################################
   # FAQ/About

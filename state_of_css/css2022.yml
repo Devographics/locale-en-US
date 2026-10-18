@@ -4,7 +4,7 @@ translations:
   # General
   ###########################################################################
 
-  - key: general.results.description
+  - key: general.results.description.css2022
     t: The 2022 edition of the annual survey about the latest trends in the CSS ecosystem.
 
   - key: general.css2022.js2022_banner
@@ -312,19 +312,6 @@ translations:
   #   t: |
   #       The media query to reduce motion, which helps avoid
   #       triggering dizziness and discomfort.
-
-  ###########################################################################
-  # Sponsors
-  ###########################################################################
-
-  - key: sponsors.frontendmasters.description
-    t: Advance your skills with in-depth, modern front-end engineering courses.
-  - key: sponsors.nijibox.description
-    t: The browser for ambitious devs. Build responsive, accessible and fast websites with ease.
-  - key: sponsors.renderatl.description
-    t: The largest tech conference with a dedicated Design & CSS track.
-  - key: sponsors.google_chrome.description
-    t: Thanks to the Google Chrome team for supporting our work.
 
   ###########################################################################
   # FAQ/About

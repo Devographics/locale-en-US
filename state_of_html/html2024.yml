@@ -4,7 +4,7 @@ translations:
   # General
   ###########################################################################
 
-  - key: general.results.description
+  - key: general.results.description.html2024
     t: The 2024 edition of the annual survey about the latest trends in the HTML ecosystem.
 
   - key: general.html2024.survey_intro
@@ -51,44 +51,6 @@ translations:
       So let's dive right in and see what the web platform has been up to in 2024!
 
       <span class="conclusion__byline">– Sacha Greif</span>
-
-  ###########################################################################
-  # Tshirt
-  ###########################################################################
-
-  - key: sections.tshirt.title
-    t: T-shirt
-
-  - key: sections.tshirt.description
-    t: |
-      ## Support the Survey With the State of HTML T-Shirt
-
-      Do you miss the the good old days of the mid-90s, when HTML was king and VHS tape covers featured futuristic, colorful artwork? 
-
-      The bad news is that even with 2024's technology, you can't yet go back in time to relive those glory days. But what you *can* do is wear this awesome original retro t-shirt, designed by none other than the talented Christopher Kirk-Nielsen.
-
-  - key: tshirt.about
-    t: About the T-shirt
-
-  - key: tshirt.description
-    t: |
-      We use a high-quality, super-soft tri-blend shirt with a slim fit printed by our partners at Cotton Bureau.
-
-  - key: tshirt.getit
-    t: Get It
-
-  - key: tshirt.price
-    t: USD $32 + shipping
-
-  - key: tshirt.designer.heading
-    t: About the Designer
-
-  - key: tshirt.designer.name
-    t: Christopher Kirk-Nielsen
-
-  - key: tshirt.designer.bio
-    t: |
-      Originally from France but now based in the United States, Chris is not just an amazing front-end developer, but also a talented illustrator who specializes in retro visuals. In fact, we encourage you to also check out his [other t-shirt designs](https://chriskirknielsen.com/designs)!
 
   ###########################################################################
   # Sections Introductions
@@ -160,9 +122,6 @@ translations:
       And for the first time, Mastodon overtook X as a traffic source, possibly due to the later penalizing tweets containing outbounds links.
 
   # features
-
-  - key: features.all_features
-    t: Features
 
   - key: features.all_features.takeaway.html2024
     t: >
@@ -365,50 +324,7 @@ translations:
     t: >
       There's reason to be hopefuly about the web platform, and this optimism is reflected in this year's data.
 
-  ###########################################################################
-  # Other Content
-  ###########################################################################
-
-  - key: features.all_features.description
-    t: |
-      This chart recaps all of the survey's feature questions. The main bars represent a respondent's experience; and they are then further subdivided according to that respondent's sentiment. You can change the grouping to alternate between both. 
-
-
-      Note that you can also find a more specific breakdown of the same data in each feature sub-section.
-
-  - key: features.forms_features
-    t: Forms Experience & Sentiment
-
-  - key: features.interactivity_features
-    t: Interactivity Experience & Sentiment
-
-  - key: features.content_features
-    t: Content Experience & Sentiment
-
-  - key: features.web_components_features
-    t: Web Components Experience & Sentiment
-    aliases:
-      - web_components_main_features
-
-  - key: features.accessibility_features
-    t: Accessibility Experience & Sentiment
-
-  - key: features.mobile_web_apps_features
-    t: Native Web Apps Experience & Sentiment
-
-  ###########################################################################
-  # Sponsors
-  ###########################################################################
-
-  - key: sponsors.frontendmasters.description
-    t: Advance your skills with in-depth, modern front-end engineering courses.
-  - key: sponsors.google_chrome.description
-    t: Thanks to the Google Chrome team for supporting our work.
-  - key: sponsors.tokyodev.description
-    t: Find your dream developer job in Japan today.
-  - key: sponsors.renderatl.description
-    t: The tech conference focused on all things web.
-
+  ################################################
   ###########################################################################
   # Conclusion
   ###########################################################################

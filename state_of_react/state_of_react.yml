@@ -126,6 +126,15 @@ translations:
 
   # features
 
+  - key: features.main_apis_items
+    t: Main APIs Experience & Sentiment
+
+  - key: features.hooks_items
+    t: Hooks Experience & Sentiment
+
+  - key: features.new_apis_items
+    t: New APIs Experience & Sentiment
+
   - key: features.main_apis_ratios
     t: Main APIs Over Time
 
@@ -299,6 +308,9 @@ translations:
 
   # libraries
 
+  - key: tools.data_loading_experience
+    t: Data Loading Experience & Sentiment
+
   - key: tools.all_tools_experience
     t: Libraries Experience & Sentiment
     aliases:
@@ -408,11 +420,6 @@ translations:
   #   t: How happy are you with the state of data loading libraries?
 
   # back_end_infrastructure
-
-  - key: tools.meta_frameworks_ratios
-    t: Meta-Frameworks Ratios Over Time
-    aliases:
-      - back_end_infrastructure.meta_frameworks_ratios
 
   - key: tools.meta_frameworks_others
     t: Other Meta-Frameworks
@@ -685,71 +692,6 @@ translations:
   - key: options.react_version.not_sure
     t: Not sure
 
-  # JS App Patterns
-
-  - key: usage.js_app_patterns
-    t: Application Patterns
-  - key: usage.js_app_patterns.question
-    t: Which of the following architecture and rendering patterns have you used **in the last year**?
-
-  - key: options.js_app_patterns.single_page_app
-    t: Single Page Application (SPA)
-  - key: options.js_app_patterns.single_page_app.description
-    t: Apps that run entirely in the browser
-  - key: options.js_app_patterns.multiple_page_app
-    t: Multi-Page Application (MPA)
-  - key: options.js_app_patterns.multiple_page_app.description
-    t: Apps that run entirely on the server, with minimal client-side dynamic behavior
-  - key: options.js_app_patterns.static_site_generation
-    t: Static Site Generation (SSG)
-  - key: options.js_app_patterns.static_site_generation.description
-    t: Pre-rendered static content, with or without a client-side dynamic element
-  - key: options.js_app_patterns.server_side_rendering
-    t: Server-Side Rendering (SSR)
-  - key: options.js_app_patterns.server_side_rendering.description
-    t: Dynamically rendering HTML content on the server before rehydrating it on the client
-  - key: options.js_app_patterns.partial_hydration
-    t: Partial Hydration
-  - key: options.js_app_patterns.partial_hydration.description
-    t: Only hydrating some of your components on the client (e.g. React Server Components)
-  - key: options.js_app_patterns.progressive_rehydration
-    t: Progressive Hydration
-  - key: options.js_app_patterns.progressive_rehydration.description
-    t: Controlling the order of component hydration on the client
-  - key: options.js_app_patterns.islands_architecture
-    t: Islands Architecture
-  - key: options.js_app_patterns.islands_architecture.description
-    t: Isolated islands of dynamic behavior with multiple entry points in an otherwise static site (Astro, Eleventy)
-  - key: options.js_app_patterns.progressive_enhancement
-    t: Progressive Enhancement
-  - key: options.js_app_patterns.progressive_enhancement.description
-    t: Making sure an app is functional even without JavaScript
-  - key: options.js_app_patterns.incremental_static_generation
-    t: Incremental Static Generation
-  - key: options.js_app_patterns.incremental_static_generation.description
-    t: Being able to dynamically augment or modify a static site even after the initial build (Next.js ISR, Gatsby DSG)
-  - key: options.js_app_patterns.streaming_ssr
-    t: Streaming SSR
-  - key: options.js_app_patterns.streaming_ssr.description
-    t: Breaking down server-rendered content in smaller streamed chunks
-  - key: options.js_app_patterns.resumability
-    t: Resumability
-  - key: options.js_app_patterns.resumability.description
-    t: Serializing framework state on the server so the client can resume execution with no duplicated code execution.
-  - key: options.js_app_patterns.edge_rendering
-    t: Edge Rendering
-  - key: options.js_app_patterns.edge_rendering.description
-    t: Altering rendered HTML at the edge before sending it on to the client
-
-  - key: options.js_app_patterns.micro_frontend
-    t: Micro Frontend
-  - key: options.js_app_patterns.domain_driven_design
-    t: Domain-Driven Design
-  - key: options.js_app_patterns.serverless
-    t: Serverless
-  - key: options.js_app_patterns.pespa
-    t: PESPA
-
   - key: usage.what_do_you_use_react_for
     t: React Usage
   - key: usage.what_do_you_use_react_for.question
@@ -956,9 +898,6 @@ translations:
   - key: react_pain_points.caching
     t: Caching
 
-  - key: react_pain_points.graphql_issues
-    t: GraphQL issues
-
   - key: react_pain_points.apollo_issues
     t: Apollo issues
 
@@ -973,9 +912,6 @@ translations:
 
   - key: react_pain_points.hooks_disallowed_conditional_logic
     t: Disallowed conditional logic
-
-  - key: react_pain_points.excessive_rerendering
-    t: Excessive rerendering
 
   - key: react_pain_points.dependency_arrays
     t: Dependency arrays
@@ -1057,34 +993,8 @@ translations:
   # Tshirt
   ###########################################################################
 
-  - key: sections.tshirt.title
-    t: T-shirt
-
-  - key: sections.tshirt.description
+  - key: sections.tshirt.description.state_of_react
     t: |
       ## Support the Survey With the official State of React T-Shirt
 
       Is it a library? A framework? An unknown element on the verge of mutating into a dangerous, unstable entity? Whatever your feelings about React, you will find them reflected in this design that echoes anime and science-fiction.
-
-  - key: tshirt.about
-    t: About the T-shirt
-
-  - key: tshirt.description
-    t: |
-      We use a high-quality shirt printed by our partners at Cotton Bureau.
-
-  - key: tshirt.getit
-    t: Get It
-
-  - key: tshirt.price
-    t: USD $32 + shipping
-
-  - key: tshirt.designer.heading
-    t: About the Designer
-
-  - key: tshirt.designer.name
-    t: Christopher Kirk-Nielsen
-
-  - key: tshirt.designer.bio
-    t: |
-      Originally from France but now based in the United States, Chris is not just an amazing front-end developer, but also a talented illustrator who specializes in retro visuals. In fact, we encourage you to also check out his [other t-shirt designs](https://chriskirknielsen.com/designs)!

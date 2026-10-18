@@ -4,7 +4,7 @@ translations:
   # General
   ###########################################################################
 
-  - key: general.results.description
+  - key: general.results.description.react2026
     t: The 2025 edition of the annual survey about the latest trends in the React ecosystem.
 
   ###########################################################################

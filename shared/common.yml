@@ -2332,8 +2332,6 @@ translations:
     t: Vendor Lock-in & Dependency
   - key: options.ai_risks.decline_in_human_collaboration
     t: Decline in Human Collaboration
-  - key: options.ai_risks.decline_in_human_collaboration
-    t: Decline in Human Collaboration
   - key: options.ai_risks.false_expertise
     t: False Expertise
 
@@ -2347,8 +2345,6 @@ translations:
     t: Misinformation
   - key: options.ai_risks.mass_surveillance
     t: Mass Surveillance
-  - key: options.ai_risks.militaristic_uses
-    t: Military Uses
 
   - key: options.ai_risks.ai_technical_impact
     t: Technical impact
