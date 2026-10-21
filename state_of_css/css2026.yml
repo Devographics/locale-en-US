@@ -141,7 +141,7 @@ translations:
 
   - key: sections.features.description.css2026
     t: |
-      It's no secret that CSS is adding new features at a record rate – which is why we ended up asking about no less than *50* of them this year!
+      It's no secret that CSS is adding new features at a record rate – but we still tried to keep the survey length under control.
 
   - key: sections.tools.css2026
     t: Libraries & Tools
