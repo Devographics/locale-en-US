@@ -2145,8 +2145,12 @@ translations:
   # how can we improve the survey?
   - key: user_info.did_you_run_into_technical_issues
     t: Technical Issues
+    aliases:
+      - _user_metadata.did_you_run_into_technical_issues
   - key: user_info.did_you_run_into_technical_issues.question
     t: What technical issues did you run into while taking this survey, if any?
+    aliases:
+      - _user_metadata.did_you_run_into_technical_issues.question
 
   # survey_length
   - key: user_info.survey_length
@@ -2180,14 +2184,22 @@ translations:
   # missing questions
   - key: user_info.missing_questions
     t: Missing Questions
+    aliases:
+      - _user_metadata.missing_questions
   - key: user_info.missing_questions.question
     t: What other questions do you wish the survey would've asked, if any?
+    aliases:
+      - _user_metadata.missing_questions.question
 
   # how can we improve the survey?
   - key: user_info.how_can_we_improve
     t: Survey Improvements
+    aliases:
+      - _user_metadata.how_can_we_improve
   - key: user_info.how_can_we_improve.question
     t: How else could we improve this survey?
+    aliases:
+      - _user_metadata.how_can_we_improve.question
 
   # why_did_you_take_the_survey
   - key: user_info.why_did_you_take_the_survey

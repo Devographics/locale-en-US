@@ -666,15 +666,6 @@ translations:
   # AI
   ###########################################################################
 
-  # ai_generated_code_balance
-
-  - key: ai_usage.ai_generated_code_balance
-    aliasFor: usage.ai_generated_code_balance
-  - key: ai_usage.ai_generated_code_balance.question
-    aliasFor: usage.ai_generated_code_balance.question
-  - key: ai_usage.ai_generated_code_balance.prompt
-    aliasFor: usage.ai_generated_code_balance.prompt
-
   # ai_management_pressure
 
   - key: ai_usage.ai_management_pressure
@@ -719,22 +710,58 @@ translations:
 
   - key: options.ai_sentiment.0
     t: 100% negative
+    aliases:
+      - options.ai_impact_on_js_ecosystem.0
+    contexts:
+      - state_of_js
   - key: options.ai_sentiment.1
     t: Mostly negative
+    aliases:
+      - options.ai_impact_on_js_ecosystem.1
+    contexts:
+      - state_of_js
   - key: options.ai_sentiment.2
     t: Negative
+    aliases:
+      - options.ai_impact_on_js_ecosystem.2
+    contexts:
+      - state_of_js
   - key: options.ai_sentiment.3
     t: Slightly negative
+    aliases:
+      - options.ai_impact_on_js_ecosystem.3
+    contexts:
+      - state_of_js
   - key: options.ai_sentiment.4
     t: Neutral
+    aliases:
+      - options.ai_impact_on_js_ecosystem.4
+    contexts:
+      - state_of_js
   - key: options.ai_sentiment.5
     t: Slightly positive
+    aliases:
+      - options.ai_impact_on_js_ecosystem.5
+    contexts:
+      - state_of_js
   - key: options.ai_sentiment.6
     t: Positive
+    aliases:
+      - options.ai_impact_on_js_ecosystem.6
+    contexts:
+      - state_of_js
   - key: options.ai_sentiment.7
     t: Mostly positive
+    aliases:
+      - options.ai_impact_on_js_ecosystem.7
+    contexts:
+      - state_of_js
   - key: options.ai_sentiment.8
     t: 100% positive
+    aliases:
+      - options.ai_impact_on_js_ecosystem.8
+    contexts:
+      - state_of_js
 
   # ai_mental_state (not used)
   # - key: ai_usage.ai_mental_state

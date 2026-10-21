@@ -399,16 +399,22 @@ translations:
 
   - key: usage.ai_generated_code_balance
     t: AI Code Generation
+    aliases:
+      - ai_usage.ai_generated_code_balance
     contexts:
       - state_of_js
       - state_of_devs
   - key: usage.ai_generated_code_balance.question
     t: What proportion of the code you produce is AI-generated?
+    aliases:
+      - ai_usage.ai_generated_code_balance.question
     contexts:
       - state_of_js
       - state_of_devs
   - key: usage.ai_generated_code_balance.prompt
     t: Including code copy-pasted from ChatGPT or other chatbots, or code co-written using AI tools.
+    aliases:
+      - ai_usage.ai_generated_code_balance.prompt
     contexts:
       - state_of_js
       - state_of_devs

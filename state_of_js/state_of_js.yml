@@ -1228,6 +1228,15 @@ translations:
     aliases:
       - other_tools.monorepo_tools.question
       - tools_others.monorepo_tools.question
+  ###########################################################################
+  # AI
+  ###########################################################################
+
+  - key: ai_usage.ai_impact_on_js_ecosystem
+    t: AI Impact
+  - key: ai_usage.ai_impact_on_js_ecosystem.question
+    t: How would you evaluate the overall impact of AI on the JavaScript/TypeScript ecosystem?
+
 
   ###########################################################################
   # Usage
