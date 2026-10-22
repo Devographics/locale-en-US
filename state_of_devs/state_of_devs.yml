@@ -42,11 +42,6 @@ translations:
   - key: sections.health.prompt
     t: Health & fitness.
 
-  - key: sections.ai_usage.title
-    t: AI
-  - key: sections.ai_usage.prompt
-    t: AI usage and concerns.
-
   - key: sections.worldview.title
     t: Worldview
   - key: sections.worldview.prompt
@@ -712,54 +707,63 @@ translations:
     t: 100% negative
     aliases:
       - options.ai_impact_on_js_ecosystem.0
+      - options.ai_mental_state_spectrum.0
     contexts:
       - state_of_js
   - key: options.ai_sentiment.1
     t: Mostly negative
     aliases:
       - options.ai_impact_on_js_ecosystem.1
+      - options.ai_mental_state_spectrum.1
     contexts:
       - state_of_js
   - key: options.ai_sentiment.2
     t: Negative
     aliases:
       - options.ai_impact_on_js_ecosystem.2
+      - options.ai_mental_state_spectrum.2
     contexts:
       - state_of_js
   - key: options.ai_sentiment.3
     t: Slightly negative
     aliases:
       - options.ai_impact_on_js_ecosystem.3
+      - options.ai_mental_state_spectrum.3
     contexts:
       - state_of_js
   - key: options.ai_sentiment.4
     t: Neutral
     aliases:
       - options.ai_impact_on_js_ecosystem.4
+      - options.ai_mental_state_spectrum.4
     contexts:
       - state_of_js
   - key: options.ai_sentiment.5
     t: Slightly positive
     aliases:
       - options.ai_impact_on_js_ecosystem.5
+      - options.ai_mental_state_spectrum.5
     contexts:
       - state_of_js
   - key: options.ai_sentiment.6
     t: Positive
     aliases:
       - options.ai_impact_on_js_ecosystem.6
+      - options.ai_mental_state_spectrum.6
     contexts:
       - state_of_js
   - key: options.ai_sentiment.7
     t: Mostly positive
     aliases:
       - options.ai_impact_on_js_ecosystem.7
+      - options.ai_mental_state_spectrum.7
     contexts:
       - state_of_js
   - key: options.ai_sentiment.8
     t: 100% positive
     aliases:
       - options.ai_impact_on_js_ecosystem.8
+      - options.ai_mental_state_spectrum.8
     contexts:
       - state_of_js
 
@@ -790,6 +794,20 @@ translations:
     aliases:
       - opinions.ai_mental_state.question
 
+  # ai_mental_state
+  - key: ai_usage.ai_mental_state_spectrum
+    t: AI Mental State
+    contexts:
+      - state_of_js
+  - key: ai_usage.ai_mental_state_spectrum.question
+    t: How would you rate AI's overall impact on your mental state?
+    contexts:
+      - state_of_js
+  - key: ai_usage.ai_mental_state_spectrum.prompt
+    t: Taking into account both positive (increased productivity, new capabilities, etc.) and negative (added stress, loss of motivation, etc.) factors.
+    contexts:
+      - state_of_js
+
   # ai_risks
 
   - key: ai_usage.ai_risks
@@ -800,8 +818,12 @@ translations:
   # ai_outlook
   - key: ai_usage.ai_outlook
     t: AI Outlook
+    contexts:
+      - state_of_js
   - key: ai_usage.ai_outlook.question
     t: What else would you like to to add regarding your general outlook about AI?
+    contexts:
+      - state_of_js
 
   - key: options.ai_outlook.anti_ai_sentiment
     t: Anti-AI sentiment

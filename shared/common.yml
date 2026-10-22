@@ -361,6 +361,11 @@ translations:
   - key: sections._external_data.description
     t: Data from external sources
 
+  - key: sections.ai_usage.title
+    t: AI
+  - key: sections.ai_usage.prompt
+    t: AI usage and concerns.
+
   ###########################################################################
   # Options
   ###########################################################################

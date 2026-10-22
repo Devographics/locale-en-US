@@ -438,10 +438,27 @@ translations:
 
   - key: usage.ai_generated_code_reviewed_balance
     t: AI Code Review
+    aliases:
+      - ai_usage.ai_generated_code_reviewed_balance
     contexts:
       - state_of_js
   - key: usage.ai_generated_code_reviewed_balance.question
     t: What proportion of AI-generated code do you manually review or read?
+    aliases:
+      - ai_usage.ai_generated_code_reviewed_balance.question
+    contexts:
+      - state_of_js
+
+  - key: options.ai_generated_code_reviewed_balance.0
+    t: 0%
+    contexts:
+      - state_of_js
+  - key: options.ai_generated_code_reviewed_balance.4
+    t: 50%
+    contexts:
+      - state_of_js
+  - key: options.ai_generated_code_reviewed_balance.8
+    t: 100%
     contexts:
       - state_of_js
 

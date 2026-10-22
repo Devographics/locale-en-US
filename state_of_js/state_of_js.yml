@@ -149,6 +149,10 @@ translations:
       Welcome to the survey! This first part is all about figuring out 
       which **features** of the JavaScript language you've used before.
 
+  - key: features.features_intro2
+    t: >
+      Welcome to the survey! This first part is all about figuring out how you feel about JavaScript as a language.
+
   - key: tools.tools_intro
     t: >
       The next couple sections focus on the **libraries** and **frameworks** that make up 
@@ -598,7 +602,7 @@ translations:
   - key: tools.front_end_frameworks_happiness.short
     aliasFor: charts.axis_legends.happiness
   - key: tools.front_end_frameworks_happiness.question
-    t: On a scale of 1 (very unhappy) to 5 (very happy), how happy are you with the current state of front-end frameworks?
+    t: How happy are you with the current state of front-end frameworks?
     aliases:
       - front_end_frameworks.front_end_frameworks_happiness.question
 
@@ -655,7 +659,7 @@ translations:
   - key: tools.meta_frameworks_happiness.short
     aliasFor: charts.axis_legends.happiness
   - key: tools.meta_frameworks_happiness.question
-    t: On a scale of 1 (very unhappy) to 5 (very happy), how happy are you with the current state of meta-frameworks?
+    t: How happy are you with the current state of meta-frameworks?
 
   - key: tools.meta_frameworks_pain_points
     t: Meta-Frameworks Pain Points
@@ -703,7 +707,7 @@ translations:
   - key: tools.back_end_frameworks_happiness.short
     aliasFor: charts.axis_legends.happiness
   - key: tools.back_end_frameworks_happiness.question
-    t: On a scale of 1 (very unhappy) to 5 (very happy), how happy are you with the current state of back-end frameworks?
+    t: How happy are you with the current state of back-end frameworks?
 
   - key: tools.back_end_frameworks_pain_points
     t: Back-end Frameworks Pain Points
@@ -751,7 +755,7 @@ translations:
   - key: tools.testing_happiness.short
     aliasFor: charts.axis_legends.happiness
   - key: tools.testing_happiness.question
-    t: On a scale of 1 (very unhappy) to 5 (very happy), how happy are you with the current state of testing tools?
+    t: How happy are you with the current state of testing tools?
 
   - key: tools.testing_pain_points
     t: Testing Tools Pain Points
@@ -791,14 +795,14 @@ translations:
   - key: tools.mobile_desktop_happiness.short
     aliasFor: charts.axis_legends.happiness
   - key: tools.mobile_desktop_happiness.question
-    t: On a scale of 1 (very unhappy) to 5 (very happy), how happy are you with the current state of mobile & desktop tools?
+    t: How happy are you with the current state of mobile & desktop tools?
 
   - key: tools.mobile_desktop_pain_points
     t: Mobile & Desktop Tools Pain Points
   - key: tools.mobile_desktop_pain_points.short
     aliasFor: tools.pain_points
   - key: tools.mobile_desktop_pain_points.question
-    t: What pain points have you encountered when using JavaScript to build mobile & desktop apps?
+    t: What pain points have you encountered when using JavaScript/TypeScript to build mobile & desktop apps?
     aliases:
       - mobile_desktop.mobile_desktop_pain_points.question
 
@@ -835,7 +839,7 @@ translations:
   - key: tools.build_tools_happiness.short
     aliasFor: charts.axis_legends.happiness
   - key: tools.build_tools_happiness.question
-    t: On a scale of 1 (very unhappy) to 5 (very happy), how happy are you with the current state of build tools?
+    t: How happy are you with the current state of build tools?
 
   - key: tools.build_tools_pain_points
     t: Build Tools Pain Points
@@ -875,7 +879,7 @@ translations:
   - key: tools.monorepo_tools_happiness.short
     aliasFor: charts.axis_legends.happiness
   - key: tools.monorepo_tools_happiness.question
-    t: On a scale of 1 (very unhappy) to 5 (very happy), how happy are you with the current state of monorepo tools?
+    t: How happy are you with the current state of monorepo tools?
 
   - key: tools.monorepo_tools_pain_points
     t: Monorepo Tools Pain Points
@@ -983,7 +987,7 @@ translations:
     t: Other answers (freeform field).
 
   - key: tools.runtimes
-    t: JavaScript Runtimes
+    t: JavaScript/TypeScript Runtimes
   - key: tools.runtimes.question
     t: Which engines/runtimes/execution environments do you regularly use?
   - key: tools.runtimes.others
@@ -1195,10 +1199,12 @@ translations:
     t: AI Tools
     aliases:
       - other_tools.ai_tools
+      - ai_usage.ai_tools_usage
   - key: tools.ai_tools.question
     t: Which of these AI tools do you regularly use to help you write code?
     aliases:
       - other_tools.ai_tools.question
+      - ai_usage.ai_tools_usage.question
 
   - key: tools.hosting
     t: Hosting Services
@@ -1206,7 +1212,7 @@ translations:
       - other_tools.hosting
       - tools_others.hosting
   - key: tools.hosting.question
-    t: Which of these services have you used to host JavaScript apps?
+    t: Which of these services do you regularly use to host JavaScript/TypeScript apps?
     aliases:
       - other_tools.hosting.question
       - tools_others.hosting.question
@@ -1228,16 +1234,49 @@ translations:
     aliases:
       - other_tools.monorepo_tools.question
       - tools_others.monorepo_tools.question
+
+  # web_components_js_usage
+
+  - key: tools.web_components_js_usage
+    t: Web Components
+  - key: tools.web_components_js_usage.question
+    t: How do you use Web Components?
+
+  - key: options.web_components_js_usage.third_party
+    t: I use Web Components developed by others
+  - key: options.web_components_js_usage.manual_authoring
+    t: I manually write my own Web Components
+  - key: options.web_components_js_usage.ai_authoring
+    t: I generate custom Web Components using AI
+  - key: options.web_components_js_usage.na
+    t: 🚫 I don't use Web Components
+
   ###########################################################################
   # AI
   ###########################################################################
 
+  # ai_impact_on_js_ecosystem
   - key: ai_usage.ai_impact_on_js_ecosystem
     t: AI Impact
   - key: ai_usage.ai_impact_on_js_ecosystem.question
     t: How would you evaluate the overall impact of AI on the JavaScript/TypeScript ecosystem?
+  - key: ai_usage.ai_impact_on_js_ecosystem.prompt
+    t: Considering factors such as new AI-assisted projects, impact on open-source, etc.
 
+  # ai_impact_learning
+  - key: ai_usage.ai_impact_learning
+    t: AI Learning
+  - key: ai_usage.ai_impact_learning.question
+    t: How do much do you rely on AI/LLMs to acquire new skills and keep up with the ecosystem?
+  - key: ai_usage.ai_impact_learning.prompt
+    t: As opposed to traditional resources such as blogs, courses, newsletters, etc.
 
+  - key: options.ai_impact_learning.0
+    t: 0% AI
+  - key: options.ai_impact_learning.4
+    t: 50% AI
+  - key: options.ai_impact_learning.8
+    t: 100% AI
   ###########################################################################
   # Usage
   ###########################################################################
@@ -1319,7 +1358,7 @@ translations:
     contexts:
       - state_of_react
   - key: options.js_app_patterns.progressive_enhancement.description
-    t: Making sure an app is functional even without JavaScript
+    t: Making sure an app is functional even without JavaScript/TypeScript
     contexts:
       - state_of_react
   - key: options.js_app_patterns.incremental_static_generation
@@ -1386,7 +1425,7 @@ translations:
   - key: usage.what_do_you_use_js_for.question
     t: What do you use JavaScript for?
   - key: usage.what_do_you_use_js_for.others
-    t: Other JavaScript Use Cases
+    t: Other JavaScript/TypeScript Use Cases
 
   # js_ts_balance
 
@@ -1438,7 +1477,7 @@ translations:
   - key: usage.compiled_code_balance
     t: Compiled Code Balance
   - key: usage.compiled_code_balance.question
-    t: What proportion of the JavaScript code you write for the browser goes through a build step?
+    t: What proportion of the JavaScript/TypeScript code you write for the browser goes through a build step?
   - key: usage.compiled_code_balance.prompt
     t: Any bundled, minified, or otherwise transformed code, as opposed to code directly executed by the browser.
 
@@ -1524,7 +1563,7 @@ translations:
   # edge_runtimes
 
   - key: tools.edge_runtimes
-    t: JavaScript Edge/Serverless Runtimes
+    t: JavaScript/TypeScript Edge/Serverless Runtimes
     aliases:
       - other_tools.edge_runtimes
       - tools_others.edge_runtimes
@@ -1539,7 +1578,7 @@ translations:
   - key: usage.usage_type
     t: Usage
   - key: usage.usage_type.question
-    t: In what context do you primarily use JavaScript?
+    t: In what context do you primarily use JavaScript/TypeScript?
   - key: usage.usage_type.others
     t: Other Usages
 
@@ -1554,7 +1593,7 @@ translations:
   - key: usage.industry_sector_js
     aliasFor: usage.industry_sector
   - key: usage.industry_sector_js.question
-    t: Which industry sector(s) are you using JavaScript in?
+    t: Which industry sector(s) are you using JavaScript/TypeScript in?
   - key: usage.industry_sector_js.others
     aliasFor: usage.industry_sector.others
 
@@ -1635,26 +1674,26 @@ translations:
   ###########################################################################
 
   - key: opinions.js_moving_in_right_direction
-    t: JavaScript is moving in the right direction
+    t: JavaScript/TypeScript is moving in the right direction
 
   - key: opinions.building_js_apps_overly_complex
-    t: Building JavaScript apps is overly complex right now
+    t: Building JavaScript/TypeScript apps is overly complex right now
 
   - key: opinions.js_over_used_online
-    t: JavaScript is over-used online
+    t: JavaScript/TypeScript is over-used online
 
   - key: opinions.enjoy_building_js_apps
-    t: I enjoy building JavaScript apps
+    t: I enjoy building JavaScript/TypeScript apps
 
   - key: opinions.would_like_js_to_be_main_lang
-    t: I would like JavaScript to be my main programming language
+    t: I would like JavaScript/TypeScript to be my main programming language
 
   - key: opinions.js_ecosystem_changing_to_fast
     t: Pace of Change
     aliases:
       - usage.js_ecosystem_changing_to_fast
   - key: opinions.js_ecosystem_changing_to_fast.question
-    t: The JavaScript ecosystem is changing too fast
+    t: The JavaScript/TypeScript ecosystem is changing too fast
     aliases:
       - usage.js_ecosystem_changing_to_fast.question
 
@@ -1668,9 +1707,9 @@ translations:
       - usage.prefer_no_build_step.question
 
   - key: opinions_others.missing_from_js.others
-    t: What do you feel is currently missing from JavaScript?
+    t: What do you feel is currently missing from JavaScript/TypeScript?
   - key: opinions_others.missing_from_js.others.description
-    t: Features you'd like to see in JavaScript one day.
+    t: Features you'd like to see in JavaScript/TypeScript one day.
 
   - key: happiness.front_end_frameworks
     t: How happy are you with the state of front end frameworks?
@@ -1701,11 +1740,11 @@ translations:
       - state_of_css
 
   - key: happiness.state_of_js
-    t: JavaScript Happiness
+    t: JavaScript/TypeScript Happiness
     aliases:
       - usage.state_of_js_happiness
   - key: happiness.state_of_js.question
-    t: How happy are you with the general state of JavaScript?
+    t: How happy are you with the general state of JavaScript/TypeScript?
     aliases:
       - usage.state_of_js_happiness.question
 
@@ -1714,14 +1753,14 @@ translations:
   - key: usage.top_js_pain_points
     aliasFor: opinions.js_pain_points
   - key: usage.top_js_pain_points.question
-    t: What aspects of JavaScript do you struggle with the most?
+    t: What aspects of JavaScript/TypeScript do you struggle with the most?
 
   - key: opinions.js_pain_points
-    t: JavaScript Pain Points
+    t: JavaScript/TypeScript Pain Points
   - key: opinions.js_pain_points.description
-    t: For each matchup, pick the aspect of JavaScript you struggle with the most.
+    t: For each matchup, pick the aspect of JavaScript/TypeScript you struggle with the most.
   - key: opinions_others.js_pain_points.others
-    t: Other JavaScript Pain Points
+    t: Other JavaScript/TypeScript Pain Points
 
   - key: opinions.top_js_pain_points
     aliasFor: opinions.js_pain_points
@@ -1740,19 +1779,19 @@ translations:
       - features.top_currently_missing_from_js
 
   - key: opinions.currently_missing_from_js
-    t: What do you feel is currently missing from JavaScript?
+    t: What do you feel is currently missing from JavaScript/TypeScript?
     aliases:
       - usage.top_currently_missing_from_js.question
       - features.top_currently_missing_from_js.question
   - key: opinions.currently_missing_from_js.description
-    t: For each matchup, pick the feature you'd most like to be able to use in JavaScript today.
+    t: For each matchup, pick the feature you'd most like to be able to use in JavaScript/TypeScript today.
   - key: opinions_others.currently_missing_from_js.others
     t: Other Missing Features
 
   - key: opinions.top_currently_missing_from_js
     aliasFor: opinions.currently_missing_from_js
   - key: opinions.top_currently_missing_from_js.description
-    t: Pick the top 3 features you'd most like to be able to use in JavaScript today.
+    t: Pick the top 3 features you'd most like to be able to use in JavaScript/TypeScript today.
   - key: opinions_others.top_currently_missing_from_js.others
     aliasFor: opinions_others.currently_missing_from_js.others
   - key: opinions.top_currently_missing_from_js.others
@@ -1760,9 +1799,9 @@ translations:
 
   # pain points/currently missing (results)
   - key: js_pain_points.js_pain_points_wins
-    t: JavaScript Pain Points
+    t: JavaScript/TypeScript Pain Points
   - key: js_pain_points.js_pain_points_wins.description
-    t: Which aspect of JavaScript do you struggle with the most? Results are ranked by number of tournament rounds won.
+    t: Which aspect of JavaScript/TypeScript do you struggle with the most? Results are ranked by number of tournament rounds won.
 
   - key: js_pain_points.js_pain_points_matchups
     t: JavaScript Pain Points (Matchups)
@@ -1785,7 +1824,7 @@ translations:
     aliases:
       - features.js_pace_of_change
   - key: usage.js_pace_of_change.question
-    t: How well are you generally able to keep up with new JavaScript features, such as those mentioned in this survey?
+    t: How well are you generally able to keep up with new JavaScript/TypeScript features, such as those mentioned in this survey?
     aliases:
       - features.js_pace_of_change.question
 
