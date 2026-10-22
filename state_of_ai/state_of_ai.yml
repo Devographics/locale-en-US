@@ -404,6 +404,7 @@ translations:
     contexts:
       - state_of_js
       - state_of_devs
+      - state_of_html
   - key: usage.ai_generated_code_balance.question
     t: What proportion of the code you produce is AI-generated?
     aliases:
@@ -411,6 +412,7 @@ translations:
     contexts:
       - state_of_js
       - state_of_devs
+      - state_of_html
   - key: usage.ai_generated_code_balance.prompt
     t: Including code copy-pasted from ChatGPT or other chatbots, or code co-written using AI tools.
     aliases:
@@ -418,12 +420,14 @@ translations:
     contexts:
       - state_of_js
       - state_of_devs
+      - state_of_html
 
   - key: options.ai_generated_code_balance.0
     t: 0% AI
     contexts:
       - state_of_js
       - state_of_devs
+      - state_of_html
     aliases:
       - options.css_ai_generated_code_balance.0
   - key: options.ai_generated_code_balance.8
@@ -431,6 +435,7 @@ translations:
     contexts:
       - state_of_js
       - state_of_devs
+      - state_of_html
     aliases:
       - options.css_ai_generated_code_balance.8
 
