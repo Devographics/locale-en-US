@@ -2749,6 +2749,10 @@ translations:
     t: >
       Instant serverless GraphQL backends. Grafbase provides the best developer experience to deploy GraphQL APIs.
 
+  - key: sponsors.cybozu.description
+    t: >
+      The makers of Kintone, Japan's leading no-code solution.
+
   # midpage sponsors blocks
 
   - key: tokyodev.relocation
