@@ -1,0 +1,1214 @@
+---
+locale: en-US
+translations:
+  - 
+    ###########################################################################
+    #General
+    ###########################################################################
+    key: results.start
+    t: Start
+  - 
+    key: page.previous
+    t: "Previous:"
+  - 
+    key: page.next
+    t: "Next:"
+  - 
+    key: general.state_of_css_link
+    t: State of CSS
+  - 
+    key: general.netlify_link
+    t: Hosted by <a href="{link}">Netlify</a>.
+  - 
+    key: general.completion_percentage
+    t: "Completion percentage:"
+  - 
+    key: partners.thanks
+    t: Thanks to our partners for supporting us!
+  - 
+    key: partners.learn_more
+    t: Learn more.
+  - 
+    key: tabs.all_respondents
+    t: All Respondents
+  - 
+    key: tabs.main_answers
+    t: Main Answers
+  - 
+    key: tabs.other_answers
+    t: Other Answers
+  - 
+    key: tabs.bracket_wins
+    t: Wins
+  - 
+    key: tabs.bracket_matchups
+    t: Matchups
+  - 
+    key: tabs.chart
+    t: Chart
+  - 
+    key: tabs.data
+    t: Data
+  - 
+    key: tabs.share
+    t: Share
+  - 
+    key: tabs.debug
+    t: Debug
+  - 
+    key: tabs.by_country
+    t: By Country
+  - 
+    key: tabs.by_experience
+    t: By Experience
+  - 
+    key: tabs.by_degree
+    t: By Degree
+  - 
+    key: tabs.by_salary
+    t: By Salary
+  - 
+    key: tabs.by_gender
+    t: By Gender
+  - 
+    ###########################################################################
+    #Block
+    ###########################################################################
+    key: block.data_from
+    t: foo
+  - 
+    ###########################################################################
+    #Options
+    ###########################################################################
+    key: options.experience_ranking.satisfaction
+    t: Satisfaction
+  - 
+    key: options.experience_ranking.interest
+    t: Interest
+  - 
+    key: options.experience_ranking.usage
+    t: Usage
+  - 
+    key: options.experience_ranking.awareness
+    t: Awareness
+  - 
+    key: options.features_mode.grouped
+    t: Grouped
+  - 
+    key: options.features_mode.awareness_rank
+    t: By Awareness
+  - 
+    key: options.features_mode.usage_rank
+    t: By Usage
+  - 
+    key: options.features_mode.usage_ratio_rank
+    t: By Usage Ratio
+  - 
+    key: options.features_simplified.know_it
+    t: Know about it
+  - 
+    key: options.features_simplified.used_it
+    t: Have used it
+  - 
+    key: options.features_simplified.usage_ratio
+    t: Usage ratio
+  - 
+    key: options.quadrant.assess
+    t: ASSESS
+  - 
+    key: options.quadrant.assess.long
+    t: |
+      ASSESS: Low usage, high satisfaction. Technologies worth keeping an eye on.
+  - 
+    key: options.quadrant.adopt
+    t: ADOPT
+  - 
+    key: options.quadrant.adopt.long
+    t: |
+      ADOPT: High usage, high satisfaction. Safe technologies to adopt.
+  - 
+    key: options.quadrant.avoid
+    t: AVOID
+  - 
+    key: options.quadrant.avoid.long
+    t: |
+      AVOID: Low usage, low satisfaction. Technologies probably best avoided currently.
+  - 
+    key: options.quadrant.analyze
+    t: ANALYZE
+  - 
+    key: options.quadrant.analyze.long
+    t: |
+      ANALYZE: High usage, low satisfaction. Reassess these technologies if you're currently using them.
+  - 
+    key: options.quadrant.1
+    t: 1
+  - 
+    key: options.quadrant.1.long
+    t: |
+      1: Low usage, high satisfaction. Technologies worth keeping an eye on.
+  - 
+    key: options.quadrant.2
+    t: 2
+  - 
+    key: options.quadrant.2.long
+    t: |
+      2: High usage, high satisfaction. Safe technologies to adopt.
+  - 
+    key: options.quadrant.3
+    t: 3
+  - 
+    key: options.quadrant.3.long
+    t: |
+      3: Low usage, low satisfaction. Technologies that are harder to recommend.
+  - 
+    key: options.quadrant.4
+    t: 4
+  - 
+    key: options.quadrant.4.long
+    t: |
+      4: High usage, low satisfaction. Reassess these technologies if you're currently using them.
+  - 
+    key: ranges.selector.years_of_experience
+    t: Experience
+  - 
+    key: ranges.selector.yearly_salary
+    t: Salary
+  - 
+    key: ranges.selector.company_size
+    t: Company Size
+  - 
+    #other learning methods
+    key: options.first_steps.blogs
+    t: Blogs
+  - 
+    key: options.first_steps.forums
+    t: Forums
+  - 
+    key: options.first_steps.view_source
+    t: View Source
+  - 
+    #other disablities
+    key: options.disability_status_others.adhd
+    t: ADHD
+  - 
+    key: options.disability_status_others.autism
+    t: Autism
+  - 
+    key: options.disability_status_others.glasses
+    t: Glasses
+  - 
+    key: options.disability_status_others.old
+    t: Old Age
+  - 
+    key: options.disability_status_others.back_pain
+    t: Back Pain
+  - 
+    key: options.disability_status_others.epilepsy
+    t: Epilepsy
+  - 
+    key: options.disability_status_others.aspergers
+    t: Aspergers
+  - 
+    key: options.disability_status_others.color_blindness
+    t: Color Blindness
+  - 
+    key: options.disability_status_others.anxiety
+    t: Anxiety
+  - 
+    key: options.disability_status_others.dyslexia
+    t: Dyslexia
+  - 
+    key: options.disability_status_others.diabetes
+    t: Diabetes
+  - 
+    key: options.disability_status_others.carpal_tunnel
+    t: Carpal Tunnel
+  - 
+    ###########################################################################
+    #Sections
+    ###########################################################################
+    key: sections.introduction.title
+    t: Introduction
+  - 
+    key: sections.demographics.title
+    t: Demographics
+  - 
+    key: sections.tshirt.title
+    t: T-shirt
+  - 
+    key: sections.technologies.title
+    t: Technologies
+  - 
+    key: sections.libraries.title
+    t: Libraries
+  - 
+    key: sections.conclusion.title
+    t: Conclusion
+  - 
+    key: sections.about.title
+    t: About
+  - 
+    key: sections.how_to_help.title
+    t: How to Help
+  - 
+    key: sections.support.title
+    t: Support Us
+  - 
+    key: sections.support.description
+    t: >
+      We run this survey as a side project, but in order to make the project sustainable we’re always looking for partners who can help support us, either financially or by helping us spread the word. If you think you could help in any way, please don’t hesitate to [get in touch](mailto:hello@stateofjs.com)!
+  - 
+    key: sections.awards.title
+    t: Awards
+  - 
+    key: sections.awards.description
+    t: Things that stood out this year.
+  - 
+    ###########################################################################
+    #User Info
+    ###########################################################################
+    key: user_info.locale
+    t: Language
+  - 
+    key: user_info.locale.description
+    t: What language did respondents select to fill out the survey?
+  - 
+    key: user_info.locale.note
+    t: >
+      This data is collected automatically based on respondent's settings while taking the survey; Languages with fewer than 20 respondents not shown.
+  - 
+    key: user_info.source
+    t: Source
+  - 
+    key: user_info.source.description
+    t: How did respondents find out about the survey?
+  - 
+    key: user_info.source.note
+    t: This data is a mix of self-reported answers, referrer data, and URL tracking data.
+  - 
+    key: user_info.gender_by_country
+    t: Gender By Country
+  - 
+    key: user_info.gender_by_country.description
+    t: Gender distribution by country with at least 100 respondents, sorted by "mean gender" (each gender key being assigned an integer value in ascending order) descending.
+  - 
+    key: user_info.years_of_experience_by_salary
+    t: Years of Experience by Salary Range
+  - 
+    key: user_info.years_of_experience_by_salary.description
+    t: Years of experience by salary range.
+  - 
+    key: user_info.yearly_salary_by_country
+    t: Salary By Country
+  - 
+    key: user_info.yearly_salary_by_country.description
+    t: Yearly salary distribution by country with at least 100 respondents, sorted by mean salary descending.
+  - 
+    key: user_info.yearly_salary_by_degree
+    t: Salary By Higher Education Degree
+  - 
+    key: user_info.yearly_salary_by_degree.description
+    t: Yearly salary distribution by higher education degree, sorted by mean salary descending.
+  - 
+    key: user_info.yearly_salary_by_experience
+    t: Salary By Experience
+  - 
+    key: user_info.yearly_salary_by_experience.description
+    t: Yearly salary distribution by experience, sorted by mean salary descending.
+  - 
+    key: user_info.race_ethnicity_by_years_of_experience
+    t: Race & Ethnicity by Years of Experience
+  - 
+    key: user_info.race_ethnicity_by_years_of_experience.description
+    t: Race & ethnicity distribution by years of experience, sorted by mean experience ascending.
+  - 
+    key: user_info.higher_education_degree_by_gender
+    t: Higher Education Degree by Gender
+  - 
+    key: user_info.higher_education_degree_by_gender.description
+    t: Higher education degree distribution by gender.
+  - 
+    ###########################################################################
+    #Locales
+    ###########################################################################
+    key: options.locale.en-US
+    t: English
+  - 
+    key: options.locale.ca-ES
+    t: Catalan
+  - 
+    key: options.locale.es-ES
+    t: Spanish
+  - 
+    key: options.locale.ru-RU
+    t: Russian
+  - 
+    key: options.locale.fr-FR
+    t: French
+  - 
+    key: options.locale.zh-Hant
+    t: Chinese (Traditional)
+  - 
+    key: options.locale.de-DE
+    t: German
+  - 
+    key: options.locale.cs-CZ
+    t: Czech
+  - 
+    key: options.locale.pt-PT
+    t: Portuguese
+  - 
+    key: options.locale.pt-BR
+    t: Portuguese (Brazil)
+  - 
+    key: options.locale.it-IT
+    t: Italian
+  - 
+    key: options.locale.sv-SE
+    t: Swedish
+  - 
+    key: options.locale.tr-TR
+    t: Turkish
+  - 
+    key: options.locale.id-ID
+    t: Indonesian
+  - 
+    key: options.locale.hi-IN
+    t: Hindi
+  - 
+    key: options.locale.zh-Hans
+    t: Chinese (Simplified)
+  - 
+    key: options.locale.ja-JP
+    t: Japanese
+  - 
+    key: options.locale.ua-UA
+    t: Ukrainian
+  - 
+    key: options.locale.pl-PL
+    t: Polish
+  - 
+    key: options.locale.fa-IR
+    t: Farsi
+  - 
+    key: options.locale.nl-NL
+    t: Dutch
+  - 
+    key: options.locale.ko-KR
+    t: Korean
+  - 
+    key: options.locale.ro-RO
+    t: Romanian
+  - 
+    ###########################################################################
+    #Features
+    ###########################################################################
+    key: features.learn_more
+    t: Learn More (MDN)
+  - 
+    key: features.mdn_link
+    t: MDN
+  - 
+    key: features.caniuse_link
+    t: Can I use
+  - 
+    key: features.specification_link
+    t: W3C Specification
+  - 
+    #knowledge score
+    key: features.knowledge_score
+    t: Knowledge Score
+  - 
+    key: features.knowledge_score.description
+    t: Out of all the features mentioned in the survey, how many did the respondent know about?
+  - 
+    ###########################################################################
+    #Tools & Methodologies
+    ###########################################################################
+    #general
+    key: tools.links
+    t: Links
+  - 
+    key: tools.github_link
+    t: GitHub
+  - 
+    key: tools.github_stars
+    t: stars
+  - 
+    key: tools.homepage_link
+    t: Homepage
+  - 
+    key: tools.npm_link
+    t: NPM
+  - 
+    key: tools.technology
+    t: Technology
+  - 
+    ###########################################################################
+    #Blocks
+    ###########################################################################
+    #heatmaps
+    key: blocks.tools_company_size_heatmap
+    t: Usage by Company Size
+  - 
+    key: blocks.tools_company_size_heatmap.description
+    t: |
+      For each technology, how usage is spread among respondents
+      who picked different company size ranges.
+  - 
+    key: blocks.tools_yearly_salary_heatmap
+    t: Usage by Salary Range
+  - 
+    key: blocks.tools_yearly_salary_heatmap.description
+    t: |
+      For each technology, how usage is spread among respondents
+      who picked different salary ranges.
+  - 
+    key: blocks.tools_years_of_experience_heatmap
+    t: Usage by Years Of Experience
+  - 
+    key: blocks.tools_years_of_experience_heatmap.description
+    t: |
+      For each technology, how usage is spread among respondents who picked different experience ranges.
+      Note that the experience in question here is general experience, not experience with a specific technology.
+  - 
+    #tool
+    key: blocks.entity.homepage_link
+    t: Homepage
+  - 
+    key: blocks.entity.github_link
+    t: GitHub
+  - 
+    #cardinality
+    key: blocks.all_sections_tools_cardinality_by_user
+    t: Technology Usage Cardinality
+  - 
+    key: blocks.all_sections_tools_cardinality_by_user.description
+    t: >
+      For each section, which percentage of respondents **use** (defined as having answered “would use again”) one, two, three, etc. technologies. The bottom-most bar represents the sum of all other bars.
+  - 
+    key: blocks.cardinality.max
+    t: Most common answer
+  - 
+    #tools arrows
+    key: blocks.tools_arrows
+    t: Changes Over Time
+  - 
+    key: blocks.tools_arrows.description
+    t: |
+      Each line goes from 2016 to 2020. A higher point means a technology has been used by more people,
+      and a point further to the right means more users want to learn it; or have used it and would use it again.
+  - 
+    key: blocks.tools_arrows.note
+    t: |
+      - Some lines skip years.
+      - Technologies with only one year of data are not shown.
+      - Velocity formula = (most recent opinion - oldest opinion) + (most recent usage) - (oldest usage)
+      - A positive velocity means the usage and/or positive opinions have increased over time.
+  - 
+    #tools quadrant
+    key: blocks.tools_quadrant
+    t: Satisfaction vs Usage
+  - 
+    key: blocks.tools_quadrant.description
+    t: |
+      This chart shows each technology's **satisfaction ratio** (or **interest ratio**) over its total **user count**.
+      It can be divided into four quadrants:
+
+        - **ASSESS**: Low usage, high satisfaction. Technologies worth keeping an eye on.
+
+        - **ADOPT**: High usage, high satisfaction. Safe technologies to adopt.
+
+        - **AVOID**: Low usage, low satisfaction. Technologies probably best avoided currently.
+
+        - **ANALYZE**: High usage, low satisfaction. Reassess these technologies if you're currently using them.
+  - 
+    #category other tools
+    key: blocks.category_other_tools
+    t: Other Tools
+  - 
+    key: blocks.category_other_tools.description
+    t: Other tools in this category (freeform answers).
+  - 
+    #tool experience
+    key: blocks.tool_experience
+    t: "{name} Experience"
+  - 
+    key: blocks.tool_experience.description
+    t: Respondent's experience with {name}.
+  - 
+    #tool positive/negative split ("marimekko" chart)
+    key: blocks.tools_experience_marimekko
+    t: Positive/Negative Split
+  - 
+    key: blocks.tools_experience_marimekko.description
+    t: |
+      This chart splits positive (“want to learn”, “would use again”) vs
+      negative (“not interested”, “would not use again”) experiences on
+      both sides of a central axis.
+
+      Bar thickness represents the number of respondents aware of a technology.
+  - 
+    #tool tier list
+    key: blocks.tools_tier_list
+    t: Library Tier List
+  - 
+    key: blocks.tools_tier_list.description
+    t: |
+      This chart ranks libraries based on their satisfaction ratio (percentage of users
+      who would use a library again). Note that libraries used by less than 10% of survey
+      respondents are not included.
+  - 
+    key: blocks.tools_tier_list.bounds
+    t: >
+      {lowerBound}% - {upperBound}%
+  - 
+    #tools section streams
+    key: blocks.tools_section_streams
+    t: Experience Over Time
+  - 
+    key: blocks.tools_section_streams.description
+    t: |
+      Overview of opinions on the technologies surveyed over time.
+  - 
+    key: blocks.tools_section_streams.note
+    t: |
+      Technologies with only one year of data are not included.
+  - 
+    #tools section overview
+    key: blocks.tools_section_overview
+    t: Category Overview
+  - 
+    key: blocks.tools_section_overview.description
+    t: |
+      Overview of opinions on the technologies surveyed. Darker segments represent positive opinions,
+      while lighter segments correspond to negative sentiment.
+  - 
+    #tools experience ranking
+    key: blocks.tools_experience_ranking
+    t: Rankings
+  - 
+    key: blocks.tools_experience_ranking.description
+    t: Satisfaction, interest, usage, and awareness ratio rankings.
+  - 
+    key: blocks.tools_experience_ranking.note
+    t: |
+      Technologies with less than 10% awareness not included. Each ratio is defined as follows:
+
+      - Satisfaction: **would use again** / (**would use again** + **would not use again**)
+      - Interest: **want to learn** / (**want to learn** + **not interested**)
+      - Usage: (**would use again** + **would not use again**) / **total**
+      - Awareness: (**total** - **never heard**) / **total**
+  - 
+    #happiness
+    key: blocks.happiness
+    t: Overall Happiness
+  - 
+    key: blocks.happiness.description
+    t: |
+      On a scale of one (very unhappy) to five (very happy), how happy are developers
+      with the current overall state of this category?
+  - 
+    #newsletter
+    key: blocks.newsletter.title
+    t: Stay Tuned
+  - 
+    key: blocks.newsletter.description
+    t: |
+      If you'd like to know when we release additional results or announce next year's edition,
+      just leave us your email below:
+  - 
+    key: blocks.newsletter.email
+    t: Your Email
+  - 
+    key: blocks.newsletter.submit
+    t: Notify Me
+  - 
+    #features_overview
+    key: blocks.features_overview
+    t: Usage Overview
+  - 
+    key: blocks.features_overview.description
+    t: |
+      This chart presents the various adoption rates for all features, grouped by category.
+
+      The size of the <span class="text-teal-darker text-bold">outer circle</span>
+      corresponds to the total number of users who know about a feature, while
+      the <span class="text-teal text-bold">inner one</span> represents those who have actually used it.
+
+      Hover on each node to view detailed data along with an <span class="text-blackpink text-bold">overlay</span>
+      representing the total number of survey respondents.
+  - 
+    #export
+    key: export.export
+    t: Export
+  - 
+    key: export.title
+    t: Export data for {title}
+  - 
+    key: export.nocsv
+    t: Sorry, CSV export is not available for this dataset.
+  - 
+    key: export.graphql
+    t: >
+      You can copy paste this query into our <a target="_blank" rel="nofollow" href="http://graphiql.stateofjs.com/">public GraphQL API</a>.
+  - 
+    key: export.export_json
+    t: Get JSON Data
+  - 
+    key: export.export_graphql
+    t: Get GraphQL Query
+  - 
+    key: custom_data.heading
+    t: Custom Chart
+  - 
+    key: custom_data.custom_data
+    t: Custom Data
+  - 
+    key: custom_data.graphql_query
+    t: GraphQL Query
+  - 
+    key: custom_data.chart_title
+    t: Custom Chart
+  - 
+    key: custom_data.submit
+    t: Submit
+  - 
+    key: custom_data.empty_contents
+    t: Please enter some data in the "Custom Data" field.
+  - 
+    key: custom_data.edit_title
+    t: Edit Chart Title
+  - 
+    key: custom_data.customize
+    t: Customize Data
+  - 
+    key: custom_data.details
+    t: >
+
+      1. Copy the contents of the "GraphQL Query" textfield and paste them into the middle panel of the [GraphQL API explorer](https://graphiql.stateofjs.com/).
+      2. Modify the query by adding one or more **filters** using the left-hand explorer sidebar. Make sure to keep the overall structure of the data the same.
+      3. In the explorer window, click the Play ("Execute Query") button.
+      4. Copy the results of the modified query (`{ data: … }` ) into the "Custom Data" textfield above and submit.
+  - 
+    #Tools usage variations
+    key: blocks.tools_usage_variations
+    t: Usage Variations
+  - 
+    key: blocks.tools_usage_variations.description
+    t: |
+      How different factors such as salary range, years of experience
+      or company size influence usage (participants who answered either
+      “would use again” or “would not use again”).
+
+      The baseline represents the base usage for each tool and the offsets
+      correspond to the delta from this baseline in each range. Let's say
+      tool X has an overall usage of 10% across all respondents (the baseline),
+      then if the percentage of users having from 1 to 2 years of experience
+      using this tool is 13% (compared to all users having from 1 to 2 years
+      of experience), then we have a positive delta of +3%.
+  - 
+    key: blocks.tools_usage_variations.note
+    t: |
+      Please keep in mind that tools having a lower overall usage tends to vary more.
+  - 
+    #Recommended Resources
+    key: blocks.recommended_resources
+    t: Recommended Resources
+  - 
+    #Brackets
+    key: tool_evaluation.tool_evaluation_wins
+    t: Library Evaluation Rankings
+  - 
+    key: tool_evaluation.tool_evaluation_wins.description
+    t: Which factors do you prioritize when evaluating a new library? Results are ranked by number of tournament rounds won.
+  - 
+    key: tool_evaluation.tool_evaluation_matchups
+    t: Library Evaluation Rankings (Matchups)
+  - 
+    key: tool_evaluation.tool_evaluation_matchups.description
+    t: Which factors do you prioritize when evaluating a new library? Percentage of rounds won by left-hand item against top-side item.
+  - 
+    ###########################################################################
+    #Charts
+    ###########################################################################
+    key: chart_units.respondents
+    t: "{count} question respondents ({percentage}% completion percentage)"
+  - 
+    key: chart_units.percentage
+    t: Percents
+  - 
+    key: chart_units.count
+    t: Count
+  - 
+    key: chart_units.percentage_question
+    t: "% of question respondents"
+  - 
+    key: chart_units.percentage_survey
+    t: "% of survey respondents"
+  - 
+    key: charts.average
+    t: Average
+  - 
+    key: charts.mean
+    t: Mean
+  - 
+    key: charts.overall
+    t: Overall
+  - 
+    key: charts.all_respondents
+    t: All Respondents
+  - 
+    key: charts.facet_responses
+    t: '{count} responses'
+  - 
+    key: charts.axis_legends.years_of_experience
+    t: Years of Experience
+  - 
+    key: charts.axis_legends.yearly_salary
+    t: Salary Range (USD)
+  - 
+    key: charts.axis_legends.company_size
+    t: Number of Employees
+  - 
+    key: charts.axis_legends.backend_proficiency
+    t: Back-end Proficiency
+  - 
+    key: charts.axis_legends.css_proficiency
+    t: CSS Proficiency
+  - 
+    key: charts.axis_legends.javascript_proficiency
+    t: JavaScript Proficiency
+  - 
+    key: charts.axis_legends.users_percentage
+    t: Percentage of Users
+  - 
+    key: charts.axis_legends.users_count
+    t: User Count
+  - 
+    key: charts.axis_legends.interest_percentage
+    t: Interest %
+  - 
+    key: charts.axis_legends.satisfaction_percentage
+    t: Satisfaction %
+  - 
+    key: charts.axis_legends.usage_percentage
+    t: Usage %
+  - 
+    key: charts.axis_legends.awareness_percentage
+    t: Awareness %
+  - 
+    key: charts.axis_legends.happiness
+    t: Happiness
+  - 
+    key: charts.axis_legends.knowledge_score
+    t: Known Features
+  - 
+    key: charts.axis_legends.frequency
+    t: Frequency
+  - 
+    key: charts.axis_legends.age
+    t: Age
+  - 
+    key: charts.axis_legends.users_percentage_survey
+    t: "% of survey respondents"
+  - 
+    key: charts.axis_legends.users_percentage_question
+    t: "% of question respondents"
+  - 
+    key: charts.ranges_multiple_diverging_lines.baseline
+    t: baseline
+  - 
+    key: charts.ranges_multiple_diverging_lines.positive_offset
+    t: positive offset
+  - 
+    key: charts.ranges_multiple_diverging_lines.negative_offset
+    t: negative offset
+  - 
+    key: charts.tools_arrows.negative_opinion
+    t: Negative opinions
+  - 
+    key: charts.tools_arrows.positive_opinion
+    t: Positive opinions
+  - 
+    key: charts.tools_arrows.have_not_used
+    t: Have not used
+  - 
+    key: charts.tools_arrows.have_used
+    t: Have used
+  - 
+    key: charts.tools_arrows.x_axis
+    t: X-axis range
+  - 
+    key: charts.tools_arrows.y_axis
+    t: Y-axis range
+  - 
+    key: charts.tools_arrows.legend
+    t: Legend
+  - 
+    key: charts.tools_arrows.velocity
+    t: Velocity
+  - 
+    key: charts.tools_arrows.velocity_positive
+    t: Overall more positive opinions and/or usage over time
+  - 
+    key: charts.tools_arrows.velocity_negative
+    t: Overall more negative opinions and/or less usage over time
+  - 
+    key: charts.tools_arrows.opinions_positive
+    t: Mostly positive opinions
+  - 
+    key: charts.tools_arrows.opinions_negative
+    t: Mostly negative opinions
+  - 
+    key: charts.tools_arrows.low_usage
+    t: Low usage
+  - 
+    key: charts.tools_arrows.high_usage
+    t: High usage
+  - 
+    key: charts.tools_arrows.popularity_positive
+    t: Rising popularity
+  - 
+    key: charts.tools_arrows.popularity_negative
+    t: Falling popularity
+  - 
+    key: charts.no_answer
+    t: No Answer
+  - 
+    ###########################################################################
+    #Sharing
+    ###########################################################################
+    key: share.share
+    t: Share
+  - 
+    key: share.options
+    t: Share Options
+  - 
+    key: share.preview
+    t: Social media preview
+  - 
+    key: share.site.title
+    t: Discover the {siteTitle} results
+  - 
+    key: share.site.twitter_text
+    t: "Discover the {siteTitle} results {link} {hashtag}"
+  - 
+    key: share.site.subject
+    t: "{siteTitle} Survey Results"
+  - 
+    key: share.site.body
+    t: "Here are some interesting survey results: {link}"
+  - 
+    key: share.block.twitter_text
+    t: "{hashtag} {year}: {title} {link}"
+  - 
+    key: share.block.subject
+    t: "{siteTitle} Survey Results"
+  - 
+    key: share.block.body
+    t: "Here are some interesting survey results ({title}): {link}"
+  - 
+    key: share.twitter
+    t: Share on Twitter
+  - 
+    key: share.facebook
+    t: Share on Facebook
+  - 
+    key: share.linkedin
+    t: Share on LinkedIn
+  - 
+    key: share.email
+    t: Share by email
+  - 
+    key: share.image
+    t: Get image
+  - 
+    key: share.link
+    t: Link to section
+  - 
+    key: share.url
+    t: Get link
+  - 
+    key: share.close
+    t: Close
+  - 
+    ###########################################################################
+    #Views
+    ###########################################################################
+    key: views.viz
+    t: Graph
+  - 
+    key: views.table
+    t: Table
+  - 
+    ###########################################################################
+    #Tables
+    ###########################################################################
+    key: table.label
+    t: Label
+  - 
+    key: table.item
+    t: Item
+  - 
+    key: table.percentage_survey
+    t: "% of survey respondents"
+  - 
+    key: table.percentage_question
+    t: "% of question respondents"
+  - 
+    key: table.percentage_facet
+    t: "% of facet respondents"
+  - 
+    key: table.count
+    t: Count
+  - 
+    key: table.year
+    t: Year
+  - 
+    key: table.mean
+    t: Mean
+  - 
+    key: table.usage
+    aliasFor: options.features_simplified.used_it
+  - 
+    key: table.awareness
+    aliasFor: options.features_simplified.know_it
+  - 
+    key: table.usage_ratio
+    aliasFor: options.features_simplified.usage_ratio
+  - 
+    key: table.usage_count
+    aliasFor: charts.axis_legends.users_count
+  - 
+    key: table.satisfaction_percentage
+    aliasFor: charts.axis_legends.satisfaction_percentage
+  - 
+    key: table.interest_percentage
+    aliasFor: charts.axis_legends.interest_percentage
+  - 
+    key: table.usage_percentage
+    aliasFor: charts.axis_legends.usage_percentage
+  - 
+    key: table.awareness_percentage
+    aliasFor: charts.axis_legends.awareness_percentage
+  - 
+    key: table.percentages_table
+    t: Percentages
+  - 
+    key: table.rankings_table
+    t: Rankings
+  - 
+    key: table.satisfaction_rank
+    t: Satisfaction Rank
+  - 
+    key: table.interest_rank
+    t: Interest Rank
+  - 
+    key: table.usage_rank
+    t: Usage Rank
+  - 
+    key: table.awareness_rank
+    t: Awareness Rank
+  - 
+    key: table.would_not_use_percentage
+    t: Would not use %
+  - 
+    key: table.not_interested_percentage
+    t: Not interested %
+  - 
+    key: table.would_use_percentage
+    t: Would use again %
+  - 
+    key: table.interested_percentage
+    t: Interested %
+  - 
+    ###########################################################################
+    #Awards
+    ###########################################################################
+    key: awards.runner_ups
+    t: Runner Ups
+  - 
+    key: award.feature_adoption_award.title
+    t: Most Used Feature
+  - 
+    key: award.feature_adoption_award.description
+    t: Awarded to the most adopted feature.
+  - 
+    key: award.feature_adoption_delta_award.title
+    t: Most Adopted Feature
+  - 
+    key: award.feature_adoption_delta_award.description
+    t: Awarded to the feature with the largest year-over-year ”have used” progression.
+  - 
+    key: award.tool_usage_award.title
+    t: Most Used Technology
+  - 
+    key: award.tool_usage_award.description
+    t: Awarded to the technology with the largest user base.
+  - 
+    key: award.tool_usage_delta_award.title
+    t: Most Adopted Technology
+  - 
+    key: award.tool_usage_delta_award.description
+    t: Awarded to the technology with the largest year-over-year “would use again” progression.
+  - 
+    key: award.tool_satisfaction_award.title
+    t: Highest Satisfaction
+  - 
+    key: award.tool_satisfaction_award.description
+    t: Awarded to the technology with the highest percentage of satisfied users.
+  - 
+    key: award.tool_interest_award.title
+    t: Highest Interest
+  - 
+    key: award.tool_interest_award.description
+    t: Awarded to the technology developers are most interested in learning once they are aware of it.
+  - 
+    key: award.resource_usage_award.title
+    t: Most Used Resource
+  - 
+    key: award.resource_usage_award.description
+    t: Awarded to the resource with the largest user base.
+  - 
+    key: award.prediction_award.title
+    t: Prediction Award
+  - 
+    key: award.prediction_award.description
+    t: Awarded to an up-and-coming technology that might take over… or not?
+  - 
+    key: award.most_write_ins_award.title
+    t: Most Write-Ins
+  - 
+    key: award.most_write_ins_award.description
+    t: Awarded to the item with the most write-in answers
+  - 
+    ###########################################################################
+    #Hints
+    ###########################################################################
+    key: hints.hint_hint
+    t: >
+      You'll find little hints like this one throughout the survey results that will point out extra features and details.
+  - 
+    key: hints.units_switcher_hint
+    t: >
+      You can use the segmented control at the bottom of each block to switch between different units to get an alternate view of the same data.
+  - 
+    key: hints.export_hint
+    t: >
+      The <span class="hint-icon hint-export-button">Data</span> tab lets you view the raw data for any chart, view it as JSON, or get a GraphQL query you can run against our public API.
+  - 
+    key: hints.completion_hint
+    t: >
+      Since all questions are optional, some of them got fewer responses than others. The completion indicator (<span class="hint-completion-indicator">◕</span>) tells you exactly how many people answered any given question.
+  - 
+    key: hints.tool_modal_hint
+    t: >
+      You can click on any technology name to get extra details and a more in-depth look at its related data.
+  - 
+    key: hints.rankings_modes_hint
+    t: >
+      The Rankings chart can be toggled between satisfaction, interest, usage, and awareness to give you a fuller picture of a category's rankings.
+  - 
+    key: hints.sharing_hint
+    t: >
+      Sharing this survey on Twitter, Facebook, or by email is scientifically proven to improve your coding performance by up to 15%.
+  - 
+    key: hints.tshirt_hint
+    t: >
+      Another guaranteed scientific finding: buying our t-shirt will increase your programming skills by over 9000!
+  - 
+    key: hints.variants_hint
+    t: >
+      Some charts feature additional tabs that offer complementary breakdowns of the same data, or related data. Make sure to check them out!
+  - 
+    key: hints.share_hint
+    t: >
+      The <span class="hint-icon hint-share-button">Share</span> tab makes it easy to share any chart, or even download it as an image.
+  - 
+    key: hints.bracket_hint
+    t: >
+      <span class="hint-bracket"><span class="hint-text">The following chart provides the results of a tournament-style 8-player bracket in which respondents were tasked with picking the winner of each match-up until a single winner remained.</span><span class="hint-diagram"/></span>
+  - 
+    ###########################################################################
+    #Sponsor Chart
+    ###########################################################################
+    key: sections.sponsor_finish.title
+    t: Thanks
+  - 
+    key: sponsor.sponsor_finish
+    t: >
+      Thanks for supporting the survey. Your avatar should appear next to the chart you picked within the next hour or so. If it doesn't, please [get in touch](mailto:chartsponsor@stateofjs.com).
+  - 
+    key: sponsor.sponsored_by
+    t: >
+      **{name}** donated **${amount}** to sponsor this chart
+  - 
+    key: sponsor.sponsor_button
+    t: Sponsor This Chart
+  - 
+    key: sponsor.sponsor_chart.title
+    t: Sponsor Chart "{title}"
+  - 
+    key: sponsor.sponsor_chart.description
+    t: >
+      Support this survey financially by donating $10 or more, and get your Twitter avatar featured next to a chart!
+  - 
+    key: sponsor.chart_id
+    t: 'Chart ID: '
+  - 
+    key: sponsor.sponsor_this_chart
+    t: Sponsor This Chart (${baseAmount}+)
+  - 
+    key: sponsor.how_it_works.title
+    t: How It Works
+  - 
+    key: sponsor.how_it_works.description
+    t: >
+      1. When you **click the "Sponsor This Chart" button**, you will be redirected to our partner [SendOwl](https://www.sendowl.com/)'s checkout page.
+
+      2. You can then **adjust the amount** you'd like to sponsor the survey for, starting at USD10.
+
+      3. Once you checkout, you will be able to **provide your Twitter username**.
+
+      4. You will see a **File Download** page, but you can safely ignore it.
+
+      5. The site will rebuild in the background and your username and donation will **appear next to the chart within the next hour**.
+  - 
+    key: sponsor.faq.title
+    t: F.A.Q.
+  - 
+    key: sponsor.faq.usage.title
+    t: What will my donation be used for?
+  - 
+    key: sponsor.faq.usage.description
+    t: Your donation will help support survey maintainers, as well as help hire more contributors (illustrators, accessibilty and diversity experts, etc.).
+  - 
+    key: sponsor.faq.public.title
+    t: Will my donation be public?
+  - 
+    key: sponsor.faq.public.description
+    t: Yes. Your **Twitter username** as well as the **amount you donated** will be displayed publicly next to the chart.
+  - 
+    #- key: sponsor.faq.donation_public.title
+    #t: Can I donate on somebody else's behalf?
+    #- key: sponsor.faq.donation_public.description
+    #t: You can enter a Twitter username other than your own, but that person will have the right to remove the donation if they request it.
+    key: sponsor.faq.refund.title
+    t: What's your refund policy?
+  - 
+    key: sponsor.faq.refund.description
+    t: All donations are refundable within a 1-week period, minus transaction fees.
+  - 
+    key: sponsor.faq.influence.title
+    t: Do donations influence the survey contents?
+  - 
+    key: sponsor.faq.influence.description
+    t: Donations take place once the survey is already published, and donors to not have any influence on the contents of the survey.
+  - 
+    key: sponsor.faq.feedback.title
+    t: Where can I leave feedback/ask questions?
+  - 
+    key: sponsor.faq.feedback.description
+    t: You can do so [on GitHub](https://github.com/StateOfJS/Monorepo/issues/69) or [in our Discord](https://discord.gg/tuWRUWVyJs).
