@@ -1274,7 +1274,7 @@ translations:
   - key: charts.cutoff_answers.short
     t: Cutoff Answers
   - key: charts.cutoff_answers.description
-    t: Items that got fewer than {cutoff} answers
+    t: Aggregate group for items that got fewer than **{cutoff}** answers each
 
   - key: charts.other_answers
     t: Other Answers

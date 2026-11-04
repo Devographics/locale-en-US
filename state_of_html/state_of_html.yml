@@ -693,8 +693,12 @@ translations:
   # accessibility_ai_impact
   - key: features.accessibility_ai_impact
     t: AI Impact
+    aliases:
+      - accessibility.accessibility_ai_impact
   - key: features.accessibility_ai_impact.question
     t: In your experience, what kind of impact is AI-assisted coding having on web accessibility?
+    aliases:
+      - accessibility.accessibility_ai_impact.question
 
   - key: options.accessibility_ai_impact.0
     t: Strongly negative
