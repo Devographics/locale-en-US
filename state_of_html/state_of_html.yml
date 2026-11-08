@@ -526,8 +526,12 @@ translations:
 
   - key: features.web_components_pain_points
     t: Web Components Pain Points
+    aliases:
+      - web_components.web_components_pain_points
   - key: features.web_components_pain_points.question
     t: What are your biggest pain points around creating or using web components?
+    aliases:
+      - web_components.web_components_pain_points.question
 
   - key: features.using_web_components_pain_points
     t: Using Web Components Pain Points

@@ -443,6 +443,10 @@ translations:
     t: Respondents taking the survey as guests shown as “no answer”.
     aliases:
       - _user_metadata.past_surveys.note
+  - key: options.past_surveys.no_answer
+    aliasFor: charts.no_data
+  - key: options.past_surveys.no_answer.short
+    aliasFor: charts.no_data
 
   - key: user_metadata.past_editions
     t: Previous Editions
@@ -452,6 +456,10 @@ translations:
     t: Previous editions of this survey taken by respondents.
     aliases:
       - _user_metadata.past_editions.description
+  - key: options.past_editions.no_answer
+    aliasFor: charts.no_data
+  - key: options.past_editions.no_answer.short
+    aliasFor: charts.no_data
 
   # completion
   - key: user_info.completion_stats
@@ -464,6 +472,10 @@ translations:
     aliases:
       - user_metadata.completion_stats.description
       - _user_metadata.completion_stats.description
+  - key: options.completion_stats.no_answer
+    aliasFor: charts.no_data
+  - key: options.completion_stats.no_answer.short
+    aliasFor: charts.no_data
 
   # skipped
   - key: user_info.skipped
@@ -474,6 +486,10 @@ translations:
     t: Which questions were the most frequently skipped.
     aliases:
       - _user_metadata.skipped.description
+  - key: options.skipped.no_answer
+    aliasFor: charts.no_data
+  - key: options.skipped.no_answer.short
+    aliasFor: charts.no_data
 
   - key: user_metadata.past_same_survey_count
     t: Participation Count
@@ -485,6 +501,10 @@ translations:
       - _user_metadata.past_same_survey_count.description
   - key: user_metadata.past_same_survey_count.note
     aliasFor: user_metadata.past_surveys.note
+  - key: options.past_same_survey_count.no_answer
+    aliasFor: charts.no_data
+  - key: options.past_same_survey_count.no_answer.short
+    aliasFor: charts.no_data
 
   - key: user_metadata.created_at_date
     t: Responses Over Time
@@ -494,6 +514,10 @@ translations:
     t: Chronological breakdown of when responses were collected.
     aliases:
       - _user_metadata.created_at_date.description
+  - key: options.created_at_date.no_answer
+    aliasFor: charts.no_data
+  - key: options.created_at_date.no_answer.short
+    aliasFor: charts.no_data
 
   - key: user_metadata.authmode
     t: Authentication
@@ -508,6 +532,10 @@ translations:
     t: Guest Account
   - key: options.authmode.passwordless
     t: Logged-in Account
+  - key: options.authmode.no_answer
+    aliasFor: charts.no_data
+  - key: options.authmode.no_answer.short
+    aliasFor: charts.no_data
 
   - key: user_metadata.device
     t: Device
@@ -517,6 +545,10 @@ translations:
     t: What device was used to take the survey.
     aliases:
       - _user_metadata.device.description
+  - key: options.device.no_answer
+    aliasFor: charts.no_data
+  - key: options.device.no_answer.short
+    aliasFor: charts.no_data
 
   - key: user_metadata.browser
     t: Browser
@@ -526,6 +558,10 @@ translations:
     t: What browser was used to take the survey.
     aliases:
       - _user_metadata.browser.description
+  - key: options.browser.no_answer
+    aliasFor: charts.no_data
+  - key: options.browser.no_answer.short
+    aliasFor: charts.no_data
 
   - key: user_metadata.version
     t: Browser Version
@@ -535,6 +571,10 @@ translations:
     t: What browser version was used to take the survey.
     aliases:
       - _user_metadata.version.description
+  - key: options.version.no_answer
+    aliasFor: charts.no_data
+  - key: options.version.no_answer.short
+    aliasFor: charts.no_data
 
   - key: user_metadata.os
     t: OS
@@ -544,6 +584,10 @@ translations:
     t: What OS version was used to take the survey.
     aliases:
       - _user_metadata.os.description
+  - key: options.os.no_answer
+    aliasFor: charts.no_data
+  - key: options.os.no_answer.short
+    aliasFor: charts.no_data
 
   # job_info
 
@@ -1259,8 +1303,13 @@ translations:
 
   - key: charts.no_answer
     t: No Answer
-  - key: charts.no_answer.short
-    t: No Answer
+    aliases:
+      - charts.no_answer.short
+
+  - key: charts.no_data
+    t: No Data
+    aliases:
+      - charts.no_data.short
 
   - key: charts.no_match
     t: Unmatched Answers
@@ -2469,6 +2518,9 @@ translations:
     t: "Excluded: "
   - key: correlations.exclusions.description
     t: Some correlation pairs are manually filtered out when considered too obvious or not relevant.
+
+  - key: correlations.no_correlations
+    t: No correlations found.
 
   - key: correlations.note
     t: |
