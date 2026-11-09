@@ -993,7 +993,7 @@ translations:
   # Tshirt
   ###########################################################################
 
-  - key: sections.tshirt.description.state_of_react
+  - key: tshirt.description.state_of_react
     t: |
       ## Support the Survey With the official State of React T-Shirt
 

@@ -56,7 +56,7 @@ translations:
   # Tshirt
   ###########################################################################
 
-  - key: sections.tshirt.description.js2020
+  - key: tshirt.description.js2020
     t: |
       ## Support the survey and look good in the process!
 

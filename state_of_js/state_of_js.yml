@@ -1882,7 +1882,7 @@ translations:
   # Tshirt
   ###########################################################################
 
-  - key: sections.tshirt.description.state_of_js
+  - key: tshirt.description.state_of_js
     t: |
       ## Support the Survey With the State of JavaScript T-Shirt
 

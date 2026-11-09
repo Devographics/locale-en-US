@@ -24,7 +24,7 @@ translations:
   # Tshirt
   ###########################################################################
 
-  - key: sections.tshirt.description.state_of_html
+  - key: tshirt.description.state_of_html
     t: |
       ## Support the Survey With the State of HTML T-Shirt
 
@@ -714,6 +714,11 @@ translations:
     t: Somewhat positive
   - key: options.accessibility_ai_impact.4
     t: Strongly positive
+
+  - key: accessibility.accessibility_ai_impact.lower
+    t: more negative
+  - key: accessibility.accessibility_ai_impact.higher
+    t: more positive
 
   # accessibility_tools
   - key: features.accessibility_tools

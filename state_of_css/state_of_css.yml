@@ -20,7 +20,7 @@ translations:
   # Tshirt
   ###########################################################################
 
-  - key: sections.tshirt.description.state_of_css
+  - key: tshirt.description.state_of_css
     t: |
       ## Support the Survey With the State of CSS T-Shirt
 
@@ -896,20 +896,8 @@ translations:
   # slider
   - key: options.css_js_balance.0
     t: 100% CSS
-  - key: options.css_js_balance.1
-    t: "|"
-  - key: options.css_js_balance.2
-    t: "|"
-  - key: options.css_js_balance.3
-    t: "|"
   - key: options.css_js_balance.4
     t: 50%–50%
-  - key: options.css_js_balance.5
-    t: "|"
-  - key: options.css_js_balance.6
-    t: "|"
-  - key: options.css_js_balance.7
-    t: "|"
   - key: options.css_js_balance.8
     t: 100% JS
 

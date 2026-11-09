@@ -49,7 +49,7 @@ translations:
   # Tshirt
   ###########################################################################
 
-  - key: sections.tshirt.description.css2020
+  - key: tshirt.description.css2020
     t: |
       ## Support the survey and look good in the process!
 
