@@ -16,13 +16,13 @@ translations:
 
   - key: general.js2026.survey_intro
     t: >
-      The State of JavaScript survey has now been running for a full decade, witnessing the unstoppable rise of React, the birth of the Vite ecosystem, and the language itself being all but replaced by TypeScript; to bring up just a few of the many trends we've seen over that time. 
+      This survey has now been running for a full decade, witnessing the rise of React, the birth of the Vite ecosystem, and the JavaScript itself being all but replaced by TypeScript; to bring up just a few of the many trends we've seen over that time. 
 
 
-      Which brings us to 2026: in a world where you can [reimplement a framework with a different build tool](https://vinext.io/), [reverse engineer anything](https://rea.tools/), and all the cool kids are porting their apps to Rust, it's worth wondering what role JavaScript still has to play, if any. 
+      Which brings us to 2026: in a world where AI can help you reimplement an entire framework with a different build tool, reverse engineer anything, or port your app to Rust, it's worth wondering what role JavaScript still has to play.
 
 
-      And it's true the JavaScript ecosystem as we know it may become a thing of the past. It's hard to be *that* concerned about framework A vs framework B when you know your agent can port your app from one to the other in a few days-or is it mere hours by now?
+      And it's true it's hard to be *that* concerned about framework A vs framework B when you know coding agents can port your app from one to the other in a matter of a few hours.
 
 
       But JavaScript itself still remains the gateway to the browser, and in an era where browsers are becoming more and more powerful, knowing which possibilities they offer will always have value.  
