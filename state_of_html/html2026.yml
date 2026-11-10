@@ -114,6 +114,23 @@ translations:
   # Takeaways
   ###########################################################################
 
+  - key: features.all_features.takeaway.html2026
+    t: >
+      It's worth highlighting the `datalist` element, which saw a big year-over-year usage increase, going from **30%** to **44%**.
+
+
+      That being said, while it was last-year's most-loved feature, it fell 18 places this time around in terms of sentiment. 
+
+
+      Respondent comments mention difficulties around styling, accessibility, and browser bugs, pointing to a post-release follow-through that didn't quite meet developer expectations–and showing once again that as a feature gets more usage, criticisms often also increase accordingly.
+
+  - key: features.features_ratios_over_time.takeaway.html2026
+    t: >
+      Features that saw their usage increase include the afore-mentioned `datalist` (**+14%**), as well as `dialog` (**+15%**), the Popover API (**+19%**), and especially the very handy `<dialog.closedBy="any">` (**+20%**).
+
+
+      Meanwhile, looking at awareness gives us some interesting insights into which features might explode in usage in the near future, such as File System Access (**+24%**).
+
   - key: forms.forms_features.takeaway.html2026
     t: |
       Surprisingly, `<input type="color"/>` was the most used form-related feature this year, with **41.8%** of respondents reporting having used it. 
