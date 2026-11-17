@@ -22,17 +22,20 @@ translations:
 
   - key: introduction.html2026
     t: |
-      If you want to get an idea of how capable the web platform has gotten over the past few years, look no further than the list of categories covered in this survey. 
+      For what seemed like eons, it felt like the web was standing still. Web APIs were limited compared to their native equivalents. Building anything more complex that a single-column layout required lots of hacks, duct tape, and swearing. 
 
-      Forms, graphics, performance features, methods of interacting with various system and device APIs, accessibility… It's a wonder anybody is able to keep track of it all!
 
-      Thankfully at least one person is: [Lea Verou](https://lea.verou.me/), who after designing the original version of the survey in 2023, joined us again this year to give it an update. 
+      As a result, JavaScript came in to fill the void, and we witnessed a literal explosion of frameworks, libraries, and everything in-between.
 
-      And together, one of the areas we focused on this year was analyzing the vast quantity of freeform answers collected around various pain point areas. 
 
-      You'll now be able to dig deeper into categorized data, as well as access (and search through) respondents' original answers.
+      But these days, things have flipped. JavaScript frameworks have consolidated around a couple solid options, and the pace of change has slowed down. Meanwhile, browser vendors have finally gotten their act together and are now working hand-in-hand to release new features faster than ever before–and ensure they work across the board!
 
-      If nothing else, this should help us realize that we're all in this together, sharing the same frustrations- but also the same hopes!
+
+      And this is happening just in time for the widespread adoption of AI-assisted code generation, which has no qualms about skipping JavaScript frameworks altogether and leveraging browser APIs directly when it makes sense.
+
+
+      So this feels like the perfect time to go back to basics and brush up on what modern browsers can actually do. And this survey is here to help!
+
 
       <span class="conclusion__byline">– Sacha Greif</span>
 
@@ -133,215 +136,201 @@ translations:
 
   - key: forms.forms_features.takeaway.html2026
     t: |
-      Surprisingly, `<input type="color"/>` was the most used form-related feature this year, with **41.8%** of respondents reporting having used it. 
+      It's worth highlighting the `datalist` element, which saw a big year-over-year usage increase, going from **30%** to **44%**.
 
-      But when looking at positive sentiment, basic UI building blocks like autocomplete (`<datalist>`) and dropdowns (Customizable Select) top the rankings, showing that developers value features that are customizable and can be tailored to their needs.
+
+      Yet at the same time, positive sentiment fell from **44%** to **34%** (going from first place to 18th in the overall rankings).
+
+
+      Respondent comments mention difficulties around styling, accessibility, and browser bugs, pointing to a post-release follow-through that didn't quite meet developer expectations–and showing once again that as a feature gets more usage, criticisms often also increase accordingly.
 
   - key: forms.forms_pain_points.takeaway.html2026
     t: |
-      **Styling & customization** of default form control UI elements remains a big stumbling block, with nearly **half** of pain points being about it.
-
-      **Form validation** is also a problem, especially when it comes to more advanced use cases like validating one field's value based on another.
-
-  - key: graphics_multimedia.graphics_multimedia_features.takeaway.html2026
-    t: |
-      **JPEG XL** and **ctx.drawElement()** were the two new features that garnered the most positive sentiment, whereas more complex areas like augmented or extended reality APIs didn't score as high–showing once more that devs are first and foremost interested in primitives that make their daily lives easier.
-
-  - key: graphics_multimedia.graphics_pain_points.takeaway.html2026
-    t: |
-      SVG has always been the the dark horse of the Web, chronically neglected by browser vendors, yet being used on nearly every website. It is therefore no surprise that it dominates here, with a quarter of pain points being about it.
+      As with previous years, **Styling & customization** remains a major pain point when it comes to forms.
 
   - key: content.content_features.takeaway.html2026
     t: |
-      Both the most liked and most disliked features were security-related: the **Sanitizer API** drew the most positive opinions, while **Content-Security Policy** topped the frustration list. 
-
-      This contrast highlights how security mechanisms that reduce friction and integrate cleanly with existing workflows are welcomed, while those that impose rigid policies, demand meticulous configuration, or break previously working code can generate resentment.
+      Developers continue to love the **Sanitizer API**, with many comments lamenting its current lack of support in Safari.
 
   - key: content.content_pain_points.takeaway.html2026
     t: |
-      The data paints a very clear picture: By far the most pressing content point is **HTML reuse**, both across pages, and within the same page. Even though this is already possible through build tools and component-based front-end frameworks, it appears there is large demand for a platform-native feature.
+      Just like last year, **HTML reuse** generally, and native HTML templating support more specifically continue to be developers' biggest content-related pain-points.
 
   - key: interactivity.interactivity_features.takeaway.html2026
     t: |
-      There is huge demand for simple but customizable, declarative primitives for common things, as evidenced by the large proportion of positive sentiment for every single HTML feature in this category.
+      Overall, interactivity-related features continue to be grouped towards the top of the rankings when it comes to positive sentiment, with most developers having very few negative things to say about them.
 
   - key: interactivity.interactivity_pain_points.takeaway.html2026
     t: |
-      The large proportion of browser support issues mentioned here sends a clear message: “we love all these new features you've given us–now make them work everywhere so we can actually use them!”.
+      Browser support was already a major issue last year, and this time around is no different.
 
   - key: performance.performance_features.takeaway.html2026
     t: |
-      It's loud and clear: the DX of `srcset` and `sizes` could use improvement! Both ends of the spectrum are around it, with `srcset`/`sizes` itself topping the frustration list, and `sizes="auto` being the most liked feature—because it alleviates some of this pain.
+      Just like last year, `srcset` and `sizes` attributes remain controversial because of their complex syntax.
 
   - key: performance.performance_pain_points.takeaway.html2026
     t: |
-      The whole point of the web is to give people access to faraway content. Given that, it does feel a bit strange that **loading** that data is so often an afterthought, with little progress made in the last 30 years apart from slightly nicer spinner animations.
+      As seen previously, image loading continues to be a sore spot, especially when it comes to handling multiple sizes.
 
   - key: web_components.web_components_features.takeaway.html2026
     t: |
-      Once again we see declarative solutions prevailing, with **declarative custom elements** topping the sentiment chart.
+      **Shadow DOM** may be a cool concept (with a cool name! but it remains a bit too complex to wrap your mind around for many developers.
 
   - key: web_components.web_components_pain_points.takeaway.html2026
     t: |
-      We know that **extending built-in elements** is a long requested feature, and these results validate it, as it is the top concrete pain point topic here (after the more abstract ones around complexity, reliance on JS, and accessibility).
-
-  - key: web_components.web_components_other_pain_points.takeaway.html2026
-    t: |
-      Compared with previous years the same themes are still present: high cognitive overhread, falling short when compared to framework components, and Shadow DOM being more of a problem than a solution.
+      A lack of clear use case remains an issue with Web Components, with many developers stating that they often fail to see a reason to reach for them.
 
   - key: system_capabilities.system_capabilities_features.takeaway.html2026
     t: |
-      Opening and saving a file is one of the most basic app capabilities, and yet until recently was unattainable for web apps — until the **File System Access API**. It is therefore no surprise that it topped the chart of positive sentiment.
-
-      On the other hand, device APIs such as **WebUSB**, **Web Bluetooth**, or **WebNFC** collected the least interest, verifying once more that the features that gather the most interest are those that solve basic, common problems.
+      While many device features remain under-used, the fact that AI-assisted coding now makes it far easier to leverage miche APIs such as **WebUSB** or **Web Bluetooth** might unlock new uses for them in the future.
 
   - key: system_capabilities.system_capabilities_pain_points.takeaway.html2026
     t: |
-      The data paints a very vivid picture: the top pain point here is neither ergonomics, nor limitations, but **browser support**, and more specifically, a specific vendor that many developers see as obstructing the web platform's progress.
+      While **browser support** is slightly less of an issue compared to last year, it's still the top pain point when it comes to leveraging system and device capabilities.
 
   # a11y
 
   - key: accessibility.accessibility_features.takeaway.html2026
     t: |
-      **Landmark elements** (`<main>`, `<nav>`, etc.) aren't very new or exciting but they remain a foundation of web accessibility.
-
-  - key: accessibility.accessibility_pain_points.takeaway.html2026
-    t: |
-      While there are technical gaps when it comes to accessibility (e.g. cross-root ARIA), a recurring theme whenever we ask about it is that the main pain points are around the *humans* involved with issues around workplace priorities, education, and cognitive overhead topping the list.
+      While the **tabindex** attribute is widely used, many respondents reported finding the API awkward and hard to read.
 
   - key: accessibility.accessibility_techniques.takeaway.html2026
     t: |
-      While things like alt text or proper heading hierarchy have become second nature to most front-end developers, newer tools like the `prefers-` set of media queries have yet to truly become mainstream.
+      It's heartening to see every accessibility technique mentioned here gain ground over the past year.
 
   - key: accessibility.accessibility_disabilities.takeaway.html2026
     t: |
-      It's nice to see that beyond accounting for users with vision impairments, more developers are also taking atypical color vision and mobility impairments into account compared to last year.
+      Now that the web platform provides more tools to target a more diverse set of user needs, it's up to us to start accounting for them during our development process.
 
   - key: accessibility.accessibility_screenreaders.takeaway.html2026
     t: |
-      Once again, easily accessible tools like VoiceOver or the Chrome DevTools win over more specialized options. Although many developers still don't use screen readers of any kind (also note that 39% of survey respondents skipped the question altogether).
+      Once again, easily accessible tools like VoiceOver or the Chrome DevTools win over more specialized options.
 
   - key: accessibility.accessibility_tools.takeaway.html2026
     t: |
-      Browser devtools have seen a huge jump in usage compared to last year's results, seeing them overtake Lighthouse to become the lead accessibility testing tool.
+      At this point, it does seem like browser devtools have become the de facto gateway to good accessibility practices.
+
+  - key: accessibility.accessibility_ai_impact.takeaway.html2026
+    t: |
+      You might think AI-assisted coding would hurt accessibility due to developers paying less attention to the actual code, but it turns out the opposite is true, with one important caveat. 
+
+      As many commenters pointed out, you need to explicitly make accessibility one of your priorities to ensure the LLM produces accessible code. Which in the end, isn't that different from before!
+
+  - key: accessibility.accessibility_pain_points.takeaway.html2026
+    t: |
+      The biggest hurdle to accessibility continues to be lack of access to good testing tools. But beyond technical issues, convincing companies to value accessibility appropriately also remains a challenge.
 
   # usage
   - key: usage.html_interoperability_features.takeaway.html2026
     t: |
-      There's always a bit of lag between the state of the web platform and actual real-world adoption, so it shouldn't come as a surprise that the **Popover API** still tops the rankings. But make no mistake, this feature now officially has the "Newly Available" Baseline status, meaning using it across browser should be much less of an issue going forward.
+      **Customizable select** is nearing the finish line, and developers can feel it, with only Firefox lacking support for the long-awaited feature. 
+
+
+      Meanwhile, with the Popover API now being supported in all major browsers, we're the number of developers citing browser support as an obstacle to its adoption drop, as it should.
 
   - key: usage.html_functionality_features.takeaway.html2026
     t: |
-      Form controls and other interactive elements are once again those perceived as most limiting. With customizable select out of the way, it looks like perhaps date pickers should be the next target.
+      `<select>` scored 10% lower compared to last year, presumably due to the progress made on making it easier to style and customize. Which lets **date inputs** take the dubious honor of taking the lead as the feature with the most impactful limitations.
 
   - key: usage.html_missing_elements.takeaway.html2026
     t: |
-      This year again **datatable** is the most requested new element. While it would certainly be nice to have built-in filtering, sorting, searching, etc. capabilities, it doesn't seem like something that will become a reality anytime soon. 
-
-      On the other hand, progress is being made on other long-awaited features such as a native **switch** element, which explains its drop in the rankings.
+      We still want native **datatables**, with tabs coming in a close second.
 
   - key: usage.html_styling_issues.takeaway.html2026
     t: |
-      It will be no surprise that form inputs top the list of hardest elements to style. Thankfully, [customizable select elements](https://developer.chrome.com/blog/a-customizable-select) are in the works, even though [browser support](https://web-platform-dx.github.io/web-features-explorer/features/customizable-select/) is still lagging.
+      These rankings mainly confirm findings already seen in other questions: styling continues to be a big issue, especially when it comes to form elements. And at a time when CSS itself is making progress at an unprecented rate, not being able to leverage all this power when it comes to some of the most common parts of any given web UI is certainly frustrating.
 
-  - key: usage.component_strategies.takeaway.html2026
+  - key: usage.progressive_enhancement_priority.takeaway.html2026
     t: |
-      It's hard to dispute that JavaScript components have become the dominant paradigm of building UIs on the web. And yes, dealing with all these competing front-end frameworks can be messy–but it's a mess we know (and maybe even love?), a fact that makes it tough for web components to gain ground beyond fourth place.
+      Progressive enhancement has long been adopted as a key best practice of our industry, but as with many well-intentioned principles there's often a large gap between theory and practice. 
 
-  - key: usage.design_system_strategies.takeaway.html2026
-    t: |
-      Design systems have become a requirement for most large-scale projects, and that fact is reflected in the popularity of all these various approaches.
+
+      In this case, a full 43% of respondents do not concern themselves with making their apps or sites work without JavaScript. While on the other end of the spectrum, it's a requirement for only 4%. 
+
+
+      Which is a shame, as considering progressive enhancement a “high priority” was also correlated with employing more **accessibility techniques**.
 
   - key: usage.html_css_js_balance.takeaway.html2026
     t: |
-      As shown in the “Component Strategies” chart above, JavaScript is the de facto vessel for a lot of the HTML code we produce. Which explains why we spend so much time writing it!
+      Our codebases still contain a lot of JavaScript (or TypeScript). But this could change, as browser expand their native capabilities to let HTML and CSS take over some of the jobs JavaScript is currently tasked with.
 
-  - key: usage.what_do_you_use_html_for.takeaway.html2026
+  - key: usage.ai_generated_code_balance.takeaway.html2026
     t: |
-      While the average survey respondents mainly works on dynamic web apps, many of us also spend time creating blogs or other text-heavy sites, harkening back to HTML's roots as a document-oriented language.
+      It's interesting to compare how different segments of the web developer population score when it comes to AI usage.
+
+
+      [State of Devs](https://2026.stateofdevs.com/en-US/ai/#ai_generated_code_balance) respondents scored a median of 63% of their code being AI-generated, quite a bit higher than the 50% seen here. Meanwhile, when it comes to [CSS code more specifically](https://2026.stateofcss.com/en-US/usage/#css_ai_generated_code_balance), the median was way lower at only 13%!
+
+  - key: usage.ai_browser_apis.takeaway.html2026
+    t: |
+      Having the ability to avoid slow API calls and get AI features right in your browser is certainly intruiging, but at this point the appeal is still limited.
 
   - key: usage.html_pain_points_freeform.takeaway.html2026
     t: |
-      When looking at web platform pain points more generally, browser support stands out–especially when it comes to the Apple ecosystem. 
-
-      As a result, community initiatives such as the [#AppleBrowserBan](https://open-web-advocacy.org/apple-browser-ban/) hashtag have been gaining steam, while on the vendor front [Interop](https://web.dev/blog/interop-2026) moves the needle in the right direction each year.
-
-  # opinions
-
-  - key: opinions.accessibility_is_valued.takeaway.html2026
-    t: |
-      Given that lack of workplace buy-in is often cited as an obstacle to proper accessibility practices, it's nice to see that among survey respondents at least, things seem to be getting better, with both “agree” bars increasing compared to last year.
-
-  - key: opinions.validation_is_important.takeaway.html2026
-    t: |
-      It's easy to forget about HTML validation when dealing with the chaos of modern web development. But respondents agree that it remains an important part of the process.
-
-  - key: opinions.keeping_informed_is_challenging.takeaway.html2026
-    t: |
-      Despite great initiatives like [Baseline](https://web-platform-dx.github.io/web-features/), [keeping up with the web platform](https://css-tricks.com/how-to-keep-up-with-new-css-features/) remains a challenge. Hopefully this survey helps at least a little!
-
-  - key: opinions.browser_interoperability_is_obstacle.takeaway.html2026
-    t: |
-      It's not easy being a browser vendor in 2026. Developers complain about platform stagnation, so you introduce new features and APIs… only for developers to now complain about the lack of cross-browser support!
-
-      This is why [Interop](https://web.dev/blog/interop-2026) has become a key part of the process over the past couple years. It gives browser vendors a chance to coordinate on feature compatibility, and avoid having all their hard work ruined by poor interoperability.
-
-  - key: opinions.browser_interoperability_pace.takeaway.html2026
-    t: |
-      The results of those interoperability efforts are reflected in this chart, with **75%** of respondents agreeing that things are moving at a faster pace than before.
-
-  - key: opinions.web_platform_right_direction.takeaway.html2026
-    t: |
-      Similarly, **77%** of respondents have a positive opinion of the web platform's overall direction.
+      While most respondents were already able to share their frustrations throughout the rest of the survey, the lack of native HTML includes or templating is something that was cited again here by a few people.
 
   ###########################################################################
   # Conclusion
   ###########################################################################
 
-  - key: conclusion.html2026.lea_verou.name
-    t: Dr Lea Verou
-  - key: conclusion.html2026.lea_verou.bio
-    t: Speaker, Author, Award-Winning Web Architecture Consultant
-  - key: conclusion.html2026.lea_verou
+  - key: conclusion.html2026.kilian_valkhof.name
+    t: Kilian Valkhof
+  - key: conclusion.html2026.kilian_valkhof.bio
+    t: Creator of Polypane
+  - key: conclusion.html2026.kilian_valkhof
     t: >
-      We often expect that the flashiest features would attract the most developer interest. Things like AI-powered APIs, 3D/XR/AR, or device APIs. Yet year after year, what rises to the top is anything but fancy. Almost… mundane: Dropdowns. Comboboxes. Popovers. Dialogs. Form validation. Loading and saving files. Templating. Safely displaying user-generated content. Icons.
-
-      ### Making APIs Usable
-
-      “But — many of these already exist!” you might object. They do — but when built-in UI can’t be customized or styled, it is effectively unusable. Developers are forced to recreate it anyway.
+      I don't know about you, but it feels like things are _happening_ in the base layer of the web. 
 
 
-      Once that penny drops, it explains most of the survey results. It explains why **Customizable Select** topped the charts. Why low-level primitives like popovers and invokers are so well-received. Why **SVG** and **drawing HTML on canvas** ranked far above AR/VR. Even why **extending built-in elements** emerged as such a major Web Components pain point.
+      ### New Capabilities
 
 
-      After all: how many times can you rebuild a button or dropdown before losing your mind? And how confident are you that you got it right?
+      Browsers are trialing new elements that let users grant  permissions (e.g. for using the camera) without requiring JavaScript. We're _so close_ to finally getting customizable select in all browsers, and other new form capabilities are cropping up: color, switch, `showPicker()` and perhaps even a new `rangegroup` element. And features like `<dialog>`, `<details>`, and the `popover` attribute are all making all our lives easier right now. 
 
 
-      As a result, building professional interactive UIs still requires cobbling together numerous third-party solutions, even for things that are routine in proprietary platforms.
-
-      ### Lagging Change
-
-      This finding is not new. In [the first State of HTML](https://2023.stateofhtml.com/), we already saw how critical styling and customization were, especially around forms. This year’s deeper analysis confirms it hasn’t changed — in fact, the signal is louder.
+      What makes a lot of these APIs so great to use is their declarative nature. Why make yourself responsible for a click handler when `command="show-modal" commandfor="dialog"` is much less code, and handles so much more? Looking at the survey results, many of us agree. Overwhelmingly the content and HTML element-related APIs get the most love. 
 
 
-      But things *have* changed for the better! Features that were being discussed in 2023 have now shipped in major browsers. Others that were impractical back then—like the **Popover API**—are now universally supported.
+      Something else that's become apparent this year is that the “base layer” of the web doesn't have to mean the user-facing web. Features like speculation rules (declarative JSON), declarative WebMCP and even the `loading` and `fetchpriority` attributes can help the user agent make better decisions around data loading and interactions, and if done well, the user shouldn't even notice them. 
 
 
-      And yet, Popover still tops browser support complaints. Why? While the pace of implementation has accelerated, collective perception lags behind. It now takes longer for developers to trust support than for browsers to ship it!
-
-      ### The Impact of LLMs
-
-      The rise of AI-generated code is a contributing factor. LLMs are surprisingly well-versed in modern web platform features, and *could* have helped move the community forwards, but are overly conservative in what they recommend. In practice, this may even be *slowing* adoption! How to fix this at scale remains an open question. Meanwhile, explicit browser support instructions do help, and who knows, if enough devs do this, the problem may even fix itself.
-
-      ### Looking Ahead
-
-      Looking ahead, the future looks bright. Many of the pain points highlighted are actively being worked on, and in some cases already shipping. Even extensible built-ins, previously considered a dead end, is seeing potential progress through the early stage work around custom attributes. 
+      ### Lingering Frustrations
 
 
-      All these primitives point in the same direction: a web platform that is steadily becoming more flexible, more expressive, and more aligned with how developers actually build UIs.
+      On the other hand, a bunch of features just don't seem like they're gaining that much traction with developers. Take `datalist`. The fancy suggestion box isn't something you can depend on even if it _feels_ like using it gives you "select with a search box". And things like WebUSB or SpeechRecognition are fun APIs, but their use cases are limited. And what about `<model>`? A whole element just to show static 3D model files? 
 
 
-      Progress on the Web is rarely dramatic, but it is cumulative. Each new primitive reduces the need for workarounds, libraries, and fragile hacks. And when those fundamentals fall into place, the impact will be felt everywhere.
+      And of course, browser differences remain an evergreen source of frustration, but it sure looks like the problem has shifted from browsers doing things differently to browsers simply not having caught up yet. 
+
+
+      This year in particular it seems that how mobile OSes and their UI choices impact the web is the main sore spot. Mobile operating systems are comparatively immature: will we look back in another decade and consider this period to be similar to the early days of Firefox vs. IE?
+
+
+      ### The Accessibility Story
+
+
+      It's also very heartening to see that accessibility is a top concern for survey respondents. And for good reason. You can't have good accessibility without good HTML, or good HTML without accessibility. They're not the same, but they're intertwined. 
+
+
+      Accessibility is multi-faceted and that makes it hard for developers to know if they're doing the right thing for _all_ users–and browsers have a role to play here to make figuring this out easier. 
+
+
+      *Editor's note: check out Kilian's very own [Polypane](https://polypane.app/) for a browser that does just that!*
+
+
+      ### What's Next?
+
+
+      What is left on our actual wishlist? After customizable select finally lands, we'll want to customize everything form-related (let's agree to start with `datalist`, yeah?). 
+
+
+      What about HTML includes? Over at [OpenUI](https://www.openui.com/), work is underway on things like tabs and `focusgroup`. Are app-like components now standard enough to become, well, standardized? Or will we shift to wanting HTML to take on more non-user-facing capabilities? Time will tell.
+
+
+      Looking back at what Dr. Lea Verou [wrote last year](https://2025.stateofhtml.com/en-US/conclusion/), it seems that even though there haven't been huge leaps, we're definitely moving in the right direction as far as us devs are concerned. 
+
+
+      Major pain points are simply gone with the broad support for `dialog` and `popover`, and customizable select will do the same for many a UI. HTML is the base layer of the web, so maybe it's not a bad thing to have it move more slowly and more deliberately. Our industry might be in turmoil, but I think our foundation is in good shape.
 
   - key: about.content.html2026
     t: |
