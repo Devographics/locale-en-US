@@ -1659,7 +1659,7 @@ translations:
   # ai_browser_apis
 
   - key: other_tools.ai_browser_apis
-    t: Browser APIs
+    t: Browser AI APIs
     aliases:
       - tools.ai_browser_apis
       - usage.ai_browser_apis

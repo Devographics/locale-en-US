@@ -119,13 +119,7 @@ translations:
 
   - key: features.all_features.takeaway.html2026
     t: >
-      It's worth highlighting the `datalist` element, which saw a big year-over-year usage increase, going from **30%** to **44%**.
-
-
-      That being said, while it was last-year's most-loved feature, it fell 18 places this time around in terms of sentiment. 
-
-
-      Respondent comments mention difficulties around styling, accessibility, and browser bugs, pointing to a post-release follow-through that didn't quite meet developer expectations–and showing once again that as a feature gets more usage, criticisms often also increase accordingly.
+      This table now supports filtering by [Baseline](https://web.dev/baseline) status, which is a handy way to see at a glance which features are now ready to use across all major browsers.
 
   - key: features.features_ratios_over_time.takeaway.html2026
     t: >
