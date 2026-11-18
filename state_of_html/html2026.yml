@@ -279,7 +279,7 @@ translations:
       ### New Capabilities
 
 
-      Browsers are trialing new elements that let users grant  permissions (e.g. for using the camera) without requiring JavaScript. We're _so close_ to finally getting customizable select in all browsers, and other new form capabilities are cropping up: color, switch, `showPicker()` and perhaps even a new `rangegroup` element. And features like `<dialog>`, `<details>`, and the `popover` attribute are all making all our lives easier right now. 
+      Browsers are trialing new elements that let users grant  permissions (e.g. for using the camera) without requiring JavaScript. We're _so close_ to finally getting customizable select in all browsers, and other new form capabilities are cropping up: color, switch, `showPicker()` and perhaps even a new `rangegroup` element. Features like `<dialog>`, `<details>`, and the `popover` attribute are making all our lives easier right now. 
 
 
       What makes a lot of these APIs so great to use is their declarative nature. Why make yourself responsible for a click handler when `command="show-modal" commandfor="dialog"` is much less code, and handles so much more? Looking at the survey results, many of us agree. Overwhelmingly the content and HTML element-related APIs get the most love. 
@@ -291,10 +291,10 @@ translations:
       ### Lingering Frustrations
 
 
-      On the other hand, a bunch of features just don't seem like they're gaining that much traction with developers. Take `datalist`. The fancy suggestion box isn't something you can depend on even if it _feels_ like using it gives you "select with a search box". And things like WebUSB or SpeechRecognition are fun APIs, but their use cases are limited. And what about `<model>`? A whole element just to show static 3D model files? 
+      On the other hand, a bunch of features just don't seem like they're gaining that much traction with developers. Take `datalist`. The fancy suggestion box isn't something you can depend on even if it _feels_ like using it gives you "select with a search box" and so we ignore it. Things like WebUSB or SpeechRecognition are fun APIs, but their use cases are limited. And what about `<model>`? A whole element just to show static 3D model files? 
 
 
-      And of course, browser differences remain an evergreen source of frustration, but it sure looks like the problem has shifted from browsers doing things differently to browsers simply not having caught up yet. 
+     Browser differences remain an evergreen source of frustration, but it sure looks like the problem has shifted from browsers doing things differently to browsers simply not having caught up yet. 
 
 
       This year in particular it seems that how mobile OSes and their UI choices impact the web is the main sore spot. Mobile operating systems are comparatively immature: will we look back in another decade and consider this period to be similar to the early days of Firefox vs. IE?
@@ -303,7 +303,7 @@ translations:
       ### The Accessibility Story
 
 
-      It's also very heartening to see that accessibility is a top concern for survey respondents. And for good reason. You can't have good accessibility without good HTML, or good HTML without accessibility. They're not the same, but they're intertwined. 
+      It's very heartening to see that accessibility is a top concern for survey respondents. And for good reason. You can't have good accessibility without good HTML, or good HTML without accessibility. They're not the same, but they're intertwined. 
 
 
       Accessibility is multi-faceted and that makes it hard for developers to know if they're doing the right thing for _all_ users–and browsers have a role to play here to make figuring this out easier. 
@@ -318,13 +318,13 @@ translations:
       What is left on our actual wishlist? After customizable select finally lands, we'll want to customize everything form-related (let's agree to start with `datalist`, yeah?). 
 
 
-      What about HTML includes? Over at [OpenUI](https://www.openui.com/), work is underway on things like tabs and `focusgroup`. Are app-like components now standard enough to become, well, standardized? Or will we shift to wanting HTML to take on more non-user-facing capabilities? Time will tell.
+     HTML includes are another feature that is high on many of our lists. Over at [OpenUI](https://www.openui.com/), work is underway on things like tabs and `focusgroup`. Are app-like components now standard enough to become, well, standardized? Or will we shift to HTML needing to take on more non-user-facing capabilities? Time will tell.
 
 
-      Looking back at what Dr. Lea Verou [wrote last year](https://2025.stateofhtml.com/en-US/conclusion/), it seems that even though there haven't been huge leaps, we're definitely moving in the right direction as far as us devs are concerned. 
+      Looking back at what Dr. Lea Verou [wrote last year](https://2025.stateofhtml.com/en-US/conclusion/), it seems that even though there haven't been huge leaps, the platform is definitely moving in the right direction as far as us devs are concerned. 
 
 
-      Major pain points are simply gone with the broad support for `dialog` and `popover`, and customizable select will do the same for many a UI. HTML is the base layer of the web, so maybe it's not a bad thing to have it move more slowly and more deliberately. Our industry might be in turmoil, but I think our foundation is in good shape.
+      Major pain points are simply gone with the broad support for `dialog` and `popover`, and customizable select will soon do the same for many a UI. HTML is the base layer of the web, so maybe it's not a bad thing to have it move more slowly and more deliberately. Our industry might be in turmoil, but I think our foundation is in good shape.
 
   - key: about.content.html2026
     t: |
