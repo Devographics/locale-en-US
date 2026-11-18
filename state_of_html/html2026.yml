@@ -294,7 +294,7 @@ translations:
       On the other hand, a bunch of features just don't seem like they're gaining that much traction with developers. Take `datalist`. The fancy suggestion box isn't something you can depend on even if it _feels_ like using it gives you "select with a search box" and so we ignore it. Things like WebUSB or SpeechRecognition are fun APIs, but their use cases are limited. And what about `<model>`? A whole element just to show static 3D model files? 
 
 
-     Browser differences remain an evergreen source of frustration, but it sure looks like the problem has shifted from browsers doing things differently to browsers simply not having caught up yet. 
+      Browser differences remain an evergreen source of frustration, but it sure looks like the problem has shifted from browsers doing things differently to browsers simply not having caught up yet. 
 
 
       This year in particular it seems that how mobile OSes and their UI choices impact the web is the main sore spot. Mobile operating systems are comparatively immature: will we look back in another decade and consider this period to be similar to the early days of Firefox vs. IE?
@@ -318,7 +318,7 @@ translations:
       What is left on our actual wishlist? After customizable select finally lands, we'll want to customize everything form-related (let's agree to start with `datalist`, yeah?). 
 
 
-     HTML includes are another feature that is high on many of our lists. Over at [OpenUI](https://www.openui.com/), work is underway on things like tabs and `focusgroup`. Are app-like components now standard enough to become, well, standardized? Or will we shift to HTML needing to take on more non-user-facing capabilities? Time will tell.
+      HTML includes are another feature that is high on many of our lists. Over at [OpenUI](https://www.openui.com/), work is underway on things like tabs and `focusgroup`. Are app-like components now standard enough to become, well, standardized? Or will we shift to HTML needing to take on more non-user-facing capabilities? Time will tell.
 
 
       Looking back at what Dr. Lea Verou [wrote last year](https://2025.stateofhtml.com/en-US/conclusion/), it seems that even though there haven't been huge leaps, the platform is definitely moving in the right direction as far as us devs are concerned. 
