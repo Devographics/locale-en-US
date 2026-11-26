@@ -1,0 +1,427 @@
+locale: en-US
+translations:
+  - 
+    ###########################################################################
+    #General
+    ###########################################################################
+    key: general.results.description
+    t: The 2022 edition of the annual survey about the latest trends in the GraphQL ecosystem.
+  - 
+    key: general.livestream_announcement
+    t: Make sure to tune in for our [special survey results livestream](https://dev.to/sachagreif/state-of-javascript-2021-livestream-24a5) on February 22! (English)
+  - 
+    ###########################################################################
+    #Introduction
+    ###########################################################################
+    key: sections.introduction.description
+    t: >
+
+      <span class="first-letter">S</span>ince being originally created at Facebook in September 2015, many developers have embraced GraphQL as a new and promising way to build APIs.
+
+      Yet 7 years later, a lot of questions still remain: when do you need GraphQL exactly? Should you hand-code your GraphQL API or generate it from your database? And will it ever replace REST?
+
+      To answer these questions and many more, we've created the first ever **State of GraphQL** community survey. Over 3,000 developers took part this year, and this is just the beginning.
+
+      We hope you enjoy browsing the data, and make sure to check out our [GraphQL API](https://graphiql.devographics.com/) as well!
+
+      <span class="conclusion__byline">– Sacha Greif</span>
+  - 
+    ###########################################################################
+    #Tshirt
+    ###########################################################################
+    key: sections.tshirt.title
+    t: T-shirt
+  - 
+    key: sections.tshirt.description
+    t: |
+      ## Support the Survey With the State of JavaScript T-Shirt
+
+      Between the bad video quality, the bulky cassettes, and having to rewind, there's not much to miss about the VHS era. But one thing we *do* miss are the amazing 90s visuals that used to adorn blank VHS tapes.
+
+      But now, thanks to the talented Christopher Kirk-Nielsen you can enjoy all this retro radness while also celebrating your love for JavaScript at the same time!
+  - 
+    key: tshirt.about
+    t: About the T-shirt
+  - 
+    key: tshirt.description
+    t: |
+      We use a high-quality, super-soft tri-blend shirt with a slim fit printed by our partners at Cotton Bureau.
+  - 
+    key: tshirt.getit
+    t: Get It
+  - 
+    key: tshirt.price
+    t: USD $29 + shipping
+  - 
+    key: tshirt.designer.heading
+    t: About the Designer
+  - 
+    key: tshirt.designer.name
+    t: Christopher Kirk-Nielsen
+  - 
+    key: tshirt.designer.bio
+    t: |
+      Originally from France but now based in the United States, Chris is not just an amazing front-end developer, but also a talented illustrator who specializes in retro visuals. In fact, we encourage you to also check out his [other t-shirt designs](https://chriskirknielsen.com/designs)!
+  - 
+    ###########################################################################
+    #Sections
+    ###########################################################################
+    key: sections.user_info.description
+    t: |
+      **3,094** respondents took part in this year's survey.
+  - 
+    key: sections.features.description
+    t: |
+      GraphQL may be a simple concept at its core, but there are many features and patterns to consider when you dig below the surface.
+  - 
+    key: sections.libraries.description
+    t: |
+      The GraphQL ecosystem is surprisingly deep, with many competing libraries helping you set up your API.
+  - 
+    key: sections.tools_others.description
+    t: |
+      Picking the right tools to use in combination with GraphQL can make all the difference.
+  - 
+    key: sections.usage.description
+    t: |
+      We wanted to know not only how people use GraphQL, but also *why* they use it – as well as where GraphQL is still lacking…
+  - 
+    key: sections.resources.description
+    t: |
+      We're sure you'll discover at least one or two new people, podcasts, or blogs to follow!
+  - 
+    key: sections.opinions.description
+    t: |
+      Whether it's pain points that hold you back today, or missing features that you hope to use
+      tomorrow, this was your chance to vent and share your gripes with JavaScript!
+  - 
+    ###########################################################################
+    #Charts
+    ###########################################################################
+    key: options.features_categories.graphql_language
+    aliasFor: sections.graphql_language.title
+  - 
+    key: options.features_categories.directives
+    aliasFor: sections.directives.title
+  - 
+    key: options.features_categories.security_performance
+    aliasFor: sections.security_performance.title
+  - 
+    key: options.features_categories.other_features
+    aliasFor: sections.other_features.title
+  - 
+    key: blocks.tools_quadrant.description
+    t: |
+      This chart shows each technology's **satisfaction ratio** (or **interest ratio**) over its total **user count**.
+      It can be divided into four quadrants:
+
+        - **1**: Low usage, high satisfaction. Technologies worth keeping an eye on.
+
+        - **2**: High usage, high satisfaction. Safe technologies to adopt.
+
+        - **3**: Low usage, low satisfaction. Technologies that are harder to recommend currently.
+
+        - **4**: High usage, low satisfaction. Reassess these technologies if you're currently using them.
+  - 
+    ###########################################################################
+    #Notes
+    ###########################################################################
+    key: blocks.gender.note
+    t: |
+      If you're interested in learning more, we [wrote a blog post](https://dev.to/sachagreif/is-our-survey-biased-against-women-49oj) that addresses the survey's gender dynamics.
+  - 
+    key: blocks.currently_missing_from_css.note
+    t: |
+      You can explore the full dataset of answers to this question in [this side project](https://whatsmissingfromcss.com/).
+  - 
+    key: blocks.source.note
+    t: >
+
+      This chart aggregates a mix of referrers, URL parameters, and freeform answers.
+      - State of JS: the [State of JS](https://stateofjs.com) mailing list.
+      - State of CSS: the State of CSS mailing list; also matches `email`, `by email`, etc.
+      - Work: matches `work`, `colleagues`, `coworkers`, etc.
+  - 
+    ###########################################################################
+    #Awards
+    ###########################################################################
+    key: award.feature_adoption_delta_award.comment
+    t: With a **{value}** progression in 2021, the nullish coalescing operator (??) has quickly become an integral part of JavaScript.
+  - 
+    key: award.tool_usage_delta_award.comment
+    t: esbuild is barely two years old, but with a **{value}** progression over the last year it's already gaining ground.
+  - 
+    key: award.tool_satisfaction_award.comment
+    t: Vite takes the top spot with a sky-high **{value}** satisfaction ratio!
+  - 
+    key: award.tool_interest_award.comment
+    t: With a **{value}** interest ratio, Vite once again wins the gold!
+  - 
+    key: award.most_write_ins_award.comment
+    t: Many questions also accepted write-in answers, and with **{value}** mentions Elm was the most popular item overall.
+  - 
+    ###########################################################################
+    #Conclusion
+    ###########################################################################
+    key: sections.conclusion.description
+    t: |
+
+      <span class="first-line">JavaScript is in a tremendously better state today compared to 2016.</span>
+
+      Back when the first State of JS survey took place, only 21% of you used TypeScript compared to 69% today. Whereas we used to joke about a new front end framework releasing every day, **React** and **Vue** have now been dominant for 6 years running. And the percentage of people reporting that "JS is moving too fast" is down from 59% to 38%.
+
+      This is not to say that the language has stood still. The **Optional Chaining** and **Nullish Coalescing** APIs have rocketed up to be the most used new APIs in our survey, despite only being 2 years old. And more good things are on the way from TC39: you reported that date management is a top missing feature, and the Temporal API recently reached [Stage 3](https://github.com/tc39/proposal-temporal).
+
+      The tooling ecosystem is also seeing its own rapid evolution, and it's fair to say that 2021 has been the year of **Vite**. Vite not only debuted at 98% satisfaction, but usage is already at 30% in its first year on our survey, even eclipsing esbuild. Vite isn't alone in trying to improve the state of JavaScript build tools - 8 of the 12 tools we track today are less than two years old! And while **pnpm**, **Turborepo**, and **Nx** took the top spots in our first year tracking monorepo tooling, only 25% report being happy with the state of that category, showing that a lot of work remains to be done.
+
+      Also notable: many new entrants like **Deno**, **Rome**, **Astro**, **Remix**, and more are now supported by venture-backed companies, perhaps charting a viable alternative to the fragile open-source funding environment.
+
+      As the [Third Age of JavaScript](https://www.swyx.io/js-third-age/) enters its third year, the opportunities for aspiring open sourcerors and entrepreneurs continue to unfold, and I'm excited to see what the next couple years bring!
+  - 
+    key: conclusion.bio
+    t: Head of DX at Temporal
+  - 
+    ###########################################################################
+    #Picks
+    ###########################################################################
+    key: picks.my_pick
+    t: 'My 2022 Pick: '
+  - 
+    key: picks.intro
+    t: We asked members of the GraphQL community to share their “pick of the year”
+  - 
+    key: picks.jamie_barton.name
+    t: GraphQL Mesh
+  - 
+    key: picks.jamie_barton.bio
+    t: Full Stack Developer & Educator
+  - 
+    key: picks.jamie_barton.description
+    t: |
+      More and more people are looking for solutions to bridge the
+      gap between all of their services. Mesh lets you do that with GraphQL,
+      and non-GraphQL services.
+  - 
+    key: picks.tanmai_gopal.name
+    t: Streaming over GraphQL Subscriptions
+  - 
+    key: picks.tanmai_gopal.bio
+    t: CEO & co-founder at Hasura
+  - 
+    key: picks.tanmai_gopal.description
+    t: |
+      Modern APIs need to handle an increasing volume of data,
+      or fast-moving data that is a stream.
+      Could we use GraphQL subscriptions as a streaming API?
+  - 
+    key: picks.tim_suchanek.name
+    t: Benjie Gillam
+  - 
+    key: picks.tim_suchanek.bio
+    t: Software Engineer and Entrepreneur
+  - 
+    key: picks.tim_suchanek.description
+    t: |
+      Benjie is one of the main people pushing GraphQL forward.
+      His engagement in the WG, TSC, and various foundation initiatives is second to none.
+  - 
+    key: picks.shawn_wang.name
+    t: Supabase
+  - 
+    key: picks.shawn_wang.bio
+    t: Head of DX at Temporal
+  - 
+    key: picks.shawn_wang.description
+    t: |
+      Supabase is making Postgres accessible to more developers and showing
+      everyone how a small focused team can out-ship peers 10x their size.
+  - 
+    key: picks.sarah_drasner.name
+    t: Pawel Kozlowski
+  - 
+    key: picks.sarah_drasner.bio
+    t: Director of Engineering, Core Developer Web at Google
+  - 
+    key: picks.sarah_drasner.description
+    t: |
+      Pawel Kozlowski is the kind of developer who can be open-minded to different
+      approaches with humility and curiosity with the interest of improving things.
+  - 
+    key: picks.sara_vieira.name
+    t: Paul Henschel
+  - 
+    key: picks.sara_vieira.bio
+    t: International Agent of JS Bullshit
+  - 
+    key: picks.sara_vieira.description
+    t: |
+      Paul's work on animations and ReactThreeFiber
+      have made doing any kind of 3D work on the web way easier.
+  - 
+    key: picks.mark_erikson.name
+    t: Ryan Carniato
+  - 
+    key: picks.mark_erikson.bio
+    t: Redux Maintainer
+  - 
+    key: picks.mark_erikson.description
+    t: |
+      Ryan's reactive JS framework SolidJS hit 1.0,
+      and he wrote numerous articles analyzing advanced
+      JS framework implementation concepts.
+  - 
+    key: picks.miguel_angel_duran.name
+    t: Vite
+  - 
+    key: picks.miguel_angel_duran.bio
+    t: Front End Dev & Twitch Coding Streamer
+  - 
+    key: picks.miguel_angel_duran.description
+    t: |
+      In addition to esbuild and swc, fantastic tools pushing forward the ecosystem,
+      I'm enjoying Vite. It has a delightful DX, and it's rich in features.
+  - 
+    key: picks.alyssa_nicoll.name
+    t: BroccoDev's Twitch Stream
+  - 
+    key: picks.alyssa_nicoll.bio
+    t: Sr. Developer Advocate at Progress
+  - 
+    key: picks.alyssa_nicoll.description
+    t: |
+      Mike Brocchi recently started streaming to Twitch. He is a brilliant programmer,
+      developer, and most importantly teacher.
+      I always have a blast watching his streams and learning from him.
+  - 
+    key: picks.michael_jackson.name
+    t: esbuild
+  - 
+    key: picks.michael_jackson.bio
+    t: Co-founder of Remix
+  - 
+    key: picks.michael_jackson.description
+    t: |
+      We have been building the Remix compiler on top of esbuild and it
+      has definitely raised the bar as far as JS bundlers are concerned.
+      It's incredibly fast and the plugin API allows us to do pretty much anything we want.
+  - 
+    key: picks.david_khourshid.name
+    t: Remix
+  - 
+    key: picks.david_khourshid.bio
+    t: Pianist and founder of Stately
+  - 
+    key: picks.david_khourshid.description
+    t: |
+      Remix is a full-stack web framework that feels old-school, but in a good way,
+      by putting you on the path to create fast, complex, and accessible modern web apps.
+  - 
+    key: picks.kent_c_dodds.name
+    t: Fly.io
+  - 
+    key: picks.kent_c_dodds.bio
+    t: Director of Developer Experience, Remix
+  - 
+    key: picks.kent_c_dodds.description
+    t: |
+      Fly enabled me (a frontend engineer with a distain for DevOps)
+      to confidently deploy a real-world, globally-distributed, production-grade
+      app.
+  - 
+    key: picks.tejas_kumar.name
+    t: Joe Haddad
+  - 
+    key: picks.tejas_kumar.bio
+    t: Web Developer, Conference Speaker, and Director of DevRel at Xata
+  - 
+    key: picks.tejas_kumar.description
+    t: |
+      Joe works on Next.js at Vercel and is constantly looking to proudly
+      demonstrate its power while actively listening
+      to feedback from the community to support them better.
+  - 
+    key: picks.wes_bos.name
+    t: TC39 Proposals
+  - 
+    key: picks.wes_bos.bio
+    t: JavaScript Teacher & Podcast Host
+  - 
+    key: picks.wes_bos.description
+    t: |
+      A Git repo full of all the things that have been proposed to be added to JavaScript. It's really fun to read through all the ideas people have for the language and see them go through the stages.
+  - 
+    key: picks.scott_tolinkski.name
+    t: SvelteKit
+  - 
+    key: picks.scott_tolinkski.bio
+    t: Creator of Level-Up Tuts, co-host of Syntax
+  - 
+    key: picks.scott_tolinkski.description
+    t: |
+      Svelte Kit provides the amazing developer experience of Svelte with all
+      of the modern features of expected from a web platform.
+  - 
+    key: picks.xxxx.name
+    t:
+  - 
+    key: picks.xxxx.bio
+    t:
+  - 
+    key: picks.xxxx.description
+    t: |
+
+  - 
+    ###########################################################################
+    #Sponsors
+    ###########################################################################
+    key: partners.frontendmasters.description
+    t: Advance your skills with in-depth, modern front-end engineering courses.
+  - 
+    key: partners.polypane.description
+    t: The browser for ambitious devs. Build responsive, accessible and fast websites with ease.
+  - 
+    key: partners.google_chrome.description
+    t: Thanks to the Google Chrome team for supporting our work.
+  - 
+    ###########################################################################
+    #FAQ/About
+    ###########################################################################
+    key: about.content
+    t: >
+      The 2021 State of JS survey ran from January 13 to February 2 **2022**, and collected 16,085 responses. The survey is run by me, [Sacha Greif](https://sachagreif.com/), with help from a team of open-source contributors and consultants.
+      This year's logo and t-shirt were designed by [Christopher Kirk-Nielsen](http://chriskirknielsen.com/).
+      ### Survey Goals
+      This survey, along with the [State of CSS](https://stateofcss.com/) survey, was created to identify upcoming trends in the web development ecosystem in order to help developers make technological choices.
+      As such, these surveys are focused on anticipating what's coming over the next few years rather than analyzing what's popular now, which is why the features or technologies that are currently most widespread are not always included.
+      They should also be taken as a **snapshot of a specific subset of developers**, and are not meant to speak for the entire ecosystem.
+      ### Survey Design
+      The survey was designed in part based on last year's survey, with an open feedback period where the survey outline was discussed [on GitHub](https://github.com/StateOfJS/Monorepo/issues/56).
+      All survey questions were optional.
+      ### Survey Audience
+      The survey was openly accessible online and respondents were not filtered or selected in any way. Respondents were primarily a mix of respondents from past surveys (alerted through a dedicated mailing list) and social media traffic.
+      Note that frameworks, libraries, etc. were free to encourage their audience to participate in the survey and some of them did take advantage of this via banners, tweets, etc. A detailed breakdown of traffic sources is included in the "Sources" chart.
+      ### Representativeness & Inclusivity
+      While we believe it's important to give a voice to every community, the reality is that an open survey like this one will always struggle to properly represent everybody, especially when operating through systems that already carry their own inherent biases.
+
+      In order to counter-balance this, we are implementing three distinct strategies:
+
+      - **Outreach**: we always try to reach out to different organizations (such as BIPOC- or LGBTQ-focused organizations, or online teaching platforms) to try and diversify our own audience.
+      - **Data Analysis**: through features like facets and variants, we're always trying to make it easier to surface the voices of any demographic segment, no matter how minoritized it might be in our data.
+      - **Barrier Lowering**: making the survey too long, inaccessible, slow to load, English-only, etc. can all contribute to imposing an "effort tax" that cuts off the parts of the community that can't afford to pay it. Fixing these issues can lower the barrier to entry and in the process make our audience more diverse.
+      ### Project Funding
+      Funding from this project comes from a variety of sources:
+
+      - **T-shirt sales**.
+      - **Chart Sponsorships**: members of the community can donate to the survey in exchange for having their name featured in the report.
+      - **Sponsored links**: the links to recommended resources at the bottom of each page are provided by our partner [Frontend Masters](https://frontendmasters.com/).
+      - **Other Funding**: this year, the [Google Chrome](https://www.google.com/chrome/) team set aside a small budget to help hire an [accessibility consultant](https://fossheim.io/) to work on the CSS and JS surveys.
+
+      Despite these funding sources, the surveys remains mostly a self-funded project overall and any contribution or sponsorship would be greatly appreciated. I would especially like to work closely with more browser vendors, since they play such a central role in the web ecosystem.
+      ### Technical Overview
+      You can find a more in-depth technical overview of how the surveys are run [here](https://dev.to/sachagreif/how-the-state-of-js-css-surveys-are-run-4lnb).
+      - **Data collection**: custom [Vulcan.js](http://vulcanjs.org/) app.
+      - **Data storage/processing**: MongoDB & MongoDB Aggregations.
+      - **Data API**: Node.js GraphQL API.
+      - **Results Site**: [Gatsby](https://www.gatsbyjs.com/) React app.
+      - **Data Visualizations**: [Nivo](https://nivo.rocks/) React dataviz library.
+      - **Type**: [IBM Plex Mono](https://fonts.google.com/specimen/IBM+Plex+Mono) and [Bebas Neue](https://fonts.google.com/specimen/Bebas+Neue).

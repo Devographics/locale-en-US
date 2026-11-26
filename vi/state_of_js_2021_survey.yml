@@ -1,0 +1,26 @@
+---
+locale: en-US
+namespace: js
+translations:
+  - 
+    ###########################################################################
+    #General
+    ###########################################################################
+    key: general.survey_intro_js2021
+    t: >
+      First the 2020 Olympics got pushed back to 2021, and now the 2021 State of JavaScript survey is happening now, in 2022!
+
+      It's true: between work, family, and and all the turmoil in the world, some things got disrupted a little.
+
+      But while the year may be off-by-one, we hope the data provided by the survey itself will be just as informative and insightful as ever. And don't worry, there will be another survey towards the end of this year to set things straight again!
+  - 
+    ###########################################################################
+    #Survey
+    ###########################################################################
+    key: features.features_intro
+    t: >
+      Welcome to the survey! This first part is all about figuring out which **features** of the JavaScript language you know about. And if you know about something but haven't yet used it, that's fine too!
+  - 
+    key: tools.tools_intro
+    t: >
+      The next couple sections focus on the **libraries** and **frameworks** that make up the JavaScript ecosystem. Let us know what you're excited about!
