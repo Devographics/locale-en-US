@@ -941,15 +941,6 @@ translations:
     aliases:
       - other_tools.css_in_js.question
 
-  - key: tools_others.utilities
-    t: Utilities
-    aliases:
-      - other_tools.utilities
-  - key: tools_others.utilities.question
-    t: Which utilities or tools do you regularly use?
-    aliases:
-      - other_tools.utilities.question
-
   - key: tools_others.browsers
     t: Browsers
     aliases:

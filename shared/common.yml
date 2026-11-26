@@ -90,6 +90,8 @@ translations:
     t: Translation Help
   - key: general.newly_added
     t: Newly added to the survey this year
+  - key: general.newly_added.predefined_option
+    t: Newly added as a predefined option this year
   - key: general.new
     t: New
   - key: general.devographics_banner
@@ -381,6 +383,7 @@ translations:
       - options.ai_generated_code_balance.1
       - options.css_ai_generated_code_balance.1
       - options.html_css_js_balance.1
+      - options.ai_impact_learning.1
   - key: options.0_100_scale.2
     t: 25%
     aliases:
@@ -388,6 +391,7 @@ translations:
       - options.ai_generated_code_balance.2
       - options.css_ai_generated_code_balance.2
       - options.html_css_js_balance.2
+      - options.ai_impact_learning.2
   - key: options.0_100_scale.3
     t: 37.5%
     aliases:
@@ -395,6 +399,7 @@ translations:
       - options.ai_generated_code_balance.3
       - options.css_ai_generated_code_balance.3
       - options.html_css_js_balance.3
+      - options.ai_impact_learning.3
   - key: options.0_100_scale.4
     t: 50%
     aliases:
@@ -402,6 +407,7 @@ translations:
       - options.ai_generated_code_balance.4
       - options.css_ai_generated_code_balance.4
       - options.html_css_js_balance.4
+      - options.ai_impact_learning.4
   - key: options.0_100_scale.5
     t: 62.5%
     aliases:
@@ -409,6 +415,7 @@ translations:
       - options.ai_generated_code_balance.5
       - options.css_ai_generated_code_balance.5
       - options.html_css_js_balance.5
+      - options.ai_impact_learning.5
   - key: options.0_100_scale.6
     t: 75%
     aliases:
@@ -416,6 +423,7 @@ translations:
       - options.ai_generated_code_balance.6
       - options.css_ai_generated_code_balance.6
       - options.html_css_js_balance.6
+      - options.ai_impact_learning.6
   - key: options.0_100_scale.7
     t: 87.5%
     aliases:
@@ -423,6 +431,7 @@ translations:
       - options.ai_generated_code_balance.7
       - options.css_ai_generated_code_balance.7
       - options.html_css_js_balance.7
+      - options.ai_impact_learning.7
   - key: options.0_100_scale.8
     t: 100%
     aliases:
@@ -1327,6 +1336,17 @@ translations:
     t: Semantic markup
   - key: options.accessibility_features.aria_attributes
     t: ARIA HTML attributes
+
+  # utilities
+
+  - key: tools_others.utilities
+    t: Utilities
+    aliases:
+      - other_tools.utilities
+  - key: tools_others.utilities.question
+    t: Which utilities or tools do you regularly use?
+    aliases:
+      - other_tools.utilities.question
 
   # learning methods
   - key: options.first_steps.na

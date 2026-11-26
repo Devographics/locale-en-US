@@ -1239,8 +1239,12 @@ translations:
 
   - key: tools.web_components_js_usage
     t: Web Components
+    aliases:
+      - other_tools.web_components_js_usage
   - key: tools.web_components_js_usage.question
     t: How do you use Web Components?
+    aliases:
+      - other_tools.web_components_js_usage.question
 
   - key: options.web_components_js_usage.third_party
     t: I use Web Components developed by others

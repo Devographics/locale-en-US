@@ -107,46 +107,52 @@ translations:
 
   - key: features.js_new_features.takeaway.js2026
     t: >
-      While **Temporal** still tops the rankings, excitement is down from last year, which makes sense as it has begun its transition from theoretical proposal to actually being implemented in Firefox.
+      After a slight dip in excitement last year, **Temporal** is once again generating interest as it nears availaibility in all four major browsers. 
+
+
+      Meanwhile, **Signals** and the **Pipe Operator**'s many write-in submissions last time around got them promoted to regular survey options this year, which shot them straight to the top of the rankings.
 
   - key: features.top_currently_missing_from_js.takeaway.js2026
     t: >
-      No change in ranking in the top 5, but it's notable to see that interest in **Signals** did drop slightly compared to last year.
+      This year, the term “JavaScript” in this question was changed to “JavaScript/TypeScript” to better reflect the fact that many of us now default to the typed version of the language. 
 
-  - key: features.native_types_proposal.takeaway.js2026
-    t: >
-      While 32% of respondents are hoping for in-browser **runtime types** support in JavaScript, if types are ever officially supported it seems much more likely to be through **TypeScript-like type annotations**, which came in at number one.
 
-  - key: features.js_pace_of_change.takeaway.js2026
+      This slight wording tweak might be the reason why **Static Typing** lost the top spot for the first time in four years… Or maybe developers are so used to the new state of things that we don't even think of types as a missing feature anymore!
+
+  - key: features.language_pain_points.takeaway.js2026
     t: >
-      This question's aim was to get a rough idea of how well respondents are keeping up with new features, and it shows that most of us struggle to learn about–let alone try out–new language features Hopefully this is something these survey results can help with!
+      TODO
 
   - key: features.reading_list.takeaway.js2026
     t: >
-      The **Reading List** lets respondents learn more about specific items post-survey, and this year we tweaked it to support auto-adding items based on survey answers, in addition to letting respondents select items manually.
-
-      This change led to a much more library-focused list, compared to previous years which included more features.
+      The **Reading List** lets respondents select specific items to learn more about them post-survey, and this year people really want to catch up on **TanStack Start** and **Solid**!
 
   - key: libraries.all_tools_experience.takeaway.js2026
     t: >
-      **Vite** has been the most-loved library for a few years now, but it has now overtaken **React** to also become the #2 most-used item, and seems ready to take the top spot next year. 
+      Typically, as projects gain market share they need to meet the demands of a more diverse set of users, which then leads to more complexity and an overall worse developer experience. **Vite** though somehow bucks that trend, and for the first time ever is  both the most-used *and* most-loved library!
 
 
       Meanwhile, while **Next.js** is the 13th most-loved project, it's also the 5th most-hated, and generated the most comments overall–which goes to show just how polarizing the framework can be.
 
   - key: libraries.tools_arrows.takeaway.js2026
     t: >
-      JavaScript libraries commonly display a "boomerang" pattern over time: boosted by early positivity (line goes right), usage increases (line shoots up), but users then get confronted with more edge cases and real-world issues, and opinions can become more negative (line veers left).
+      Comparing **Webpack** and **Vite**'s trajectories tells a compelling story. 6 years ago, Webpack had already reached Vite's current market penetration. But ever since, while it has maintained its usage percentage, its opinions have just gotten more and more negative. 
 
 
-      This means any project that moves to the right (such as **Vue.js**) or even just stays vertical (such as **Astro**) is worth paying attention to!
+      Now that it's finally Vite's turn at the top, will it be able to maintain a positive sentiment over the next few years? Or will it too eventually fall victim to the same trap?
 
   - key: libraries.tier_list.takeaway.js2026
     t: >
-      By having a satisfaction ratio above 90%, **Hono** and **Bun** make a well-deserved entrance into the S-tier this year.
+      The tier list chart shows item's satisfaction ratio (positivity among actual users) for projects used by 10% or more of survey respondents. 
+
+
+      The fact that we have no fewer than 5 projects scoring a perfect 100% is a testament to the hard work of their maintainers and community!
 
   - key: libraries.tools_ratios_over_time.takeaway.js2026
     t: >
+
+      TODO 
+
       The prize for largest relative usage increase goes to **Vitest** and **Playwright**, which both gained **14** percentage points year-over-year. 
 
 
@@ -157,6 +163,8 @@ translations:
 
   - key: libraries.scatterplot_overview.takeaway.js2026
     t: >
+      TODO
+
       With this year's inclusion of back-end frameworks, **Express** has joined **Vite**, **React**, and **Jest** in the coveted top-right quadrant. But **Vue.js**, **Storybook**, and **Vitest** are not far behind!
 
   # front_end_frameworks
@@ -305,31 +313,31 @@ translations:
 
   - key: other_tools.libraries.takeaway.js2026
     t: >
-      **Zod** saw a lot of growth year-over-year. And since many of the libraries featured here focus on date management, it'll be interesting to see how this chart evovles as **Temporal** becomes better-supported across browsers.
+      **Zod** is still growing, and is especially popular among **Next.js**, **Hono**, and **Mock Service Worker** users.
 
   - key: other_tools.graphics_animation.takeaway.js2026
     t: >
-      **Chart.js** was a write-in result last year, and being included as an official option this survey rocketed it all the way up to first place.
+      Lower-level libraries like **Three.js** and **D3** are seeing some growth that could very well be fueled by the fact that AI agents make it easier than ever to use them.
 
   - key: other_tools.utilities.takeaway.js2026
     t: >
-      Every self-respecting JavaScript developer these days seems to be using **ESLint** and **Prettier**.
+      New entrants **Oxlint** and **Oxfmt** are gaining a lot of ground, and definitely worth keeping an eye on.
 
   - key: other_tools.runtimes.takeaway.js2026
     t: >
-      **Node.js** and browsers taking the top spots isn't a big shock, but **Bun**'s third place is a nice sign of the project's growth.
+      While **Bun** is still doing fine, **Deno** sadly seems to be fading away, which makes sense given [the news of its imminent shutdown](https://deno.com/blog/cloudflare).
 
   - key: other_tools.hosting.takeaway.js2026
     t: >
-      Despite the company's sometimes-polarizing reputation, **Vercel** has done a pretty amazing job of establishing itself as a serious hosting option, second only to **AWS**.
+      **Cloudflare** has been on a run lately, acquiring Astro, VoidZero, and Deno in a matter of months. As a result it's now very close to contesting **AWS**'s long-held top spot.
 
   - key: other_tools.edge_runtimes.takeaway.js2026
     t: >
-      While **Cloudflare** was fifth in the hosting chart, it ranks just below **AWS Lambda** here, making it a serious contender in both spaces.
+      **Cloudflare Workers** have become the dominant edge runtime, with almost every other serverless environment losing ground year-over-year.
 
   - key: other_tools.text_editors.takeaway.js2026
     t: >
-      **VS Code** has long dominated the text editor ranks, but **Cursor** has somehow managed to outpace every other competitor thanks to its promise of AI-powered coding.
+      **Zed** has surged to challenge **VS Code**'s long-held dominance, while **Cursor** has seen a big post-acquisition drop despite being one of the first AI-native text editors.
 
   - key: other_tools.mobile_desktop.takeaway.js2026
     t: >
@@ -339,84 +347,67 @@ translations:
     t: >
       **pnpm** is the clear leader in the monorepo category.
 
-  - key: other_tools.non_js_languages.takeaway.js2026
+  - key: other_tools.web_components_js_usage.takeaway.js2026
     t: >
-      When we're not writing JavaScript, most of us turn to **Python** and **PHP**.
+      As seen in the [State of HTML survey](https://2026.stateofhtml.com/en-US/features/web_components/#web_components_pain_points), web components have yet to attain widespread adoption.
 
-  - key: other_tools.non_js_languages_features_top_features.takeaway.js2026
+
+      And while one might've assumed that agentic coding would remove the barrier to entry and make it easier to take advantage of the technology, it turns out that usage remains quite niche.
+
+  # ai
+
+  - key: ai_usage.ai_tools_usage.takeaway.js2026
     t: >
-      This year we also asked respondents which *features* they would like to see adopted in JavaScript, while also specifying the language that feature came from.
+      **Claude** and especially **Claude Code** have left competitors in the dust, with Claude Code having close to three times more users than OpenAI's **Codex**.
 
-
-      The second tab shows which languages appeared most frequently. And while **Rust** was only the 7th-most used language in the previous “Non-JavaScript Languages” chart, it came in first here, a testament to its outsized influenced on the JavaScript ecosystem.
-
-  # usage
-
-  - key: usage.js_ts_balance.takeaway.js2026
+  - key: ai_usage.ai_generated_code_balance.takeaway.js2026
     t: >
-      The proportion of developers who write the entirety of their code in TypeScript keeps increasing, and may soon represent a majority of respondents.
+      When we asked this same question just one year ago, respondents were producing a median of 25% of their code through AI-assisted means. Today, that ratio has flipped and the median now stands at 75%, a shockingly drastic change in such a short time.
 
-  - key: usage.compiled_code_balance.takeaway.js2026
+  - key: ai_usage.ai_impact_learning.takeaway.js2026
     t: >
-      A natural consequence of writing typed code (at least today) is depending on a build step, which is the case for the vast majority of us.
+      While AI has taken over a lot of our work, it seems like  human-produced content might still be able to coexist with LLM-based instruction, at least for now.
 
-  - key: usage.build_step_advantages.takeaway.js2026
+  - key: ai_usage.ai_impact_on_js_ecosystem.takeaway.js2026
     t: >
-      If we *did* want to envision a build-less future, the first step would no doubt be native type support in JavaScript.
+      While AI adoption is increasing at an unprecedented rate, AI users still have their own doubts about the technology, as seen by the fact that opinions were pretty split about the nature of its impact on the JavaScript ecosystem.
 
-  - key: usage.ai_generated_code_balance.takeaway.js2026
+  - key: ai_usage.ai_mental_state_spectrum.takeaway.js2026
     t: >
-      While respondents do not yet produce a majority of their code with AI, the balance is quickly shifting, with code being the result of AI output increasing from 20% to 29% year-over-year.
+      Similarly, AI's overall impact on developer mental state ends up being slightly negative, despite all the promised productivity increases.
 
-  - key: usage.what_do_you_use_js_for.takeaway.js2026
+  - key: ai_usage.ai_outlook.takeaway.js2026
     t: >
-      Despite the ever-growing number of use cases for JavaScript, front-end develeopment remains the most common reason to use the language for now.
-
-  - key: usage.industry_sector.takeaway.js2026
-    t: >
-      Given the survey's focus on upcoming trends and early-stage features, it makes sense that its largest audience block would be developers building tools and products for other programmers.
-
-  - key: usage.js_app_patterns.takeaway.js2026
-    t: >
-      Modern JavaScript frameworks may now support a whole range of various rendering modes, but it turns out the simplest ones remain the most popular to this day.
-
-  - key: usage.top_js_pain_points.takeaway.js2026
-    t: >
-      We now have pretty much all the tools we need; the challenge is to know how to use them right.
-
-  - key: usage.state_of_the_web_happiness.takeaway.js2026
-    t: >
-      Happiness is once again stable.
-
-  - key: usage.state_of_js_happiness.takeaway.js2026
-    t: >
-      Happiness levels remain constant once again.
+      TODO
 
   # resources
-
   - key: resources.courses.takeaway.js2026
     t: >
-      It's always interesting to see how independent developers such as **Wes Bos** and **Fireship** have managed to leverage their following into competing with much larger entities such as **Udemy** or **O'Reily**.
+      It's of course way too early to judge the impact of AI on the online learning market, but it's worth noticing that the “none” segment has overtaken **Udemy** for the first time this year.
 
   - key: resources.newsletters.takeaway.js2026
     t: >
-      Newsletters lack the built-in sharing mechanisms of social media, so growing them can be quite tough. This explains why incumbents that have been around for a long time such as **JavaScript Weekly** and **CSS-Tricks** are still at the top of the rankings.
+      Newsletters are showing surprising staying power in the face of all these disruptions, a testament to the format's resilience over the decades.
 
   - key: resources.podcasts.takeaway.js2026
     t: >
-      As the line between podcasts and video content becomes ever-blurrier, **Syntax** still maintains their spot as respondents' favorite programming-related audio source.
+      **Syntax** is still gaining percentage points even after many years at the top!
 
   - key: resources.video_creators.takeaway.js2026
     t: >
-      While these rankings can be very dependent on whether video creators shared the survey with their own audience or not, **Fireship**, **Theo**, and **The Primeagen** seem firmly entrenched as the top three figures of programming YouTube.
+      As always, this list is very dependent on which video creators shared the survey with their own audience. But **Kevin Powell**'s high ranking here shows you can still be successful even with more “traditional”, AI- and drama-free programming content.
 
   - key: resources.people.takeaway.js2026
     t: >
-      While **Midudev** has his own large video presence and other “famous” developers are associated with successful open-source projects, it's worth noting that **Josh Comeau**'s well-deserved success comes down almost entirely to the quality of his excellent blog, a throwback to a more old-school way of creating instructional content online.
+      **Josh Comeau** is still standing strong, proof that you can be popular in 2026 without a YouTube channel–provided you're as talented, knowledgeable, and all-around awesome as he is.
+
+  - key: resources.web_platform_resources.takeaway.js2026
+    t: >
+      There are many great resources to keep up with the web platform out there, and it's worth taking a few minutes out of your day to explore the lesser-known ones in this list!
 
   - key: resources.other_surveys.takeaway.js2026
     t: >
-      While filling out too many online surveys can do doubt lead to the dreaded “survey fatigue” (talk to your doctor!), when consumed in moderation they can still be a great tool to learn about the ecosystem.
+      Filling out more surveys is correlated with reading more newsletters, which definitely makes sense!
 
   ###########################################################################
   # Picks
